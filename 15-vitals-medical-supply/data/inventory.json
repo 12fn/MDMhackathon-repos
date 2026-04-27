@@ -1,0 +1,426 @@
+[
+  {
+    "site_id": "APRA-MED",
+    "product": "PRBC",
+    "units": 1099,
+    "expires_iso": "2026-05-15T20:24:09+00:00",
+    "cold_chain_status": "GREEN"
+  },
+  {
+    "site_id": "APRA-MED",
+    "product": "PLASMA",
+    "units": 852,
+    "expires_iso": "2026-06-01T20:24:09+00:00",
+    "cold_chain_status": "GREEN"
+  },
+  {
+    "site_id": "APRA-MED",
+    "product": "PLT",
+    "units": 73,
+    "expires_iso": "2026-04-30T20:24:09+00:00",
+    "cold_chain_status": "GREEN"
+  },
+  {
+    "site_id": "APRA-MED",
+    "product": "LTOWB",
+    "units": 339,
+    "expires_iso": "2026-05-02T20:24:09+00:00",
+    "cold_chain_status": "GREEN"
+  },
+  {
+    "site_id": "LHA-6",
+    "product": "PRBC",
+    "units": 25,
+    "expires_iso": "2026-05-21T20:24:09+00:00",
+    "cold_chain_status": "GREEN",
+    "daily_consumption": 8.6,
+    "days_of_supply": 2.9
+  },
+  {
+    "site_id": "LHA-6",
+    "product": "PLASMA",
+    "units": 22,
+    "expires_iso": "2027-04-08T20:24:09+00:00",
+    "cold_chain_status": "GREEN",
+    "daily_consumption": 6.6,
+    "days_of_supply": 3.3
+  },
+  {
+    "site_id": "LHA-6",
+    "product": "PLT",
+    "units": 14,
+    "expires_iso": "2026-05-02T20:24:09+00:00",
+    "cold_chain_status": "GREEN",
+    "daily_consumption": 4.3,
+    "days_of_supply": 3.3
+  },
+  {
+    "site_id": "LHA-6",
+    "product": "LTOWB",
+    "units": 14,
+    "expires_iso": "2026-05-05T20:24:09+00:00",
+    "cold_chain_status": "GREEN",
+    "daily_consumption": 7.1,
+    "days_of_supply": 2.0
+  },
+  {
+    "site_id": "LHD-1",
+    "product": "PRBC",
+    "units": 29,
+    "expires_iso": "2026-05-07T20:24:09+00:00",
+    "cold_chain_status": "AMBER",
+    "daily_consumption": 8.6,
+    "days_of_supply": 3.4
+  },
+  {
+    "site_id": "LHD-1",
+    "product": "PLASMA",
+    "units": 18,
+    "expires_iso": "2026-06-17T20:24:09+00:00",
+    "cold_chain_status": "AMBER",
+    "daily_consumption": 6.8,
+    "days_of_supply": 2.6
+  },
+  {
+    "site_id": "LHD-1",
+    "product": "PLT",
+    "units": 15,
+    "expires_iso": "2026-04-30T20:24:09+00:00",
+    "cold_chain_status": "AMBER",
+    "daily_consumption": 5.2,
+    "days_of_supply": 2.9
+  },
+  {
+    "site_id": "LHD-1",
+    "product": "LTOWB",
+    "units": 17,
+    "expires_iso": "2026-05-03T20:24:09+00:00",
+    "cold_chain_status": "AMBER",
+    "daily_consumption": 9.4,
+    "days_of_supply": 1.8
+  },
+  {
+    "site_id": "LPD-29",
+    "product": "PRBC",
+    "units": 16,
+    "expires_iso": "2026-05-15T20:24:09+00:00",
+    "cold_chain_status": "GREEN",
+    "daily_consumption": 11.6,
+    "days_of_supply": 1.4
+  },
+  {
+    "site_id": "LPD-29",
+    "product": "PLASMA",
+    "units": 22,
+    "expires_iso": "2026-07-09T20:24:09+00:00",
+    "cold_chain_status": "GREEN",
+    "daily_consumption": 7.2,
+    "days_of_supply": 3.1
+  },
+  {
+    "site_id": "LPD-29",
+    "product": "PLT",
+    "units": 9,
+    "expires_iso": "2026-04-28T20:24:09+00:00",
+    "cold_chain_status": "GREEN",
+    "daily_consumption": 5.7,
+    "days_of_supply": 1.6
+  },
+  {
+    "site_id": "LPD-29",
+    "product": "LTOWB",
+    "units": 14,
+    "expires_iso": "2026-04-30T20:24:09+00:00",
+    "cold_chain_status": "GREEN",
+    "daily_consumption": 9.8,
+    "days_of_supply": 1.4
+  },
+  {
+    "site_id": "MEU-31",
+    "product": "PRBC",
+    "units": 18,
+    "expires_iso": "2026-05-09T20:24:09+00:00",
+    "cold_chain_status": "GREEN",
+    "daily_consumption": 8.8,
+    "days_of_supply": 2.0
+  },
+  {
+    "site_id": "MEU-31",
+    "product": "PLASMA",
+    "units": 13,
+    "expires_iso": "2027-02-09T20:24:09+00:00",
+    "cold_chain_status": "GREEN",
+    "daily_consumption": 3.5,
+    "days_of_supply": 3.7
+  },
+  {
+    "site_id": "MEU-31",
+    "product": "PLT",
+    "units": 3,
+    "expires_iso": "2026-04-30T20:24:09+00:00",
+    "cold_chain_status": "GREEN",
+    "daily_consumption": 3.9,
+    "days_of_supply": 0.8
+  },
+  {
+    "site_id": "MEU-13",
+    "product": "PRBC",
+    "units": 21,
+    "expires_iso": "2026-04-29T20:24:09+00:00",
+    "cold_chain_status": "AMBER",
+    "daily_consumption": 6.0,
+    "days_of_supply": 3.5
+  },
+  {
+    "site_id": "MEU-13",
+    "product": "PLASMA",
+    "units": 13,
+    "expires_iso": "2026-06-10T20:24:09+00:00",
+    "cold_chain_status": "AMBER",
+    "daily_consumption": 5.3,
+    "days_of_supply": 2.5
+  },
+  {
+    "site_id": "MEU-13",
+    "product": "PLT",
+    "units": 5,
+    "expires_iso": "2026-04-29T20:24:09+00:00",
+    "cold_chain_status": "AMBER",
+    "daily_consumption": 3.9,
+    "days_of_supply": 1.3
+  },
+  {
+    "site_id": "EABO-PA",
+    "product": "PRBC",
+    "units": 6,
+    "expires_iso": "2026-04-29T20:24:09+00:00",
+    "cold_chain_status": "AMBER",
+    "daily_consumption": 3.0,
+    "days_of_supply": 2.0
+  },
+  {
+    "site_id": "EABO-PA",
+    "product": "PLASMA",
+    "units": 4,
+    "expires_iso": "2026-08-09T20:24:09+00:00",
+    "cold_chain_status": "AMBER",
+    "daily_consumption": 2.0,
+    "days_of_supply": 2.0
+  },
+  {
+    "site_id": "EABO-PA",
+    "product": "PLT",
+    "units": 5,
+    "expires_iso": "2026-04-28T20:24:09+00:00",
+    "cold_chain_status": "AMBER",
+    "daily_consumption": 1.1,
+    "days_of_supply": 4.5
+  },
+  {
+    "site_id": "EABO-PA",
+    "product": "LTOWB",
+    "units": 1,
+    "expires_iso": "2026-05-03T20:24:09+00:00",
+    "cold_chain_status": "AMBER",
+    "daily_consumption": 2.1,
+    "days_of_supply": 0.5
+  },
+  {
+    "site_id": "EABO-TI",
+    "product": "PRBC",
+    "units": 3,
+    "expires_iso": "2026-04-30T20:24:09+00:00",
+    "cold_chain_status": "GREEN",
+    "daily_consumption": 2.2,
+    "days_of_supply": 1.4
+  },
+  {
+    "site_id": "EABO-TI",
+    "product": "PLASMA",
+    "units": 6,
+    "expires_iso": "2026-08-04T20:24:09+00:00",
+    "cold_chain_status": "GREEN",
+    "daily_consumption": 1.6,
+    "days_of_supply": 3.8
+  },
+  {
+    "site_id": "EABO-TI",
+    "product": "PLT",
+    "units": 1,
+    "expires_iso": "2026-04-29T20:24:09+00:00",
+    "cold_chain_status": "GREEN",
+    "daily_consumption": 1.3,
+    "days_of_supply": 0.8
+  },
+  {
+    "site_id": "EABO-TI",
+    "product": "LTOWB",
+    "units": 4,
+    "expires_iso": "2026-04-30T20:24:09+00:00",
+    "cold_chain_status": "GREEN",
+    "daily_consumption": 2.2,
+    "days_of_supply": 1.8
+  },
+  {
+    "site_id": "EABO-IT",
+    "product": "PRBC",
+    "units": 4,
+    "expires_iso": "2026-05-05T20:24:09+00:00",
+    "cold_chain_status": "RED",
+    "daily_consumption": 2.8,
+    "days_of_supply": 1.4
+  },
+  {
+    "site_id": "EABO-IT",
+    "product": "PLASMA",
+    "units": 8,
+    "expires_iso": "2026-10-09T20:24:09+00:00",
+    "cold_chain_status": "RED",
+    "daily_consumption": 1.7,
+    "days_of_supply": 4.7
+  },
+  {
+    "site_id": "EABO-IT",
+    "product": "PLT",
+    "units": 1,
+    "expires_iso": "2026-04-28T20:24:09+00:00",
+    "cold_chain_status": "RED",
+    "daily_consumption": 1.6,
+    "days_of_supply": 0.6
+  },
+  {
+    "site_id": "EABO-IT",
+    "product": "LTOWB",
+    "units": 4,
+    "expires_iso": "2026-04-28T20:24:09+00:00",
+    "cold_chain_status": "RED",
+    "daily_consumption": 1.5,
+    "days_of_supply": 2.7
+  },
+  {
+    "site_id": "EABO-IS",
+    "product": "PRBC",
+    "units": 6,
+    "expires_iso": "2026-05-21T20:24:09+00:00",
+    "cold_chain_status": "AMBER",
+    "daily_consumption": 1.9,
+    "days_of_supply": 3.2
+  },
+  {
+    "site_id": "EABO-IS",
+    "product": "PLASMA",
+    "units": 5,
+    "expires_iso": "2026-05-14T20:24:09+00:00",
+    "cold_chain_status": "AMBER",
+    "daily_consumption": 1.4,
+    "days_of_supply": 3.6
+  },
+  {
+    "site_id": "EABO-IS",
+    "product": "PLT",
+    "units": 4,
+    "expires_iso": "2026-04-29T20:24:09+00:00",
+    "cold_chain_status": "AMBER",
+    "daily_consumption": 1.3,
+    "days_of_supply": 3.1
+  },
+  {
+    "site_id": "EABO-IS",
+    "product": "LTOWB",
+    "units": 2,
+    "expires_iso": "2026-05-04T20:24:09+00:00",
+    "cold_chain_status": "AMBER",
+    "daily_consumption": 2.4,
+    "days_of_supply": 0.8
+  },
+  {
+    "site_id": "MCAS-IW",
+    "product": "PRBC",
+    "units": 11,
+    "expires_iso": "2026-05-22T20:24:09+00:00",
+    "cold_chain_status": "GREEN",
+    "daily_consumption": 5.9,
+    "days_of_supply": 1.9
+  },
+  {
+    "site_id": "MCAS-IW",
+    "product": "PLASMA",
+    "units": 8,
+    "expires_iso": "2027-03-25T20:24:09+00:00",
+    "cold_chain_status": "GREEN",
+    "daily_consumption": 2.3,
+    "days_of_supply": 3.5
+  },
+  {
+    "site_id": "MCAS-IW",
+    "product": "PLT",
+    "units": 5,
+    "expires_iso": "2026-04-30T20:24:09+00:00",
+    "cold_chain_status": "GREEN",
+    "daily_consumption": 2.9,
+    "days_of_supply": 1.7
+  },
+  {
+    "site_id": "ROLE3-OK",
+    "product": "PRBC",
+    "units": 18,
+    "expires_iso": "2026-05-14T20:24:09+00:00",
+    "cold_chain_status": "GREEN",
+    "daily_consumption": 6.5,
+    "days_of_supply": 2.8
+  },
+  {
+    "site_id": "ROLE3-OK",
+    "product": "PLASMA",
+    "units": 12,
+    "expires_iso": "2026-11-27T20:24:09+00:00",
+    "cold_chain_status": "GREEN",
+    "daily_consumption": 3.5,
+    "days_of_supply": 3.4
+  },
+  {
+    "site_id": "ROLE3-OK",
+    "product": "PLT",
+    "units": 3,
+    "expires_iso": "2026-04-28T20:24:09+00:00",
+    "cold_chain_status": "GREEN",
+    "daily_consumption": 3.1,
+    "days_of_supply": 1.0
+  },
+  {
+    "site_id": "CVN-71",
+    "product": "PRBC",
+    "units": 37,
+    "expires_iso": "2026-05-10T20:24:09+00:00",
+    "cold_chain_status": "GREEN",
+    "daily_consumption": 14.2,
+    "days_of_supply": 2.6
+  },
+  {
+    "site_id": "CVN-71",
+    "product": "PLASMA",
+    "units": 33,
+    "expires_iso": "2027-01-17T20:24:09+00:00",
+    "cold_chain_status": "GREEN",
+    "daily_consumption": 11.1,
+    "days_of_supply": 3.0
+  },
+  {
+    "site_id": "CVN-71",
+    "product": "PLT",
+    "units": 20,
+    "expires_iso": "2026-05-02T20:24:09+00:00",
+    "cold_chain_status": "GREEN",
+    "daily_consumption": 6.8,
+    "days_of_supply": 2.9
+  },
+  {
+    "site_id": "CVN-71",
+    "product": "LTOWB",
+    "units": 23,
+    "expires_iso": "2026-04-30T20:24:09+00:00",
+    "cold_chain_status": "GREEN",
+    "daily_consumption": 14.3,
+    "days_of_supply": 1.6
+  }
+]

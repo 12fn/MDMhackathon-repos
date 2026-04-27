@@ -1,0 +1,318 @@
+{
+  "indo_pacific_ports": {
+    "label": "Indo-Pacific port congestion + contested logistics",
+    "prompt": "I need datasets relevant to Pacific port congestion and contested logistics in the Indo-Pacific. Specifically: container throughput, vessel call timing, host-nation infrastructure, and weather climatology that would slow MPF offload windows.",
+    "filters": {
+      "intent_summary": "Find datasets relevant to Pacific port congestion and contested logistics in the Indo-Pacific, especially container throughput, vessel call timing, host-nation infrastructure, and weather climatology affecting MPF offload windows.",
+      "keywords": [
+        "Pacific port congestion",
+        "contested logistics",
+        "Indo-Pacific",
+        "container throughput",
+        "vessel call timing",
+        "host-nation infrastructure",
+        "weather climatology",
+        "MPF offload"
+      ]
+    },
+    "ranked_ids": [
+      "DG-dot-0081",
+      "DG-dot-0183",
+      "DG-dot-0184",
+      "DG-dot-0119",
+      "DG-dot-0016",
+      "DG-dod-0044",
+      "DG-eia-0111",
+      "DG-census-0108"
+    ],
+    "comparison": {
+      "comparison": [
+        {
+          "dataset_id": "DG-dot-0081",
+          "title": "Hawaii Container Throughput By U.S. Port \u2014 DOT BTS",
+          "agency": "DOT",
+          "relevance_score": 10,
+          "why_relevant": "Directly measures container throughput at ports relevant to the Hawaii and Pacific theater.",
+          "suggested_use": "Use it to baseline port congestion and estimate how much cargo can move through key MPF offload nodes.",
+          "freshness_concern": "stale-review"
+        },
+        {
+          "dataset_id": "DG-dot-0183",
+          "title": "Korean Peninsula Port Performance Freight Statistics \u2014 DOT FAA",
+          "agency": "DOT",
+          "relevance_score": 8,
+          "why_relevant": "Provides port performance freight statistics tied to a key Indo-Pacific theater.",
+          "suggested_use": "Use it to assess vessel and freight handling performance for contingency logistics planning on the Korean Peninsula.",
+          "freshness_concern": "fresh"
+        },
+        {
+          "dataset_id": "DG-dot-0184",
+          "title": "DOT MARAD: Port Performance Freight Statistics",
+          "agency": "DOT",
+          "relevance_score": 7,
+          "why_relevant": "Contains port performance freight statistics that can inform congestion and throughput analysis.",
+          "suggested_use": "Use it to compare port performance patterns and identify likely bottlenecks affecting sealift operations.",
+          "freshness_concern": "stale-review"
+        },
+        {
+          "dataset_id": "DG-dot-0119",
+          "title": "Airport Delay Causal Factors (DOT/FAA)",
+          "agency": "DOT",
+          "relevance_score": 3,
+          "why_relevant": "It includes weather-related delay factors, but it is focused on airports rather than ports.",
+          "suggested_use": "Use it only as a secondary indicator for regional weather disruption when port-specific climatology is unavailable.",
+          "freshness_concern": "acceptable"
+        },
+        {
+          "dataset_id": "DG-dot-0016",
+          "title": "DOT FMCSA: Intermodal Terminal Locations",
+          "agency": "DOT",
+          "relevance_score": 6,
+          "why_relevant": "Identifies intermodal terminals that support host-nation logistics and port-adjacent distribution.",
+          "suggested_use": "Use it to map inland transfer nodes that affect how quickly cargo clears the port area after offload.",
+          "freshness_concern": "stale-review"
+        },
+        {
+          "dataset_id": "DG-dod-0044",
+          "title": "DOD USTRANSCOM (PR): Research And Engineering Topical Funding",
+          "agency": "DOD",
+          "relevance_score": 1,
+          "why_relevant": "It is about research funding, not port congestion or weather impacts on offload windows.",
+          "suggested_use": "Use it only for background on logistics-related research priorities, not operational analysis.",
+          "freshness_concern": "stale-review"
+        },
+        {
+          "dataset_id": "DG-eia-0111",
+          "title": "Pacific basin International Energy Outlook Scenarios \u2014 EIA Natural Gas",
+          "agency": "EIA",
+          "relevance_score": 2,
+          "why_relevant": "It may help with broader infrastructure context, but it does not address port throughput or vessel timing.",
+          "suggested_use": "Use it only to support high-level regional infrastructure or energy dependency context.",
+          "freshness_concern": "stale-review"
+        },
+        {
+          "dataset_id": "DG-census-0108",
+          "title": "Census International Trade In Goods By Hs Code \u2014 Pacific basin",
+          "agency": "Census",
+          "relevance_score": 4,
+          "why_relevant": "Trade flows can indicate demand pressure on Pacific ports, though it is not a direct congestion measure.",
+          "suggested_use": "Use it to infer cargo demand trends that may correlate with port loading pressure.",
+          "freshness_concern": "acceptable"
+        }
+      ]
+    },
+    "brief": "1) **BLUF**  \nThe strongest immediate analytic stack for Pacific contested logistics is DOT/BTS container throughput for Hawaii, DOT/FAA port performance for the Korean Peninsula, and DOT/FMCSA intermodal terminal locations, with FAA weather-delay data as the best available proxy for offload-window disruption.\n\n2) **Top 3 Datasets**  \n- **Hawaii Container Throughput By U.S. Port \u2014 DOT BTS** | **Agency:** Department of Transportation / BTS | **What it could enable:** Baseline congestion, throughput capacity, and MPF offload sequencing at Hawaii-relevant U.S. ports; useful for identifying surge limits and choke points in the Pacific theater. | **Specific number:** Approximately **2,270,563 records**; **quarterly** refresh; last updated **2023-02-25**.  \n- **Korean Peninsula Port Performance Freight Statistics \u2014 DOT FAA** | **Agency:** Department of Transportation / FAA | **What it could enable:** Port performance benchmarking for a key Indo-Pacific contingency theater, including vessel/freight handling patterns that support contested logistics planning and port timing analysis. | **Specific number:** Approximately **38,690 records**; **as-collected** refresh; last updated **2026-01-22**.  \n- **DOT FMCSA: Intermodal Terminal Locations** | **Agency:** Department of Transportation / FMCSA | **What it could enable:** Mapping host-nation and port-adjacent inland transfer nodes to estimate how fast cargo clears the port area after offload, which directly affects MPF window closure and sustainment flow. | **Specific number:** Approximately **4,951 records**; **weekly** refresh; last updated **2023-10-24**.  \n\n3) **Gaps in Available Data**  \n- The catalog did **not** surface a true **vessel call timing / berth arrival / dwell-time** dataset for Pacific ports, which is the key missing layer for contested offload-window analysis.  \n- The catalog also did **not** surface **port-specific weather climatology** for Indo-Pacific terminals; the closest proxy is **Airport Delay Causal Factors (DOT/FAA)**, but it is airport-focused rather than port-focused.\n\n4) **Recommendation**  \n- In the next **24 hours**, fuse **DOT BTS Hawaii Container Throughput**, **DOT FAA Korean Peninsula Port Performance Freight Statistics**, and **DOT FMCSA Intermodal Terminal Locations** into a single port-congestion worksheet, then task a follow-on search for **vessel call logs and port climatology** to close the timing and weather gaps."
+  },
+  "haadr_typhoon": {
+    "label": "Typhoon-corridor humanitarian-assistance & disaster-response",
+    "prompt": "Pull datasets supporting a humanitarian-assistance and disaster-response cell standing up in the Western Pacific typhoon corridor. We need population, shelter capacity, prior disaster claims, real-time storm tracks, and search-and-rescue history.",
+    "filters": {
+      "intent_summary": "Find datasets to support humanitarian assistance and disaster response planning in the Western Pacific typhoon corridor, including population, shelter capacity, prior disaster claims, real-time storm tracks, and search-and-rescue history.",
+      "topics": [
+        "humanitarian assistance",
+        "disaster response",
+        "population",
+        "shelter capacity",
+        "disaster claims",
+        "storm tracks",
+        "search and rescue"
+      ],
+      "geography": [
+        "Western Pacific",
+        "typhoon corridor"
+      ],
+      "time_sensitivity": [
+        "real-time"
+      ]
+    },
+    "ranked_ids": [
+      "DG-usaid-0077",
+      "DG-usaid-0083",
+      "DG-fema-0152",
+      "DG-fema-0005",
+      "DG-fema-0134",
+      "DG-noaa-0150",
+      "DG-dhs-0006",
+      "DG-usaid-0019"
+    ],
+    "comparison": {
+      "comparison": [
+        {
+          "dataset_id": "DG-usaid-0077",
+          "title": "Disaster Response Funding Allocations (USAID/BHA)",
+          "agency": "USAID",
+          "relevance_score": 7,
+          "why_relevant": "Provides real-time disaster response funding data for the Philippines, useful for HA/DR planning in the Western Pacific.",
+          "suggested_use": "Use it to identify active funding flows and likely response priorities for the cell's operating picture.",
+          "freshness_concern": "fresh"
+        },
+        {
+          "dataset_id": "DG-usaid-0083",
+          "title": "USAID BHA: Disaster Response Funding Allocations",
+          "agency": "USAID",
+          "relevance_score": 5,
+          "why_relevant": "Contains disaster response funding allocations tied to Hawaii, which is adjacent to Western Pacific support planning.",
+          "suggested_use": "Use it as a secondary reference for regional response funding and infrastructure assessments.",
+          "freshness_concern": "acceptable"
+        },
+        {
+          "dataset_id": "DG-fema-0152",
+          "title": "Individual Assistance Grants (FEMA/Region IX)",
+          "agency": "FEMA",
+          "relevance_score": 4,
+          "why_relevant": "Includes individual assistance grants for Guam and the Marianas, which can inform disaster impact and recovery patterns.",
+          "suggested_use": "Use it to gauge prior assistance activity and compare recovery needs across island areas.",
+          "freshness_concern": "stale-review"
+        },
+        {
+          "dataset_id": "DG-fema-0005",
+          "title": "FEMA OPPA: Individual Assistance Grants",
+          "agency": "FEMA",
+          "relevance_score": 4,
+          "why_relevant": "Covers individual assistance grants across the Philippines area of operations, relevant to prior disaster support patterns.",
+          "suggested_use": "Use it to review historical assistance distributions when building the HA/DR baseline.",
+          "freshness_concern": "outdated"
+        },
+        {
+          "dataset_id": "DG-fema-0134",
+          "title": "Preparedness Drills Attendance (FEMA/NFIP)",
+          "agency": "FEMA",
+          "relevance_score": 1,
+          "why_relevant": "It tracks preparedness drills rather than the requested population, shelter, storm, or SAR data.",
+          "suggested_use": "Use it only if you need a narrow readiness indicator for local preparedness activity.",
+          "freshness_concern": "stale-review"
+        },
+        {
+          "dataset_id": "DG-noaa-0150",
+          "title": "Storm Surge Runup (NOAA/OAR)",
+          "agency": "NOAA",
+          "relevance_score": 8,
+          "why_relevant": "Provides hourly storm surge runup data for the Philippines, directly supporting real-time storm tracking and impact forecasting.",
+          "suggested_use": "Use it to anticipate coastal inundation and prioritize evacuation or shelter decisions.",
+          "freshness_concern": "fresh"
+        },
+        {
+          "dataset_id": "DG-dhs-0006",
+          "title": "U.S. Coast Guard Search-And-Rescue Cases (DHS/USCG)",
+          "agency": "DHS",
+          "relevance_score": 6,
+          "why_relevant": "Contains hourly SAR case data, which is useful for understanding search-and-rescue history in a nearby theater.",
+          "suggested_use": "Use it to identify SAR patterns and likely response demands for maritime or coastal incidents.",
+          "freshness_concern": "fresh"
+        },
+        {
+          "dataset_id": "DG-usaid-0019",
+          "title": "USAID Humanitarian Assistance Obligations \u2014 Red Sea",
+          "agency": "USAID",
+          "relevance_score": 1,
+          "why_relevant": "It is focused on the Red Sea theater, so it does not match the Western Pacific typhoon corridor requirement.",
+          "suggested_use": "Use it only as a methodological comparison for humanitarian assistance obligation tracking.",
+          "freshness_concern": "stale-review"
+        }
+      ]
+    },
+    "brief": "1) **BLUF**  \nThe strongest immediate support for a Western Pacific HA/DR cell is the NOAA hourly storm-surge feed plus USAID/FEMA disaster-funding and assistance datasets, but the catalog does not surface the population, shelter-capacity, or true search-and-rescue history layers the cell asked for.\n\n2) **Top 3 Datasets**  \n- **Storm Surge Runup (NOAA/OAR)** \u2014 **NOAA, Office of Oceanic and Atmospheric Research** \u2014 Enables real-time coastal inundation forecasting, evacuation prioritization, and shelter siting for the Philippines typhoon corridor; the abstract states **hourly** refresh and a **147,406,471** record estimate, with last update **2025-09-30**.  \n- **Disaster Response Funding Allocations (USAID/BHA)** \u2014 **USAID, Bureau for Humanitarian Assistance** \u2014 Enables tracking of active disaster-response funding flows and likely response priorities in the Philippines operating picture; the abstract says **realtime** observations and the dataset carries a **4,663** record estimate, last updated **2024-09-11**.  \n- **Individual Assistance Grants (FEMA/Region IX)** \u2014 **FEMA, Region IX** \u2014 Enables historical recovery-pattern analysis for Guam and the Marianas and supports baseline assessment of prior disaster assistance; the abstract covers Guam and Marianas and the dataset has a **4,579** record estimate, last updated **2024-06-05**.\n\n3) **Gaps in Available Data**  \n- The catalog did **not** surface a population dataset or a shelter-capacity dataset for the Western Pacific islands, which are essential for casualty estimation and shelter demand modeling.  \n- The catalog also did **not** surface a dedicated search-and-rescue history dataset for the Philippines/Guam/Marianas corridor; the closest match is the DHS/USCG SAR cases reference in the comparison set, but it is not present in the ranked payload.\n\n4) **Recommendation**  \n- In the next 24 hours, build a fused HA/DR starter pack around **NOAA/OAR storm surge**, **USAID/BHA funding allocations**, and **FEMA Region IX assistance grants**, then task a targeted catalog pull for **population, shelter inventory/capacity, and USCG/DHS SAR case history** specific to the Philippines, Guam, and Marianas."
+  },
+  "pnt_alt": {
+    "label": "GPS-denied / alternative-PNT environmental references",
+    "prompt": "Find federal datasets that could anchor an alternative-PNT or GPS-denied navigation feasibility study. Magnetic-field, high-resolution elevation, hydrography, and any signals-of-opportunity catalogs would all be candidates.",
+    "filters": {
+      "intent_summary": "Identify federal datasets suitable for an alternative-PNT or GPS-denied navigation feasibility study, especially magnetic-field, high-resolution elevation, hydrography, and signals-of-opportunity sources.",
+      "topics": [
+        "alternative PNT",
+        "GPS-denied navigation",
+        "magnetic field",
+        "elevation",
+        "hydrography",
+        "signals of opportunity"
+      ]
+    },
+    "ranked_ids": [
+      "DG-usgs-0158",
+      "DG-usgs-0116",
+      "DG-usgs-0062",
+      "DG-usgs-0010",
+      "DG-usgs-0128",
+      "DG-noaa-0169",
+      "DG-fema-0129",
+      "DG-nasa-0012"
+    ],
+    "comparison": {
+      "comparison": [
+        {
+          "dataset_id": "DG-usgs-0010",
+          "title": "USGS National Elevation Dataset (3Dep) \u2014 CONUS-wide",
+          "agency": "USGS",
+          "relevance_score": 10,
+          "why_relevant": "High-resolution elevation is a core input for terrain-aided navigation and GPS-denied route modeling.",
+          "suggested_use": "Use it to build terrain masks, line-of-sight checks, and elevation-based navigation error models.",
+          "freshness_concern": "acceptable"
+        },
+        {
+          "dataset_id": "DG-usgs-0062",
+          "title": "USGS EROS: National Hydrography Dataset (Nhd)",
+          "agency": "USGS",
+          "relevance_score": 9,
+          "why_relevant": "Hydrography supports map-matching and terrain-context cues for alternative navigation in land and littoral areas.",
+          "suggested_use": "Use it to constrain routes to waterways, shorelines, and drainage features for navigation feasibility analysis.",
+          "freshness_concern": "acceptable"
+        },
+        {
+          "dataset_id": "DG-usgs-0158",
+          "title": "USGS National Hydrography Dataset (Nhd) \u2014 Bering Sea",
+          "agency": "USGS",
+          "relevance_score": 8,
+          "why_relevant": "Regional hydrography is useful for maritime and littoral GPS-denied navigation studies in the Bering Sea.",
+          "suggested_use": "Use it to assess coastal and nearshore route options and to support regional navigation feature extraction.",
+          "freshness_concern": "fresh"
+        },
+        {
+          "dataset_id": "DG-noaa-0169",
+          "title": "Ocean Salinity (NOAA/NOS)",
+          "agency": "NOAA",
+          "relevance_score": 5,
+          "why_relevant": "It is not a direct PNT source, but ocean-state data can support maritime environmental context for sensor fusion studies.",
+          "suggested_use": "Use it as a secondary environmental layer when evaluating maritime navigation performance and propagation conditions.",
+          "freshness_concern": "acceptable"
+        },
+        {
+          "dataset_id": "DG-usgs-0116",
+          "title": "Groundwater Monitoring Wells (USGS/ESA)",
+          "agency": "USGS",
+          "relevance_score": 4,
+          "why_relevant": "The dataset is only loosely related to navigation, though it may help as a geospatial reference layer in some studies.",
+          "suggested_use": "Use it only if you need ancillary geospatial points for regional context or validation of map layers.",
+          "freshness_concern": "stale-review"
+        },
+        {
+          "dataset_id": "DG-usgs-0128",
+          "title": "USGS Earthquake Hazards: Groundwater Monitoring Wells",
+          "agency": "USGS",
+          "relevance_score": 4,
+          "why_relevant": "It is an ancillary geospatial dataset with limited direct value for alternative-PNT feasibility work.",
+          "suggested_use": "Use it as a low-priority reference layer if you need additional fixed points for geospatial comparison.",
+          "freshness_concern": "acceptable"
+        },
+        {
+          "dataset_id": "DG-fema-0129",
+          "title": "Hazard Mitigation Projects (FEMA/Region IX)",
+          "agency": "FEMA",
+          "relevance_score": 2,
+          "why_relevant": "This is primarily a mitigation-project dataset and does not directly support navigation or signals-of-opportunity analysis.",
+          "suggested_use": "Use it only for broad infrastructure context if the study expands into resilience or logistics planning.",
+          "freshness_concern": "outdated"
+        },
+        {
+          "dataset_id": "DG-nasa-0012",
+          "title": "NASA Vegetation Ndvi \u2014 South China Sea",
+          "agency": "NASA",
+          "relevance_score": 3,
+          "why_relevant": "Vegetation NDVI can help characterize terrain conditions, but it is not a direct alternative-PNT or signals catalog source.",
+          "suggested_use": "Use it as a supplementary environmental layer when assessing terrain effects on navigation performance.",
+          "freshness_concern": "acceptable"
+        }
+      ]
+    },
+    "brief": "1) **BLUF**  \nUSGS datasets dominate the best available foundation for an alternative-PNT/GPS-denied feasibility study, with the strongest anchors being CONUS-wide 3DEP elevation, national hydrography, and a regional Bering Sea hydrography layer; the catalog did not surface a true magnetic-field or signals-of-opportunity catalog.\n\n2) **Top 3 Datasets**  \n- **USGS National Elevation Dataset (3Dep) \u2014 CONUS-wide** \u2014 **USGS / Earthquake Hazards**  \n  Enables terrain-aided navigation, line-of-sight analysis, terrain masking, and elevation-based error modeling for GPS-denied route feasibility. The abstract cites **188,387,973 records**, making it the largest and most analytically dense terrain layer in the set.\n\n- **USGS EROS: National Hydrography Dataset (Nhd)** \u2014 **USGS / EROS**  \n  Enables map-matching against waterways, shoreline constraints, and drainage-feature cueing for land and littoral navigation studies. The abstract states **realtime** refresh cadence and a **latest update of 2024-11-20**, supporting current route-constraining analysis.\n\n- **USGS National Hydrography Dataset (Nhd) \u2014 Bering Sea** \u2014 **USGS / Earthquake Hazards**  \n  Enables regional maritime and nearshore GPS-denied navigation assessment in the Bering Sea, especially for coastal route extraction and force-projection planning. The abstract gives a **weekly** refresh cadence and **latest update 2026-02-13**, indicating the freshest hydrography layer in the catalog slice.\n\n3) **Gaps in Available Data**  \n- The catalog did **not** surface a magnetic-field dataset, geomagnetic model, or ionospheric product that would directly support magnetic or celestial backup navigation analysis.  \n- It also did **not** surface a true signals-of-opportunity catalog, RF emitter map, or terrestrial beacon inventory needed for opportunistic PNT feasibility.\n\n4) **Recommendation**  \n- In the next 24 hours, build a two-layer feasibility stack using **USGS 3DEP CONUS-wide** plus **USGS EROS NHD**, then request a targeted follow-on search for **NOAA/USGS geomagnetic**, **ionospheric**, and **signals-of-opportunity** datasets to close the PNT gap."
+  }
+}

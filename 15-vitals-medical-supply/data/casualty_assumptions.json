@@ -1,0 +1,86 @@
+[
+  {
+    "spoke_id": "LHA-6",
+    "wia_per_1k_24h": 1.03,
+    "projected_wia_24h": 2.5,
+    "projected_prbc_demand_24h": 7.8,
+    "casualty_planning_factor_source": "USMC HSS planning factor (DMO, contested)"
+  },
+  {
+    "spoke_id": "LHD-1",
+    "wia_per_1k_24h": 1.17,
+    "projected_wia_24h": 2.7,
+    "projected_prbc_demand_24h": 8.4,
+    "casualty_planning_factor_source": "USMC HSS planning factor (DMO, contested)"
+  },
+  {
+    "spoke_id": "LPD-29",
+    "wia_per_1k_24h": 1.11,
+    "projected_wia_24h": 0.8,
+    "projected_prbc_demand_24h": 2.5,
+    "casualty_planning_factor_source": "USMC HSS planning factor (DMO, contested)"
+  },
+  {
+    "spoke_id": "MEU-31",
+    "wia_per_1k_24h": 1.28,
+    "projected_wia_24h": 2.8,
+    "projected_prbc_demand_24h": 8.7,
+    "casualty_planning_factor_source": "USMC HSS planning factor (DMO, contested)"
+  },
+  {
+    "spoke_id": "MEU-13",
+    "wia_per_1k_24h": 0.94,
+    "projected_wia_24h": 2.0,
+    "projected_prbc_demand_24h": 6.2,
+    "casualty_planning_factor_source": "USMC HSS planning factor (DMO, contested)"
+  },
+  {
+    "spoke_id": "EABO-PA",
+    "wia_per_1k_24h": 2.46,
+    "projected_wia_24h": 0.9,
+    "projected_prbc_demand_24h": 2.8,
+    "casualty_planning_factor_source": "USMC HSS planning factor (DMO, contested)"
+  },
+  {
+    "spoke_id": "EABO-TI",
+    "wia_per_1k_24h": 3.37,
+    "projected_wia_24h": 1.4,
+    "projected_prbc_demand_24h": 4.3,
+    "casualty_planning_factor_source": "USMC HSS planning factor (DMO, contested)"
+  },
+  {
+    "spoke_id": "EABO-IT",
+    "wia_per_1k_24h": 3.36,
+    "projected_wia_24h": 1.0,
+    "projected_prbc_demand_24h": 3.1,
+    "casualty_planning_factor_source": "USMC HSS planning factor (DMO, contested)"
+  },
+  {
+    "spoke_id": "EABO-IS",
+    "wia_per_1k_24h": 2.19,
+    "projected_wia_24h": 0.7,
+    "projected_prbc_demand_24h": 2.2,
+    "casualty_planning_factor_source": "USMC HSS planning factor (DMO, contested)"
+  },
+  {
+    "spoke_id": "MCAS-IW",
+    "wia_per_1k_24h": 0.57,
+    "projected_wia_24h": 1.0,
+    "projected_prbc_demand_24h": 3.1,
+    "casualty_planning_factor_source": "USMC HSS planning factor (DMO, contested)"
+  },
+  {
+    "spoke_id": "ROLE3-OK",
+    "wia_per_1k_24h": 1.17,
+    "projected_wia_24h": 4.1,
+    "projected_prbc_demand_24h": 12.7,
+    "casualty_planning_factor_source": "USMC HSS planning factor (DMO, contested)"
+  },
+  {
+    "spoke_id": "CVN-71",
+    "wia_per_1k_24h": 1.02,
+    "projected_wia_24h": 5.1,
+    "projected_prbc_demand_24h": 15.8,
+    "casualty_planning_factor_source": "USMC HSS planning factor (DMO, contested)"
+  }
+]

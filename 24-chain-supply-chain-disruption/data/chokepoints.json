@@ -1,0 +1,47 @@
+[
+  {
+    "id": "MALACCA",
+    "name": "Strait of Malacca",
+    "lat": 2.5,
+    "lon": 101.5,
+    "status": "ELEVATED",
+    "daily_transit_musd": 15068,
+    "current_event": "Tropical depression 06W approaching; pilot delays"
+  },
+  {
+    "id": "SUEZ",
+    "name": "Suez Canal",
+    "lat": 30.0,
+    "lon": 32.58,
+    "status": "DEGRADED",
+    "daily_transit_musd": 13425,
+    "current_event": "Houthi standoff in BAB-EL-MANDEB diverting 38% of inbound tonnage"
+  },
+  {
+    "id": "PANAMA",
+    "name": "Panama Canal",
+    "lat": 9.08,
+    "lon": -79.68,
+    "status": "DEGRADED",
+    "daily_transit_musd": 8767,
+    "current_event": "Gatun Lake drought \u2014 daily transits capped at 24"
+  },
+  {
+    "id": "BABMANDEB",
+    "name": "Bab-el-Mandeb",
+    "lat": 12.58,
+    "lon": 43.33,
+    "status": "CRITICAL",
+    "daily_transit_musd": 7671,
+    "current_event": "Houthi UAS / ASBM launches; 67% of liners rerouting"
+  },
+  {
+    "id": "TWNSTRAIT",
+    "name": "Taiwan Strait",
+    "lat": 24.5,
+    "lon": 119.5,
+    "status": "WATCH",
+    "daily_transit_musd": 16712,
+    "current_event": "PLAN exercise window 28-30 APR; J2 watching for live-fire NOTAM"
+  }
+]

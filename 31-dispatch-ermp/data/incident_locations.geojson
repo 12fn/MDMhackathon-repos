@@ -1,0 +1,379 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.1764,
+              32.6885
+            ],
+            [
+              -84.1746,
+              32.6885
+            ],
+            [
+              -84.1746,
+              32.6899
+            ],
+            [
+              -84.1764,
+              32.6899
+            ],
+            [
+              -84.1764,
+              32.6885
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Hangar 7",
+        "type": "critical",
+        "centroid": [
+          32.6892,
+          -84.1755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.1931,
+              32.680299999999995
+            ],
+            [
+              -84.1913,
+              32.680299999999995
+            ],
+            [
+              -84.1913,
+              32.6817
+            ],
+            [
+              -84.1931,
+              32.6817
+            ],
+            [
+              -84.1931,
+              32.680299999999995
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Building 3402 (Bachelor Quarters)",
+        "type": "support",
+        "centroid": [
+          32.681,
+          -84.1922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.1999,
+              32.6763
+            ],
+            [
+              -84.1981,
+              32.6763
+            ],
+            [
+              -84.1981,
+              32.6777
+            ],
+            [
+              -84.1999,
+              32.6777
+            ],
+            [
+              -84.1999,
+              32.6763
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Base Housing \u2014 Magnolia Loop",
+        "type": "critical",
+        "centroid": [
+          32.677,
+          -84.199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.1819,
+              32.6703
+            ],
+            [
+              -84.1801,
+              32.6703
+            ],
+            [
+              -84.1801,
+              32.6717
+            ],
+            [
+              -84.1819,
+              32.6717
+            ],
+            [
+              -84.1819,
+              32.6703
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Range Complex Bravo (Live-Fire)",
+        "type": "critical",
+        "centroid": [
+          32.671,
+          -84.181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.1879,
+              32.6933
+            ],
+            [
+              -84.1861,
+              32.6933
+            ],
+            [
+              -84.1861,
+              32.694700000000005
+            ],
+            [
+              -84.1879,
+              32.694700000000005
+            ],
+            [
+              -84.1879,
+              32.6933
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Main Gate (Gate 1)",
+        "type": "critical",
+        "centroid": [
+          32.694,
+          -84.187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.1699,
+              32.6693
+            ],
+            [
+              -84.1681,
+              32.6693
+            ],
+            [
+              -84.1681,
+              32.670700000000004
+            ],
+            [
+              -84.1699,
+              32.670700000000004
+            ],
+            [
+              -84.1699,
+              32.6693
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Perimeter Road Mile 4.2",
+        "type": "support",
+        "centroid": [
+          32.67,
+          -84.169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.1829,
+              32.684799999999996
+            ],
+            [
+              -84.1811,
+              32.684799999999996
+            ],
+            [
+              -84.1811,
+              32.6862
+            ],
+            [
+              -84.1829,
+              32.6862
+            ],
+            [
+              -84.1829,
+              32.684799999999996
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Motor Pool Charlie",
+        "type": "support",
+        "centroid": [
+          32.6855,
+          -84.182
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.1889,
+              32.6853
+            ],
+            [
+              -84.1871,
+              32.6853
+            ],
+            [
+              -84.1871,
+              32.6867
+            ],
+            [
+              -84.1889,
+              32.6867
+            ],
+            [
+              -84.1889,
+              32.6853
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Fire Station 1",
+        "type": "support",
+        "centroid": [
+          32.686,
+          -84.188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -84.18690000000001,
+              32.6823
+            ],
+            [
+              -84.1851,
+              32.6823
+            ],
+            [
+              -84.1851,
+              32.6837
+            ],
+            [
+              -84.18690000000001,
+              32.6837
+            ],
+            [
+              -84.18690000000001,
+              32.6823
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Medical Clinic",
+        "type": "support",
+        "centroid": [
+          32.683,
+          -84.186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.205,
+            32.665
+          ],
+          [
+            -84.205,
+            32.7
+          ],
+          [
+            -84.165,
+            32.7
+          ],
+          [
+            -84.165,
+            32.665
+          ],
+          [
+            -84.205,
+            32.665
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Installation Perimeter",
+        "type": "perimeter"
+      }
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "WHSE-A1",
+    "kind": "warehouse",
+    "name": "Warehouse A \u2014 Bay 1",
+    "building": "B-1701",
+    "controlled": false
+  },
+  {
+    "id": "WHSE-A2",
+    "kind": "warehouse",
+    "name": "Warehouse A \u2014 Bay 2",
+    "building": "B-1701",
+    "controlled": false
+  },
+  {
+    "id": "WHSE-B1",
+    "kind": "warehouse",
+    "name": "Warehouse B \u2014 Bay 1",
+    "building": "B-1702",
+    "controlled": false
+  },
+  {
+    "id": "WHSE-B2",
+    "kind": "warehouse",
+    "name": "Warehouse B \u2014 Bay 2",
+    "building": "B-1702",
+    "controlled": false
+  },
+  {
+    "id": "VBAY-01",
+    "kind": "vehicle_bay",
+    "name": "Motor Pool Bay 01",
+    "building": "B-2210",
+    "controlled": false
+  },
+  {
+    "id": "VBAY-02",
+    "kind": "vehicle_bay",
+    "name": "Motor Pool Bay 02",
+    "building": "B-2210",
+    "controlled": false
+  },
+  {
+    "id": "VBAY-03",
+    "kind": "vehicle_bay",
+    "name": "TMDE Bay 03",
+    "building": "B-2212",
+    "controlled": false
+  },
+  {
+    "id": "ARM-101",
+    "kind": "armory",
+    "name": "Armory Room 101",
+    "building": "B-1109",
+    "controlled": true
+  },
+  {
+    "id": "ARM-102",
+    "kind": "armory",
+    "name": "Armory Room 102",
+    "building": "B-1109",
+    "controlled": true
+  },
+  {
+    "id": "ARM-103",
+    "kind": "armory",
+    "name": "Armory Room 103 (CCI)",
+    "building": "B-1109",
+    "controlled": true
+  },
+  {
+    "id": "COMSEC-1",
+    "kind": "comm_cage",
+    "name": "COMSEC Cage 1",
+    "building": "B-1109",
+    "controlled": true
+  },
+  {
+    "id": "MED-CAGE",
+    "kind": "med_cage",
+    "name": "Medical Class VIII Cage",
+    "building": "B-1402",
+    "controlled": true
+  },
+  {
+    "id": "HAZ-Y1",
+    "kind": "haz_yard",
+    "name": "HAZMAT Yard 1",
+    "building": "B-3301",
+    "controlled": true
+  }
+]

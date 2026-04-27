@@ -1,0 +1,20 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1440
+PlayResY: 900
+ScaledBorderAndShadow: yes
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Helvetica,22,&H00FFFFFF,&H00FFFFFF,&H00000000,&HC8000000,1,0,0,0,100,100,0,0,3,1,0.5,2,80,80,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.00,0:00:05.00,Default,,0,0,0,,AGORA. Role-aware AI support agents for multi-app SSO ecosystems.
+Dialogue: 0,0:00:05.00,0:00:15.00,Default,,0,0,0,,Marines move across LMS, CMS, BBB, and Keycloak with different roles\Nin each. The AI assistant has to know who is asking before it answers.
+Dialogue: 0,0:00:15.00,0:00:25.00,Default,,0,0,0,,Sixty doc chunks across four apps. Four demo personas, each with a\NJSON role and ABAC tree. Active persona: a Private at boot camp.
+Dialogue: 0,0:00:25.00,0:00:45.00,Default,,0,0,0,,Private Joe asks how to pull a battalion-wide transcript report.\NPersona-aware RAG runs and the audit panel lists exactly what was …
+Dialogue: 0,0:00:45.00,0:01:05.00,Default,,0,0,0,,Same code path. Set KAMIWAZA_BASE_URL and the assistant runs inside\Nthe SCIF. Identity, ABAC, and inference all on-prem.
+Dialogue: 0,0:01:05.00,0:01:20.00,Default,,0,0,0,,AGORA. Built on the Kamiwaza Stack. Deploy in hours, not months.

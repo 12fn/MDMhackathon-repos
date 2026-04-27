@@ -1,0 +1,39 @@
+1
+00:00:03,041 --> 00:00:08,041
+HUB. Multimodal CONUS movement planner for Marine logistics.
+
+2
+00:00:08,048 --> 00:00:13,048
+LOGCOM problem set: contested logistics, supply chain, expeditionary ops.
+
+3
+00:00:13,052 --> 00:00:18,052
+Marine planners need one pane to compare road, rail, waterway, and air to a POE.
+
+4
+00:00:18,056 --> 00:00:24,056
+BTS NTAD: 30 hubs, 47 typed multimodal edges, 10 USMC end-items.
+
+5
+00:00:24,067 --> 00:00:30,067
+Pick origin, POE, and end-item — Albany to Beaumont with an M1A1 Abrams.
+
+6
+00:00:26,098 --> 00:00:33,098
+A multi-step AI engine fuses per-mode capacity, clearance, and weight limits.
+
+7
+00:00:31,112 --> 00:00:38,112
+Three-click answer: recommended mode, named bottleneck, alternate corridors.
+
+8
+00:00:38,116 --> 00:00:44,116
+Bottleneck named — I-10 Lake Charles bridge weight class — M1A1 NO-GO without permit.
+
+9
+00:00:44,120 --> 00:00:51,120
+Set KAMIWAZA_BASE_URL and the same code runs inside the wire — air-gapped, IL5 ready.
+
+10
+00:00:51,128 --> 00:00:59,128
+Powered by the Kamiwaza Stack. Deploy in hours, not months.

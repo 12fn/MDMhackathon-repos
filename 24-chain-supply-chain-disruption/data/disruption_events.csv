@@ -1,0 +1,133 @@
+date,event_type,target_id,target_name,headline,severity,estimated_impact_days,value_at_risk_musd
+2026-04-27,cyber,M88A2,M88A2 HERCULES Recovery,Wiper malware on supplier-tier ERP at M88A2 HERCULES Recovery,MODERATE,9,11
+2026-04-27,infrastructure,BABMANDEB,Bab-el-Mandeb,Pier-7 STS crane catastrophic failure at Bab-el-Mandeb,HIGH,17,116
+2026-04-27,export_ctrl,AMPV,AMPV — Armored Multi-Purpose,PRC export licensing freeze on neodymium-iron-boron magnets (AMPV — Armored Multi-Purpose),HIGH,19,44
+2026-04-26,export_ctrl,RAYTHEON,Raytheon Andover,PRC export licensing freeze on neodymium-iron-boron magnets (Raytheon Andover),MODERATE,6,34
+2026-04-26,cyber,RAREEARTH,Lynas Mt Weld,Wiper malware on supplier-tier ERP at Lynas Mt Weld,MODERATE,3,4
+2026-04-25,regulatory,MPMATERIAL,MP Materials Mountain Pass,Section 232 tariff bump on rare-earth imports through MP Materials Mountain Pass,MODERATE,10,7
+2026-04-25,typhoon,RAYTHEON,Raytheon Andover,TROPICAL STORM HAIKUI-26D — port closure Raytheon Andover,HIGH,24,130
+2026-04-24,labor,OSHKOSH,Oshkosh Defense,Customs slowdown at Oshkosh Defense — 14-day backlog,MODERATE,6,17
+2026-04-24,cyber,F35B,F-35B Lightning II,Wiper malware on supplier-tier ERP at F-35B Lightning II,HIGH,12,137
+2026-04-23,regulatory,HIMARS,HIMARS / NMESIS,Section 232 tariff bump on rare-earth imports through HIMARS / NMESIS,MODERATE,9,26
+2026-04-23,infrastructure,TWNSTRAIT,Taiwan Strait,Pier-7 STS crane catastrophic failure at Taiwan Strait,CRITICAL,38,452
+2026-04-23,regulatory,RAREEARTH,Lynas Mt Weld,Section 232 tariff bump on rare-earth imports through Lynas Mt Weld,HIGH,13,14
+2026-04-23,kinetic,MV22,MV-22B Osprey,Houthi ASBM launch toward Liberian-flagged hull transiting MV-22B Osprey,MODERATE,10,39
+2026-04-22,export_ctrl,BABMANDEB,Bab-el-Mandeb,PRC export licensing freeze on neodymium-iron-boron magnets (Bab-el-Mandeb),MODERATE,8,63
+2026-04-21,cyber,MAXAR,Maxar Westminster,Wiper malware on supplier-tier ERP at Maxar Westminster,MODERATE,3,3
+2026-04-21,kinetic,OSHKOSH,Oshkosh Defense,Drone strike on storage tanks adjacent to Oshkosh Defense,CRITICAL,39,98
+2026-04-21,typhoon,PANAMA,Panama Canal,TYPHOON BAVI-26C CPA <72h to Panama Canal,HIGH,18,96
+2026-04-21,kinetic,CH53K,CH-53K King Stallion,PRC Coast Guard harassment of inbound tanker via CH-53K King Stallion,HIGH,20,218
+2026-04-20,financial,HIMARS,HIMARS / NMESIS,Force majeure declared by HIMARS / NMESIS on Q3 deliveries,LOW,3,9
+2026-04-18,regulatory,OSHKOSH,Oshkosh Defense,Section 232 tariff bump on rare-earth imports through Oshkosh Defense,MODERATE,5,12
+2026-04-18,infrastructure,PWHITNEY,Pratt & Whitney East Hartford,Submarine cable cut SE of Pratt & Whitney East Hartford — comms via SATCOM failover,HIGH,20,51
+2026-04-18,regulatory,RAYTHEON,Raytheon Andover,Section 232 tariff bump on rare-earth imports through Raytheon Andover,LOW,1,6
+2026-04-18,cyber,ACV,ACV — Amphibious Combat Vehicle,Ransomware on ACV — Amphibious Combat Vehicle ICS — production halted 36h,HIGH,24,84
+2026-04-17,cyber,TWNSTRAIT,Taiwan Strait,Ransomware on Taiwan Strait ICS — production halted 36h,CRITICAL,50,874
+2026-04-17,financial,MAXAR,Maxar Westminster,Force majeure declared by Maxar Westminster on Q3 deliveries,LOW,1,1
+2026-04-16,labor,GLOBALWAF,GlobalWafers Hsinchu,Work-stoppage at GlobalWafers Hsinchu — IBEW Local 2150 strike vote,LOW,2,2
+2026-04-15,cyber,MAXAR,Maxar Westminster,Ransomware on Maxar Westminster ICS — production halted 36h,LOW,1,0
+2026-04-15,typhoon,PANAMA,Panama Canal,TYPHOON BAVI-26C CPA <72h to Panama Canal,MODERATE,5,59
+2026-04-14,labor,SMIC,Samsung Pyeongtaek,Customs slowdown at Samsung Pyeongtaek — 14-day backlog,HIGH,20,121
+2026-04-14,export_ctrl,ACV,ACV — Amphibious Combat Vehicle,PRC export licensing freeze on neodymium-iron-boron magnets (ACV — Amphibious Combat Vehicle),MODERATE,5,16
+2026-04-13,regulatory,RAYTHEON,Raytheon Andover,DCMA Tier-3 audit finding at Raytheon Andover — 21-day shipment hold,MODERATE,5,16
+2026-04-13,regulatory,JLTV,JLTV — Joint Light Tactical,Section 232 tariff bump on rare-earth imports through JLTV — Joint Light Tactical,LOW,3,13
+2026-04-13,regulatory,NORTHROP,Northrop Palmdale,DCMA Tier-3 audit finding at Northrop Palmdale — 21-day shipment hold,CRITICAL,50,266
+2026-04-12,typhoon,AMPV,AMPV — Armored Multi-Purpose,TROPICAL STORM HAIKUI-26D — port closure AMPV — Armored Multi-Purpose,LOW,3,5
+2026-04-12,typhoon,MPMATERIAL,MP Materials Mountain Pass,TROPICAL STORM HAIKUI-26D — port closure MP Materials Mountain Pass,MODERATE,8,7
+2026-04-11,export_ctrl,ACV,ACV — Amphibious Combat Vehicle,PRC export licensing freeze on neodymium-iron-boron magnets (ACV — Amphibious Combat Vehicle),MODERATE,7,33
+2026-04-10,kinetic,ACV,ACV — Amphibious Combat Vehicle,Drone strike on storage tanks adjacent to ACV — Amphibious Combat Vehicle,MODERATE,5,19
+2026-04-10,infrastructure,TSMC,TSMC Fab 18,Drought-driven Gatun Lake transit cap tightened at TSMC Fab 18,HIGH,11,113
+2026-04-09,financial,GDLS,GD Land Systems Lima,Force majeure declared by GD Land Systems Lima on Q3 deliveries,CRITICAL,59,96
+2026-04-09,labor,BAOTOU,Baotou Steel Rare-Earth,Customs slowdown at Baotou Steel Rare-Earth — 14-day backlog,MODERATE,6,38
+2026-04-09,infrastructure,RAREEARTH,Lynas Mt Weld,Drought-driven Gatun Lake transit cap tightened at Lynas Mt Weld,HIGH,28,24
+2026-04-08,kinetic,PANAMA,Panama Canal,PRC Coast Guard harassment of inbound tanker via Panama Canal,MODERATE,5,26
+2026-04-08,kinetic,SHINETSU,Shin-Etsu Takefu,Houthi ASBM launch toward Liberian-flagged hull transiting Shin-Etsu Takefu,CRITICAL,20,50
+2026-04-08,financial,PANAMA,Panama Canal,Tier-2 supplier insolvency — Panama Canal sole-source for FN-MAG mounts,HIGH,26,173
+2026-04-06,labor,ROLLS,Rolls-Royce Indianapolis,Work-stoppage at Rolls-Royce Indianapolis — IBEW Local 2150 strike vote,HIGH,17,35
+2026-04-06,labor,F35B,F-35B Lightning II,Customs slowdown at F-35B Lightning II — 14-day backlog,MODERATE,5,73
+2026-04-05,export_ctrl,BAE,BAE Systems York,PRC export licensing freeze on neodymium-iron-boron magnets (BAE Systems York),HIGH,30,98
+2026-04-05,labor,F35B,F-35B Lightning II,Work-stoppage at F-35B Lightning II — IBEW Local 2150 strike vote,HIGH,10,111
+2026-04-05,infrastructure,SMIC,Samsung Pyeongtaek,Pier-7 STS crane catastrophic failure at Samsung Pyeongtaek,CRITICAL,41,156
+2026-04-03,kinetic,PANAMA,Panama Canal,Houthi ASBM launch toward Liberian-flagged hull transiting Panama Canal,LOW,2,22
+2026-04-02,export_ctrl,ASML,ASML Veldhoven,EU Dual-Use Reg update — ASML EUV tooling licenses delayed (ASML Veldhoven),CRITICAL,30,75
+2026-04-02,regulatory,MPMATERIAL,MP Materials Mountain Pass,Section 232 tariff bump on rare-earth imports through MP Materials Mountain Pass,MODERATE,10,9
+2026-04-02,financial,MV22,MV-22B Osprey,Force majeure declared by MV-22B Osprey on Q3 deliveries,MODERATE,5,30
+2026-04-02,regulatory,MAXAR,Maxar Westminster,DCMA Tier-3 audit finding at Maxar Westminster — 21-day shipment hold,HIGH,21,24
+2026-04-01,kinetic,ASML,ASML Veldhoven,Drone strike on storage tanks adjacent to ASML Veldhoven,CRITICAL,34,86
+2026-04-01,kinetic,ROLLS,Rolls-Royce Indianapolis,PRC Coast Guard harassment of inbound tanker via Rolls-Royce Indianapolis,MODERATE,8,12
+2026-04-01,labor,OSHKOSH,Oshkosh Defense,Work-stoppage at Oshkosh Defense — IBEW Local 2150 strike vote,CRITICAL,41,151
+2026-03-31,typhoon,TSMC,TSMC Fab 18,TROPICAL STORM HAIKUI-26D — port closure TSMC Fab 18,LOW,3,20
+2026-03-31,cyber,RAREEARTH,Lynas Mt Weld,Ransomware on Lynas Mt Weld ICS — production halted 36h,LOW,1,1
+2026-03-31,typhoon,MAXAR,Maxar Westminster,TYPHOON BAVI-26C CPA <72h to Maxar Westminster,MODERATE,5,4
+2026-03-31,cyber,M88A2,M88A2 HERCULES Recovery,Wiper malware on supplier-tier ERP at M88A2 HERCULES Recovery,CRITICAL,45,44
+2026-03-30,kinetic,GDLS,GD Land Systems Lima,Houthi ASBM launch toward Liberian-flagged hull transiting GD Land Systems Lima,CRITICAL,26,83
+2026-03-30,financial,MV22,MV-22B Osprey,Tier-2 supplier insolvency — MV-22B Osprey sole-source for FN-MAG mounts,CRITICAL,25,100
+2026-03-29,labor,ROLLS,Rolls-Royce Indianapolis,Customs slowdown at Rolls-Royce Indianapolis — 14-day backlog,MODERATE,4,5
+2026-03-29,typhoon,LMARTIN,Lockheed Marietta,TROPICAL STORM HAIKUI-26D — port closure Lockheed Marietta,LOW,1,7
+2026-03-28,cyber,MPMATERIAL,MP Materials Mountain Pass,Ransomware on MP Materials Mountain Pass ICS — production halted 36h,HIGH,30,29
+2026-03-28,regulatory,BABMANDEB,Bab-el-Mandeb,DCMA Tier-3 audit finding at Bab-el-Mandeb — 21-day shipment hold,LOW,2,21
+2026-03-27,kinetic,RAYTHEON,Raytheon Andover,Drone strike on storage tanks adjacent to Raytheon Andover,CRITICAL,21,96
+2026-03-27,regulatory,GLOBALWAF,GlobalWafers Hsinchu,Section 232 tariff bump on rare-earth imports through GlobalWafers Hsinchu,MODERATE,8,11
+2026-03-27,financial,NORTHROP,Northrop Palmdale,Tier-2 supplier insolvency — Northrop Palmdale sole-source for FN-MAG mounts,HIGH,30,132
+2026-03-27,typhoon,ASML,ASML Veldhoven,TYPHOON BAVI-26C CPA <72h to ASML Veldhoven,HIGH,21,40
+2026-03-26,cyber,MALACCA,Strait of Malacca,Ransomware on Strait of Malacca ICS — production halted 36h,MODERATE,3,38
+2026-03-26,cyber,M88A2,M88A2 HERCULES Recovery,Wiper malware on supplier-tier ERP at M88A2 HERCULES Recovery,CRITICAL,31,38
+2026-03-25,labor,CH53K,CH-53K King Stallion,Work-stoppage at CH-53K King Stallion — IBEW Local 2150 strike vote,LOW,3,31
+2026-03-24,infrastructure,LMARTIN,Lockheed Marietta,Submarine cable cut SE of Lockheed Marietta — comms via SATCOM failover,MODERATE,9,40
+2026-03-24,financial,JLTV,JLTV — Joint Light Tactical,Tier-2 supplier insolvency — JLTV — Joint Light Tactical sole-source for FN-MAG mounts,CRITICAL,27,162
+2026-03-24,infrastructure,F35B,F-35B Lightning II,Submarine cable cut SE of F-35B Lightning II — comms via SATCOM failover,HIGH,15,211
+2026-03-24,financial,OSHKOSH,Oshkosh Defense,Tier-2 supplier insolvency — Oshkosh Defense sole-source for FN-MAG mounts,HIGH,25,76
+2026-03-22,financial,SUEZ,Suez Canal,Force majeure declared by Suez Canal on Q3 deliveries,HIGH,16,241
+2026-03-21,kinetic,ASML,ASML Veldhoven,Drone strike on storage tanks adjacent to ASML Veldhoven,HIGH,12,24
+2026-03-20,labor,OSHKOSH,Oshkosh Defense,Customs slowdown at Oshkosh Defense — 14-day backlog,CRITICAL,34,115
+2026-03-19,labor,NORTHROP,Northrop Palmdale,Customs slowdown at Northrop Palmdale — 14-day backlog,MODERATE,8,40
+2026-03-19,cyber,SHINETSU,Shin-Etsu Takefu,Ransomware on Shin-Etsu Takefu ICS — production halted 36h,MODERATE,8,22
+2026-03-18,kinetic,SUEZ,Suez Canal,Houthi ASBM launch toward Liberian-flagged hull transiting Suez Canal,HIGH,14,184
+2026-03-18,export_ctrl,JLTV,JLTV — Joint Light Tactical,EU Dual-Use Reg update — ASML EUV tooling licenses delayed (JLTV — Joint Light Tactical),MODERATE,5,27
+2026-03-18,typhoon,ACV,ACV — Amphibious Combat Vehicle,TYPHOON BAVI-26C CPA <72h to ACV — Amphibious Combat Vehicle,HIGH,29,142
+2026-03-18,cyber,M88A2,M88A2 HERCULES Recovery,Ransomware on M88A2 HERCULES Recovery ICS — production halted 36h,MODERATE,9,8
+2026-03-17,cyber,SUEZ,Suez Canal,Wiper malware on supplier-tier ERP at Suez Canal,CRITICAL,44,626
+2026-03-16,financial,TWNSTRAIT,Taiwan Strait,Force majeure declared by Taiwan Strait on Q3 deliveries,MODERATE,10,223
+2026-03-16,kinetic,GDLS,GD Land Systems Lima,Drone strike on storage tanks adjacent to GD Land Systems Lima,CRITICAL,59,110
+2026-03-16,kinetic,PWHITNEY,Pratt & Whitney East Hartford,PRC Coast Guard harassment of inbound tanker via Pratt & Whitney East Hartford,LOW,1,4
+2026-03-16,kinetic,RAYTHEON,Raytheon Andover,Drone strike on storage tanks adjacent to Raytheon Andover,MODERATE,9,54
+2026-03-15,kinetic,BAE,BAE Systems York,Houthi ASBM launch toward Liberian-flagged hull transiting BAE Systems York,HIGH,12,42
+2026-03-15,infrastructure,AMPV,AMPV — Armored Multi-Purpose,Pier-7 STS crane catastrophic failure at AMPV — Armored Multi-Purpose,HIGH,26,70
+2026-03-15,labor,MV22,MV-22B Osprey,Work-stoppage at MV-22B Osprey — IBEW Local 2150 strike vote,CRITICAL,21,139
+2026-03-13,kinetic,JLTV,JLTV — Joint Light Tactical,Drone strike on storage tanks adjacent to JLTV — Joint Light Tactical,HIGH,25,74
+2026-03-13,export_ctrl,LMARTIN,Lockheed Marietta,EU Dual-Use Reg update — ASML EUV tooling licenses delayed (Lockheed Marietta),HIGH,29,199
+2026-03-12,export_ctrl,OSHKOSH,Oshkosh Defense,PRC export licensing freeze on neodymium-iron-boron magnets (Oshkosh Defense),HIGH,14,31
+2026-03-12,infrastructure,ASML,ASML Veldhoven,Drought-driven Gatun Lake transit cap tightened at ASML Veldhoven,HIGH,27,56
+2026-03-12,typhoon,ROLLS,Rolls-Royce Indianapolis,TROPICAL STORM HAIKUI-26D — port closure Rolls-Royce Indianapolis,CRITICAL,25,28
+2026-03-11,typhoon,SMIC,Samsung Pyeongtaek,TYPHOON BAVI-26C CPA <72h to Samsung Pyeongtaek,HIGH,28,184
+2026-03-11,infrastructure,JLTV,JLTV — Joint Light Tactical,Pier-7 STS crane catastrophic failure at JLTV — Joint Light Tactical,CRITICAL,55,298
+2026-03-11,kinetic,CH53K,CH-53K King Stallion,PRC Coast Guard harassment of inbound tanker via CH-53K King Stallion,CRITICAL,44,268
+2026-03-10,labor,PWHITNEY,Pratt & Whitney East Hartford,Work-stoppage at Pratt & Whitney East Hartford — IBEW Local 2150 strike vote,CRITICAL,20,74
+2026-03-10,kinetic,NORTHROP,Northrop Palmdale,Drone strike on storage tanks adjacent to Northrop Palmdale,MODERATE,4,17
+2026-03-09,kinetic,TSMC,TSMC Fab 18,Drone strike on storage tanks adjacent to TSMC Fab 18,MODERATE,9,112
+2026-03-09,typhoon,ASML,ASML Veldhoven,TYPHOON BAVI-26C CPA <72h to ASML Veldhoven,CRITICAL,60,172
+2026-03-09,labor,SHINETSU,Shin-Etsu Takefu,Customs slowdown at Shin-Etsu Takefu — 14-day backlog,LOW,1,2
+2026-03-08,labor,MV22,MV-22B Osprey,Work-stoppage at MV-22B Osprey — IBEW Local 2150 strike vote,HIGH,26,128
+2026-03-08,cyber,RAYTHEON,Raytheon Andover,Wiper malware on supplier-tier ERP at Raytheon Andover,HIGH,25,93
+2026-03-08,labor,AMPV,AMPV — Armored Multi-Purpose,Customs slowdown at AMPV — Armored Multi-Purpose — 14-day backlog,CRITICAL,42,85
+2026-03-08,kinetic,ROLLS,Rolls-Royce Indianapolis,Houthi ASBM launch toward Liberian-flagged hull transiting Rolls-Royce Indianapolis,MODERATE,4,6
+2026-03-07,cyber,ROLLS,Rolls-Royce Indianapolis,Wiper malware on supplier-tier ERP at Rolls-Royce Indianapolis,CRITICAL,38,70
+2026-03-07,kinetic,BAE,BAE Systems York,Houthi ASBM launch toward Liberian-flagged hull transiting BAE Systems York,CRITICAL,56,167
+2026-03-07,kinetic,NORTHROP,Northrop Palmdale,PRC Coast Guard harassment of inbound tanker via Northrop Palmdale,HIGH,17,91
+2026-03-06,export_ctrl,JLTV,JLTV — Joint Light Tactical,PRC export licensing freeze on neodymium-iron-boron magnets (JLTV — Joint Light Tactical),HIGH,16,60
+2026-03-06,cyber,M88A2,M88A2 HERCULES Recovery,Ransomware on M88A2 HERCULES Recovery ICS — production halted 36h,HIGH,22,30
+2026-03-04,cyber,ROLLS,Rolls-Royce Indianapolis,Ransomware on Rolls-Royce Indianapolis ICS — production halted 36h,LOW,1,2
+2026-03-04,financial,GLOBALWAF,GlobalWafers Hsinchu,Force majeure declared by GlobalWafers Hsinchu on Q3 deliveries,HIGH,19,33
+2026-03-03,kinetic,SHINETSU,Shin-Etsu Takefu,Drone strike on storage tanks adjacent to Shin-Etsu Takefu,MODERATE,7,17
+2026-03-03,financial,ROLLS,Rolls-Royce Indianapolis,Force majeure declared by Rolls-Royce Indianapolis on Q3 deliveries,HIGH,10,15
+2026-03-02,regulatory,SUEZ,Suez Canal,DCMA Tier-3 audit finding at Suez Canal — 21-day shipment hold,MODERATE,5,84
+2026-03-02,cyber,TSMC,TSMC Fab 18,Wiper malware on supplier-tier ERP at TSMC Fab 18,LOW,3,26
+2026-03-01,infrastructure,BAE,BAE Systems York,Pier-7 STS crane catastrophic failure at BAE Systems York,HIGH,14,37
+2026-03-01,export_ctrl,TSMC,TSMC Fab 18,EU Dual-Use Reg update — ASML EUV tooling licenses delayed (TSMC Fab 18),HIGH,16,143
+2026-03-01,infrastructure,HIMARS,HIMARS / NMESIS,Submarine cable cut SE of HIMARS / NMESIS — comms via SATCOM failover,LOW,1,2
+2026-03-01,typhoon,BABMANDEB,Bab-el-Mandeb,TROPICAL STORM HAIKUI-26D — port closure Bab-el-Mandeb,HIGH,15,122
+2026-02-28,infrastructure,PANAMA,Panama Canal,Drought-driven Gatun Lake transit cap tightened at Panama Canal,HIGH,22,124
+2026-02-28,cyber,MAXAR,Maxar Westminster,Wiper malware on supplier-tier ERP at Maxar Westminster,CRITICAL,32,36
+2026-02-28,cyber,MPMATERIAL,MP Materials Mountain Pass,Ransomware on MP Materials Mountain Pass ICS — production halted 36h,MODERATE,9,4
+2026-02-28,regulatory,PWHITNEY,Pratt & Whitney East Hartford,DCMA Tier-3 audit finding at Pratt & Whitney East Hartford — 21-day shipment hold,HIGH,29,99
+2026-02-27,typhoon,ASML,ASML Veldhoven,TYPHOON BAVI-26C CPA <72h to ASML Veldhoven,MODERATE,8,23

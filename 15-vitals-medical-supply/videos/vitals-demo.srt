@@ -1,0 +1,47 @@
+1
+00:00:02,935 --> 00:00:07,935
+VITALS. Joint blood-logistics decision support for DHA RESCUE.
+
+2
+00:00:07,938 --> 00:00:12,938
+USINDOPACOM Distributed Maritime Operations — one depot, twelve spokes.
+
+3
+00:00:12,939 --> 00:00:17,939
+Predicting which spoke fails first when the hub gets constrained.
+
+4
+00:00:17,941 --> 00:00:23,941
+Twelve distributed Marine units stream onto the hub-and-spoke map.
+
+5
+00:00:23,948 --> 00:00:28,948
+Constrain the hub: airlift loss, typhoon CPA inside 48 hours.
+
+6
+00:00:27,007 --> 00:00:33,007
+Spokes turn red one-by-one as the cascading-failure simulation runs.
+
+7
+00:00:30,510 --> 00:00:36,510
+A multi-step LLM agent scores all 12 spokes — strict JSON output.
+
+8
+00:00:36,520 --> 00:00:43,520
+Then a Kamiwaza-deployed hero model drafts the Commander's Decision Brief.
+
+9
+00:00:38,526 --> 00:00:45,526
+BLUF, top-3 spoke nodes at risk, secondary-effect cascades. One page.
+
+10
+00:00:45,530 --> 00:00:51,530
+Mitigation actions cite approved buy-on-market vendors by id.
+
+11
+00:00:51,536 --> 00:00:58,536
+Set KAMIWAZA_BASE_URL and the same code runs inside the wire.
+
+12
+00:00:58,538 --> 00:01:06,538
+Powered by the Kamiwaza Stack. Deploy in hours, not months.

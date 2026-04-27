@@ -1,0 +1,5 @@
+vehicle_id,class,long_name,capacity_lb,cruise_kph,offroad_kph,fuel_gal_hr,crew,armor,off_road_factor,signature,notes
+MTVR-01,MTVR,MTVR (Medium Tactical Vehicle Replacement),14000,65,32,6.5,3,MEDIUM,1.4,HIGH,Workhorse 7-ton; CL I/V bulk hauler.
+JLTV-04,JLTV,JLTV (Joint Light Tactical Vehicle),5100,90,55,4.5,4,HEAVY,1.15,MEDIUM,"Fast, armored, low-volume but high-survivability."
+ARV-02,ARV,"ARV-L (EFV-replacement, amphibious recon)",4200,72,60,7.2,3,HEAVY,1.05,HIGH,Amphibious / recon; tolerates wadi crossings.
+UGV-07,UGV,Autonomous Resupply UGV (Squad Multipurpose Equipment Transport),1000,18,12,0.8,0,NONE,1.6,LOW,Unmanned; ideal for last-tactical-mile push to forward squads.

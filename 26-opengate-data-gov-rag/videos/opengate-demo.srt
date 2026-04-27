@@ -1,0 +1,35 @@
+1
+00:00:01,241 --> 00:00:06,241
+OPENGATE. Federal-data discovery for Marine analysts.
+
+2
+00:00:06,241 --> 00:00:16,241
+Three hundred thousand federal datasets on data dot gov. A Marine analyst cannot keyword-search that surface in a decision window.
+
+3
+00:00:16,247 --> 00:00:26,247
+Two hundred dataset abstracts indexed across fifteen agencies — NOAA, NASA, FEMA, DOT, DOD, USGS, EIA, DHS, and more.
+
+4
+00:00:26,252 --> 00:00:34,252
+An analyst asks for datasets on Pacific port congestion and contested logistics in the Indo-Pacific.
+
+5
+00:00:34,315 --> 00:00:44,315
+Production-shape RAG: parse intent into structured filters, hard-filter agency and recency, vector-rerank two hundred dataset abstracts.
+
+6
+00:00:44,317 --> 00:00:56,317
+Top candidates rank by cosine similarity. The Kamiwaza-deployed model writes a structured comparison table with relevance score, why-relevant, suggested use, and freshness.
+
+7
+00:00:56,323 --> 00:01:13,323
+A hero-model Analyst Discovery Brief: BLUF, top three datasets with what each enables, gaps in available data, and the next twenty-four hour analytic action.
+
+8
+00:01:13,343 --> 00:01:24,343
+The inference endpoint in the footer flips with one environment variable. Set KAMIWAZA underscore BASE underscore URL and the same code runs inside the SCIF.
+
+9
+00:01:24,348 --> 00:01:32,348
+OPENGATE. Built on the Kamiwaza Stack. Deploy in hours, not months.

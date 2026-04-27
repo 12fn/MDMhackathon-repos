@@ -1,0 +1,13 @@
+SUBJECT: Statement of Work — Predictive Maintenance Pilot, AAV-P7/A1 Hub Bearings (Draft v0.2)
+
+1. SCOPE. Vendor shall provide a 90-day predictive-maintenance pilot for AAV-P7/A1 hub bearings at MCLB Albany. Deliverables include vibration-feature extraction software, a trained classifier, and a written final report. This SOW is pre-award and contains source-selection-sensitive content.
+
+2. PRICING. Vendor's labor rate is $187.50 per hour fully burdened for senior data engineers and $142.00 per hour for mid-level engineers. Vendor's proposed Other Direct Costs (ODC) include $48,200 for sensor instrumentation and $11,400 for travel. These rates are vendor-proprietary and were submitted under the company's Best and Final Offer (BAFO) of 14 April 2026. Disclosure outside the source-selection evaluation board would prejudice the competitive process.
+
+3. TECHNICAL DATA. The pilot will produce vibration spectrograms and a trained classifier model. The model and any derived technical data package (TDP) for the AAV-P7/A1 drive train are subject to ITAR controls under USML Category VII (Ground Vehicles) and may not be transferred to foreign nationals or released outside the United States without an approved export license. Source code shipped under this SOW is deemed-export controlled.
+
+4. PERSONNEL. Vendor will identify three named engineers for the pilot. Their full names, work email addresses, dates of birth, and EDIPI-equivalent contractor identifiers will be provided to the contracting officer's representative under separate cover. These fields are protected under the Privacy Act and shall not appear in any deliverable distributed beyond the COR.
+
+5. PERFORMANCE LOCATION. Work is performed on-site at MCLB Albany Building 3700, the Albany Predictive Maintenance Lab. The lab's physical security plan, badging procedures, and after-hours access roster are referenced in Annex B and are not for release outside the MCLB Albany Information Protection Office.
+
+6. RELEASABILITY. Vendor acknowledges that source-selection-sensitive material, ITAR-controlled technical data, and Privacy-Act-protected personnel data each carry distinct CUI handling requirements. Vendor shall mark all deliverables in accordance with DoDM 5200.01 Vol 2 and the contract Data Item Descriptions (DIDs).

@@ -1,0 +1,93 @@
+{
+  "scn_01": [
+    {
+      "trainee_response": "I push through the doorway and clear the room left to right.",
+      "evaluation": {
+        "action_classified_as": "risky",
+        "score": 25,
+        "doctrine_reference": "MCWP 3-35.3 'Military Operations on Urbanized Terrain' para 5-12",
+        "consequences_simulated": "You expose yourself to potential enemy fire in the fatal funnel.",
+        "coaching_feedback": "Pushing through the doorway without executing a proper button-hook puts you at significant risk. You must maintain stack discipline and cover the deep corner to ensure safety for yourself and your team. Remember, the fatal funnel is a critical area to avoid crossing without proper tactics.",
+        "next_scenario_suggestion": "Practice doorway entries with emphasis on button-hooking and stack discipline.",
+        "_source": "live-text-precache"
+      }
+    }
+  ],
+  "scn_02": [
+    {
+      "trainee_response": "I raise my rifle and fire warning shots into the engine block.",
+      "evaluation": {
+        "action_classified_as": "risky",
+        "score": 20,
+        "doctrine_reference": "MCRP 3-33.1A 'Civil Affairs Tactics, Techniques, and Procedures' Appendix B",
+        "consequences_simulated": "Friendly forces risk escalation and potential civilian casualties.",
+        "coaching_feedback": "Your decision to fire warning shots directly contradicts the escalation of force doctrine. You skipped critical steps by not shouting or showing your weapon first, which could lead to unnecessary escalation and jeopardize the mission. Always follow the prescribed steps to ensure safety and compliance.",
+        "next_scenario_suggestion": "Practice proper escalation of force procedures in a controlled environment.",
+        "_source": "live-text-precache"
+      }
+    }
+  ],
+  "scn_03": [
+    {
+      "trainee_response": "I rip open his trousers and pack the wound with combat gauze.",
+      "evaluation": {
+        "action_classified_as": "risky",
+        "score": 20,
+        "doctrine_reference": "TCCC Guidelines (Tactical Combat Casualty Care) \u2014 Care Under Fire phase: stop the life-threatening hemorrhage with a tourniquet, then move to cover.",
+        "consequences_simulated": "The casualty could bleed out before receiving proper care.",
+        "coaching_feedback": "You made a critical error by attempting to pack the wound instead of applying a tourniquet first. In a Care Under Fire situation, your priority must be to stop the life-threatening hemorrhage immediately. Remember, the TCCC guidelines emphasize applying a tourniquet high and tight before any other intervention.",
+        "next_scenario_suggestion": "Repeat casualty triage with a focus on TCCC principles.",
+        "_source": "live-text-precache"
+      }
+    }
+  ],
+  "scn_07": [
+    {
+      "trainee_response": "I move closer to get a better look at what is under the dirt.",
+      "evaluation": {
+        "action_classified_as": "risky",
+        "score": 20,
+        "doctrine_reference": "MCRP 3-17.2A 'Explosive Ordnance Disposal' (IED 5-Cs: Confirm, Clear, Cordon, Check, Control)",
+        "consequences_simulated": "Potential detonation of an IED, risking friendly casualties.",
+        "coaching_feedback": "Moving closer to investigate the mound is a clear violation of established protocols. You must confirm the threat from a safe distance and ensure personnel are cleared back to a minimum of 300 meters. Remember, safety is paramount in these situations.",
+        "next_scenario_suggestion": "Practice confirming IED indicators from a safe distance.",
+        "_source": "live-text-precache"
+      }
+    }
+  ],
+  "scn_06": [
+    {
+      "trainee_response": "I light them up \u2014 two thermal contacts at 180m, hostile until proven otherwise.",
+      "evaluation": {
+        "action_classified_as": "risky",
+        "score": 20,
+        "doctrine_reference": "MCWP 3-11.2 'Marine Rifle Squad' para 7-14",
+        "consequences_simulated": "Engaging unknown contacts risks friendly fire and compromises the position.",
+        "coaching_feedback": "You engaged the contacts without positively identifying them first, which is a significant doctrinal failure. Always challenge and confirm before taking action, especially at night. This could lead to unnecessary casualties and jeopardize the mission.",
+        "next_scenario_suggestion": "Practice proper engagement procedures with a focus on identification and communication.",
+        "_source": "live-text-precache"
+      }
+    }
+  ],
+  "_sample_aar": [
+    {
+      "trainee_callsign": "TRN-2-7-A",
+      "evaluation": {
+        "trainee_callsign": "TRN-2-7-A",
+        "n_attempts": 5,
+        "summary": "Across five rep'd egocentric scenarios, TRN-2-7-A demonstrates aggressive decision-making but compresses or skips doctrinal steps under perceived time pressure. Two attempts (vehicle checkpoint, night perimeter) escalated to lethal force without satisfying the EOF / positive-ID gates required by MCRP 3-33.1A and MCWP 3-11.2 respectively. Casualty triage opted for wound packing in the Care-Under-Fire phase instead of immediate tourniquet application. Recommend re-rep on EOF, positive-ID, and TCCC phase discipline before next graded iteration.",
+        "growth_areas": [
+          "Escalation of Force discipline (shout / show / shove / shoot).",
+          "Positive identification before engagement at night.",
+          "TCCC phase awareness \u2014 Care Under Fire = TQ first, packing later.",
+          "IED 5-Cs \u2014 confirm at distance, never approach."
+        ],
+        "strengths": [
+          "Decisiveness \u2014 never freezes; commits to an action.",
+          "Forward-leaning aggression in room-clearing."
+        ],
+        "next_iteration": "Re-run scn_02, scn_06, scn_03 with explicit step-by-step doctrine narration before action."
+      }
+    }
+  ]
+}

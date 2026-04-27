@@ -1,0 +1,43 @@
+1
+00:00:02,936 --> 00:00:07,936
+GUARDIAN. Stop browser AI from acting on internal LOGCOM apps.
+
+2
+00:00:07,937 --> 00:00:12,937
+LOGCOM use case: browser-based agent governance — protect CUI from Comet, manus.im, and the rest.
+
+3
+00:00:12,940 --> 00:00:17,940
+Eight active policies in the sidebar. Every event is screened against them.
+
+4
+00:00:17,942 --> 00:00:23,442
+Synthetic browser intercepts stream into the GUARDIAN middleware — no data movement.
+
+5
+00:00:23,675 --> 00:00:29,675
+Per-event chat_json policy decision — agent class, confidence, signals, action.
+
+6
+00:00:29,678 --> 00:00:35,678
+Color-coded decisions: ALLOW · BLOCK · CHALLENGE_HUMAN · REDACT_PII.
+
+7
+00:00:35,686 --> 00:00:42,186
+Every decision is appended to a SHA-256 hash-chained audit log.
+
+8
+00:00:42,197 --> 00:00:49,197
+Hero call: a posture brief — BLUF, top exfil vectors, recommended tightening.
+
+9
+00:00:49,200 --> 00:00:56,200
+Cache-first. The brief is ready before the operator clicks. Three scenarios pre-staged.
+
+10
+00:00:56,201 --> 00:01:03,701
+Set KAMIWAZA_BASE_URL and the same code routes inside your accredited boundary.
+
+11
+00:01:03,703 --> 00:01:11,703
+Powered by the Kamiwaza Stack. Deploy in hours, not months.

@@ -1,0 +1,138 @@
+[
+  {
+    "id": "scn_01",
+    "title": "Doorway Entry \u2014 Urban Structure",
+    "pov": "You are stacked second-man on a closed wooden door of a two-story residence. Friendly call-out: 'breach in 3'. No flash-bang loaded.",
+    "scene_kind": "doorway",
+    "doctrine_reference": "MCWP 3-35.3 'Military Operations on Urbanized Terrain' para 5-12 (room clearing \u2014 point of domination, button-hook)",
+    "correct_actions": [
+      "Maintain stack discipline; cover the deep corner on entry.",
+      "Button-hook to your point of domination; do not cross the threshold of fire.",
+      "Call out the room status: 'CLEAR' or 'CONTACT direction'."
+    ],
+    "common_failures": [
+      "Crossing into the fatal funnel without buttonhooking.",
+      "Losing muzzle awareness on the lead man.",
+      "Hesitating in the doorway (silhouette)."
+    ]
+  },
+  {
+    "id": "scn_02",
+    "title": "Vehicle Checkpoint \u2014 Approaching Sedan",
+    "pov": "You are senior Marine on a hasty TCP at dusk. A grey four-door sedan is rolling toward you at ~15 mph, single male driver visible, no passengers seen. Concertina is set 30m out.",
+    "scene_kind": "checkpoint",
+    "doctrine_reference": "MCRP 3-33.1A 'Civil Affairs Tactics, Techniques, and Procedures' Appendix B (escalation of force \u2014 shout, show, shove, shoot)",
+    "correct_actions": [
+      "Begin Escalation of Force: SHOUT \u2014 verbal + arm signal STOP at warning line.",
+      "If non-compliant, SHOW \u2014 visible weapon presentation, laser/light to windshield.",
+      "Continue EOF only as long as threat indicators remain ambiguous; do not skip steps."
+    ],
+    "common_failures": [
+      "Skipping straight to disabling fire on a non-hostile vehicle.",
+      "Standing in the kill-funnel of the lane instead of off-axis.",
+      "Failing to call up the contact to higher."
+    ]
+  },
+  {
+    "id": "scn_03",
+    "title": "Casualty Triage \u2014 Downed Marine",
+    "pov": "You are first to your fallen squadmate after a single-shot contact. He is supine, conscious, gripping his right thigh; bright red blood is pulsing through his trousers. You are still in the same casualty-collection point with no immediate cover.",
+    "scene_kind": "casualty",
+    "doctrine_reference": "TCCC Guidelines (Tactical Combat Casualty Care) \u2014 Care Under Fire phase: stop the life-threatening hemorrhage with a tourniquet, then move to cover.",
+    "correct_actions": [
+      "Apply a CAT tourniquet HIGH AND TIGHT on the right thigh, mark TQ time.",
+      "Drag casualty to nearest cover before transitioning to TFC phase.",
+      "Call up 9-line MEDEVAC with grid + patient precedence."
+    ],
+    "common_failures": [
+      "Starting wound packing under direct fire instead of TQ.",
+      "Removing gear / cutting clothes before stopping the bleed.",
+      "Forgetting to mark the TQ time on the casualty's forehead."
+    ]
+  },
+  {
+    "id": "scn_04",
+    "title": "Vehicle Pre-Combat Inspection \u2014 JLTV Bay",
+    "pov": "You are the assigned operator standing at the driver's side of a JLTV in the motor pool. Engine off. Your task: ECC pre-op inspection before convoy SP in 30 minutes.",
+    "scene_kind": "vehicle_interior",
+    "doctrine_reference": "TM 9-2320-450-10 'Operator Manual JLTV' \u2014 Before-Operation PMCS table 2-1 (fluids, tires, lights, comms, secure load)",
+    "correct_actions": [
+      "Walk-around: tires inflation + sidewall, fluid leaks under chassis, lights, mirrors.",
+      "Cab: secure all loose gear, check seat belts, verify radio/intercom and BFT functional.",
+      "Document deficiencies on DA Form 5988-E before turning over to convoy commander."
+    ],
+    "common_failures": [
+      "Skipping the underbody walk-around.",
+      "Loose gear in the cab (becomes a projectile in a rollover).",
+      "Not signing the 5988-E (no paper trail = the deficiency 'didn't exist')."
+    ]
+  },
+  {
+    "id": "scn_05",
+    "title": "Hallway Cross \u2014 Two-Way Hostile Building",
+    "pov": "You are halfway down a narrow second-floor hallway. An open door is on your left at 4m, another open door on your right at 7m. You hear a single English-language shout from the right-side room: 'STAY BACK!'",
+    "scene_kind": "hallway",
+    "doctrine_reference": "MCWP 3-35.3 para 5-21 (limited-penetration room clearing; pie the door before entry)",
+    "correct_actions": [
+      "Pie the right-side door from maximum standoff \u2014 do not cross the doorway.",
+      "Call out positively to identify yourself: 'US MARINES \u2014 IDENTIFY YOURSELF'.",
+      "Hold the cross-fire angle until the second team-member can mirror the left-side door."
+    ],
+    "common_failures": [
+      "Charging the door without pieing.",
+      "Sweeping muzzle through the open left door while focused right.",
+      "Failing to verbally challenge \u2014 escalates uncertainty."
+    ]
+  },
+  {
+    "id": "scn_06",
+    "title": "Night Perimeter \u2014 Movement at Treeline",
+    "pov": "You are the awake half of a two-Marine fighting position at 0247. NVGs are down. You see two thermal silhouettes drifting laterally across the treeline 180m to your front. No challenge yet.",
+    "scene_kind": "perimeter_night",
+    "doctrine_reference": "MCWP 3-11.2 'Marine Rifle Squad' para 7-14 (challenge & password; positive ID before engagement)",
+    "correct_actions": [
+      "Wake your battle buddy silently \u2014 both eyes on the contact.",
+      "Call up SALUTE to the COC over the line \u2014 do NOT engage on uncertain ID.",
+      "Issue the unit challenge per SOI; engage only after positive hostile ID or hostile act."
+    ],
+    "common_failures": [
+      "Engaging unknown contacts at night without challenge.",
+      "Going to white light (compromises position).",
+      "Calling up after engaging instead of before."
+    ]
+  },
+  {
+    "id": "scn_07",
+    "title": "IED Indicator \u2014 Roadside Anomaly",
+    "pov": "You are dismounted lead, walking point on a rural dirt road. 12m to your front, on the right shoulder, you see a freshly disturbed mound of dirt with a single piece of red fabric flagged on a stick beside it.",
+    "scene_kind": "ied",
+    "doctrine_reference": "MCRP 3-17.2A 'Explosive Ordnance Disposal' (IED 5-Cs: Confirm, Clear, Cordon, Check, Control)",
+    "correct_actions": [
+      "CONFIRM at distance \u2014 do not approach. Use optics.",
+      "CLEAR personnel back to minimum 300m and CORDON the area.",
+      "Call up 9-line UXO/IED report; request EOD; CHECK for secondary devices on egress route."
+    ],
+    "common_failures": [
+      "Walking up to 'just take a look'.",
+      "Pulling/touching the flag (potential command wire).",
+      "Pulling everyone into a single 100% bunched cordon (secondary device target)."
+    ]
+  },
+  {
+    "id": "scn_08",
+    "title": "Civilian Crowd Approach \u2014 Local National Family",
+    "pov": "You are squad-leader's point on a foot patrol through a village. Five local nationals \u2014 two adults, three children \u2014 are walking quickly toward you down the main street. Adults' hands are visible and empty.",
+    "scene_kind": "civilian",
+    "doctrine_reference": "MCRP 3-33.1A 'Civil Affairs TTP' chapter 4 (cultural engagement; presumption of non-combatant status absent hostile indicator)",
+    "correct_actions": [
+      "Maintain weapon at low-ready (NOT muzzle-up at family).",
+      "Use the interpreter or established hand signals to halt politely at safe distance.",
+      "Continue the patrol's mission; report contact to higher; do not escalate force absent hostile act."
+    ],
+    "common_failures": [
+      "Aggressive muzzle posture toward children.",
+      "Ignoring the contact and walking past without acknowledgement.",
+      "Using lethal force without a hostile act or hostile intent."
+    ]
+  }
+]

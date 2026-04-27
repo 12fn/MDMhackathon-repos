@@ -1,0 +1,213 @@
+[
+  {
+    "a": "BAOTOU",
+    "b": "MALACCA",
+    "mode": "sea",
+    "annual_value_musd": 1700
+  },
+  {
+    "a": "RAREEARTH",
+    "b": "MALACCA",
+    "mode": "sea",
+    "annual_value_musd": 380
+  },
+  {
+    "a": "MPMATERIAL",
+    "b": "PANAMA",
+    "mode": "sea",
+    "annual_value_musd": 270
+  },
+  {
+    "a": "MALACCA",
+    "b": "RAYTHEON",
+    "mode": "sea",
+    "annual_value_musd": 950
+  },
+  {
+    "a": "MALACCA",
+    "b": "LMARTIN",
+    "mode": "sea",
+    "annual_value_musd": 720
+  },
+  {
+    "a": "PANAMA",
+    "b": "RAYTHEON",
+    "mode": "sea",
+    "annual_value_musd": 240
+  },
+  {
+    "id": "tsmc-strait",
+    "a": "TSMC",
+    "b": "TWNSTRAIT",
+    "mode": "sea",
+    "annual_value_musd": 3800
+  },
+  {
+    "a": "GLOBALWAF",
+    "b": "TWNSTRAIT",
+    "mode": "sea",
+    "annual_value_musd": 510
+  },
+  {
+    "a": "SMIC",
+    "b": "MALACCA",
+    "mode": "sea",
+    "annual_value_musd": 1900
+  },
+  {
+    "a": "TWNSTRAIT",
+    "b": "MALACCA",
+    "mode": "sea",
+    "annual_value_musd": 4100
+  },
+  {
+    "a": "ASML",
+    "b": "SUEZ",
+    "mode": "sea",
+    "annual_value_musd": 880
+  },
+  {
+    "a": "SUEZ",
+    "b": "MALACCA",
+    "mode": "sea",
+    "annual_value_musd": 2400
+  },
+  {
+    "a": "SUEZ",
+    "b": "RAYTHEON",
+    "mode": "sea",
+    "annual_value_musd": 410
+  },
+  {
+    "a": "SHINETSU",
+    "b": "MALACCA",
+    "mode": "sea",
+    "annual_value_musd": 720
+  },
+  {
+    "a": "BABMANDEB",
+    "b": "SUEZ",
+    "mode": "sea",
+    "annual_value_musd": 2700
+  },
+  {
+    "a": "RAYTHEON",
+    "b": "F35B",
+    "mode": "road",
+    "annual_value_musd": 980
+  },
+  {
+    "a": "RAYTHEON",
+    "b": "HIMARS",
+    "mode": "road",
+    "annual_value_musd": 540
+  },
+  {
+    "a": "RAYTHEON",
+    "b": "MV22",
+    "mode": "road",
+    "annual_value_musd": 220
+  },
+  {
+    "a": "LMARTIN",
+    "b": "F35B",
+    "mode": "road",
+    "annual_value_musd": 1900
+  },
+  {
+    "a": "NORTHROP",
+    "b": "F35B",
+    "mode": "road",
+    "annual_value_musd": 1400
+  },
+  {
+    "a": "NORTHROP",
+    "b": "MV22",
+    "mode": "road",
+    "annual_value_musd": 740
+  },
+  {
+    "a": "BAE",
+    "b": "ACV",
+    "mode": "road",
+    "annual_value_musd": 870
+  },
+  {
+    "a": "BAE",
+    "b": "AMPV",
+    "mode": "road",
+    "annual_value_musd": 540
+  },
+  {
+    "a": "GDLS",
+    "b": "AMPV",
+    "mode": "road",
+    "annual_value_musd": 410
+  },
+  {
+    "a": "GDLS",
+    "b": "M88A2",
+    "mode": "road",
+    "annual_value_musd": 380
+  },
+  {
+    "a": "OSHKOSH",
+    "b": "JLTV",
+    "mode": "road",
+    "annual_value_musd": 1500
+  },
+  {
+    "a": "OSHKOSH",
+    "b": "HIMARS",
+    "mode": "road",
+    "annual_value_musd": 290
+  },
+  {
+    "a": "ROLLS",
+    "b": "MV22",
+    "mode": "road",
+    "annual_value_musd": 480
+  },
+  {
+    "a": "ROLLS",
+    "b": "CH53K",
+    "mode": "road",
+    "annual_value_musd": 920
+  },
+  {
+    "a": "PWHITNEY",
+    "b": "F35B",
+    "mode": "road",
+    "annual_value_musd": 1300
+  },
+  {
+    "a": "PWHITNEY",
+    "b": "CH53K",
+    "mode": "road",
+    "annual_value_musd": 670
+  },
+  {
+    "a": "MAXAR",
+    "b": "RAYTHEON",
+    "mode": "road",
+    "annual_value_musd": 280
+  },
+  {
+    "a": "MAXAR",
+    "b": "LMARTIN",
+    "mode": "road",
+    "annual_value_musd": 190
+  },
+  {
+    "a": "TSMC",
+    "b": "RAYTHEON",
+    "mode": "sea",
+    "annual_value_musd": 410
+  },
+  {
+    "a": "TSMC",
+    "b": "LMARTIN",
+    "mode": "sea",
+    "annual_value_musd": 380
+  }
+]

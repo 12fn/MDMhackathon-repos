@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ALB",
+    "name": "MCLB Albany",
+    "location": "Albany, GA",
+    "bays": 14,
+    "shifts_per_day": 2,
+    "skills": {
+      "hydraulics": 18,
+      "powertrain": 22,
+      "armor": 14,
+      "avionics": 6,
+      "weapons": 10
+    },
+    "specialty": [
+      "MTVR",
+      "LAV",
+      "M1A1"
+    ]
+  },
+  {
+    "id": "BAR",
+    "name": "MCLB Barstow",
+    "location": "Barstow, CA",
+    "bays": 12,
+    "shifts_per_day": 2,
+    "skills": {
+      "hydraulics": 14,
+      "powertrain": 18,
+      "armor": 16,
+      "avionics": 4,
+      "weapons": 12
+    },
+    "specialty": [
+      "AAV",
+      "LAV",
+      "MTVR"
+    ]
+  },
+  {
+    "id": "BIC",
+    "name": "Blount Island Command",
+    "location": "Jacksonville, FL",
+    "bays": 10,
+    "shifts_per_day": 3,
+    "skills": {
+      "hydraulics": 12,
+      "powertrain": 14,
+      "armor": 8,
+      "avionics": 16,
+      "weapons": 6
+    },
+    "specialty": [
+      "MV-22",
+      "AAV"
+    ]
+  }
+]

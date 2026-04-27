@@ -1,0 +1,218 @@
+{
+  "SC_DRONE_STRIKE": {
+    "scenario_id": "SC_DRONE_STRIKE",
+    "scenario_title": "Drone strike near civilian village in [theater]",
+    "trainee_message": "U.S. forces conducted a precision engagement against an adversary fast-attack craft operating in international waters earlier today. The engagement was lawful and proportionate under standing rules of engagement. We are aware of reports of an injury to a host-nation civilian and damage to a fishing vessel in the vicinity; we regret any harm to non-combatants and are coordinating closely with our host-nation partners to verify the facts and provide appropriate assistance. A formal review is underway. We will not speculate on details ahead of the investigation. The United States remains committed to lawful operations in the region and to the safety of the local community. We will provide additional information as it becomes available through official channels.",
+    "personas_used": [
+      "P01_LOCAL_PRESS",
+      "P02_CONGR_STAFFER",
+      "P03_VETERAN_INFLUENCER",
+      "P04_MIL_SPOUSE",
+      "P05_GOLD_STAR_ADV"
+    ],
+    "reactions": [
+      {
+        "persona_id": "P01_LOCAL_PRESS",
+        "perceived_message": "Reads release as guarded; will write follow-up by end of day.",
+        "trust_delta": 0,
+        "narrative_risk": "MEDIUM",
+        "predicted_action": "ignore",
+        "key_concerns_raised": [
+          "Generally aligned; would still want a named POC and a stated timeline."
+        ],
+        "_source": "baseline"
+      },
+      {
+        "persona_id": "P02_CONGR_STAFFER",
+        "perceived_message": "Reads release as guarded; will write follow-up by end of day.",
+        "trust_delta": 1,
+        "narrative_risk": "MEDIUM",
+        "predicted_action": "ignore",
+        "key_concerns_raised": [
+          "Generally aligned; would still want a named POC and a stated timeline."
+        ],
+        "_source": "baseline"
+      },
+      {
+        "persona_id": "P03_VETERAN_INFLUENCER",
+        "perceived_message": "Reads release as guarded; will write follow-up by end of day.",
+        "trust_delta": -1,
+        "narrative_risk": "MEDIUM",
+        "predicted_action": "challenge",
+        "key_concerns_raised": [
+          "No specific trigger phrase, but tone misaligned with audience values: plain English, respect for the rifleman."
+        ],
+        "_source": "baseline"
+      },
+      {
+        "persona_id": "P04_MIL_SPOUSE",
+        "perceived_message": "Reads release as guarded; will write follow-up by end of day.",
+        "trust_delta": 0,
+        "narrative_risk": "MEDIUM",
+        "predicted_action": "ignore",
+        "key_concerns_raised": [
+          "Generally aligned; would still want a named POC and a stated timeline."
+        ],
+        "_source": "baseline"
+      },
+      {
+        "persona_id": "P05_GOLD_STAR_ADV",
+        "perceived_message": "Reads release as guarded; will write follow-up by end of day.",
+        "trust_delta": -2,
+        "narrative_risk": "MEDIUM",
+        "predicted_action": "challenge",
+        "key_concerns_raised": [
+          "No specific trigger phrase, but tone misaligned with audience values: dignity of the fallen, next-of-kin first."
+        ],
+        "_source": "baseline"
+      }
+    ],
+    "brief_markdown": "## BLUF\nThe draft is factually disciplined and legally safe, but it is too guarded for a first release in a fast-moving information fight. It acknowledges possible civilian harm and avoids speculation, which helps credibility. However, it underperforms against adversary state-media speed because it lacks a timeline, a human-centered opening, and concrete next steps. Net effect: it stabilizes official posture but does not seize narrative initiative.\n\n## Audience-by-Audience Scorecard\n- **P01 Local Press \u2014 6/10**\n  - **Effect:** Neutral credibility; likely to seek other sources.\n  - **Why:** Basic facts are present, but no named POC, no update time, no specifics on host-nation coordination.\n  - **Risk:** Medium; vacuum invites adversary framing.\n\n- **P02 Congressional Staffer \u2014 7/10**\n  - **Effect:** Reads as responsible and review-oriented.\n  - **Why:** \u201cLawful and proportionate,\u201d \u201cformal review,\u201d and host-nation coordination signal process control.\n  - **Risk:** Medium; staff will still ask when next update comes.\n\n- **P03 Veteran Influencer \u2014 4/10**\n  - **Effect:** Likely challenge.\n  - **Why:** Sounds lawyerly and impersonal. \u201cPrecision engagement\u201d and ROE language feel sanitized.\n  - **Risk:** Medium; may frame statement as evasive.\n\n- **P04 Military Spouse \u2014 5/10**\n  - **Effect:** Limited reassurance.\n  - **Why:** Shows concern for civilians, but lacks plain-English explanation of what happened and what commanders are doing now.\n  - **Risk:** Medium; uncertainty persists.\n\n- **P05 Gold Star Advocate \u2014 3/10**\n  - **Effect:** Negative reaction.\n  - **Why:** No dignity-centered language; no visible emphasis on accountability, care for affected civilians, or seriousness of loss.\n  - **Risk:** Medium; tone may be seen as bureaucratic.\n\n## What Worked\n- Confirmed the strike occurred and identified the target as an adversary FAC in international waters.\n- Asserted legality and ROE basis early, useful against hostile claims of unlawful action.\n- Acknowledged reports of civilian injury and property damage rather than ignoring them.\n- Included regret and commitment to assistance, which helps with host-nation equities.\n- Avoided overclaiming before the review is complete.\n\n## What Backfired\n- **Tone:** \u201cPrecision engagement,\u201d \u201clawful and proportionate,\u201d and \u201cwill not speculate\u201d read as defensive/legalistic.\n- **No operational tempo marker:** No promise of next update by a specific time.\n- **No ownership language:** \u201cWe are aware of reports\u201d sounds distant when the U.S. conducted the strike.\n- **Weak empathy:** \u201cRegret any harm\u201d is minimal; does not convey seriousness of civilian impact.\n- **No action detail:** \u201cCoordinating closely\u201d is vague; audiences want to know who is doing what now.\n\n## Suggested Revisions\n- Lead with facts + concern: \u201cEarlier today, U.S. forces struck an adversary fast-attack craft in international waters. We are also investigating reports that fragments from the strike injured one civilian ashore and damaged a fishing boat.\u201d\n- Replace legalese with plain English; keep legality but move it later.\n- Add concrete next steps: host-nation contact, assessment team/review cell, assistance process.\n- Commit to a time-bound update: \u201cWe will provide our next update by 1500 local.\u201d\n- Add a media contact/official channel.\n- Suggested line: \u201cAny civilian harm is taken seriously, and we are working with host-nation authorities now to verify the facts and determine appropriate assistance.\u201d",
+    "generated_at": "2026-04-27T20:28:45.327914+00:00",
+    "source": "gpt-5.4-precompute"
+  },
+  "SC_FRIENDLY_FIRE": {
+    "scenario_id": "SC_FRIENDLY_FIRE",
+    "scenario_title": "Friendly-fire investigation announcement",
+    "trainee_message": "During a routine multinational live-fire exercise yesterday, an indirect-fire round impacted off the intended target. Tragically, one U.S. Marine was killed and two soldiers from our partner-nation contingent were wounded. Our deepest condolences go to the family of the fallen Marine and to our partners. The Marine's family has been notified, and his name will be released after the standard 24-hour period. The exercise has been paused pending the outcome of an investigation directed by the commanding general. We will share findings with the family and with our coalition partners, and a public summary will follow. We will not pre-judge the investigation or comment on specific personnel actions. The strength of our alliance with our partner nation is unshaken.",
+    "personas_used": [
+      "P01_LOCAL_PRESS",
+      "P02_CONGR_STAFFER",
+      "P03_VETERAN_INFLUENCER",
+      "P04_MIL_SPOUSE",
+      "P05_GOLD_STAR_ADV"
+    ],
+    "reactions": [
+      {
+        "persona_id": "P01_LOCAL_PRESS",
+        "perceived_message": "Reads release as guarded; will write follow-up by end of day.",
+        "trust_delta": 0,
+        "narrative_risk": "MEDIUM",
+        "predicted_action": "ignore",
+        "key_concerns_raised": [
+          "Generally aligned; would still want a named POC and a stated timeline."
+        ],
+        "_source": "baseline"
+      },
+      {
+        "persona_id": "P02_CONGR_STAFFER",
+        "perceived_message": "Reads release as guarded; will write follow-up by end of day.",
+        "trust_delta": 1,
+        "narrative_risk": "MEDIUM",
+        "predicted_action": "ignore",
+        "key_concerns_raised": [
+          "Generally aligned; would still want a named POC and a stated timeline."
+        ],
+        "_source": "baseline"
+      },
+      {
+        "persona_id": "P03_VETERAN_INFLUENCER",
+        "perceived_message": "Reads release as guarded; will write follow-up by end of day.",
+        "trust_delta": -1,
+        "narrative_risk": "MEDIUM",
+        "predicted_action": "challenge",
+        "key_concerns_raised": [
+          "No specific trigger phrase, but tone misaligned with audience values: plain English, respect for the rifleman."
+        ],
+        "_source": "baseline"
+      },
+      {
+        "persona_id": "P04_MIL_SPOUSE",
+        "perceived_message": "Reads release as guarded; will write follow-up by end of day.",
+        "trust_delta": 0,
+        "narrative_risk": "MEDIUM",
+        "predicted_action": "ignore",
+        "key_concerns_raised": [
+          "Generally aligned; would still want a named POC and a stated timeline."
+        ],
+        "_source": "baseline"
+      },
+      {
+        "persona_id": "P05_GOLD_STAR_ADV",
+        "perceived_message": "Reads release as guarded; will write follow-up by end of day.",
+        "trust_delta": -2,
+        "narrative_risk": "MEDIUM",
+        "predicted_action": "challenge",
+        "key_concerns_raised": [
+          "No specific trigger phrase, but tone misaligned with audience values: dignity of the fallen, next-of-kin first."
+        ],
+        "_source": "baseline"
+      }
+    ],
+    "brief_markdown": "## BLUF\nThe draft is factually sound and avoids speculation, but it lands as **guarded and institutional** rather than transparent and human. It succeeds at announcing the death, injuries, exercise pause, and investigation without prejudging fault. However, it underperforms on **trust-building** because it lacks a clear next update timeline, a media/family point of contact, and language that visibly centers the fallen Marine, wounded partners, and next-of-kin. Net effect: **adequate for initial release, but vulnerable to \u201cthey\u2019re hiding behind process\u201d narratives.**\n\n## Audience-by-Audience Scorecard\n| Audience | Score | Likely Effect | Key Issue |\n|---|---:|---|---|\n| Local Press | 6/10 | Will seek follow-up same day | No named POC; no timeline for next update |\n| Congressional Staffer | 7/10 | Sees message as responsible but incomplete | Wants cadence and accountability markers |\n| Veteran Influencer | 4/10 | Likely to challenge tone publicly | Sounds bureaucratic; not plain-spoken |\n| Military Spouse | 5/10 | Mixed reassurance; lingering anxiety | Wants clearer family-first posture and update timing |\n| Gold Star Advocate | 3/10 | High chance of criticism | \u201c24-hour period\u201d and process language feel impersonal |\n\n## What Worked\n- **Core facts are present:** off-target impact, one Marine killed, two partner-nation soldiers wounded, exercise paused, investigation directed.\n- **Avoids speculation:** \u201cWe will not pre-judge the investigation\u201d is appropriate and protective.\n- **Signals accountability:** promising a public summary helps counter perceptions of a closed internal process.\n- **Alliance reassurance:** useful to state continued commitment to coalition relationships after partner casualties.\n\n## What Backfired\n- **\u201cRoutine\u201d** can read as minimizing a fatal event.\n- **\u201c24-hour period\u201d** is technically accurate but emotionally cold; better to emphasize next-of-kin and policy.\n- **No timing commitment:** \u201cpending the outcome\u201d suggests a long silence. Audiences want to know when they will hear more, even if only \u201cwithin 24 hours.\u201d\n- **No operational response detail:** omits the important fact that the range was made cold within 90 seconds, which demonstrates immediate control action.\n- **Tone is too institutional:** phrases like \u201cpartner-nation contingent\u201d and \u201cspecific personnel actions\u201d sound legalistic, not compassionate.\n\n## Suggested Revisions\n- Replace **\u201croutine multinational live-fire exercise\u201d** with **\u201ca multinational live-fire exercise\u201d**.\n- Add immediate-action fact: **\u201cThe range was made cold within 90 seconds, and the exercise is paused pending preliminary findings.\u201d**\n- Reframe NOK language: **\u201cThe Marine\u2019s family has been notified. In keeping with policy and out of respect for the family, the name will be released after 24 hours.\u201d**\n- Use plainer, more human wording: **\u201ctwo allied soldiers\u201d** instead of **\u201cpartner-nation contingent.\u201d**\n- Add update cadence and POC: **\u201cWe will provide the next update within 24 hours\u201d** and include a media contact.\n- Tighten alliance line: **\u201cWe are in direct contact with our allied partners and committed to full transparency with them and the Marine\u2019s family.\u201d**\n- Consider opening with accountability and dignity: **\u201cWe are grieving the loss of a Marine and the wounding of two allied soldiers after an indirect-fire round impacted off target.\u201d**",
+    "generated_at": "2026-04-27T20:28:45.328089+00:00",
+    "source": "gpt-5.4-precompute"
+  },
+  "SC_BASE_CLOSURE": {
+    "scenario_id": "SC_BASE_CLOSURE",
+    "scenario_title": "Base-closure community outreach",
+    "trainee_message": "As part of the Marine Corps' continued implementation of Force Design 2030, the Department has directed a planned drawdown of one squadron and one logistics battalion from this installation by FY28. We recognize that this change will have a real impact on the surrounding community \u2014 an estimated reduction of approximately $90M in annual local economic activity and the relocation of approximately 1,400 personnel and their families. We are committed to an open, sustained dialogue with the community throughout this transition. The installation will host a community town hall on the third Thursday of next month, with a community-liaison officer designated as the standing point of contact. The Marine Corps deeply values the decades-long partnership with this community and will work to ensure the transition is conducted with the same care and transparency the community has come to expect.",
+    "personas_used": [
+      "P01_LOCAL_PRESS",
+      "P02_CONGR_STAFFER",
+      "P03_VETERAN_INFLUENCER",
+      "P04_MIL_SPOUSE",
+      "P05_GOLD_STAR_ADV"
+    ],
+    "reactions": [
+      {
+        "persona_id": "P01_LOCAL_PRESS",
+        "perceived_message": "Reads release as guarded; will write follow-up by end of day.",
+        "trust_delta": 0,
+        "narrative_risk": "MEDIUM",
+        "predicted_action": "ignore",
+        "key_concerns_raised": [
+          "Generally aligned; would still want a named POC and a stated timeline."
+        ],
+        "_source": "baseline"
+      },
+      {
+        "persona_id": "P02_CONGR_STAFFER",
+        "perceived_message": "Reads release as guarded; will write follow-up by end of day.",
+        "trust_delta": 1,
+        "narrative_risk": "MEDIUM",
+        "predicted_action": "ignore",
+        "key_concerns_raised": [
+          "Generally aligned; would still want a named POC and a stated timeline."
+        ],
+        "_source": "baseline"
+      },
+      {
+        "persona_id": "P03_VETERAN_INFLUENCER",
+        "perceived_message": "Reads release as guarded; will write follow-up by end of day.",
+        "trust_delta": -1,
+        "narrative_risk": "MEDIUM",
+        "predicted_action": "challenge",
+        "key_concerns_raised": [
+          "No specific trigger phrase, but tone misaligned with audience values: plain English, respect for the rifleman."
+        ],
+        "_source": "baseline"
+      },
+      {
+        "persona_id": "P04_MIL_SPOUSE",
+        "perceived_message": "Reads release as guarded; will write follow-up by end of day.",
+        "trust_delta": 0,
+        "narrative_risk": "MEDIUM",
+        "predicted_action": "ignore",
+        "key_concerns_raised": [
+          "Generally aligned; would still want a named POC and a stated timeline."
+        ],
+        "_source": "baseline"
+      },
+      {
+        "persona_id": "P05_GOLD_STAR_ADV",
+        "perceived_message": "Reads release as guarded; will write follow-up by end of day.",
+        "trust_delta": -2,
+        "narrative_risk": "MEDIUM",
+        "predicted_action": "challenge",
+        "key_concerns_raised": [
+          "No specific trigger phrase, but tone misaligned with audience values: dignity of the fallen, next-of-kin first."
+        ],
+        "_source": "baseline"
+      }
+    ],
+    "brief_markdown": "## BLUF\nThe draft is factually solid and appropriately acknowledges economic and family impacts, but it underperforms on trust-building. Across all five personas, the dominant read is \u201cguarded,\u201d driven by institutional phrasing, lack of a named point of contact, and no concrete engagement timeline beyond one town hall. Net effect: acceptable baseline transparency, but insufficient specificity to shape the narrative before critics and local media fill gaps.\n\n## Audience-by-Audience Scorecard\n| Audience | Effectiveness | Trust Signal | Main Risk | Likely Outcome |\n|---|---:|---:|---|---|\n| Local press | 5/10 | Neutral | Story becomes \u201cwhat they aren\u2019t saying\u201d | Immediate follow-up seeking names, dates, decision milestones |\n| Congressional staff | 6/10 | Slight positive | Delegation feels informed late, not engaged early | Requests direct briefing and more detail |\n| Veteran influencer | 4/10 | Negative | Frames move as bureaucratic and disconnected from Marines | Public challenge on tone and plain-English credibility |\n| Military spouse | 5/10 | Neutral | Families feel acknowledged but not supported | Wait-and-see; asks practical relocation questions |\n| Gold Star advocate | 3/10 | Strong negative | Tone seen as procedural rather than values-based | Critique that message lacks dignity and people-first sequencing |\n\n## What Worked\n- States the decision clearly: drawdown of one squadron and one logistics battalion by FY28.\n- Quantifies impact credibly: 1,400 relocations and $90M annual economic shift.\n- Acknowledges community consequences instead of minimizing them.\n- Commits to dialogue and announces a town hall, which signals some openness.\n- Reinforces long-standing partnership with the community, useful for local stakeholders.\n\n## What Backfired\n- \u201cContinued implementation of Force Design 2030\u201d leads with bureaucracy, not people or mission.\n- \u201cDepartment has directed\u201d sounds detached and evasive; no ownership by installation leadership.\n- \u201cThird Thursday of next month\u201d is imprecise for a release; readers expect a date, time, and venue.\n- \u201cCommunity-liaison officer designated as the standing point of contact\u201d is impersonal; no name, office, email, or phone.\n- No timeline of next steps: when units begin moving, when families get guidance, when elected officials will be briefed.\n- No audience-specific reassurance for families, veterans, or those sensitive to service and sacrifice.\n- Tone is polished but bloodless; invites \u201cguarded\u201d coverage and challenge narratives.\n\n## Suggested Revisions\n- Lead with people and mission: \u201cThis decision affects Marines, families, civilian employees, and our host community, and we want to share what we know now.\u201d\n- Add command ownership: quote the installation commander by name.\n- Publish specifics: exact town-hall date/time/location, RSVP or livestream details, and a named POC with contact info.\n- Include a short milestone timeline: initial briefings, recurring updates, expected FY28 transition phases.\n- Add family-facing language: relocation support, school/employment resources, and when those details will be released.\n- Add elected-official/community engagement: \u201cWe are scheduling briefings with the mayor, chamber, and congressional offices this week.\u201d\n- Use plainer English and values-based framing: emphasize respect for Marines, families, and the community\u2019s decades of support.\n- Avoid overclaiming \u201ctransparency\u201d; instead promise concrete update cadence, e.g., \u201cmonthly public updates.\u201d",
+    "generated_at": "2026-04-27T20:28:45.328143+00:00",
+    "source": "gpt-5.4-precompute"
+  }
+}

@@ -1,0 +1,24 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1440
+PlayResY: 900
+ScaledBorderAndShadow: yes
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Helvetica,22,&H00FFFFFF,&H00FFFFFF,&H00000000,&HC8000000,1,0,0,0,100,100,0,0,3,1,0.5,2,80,80,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:03.57,0:00:08.57,Default,,0,0,0,,QUEUE. Depot Maintenance Throughput Optimizer.
+Dialogue: 0,0:00:08.57,0:00:13.57,Default,,0,0,0,,LOGCOM use case: AI-driven scheduling for induction sequencing,\Nworkforce, and parts.
+Dialogue: 0,0:00:13.58,0:00:18.58,Default,,0,0,0,,Three depots: MCLB Albany, Barstow, Blount Island Command.
+Dialogue: 0,0:00:18.58,0:00:24.58,Default,,0,0,0,,Eighty end items ingested from a GCSS-MC stand-in. No data movement.
+Dialogue: 0,0:00:24.58,0:00:30.58,Default,,0,0,0,,Greedy priority-weighted scheduler emits a 30-day Plotly Gantt across\N3 depots.
+Dialogue: 0,0:00:29.11,0:00:36.11,Default,,0,0,0,,Hero AI layer analyzes the schedule. Structured JSON, then narrative\Nbrief.
+Dialogue: 0,0:00:36.13,0:00:43.13,Default,,0,0,0,,Bottleneck named. Parts cascading effects. Top-5 actions for next 30\Ndays.
+Dialogue: 0,0:00:43.13,0:00:49.13,Default,,0,0,0,,Tune workforce or parts release on the sidebar — the Gantt re-renders\Nlive.
+Dialogue: 0,0:00:49.15,0:00:56.15,Default,,0,0,0,,Set KAMIWAZA_BASE_URL and the same code runs against an on-prem model.
+Dialogue: 0,0:00:56.15,0:01:04.15,Default,,0,0,0,,Powered by the Kamiwaza Stack. Air-gapped, IL5/IL6 ready.

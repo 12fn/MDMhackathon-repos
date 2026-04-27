@@ -1,0 +1,283 @@
+[
+  {
+    "id": "pendleton",
+    "name": "MCB Camp Pendleton",
+    "state": "CA",
+    "centroid": [
+      33.3858,
+      -117.5631
+    ],
+    "polygon": [
+      [
+        33.55,
+        -117.71
+      ],
+      [
+        33.55,
+        -117.32
+      ],
+      [
+        33.21,
+        -117.32
+      ],
+      [
+        33.21,
+        -117.71
+      ]
+    ],
+    "personnel": 70000,
+    "commander": "MajGen Marine, CG MCIWEST-MCB CamPen",
+    "gates": [
+      {
+        "id": "GATE-MAIN",
+        "name": "Main Gate (Vandegrift)",
+        "lat": 33.2284,
+        "lon": -117.3893,
+        "expected_throughput_per_hr": [
+          40,
+          220
+        ]
+      },
+      {
+        "id": "GATE-SAN-LUIS-REY",
+        "name": "San Luis Rey Gate",
+        "lat": 33.24,
+        "lon": -117.4192,
+        "expected_throughput_per_hr": [
+          20,
+          140
+        ]
+      },
+      {
+        "id": "GATE-LAS-PULGAS",
+        "name": "Las Pulgas Gate",
+        "lat": 33.347,
+        "lon": -117.503,
+        "expected_throughput_per_hr": [
+          15,
+          90
+        ]
+      },
+      {
+        "id": "GATE-DEL-MAR",
+        "name": "Del Mar Gate",
+        "lat": 33.2503,
+        "lon": -117.435,
+        "expected_throughput_per_hr": [
+          10,
+          70
+        ]
+      },
+      {
+        "id": "GATE-CRISTIANITOS",
+        "name": "Cristianitos Gate",
+        "lat": 33.4622,
+        "lon": -117.5917,
+        "expected_throughput_per_hr": [
+          5,
+          60
+        ]
+      }
+    ],
+    "utility_nodes": [
+      {
+        "id": "WATER-TOWER-MAINSIDE",
+        "kind": "water",
+        "name": "Mainside Water Tower",
+        "lat": 33.385,
+        "lon": -117.564,
+        "expected_psi": [
+          62.0,
+          78.0
+        ],
+        "capacity_gal": 1500000
+      },
+      {
+        "id": "WATER-TOWER-SAN-MATEO",
+        "kind": "water",
+        "name": "San Mateo Water Tower",
+        "lat": 33.4555,
+        "lon": -117.615,
+        "expected_psi": [
+          58.0,
+          74.0
+        ],
+        "capacity_gal": 800000
+      },
+      {
+        "id": "POWER-SUBSTATION-22",
+        "kind": "power",
+        "name": "22-Area Substation",
+        "lat": 33.3712,
+        "lon": -117.531,
+        "expected_load_mw": [
+          4.5,
+          9.2
+        ],
+        "feeder": "SDG&E Tap 12kV"
+      },
+      {
+        "id": "POWER-SUBSTATION-43",
+        "kind": "power",
+        "name": "43-Area Substation",
+        "lat": 33.301,
+        "lon": -117.448,
+        "expected_load_mw": [
+          2.0,
+          5.5
+        ],
+        "feeder": "SDG&E Tap 12kV"
+      },
+      {
+        "id": "FUEL-DEPOT-NFTI",
+        "kind": "fuel",
+        "name": "NFTI Fuel Depot",
+        "lat": 33.245,
+        "lon": -117.414,
+        "expected_inventory_gal": [
+          180000,
+          240000
+        ],
+        "capacity_gal": 320000
+      }
+    ],
+    "ems_units": [
+      {
+        "id": "ENGINE-CO-1",
+        "name": "Engine Company 1 (Mainside)",
+        "lat": 33.3855,
+        "lon": -117.5625,
+        "type": "fire"
+      },
+      {
+        "id": "ENGINE-CO-3",
+        "name": "Engine Company 3 (San Mateo)",
+        "lat": 33.454,
+        "lon": -117.616,
+        "type": "fire"
+      },
+      {
+        "id": "MEDIC-2",
+        "name": "Medic 2 (Naval Hospital)",
+        "lat": 33.372,
+        "lon": -117.541,
+        "type": "ems"
+      },
+      {
+        "id": "MEDIC-5",
+        "name": "Medic 5 (43 Area)",
+        "lat": 33.3015,
+        "lon": -117.449,
+        "type": "ems"
+      },
+      {
+        "id": "PMO-PATROL-7",
+        "name": "PMO Patrol 7",
+        "lat": 33.26,
+        "lon": -117.425,
+        "type": "police"
+      }
+    ],
+    "critical_infrastructure": [
+      {
+        "id": "HIFLD-WT-001",
+        "kind": "water_tower",
+        "name": "Mainside Water Tower",
+        "lat": 33.385,
+        "lon": -117.564,
+        "owner": "MCIWEST-DPW",
+        "fips_state": "06",
+        "fips_county": "073",
+        "status": "operational"
+      },
+      {
+        "id": "HIFLD-WT-002",
+        "kind": "water_tower",
+        "name": "San Mateo Water Tower",
+        "lat": 33.4555,
+        "lon": -117.615,
+        "owner": "MCIWEST-DPW",
+        "fips_state": "06",
+        "fips_county": "073",
+        "status": "operational"
+      },
+      {
+        "id": "HIFLD-FD-001",
+        "kind": "fuel_depot",
+        "name": "NFTI Fuel Depot",
+        "lat": 33.245,
+        "lon": -117.414,
+        "owner": "DLA Energy",
+        "fips_state": "06",
+        "fips_county": "073",
+        "status": "operational"
+      },
+      {
+        "id": "HIFLD-MAG-001",
+        "kind": "magazine",
+        "name": "Las Pulgas Ammo Magazine 14",
+        "lat": 33.345,
+        "lon": -117.505,
+        "owner": "MCIWEST-Ord",
+        "fips_state": "06",
+        "fips_county": "073",
+        "status": "operational"
+      },
+      {
+        "id": "HIFLD-MAG-002",
+        "kind": "magazine",
+        "name": "Camp Horno Magazine 7",
+        "lat": 33.41,
+        "lon": -117.555,
+        "owner": "MCIWEST-Ord",
+        "fips_state": "06",
+        "fips_county": "073",
+        "status": "operational"
+      },
+      {
+        "id": "HIFLD-PS-001",
+        "kind": "power_substation",
+        "name": "22-Area Substation",
+        "lat": 33.3712,
+        "lon": -117.531,
+        "owner": "SDG&E / MCIWEST",
+        "fips_state": "06",
+        "fips_county": "073",
+        "status": "operational"
+      },
+      {
+        "id": "HIFLD-PS-002",
+        "kind": "power_substation",
+        "name": "43-Area Substation",
+        "lat": 33.301,
+        "lon": -117.448,
+        "owner": "SDG&E / MCIWEST",
+        "fips_state": "06",
+        "fips_county": "073",
+        "status": "operational"
+      },
+      {
+        "id": "HIFLD-CT-001",
+        "kind": "comms_tower",
+        "name": "MCB Mainside Trunked Radio Tower",
+        "lat": 33.387,
+        "lon": -117.566,
+        "owner": "MCEN-USMC G6",
+        "fips_state": "06",
+        "fips_county": "073",
+        "status": "operational"
+      },
+      {
+        "id": "HIFLD-HOSP-001",
+        "kind": "hospital",
+        "name": "Naval Hospital Camp Pendleton",
+        "lat": 33.372,
+        "lon": -117.541,
+        "owner": "Navy BUMED",
+        "fips_state": "06",
+        "fips_county": "073",
+        "status": "operational"
+      }
+    ]
+  }
+]

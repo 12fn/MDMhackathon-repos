@@ -1,0 +1,68 @@
+[
+  {
+    "id": "S001",
+    "name": "warehouse_grid",
+    "title": "Warehouse cube \u2014 staged pallets",
+    "scene_type": "warehouse",
+    "true_pallets": 24,
+    "pallet_type": "wood-stringer",
+    "estimated_avg_kg_per_pallet": 410,
+    "narration": "Class IX repair parts staged at MCLB Albany inbound dock.",
+    "local_path": "sample_images/S001_warehouse_grid.jpg"
+  },
+  {
+    "id": "S002",
+    "name": "loading_dock_mixed",
+    "title": "Loading dock \u2014 mixed cargo",
+    "scene_type": "loading_dock",
+    "true_pallets": 9,
+    "pallet_type": "mixed",
+    "estimated_avg_kg_per_pallet": 540,
+    "narration": "Mixed Class I and Class IV palletized for outbound MTVR run.",
+    "local_path": "sample_images/S002_loading_dock_mixed.jpg"
+  },
+  {
+    "id": "S003",
+    "name": "drone_overhead_truck",
+    "title": "Drone overhead \u2014 MTVR loaded",
+    "scene_type": "drone_overhead",
+    "true_pallets": 4,
+    "pallet_type": "463L",
+    "estimated_avg_kg_per_pallet": 1450,
+    "narration": "Drone overhead pass; MTVR cargo bed fully built up.",
+    "local_path": "sample_images/S003_drone_overhead_truck.jpg"
+  },
+  {
+    "id": "S004",
+    "name": "flight_line_463l",
+    "title": "Flight line \u2014 463L stacks",
+    "scene_type": "flight_line",
+    "true_pallets": 12,
+    "pallet_type": "463L",
+    "estimated_avg_kg_per_pallet": 1820,
+    "narration": "463L cargo pallets staged for next C-17 lift.",
+    "local_path": "sample_images/S004_flight_line_463l.jpg"
+  },
+  {
+    "id": "S005",
+    "name": "construction_yard",
+    "title": "Construction yard \u2014 heavy equipment",
+    "scene_type": "construction_yard",
+    "true_pallets": 6,
+    "pallet_type": "mixed",
+    "estimated_avg_kg_per_pallet": 880,
+    "narration": "Engineer support equipment + Class IV barrier stock.",
+    "local_path": "sample_images/S005_construction_yard.jpg"
+  },
+  {
+    "id": "S006",
+    "name": "ship_deck_pallets",
+    "title": "Ship deck \u2014 sealift staging",
+    "scene_type": "ship_deck",
+    "true_pallets": 36,
+    "pallet_type": "464L",
+    "estimated_avg_kg_per_pallet": 720,
+    "narration": "MPSRON staging deck; sustainment cargo pre-positioned.",
+    "local_path": "sample_images/S006_ship_deck_pallets.jpg"
+  }
+]

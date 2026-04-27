@@ -1,0 +1,2500 @@
+{
+  "scenarios": {
+    "transcript_export": {
+      "query": "How do I pull a battalion-wide transcript report and approve a CUI course for publication?",
+      "best_for": "capt_doe",
+      "by_persona": {
+        "pvt_joe": {
+          "answer": "You can\u2019t do either action with your current role.\n\n- **Battalion-wide transcript report:** students can only view **their own** transcript under **Profile \u2192 Transcript** and export it as PDF. Other Marines\u2019 transcripts are not visible to students; that requires instructor-or-above access [DOC-003].\n- **Approve a CUI course for publication:** I don\u2019t have any authorized snippet showing publication approval rights, and your persona has no CMS approval permissions. You\u2019ll need the appropriate CMS approver role or to route this to the proper approving authority.\n\nIf you need a unit-level transcript report, request the instructor/admin role from your chain or S-1. For the CUI publication request, route it to your CMS approver or content owner.",
+          "cited_docs": [
+            {
+              "doc_id": "DOC-003",
+              "title": "Viewing your transcript",
+              "app": "LMS"
+            },
+            {
+              "doc_id": "DOC-018",
+              "title": "Promotion-eligibility courses",
+              "app": "LMS"
+            },
+            {
+              "doc_id": "DOC-005",
+              "title": "Course completion certificates",
+              "app": "LMS"
+            }
+          ],
+          "denied_docs": [
+            {
+              "doc_id": "DOC-006",
+              "title": "Creating a course (instructor)",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'instructor' (rank 2); persona has 'student' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-007",
+              "title": "Grading rubric configuration",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'instructor' (rank 2); persona has 'student' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-008",
+              "title": "Bulk-assigning a course to a unit",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'instructor' (rank 2); persona has 'student' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-009",
+              "title": "Battalion-level transcript reporting",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'manager' (rank 3); persona has 'student' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-010",
+              "title": "Approving a CUI course for publication",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'manager' (rank 3); persona has 'student' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-011",
+              "title": "Delegated authoring for contractors",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'author' (rank 2); persona has 'student' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-012",
+              "title": "Vendor identity boundary",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'author' (rank 2); persona has 'student' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-013",
+              "title": "Recovering a deleted course",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'manager' (rank 3); persona has 'student' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-014",
+              "title": "API integration with GCSS-MC",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'manager' (rank 3); persona has 'student' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-017",
+              "title": "Quizzes and proctoring",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'instructor' (rank 2); persona has 'student' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-020",
+              "title": "Editing a unit page",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-021",
+              "title": "Publishing a battalion announcement",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'approver' (rank 3); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-022",
+              "title": "Page version history",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-023",
+              "title": "Embedded BBB sessions on a page",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-024",
+              "title": "Image gallery upload",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-025",
+              "title": "Search index re-build",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'manager' (rank 3); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-026",
+              "title": "Vendor portal pages",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-027",
+              "title": "Page classification guard",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-029",
+              "title": "Restoring a deleted page",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'approver' (rank 3); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-030",
+              "title": "Page review workflow",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-032",
+              "title": "Tag taxonomy",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-034",
+              "title": "Creating a unit meeting",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'moderator' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-035",
+              "title": "Recording a session",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'host' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-036",
+              "title": "Battalion-wide town hall",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'host' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-037",
+              "title": "Breakout rooms",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'moderator' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-038",
+              "title": "Polling and quizzes",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'moderator' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-041",
+              "title": "External / vendor invites",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'moderator' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-042",
+              "title": "End-of-meeting after-action",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'moderator' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-043",
+              "title": "Recording retention",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'host' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-044",
+              "title": "Meeting access logs",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'host' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-047",
+              "title": "Logging in with CAC",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'viewer' (rank 1); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-048",
+              "title": "MFA enrollment",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'viewer' (rank 1); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-049",
+              "title": "Role assignment (operator)",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-050",
+              "title": "ABAC attribute model",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-051",
+              "title": "Auditor view of unit users",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'auditor' (rank 4); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-052",
+              "title": "Realm separation \u2014 vendor vs uniformed",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'auditor' (rank 4); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-053",
+              "title": "Session timeout",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'viewer' (rank 1); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-054",
+              "title": "Step-up authentication",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'viewer' (rank 1); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-055",
+              "title": "Service account management",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-056",
+              "title": "Audit log search",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'auditor' (rank 4); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-057",
+              "title": "Group-based access control",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-058",
+              "title": "Federated login from partner nation",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-059",
+              "title": "Account deactivation on PCS / EAS",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-060",
+              "title": "Admin console \u2014 emergency lockout",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            }
+          ]
+        },
+        "sgt_jane": {
+          "answer": "For the battalion-wide transcript report: as an LMS instructor, you can view transcripts for Marines in your unit scope, but the help only covers self-service transcripts and notes that other Marines\u2019 transcripts are not visible to students; it does not provide a battalion-wide report function here [DOC-003]. If you need a broader transcript report, route that request to the appropriate LMS admin or higher-privileged instructor/manager.\n\nFor approving a CUI course for publication in CMS: you cannot approve it with your current role. The CMS help says publishing a CUI page requires an Approver role at the battalion level [DOC-020]. You\u2019re an author only, so request the battalion-level Approver role or send it to the battalion approver for publication [DOC-020].\n\n",
+          "cited_docs": [
+            {
+              "doc_id": "DOC-003",
+              "title": "Viewing your transcript",
+              "app": "LMS"
+            },
+            {
+              "doc_id": "DOC-020",
+              "title": "Editing a unit page",
+              "app": "CMS"
+            },
+            {
+              "doc_id": "DOC-008",
+              "title": "Bulk-assigning a course to a unit",
+              "app": "LMS"
+            }
+          ],
+          "denied_docs": [
+            {
+              "doc_id": "DOC-009",
+              "title": "Battalion-level transcript reporting",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'manager' (rank 3); persona has 'instructor' (rank 2)."
+            },
+            {
+              "doc_id": "DOC-010",
+              "title": "Approving a CUI course for publication",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'manager' (rank 3); persona has 'instructor' (rank 2)."
+            },
+            {
+              "doc_id": "DOC-011",
+              "title": "Delegated authoring for contractors",
+              "app": "LMS",
+              "reason": "ABAC: scope=VENDOR; persona is not in a vendor unit_scope."
+            },
+            {
+              "doc_id": "DOC-012",
+              "title": "Vendor identity boundary",
+              "app": "LMS",
+              "reason": "ABAC: scope=VENDOR; persona is not in a vendor unit_scope."
+            },
+            {
+              "doc_id": "DOC-013",
+              "title": "Recovering a deleted course",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'manager' (rank 3); persona has 'instructor' (rank 2)."
+            },
+            {
+              "doc_id": "DOC-014",
+              "title": "API integration with GCSS-MC",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'manager' (rank 3); persona has 'instructor' (rank 2)."
+            },
+            {
+              "doc_id": "DOC-021",
+              "title": "Publishing a battalion announcement",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'approver' (rank 3); persona has 'author' (rank 2)."
+            },
+            {
+              "doc_id": "DOC-025",
+              "title": "Search index re-build",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'manager' (rank 3); persona has 'author' (rank 2)."
+            },
+            {
+              "doc_id": "DOC-026",
+              "title": "Vendor portal pages",
+              "app": "CMS",
+              "reason": "ABAC: scope=VENDOR; persona is not in a vendor unit_scope."
+            },
+            {
+              "doc_id": "DOC-029",
+              "title": "Restoring a deleted page",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'approver' (rank 3); persona has 'author' (rank 2)."
+            },
+            {
+              "doc_id": "DOC-035",
+              "title": "Recording a session",
+              "app": "BBB",
+              "reason": "ABAC: scope=BATTALION; persona role rank insufficient for battalion-scoped content."
+            },
+            {
+              "doc_id": "DOC-036",
+              "title": "Battalion-wide town hall",
+              "app": "BBB",
+              "reason": "ABAC: scope=BATTALION; persona role rank insufficient for battalion-scoped content."
+            },
+            {
+              "doc_id": "DOC-041",
+              "title": "External / vendor invites",
+              "app": "BBB",
+              "reason": "ABAC: scope=VENDOR; persona is not in a vendor unit_scope."
+            },
+            {
+              "doc_id": "DOC-043",
+              "title": "Recording retention",
+              "app": "BBB",
+              "reason": "ABAC: scope=BATTALION; persona role rank insufficient for battalion-scoped content."
+            },
+            {
+              "doc_id": "DOC-044",
+              "title": "Meeting access logs",
+              "app": "BBB",
+              "reason": "ABAC: scope=BATTALION; persona role rank insufficient for battalion-scoped content."
+            },
+            {
+              "doc_id": "DOC-047",
+              "title": "Logging in with CAC",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'viewer' (rank 1); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-048",
+              "title": "MFA enrollment",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'viewer' (rank 1); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-049",
+              "title": "Role assignment (operator)",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-050",
+              "title": "ABAC attribute model",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-051",
+              "title": "Auditor view of unit users",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'auditor' (rank 4); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-052",
+              "title": "Realm separation \u2014 vendor vs uniformed",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'auditor' (rank 4); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-053",
+              "title": "Session timeout",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'viewer' (rank 1); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-054",
+              "title": "Step-up authentication",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'viewer' (rank 1); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-055",
+              "title": "Service account management",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-056",
+              "title": "Audit log search",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'auditor' (rank 4); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-057",
+              "title": "Group-based access control",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-058",
+              "title": "Federated login from partner nation",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-059",
+              "title": "Account deactivation on PCS / EAS",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-060",
+              "title": "Admin console \u2014 emergency lockout",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            }
+          ]
+        },
+        "capt_doe": {
+          "answer": "You can do both in LMS as a Battalion S-3/manager.\n\nFor the battalion-wide transcript report: use the aggregate transcript reporting view for courses in your unit scope. It shows completion %, average score, and overdue count, and you can export to CSV or push to GCSS-MC for readiness rollups [DOC-009].\n\nFor CUI course publication: open the **Pending Approval** queue. Each item shows the author, classification, and target unit, with a one-click **approve/reject** action. If you reject, you\u2019ll be prompted for a comment that goes back to the author [DOC-010].\n\nIf you get a \u201cNot authorized\u201d message, verify your LMS role assignment in Keycloak [DOC-009].",
+          "cited_docs": [
+            {
+              "doc_id": "DOC-009",
+              "title": "Battalion-level transcript reporting",
+              "app": "LMS"
+            },
+            {
+              "doc_id": "DOC-010",
+              "title": "Approving a CUI course for publication",
+              "app": "LMS"
+            },
+            {
+              "doc_id": "DOC-003",
+              "title": "Viewing your transcript",
+              "app": "LMS"
+            }
+          ],
+          "denied_docs": [
+            {
+              "doc_id": "DOC-011",
+              "title": "Delegated authoring for contractors",
+              "app": "LMS",
+              "reason": "ABAC: scope=VENDOR; persona is not in a vendor unit_scope."
+            },
+            {
+              "doc_id": "DOC-012",
+              "title": "Vendor identity boundary",
+              "app": "LMS",
+              "reason": "ABAC: scope=VENDOR; persona is not in a vendor unit_scope."
+            },
+            {
+              "doc_id": "DOC-026",
+              "title": "Vendor portal pages",
+              "app": "CMS",
+              "reason": "ABAC: scope=VENDOR; persona is not in a vendor unit_scope."
+            },
+            {
+              "doc_id": "DOC-035",
+              "title": "Recording a session",
+              "app": "BBB",
+              "reason": "ABAC: scope=BATTALION; persona role rank insufficient for battalion-scoped content."
+            },
+            {
+              "doc_id": "DOC-036",
+              "title": "Battalion-wide town hall",
+              "app": "BBB",
+              "reason": "ABAC: scope=BATTALION; persona role rank insufficient for battalion-scoped content."
+            },
+            {
+              "doc_id": "DOC-041",
+              "title": "External / vendor invites",
+              "app": "BBB",
+              "reason": "ABAC: scope=VENDOR; persona is not in a vendor unit_scope."
+            },
+            {
+              "doc_id": "DOC-043",
+              "title": "Recording retention",
+              "app": "BBB",
+              "reason": "ABAC: scope=BATTALION; persona role rank insufficient for battalion-scoped content."
+            },
+            {
+              "doc_id": "DOC-044",
+              "title": "Meeting access logs",
+              "app": "BBB",
+              "reason": "ABAC: scope=BATTALION; persona role rank insufficient for battalion-scoped content."
+            }
+          ]
+        },
+        "civ_quinn": {
+          "answer": "You can\u2019t do either of those with your current access.\n\n- **Battalion-wide transcript report:** the help only covers **your own transcript** under **Profile \u2192 Transcript**. It says other Marines\u2019 transcripts are **not visible to students** and that access is for **instructor-or-above** [DOC-003].  \n- **Approve a CUI course for publication:** I don\u2019t have any authorized help content showing a publication-approval workflow, and your persona has **LMS author** rights only, not an approver role.\n\nNext step: **request the appropriate LMS instructor/approver role from your chain or course manager**, or route the publication request to the designated approver.",
+          "cited_docs": [
+            {
+              "doc_id": "DOC-003",
+              "title": "Viewing your transcript",
+              "app": "LMS"
+            },
+            {
+              "doc_id": "DOC-018",
+              "title": "Promotion-eligibility courses",
+              "app": "LMS"
+            },
+            {
+              "doc_id": "DOC-005",
+              "title": "Course completion certificates",
+              "app": "LMS"
+            }
+          ],
+          "denied_docs": [
+            {
+              "doc_id": "DOC-006",
+              "title": "Creating a course (instructor)",
+              "app": "LMS",
+              "reason": "ABAC: doc classification 'CUI' > persona max_class 'UNCLASS'."
+            },
+            {
+              "doc_id": "DOC-007",
+              "title": "Grading rubric configuration",
+              "app": "LMS",
+              "reason": "ABAC: doc classification 'CUI' > persona max_class 'UNCLASS'."
+            },
+            {
+              "doc_id": "DOC-008",
+              "title": "Bulk-assigning a course to a unit",
+              "app": "LMS",
+              "reason": "ABAC: doc classification 'CUI' > persona max_class 'UNCLASS'."
+            },
+            {
+              "doc_id": "DOC-009",
+              "title": "Battalion-level transcript reporting",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'manager' (rank 3); persona has 'author' (rank 2)."
+            },
+            {
+              "doc_id": "DOC-010",
+              "title": "Approving a CUI course for publication",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'manager' (rank 3); persona has 'author' (rank 2)."
+            },
+            {
+              "doc_id": "DOC-013",
+              "title": "Recovering a deleted course",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'manager' (rank 3); persona has 'author' (rank 2)."
+            },
+            {
+              "doc_id": "DOC-014",
+              "title": "API integration with GCSS-MC",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'manager' (rank 3); persona has 'author' (rank 2)."
+            },
+            {
+              "doc_id": "DOC-017",
+              "title": "Quizzes and proctoring",
+              "app": "LMS",
+              "reason": "ABAC: doc classification 'CUI' > persona max_class 'UNCLASS'."
+            },
+            {
+              "doc_id": "DOC-020",
+              "title": "Editing a unit page",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-021",
+              "title": "Publishing a battalion announcement",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'approver' (rank 3); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-022",
+              "title": "Page version history",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-023",
+              "title": "Embedded BBB sessions on a page",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-024",
+              "title": "Image gallery upload",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-025",
+              "title": "Search index re-build",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'manager' (rank 3); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-026",
+              "title": "Vendor portal pages",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-027",
+              "title": "Page classification guard",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-029",
+              "title": "Restoring a deleted page",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'approver' (rank 3); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-030",
+              "title": "Page review workflow",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-032",
+              "title": "Tag taxonomy",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-034",
+              "title": "Creating a unit meeting",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'moderator' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-035",
+              "title": "Recording a session",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'host' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-036",
+              "title": "Battalion-wide town hall",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'host' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-037",
+              "title": "Breakout rooms",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'moderator' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-038",
+              "title": "Polling and quizzes",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'moderator' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-041",
+              "title": "External / vendor invites",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'moderator' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-042",
+              "title": "End-of-meeting after-action",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'moderator' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-043",
+              "title": "Recording retention",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'host' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-044",
+              "title": "Meeting access logs",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'host' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-047",
+              "title": "Logging in with CAC",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'viewer' (rank 1); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-048",
+              "title": "MFA enrollment",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'viewer' (rank 1); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-049",
+              "title": "Role assignment (operator)",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-050",
+              "title": "ABAC attribute model",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-051",
+              "title": "Auditor view of unit users",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'auditor' (rank 4); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-052",
+              "title": "Realm separation \u2014 vendor vs uniformed",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'auditor' (rank 4); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-053",
+              "title": "Session timeout",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'viewer' (rank 1); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-054",
+              "title": "Step-up authentication",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'viewer' (rank 1); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-055",
+              "title": "Service account management",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-056",
+              "title": "Audit log search",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'auditor' (rank 4); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-057",
+              "title": "Group-based access control",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-058",
+              "title": "Federated login from partner nation",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-059",
+              "title": "Account deactivation on PCS / EAS",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-060",
+              "title": "Admin console \u2014 emergency lockout",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            }
+          ]
+        }
+      }
+    },
+    "vendor_boundary": {
+      "query": "I'm a vendor \u2014 can I see uniformed Marines' transcripts and edit a battalion announcement?",
+      "best_for": "civ_quinn",
+      "by_persona": {
+        "pvt_joe": {
+          "answer": "No \u2014 as a student, you can only view your own transcript in LMS self-service; other Marines\u2019 transcripts are not visible to students [DOC-003]. If you need someone else\u2019s transcript, route it through the Marine\u2019s chain of command or an instructor-or-above user.\n\nFor the battalion announcement: I don\u2019t have any CMS help content here that grants edit rights, and your CMS role is only viewer with public-page view. So you cannot edit a battalion announcement from this persona. Request the appropriate CMS editor/author role from your chain or the unit staff who manages announcements.",
+          "cited_docs": [
+            {
+              "doc_id": "DOC-003",
+              "title": "Viewing your transcript",
+              "app": "LMS"
+            },
+            {
+              "doc_id": "DOC-018",
+              "title": "Promotion-eligibility courses",
+              "app": "LMS"
+            },
+            {
+              "doc_id": "DOC-001",
+              "title": "Enrolling in a MarineNet course",
+              "app": "LMS"
+            }
+          ],
+          "denied_docs": [
+            {
+              "doc_id": "DOC-006",
+              "title": "Creating a course (instructor)",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'instructor' (rank 2); persona has 'student' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-007",
+              "title": "Grading rubric configuration",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'instructor' (rank 2); persona has 'student' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-008",
+              "title": "Bulk-assigning a course to a unit",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'instructor' (rank 2); persona has 'student' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-009",
+              "title": "Battalion-level transcript reporting",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'manager' (rank 3); persona has 'student' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-010",
+              "title": "Approving a CUI course for publication",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'manager' (rank 3); persona has 'student' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-011",
+              "title": "Delegated authoring for contractors",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'author' (rank 2); persona has 'student' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-012",
+              "title": "Vendor identity boundary",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'author' (rank 2); persona has 'student' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-013",
+              "title": "Recovering a deleted course",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'manager' (rank 3); persona has 'student' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-014",
+              "title": "API integration with GCSS-MC",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'manager' (rank 3); persona has 'student' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-017",
+              "title": "Quizzes and proctoring",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'instructor' (rank 2); persona has 'student' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-020",
+              "title": "Editing a unit page",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-021",
+              "title": "Publishing a battalion announcement",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'approver' (rank 3); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-022",
+              "title": "Page version history",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-023",
+              "title": "Embedded BBB sessions on a page",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-024",
+              "title": "Image gallery upload",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-025",
+              "title": "Search index re-build",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'manager' (rank 3); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-026",
+              "title": "Vendor portal pages",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-027",
+              "title": "Page classification guard",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-029",
+              "title": "Restoring a deleted page",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'approver' (rank 3); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-030",
+              "title": "Page review workflow",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-032",
+              "title": "Tag taxonomy",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-034",
+              "title": "Creating a unit meeting",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'moderator' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-035",
+              "title": "Recording a session",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'host' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-036",
+              "title": "Battalion-wide town hall",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'host' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-037",
+              "title": "Breakout rooms",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'moderator' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-038",
+              "title": "Polling and quizzes",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'moderator' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-041",
+              "title": "External / vendor invites",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'moderator' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-042",
+              "title": "End-of-meeting after-action",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'moderator' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-043",
+              "title": "Recording retention",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'host' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-044",
+              "title": "Meeting access logs",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'host' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-047",
+              "title": "Logging in with CAC",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'viewer' (rank 1); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-048",
+              "title": "MFA enrollment",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'viewer' (rank 1); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-049",
+              "title": "Role assignment (operator)",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-050",
+              "title": "ABAC attribute model",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-051",
+              "title": "Auditor view of unit users",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'auditor' (rank 4); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-052",
+              "title": "Realm separation \u2014 vendor vs uniformed",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'auditor' (rank 4); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-053",
+              "title": "Session timeout",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'viewer' (rank 1); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-054",
+              "title": "Step-up authentication",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'viewer' (rank 1); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-055",
+              "title": "Service account management",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-056",
+              "title": "Audit log search",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'auditor' (rank 4); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-057",
+              "title": "Group-based access control",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-058",
+              "title": "Federated login from partner nation",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-059",
+              "title": "Account deactivation on PCS / EAS",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-060",
+              "title": "Admin console \u2014 emergency lockout",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            }
+          ]
+        },
+        "sgt_jane": {
+          "answer": "No \u2014 as a vendor, you can\u2019t view uniformed Marines\u2019 transcripts. Transcript viewing is limited to the Marine and, for some records, their chain of command within unit scope; instructor-or-above can view other Marines\u2019 transcripts, but your persona has no LMS instructor access for that action [DOC-003][DOC-018].\n\nFor the battalion announcement: you can edit unit pages only if you\u2019re an author in the relevant unit scope [DOC-020]. But if the page is tagged CUI, publishing requires a battalion-level Approver role [DOC-020]. If you\u2019re seeing \u201cNot authorized,\u201d verify your CMS role assignment in Keycloak or route the publish to the battalion approver [DOC-020].",
+          "cited_docs": [
+            {
+              "doc_id": "DOC-003",
+              "title": "Viewing your transcript",
+              "app": "LMS"
+            },
+            {
+              "doc_id": "DOC-018",
+              "title": "Promotion-eligibility courses",
+              "app": "LMS"
+            },
+            {
+              "doc_id": "DOC-020",
+              "title": "Editing a unit page",
+              "app": "CMS"
+            }
+          ],
+          "denied_docs": [
+            {
+              "doc_id": "DOC-009",
+              "title": "Battalion-level transcript reporting",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'manager' (rank 3); persona has 'instructor' (rank 2)."
+            },
+            {
+              "doc_id": "DOC-010",
+              "title": "Approving a CUI course for publication",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'manager' (rank 3); persona has 'instructor' (rank 2)."
+            },
+            {
+              "doc_id": "DOC-011",
+              "title": "Delegated authoring for contractors",
+              "app": "LMS",
+              "reason": "ABAC: scope=VENDOR; persona is not in a vendor unit_scope."
+            },
+            {
+              "doc_id": "DOC-012",
+              "title": "Vendor identity boundary",
+              "app": "LMS",
+              "reason": "ABAC: scope=VENDOR; persona is not in a vendor unit_scope."
+            },
+            {
+              "doc_id": "DOC-013",
+              "title": "Recovering a deleted course",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'manager' (rank 3); persona has 'instructor' (rank 2)."
+            },
+            {
+              "doc_id": "DOC-014",
+              "title": "API integration with GCSS-MC",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'manager' (rank 3); persona has 'instructor' (rank 2)."
+            },
+            {
+              "doc_id": "DOC-021",
+              "title": "Publishing a battalion announcement",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'approver' (rank 3); persona has 'author' (rank 2)."
+            },
+            {
+              "doc_id": "DOC-025",
+              "title": "Search index re-build",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'manager' (rank 3); persona has 'author' (rank 2)."
+            },
+            {
+              "doc_id": "DOC-026",
+              "title": "Vendor portal pages",
+              "app": "CMS",
+              "reason": "ABAC: scope=VENDOR; persona is not in a vendor unit_scope."
+            },
+            {
+              "doc_id": "DOC-029",
+              "title": "Restoring a deleted page",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'approver' (rank 3); persona has 'author' (rank 2)."
+            },
+            {
+              "doc_id": "DOC-035",
+              "title": "Recording a session",
+              "app": "BBB",
+              "reason": "ABAC: scope=BATTALION; persona role rank insufficient for battalion-scoped content."
+            },
+            {
+              "doc_id": "DOC-036",
+              "title": "Battalion-wide town hall",
+              "app": "BBB",
+              "reason": "ABAC: scope=BATTALION; persona role rank insufficient for battalion-scoped content."
+            },
+            {
+              "doc_id": "DOC-041",
+              "title": "External / vendor invites",
+              "app": "BBB",
+              "reason": "ABAC: scope=VENDOR; persona is not in a vendor unit_scope."
+            },
+            {
+              "doc_id": "DOC-043",
+              "title": "Recording retention",
+              "app": "BBB",
+              "reason": "ABAC: scope=BATTALION; persona role rank insufficient for battalion-scoped content."
+            },
+            {
+              "doc_id": "DOC-044",
+              "title": "Meeting access logs",
+              "app": "BBB",
+              "reason": "ABAC: scope=BATTALION; persona role rank insufficient for battalion-scoped content."
+            },
+            {
+              "doc_id": "DOC-047",
+              "title": "Logging in with CAC",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'viewer' (rank 1); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-048",
+              "title": "MFA enrollment",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'viewer' (rank 1); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-049",
+              "title": "Role assignment (operator)",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-050",
+              "title": "ABAC attribute model",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-051",
+              "title": "Auditor view of unit users",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'auditor' (rank 4); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-052",
+              "title": "Realm separation \u2014 vendor vs uniformed",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'auditor' (rank 4); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-053",
+              "title": "Session timeout",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'viewer' (rank 1); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-054",
+              "title": "Step-up authentication",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'viewer' (rank 1); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-055",
+              "title": "Service account management",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-056",
+              "title": "Audit log search",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'auditor' (rank 4); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-057",
+              "title": "Group-based access control",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-058",
+              "title": "Federated login from partner nation",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-059",
+              "title": "Account deactivation on PCS / EAS",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-060",
+              "title": "Admin console \u2014 emergency lockout",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            }
+          ]
+        },
+        "capt_doe": {
+          "answer": "As a vendor, you should **not** expect access to individual Marines\u2019 transcripts. The help content only describes **self-service** transcript viewing for the user and says other Marines\u2019 transcripts are not visible to students; battalion S-3s can pull **aggregate** transcript reports, not individual records [DOC-003][DOC-009].\n\nFor the battalion announcement: a **battalion S-3** can publish unit-wide announcements in CMS [DOC-021]. Since your persona is already a Battalion S-3 approver, you can edit/publish battalion announcements if you\u2019re acting in that role [DOC-021].\n\nIf you\u2019re asking in a vendor capacity, route transcript requests through the battalion S-3 and use the approved CMS workflow for announcements [DOC-021][DOC-009].",
+          "cited_docs": [
+            {
+              "doc_id": "DOC-003",
+              "title": "Viewing your transcript",
+              "app": "LMS"
+            },
+            {
+              "doc_id": "DOC-021",
+              "title": "Publishing a battalion announcement",
+              "app": "CMS"
+            },
+            {
+              "doc_id": "DOC-009",
+              "title": "Battalion-level transcript reporting",
+              "app": "LMS"
+            }
+          ],
+          "denied_docs": [
+            {
+              "doc_id": "DOC-011",
+              "title": "Delegated authoring for contractors",
+              "app": "LMS",
+              "reason": "ABAC: scope=VENDOR; persona is not in a vendor unit_scope."
+            },
+            {
+              "doc_id": "DOC-012",
+              "title": "Vendor identity boundary",
+              "app": "LMS",
+              "reason": "ABAC: scope=VENDOR; persona is not in a vendor unit_scope."
+            },
+            {
+              "doc_id": "DOC-026",
+              "title": "Vendor portal pages",
+              "app": "CMS",
+              "reason": "ABAC: scope=VENDOR; persona is not in a vendor unit_scope."
+            },
+            {
+              "doc_id": "DOC-035",
+              "title": "Recording a session",
+              "app": "BBB",
+              "reason": "ABAC: scope=BATTALION; persona role rank insufficient for battalion-scoped content."
+            },
+            {
+              "doc_id": "DOC-036",
+              "title": "Battalion-wide town hall",
+              "app": "BBB",
+              "reason": "ABAC: scope=BATTALION; persona role rank insufficient for battalion-scoped content."
+            },
+            {
+              "doc_id": "DOC-041",
+              "title": "External / vendor invites",
+              "app": "BBB",
+              "reason": "ABAC: scope=VENDOR; persona is not in a vendor unit_scope."
+            },
+            {
+              "doc_id": "DOC-043",
+              "title": "Recording retention",
+              "app": "BBB",
+              "reason": "ABAC: scope=BATTALION; persona role rank insufficient for battalion-scoped content."
+            },
+            {
+              "doc_id": "DOC-044",
+              "title": "Meeting access logs",
+              "app": "BBB",
+              "reason": "ABAC: scope=BATTALION; persona role rank insufficient for battalion-scoped content."
+            }
+          ]
+        },
+        "civ_quinn": {
+          "answer": "No \u2014 as a vendor, you cannot see uniformed Marines\u2019 transcripts. Vendor accounts are in a separate Keycloak realm and never see transcripts of uniformed Marines or unit roster data [DOC-012]. Marines can view their own transcript, but other Marines\u2019 transcripts are not visible to students [DOC-003].\n\nFor the battalion announcement: I don\u2019t have a CMS snippet showing vendor edit rights, and your current CMS role is viewer only, so you should not be able to edit it. If you need the announcement changed, route it to the battalion/public-affairs owner or request the appropriate CMS editor role from your sponsor.",
+          "cited_docs": [
+            {
+              "doc_id": "DOC-003",
+              "title": "Viewing your transcript",
+              "app": "LMS"
+            },
+            {
+              "doc_id": "DOC-012",
+              "title": "Vendor identity boundary",
+              "app": "LMS"
+            },
+            {
+              "doc_id": "DOC-018",
+              "title": "Promotion-eligibility courses",
+              "app": "LMS"
+            }
+          ],
+          "denied_docs": [
+            {
+              "doc_id": "DOC-006",
+              "title": "Creating a course (instructor)",
+              "app": "LMS",
+              "reason": "ABAC: doc classification 'CUI' > persona max_class 'UNCLASS'."
+            },
+            {
+              "doc_id": "DOC-007",
+              "title": "Grading rubric configuration",
+              "app": "LMS",
+              "reason": "ABAC: doc classification 'CUI' > persona max_class 'UNCLASS'."
+            },
+            {
+              "doc_id": "DOC-008",
+              "title": "Bulk-assigning a course to a unit",
+              "app": "LMS",
+              "reason": "ABAC: doc classification 'CUI' > persona max_class 'UNCLASS'."
+            },
+            {
+              "doc_id": "DOC-009",
+              "title": "Battalion-level transcript reporting",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'manager' (rank 3); persona has 'author' (rank 2)."
+            },
+            {
+              "doc_id": "DOC-010",
+              "title": "Approving a CUI course for publication",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'manager' (rank 3); persona has 'author' (rank 2)."
+            },
+            {
+              "doc_id": "DOC-013",
+              "title": "Recovering a deleted course",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'manager' (rank 3); persona has 'author' (rank 2)."
+            },
+            {
+              "doc_id": "DOC-014",
+              "title": "API integration with GCSS-MC",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'manager' (rank 3); persona has 'author' (rank 2)."
+            },
+            {
+              "doc_id": "DOC-017",
+              "title": "Quizzes and proctoring",
+              "app": "LMS",
+              "reason": "ABAC: doc classification 'CUI' > persona max_class 'UNCLASS'."
+            },
+            {
+              "doc_id": "DOC-020",
+              "title": "Editing a unit page",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-021",
+              "title": "Publishing a battalion announcement",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'approver' (rank 3); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-022",
+              "title": "Page version history",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-023",
+              "title": "Embedded BBB sessions on a page",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-024",
+              "title": "Image gallery upload",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-025",
+              "title": "Search index re-build",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'manager' (rank 3); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-026",
+              "title": "Vendor portal pages",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-027",
+              "title": "Page classification guard",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-029",
+              "title": "Restoring a deleted page",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'approver' (rank 3); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-030",
+              "title": "Page review workflow",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-032",
+              "title": "Tag taxonomy",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-034",
+              "title": "Creating a unit meeting",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'moderator' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-035",
+              "title": "Recording a session",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'host' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-036",
+              "title": "Battalion-wide town hall",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'host' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-037",
+              "title": "Breakout rooms",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'moderator' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-038",
+              "title": "Polling and quizzes",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'moderator' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-041",
+              "title": "External / vendor invites",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'moderator' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-042",
+              "title": "End-of-meeting after-action",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'moderator' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-043",
+              "title": "Recording retention",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'host' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-044",
+              "title": "Meeting access logs",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'host' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-047",
+              "title": "Logging in with CAC",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'viewer' (rank 1); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-048",
+              "title": "MFA enrollment",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'viewer' (rank 1); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-049",
+              "title": "Role assignment (operator)",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-050",
+              "title": "ABAC attribute model",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-051",
+              "title": "Auditor view of unit users",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'auditor' (rank 4); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-052",
+              "title": "Realm separation \u2014 vendor vs uniformed",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'auditor' (rank 4); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-053",
+              "title": "Session timeout",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'viewer' (rank 1); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-054",
+              "title": "Step-up authentication",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'viewer' (rank 1); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-055",
+              "title": "Service account management",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-056",
+              "title": "Audit log search",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'auditor' (rank 4); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-057",
+              "title": "Group-based access control",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-058",
+              "title": "Federated login from partner nation",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-059",
+              "title": "Account deactivation on PCS / EAS",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-060",
+              "title": "Admin console \u2014 emergency lockout",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            }
+          ]
+        }
+      }
+    },
+    "course_enroll_password": {
+      "query": "I forgot my password and I need to enroll in the new MarineNet course. What do I do?",
+      "best_for": "pvt_joe",
+      "by_persona": {
+        "pvt_joe": {
+          "answer": "For the forgotten password, use the Keycloak reset flow: on the login page click **\u201cForgot password\u201d** and follow the email link. If you\u2019re using CAC, there\u2019s no password to reset\u2014reinsert the CAC and refresh instead. If you get **\u201cNot authorized,\u201d** verify your LMS role assignment in Keycloak [DOC-004].\n\nFor the MarineNet course, you can self-enroll from the course catalog: click **\u201cEnroll\u201d** on the course tile, accept the academic-honesty banner, and it will show up in **My Courses**. SSO is through Keycloak, so there\u2019s no separate login for the course itself [DOC-001].",
+          "cited_docs": [
+            {
+              "doc_id": "DOC-001",
+              "title": "Enrolling in a MarineNet course",
+              "app": "LMS"
+            },
+            {
+              "doc_id": "DOC-004",
+              "title": "Resetting a forgotten password",
+              "app": "LMS"
+            },
+            {
+              "doc_id": "DOC-015",
+              "title": "Mobile app \u2014 offline course play",
+              "app": "LMS"
+            }
+          ],
+          "denied_docs": [
+            {
+              "doc_id": "DOC-006",
+              "title": "Creating a course (instructor)",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'instructor' (rank 2); persona has 'student' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-007",
+              "title": "Grading rubric configuration",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'instructor' (rank 2); persona has 'student' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-008",
+              "title": "Bulk-assigning a course to a unit",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'instructor' (rank 2); persona has 'student' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-009",
+              "title": "Battalion-level transcript reporting",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'manager' (rank 3); persona has 'student' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-010",
+              "title": "Approving a CUI course for publication",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'manager' (rank 3); persona has 'student' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-011",
+              "title": "Delegated authoring for contractors",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'author' (rank 2); persona has 'student' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-012",
+              "title": "Vendor identity boundary",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'author' (rank 2); persona has 'student' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-013",
+              "title": "Recovering a deleted course",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'manager' (rank 3); persona has 'student' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-014",
+              "title": "API integration with GCSS-MC",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'manager' (rank 3); persona has 'student' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-017",
+              "title": "Quizzes and proctoring",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'instructor' (rank 2); persona has 'student' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-020",
+              "title": "Editing a unit page",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-021",
+              "title": "Publishing a battalion announcement",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'approver' (rank 3); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-022",
+              "title": "Page version history",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-023",
+              "title": "Embedded BBB sessions on a page",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-024",
+              "title": "Image gallery upload",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-025",
+              "title": "Search index re-build",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'manager' (rank 3); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-026",
+              "title": "Vendor portal pages",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-027",
+              "title": "Page classification guard",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-029",
+              "title": "Restoring a deleted page",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'approver' (rank 3); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-030",
+              "title": "Page review workflow",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-032",
+              "title": "Tag taxonomy",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-034",
+              "title": "Creating a unit meeting",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'moderator' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-035",
+              "title": "Recording a session",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'host' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-036",
+              "title": "Battalion-wide town hall",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'host' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-037",
+              "title": "Breakout rooms",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'moderator' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-038",
+              "title": "Polling and quizzes",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'moderator' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-041",
+              "title": "External / vendor invites",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'moderator' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-042",
+              "title": "End-of-meeting after-action",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'moderator' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-043",
+              "title": "Recording retention",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'host' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-044",
+              "title": "Meeting access logs",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'host' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-047",
+              "title": "Logging in with CAC",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'viewer' (rank 1); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-048",
+              "title": "MFA enrollment",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'viewer' (rank 1); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-049",
+              "title": "Role assignment (operator)",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-050",
+              "title": "ABAC attribute model",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-051",
+              "title": "Auditor view of unit users",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'auditor' (rank 4); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-052",
+              "title": "Realm separation \u2014 vendor vs uniformed",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'auditor' (rank 4); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-053",
+              "title": "Session timeout",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'viewer' (rank 1); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-054",
+              "title": "Step-up authentication",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'viewer' (rank 1); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-055",
+              "title": "Service account management",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-056",
+              "title": "Audit log search",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'auditor' (rank 4); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-057",
+              "title": "Group-based access control",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-058",
+              "title": "Federated login from partner nation",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-059",
+              "title": "Account deactivation on PCS / EAS",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-060",
+              "title": "Admin console \u2014 emergency lockout",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            }
+          ]
+        },
+        "sgt_jane": {
+          "answer": "For the password issue, use Keycloak\u2019s reset flow: click **\u201cForgot password\u201d** on the login page and follow the email link [DOC-004]. If you use CAC, you do **not** have a password to reset\u2014reinsert the CAC and refresh instead [DOC-004].\n\nFor the MarineNet course, students self-enroll from the course catalog: open the course tile, click **\u201cEnroll,\u201d** accept the academic-honesty banner, and it will show in **My Courses** [DOC-001].\n\nIf you get **\u201cNot authorized,\u201d** verify your LMS role assignment in Keycloak [DOC-004].",
+          "cited_docs": [
+            {
+              "doc_id": "DOC-001",
+              "title": "Enrolling in a MarineNet course",
+              "app": "LMS"
+            },
+            {
+              "doc_id": "DOC-004",
+              "title": "Resetting a forgotten password",
+              "app": "LMS"
+            },
+            {
+              "doc_id": "DOC-015",
+              "title": "Mobile app \u2014 offline course play",
+              "app": "LMS"
+            }
+          ],
+          "denied_docs": [
+            {
+              "doc_id": "DOC-009",
+              "title": "Battalion-level transcript reporting",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'manager' (rank 3); persona has 'instructor' (rank 2)."
+            },
+            {
+              "doc_id": "DOC-010",
+              "title": "Approving a CUI course for publication",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'manager' (rank 3); persona has 'instructor' (rank 2)."
+            },
+            {
+              "doc_id": "DOC-011",
+              "title": "Delegated authoring for contractors",
+              "app": "LMS",
+              "reason": "ABAC: scope=VENDOR; persona is not in a vendor unit_scope."
+            },
+            {
+              "doc_id": "DOC-012",
+              "title": "Vendor identity boundary",
+              "app": "LMS",
+              "reason": "ABAC: scope=VENDOR; persona is not in a vendor unit_scope."
+            },
+            {
+              "doc_id": "DOC-013",
+              "title": "Recovering a deleted course",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'manager' (rank 3); persona has 'instructor' (rank 2)."
+            },
+            {
+              "doc_id": "DOC-014",
+              "title": "API integration with GCSS-MC",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'manager' (rank 3); persona has 'instructor' (rank 2)."
+            },
+            {
+              "doc_id": "DOC-021",
+              "title": "Publishing a battalion announcement",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'approver' (rank 3); persona has 'author' (rank 2)."
+            },
+            {
+              "doc_id": "DOC-025",
+              "title": "Search index re-build",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'manager' (rank 3); persona has 'author' (rank 2)."
+            },
+            {
+              "doc_id": "DOC-026",
+              "title": "Vendor portal pages",
+              "app": "CMS",
+              "reason": "ABAC: scope=VENDOR; persona is not in a vendor unit_scope."
+            },
+            {
+              "doc_id": "DOC-029",
+              "title": "Restoring a deleted page",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'approver' (rank 3); persona has 'author' (rank 2)."
+            },
+            {
+              "doc_id": "DOC-035",
+              "title": "Recording a session",
+              "app": "BBB",
+              "reason": "ABAC: scope=BATTALION; persona role rank insufficient for battalion-scoped content."
+            },
+            {
+              "doc_id": "DOC-036",
+              "title": "Battalion-wide town hall",
+              "app": "BBB",
+              "reason": "ABAC: scope=BATTALION; persona role rank insufficient for battalion-scoped content."
+            },
+            {
+              "doc_id": "DOC-041",
+              "title": "External / vendor invites",
+              "app": "BBB",
+              "reason": "ABAC: scope=VENDOR; persona is not in a vendor unit_scope."
+            },
+            {
+              "doc_id": "DOC-043",
+              "title": "Recording retention",
+              "app": "BBB",
+              "reason": "ABAC: scope=BATTALION; persona role rank insufficient for battalion-scoped content."
+            },
+            {
+              "doc_id": "DOC-044",
+              "title": "Meeting access logs",
+              "app": "BBB",
+              "reason": "ABAC: scope=BATTALION; persona role rank insufficient for battalion-scoped content."
+            },
+            {
+              "doc_id": "DOC-047",
+              "title": "Logging in with CAC",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'viewer' (rank 1); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-048",
+              "title": "MFA enrollment",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'viewer' (rank 1); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-049",
+              "title": "Role assignment (operator)",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-050",
+              "title": "ABAC attribute model",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-051",
+              "title": "Auditor view of unit users",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'auditor' (rank 4); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-052",
+              "title": "Realm separation \u2014 vendor vs uniformed",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'auditor' (rank 4); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-053",
+              "title": "Session timeout",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'viewer' (rank 1); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-054",
+              "title": "Step-up authentication",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'viewer' (rank 1); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-055",
+              "title": "Service account management",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-056",
+              "title": "Audit log search",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'auditor' (rank 4); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-057",
+              "title": "Group-based access control",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-058",
+              "title": "Federated login from partner nation",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-059",
+              "title": "Account deactivation on PCS / EAS",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-060",
+              "title": "Admin console \u2014 emergency lockout",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            }
+          ]
+        },
+        "capt_doe": {
+          "answer": "For the password issue, password reset is handled in Keycloak: on the login page, click **\u201cForgot password\u201d** and follow the email link. If you use CAC, there is no password to reset\u2014reinsert the CAC and refresh instead. If you get **\u201cNot authorized,\u201d** verify your Keycloak role assignment for this app [DOC-004].\n\nFor the MarineNet course, students self-enroll from the course catalog: open the course tile, click **\u201cEnroll,\u201d** accept the academic-honesty banner, and it will appear in **My Courses**. LMS uses SSO via Keycloak, so there\u2019s no separate login [DOC-001].\n\nIf you still can\u2019t access the course after that, route it to your unit\u2019s Keycloak role/admin check.",
+          "cited_docs": [
+            {
+              "doc_id": "DOC-001",
+              "title": "Enrolling in a MarineNet course",
+              "app": "LMS"
+            },
+            {
+              "doc_id": "DOC-004",
+              "title": "Resetting a forgotten password",
+              "app": "LMS"
+            },
+            {
+              "doc_id": "DOC-015",
+              "title": "Mobile app \u2014 offline course play",
+              "app": "LMS"
+            }
+          ],
+          "denied_docs": [
+            {
+              "doc_id": "DOC-011",
+              "title": "Delegated authoring for contractors",
+              "app": "LMS",
+              "reason": "ABAC: scope=VENDOR; persona is not in a vendor unit_scope."
+            },
+            {
+              "doc_id": "DOC-012",
+              "title": "Vendor identity boundary",
+              "app": "LMS",
+              "reason": "ABAC: scope=VENDOR; persona is not in a vendor unit_scope."
+            },
+            {
+              "doc_id": "DOC-026",
+              "title": "Vendor portal pages",
+              "app": "CMS",
+              "reason": "ABAC: scope=VENDOR; persona is not in a vendor unit_scope."
+            },
+            {
+              "doc_id": "DOC-035",
+              "title": "Recording a session",
+              "app": "BBB",
+              "reason": "ABAC: scope=BATTALION; persona role rank insufficient for battalion-scoped content."
+            },
+            {
+              "doc_id": "DOC-036",
+              "title": "Battalion-wide town hall",
+              "app": "BBB",
+              "reason": "ABAC: scope=BATTALION; persona role rank insufficient for battalion-scoped content."
+            },
+            {
+              "doc_id": "DOC-041",
+              "title": "External / vendor invites",
+              "app": "BBB",
+              "reason": "ABAC: scope=VENDOR; persona is not in a vendor unit_scope."
+            },
+            {
+              "doc_id": "DOC-043",
+              "title": "Recording retention",
+              "app": "BBB",
+              "reason": "ABAC: scope=BATTALION; persona role rank insufficient for battalion-scoped content."
+            },
+            {
+              "doc_id": "DOC-044",
+              "title": "Meeting access logs",
+              "app": "BBB",
+              "reason": "ABAC: scope=BATTALION; persona role rank insufficient for battalion-scoped content."
+            }
+          ]
+        },
+        "civ_quinn": {
+          "answer": "For the password issue, use the Keycloak reset flow: on the login page click **\u201cForgot password\u201d** and follow the email link [DOC-004]. If you use CAC, there is no password to reset\u2014reinsert the CAC and refresh [DOC-004].\n\nFor the MarineNet course, students self-enroll from the course catalog: open the course tile, click **\u201cEnroll,\u201d** accept the academic-honesty banner, and it will appear in **My Courses** [DOC-001].\n\nIf you get **\u201cNot authorized,\u201d** your app role in Keycloak may need to be checked [DOC-004].",
+          "cited_docs": [
+            {
+              "doc_id": "DOC-001",
+              "title": "Enrolling in a MarineNet course",
+              "app": "LMS"
+            },
+            {
+              "doc_id": "DOC-004",
+              "title": "Resetting a forgotten password",
+              "app": "LMS"
+            },
+            {
+              "doc_id": "DOC-015",
+              "title": "Mobile app \u2014 offline course play",
+              "app": "LMS"
+            }
+          ],
+          "denied_docs": [
+            {
+              "doc_id": "DOC-006",
+              "title": "Creating a course (instructor)",
+              "app": "LMS",
+              "reason": "ABAC: doc classification 'CUI' > persona max_class 'UNCLASS'."
+            },
+            {
+              "doc_id": "DOC-007",
+              "title": "Grading rubric configuration",
+              "app": "LMS",
+              "reason": "ABAC: doc classification 'CUI' > persona max_class 'UNCLASS'."
+            },
+            {
+              "doc_id": "DOC-008",
+              "title": "Bulk-assigning a course to a unit",
+              "app": "LMS",
+              "reason": "ABAC: doc classification 'CUI' > persona max_class 'UNCLASS'."
+            },
+            {
+              "doc_id": "DOC-009",
+              "title": "Battalion-level transcript reporting",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'manager' (rank 3); persona has 'author' (rank 2)."
+            },
+            {
+              "doc_id": "DOC-010",
+              "title": "Approving a CUI course for publication",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'manager' (rank 3); persona has 'author' (rank 2)."
+            },
+            {
+              "doc_id": "DOC-013",
+              "title": "Recovering a deleted course",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'manager' (rank 3); persona has 'author' (rank 2)."
+            },
+            {
+              "doc_id": "DOC-014",
+              "title": "API integration with GCSS-MC",
+              "app": "LMS",
+              "reason": "RBAC: needs LMS role 'manager' (rank 3); persona has 'author' (rank 2)."
+            },
+            {
+              "doc_id": "DOC-017",
+              "title": "Quizzes and proctoring",
+              "app": "LMS",
+              "reason": "ABAC: doc classification 'CUI' > persona max_class 'UNCLASS'."
+            },
+            {
+              "doc_id": "DOC-020",
+              "title": "Editing a unit page",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-021",
+              "title": "Publishing a battalion announcement",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'approver' (rank 3); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-022",
+              "title": "Page version history",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-023",
+              "title": "Embedded BBB sessions on a page",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-024",
+              "title": "Image gallery upload",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-025",
+              "title": "Search index re-build",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'manager' (rank 3); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-026",
+              "title": "Vendor portal pages",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-027",
+              "title": "Page classification guard",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-029",
+              "title": "Restoring a deleted page",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'approver' (rank 3); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-030",
+              "title": "Page review workflow",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-032",
+              "title": "Tag taxonomy",
+              "app": "CMS",
+              "reason": "RBAC: needs CMS role 'author' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-034",
+              "title": "Creating a unit meeting",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'moderator' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-035",
+              "title": "Recording a session",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'host' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-036",
+              "title": "Battalion-wide town hall",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'host' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-037",
+              "title": "Breakout rooms",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'moderator' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-038",
+              "title": "Polling and quizzes",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'moderator' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-041",
+              "title": "External / vendor invites",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'moderator' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-042",
+              "title": "End-of-meeting after-action",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'moderator' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-043",
+              "title": "Recording retention",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'host' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-044",
+              "title": "Meeting access logs",
+              "app": "BBB",
+              "reason": "RBAC: needs BBB role 'host' (rank 2); persona has 'viewer' (rank 1)."
+            },
+            {
+              "doc_id": "DOC-047",
+              "title": "Logging in with CAC",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'viewer' (rank 1); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-048",
+              "title": "MFA enrollment",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'viewer' (rank 1); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-049",
+              "title": "Role assignment (operator)",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-050",
+              "title": "ABAC attribute model",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-051",
+              "title": "Auditor view of unit users",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'auditor' (rank 4); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-052",
+              "title": "Realm separation \u2014 vendor vs uniformed",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'auditor' (rank 4); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-053",
+              "title": "Session timeout",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'viewer' (rank 1); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-054",
+              "title": "Step-up authentication",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'viewer' (rank 1); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-055",
+              "title": "Service account management",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-056",
+              "title": "Audit log search",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'auditor' (rank 4); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-057",
+              "title": "Group-based access control",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-058",
+              "title": "Federated login from partner nation",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-059",
+              "title": "Account deactivation on PCS / EAS",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            },
+            {
+              "doc_id": "DOC-060",
+              "title": "Admin console \u2014 emergency lockout",
+              "app": "Keycloak",
+              "reason": "RBAC: needs Keycloak role 'operator' (rank 2); persona has 'none' (rank 0)."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

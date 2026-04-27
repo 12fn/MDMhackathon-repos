@@ -1,0 +1,35 @@
+{
+  "1MARDIV_FY26-Q2": {
+    "scenario_id": "1MARDIV_FY26-Q2",
+    "unit": "1st Marine Division (Camp Pendleton)",
+    "unit_code": "1MARDIV",
+    "quarter": "FY26-Q2",
+    "brief": "## BLUF\nDuring FY26-Q2, a total of 33 records were processed, resulting in 12 flagged issues with a dollar exposure of $17,344.09. There are 5 records recommended for escalation.\n\n## Top Issue Categories\n- Amount Mismatch: 4\n- Non-Authorized: 3\n- Missing Receipt: 3\n- Rate Above Per Diem: 3\n- Voucher No Card Charge: 1\n- Duplicate: 1\n- Card Charge No Voucher: 1\n\n## Records to Escalate\n- DTS-2026-00004 | 1stLt G. SANCHEZ | amount_mismatch\n- DTS-2026-00008 | SSgt W. JOHNSON | non_authorized\n- DTS-2026-00010 | 2ndLt T. LEE | missing_receipt\n- DTS-2026-00013 | 1stSgt S. THOMAS | rate_above_per_diem\n- DTS-2026-00015 | 1stLt G. RIVERA | voucher_no_card_charge\n\n## Training Opportunities\n- **Amount Mismatch**: Conduct a workshop on verifying travel expenses against authorized amounts to minimize discrepancies.\n- **Non-Authorized**: Host a session on understanding travel regulations and authorization processes to prevent unauthorized charges.\n- **Missing Receipt**: Implement a training module focused on the importance of receipt collection and submission for all travel-related expenses.\n\n## Recommendation\nTo enhance compliance and reduce flagged issues in the travel program, it is recommended that the S-1 prioritize training sessions on travel regulations and expense verification, while also addressing the specific records identified for escalation to ensure timely resolution and adherence to policy.\n\nCUI // Travel Program Data",
+    "source": "gpt-5.4",
+    "generated_at": "2026-04-27T20:32:27.858467+00:00",
+    "record_count": 33,
+    "citi_txn_count": 199
+  },
+  "IIMEF_FY26-Q2": {
+    "scenario_id": "IIMEF_FY26-Q2",
+    "unit": "II MEF Force HQ (Camp Lejeune)",
+    "unit_code": "IIMEF",
+    "quarter": "FY26-Q2",
+    "brief": "## BLUF\nIn FY26-Q2, a total of 33 records were processed, resulting in 10 flagged issues with a dollar exposure of $19,750.69. Two records are recommended for escalation.\n\n## Top Issue Categories\n- amount_mismatch: 2\n- voucher_no_card_charge: 2\n- duplicate: 1\n- card_charge_no_voucher: 1\n- rate_above_per_diem: 1\n- missing_receipt: 1\n- non_authorized: 1\n\n## Records to Escalate\n- DTS-2026-00042 | GySgt W. CARTER | amount_mismatch\n- DTS-2026-00059 | LtCol E. MOORE | non_authorized\n\n## Training Opportunities\n- **Amount Mismatch**: Conduct a workshop on verifying travel expenses against authorized amounts to prevent discrepancies.\n- **Voucher No Card Charge**: Implement training sessions on the importance of reconciling travel card charges with submitted vouchers.\n- **Missing Receipt**: Offer guidance on receipt management and documentation best practices to ensure compliance with travel regulations.\n\n## Recommendation\nTo enhance the integrity of our travel program, it is crucial that the S-1 prioritizes training on expense verification and documentation management. Addressing the identified issues will mitigate risks associated with financial discrepancies and ensure compliance with travel regulations.\n\nCUI // Travel Program Data.",
+    "source": "gpt-5.4",
+    "generated_at": "2026-04-27T20:32:33.918202+00:00",
+    "record_count": 33,
+    "citi_txn_count": 190
+  },
+  "MARFORPAC_FY26-Q2": {
+    "scenario_id": "MARFORPAC_FY26-Q2",
+    "unit": "MARFORPAC HQ (Camp H.M. Smith, HI)",
+    "unit_code": "MARFORPAC",
+    "quarter": "FY26-Q2",
+    "brief": "## BLUF\nIn FY26-Q2, a total of 34 records were processed, resulting in 10 flagged issues with a dollar exposure of $18,830.77. There are 7 records recommended for escalation.\n\n## Top Issue Categories\n- card_charge_no_voucher: 2\n- duplicate: 1\n- missing_receipt: 1\n- voucher_no_card_charge: 1\n- rate_above_per_diem: 1\n- amount_mismatch: 1\n- non_authorized: 1\n\n## Records to Escalate\n- DTS-2026-00071 | LCpl W. RODRIGUEZ | card_charge_no_voucher\n- DTS-2026-00074 | LtCol O. NELSON | duplicate\n- DTS-2026-00078 | WO1 A. THOMPSON | missing_receipt\n- DTS-2026-00082 | SSgt H. CAMPBELL | voucher_no_card_charge\n- DTS-2026-00085 | CWO3 L. TAYLOR | rate_above_per_diem\n- DTS-2026-00089 | CWO2 N. DAVIS | amount_mismatch\n- DTS-2026-00092 | GySgt S. THOMPSON | non_authorized\n\n## Training Opportunities\n- **Card Charge Management:** Conduct a session focusing on ensuring all card charges are properly documented to prevent \"card_charge_no_voucher\" issues.\n- **Duplicate Submission Awareness:** Offer training on identifying and preventing duplicate submissions to mitigate the \"duplicate\" issue.\n- **Receipt Submission Protocols:** Implement a workshop to emphasize the importance of timely receipt submissions to address the \"missing_receipt\" category.\n\n## Recommendation\nTo enhance the travel program's effectiveness, it is crucial for the S-1 to prioritize the resolution of flagged issues, particularly those related to card charges and duplicate submissions. Implementing targeted training sessions will further mitigate these issues and improve compliance across the board.\n\nCUI // Travel Program Data",
+    "source": "gpt-5.4",
+    "generated_at": "2026-04-27T20:32:43.044916+00:00",
+    "record_count": 34,
+    "citi_txn_count": 199
+  }
+}

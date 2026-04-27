@@ -1,0 +1,13 @@
+{
+  "id": "APRA-MED",
+  "name": "Apra Regional Medical Depot",
+  "kind": "hub",
+  "country": "Guam (US)",
+  "lat": 13.443,
+  "lon": 144.66,
+  "cold_chain_units": 14,
+  "cold_chain_health": 0.92,
+  "lab_reagent_days": 21,
+  "dry_ice_kg": 4800,
+  "max_daily_throughput_units": 1800
+}

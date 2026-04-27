@@ -1,0 +1,32 @@
+[
+  {
+    "id": "meu_soc_30d_tropical_high",
+    "label": "MEU(SOC), 2,200 personnel, 30 days, expeditionary austere, tropical high-tempo",
+    "unit_type": "MEU(SOC)",
+    "personnel": 2200,
+    "days": 30,
+    "climate": "tropical",
+    "opscale": "high",
+    "supply_basis": "expeditionary_austere"
+  },
+  {
+    "id": "rct_15d_temperate_medium",
+    "label": "RCT, 4,800 personnel, 15 days, temperate, medium tempo",
+    "unit_type": "Regimental Combat Team (RCT)",
+    "personnel": 4800,
+    "days": 15,
+    "climate": "temperate",
+    "opscale": "medium",
+    "supply_basis": "temperate"
+  },
+  {
+    "id": "magtf_60d_arid_high",
+    "label": "MAGTF (reinforced), 7,500 personnel, 60 days, arid, high tempo",
+    "unit_type": "MAGTF (reinforced)",
+    "personnel": 7500,
+    "days": 60,
+    "climate": "arid",
+    "opscale": "high",
+    "supply_basis": "arid"
+  }
+]

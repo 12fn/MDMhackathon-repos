@@ -1,0 +1,119 @@
+{
+  "taiwan_strait": {
+    "scenario": {
+      "id": "taiwan_strait",
+      "title": "Taiwan Strait closure (PLAN exercise \u2192 quarantine)",
+      "primary_chokepoint": "TWNSTRAIT",
+      "headline": "PLAN live-fire box closes Taiwan Strait for 14 days; TSMC export tonnage drops 92%."
+    },
+    "structured": {
+      "affected_marine_program": [
+        "F-35B/C avionics and mission systems sustainment",
+        "AN/TPS-80 G/ATOR radar production and spares",
+        "P-8A and MQ-9 sensor/processing electronics support",
+        "HIMARS and precision-guided munition electronics",
+        "C4ISR and tactical radio/processor sustainment"
+      ],
+      "substitute_supplier": [
+        "Samsung Electronics (South Korea)",
+        "SK hynix (South Korea)",
+        "GlobalFoundries (United States)",
+        "Intel Foundry Services (United States)",
+        "U.S. and Japan-based silicon wafer suppliers"
+      ],
+      "lead_time_impact_days": 21,
+      "mitigation_actions": [
+        "Prioritize existing on-hand inventory for mission-critical avionics and radar spares",
+        "Invoke alternate-source qualification for non-TSMC semiconductor lots",
+        "Expedite wafer and packaged-component buys through South Korea, Japan, and U.S. fabs",
+        "Re-sequence depot maintenance to defer lowest-priority electronics consumption",
+        "Increase visibility on Taiwan-origin parts and trigger weekly shortage reporting"
+      ],
+      "primary_chokepoint": "TWNSTRAIT",
+      "scenario_id": "taiwan_strait",
+      "_source": "llm"
+    },
+    "brief": "UNCLASSIFIED // FOR OFFICIAL USE ONLY\n\n# Critical-Component Risk Brief \u2014 Taiwan Strait closure (PLAN exercise \u2192 quarantine)\n**Audience:** USMC PEO Land Systems / PEO Aviation\n\n## BLUF\nA 14-day PLAN live-fire quarantine closing the Taiwan Strait, with TSMC export tonnage down 92%, creates an immediate semiconductor shock to Marine aviation and fires sustainment. Primary risk is not complete platform stoppage on Day 1, but rapid depletion of high-end microelectronics used in avionics, radar processing, mission computers, seekers, and tactical C4ISR. The most acute chokepoint is Taiwan-sourced advanced chips and associated **silicon wafers** flowing through TSMC-linked packaging and export lanes. If unmitigated, shortages begin surfacing within ~21 days in repair pipelines, spares fulfillment, and selected production lots. Secondary exposure includes upstream dependence on **EUV optics** for advanced-node fab recovery and broader electronics reliance on China-linked **rare-earth magnets** in actuators, motors, and sensors.\n\n## Exposed Programs\n- **F-35B**: highest exposure for avionics and mission-systems sustainment; advanced processors and memory are difficult to re-source quickly.\n- **MV-22** and **CH-53K**: flight-control, mission avionics, and depot-repair electronics vulnerable to chip and memory shortfalls.\n- **HIMARS**: fire-control electronics and precision-guided munition interfaces exposed to processor and packaged-component disruption.\n- **ACV, AMPV, JLTV**: lower-end but broad exposure across vetronics, displays, radios, GPS/INS modules, and power-management boards.\n- **AN/TPS-80 G/ATOR** and wider C4ISR/tactical radio portfolios: radar processing cards, RF control electronics, and replacement spares at risk.\n- Cross-cutting issue: even where final assembly is U.S.-based, hidden dependencies remain in Taiwan-origin dies, **silicon wafers**, substrate packaging, and test capacity.\n\n## Mitigation Playbook\n1. **Prioritize inventory now** for F-35B, MV-22, CH-53K, HIMARS, and G/ATOR mission-critical spares; freeze nonessential consumption.\n2. **Invoke alternate-source qualification** for non-TSMC semiconductor lots via **Samsung**, **SK hynix**, **GlobalFoundries**, and **Intel Foundry Services** where technically acceptable.\n3. **Expedite wafer/package buys** through U.S., Japan, and South Korea; secure allocation for legacy-node parts as well as advanced memory.\n4. **Re-sequence depot maintenance** across ACV, JLTV, MV-22, and CH-53K to defer low-priority electronics replacement and preserve repairables.\n5. **Map Taiwan-origin content to LRU/SRU level** and require weekly shortage reporting from primes and key subtier suppliers.\n6. **Pre-buy adjacent chokepoints**: selected **rare-earth magnets**, power electronics, and optical/fab tooling items affected by constrained **EUV optics** replacement timelines.\n\n## Decision Required\nApprove within 72 hours:\n- a USMC-wide critical-electronics allocation list led by F-35B/HIMARS/G/ATOR priorities;\n- emergency funding authority for alternate-source qualification and bridge buys;\n- direction to primes to disclose Taiwan-origin semiconductor content and 30/60/90-day shortage forecasts;\n- coordination with OSD/Joint staff for access to shared semiconductor buffer stocks and foundry prioritization.",
+    "generated_at": "2026-04-27T20:27:12.589322+00:00",
+    "source": "llm"
+  },
+  "suez_bab_compound": {
+    "scenario": {
+      "id": "suez_bab_compound",
+      "title": "Suez + Bab-el-Mandeb compound disruption",
+      "primary_chokepoint": "SUEZ",
+      "headline": "Houthi escalation reroutes 67% of Asia-Europe-CONUS tonnage around Cape of Good Hope."
+    },
+    "structured": {
+      "affected_marine_program": [
+        "F-35 Lightning II",
+        "Tomahawk Missile",
+        "Aegis Combat System",
+        "Patriot Missile System",
+        "MQ-9 Reaper"
+      ],
+      "substitute_supplier": [
+        "ASML backup EU semiconductor/lithography ecosystem suppliers",
+        "Raytheon alternate domestic seeker and guidance subcontractors",
+        "U.S. Navy/DoD strategic sealift and airlift nodes via CONUS West Coast",
+        "Allied transshipment hubs in Mediterranean and Gulf of Aden bypass routes",
+        "Domestic microelectronics foundry and packaging suppliers"
+      ],
+      "lead_time_impact_days": 45,
+      "mitigation_actions": [
+        "Reroute priority cargo away from Suez/Bab-el-Mandeb via Cape of Good Hope and Pacific/CONUS lanes",
+        "Invoke surge allocation for critical missile seeker and avionics components from domestic sources",
+        "Increase safety stock and pre-position spares at CONUS and theater depots",
+        "Use alternate European and U.S. transshipment hubs to split shipments and reduce single-point exposure",
+        "Prioritize production lots tied to readiness-critical Marine Corps programs and defer nonessential demand"
+      ],
+      "primary_chokepoint": "SUEZ",
+      "scenario_id": "suez_bab_compound",
+      "_source": "llm"
+    },
+    "brief": "UNCLASSIFIED // FOR OFFICIAL USE ONLY\n\n# Critical-Component Risk Brief \u2014 Suez + Bab-el-Mandeb compound disruption\n**Audience:** USMC PEO Land Systems / PEO Aviation\n\n## BLUF\nHouthi escalation driving 67% of Asia-Europe-CONUS tonnage around the Cape of Good Hope creates an estimated **+45 day lead-time shock** for critical components moving through the Suez/Bab-el-Mandeb corridor. Highest risk is not bulk platforms, but **low-density, high-value bottlenecks**: **silicon wafers**, advanced packaged microelectronics dependent on **EUV optics**-enabled fabrication, and **rare-earth magnets** used in actuators, motors, radar, and precision guidance. For the Marine Corps, the disruption most directly threatens aviation readiness and missile/electronics sustainment, with secondary effects on ground vehicle production and depot repair flows. Immediate action should shift critical flows to Pacific/CONUS routes, protect domestic allocation, and pre-position spares.\n\n## Exposed Programs\n- **F-35B:** Most exposed Marine aviation program due to dependence on advanced avionics, radar, mission systems, and power/actuation assemblies tied to **silicon wafers** and global semiconductor tooling ecosystems reliant on **EUV optics**. Even short component slips can delay repair turnaround and aircraft availability.\n- **CH-53K** and **MV-22:** Vulnerable through flight-control electronics, power electronics, sensors, and electromechanical subsystems using **rare-earth magnets** and semiconductor content. Depot-level sustainment is sensitive to delayed inbound line-replaceable units.\n- **HIMARS:** Exposure through fire-control electronics, guidance-related subcomponents, and launcher electronics; any constrained missile/electronics industrial base allocation will compete with broader joint demand.\n- **JLTV, ACV, AMPV:** Lower immediate exposure than aviation, but still at risk via engine-control modules, vetronics, communications, and sensor suites dependent on **silicon wafers** and magnet-containing motors/actuators.\n- Cross-portfolio competition is likely from **F-35 Lightning II, Tomahawk, Aegis, Patriot, and MQ-9** demand signals drawing from overlapping microelectronics and guidance suppliers.\n\n## Mitigation Playbook\n1. **Reroute now:** Move priority cargo off Suez/Bab-el-Mandeb to Cape or Pacific/CONUS West Coast lanes; reserve airlift for mission-critical microelectronics and repairables.\n2. **Protect allocation:** Direct primes to invoke surge sourcing from **domestic microelectronics foundries and packaging suppliers**, plus alternate seeker/guidance subcontractors where qualified.\n3. **Buffer inventory:** Increase safety stock for avionics, radar modules, motor/actuator assemblies, and semiconductor-heavy LRUs at CONUS and forward depots.\n4. **Split logistics nodes:** Use alternate European and U.S. transshipment hubs to reduce single-point failure; avoid concentration in Mediterranean-adjacent flows.\n5. **Prioritize readiness:** Allocate scarce components first to **F-35B, CH-53K, MV-22, and HIMARS** readiness drivers; defer nonessential retrofit and lower-priority vehicle demand.\n\n## Decision Required\nApprove within 72 hours:  \n1. **Priority routing authority** for PEO-managed critical components to Pacific/CONUS alternatives;  \n2. **Readiness-based allocation** of constrained semiconductors, **rare-earth magnets**, and wafer-dependent avionics across **F-35B, CH-53K, MV-22, HIMARS, JLTV, ACV, and AMPV**;  \n3. **Temporary safety-stock funding** for high-risk electronics and repairables to absorb the projected 45-day disruption window.",
+    "generated_at": "2026-04-27T20:27:31.227535+00:00",
+    "source": "llm"
+  },
+  "rareearth_export": {
+    "scenario": {
+      "id": "rareearth_export",
+      "title": "PRC rare-earth export freeze",
+      "primary_chokepoint": "BAOTOU",
+      "headline": "Beijing suspends NdFeB magnet export licenses; Marine seekers and motors at single-source risk."
+    },
+    "structured": {
+      "affected_marine_program": [
+        "AIM-9X Sidewinder",
+        "AGM-114 Hellfire",
+        "Javelin",
+        "G/ATOR",
+        "AN/TPS-80",
+        "MQ-9 Reaper",
+        "UH-1Y Venom",
+        "AH-1Z Viper"
+      ],
+      "substitute_supplier": [
+        "MP Materials (USA)",
+        "Lynas Rare Earths (Australia/Malaysia)",
+        "Neo Performance Materials (Estonia/Canada)",
+        "VACUUMSCHMELZE (Germany)",
+        "Arnold Magnetic Technologies (USA)"
+      ],
+      "lead_time_impact_days": 180,
+      "mitigation_actions": [
+        "Invoke DPA-rated allocation for NdFeB magnets to priority missile, radar, and motor programs.",
+        "Qualify and dual-source magnet assemblies from non-PRC suppliers; expedite first article and environmental qualification.",
+        "Substitute lower-performance magnet grades or redesign to ferrite/SmCo where mission requirements allow.",
+        "Increase safety stock at depot and prime-level buffers for seekers, actuators, and motor subassemblies.",
+        "Coordinate with OEMs to re-sequence production and defer non-critical lots until supply stabilizes."
+      ],
+      "primary_chokepoint": "BAOTOU",
+      "scenario_id": "rareearth_export",
+      "_source": "llm"
+    },
+    "brief": "# Critical-Component Risk Brief \u2014 PRC rare-earth export freeze\n**Audience:** USMC PEO Land Systems / PEO Aviation\n\nUNCLASSIFIED // FOR OFFICIAL USE ONLY\n\n## BLUF\nBeijing\u2019s suspension of NdFeB magnet export licenses creates an immediate single-source risk for Marine missile seekers, radar arrays, servos, and high-performance motors. The primary chokepoint is **Baotou**, where PRC rare-earth processing and magnet production remain concentrated. Expected impact is **~180 days additional lead time**, with potential line stoppages if existing buffer stock is exhausted. Highest near-term exposure is in precision munitions and aviation subsystems, but second-order effects may propagate into vehicle electrics and industrial suppliers supporting **ACV, AMPV, JLTV, MV-22, F-35B, CH-53K, and HIMARS**. This shock is distinct from, but could compound, other strategic dependencies including **silicon wafers** and **EUV optics** used in advanced electronics supply chains.\n\n## Exposed Programs\nMost directly exposed Marine-relevant systems from current reporting:\n- **AIM-9X Sidewinder** \u2014 seeker/actuation assemblies dependent on rare-earth magnets.\n- **AGM-114 Hellfire** \u2014 guidance and control subassemblies at magnet risk.\n- **Javelin** \u2014 seeker and actuator components vulnerable to NdFeB shortages.\n- **G/ATOR / AN/TPS-80** \u2014 radar motion/control and power subsystems exposed.\n- **MQ-9 Reaper** \u2014 motors/actuators and payload stabilization components.\n- **UH-1Y Venom / AH-1Z Viper** \u2014 avionics, actuators, and motor-driven subsystems.\n\nBroader Marine acquisition concern:\n- **MV-22, F-35B, CH-53K** may face disruptions in magnet-intensive actuators, sensors, and sustainment spares.\n- **ACV, AMPV, JLTV, HIMARS** are less magnet-dense than missile/aviation portfolios but remain exposed through electric drive auxiliaries, fire-control components, and supplier-tier common parts.\n\n## Mitigation Playbook\n1. **Invoke DPA-rated allocation** for NdFeB magnets to priority missile, radar, and motor programs.\n2. **Qualify non-PRC sources now**: **MP Materials**, **Lynas Rare Earths**, **Neo Performance Materials**, **VACUUMSCHMELZE**, and **Arnold Magnetic Technologies**.\n3. **Accelerate first article/environmental qualification** for dual-sourced magnet assemblies; accept limited configuration divergence where operationally tolerable.\n4. **Use substitute materials/designs** where feasible: lower-grade NdFeB, or redesign to **SmCo/ferrite** for non-critical performance envelopes.\n5. **Build safety stock** at depot, OEM, and Tier-2 levels for seekers, actuators, and motor subassemblies.\n6. **Re-sequence production** with primes to protect AIM-9X, Hellfire, Javelin, G/ATOR, and key aviation readiness lines first.\n7. **Map adjacent semiconductor dependencies** so rare-earth disruption does not cascade with existing risks in **silicon wafers** and **EUV optics**.\n\n## Decision Required\nApprove within 72 hours:\n- DPA-priority allocation request for NdFeB-dependent Marine munitions/radar/aviation items.\n- Funding and waiver authority for rapid dual-source qualification with non-PRC magnet suppliers.\n- Direction to primes/OEMs to establish 6\u201312 months of buffer stock for critical magnet-containing subassemblies.\n- Cross-PEO tasking to identify all ACV, JLTV, MV-22, F-35B, CH-53K, and HIMARS single-source magnet dependencies and report burn-down timelines.",
+    "generated_at": "2026-04-27T20:27:49.212497+00:00",
+    "source": "llm"
+  }
+}

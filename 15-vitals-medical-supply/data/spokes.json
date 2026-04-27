@@ -1,0 +1,134 @@
+[
+  {
+    "id": "LHA-6",
+    "name": "USS America (LHA-6) Role 2E",
+    "kind": "afloat-l-class",
+    "country": "WestPac",
+    "lat": 17.84,
+    "lon": 142.1,
+    "personnel": 2400,
+    "fridges": 3,
+    "fridge_health": 0.95
+  },
+  {
+    "id": "LHD-1",
+    "name": "USS Wasp (LHD-1) Role 2E",
+    "kind": "afloat-l-class",
+    "country": "WestPac",
+    "lat": 22.1,
+    "lon": 134.5,
+    "personnel": 2300,
+    "fridges": 3,
+    "fridge_health": 0.78
+  },
+  {
+    "id": "LPD-29",
+    "name": "USS Richard McCool (LPD-29) BAS",
+    "kind": "afloat-l-class",
+    "country": "WestPac",
+    "lat": 19.7,
+    "lon": 138.2,
+    "personnel": 700,
+    "fridges": 2,
+    "fridge_health": 0.88
+  },
+  {
+    "id": "MEU-31",
+    "name": "31st MEU Surgical Co (Okinawa)",
+    "kind": "expeditionary-shore",
+    "country": "Okinawa (JPN)",
+    "lat": 26.355,
+    "lon": 127.768,
+    "personnel": 2200,
+    "fridges": 4,
+    "fridge_health": 0.82
+  },
+  {
+    "id": "MEU-13",
+    "name": "13th MEU FRSS (Subic Fwd)",
+    "kind": "expeditionary-shore",
+    "country": "Philippines",
+    "lat": 14.795,
+    "lon": 120.282,
+    "personnel": 2100,
+    "fridges": 3,
+    "fridge_health": 0.71
+  },
+  {
+    "id": "EABO-PA",
+    "name": "EABO Site PALAU (3rd MLR FRSS)",
+    "kind": "rotc-frwd",
+    "country": "Palau",
+    "lat": 7.367,
+    "lon": 134.544,
+    "personnel": 380,
+    "fridges": 1,
+    "fridge_health": 0.65
+  },
+  {
+    "id": "EABO-TI",
+    "name": "EABO Site TINIAN (3rd MLR FRSS)",
+    "kind": "rotc-frwd",
+    "country": "CNMI (US)",
+    "lat": 14.998,
+    "lon": 145.62,
+    "personnel": 420,
+    "fridges": 1,
+    "fridge_health": 0.83
+  },
+  {
+    "id": "EABO-IT",
+    "name": "EABO Site ITBAYAT (4th MLR FRSS)",
+    "kind": "rotc-frwd",
+    "country": "Philippines",
+    "lat": 20.77,
+    "lon": 121.84,
+    "personnel": 290,
+    "fridges": 1,
+    "fridge_health": 0.59
+  },
+  {
+    "id": "EABO-IS",
+    "name": "EABO Site ISHIGAKI (12th MLR)",
+    "kind": "rotc-frwd",
+    "country": "Ryukyus (JPN)",
+    "lat": 24.345,
+    "lon": 124.156,
+    "personnel": 340,
+    "fridges": 1,
+    "fridge_health": 0.74
+  },
+  {
+    "id": "MCAS-IW",
+    "name": "MCAS Iwakuni Med Clinic",
+    "kind": "marine-corps-air",
+    "country": "Honshu (JPN)",
+    "lat": 34.144,
+    "lon": 132.235,
+    "personnel": 1700,
+    "fridges": 4,
+    "fridge_health": 0.91
+  },
+  {
+    "id": "ROLE3-OK",
+    "name": "USNH Okinawa Role 3",
+    "kind": "expeditionary-shore",
+    "country": "Okinawa (JPN)",
+    "lat": 26.243,
+    "lon": 127.732,
+    "personnel": 3500,
+    "fridges": 6,
+    "fridge_health": 0.9
+  },
+  {
+    "id": "CVN-71",
+    "name": "USS Theodore Roosevelt (CVN-71) Med",
+    "kind": "afloat-cvn",
+    "country": "WestPac",
+    "lat": 16.2,
+    "lon": 140.85,
+    "personnel": 5000,
+    "fridges": 5,
+    "fridge_health": 0.86
+  }
+]

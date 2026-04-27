@@ -1,0 +1,21 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1440
+PlayResY: 900
+ScaledBorderAndShadow: yes
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Helvetica,22,&H00FFFFFF,&H00FFFFFF,&H00000000,&HC8000000,1,0,0,0,100,100,0,0,3,1,0.5,2,80,80,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.00,0:00:05.00,Default,,0,0,0,,WATCHTOWER. Installation Common Operating Picture, every feed in one\Ntab.
+Dialogue: 0,0:00:05.21,0:00:15.21,Default,,0,0,0,,LOGCOM published use case: the I-COP Aggregator. Seven streams, no\Nintegration project, one cross-stream picture for the commander.
+Dialogue: 0,0:00:14.72,0:00:24.72,Default,,0,0,0,,We fuse HIFLD critical infrastructure, NASA Earthdata weather, GCSS-MC\Nmaintenance, plus gate, utility, EMS, and mass-notification — five …
+Dialogue: 0,0:00:23.73,0:00:43.73,Default,,0,0,0,,Hero AI move: cross-stream correlation. The model finds three\Nanomalies. The top one is a structure fire at Las Pulgas Magazine 14, …
+Dialogue: 0,0:00:41.37,0:01:01.37,Default,,0,0,0,,One click, the Kamiwaza-deployed model writes the Commander I-COP\NBrief — BLUF, top three anomalies, predictive risk for the next twelve …
+Dialogue: 0,0:00:58.95,0:01:13.95,Default,,0,0,0,,Same code, on-prem. Set KAMIWAZA_BASE_URL and the entire pipeline runs\Ninside your accredited environment. Air-gapped, IL5 and IL6 ready.
+Dialogue: 0,0:01:12.97,0:01:22.97,Default,,0,0,0,,WATCHTOWER. Built on the Kamiwaza Stack. Deploy in hours, not months.\NOne hundred percent data containment.

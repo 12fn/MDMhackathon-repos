@@ -1,0 +1,39 @@
+1
+00:00:02,686 --> 00:00:07,686
+CHORUS. Public Affairs trainees rehearse five audiences before they press send.
+
+2
+00:00:07,690 --> 00:00:12,690
+LOGCOM use case: AI-Enabled Public Affairs Training and Audience Simulation.
+
+3
+00:00:12,691 --> 00:00:17,691
+Fifteen synthetic personas across domestic media, host-nation, and adversary IO.
+
+4
+00:00:17,694 --> 00:00:23,694
+Pick a scenario. A drone strike near a host-nation village. The clock is running.
+
+5
+00:00:23,697 --> 00:00:30,697
+A trainee drafts the release. CHORUS runs it past five personas in parallel.
+
+6
+00:00:30,718 --> 00:00:37,718
+Each persona returns structured JSON: trust delta, narrative risk, predicted action.
+
+7
+00:00:35,730 --> 00:00:41,730
+Five color-coded persona cards. Aggregate trust delta and counter-message risk.
+
+8
+00:00:41,733 --> 00:00:48,733
+A Kamiwaza-deployed hero model writes a one-page Message Effectiveness Brief.
+
+9
+00:00:47,743 --> 00:00:54,743
+Set KAMIWAZA_BASE_URL and the same code runs inside the wire. No data movement.
+
+10
+00:00:54,746 --> 00:01:02,746
+Powered by the Kamiwaza Stack. Train PA officers in hours, not months.

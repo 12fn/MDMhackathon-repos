@@ -1,8 +1,11 @@
-# MDM 2026 — 14 LOGCOM Hackathon App Templates
+# MDM 2026 — 34 LOGCOM Hackathon App Templates
 
 Open-source AI app templates for the **Modern Day Marine 2026 LOGCOM AI Forum Hackathon** (27–30 April 2026, Walter E. Washington Convention Center).
 
-**14 apps, one per published USMC LOGCOM dataset.** Built as runnable templates so any MDM 2026 competitor can fork, plug in their own data, point at any LLM provider, and ship a credible entry in hours instead of weeks.
+**34 apps total — covering all 31 published datasets and all 17 published use cases on the LOGCOM portal.** Built as runnable templates so any MDM 2026 competitor can fork, plug in their own data, point at any LLM provider, and ship a credible entry in hours instead of weeks.
+
+- **Wave 1 (apps 01-14):** one app per dataset on the LOGCOM portal (MARLIN through EMBER)
+- **Wave 2 (apps 15-34):** one app per remaining dataset and one per published use case (VITALS through VOUCHER)
 
 Every app is end-to-end working today: real LLM calls, real processing, polished UI, captioned demo video. The data is synthetic-but-plausible (per-app `data/generate.py`) — swap in your real dataset using [DATA_INGESTION.md](DATA_INGESTION.md).
 
@@ -33,7 +36,7 @@ The shared client (`shared/kamiwaza_client.py`) auto-detects from env vars. Set 
 
 Full provider compatibility matrix and per-app notes in [DEPLOY.md](DEPLOY.md). To install Kamiwaza locally and point the apps at it, see [KAMIWAZA_SETUP.md](KAMIWAZA_SETUP.md).
 
-## The 14 apps
+## Wave 1 — one app per LOGCOM dataset (14)
 
 | # | Folder | Codename | Dataset | Mission frame |
 |---|---|---|---|---|
@@ -52,7 +55,32 @@ Full provider compatibility matrix and per-app notes in [DEPLOY.md](DEPLOY.md). 
 | 13 | [13-wildfire-nasa-firms](13-wildfire-nasa-firms/) | **WILDFIRE** | NASA FIRMS | Installation wildfire predictor + auto-MASCAL comms package |
 | 14 | [14-ember-firms-ukraine](14-ember-firms-ukraine/) | **EMBER** | NASA FIRMS Ukraine 24-mo | Combat-fire signature analytics + SIPR-style ASIB brief |
 
-Each folder has its own README with launch instructions, hero AI move, and real-data swap recipe.
+## Wave 2 — remaining datasets + every published use case (20)
+
+| # | Folder | Codename | Dataset / Use Case |
+|---|---|---|---|
+| 15 | [15-vitals-medical-supply](15-vitals-medical-supply/) | **VITALS** | DHA RESCUE — blood-logistics decision support, hub-and-spoke risk |
+| 16 | [16-watchtower-installation-cop](16-watchtower-installation-cop/) | **WATCHTOWER** | Installation Common Operating Picture (I-COP) Aggregator |
+| 17 | [17-pallet-vision-drone-construction](17-pallet-vision-drone-construction/) | **PALLET-VISION** | AI Visual Quantification Engine (image → pallet/truck count) |
+| 18 | [18-trace-class-i-ix-consumption](18-trace-class-i-ix-consumption/) | **TRACE** | LogTRACE — Class I-IX consumption rate estimator |
+| 19 | [19-reorder-class-ix-forecast](19-reorder-class-ix-forecast/) | **REORDER** | Parts Demand Forecasting (Class IX for deployed MAGTF) |
+| 20 | [20-queue-depot-throughput](20-queue-depot-throughput/) | **QUEUE** | Depot Maintenance Throughput Optimizer |
+| 21 | [21-ghost-rf-fingerprinting](21-ghost-rf-fingerprinting/) | **GHOST** | RF Data Analysis (WiFi/Bluetooth pattern of life) |
+| 22 | [22-stockroom-inventory-control](22-stockroom-inventory-control/) | **STOCKROOM** | Inventory Control Management |
+| 23 | [23-cargo-last-mile-delivery](23-cargo-last-mile-delivery/) | **CARGO** | Last-mile expeditionary delivery — real OpenAI tool-calling agent |
+| 24 | [24-chain-supply-chain-disruption](24-chain-supply-chain-disruption/) | **CHAIN** | Global supply-chain disruption forecaster for Marine PEOs |
+| 25 | [25-hub-bts-multimodal-corridor](25-hub-bts-multimodal-corridor/) | **HUB** | Multimodal CONUS-to-POE corridor planner |
+| 26 | [26-opengate-data-gov-rag](26-opengate-data-gov-rag/) | **OPENGATE** | Federal data discovery — production-shape RAG over data.gov |
+| 27 | [27-embodied-xperience-10m](27-embodied-xperience-10m/) | **EMBODIED** | Egocentric Marine training simulator (multimodal vision) |
+| 28 | [28-redline-cui-tagging](28-redline-cui-tagging/) | **REDLINE** | CUI Auto-Tagging Assistant (per-paragraph + audit chain) |
+| 29 | [29-chorus-pa-audience-sim](29-chorus-pa-audience-sim/) | **CHORUS** | AI-Enabled Public Affairs Training & Audience Simulation |
+| 30 | [30-guardian-browser-ai-governance](30-guardian-browser-ai-governance/) | **GUARDIAN** | Browser Based Agent Governance (Comet, manus.im detection) |
+| 31 | [31-dispatch-ermp](31-dispatch-ermp/) | **DISPATCH** | ERMP — Emergency Response Modernization Project |
+| 32 | [32-learn-lid](32-learn-lid/) | **LEARN** | Learning Intelligence Dashboard (PME / MOS school analytics) |
+| 33 | [33-agora-multi-model-rbac](33-agora-multi-model-rbac/) | **AGORA** | Multi-model JIT context+role-aware AI support (ABAC RAG) |
+| 34 | [34-voucher-dts-travel](34-voucher-dts-travel/) | **VOUCHER** | Travel Program Validation (DTS + Citi Manager reconciliation) |
+
+Each folder has its own README with launch instructions, hero AI move, and real-data swap recipe. The full per-app rubric scorecard with rankings is in [JUDGING_V2.md](JUDGING_V2.md).
 
 ## Use as templates
 
@@ -83,8 +111,10 @@ MDMhackathon-repos/
 ├── shared/
 │   ├── kamiwaza_client.py     # multi-provider LLM client
 │   └── synth.py               # synth-data utilities
-└── 01-marlin-ais-vessel-tracking/   # one folder per app, each with own README
-    └── … through 14-ember-firms-ukraine/
+├── 01-marlin-ais-vessel-tracking/        # Wave 1: one folder per LOGCOM dataset
+│   └── … through 14-ember-firms-ukraine/
+└── 15-vitals-medical-supply/             # Wave 2: remaining datasets + every use case
+    └── … through 34-voucher-dts-travel/
 ```
 
 ## Contributing

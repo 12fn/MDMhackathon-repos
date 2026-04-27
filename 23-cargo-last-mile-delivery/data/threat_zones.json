@@ -1,0 +1,38 @@
+[
+  {
+    "id": "TZ-01",
+    "name": "UAS Observed Sector (Northeast)",
+    "type": "UAS",
+    "severity": "HIGH",
+    "lat_min": 33.45,
+    "lat_max": 33.55,
+    "lon_min": 43.78,
+    "lon_max": 43.88,
+    "window_local": "0500-0800",
+    "guidance": "Avoid daylight crossings; small-quad ISR loitering."
+  },
+  {
+    "id": "TZ-02",
+    "name": "Sniper Sector (Charlie cordon)",
+    "type": "SNIPER",
+    "severity": "MEDIUM",
+    "lat_min": 33.42,
+    "lat_max": 33.48,
+    "lon_min": 43.85,
+    "lon_max": 43.92,
+    "window_local": "ALL_DAY",
+    "guidance": "Hardened armor + speed; no halts inside box."
+  },
+  {
+    "id": "TZ-03",
+    "name": "IED-cleared Corridor (Route IRON)",
+    "type": "IED_CLEARED",
+    "severity": "LOW",
+    "lat_min": 33.36,
+    "lat_max": 33.42,
+    "lon_min": 43.55,
+    "lon_max": 43.78,
+    "window_local": "ALL_DAY",
+    "guidance": "Route swept 0400 today; safe transit corridor between depot and Foxtrot/Golf/Hotel."
+  }
+]

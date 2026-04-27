@@ -1,0 +1,23 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1440
+PlayResY: 900
+ScaledBorderAndShadow: yes
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Helvetica,22,&H00FFFFFF,&H00FFFFFF,&H00000000,&HC8000000,1,0,0,0,100,100,0,0,3,1,0.5,2,80,80,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.00,0:00:05.00,Default,,0,0,0,,PALLET-VISION. Photo in. Load plan out. AI Visual Quantification for\Nthe Marine ground fleet.
+Dialogue: 0,0:00:05.01,0:00:15.01,Default,,0,0,0,,LOGCOM use case, verbatim: convert images of physical goods into\Naccurate estimates of palletization and transportation requirements.
+Dialogue: 0,0:00:15.01,0:00:25.01,Default,,0,0,0,,Six-image sample bank — warehouse, dock, drone overhead, flight line,\Nengineer yard, ship deck. Upload your own at any time.
+Dialogue: 0,0:00:25.28,0:00:37.28,Default,,0,0,0,,One multimodal call. Strict JSON. Pallet count, type, weight, and the\Nexact USAF and USMC platforms required.
+Dialogue: 0,0:00:31.30,0:00:39.30,Default,,0,0,0,,Cached for the demo; live regenerate is one click. Lift requirement is\Nrendered with named platform constraints.
+Dialogue: 0,0:00:37.33,0:00:44.33,Default,,0,0,0,,A second narrator call grounds the JSON in the real platform-spec\Ntable.
+Dialogue: 0,0:00:44.36,0:00:57.36,Default,,0,0,0,,C-17 holds 18 pallets. C-130J holds 6. MTVR holds 4. Four bullets,\Nloadmaster-ready.
+Dialogue: 0,0:00:57.36,0:01:12.36,Default,,0,0,0,,Powered by a Kamiwaza-deployed model. Set KAMIWAZA_BASE_URL to your\Naccredited boundary. Same code. Air-gapped. IL5 IL6 ready.
+Dialogue: 0,0:01:12.36,0:01:22.36,Default,,0,0,0,,PALLET-VISION. Built on the Kamiwaza Stack. Deploy in hours, not\Nmonths.

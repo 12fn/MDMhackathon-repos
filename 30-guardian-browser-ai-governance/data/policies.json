@@ -1,0 +1,58 @@
+[
+  {
+    "id": "POL-001",
+    "name": "BLOCK_KNOWN_AI_UA",
+    "description": "Block requests whose user-agent matches a known browser-AI signature (Comet, manus.im, Arc Search agent).",
+    "default_action": "BLOCK",
+    "severity": "HIGH"
+  },
+  {
+    "id": "POL-002",
+    "name": "REDACT_PII",
+    "description": "Strip SSN, DoD ID, DOB, full-name fields from response bodies served to non-human clients.",
+    "default_action": "REDACT_PII",
+    "severity": "HIGH"
+  },
+  {
+    "id": "POL-003",
+    "name": "REDACT_PHI",
+    "description": "Strip ICD-10 codes, blood-type, and medical-record IDs from any response served to a non-human client.",
+    "default_action": "REDACT_PII",
+    "severity": "HIGH"
+  },
+  {
+    "id": "POL-004",
+    "name": "BLOCK_AUTH_BYPASS",
+    "description": "Block any client that submits credential or MFA-token forms without observed human-typing entropy.",
+    "default_action": "BLOCK",
+    "severity": "CRITICAL"
+  },
+  {
+    "id": "POL-005",
+    "name": "CHALLENGE_CUI_ACCESS",
+    "description": "Force a human-presence challenge before serving any CUI-marked record to a low-confidence-human client.",
+    "default_action": "CHALLENGE_HUMAN",
+    "severity": "HIGH"
+  },
+  {
+    "id": "POL-006",
+    "name": "BLOCK_SCREENSHOT_API",
+    "description": "Block any client that has called the browser screenshot or screen-capture API in the last 30s.",
+    "default_action": "BLOCK",
+    "severity": "MEDIUM"
+  },
+  {
+    "id": "POL-007",
+    "name": "CHALLENGE_LOW_ENTROPY",
+    "description": "Issue a CAPTCHA-style challenge to clients whose mouse-movement entropy is below the human floor.",
+    "default_action": "CHALLENGE_HUMAN",
+    "severity": "MEDIUM"
+  },
+  {
+    "id": "POL-008",
+    "name": "ALLOW_VERIFIED_HUMAN",
+    "description": "Permit normal traffic from clients with high human-entropy score and no AI fingerprint markers.",
+    "default_action": "ALLOW",
+    "severity": "INFO"
+  }
+]

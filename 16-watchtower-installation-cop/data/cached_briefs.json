@@ -1,0 +1,84 @@
+{
+  "as_of_iso": "2026-04-27T18:00:00+00:00",
+  "installation": {
+    "id": "pendleton",
+    "name": "MCB Camp Pendleton",
+    "centroid": [
+      33.3858,
+      -117.5631
+    ]
+  },
+  "baseline_correlation": {
+    "anomalies": [
+      {
+        "anomaly_id": "COP-001",
+        "severity": "HIGH",
+        "contributing_streams": [
+          "ems",
+          "massnotify",
+          "utility",
+          "gate"
+        ],
+        "hypothesis": "Cross-stream correlation indicates an active structure-fire incident vicinity Las Pulgas Magazine 14: P1 multi-unit dispatch (Engine 1, Engine 3, Medic 2, PMO 7) coincides with a 22 psi water-pressure dip at the Mainside Water Tower (consistent with hydrant draw), a load surge at 22-Area Substation (emergency systems engaged), an EMERGENCY AtHoc broadcast, and an unusual POV ingress spike at Las Pulgas Gate (family-driven response to the AtHoc message).",
+        "recommended_action": "Activate Installation EOC at COG; pre-position MEDIC-5 to 43-Area as backfill; verify Magazine 14 cooling-spray loop pressure; issue shelter-in-place reaffirmation through AtHoc; coordinate with CDF for structural collapse contingency."
+      },
+      {
+        "anomaly_id": "COP-002",
+        "severity": "MEDIUM",
+        "contributing_streams": [
+          "weather",
+          "ems"
+        ],
+        "hypothesis": "Santa Ana wind shift to ~14 m/s easterly is concurrent with the magazine structure fire \u2014 wind alignment is pushing smoke and embers toward San Onofre family housing.",
+        "recommended_action": "Pre-stage Engine Co 1 reserves at San Onofre; coordinate with PWD for downwind air-quality monitoring; place housing on voluntary evacuation."
+      },
+      {
+        "anomaly_id": "COP-003",
+        "severity": "MEDIUM",
+        "contributing_streams": [
+          "maintenance"
+        ],
+        "hypothesis": "Three critical assets are NMC during the incident window: HMMWV-44102 (1st Recon), AAV-09921 (3rd AABn), and GENSET-MCFD-AUX-3 (MCFD aux power). The MCFD genset NMC reduces backup power resilience for Mainside Fire Sta 1 exactly when an incident is consuming primary capacity.",
+        "recommended_action": "Direct CLB-1 to expedite voltage-regulator swap on GENSET-MCFD-AUX-3; stage HMMWV-44119 / 44123 as Recon backfill; confirm AAV-09921 depot induct date does not slip into the next exercise window."
+      }
+    ],
+    "_source": "deterministic_baseline"
+  },
+  "baseline_brief": "COMMANDER'S I-COP BRIEF \u2014 MCB Camp Pendleton\nAS OF: 2026-04-27T18:00:00+00:00\n\nBLUF: Active structure-fire incident at Las Pulgas Magazine 14 with cross-stream corroboration across EMS, mass-notification, utility, and gate streams. EOC activation recommended. Three critical assets NMC during the incident window degrades resilience.\n\nTOP 3 CROSS-STREAM ANOMALIES:\n  - [HIGH] COP-001: Cross-stream correlation indicates an active structure-fire incident vicinity Las Pulgas Magazine 14: P1 multi-unit dispatch (Engine 1, Engine 3, Medic 2, PMO 7) coincides with a 22 psi water-pressure dip at the Mainside Water Tower (consistent with hydrant draw), a load surge at 22-Area Substation (emergency systems engaged), an EMERGENCY AtHoc broadcast, and an unusual POV ingress spike at Las Pulgas Gate (family-driven response to the AtHoc message).\n  - [MEDIUM] COP-002: Santa Ana wind shift to ~14 m/s easterly is concurrent with the magazine structure fire \u2014 wind alignment is pushing smoke and embers toward San Onofre family housing.\n  - [MEDIUM] COP-003: Three critical assets are NMC during the incident window: HMMWV-44102 (1st Recon), AAV-09921 (3rd AABn), and GENSET-MCFD-AUX-3 (MCFD aux power). The MCFD genset NMC reduces backup power resilience for Mainside Fire Sta 1 exactly when an incident is consuming primary capacity.\n\nPREDICTIVE RISK \u2014 NEXT 12H:\n  - Santa Ana wind shift (~14 m/s easterly) sustains 6-8h; ember risk to San Onofre family housing is the dominant hazard until winds abate ~T+8h.\n  - Mainside water pressure expected to recover to baseline (62-78 psi) within 90 min of incident-fire suppression.\n  - Gate ingress at Las Pulgas should normalize within 60 min of AtHoc UPDATE; if it does not, escalate to PMO traffic-control plan.\n\nRECOMMENDED PRE-POSITIONING:\n  - Activate Installation EOC at COG; pre-position MEDIC-5 to 43-Area as backfill; verify Magazine 14 cooling-spray loop pressure; issue shelter-in-place reaffirmation through AtHoc; coordinate with CDF for structural collapse contingency.\n  - Pre-stage Engine Co 1 reserves at San Onofre; coordinate with PWD for downwind air-quality monitoring; place housing on voluntary evacuation.\n  - Direct CLB-1 to expedite voltage-regulator swap on GENSET-MCFD-AUX-3; stage HMMWV-44119 / 44123 as Recon backfill; confirm AAV-09921 depot induct date does not slip into the next exercise window.\n\n//SIGNED// I-COP Aggregator (WATCHTOWER) \u2014 Powered by Kamiwaza",
+  "live_correlation": {
+    "anomalies": [
+      {
+        "anomaly_id": "ANOM-001",
+        "severity": "HIGH",
+        "contributing_streams": [
+          "gate",
+          "ems",
+          "massnotify"
+        ],
+        "hypothesis": "A structure fire at Magazine 14 has led to increased gate ingress and emergency response notifications.",
+        "recommended_action": "Increase security and traffic management at Las Pulgas Gate; ensure all personnel are accounted for."
+      },
+      {
+        "anomaly_id": "ANOM-002",
+        "severity": "MEDIUM",
+        "contributing_streams": [
+          "utility",
+          "weather"
+        ],
+        "hypothesis": "High winds may have contributed to water pressure dips and power load surges in the area.",
+        "recommended_action": "Monitor utility systems closely; prepare for potential further incidents due to weather conditions."
+      },
+      {
+        "anomaly_id": "ANOM-003",
+        "severity": "HIGH",
+        "contributing_streams": [
+          "utility",
+          "maintenance"
+        ],
+        "hypothesis": "Multiple critical assets are not mission capable during a time of increased utility anomalies, indicating potential operational risks.",
+        "recommended_action": "Conduct immediate assessments on non-mission capable assets and prioritize repairs."
+      }
+    ]
+  },
+  "live_brief": "COMMANDER\u2019S I-COP BRIEF  \nMCB CAMP PENDLETON  \nAS OF 271800Z APR 2026\n\nBLUF: Installation posture is degraded by one active/high-confidence emergency cluster and two compounding support-function anomalies. Highest concern is suspected structure fire effects at Magazine 14 driving EMS activity, mass notification traffic, and increased gate ingress, with secondary risk from weather-linked utility instability and multiple critical assets remaining NMC.\n\nTOP 3 CROSS-STREAM ANOMALIES:\n1. ANOM-001 (HIGH): Gate/EMS/Mass Notify correlation indicates likely structure fire at Magazine 14. Effects include elevated emergency response demand, increased ingress pressure at Las Pulgas Gate, and accountability challenges for personnel in the affected area.\n2. ANOM-002 (MEDIUM): Utility/Weather correlation suggests high winds are contributing to water pressure dips and power load surges. Risk is cascading service disruption to adjacent facilities and response operations.\n3. ANOM-003 (HIGH): Utility/Maintenance correlation shows multiple critical assets NMC while utility anomalies persist. This increases probability of mission degradation, delayed response, and reduced redundancy if conditions worsen.\n\nPREDICTIVE RISK, NEXT 12 HOURS:\n- High probability of localized traffic congestion and access control friction at Las Pulgas Gate.\n- Moderate-to-high probability of follow-on utility interruptions if winds persist, especially power quality fluctuations and additional water pressure instability.\n- High probability of operational strain if NMC assets are not restored or workarounds established before another incident occurs.\n- Moderate probability of accountability/reporting gaps among personnel moving in response to Magazine 14 incident notifications.\n\nRECOMMENDED PRE-POSITIONING ACTIONS:\n- Surge traffic control and security at Las Pulgas Gate; establish inbound routing priority for emergency vehicles.\n- Direct immediate personnel accountability check for units/facilities tied to Magazine 14.\n- Pre-stage fire/life safety support, barricades, lighting, and comm support near affected sector.\n- Place utilities teams on standby with repair kits, backup power options, and water distribution contingency measures.\n- Prioritize assessment/repair or substitute capability for critical NMC assets before night cycle.\n- Maintain command emphasis on weather monitoring and rapid reporting of secondary outages/incidents.\n\n//SIGNED// I-COP Aggregator (WATCHTOWER)"
+}

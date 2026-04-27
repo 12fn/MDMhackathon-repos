@@ -1,0 +1,370 @@
+[
+  {
+    "depot_id": "MCLB-ALB",
+    "name": "MCLB Albany",
+    "location": "Albany, GA",
+    "lat": 31.546,
+    "lon": -84.064,
+    "role": "Eastern CONUS source-of-supply / depot maintenance",
+    "inventory": {
+      "I": {
+        "on_hand": 720000,
+        "unit": "lbs"
+      },
+      "II": {
+        "on_hand": 95000,
+        "unit": "lbs"
+      },
+      "III": {
+        "on_hand": 180000,
+        "unit": "gal"
+      },
+      "IV": {
+        "on_hand": 150000,
+        "unit": "lbs"
+      },
+      "V": {
+        "on_hand": 880000,
+        "unit": "lbs"
+      },
+      "VI": {
+        "on_hand": 42000,
+        "unit": "lbs"
+      },
+      "VII": {
+        "on_hand": 240,
+        "unit": "ea"
+      },
+      "VIII": {
+        "on_hand": 62000,
+        "unit": "lbs"
+      },
+      "IX": {
+        "on_hand": 320000,
+        "unit": "lbs"
+      }
+    }
+  },
+  {
+    "depot_id": "MCLB-BAR",
+    "name": "MCLB Barstow",
+    "location": "Barstow, CA",
+    "lat": 34.892,
+    "lon": -117.017,
+    "role": "Western CONUS source-of-supply / depot maintenance",
+    "inventory": {
+      "I": {
+        "on_hand": 640000,
+        "unit": "lbs"
+      },
+      "II": {
+        "on_hand": 88000,
+        "unit": "lbs"
+      },
+      "III": {
+        "on_hand": 220000,
+        "unit": "gal"
+      },
+      "IV": {
+        "on_hand": 140000,
+        "unit": "lbs"
+      },
+      "V": {
+        "on_hand": 760000,
+        "unit": "lbs"
+      },
+      "VI": {
+        "on_hand": 38000,
+        "unit": "lbs"
+      },
+      "VII": {
+        "on_hand": 210,
+        "unit": "ea"
+      },
+      "VIII": {
+        "on_hand": 54000,
+        "unit": "lbs"
+      },
+      "IX": {
+        "on_hand": 290000,
+        "unit": "lbs"
+      }
+    }
+  },
+  {
+    "depot_id": "BICMD",
+    "name": "Blount Island Command",
+    "location": "Jacksonville, FL",
+    "lat": 30.405,
+    "lon": -81.516,
+    "role": "MPF maintenance + afloat pre-positioning hub",
+    "inventory": {
+      "I": {
+        "on_hand": 410000,
+        "unit": "lbs"
+      },
+      "II": {
+        "on_hand": 72000,
+        "unit": "lbs"
+      },
+      "III": {
+        "on_hand": 480000,
+        "unit": "gal"
+      },
+      "IV": {
+        "on_hand": 200000,
+        "unit": "lbs"
+      },
+      "V": {
+        "on_hand": 920000,
+        "unit": "lbs"
+      },
+      "VI": {
+        "on_hand": 31000,
+        "unit": "lbs"
+      },
+      "VII": {
+        "on_hand": 320,
+        "unit": "ea"
+      },
+      "VIII": {
+        "on_hand": 44000,
+        "unit": "lbs"
+      },
+      "IX": {
+        "on_hand": 360000,
+        "unit": "lbs"
+      }
+    }
+  },
+  {
+    "depot_id": "MCRD-SD",
+    "name": "MCRD San Diego SSP",
+    "location": "San Diego, CA",
+    "lat": 32.737,
+    "lon": -117.198,
+    "role": "Western recruit-depot supply support point",
+    "inventory": {
+      "I": {
+        "on_hand": 220000,
+        "unit": "lbs"
+      },
+      "II": {
+        "on_hand": 56000,
+        "unit": "lbs"
+      },
+      "III": {
+        "on_hand": 48000,
+        "unit": "gal"
+      },
+      "IV": {
+        "on_hand": 22000,
+        "unit": "lbs"
+      },
+      "V": {
+        "on_hand": 32000,
+        "unit": "lbs"
+      },
+      "VI": {
+        "on_hand": 18000,
+        "unit": "lbs"
+      },
+      "VII": {
+        "on_hand": 46,
+        "unit": "ea"
+      },
+      "VIII": {
+        "on_hand": 22000,
+        "unit": "lbs"
+      },
+      "IX": {
+        "on_hand": 46000,
+        "unit": "lbs"
+      }
+    }
+  },
+  {
+    "depot_id": "CPEN-SMU",
+    "name": "Camp Pendleton SMU",
+    "location": "Camp Pendleton, CA",
+    "lat": 33.385,
+    "lon": -117.567,
+    "role": "I MEF supply management unit",
+    "inventory": {
+      "I": {
+        "on_hand": 510000,
+        "unit": "lbs"
+      },
+      "II": {
+        "on_hand": 78000,
+        "unit": "lbs"
+      },
+      "III": {
+        "on_hand": 160000,
+        "unit": "gal"
+      },
+      "IV": {
+        "on_hand": 92000,
+        "unit": "lbs"
+      },
+      "V": {
+        "on_hand": 540000,
+        "unit": "lbs"
+      },
+      "VI": {
+        "on_hand": 29000,
+        "unit": "lbs"
+      },
+      "VII": {
+        "on_hand": 138,
+        "unit": "ea"
+      },
+      "VIII": {
+        "on_hand": 38000,
+        "unit": "lbs"
+      },
+      "IX": {
+        "on_hand": 210000,
+        "unit": "lbs"
+      }
+    }
+  },
+  {
+    "depot_id": "CLEJ-SMU",
+    "name": "Camp Lejeune SMU",
+    "location": "Camp Lejeune, NC",
+    "lat": 34.685,
+    "lon": -77.337,
+    "role": "II MEF supply management unit",
+    "inventory": {
+      "I": {
+        "on_hand": 540000,
+        "unit": "lbs"
+      },
+      "II": {
+        "on_hand": 82000,
+        "unit": "lbs"
+      },
+      "III": {
+        "on_hand": 145000,
+        "unit": "gal"
+      },
+      "IV": {
+        "on_hand": 88000,
+        "unit": "lbs"
+      },
+      "V": {
+        "on_hand": 510000,
+        "unit": "lbs"
+      },
+      "VI": {
+        "on_hand": 31000,
+        "unit": "lbs"
+      },
+      "VII": {
+        "on_hand": 146,
+        "unit": "ea"
+      },
+      "VIII": {
+        "on_hand": 41000,
+        "unit": "lbs"
+      },
+      "IX": {
+        "on_hand": 232000,
+        "unit": "lbs"
+      }
+    }
+  },
+  {
+    "depot_id": "OKI-SMU",
+    "name": "MCB Camp Butler SMU (Okinawa)",
+    "location": "Okinawa, JPN",
+    "lat": 26.298,
+    "lon": 127.756,
+    "role": "III MEF / forward-deployed Pacific support",
+    "inventory": {
+      "I": {
+        "on_hand": 360000,
+        "unit": "lbs"
+      },
+      "II": {
+        "on_hand": 62000,
+        "unit": "lbs"
+      },
+      "III": {
+        "on_hand": 110000,
+        "unit": "gal"
+      },
+      "IV": {
+        "on_hand": 64000,
+        "unit": "lbs"
+      },
+      "V": {
+        "on_hand": 380000,
+        "unit": "lbs"
+      },
+      "VI": {
+        "on_hand": 22000,
+        "unit": "lbs"
+      },
+      "VII": {
+        "on_hand": 94,
+        "unit": "ea"
+      },
+      "VIII": {
+        "on_hand": 29000,
+        "unit": "lbs"
+      },
+      "IX": {
+        "on_hand": 168000,
+        "unit": "lbs"
+      }
+    }
+  },
+  {
+    "depot_id": "MEUMPS",
+    "name": "MPSRON-3 (afloat, Guam)",
+    "location": "Apra Harbor, Guam",
+    "lat": 13.443,
+    "lon": 144.66,
+    "role": "Maritime Pre-positioning Squadron 3 \u2014 afloat reach",
+    "inventory": {
+      "I": {
+        "on_hand": 290000,
+        "unit": "lbs"
+      },
+      "II": {
+        "on_hand": 48000,
+        "unit": "lbs"
+      },
+      "III": {
+        "on_hand": 380000,
+        "unit": "gal"
+      },
+      "IV": {
+        "on_hand": 130000,
+        "unit": "lbs"
+      },
+      "V": {
+        "on_hand": 720000,
+        "unit": "lbs"
+      },
+      "VI": {
+        "on_hand": 20000,
+        "unit": "lbs"
+      },
+      "VII": {
+        "on_hand": 180,
+        "unit": "ea"
+      },
+      "VIII": {
+        "on_hand": 31000,
+        "unit": "lbs"
+      },
+      "IX": {
+        "on_hand": 240000,
+        "unit": "lbs"
+      }
+    }
+  }
+]

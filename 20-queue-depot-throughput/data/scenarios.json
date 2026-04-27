@@ -1,0 +1,27 @@
+[
+  {
+    "id": "baseline",
+    "label": "Baseline \u2014 current posture",
+    "description": "Steady-state induction at MCLB Albany / Barstow / Blount Island. Backlog as inherited, parts on-hand at policy levels, single-shift normal posture.",
+    "workforce_mult": 1.0,
+    "release_held_parts": false,
+    "priority_bias": "balanced"
+  },
+  {
+    "id": "surge",
+    "label": "Surge \u2014 Force Design 2030 push",
+    "description": "MARFORPAC Stand-In Forces backlog draw-down: workforce surged 1.4x via overtime + reservist augmentation; held-parts pool released; priority weights tilt toward FD-1/FD-2.",
+    "workforce_mult": 1.4,
+    "release_held_parts": true,
+    "priority_bias": "fd1_first"
+  },
+  {
+    "id": "parts_constrained",
+    "label": "Parts-constrained \u2014 long-pole NSN slip",
+    "description": "Three long-pole NSNs (hydraulic seals, MV-22 prop blade, transfer case) slip 30 days. Workforce normal. Tests parts cascading effects.",
+    "workforce_mult": 1.0,
+    "release_held_parts": false,
+    "priority_bias": "balanced",
+    "parts_slip": true
+  }
+]

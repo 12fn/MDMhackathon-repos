@@ -1,0 +1,302 @@
+[
+  {
+    "id": "MCLB-ALB",
+    "name": "MCLB Albany",
+    "kind": "mclb",
+    "state": "GA",
+    "lat": 31.547,
+    "lon": -84.062,
+    "throughput_tpd": 4200,
+    "ccdr": "USMARFORCOM"
+  },
+  {
+    "id": "MCLB-BAR",
+    "name": "MCLB Barstow",
+    "kind": "mclb",
+    "state": "CA",
+    "lat": 34.907,
+    "lon": -117.039,
+    "throughput_tpd": 3800,
+    "ccdr": "USMARFORPAC"
+  },
+  {
+    "id": "BIC-JAX",
+    "name": "Blount Island Cmd",
+    "kind": "mclb",
+    "state": "FL",
+    "lat": 30.394,
+    "lon": -81.52,
+    "throughput_tpd": 5100,
+    "ccdr": "USMARFORCOM"
+  },
+  {
+    "id": "MCB-LEJ",
+    "name": "MCB Camp Lejeune",
+    "kind": "mclb",
+    "state": "NC",
+    "lat": 34.689,
+    "lon": -77.341,
+    "throughput_tpd": 2900,
+    "ccdr": "USMARFORCOM"
+  },
+  {
+    "id": "MCB-PEN",
+    "name": "MCB Camp Pendleton",
+    "kind": "mclb",
+    "state": "CA",
+    "lat": 33.391,
+    "lon": -117.532,
+    "throughput_tpd": 3300,
+    "ccdr": "USMARFORPAC"
+  },
+  {
+    "id": "29P",
+    "name": "MCAGCC 29 Palms",
+    "kind": "mclb",
+    "state": "CA",
+    "lat": 34.232,
+    "lon": -116.062,
+    "throughput_tpd": 1700,
+    "ccdr": "USMARFORPAC"
+  },
+  {
+    "id": "POE-BMT",
+    "name": "Port of Beaumont",
+    "kind": "poe",
+    "state": "TX",
+    "lat": 30.08,
+    "lon": -94.103,
+    "throughput_tpd": 9200,
+    "ccdr": "CENTCOM"
+  },
+  {
+    "id": "POE-CHS",
+    "name": "Port of Charleston",
+    "kind": "poe",
+    "state": "SC",
+    "lat": 32.781,
+    "lon": -79.929,
+    "throughput_tpd": 8600,
+    "ccdr": "USMARFORCOM"
+  },
+  {
+    "id": "POE-HRO",
+    "name": "Port of Hampton Roads",
+    "kind": "poe",
+    "state": "VA",
+    "lat": 36.946,
+    "lon": -76.33,
+    "throughput_tpd": 9800,
+    "ccdr": "USMARFORCOM"
+  },
+  {
+    "id": "POE-LGB",
+    "name": "Port of Long Beach",
+    "kind": "poe",
+    "state": "CA",
+    "lat": 33.754,
+    "lon": -118.216,
+    "throughput_tpd": 9500,
+    "ccdr": "USMARFORPAC"
+  },
+  {
+    "id": "POE-OAK",
+    "name": "Port of Oakland",
+    "kind": "poe",
+    "state": "CA",
+    "lat": 37.795,
+    "lon": -122.279,
+    "throughput_tpd": 7400,
+    "ccdr": "USMARFORPAC"
+  },
+  {
+    "id": "POE-JAX",
+    "name": "Port of Jacksonville",
+    "kind": "poe",
+    "state": "FL",
+    "lat": 30.394,
+    "lon": -81.62,
+    "throughput_tpd": 7100,
+    "ccdr": "USMARFORCOM"
+  },
+  {
+    "id": "POE-SAV",
+    "name": "Port of Savannah",
+    "kind": "poe",
+    "state": "GA",
+    "lat": 32.13,
+    "lon": -81.144,
+    "throughput_tpd": 8800,
+    "ccdr": "USMARFORCOM"
+  },
+  {
+    "id": "POE-TAC",
+    "name": "Port of Tacoma",
+    "kind": "poe",
+    "state": "WA",
+    "lat": 47.272,
+    "lon": -122.418,
+    "throughput_tpd": 6800,
+    "ccdr": "USMARFORPAC"
+  },
+  {
+    "id": "POE-COR",
+    "name": "Port of Corpus Christi",
+    "kind": "poe",
+    "state": "TX",
+    "lat": 27.812,
+    "lon": -97.396,
+    "throughput_tpd": 6400,
+    "ccdr": "CENTCOM"
+  },
+  {
+    "id": "RT-ATL",
+    "name": "Atlanta Inman Yard",
+    "kind": "rail_term",
+    "state": "GA",
+    "lat": 33.789,
+    "lon": -84.434,
+    "throughput_tpd": 5500,
+    "ccdr": "USMARFORCOM"
+  },
+  {
+    "id": "RT-MEM",
+    "name": "Memphis BNSF Yard",
+    "kind": "rail_term",
+    "state": "TN",
+    "lat": 35.116,
+    "lon": -90.054,
+    "throughput_tpd": 6200,
+    "ccdr": "USMARFORCOM"
+  },
+  {
+    "id": "RT-DAL",
+    "name": "Dallas UP Mesquite",
+    "kind": "rail_term",
+    "state": "TX",
+    "lat": 32.762,
+    "lon": -96.616,
+    "throughput_tpd": 5800,
+    "ccdr": "CENTCOM"
+  },
+  {
+    "id": "RT-KCK",
+    "name": "Kansas City KCS",
+    "kind": "rail_term",
+    "state": "KS",
+    "lat": 39.114,
+    "lon": -94.628,
+    "throughput_tpd": 7100,
+    "ccdr": "NORTHCOM"
+  },
+  {
+    "id": "RT-CHI",
+    "name": "Chicago Corwith",
+    "kind": "rail_term",
+    "state": "IL",
+    "lat": 41.831,
+    "lon": -87.722,
+    "throughput_tpd": 8400,
+    "ccdr": "NORTHCOM"
+  },
+  {
+    "id": "RT-LAX",
+    "name": "ICTF Los Angeles",
+    "kind": "intermodal",
+    "state": "CA",
+    "lat": 33.832,
+    "lon": -118.221,
+    "throughput_tpd": 6900,
+    "ccdr": "USMARFORPAC"
+  },
+  {
+    "id": "RT-NOR",
+    "name": "Norfolk Lambert's Pt",
+    "kind": "rail_term",
+    "state": "VA",
+    "lat": 36.876,
+    "lon": -76.323,
+    "throughput_tpd": 4700,
+    "ccdr": "USMARFORCOM"
+  },
+  {
+    "id": "RP-MEM",
+    "name": "Port of Memphis",
+    "kind": "river_port",
+    "state": "TN",
+    "lat": 35.131,
+    "lon": -90.075,
+    "throughput_tpd": 3200,
+    "ccdr": "USMARFORCOM"
+  },
+  {
+    "id": "RP-NOL",
+    "name": "Port NOLA",
+    "kind": "river_port",
+    "state": "LA",
+    "lat": 29.946,
+    "lon": -90.064,
+    "throughput_tpd": 5400,
+    "ccdr": "CENTCOM"
+  },
+  {
+    "id": "RP-STL",
+    "name": "Port of St Louis",
+    "kind": "river_port",
+    "state": "MO",
+    "lat": 38.625,
+    "lon": -90.184,
+    "throughput_tpd": 2900,
+    "ccdr": "NORTHCOM"
+  },
+  {
+    "id": "RP-LCH",
+    "name": "Port of Lake Charles",
+    "kind": "river_port",
+    "state": "LA",
+    "lat": 30.227,
+    "lon": -93.218,
+    "throughput_tpd": 3100,
+    "ccdr": "CENTCOM"
+  },
+  {
+    "id": "AP-DOV",
+    "name": "Dover AFB",
+    "kind": "airport",
+    "state": "DE",
+    "lat": 39.13,
+    "lon": -75.466,
+    "throughput_tpd": 1600,
+    "ccdr": "USMARFORCOM"
+  },
+  {
+    "id": "AP-CHS",
+    "name": "JB Charleston",
+    "kind": "airport",
+    "state": "SC",
+    "lat": 32.899,
+    "lon": -80.041,
+    "throughput_tpd": 1800,
+    "ccdr": "USMARFORCOM"
+  },
+  {
+    "id": "AP-TRA",
+    "name": "Travis AFB",
+    "kind": "airport",
+    "state": "CA",
+    "lat": 38.263,
+    "lon": -121.927,
+    "throughput_tpd": 1900,
+    "ccdr": "USMARFORPAC"
+  },
+  {
+    "id": "AP-MAR",
+    "name": "March ARB",
+    "kind": "airport",
+    "state": "CA",
+    "lat": 33.881,
+    "lon": -117.259,
+    "throughput_tpd": 1100,
+    "ccdr": "USMARFORPAC"
+  }
+]

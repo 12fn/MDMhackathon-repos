@@ -1,0 +1,191 @@
+[
+  {
+    "id": "pvt_joe",
+    "name": "PvtJoe",
+    "rank": "Pvt",
+    "billet": "LMS Student (boot)",
+    "clearance": "UNCLASS",
+    "duty_org": "MCRD San Diego, 1st RTBn",
+    "color": "#00BB7A",
+    "icon": "PVT",
+    "roles": {
+      "LMS": {
+        "role": "student",
+        "perms": [
+          "course.enroll",
+          "course.view",
+          "course.submit",
+          "transcript.view.self"
+        ]
+      },
+      "CMS": {
+        "role": "viewer",
+        "perms": [
+          "page.view.public"
+        ]
+      },
+      "BBB": {
+        "role": "viewer",
+        "perms": [
+          "meeting.join.invited"
+        ]
+      },
+      "Keycloak": {
+        "role": "none",
+        "perms": []
+      }
+    },
+    "abac": {
+      "max_class": "UNCLASS",
+      "unit_scope": [
+        "MCRD-SD"
+      ],
+      "audit_groups": []
+    }
+  },
+  {
+    "id": "sgt_jane",
+    "name": "SgtJane",
+    "rank": "Sgt",
+    "billet": "Unit Instructor / SNCO",
+    "clearance": "CUI",
+    "duty_org": "1st Marine Logistics Group",
+    "color": "#0DCC8A",
+    "icon": "SGT",
+    "roles": {
+      "LMS": {
+        "role": "instructor",
+        "perms": [
+          "course.create",
+          "course.grade",
+          "transcript.view.unit",
+          "course.assign"
+        ]
+      },
+      "CMS": {
+        "role": "author",
+        "perms": [
+          "page.view.public",
+          "page.edit.unit"
+        ]
+      },
+      "BBB": {
+        "role": "moderator",
+        "perms": [
+          "meeting.create",
+          "meeting.moderate.unit"
+        ]
+      },
+      "Keycloak": {
+        "role": "none",
+        "perms": []
+      }
+    },
+    "abac": {
+      "max_class": "CUI",
+      "unit_scope": [
+        "1st-MLG",
+        "MCRD-SD"
+      ],
+      "audit_groups": []
+    }
+  },
+  {
+    "id": "capt_doe",
+    "name": "CaptDoe",
+    "rank": "Capt",
+    "billet": "Battalion S-3 / Approver",
+    "clearance": "CUI",
+    "duty_org": "2nd Bn 1st Marines / I MEF",
+    "color": "#00FFA7",
+    "icon": "CPT",
+    "roles": {
+      "LMS": {
+        "role": "manager",
+        "perms": [
+          "course.create",
+          "course.grade",
+          "transcript.view.battalion",
+          "course.approve",
+          "report.export"
+        ]
+      },
+      "CMS": {
+        "role": "approver",
+        "perms": [
+          "page.view.public",
+          "page.edit.unit",
+          "page.publish.battalion"
+        ]
+      },
+      "BBB": {
+        "role": "host",
+        "perms": [
+          "meeting.create",
+          "meeting.moderate.battalion",
+          "meeting.record"
+        ]
+      },
+      "Keycloak": {
+        "role": "auditor",
+        "perms": [
+          "user.view.unit",
+          "audit.view.battalion"
+        ]
+      }
+    },
+    "abac": {
+      "max_class": "CUI",
+      "unit_scope": [
+        "2/1",
+        "I-MEF",
+        "1st-MLG"
+      ],
+      "audit_groups": [
+        "S3-approver"
+      ]
+    }
+  },
+  {
+    "id": "civ_quinn",
+    "name": "Civilian (Quinn)",
+    "rank": "GS-9 Contractor",
+    "billet": "Curriculum Contractor (limited)",
+    "clearance": "UNCLASS",
+    "duty_org": "TECOM SETA \u2014 Vendor: Acme Learning",
+    "color": "#7E7E7E",
+    "icon": "CIV",
+    "roles": {
+      "LMS": {
+        "role": "author",
+        "perms": [
+          "course.create",
+          "course.view"
+        ]
+      },
+      "CMS": {
+        "role": "viewer",
+        "perms": [
+          "page.view.public"
+        ]
+      },
+      "BBB": {
+        "role": "viewer",
+        "perms": [
+          "meeting.join.invited"
+        ]
+      },
+      "Keycloak": {
+        "role": "none",
+        "perms": []
+      }
+    },
+    "abac": {
+      "max_class": "UNCLASS",
+      "unit_scope": [
+        "TECOM-VENDOR"
+      ],
+      "audit_groups": []
+    }
+  }
+]

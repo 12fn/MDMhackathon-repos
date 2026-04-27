@@ -1,0 +1,9 @@
+depot_id,name,location,lat,lon,role,on_hand_I,unit_I,on_hand_II,unit_II,on_hand_III,unit_III,on_hand_IV,unit_IV,on_hand_V,unit_V,on_hand_VI,unit_VI,on_hand_VII,unit_VII,on_hand_VIII,unit_VIII,on_hand_IX,unit_IX
+MCLB-ALB,MCLB Albany,"Albany, GA",31.546,-84.064,Eastern CONUS source-of-supply / depot maintenance,720000,lbs,95000,lbs,180000,gal,150000,lbs,880000,lbs,42000,lbs,240,ea,62000,lbs,320000,lbs
+MCLB-BAR,MCLB Barstow,"Barstow, CA",34.892,-117.017,Western CONUS source-of-supply / depot maintenance,640000,lbs,88000,lbs,220000,gal,140000,lbs,760000,lbs,38000,lbs,210,ea,54000,lbs,290000,lbs
+BICMD,Blount Island Command,"Jacksonville, FL",30.405,-81.516,MPF maintenance + afloat pre-positioning hub,410000,lbs,72000,lbs,480000,gal,200000,lbs,920000,lbs,31000,lbs,320,ea,44000,lbs,360000,lbs
+MCRD-SD,MCRD San Diego SSP,"San Diego, CA",32.737,-117.198,Western recruit-depot supply support point,220000,lbs,56000,lbs,48000,gal,22000,lbs,32000,lbs,18000,lbs,46,ea,22000,lbs,46000,lbs
+CPEN-SMU,Camp Pendleton SMU,"Camp Pendleton, CA",33.385,-117.567,I MEF supply management unit,510000,lbs,78000,lbs,160000,gal,92000,lbs,540000,lbs,29000,lbs,138,ea,38000,lbs,210000,lbs
+CLEJ-SMU,Camp Lejeune SMU,"Camp Lejeune, NC",34.685,-77.337,II MEF supply management unit,540000,lbs,82000,lbs,145000,gal,88000,lbs,510000,lbs,31000,lbs,146,ea,41000,lbs,232000,lbs
+OKI-SMU,MCB Camp Butler SMU (Okinawa),"Okinawa, JPN",26.298,127.756,III MEF / forward-deployed Pacific support,360000,lbs,62000,lbs,110000,gal,64000,lbs,380000,lbs,22000,lbs,94,ea,29000,lbs,168000,lbs
+MEUMPS,"MPSRON-3 (afloat, Guam)","Apra Harbor, Guam",13.443,144.66,Maritime Pre-positioning Squadron 3 — afloat reach,290000,lbs,48000,lbs,380000,gal,130000,lbs,720000,lbs,20000,lbs,180,ea,31000,lbs,240000,lbs

@@ -1,0 +1,163 @@
+{
+  "CALL-001": {
+    "triage": {
+      "call_id": "CALL-001",
+      "incident_type": "fire",
+      "severity": "delta",
+      "primary_complaint": "Fire alarm going off with visible flames and smoke.",
+      "address_extracted": "Hangar 7, Flight Line East",
+      "lat_lon": [
+        32.6892,
+        -84.1755
+      ],
+      "recommended_units": [
+        {
+          "unit_type": "engine",
+          "count": 2
+        },
+        {
+          "unit_type": "rescue",
+          "count": 1
+        }
+      ],
+      "callback_questions": [
+        "Is anyone else trapped inside?",
+        "What is the status of PFC Daniels?",
+        "Are there any hazardous materials involved?"
+      ],
+      "confidence": 0.95
+    },
+    "cad_brief": "INCIDENT SUMMARY  \nFire alarm activated at Hangar 7, Flight Line East. Visible flames and smoke reported near JP-8 cart on the west side. Two Marines evacuated; one (PFC Daniels) unaccounted for in the avionics bay. \n\nUNIT ASSIGNMENT RECOMMENDATION  \nDispatch 2 engine units and 1 rescue unit to the scene. \n\nSCENE SAFETY BRIEF  \nEnsure all personnel maintain a safe distance from the building. Assess for hazardous materials due to proximity to JP-8. Confirm evacuation of all personnel before entry."
+  },
+  "CALL-002": {
+    "triage": {
+      "call_id": "CALL-002",
+      "incident_type": "mvi",
+      "severity": "charlie",
+      "primary_complaint": "Two trucks involved in a wreck, one rolled over with a driver not moving.",
+      "address_extracted": "Perimeter Road, Mile Marker 4.2",
+      "lat_lon": [
+        32.67,
+        -84.169
+      ],
+      "recommended_units": [
+        {
+          "unit_type": "ambulance",
+          "count": 1
+        },
+        {
+          "unit_type": "fire_engine",
+          "count": 1
+        },
+        {
+          "unit_type": "police_unit",
+          "count": 1
+        }
+      ],
+      "callback_questions": [
+        "Is the driver of the rolled truck conscious?",
+        "Are there any other vehicles involved?",
+        "Is there any fire or smoke visible?"
+      ],
+      "confidence": 0.95
+    },
+    "cad_brief": "INCIDENT SUMMARY:  \nMVI at Perimeter Road, MM 4.2. Two trucks involved: one green Humvee and one civilian Tacoma on its side. Driver of Tacoma not moving; Humvee driver walking but injured. Fuel smell reported, no visible fire.\n\nUNIT ASSIGNMENT RECOMMENDATION:  \nDispatch 1 ambulance, 1 fire engine, and 1 police unit to the scene.\n\nSCENE SAFETY BRIEF:  \nApproach with caution due to potential fuel leak. Maintain a 50-foot perimeter from the wreckage. Assess for additional hazards upon arrival."
+  },
+  "CALL-003": {
+    "triage": {
+      "call_id": "CALL-003",
+      "incident_type": "fire",
+      "severity": "echo",
+      "primary_complaint": "House on fire with possible occupants inside",
+      "address_extracted": "4419 Magnolia Loop, Base Housing",
+      "lat_lon": [
+        32.677,
+        -84.199
+      ],
+      "recommended_units": [
+        {
+          "unit_type": "fire_engine",
+          "count": 2
+        },
+        {
+          "unit_type": "rescue_unit",
+          "count": 1
+        }
+      ],
+      "callback_questions": [
+        "Are there any visible flames or smoke?",
+        "Can you see if anyone is attempting to exit the house?",
+        "Is there a safe distance you can maintain from the fire?"
+      ],
+      "confidence": 0.95
+    },
+    "cad_brief": "INCIDENT SUMMARY  \nStructure fire at 4419 Magnolia Loop, Base Housing. Caller reports the back of the house is fully involved, flames visible through the roof. Possible occupants inside: Henderson family with two children. Caller is in a safe location across the street.\n\nUNIT ASSIGNMENT RECOMMENDATION  \nDispatching 2 fire engines and 1 rescue unit to the scene.  \n\nSCENE SAFETY BRIEF  \nEnsure a safe perimeter around the structure. Confirm no occupants have exited. Assess for potential hazards including downed power lines and propane tanks. Approach from a safe distance."
+  },
+  "CALL-004": {
+    "triage": {
+      "call_id": "CALL-004",
+      "incident_type": "mascal",
+      "severity": "delta",
+      "primary_complaint": "mortar mishap with multiple casualties",
+      "address_extracted": "Range Complex Bravo, Live-Fire Lane 3",
+      "lat_lon": [
+        32.671,
+        -84.181
+      ],
+      "recommended_units": [
+        {
+          "unit_type": "ambulance",
+          "count": 3
+        },
+        {
+          "unit_type": "helicopter",
+          "count": 1
+        },
+        {
+          "unit_type": "duty surgeon team",
+          "count": 1
+        }
+      ],
+      "callback_questions": [
+        "Are there any additional casualties?",
+        "Is the area secure for responders?",
+        "What is the status of the range medic?"
+      ],
+      "confidence": 0.95
+    },
+    "cad_brief": "INCIDENT SUMMARY:  \nMASCAL reported at Range Complex Bravo, Live-Fire Lane 3. Mortar mishap with 6 casualties; 3 conscious and screaming, 3 unresponsive. Range medic on scene initiating triage. Area is cold, ceasefire in effect, EOD notified.\n\nUNIT ASSIGNMENT RECOMMENDATION:  \n- 3 ambulances  \n- 1 helicopter for evac of 2 critical patients (head and chest trauma)  \n- 1 duty surgeon team  \n\nSCENE SAFETY BRIEF:  \nConfirm area is secure before entry. Monitor for any unexploded ordnance. Coordinate with range medic for triage updates. Prioritize evacuation of critical patients."
+  },
+  "CALL-005": {
+    "triage": {
+      "call_id": "CALL-005",
+      "incident_type": "suspicious_package",
+      "severity": "bravo",
+      "primary_complaint": "Unattended package in the visitor lane with wires and a motor oil smell.",
+      "address_extracted": "Main Gate (Gate 1), Visitor Inspection Lane",
+      "lat_lon": [
+        32.694,
+        -84.187
+      ],
+      "recommended_units": [
+        {
+          "unit_type": "EOD team",
+          "count": 1
+        },
+        {
+          "unit_type": "K-9 unit",
+          "count": 1
+        },
+        {
+          "unit_type": "PMO",
+          "count": 1
+        }
+      ],
+      "callback_questions": [
+        "Is the area fully evacuated?",
+        "Are there any injuries or additional threats?"
+      ],
+      "confidence": 0.95
+    },
+    "cad_brief": "INCIDENT SUMMARY  \nUnattended package reported at Main Gate (Gate 1), Visitor Inspection Lane. Package is a taped cardboard box, approximately 2x2 feet, with wires protruding and a smell of motor oil. Area is being evacuated; traffic pushed back 100 meters. Caller is Corporal Bishop, gate sentry.\n\nUNIT ASSIGNMENT RECOMMENDATION  \n1 EOD team, 1 K-9 unit, 1 PMO unit.  \n\nSCENE SAFETY BRIEF  \nMaintain stand-off distance of 100 meters. Do not approach the package. Confirm area is fully evacuated and assess for any injuries or additional threats upon arrival."
+  }
+}

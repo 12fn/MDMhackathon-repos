@@ -1,0 +1,53 @@
+[
+  {
+    "scenario_id": "SC_DRONE_STRIKE",
+    "title": "Drone strike near civilian village in [theater]",
+    "theater": "INDOPACOM \u2014 first island chain, near-peer-adjacent littoral",
+    "classification_band": "UNCLASSIFIED // FOR PUBLIC RELEASE",
+    "mission_context": "A precision-strike UAS engaged a confirmed adversary fast-attack craft (FAC) operating in international waters 11 nm from a host-nation fishing village. Two FAC crew killed (combatants). Initial reports indicate fragmentation from the engagement reached the village; one host-nation civilian wounded (non-life-threatening), one fishing boat damaged. The strike was authorized under standing rules of engagement; review is underway at the strike cell. Incident occurred 06:42 local; you are drafting the first U.S. PA release at 09:15 local. Adversary state media has already published a hostile narrative.",
+    "trainee_objective": "Draft a 200-500 word public statement that maintains alliance coherence, preserves host-nation political space, denies the adversary IO wedge, and does not pre-empt the formal investigation.",
+    "constraints": [
+      "Do not name personnel pending notification.",
+      "Do not classify intelligence sources.",
+      "Acknowledge host-nation civilian harm if any has occurred.",
+      "Coordinate language with host-nation MOD/embassy in real ops; here, draft as if coordination is in motion."
+    ],
+    "audience_tiers_active": [
+      "all"
+    ]
+  },
+  {
+    "scenario_id": "SC_FRIENDLY_FIRE",
+    "title": "Friendly-fire investigation announcement",
+    "theater": "CENTCOM \u2014 combined-arms live-fire exercise with NATO partner",
+    "classification_band": "UNCLASSIFIED // FOR PUBLIC RELEASE",
+    "mission_context": "During a multinational live-fire exercise, indirect fire from a U.S. battery impacted approximately 380 m off-target, killing one U.S. Marine (notified) and wounding two NATO partner-nation soldiers (notified). The CG has directed an AR 15-6-equivalent investigation. Range was made cold within 90 seconds. Exercise has been paused pending preliminary findings. You are drafting the release that announces the incident, the pause, and the investigation.",
+    "trainee_objective": "Draft a 200-500 word release that names the loss with dignity, demonstrates alliance solidarity with the partner nation, frames the investigation credibly, and does not pre-judge the outcome.",
+    "constraints": [
+      "Do not release the Marine's name (notified, but coordinate with family for public-release timing).",
+      "Acknowledge the NATO partner casualties explicitly and with parity.",
+      "State the investigation authority and an expected timeline for preliminary findings.",
+      "Do not assign individual culpability."
+    ],
+    "audience_tiers_active": [
+      "all"
+    ]
+  },
+  {
+    "scenario_id": "SC_BASE_CLOSURE",
+    "title": "Base-closure community outreach",
+    "theater": "CONUS \u2014 Marine installation slated for partial drawdown under Force Design",
+    "classification_band": "UNCLASSIFIED // FOR PUBLIC RELEASE",
+    "mission_context": "Under Force Design 2030 implementation, the Department has directed the drawdown of one squadron and one logistics battalion from a CONUS Marine installation by FY28. Estimated impact: 1,400 personnel relocations, approximately $90M annual local economic footprint reallocation. Local congressional delegation, mayor, and chamber of commerce have requested early engagement. You are drafting the inaugural community outreach release announcing the drawdown plan and town-hall schedule.",
+    "trainee_objective": "Draft a 200-500 word community-facing release that frames the change inside Force Design, respects the host community's economic equities, names a real engagement venue (town hall) and POC, and avoids talking-points jargon.",
+    "constraints": [
+      "Do not over-promise on the timeline (FY28 is a planning horizon, not a commitment).",
+      "Acknowledge economic impact directly with a number.",
+      "Name a town-hall date and a community-liaison POC role (not a person).",
+      "Do not characterize the change as permanent / irreversible / final."
+    ],
+    "audience_tiers_active": [
+      "all"
+    ]
+  }
+]

@@ -1,0 +1,43 @@
+1
+00:00:02,315 --> 00:00:07,315
+STOCKROOM. AI-augmented inventory control management for the supply NCO.
+
+2
+00:00:07,317 --> 00:00:14,317
+LOGCOM use case: 5,000 items, disconnected Excel docs, no relational view.
+
+3
+00:00:14,319 --> 00:00:20,319
+Five thousand items in scope. Filter by location, category, custodian.
+
+4
+00:00:18,323 --> 00:00:22,323
+Top metrics surface inventory-overdue and NMC-impacting counts immediately.
+
+5
+00:00:22,325 --> 00:00:30,325
+Type a question in plain English. The AI engine parses it into a JSON filter spec.
+
+6
+00:00:30,378 --> 00:00:36,378
+Visible parsed spec — no SQL, no opaque magic. Then it runs against the table.
+
+7
+00:00:36,382 --> 00:00:42,382
+The hero model drafts a Readiness and Lateral Transfer Brief.
+
+8
+00:00:42,386 --> 00:00:49,386
+BLUF, overdue counts, NMC shortages, sensitive-item flags, three actions.
+
+9
+00:00:49,390 --> 00:00:56,390
+Three clicks: pick a scenario, surface the gaps, copy actions to the standup.
+
+10
+00:00:56,401 --> 00:01:04,401
+Set KAMIWAZA_BASE_URL and the same code runs inside the wire. IL5 / IL6 ready.
+
+11
+00:01:04,405 --> 00:01:09,405
+Built on the Kamiwaza Stack. Deploy in hours, not months.

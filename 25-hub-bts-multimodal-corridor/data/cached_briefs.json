@@ -1,0 +1,434 @@
+{
+  "alb-bmt-m1a1": {
+    "scenario": {
+      "id": "alb-bmt-m1a1",
+      "origin_id": "MCLB-ALB",
+      "destination_id": "POE-BMT",
+      "end_item_id": "M1A1",
+      "label": "MCLB Albany \u2192 Port of Beaumont \u00b7 M1A1 Abrams (CENTCOM surge)"
+    },
+    "plan": {
+      "origin": {
+        "id": "MCLB-ALB",
+        "name": "MCLB Albany",
+        "kind": "mclb",
+        "state": "GA",
+        "lat": 31.547,
+        "lon": -84.062,
+        "throughput_tpd": 4200,
+        "ccdr": "USMARFORCOM"
+      },
+      "destination": {
+        "id": "POE-BMT",
+        "name": "Port of Beaumont",
+        "kind": "poe",
+        "state": "TX",
+        "lat": 30.08,
+        "lon": -94.103,
+        "throughput_tpd": 9200,
+        "ccdr": "CENTCOM"
+      },
+      "end_item": {
+        "id": "M1A1",
+        "name": "M1A1 Abrams Main Battle Tank",
+        "weight_lbs": 138000,
+        "length_in": 388,
+        "width_in": 144,
+        "height_in": 114,
+        "category": "armor",
+        "permit_required": true,
+        "rail_compatible": true,
+        "air_compatible_c17": false,
+        "notes": "Outsize: requires special permit road moves; HET on STRAHNET; rail-shippable on heavy flatcar; C-5 only for air."
+      },
+      "per_mode": {
+        "road": {
+          "available": true,
+          "node_path": [
+            "MCLB-ALB",
+            "POE-BMT"
+          ],
+          "edge_path": [
+            {
+              "a": "MCLB-ALB",
+              "b": "POE-BMT",
+              "mode": "road",
+              "miles": 770,
+              "capacity_tpd": 2200,
+              "clearance_in": 168,
+              "weight_limit_lbs": 70000,
+              "bottleneck_named": "I-10 Lake Charles bridge"
+            }
+          ],
+          "summary": {
+            "miles": 770,
+            "min_capacity_tpd": 2200,
+            "min_clearance_in": 168,
+            "min_weight_limit_lbs": 70000,
+            "named_bottlenecks": [
+              "I-10 Lake Charles bridge"
+            ],
+            "feasible": false,
+            "reasons": [
+              "MCLB-ALB\u2192POE-BMT (road): weight class 70,000 lb < item 138,000 lb"
+            ],
+            "capacity_road_rail_min": 2200
+          },
+          "transit_days": 1.8,
+          "cost_index": 7.7
+        },
+        "rail": {
+          "available": true,
+          "node_path": [
+            "MCLB-ALB",
+            "RT-ATL",
+            "RT-MEM",
+            "RT-DAL",
+            "POE-BMT"
+          ],
+          "edge_path": [
+            {
+              "a": "MCLB-ALB",
+              "b": "RT-ATL",
+              "mode": "rail",
+              "miles": 175,
+              "capacity_tpd": 5400,
+              "clearance_in": 240,
+              "weight_limit_lbs": 286000,
+              "bottleneck_named": ""
+            },
+            {
+              "a": "RT-ATL",
+              "b": "RT-MEM",
+              "mode": "rail",
+              "miles": 395,
+              "capacity_tpd": 6800,
+              "clearance_in": 245,
+              "weight_limit_lbs": 286000,
+              "bottleneck_named": ""
+            },
+            {
+              "a": "RT-MEM",
+              "b": "RT-DAL",
+              "mode": "rail",
+              "miles": 470,
+              "capacity_tpd": 7100,
+              "clearance_in": 240,
+              "weight_limit_lbs": 286000,
+              "bottleneck_named": ""
+            },
+            {
+              "a": "RT-DAL",
+              "b": "POE-BMT",
+              "mode": "rail",
+              "miles": 290,
+              "capacity_tpd": 6400,
+              "clearance_in": 234,
+              "weight_limit_lbs": 286000,
+              "bottleneck_named": "Devers Sub single-track"
+            }
+          ],
+          "summary": {
+            "miles": 1330,
+            "min_capacity_tpd": 5400,
+            "min_clearance_in": 234,
+            "min_weight_limit_lbs": 286000,
+            "named_bottlenecks": [
+              "Devers Sub single-track"
+            ],
+            "feasible": true,
+            "reasons": [],
+            "capacity_road_rail_min": 5400
+          },
+          "transit_days": 2.7,
+          "cost_index": 4.65
+        },
+        "waterway": {
+          "available": false,
+          "reason": "no path in this mode"
+        },
+        "air": {
+          "available": false,
+          "reason": "no path in this mode"
+        }
+      },
+      "recommended_mode_baseline": "rail",
+      "baseline_bottleneck": "Devers Sub single-track",
+      "generated_at": "2026-04-27T20:27:46.068950+00:00"
+    },
+    "json_brief": {
+      "recommended_mode": "rail",
+      "transit_days_estimate": 2.7,
+      "bottleneck_named": "Devers Sub single-track",
+      "alternate_corridors": [
+        {
+          "mode": "road",
+          "transit_days": 1.8,
+          "rationale": "Not feasible: road weight limit 70,000 lb < 138,000 lb"
+        },
+        {
+          "mode": "waterway",
+          "transit_days": 0,
+          "rationale": "No path available"
+        },
+        {
+          "mode": "air",
+          "transit_days": 0,
+          "rationale": "No path available"
+        }
+      ],
+      "cost_relative": 4.65,
+      "_source": "llm"
+    },
+    "narrative": "# POE Movement Plan\n\n## POE Movement Plan\n**BLUF:** Recommend **rail** to **POE-BMT Port of Beaumont** with an estimated **2.7 transit days**.\n\n**Recommended Corridor:** **MCLB-ALB \u2192 RT-ATL \u2192 RT-MEM \u2192 RT-DAL \u2192 POE-BMT** by rail. This is the only feasible corridor for the M1A1: rail supports **286,000 lb** minimum weight limit versus item weight **138,000 lb**, provides **234 in** minimum clearance versus item height **114 in**, and offers **5,400 TPD** capacity. Road is not feasible because corridor minimum weight limit is **70,000 lb**, below the item weight.\n\n**Named Bottlenecks:**\n- **Devers Sub single-track** \u2014 rail throughput/congestion constraint on the approach to POE-BMT; despite overall rail feasibility, single-track operations can restrict flow against corridor capacity.\n\n**Alternate Corridors:**\n- **Road** \u2014 Not feasible: **1.8 days** nominal transit, but corridor weight limit **70,000 lb < 138,000 lb** item weight.\n- **Waterway** \u2014 No path available.\n- **Air** \u2014 No path available.\n\n**Cost & Risk Note:** Rail cost index is **4.65**, lower than road (**7.7**); biggest residual risk is delay at **Devers Sub single-track**.\n\nUNCLASSIFIED // FOR PLANNING USE",
+    "generated_at": "2026-04-27T20:27:52.689464+00:00"
+  },
+  "pen-lgb-aav": {
+    "scenario": {
+      "id": "pen-lgb-aav",
+      "origin_id": "MCB-PEN",
+      "destination_id": "POE-LGB",
+      "end_item_id": "AAV",
+      "label": "Camp Pendleton \u2192 Port of Long Beach \u00b7 AAV-7A1 (PACOM rotation)"
+    },
+    "plan": {
+      "origin": {
+        "id": "MCB-PEN",
+        "name": "MCB Camp Pendleton",
+        "kind": "mclb",
+        "state": "CA",
+        "lat": 33.391,
+        "lon": -117.532,
+        "throughput_tpd": 3300,
+        "ccdr": "USMARFORPAC"
+      },
+      "destination": {
+        "id": "POE-LGB",
+        "name": "Port of Long Beach",
+        "kind": "poe",
+        "state": "CA",
+        "lat": 33.754,
+        "lon": -118.216,
+        "throughput_tpd": 9500,
+        "ccdr": "USMARFORPAC"
+      },
+      "end_item": {
+        "id": "AAV",
+        "name": "AAV-7A1 Amphibious Assault Vehicle",
+        "weight_lbs": 56000,
+        "length_in": 312,
+        "width_in": 128,
+        "height_in": 130,
+        "category": "amphib",
+        "permit_required": false,
+        "rail_compatible": true,
+        "air_compatible_c17": true,
+        "notes": "Standard road-legal with HET; rail-clearance plate F."
+      },
+      "per_mode": {
+        "road": {
+          "available": true,
+          "node_path": [
+            "MCB-PEN",
+            "POE-LGB"
+          ],
+          "edge_path": [
+            {
+              "a": "MCB-PEN",
+              "b": "POE-LGB",
+              "mode": "road",
+              "miles": 75,
+              "capacity_tpd": 5200,
+              "clearance_in": 198,
+              "weight_limit_lbs": 88000,
+              "bottleneck_named": ""
+            }
+          ],
+          "summary": {
+            "miles": 75,
+            "min_capacity_tpd": 5200,
+            "min_clearance_in": 198,
+            "min_weight_limit_lbs": 88000,
+            "named_bottlenecks": [],
+            "feasible": true,
+            "reasons": [],
+            "capacity_road_rail_min": 5200
+          },
+          "transit_days": 0.2,
+          "cost_index": 0.75
+        },
+        "rail": {
+          "available": true,
+          "node_path": [
+            "MCB-PEN",
+            "RT-LAX",
+            "POE-LGB"
+          ],
+          "edge_path": [
+            {
+              "a": "MCB-PEN",
+              "b": "RT-LAX",
+              "mode": "rail",
+              "miles": 90,
+              "capacity_tpd": 4800,
+              "clearance_in": 240,
+              "weight_limit_lbs": 286000,
+              "bottleneck_named": ""
+            },
+            {
+              "a": "RT-LAX",
+              "b": "POE-LGB",
+              "mode": "rail",
+              "miles": 22,
+              "capacity_tpd": 7900,
+              "clearance_in": 245,
+              "weight_limit_lbs": 286000,
+              "bottleneck_named": ""
+            }
+          ],
+          "summary": {
+            "miles": 112,
+            "min_capacity_tpd": 4800,
+            "min_clearance_in": 240,
+            "min_weight_limit_lbs": 286000,
+            "named_bottlenecks": [],
+            "feasible": true,
+            "reasons": [],
+            "capacity_road_rail_min": 4800
+          },
+          "transit_days": 0.2,
+          "cost_index": 0.39
+        },
+        "waterway": {
+          "available": false,
+          "reason": "no path in this mode"
+        },
+        "air": {
+          "available": false,
+          "reason": "no path in this mode"
+        }
+      },
+      "recommended_mode_baseline": "rail",
+      "baseline_bottleneck": "none on recommended corridor",
+      "generated_at": "2026-04-27T20:27:52.689833+00:00"
+    },
+    "json_brief": {
+      "recommended_mode": "rail",
+      "transit_days_estimate": 0.2,
+      "bottleneck_named": "none",
+      "alternate_corridors": [
+        {
+          "mode": "road",
+          "transit_days": 0.2,
+          "rationale": "Feasible; direct route, but higher cost than rail."
+        }
+      ],
+      "cost_relative": 0.39,
+      "_source": "llm"
+    },
+    "narrative": "# POE Movement Plan\n\n## POE Movement Plan\n**BLUF:** Recommend **rail** via **POE-LGB Port of Long Beach** with an estimated **0.2 transit days**.\n\n**Recommended Corridor:** **MCB-PEN \u2192 RT-LAX \u2192 POE-LGB** by rail. This is the best-value feasible corridor, with **cost index 0.39** versus road at **0.75**, while still meeting platform requirements: **min capacity 4,800 TPD**, **min clearance 240 in**, and **min weight limit 286,000 lbs**. These exceed the AAV-7A1 requirements of **56,000 lbs** and **130 in height**; item is also identified as **rail-compatible**.\n\n**Named Bottlenecks:**\n- **None on recommended corridor** \u2014 no named rail bottlenecks identified in the evidence pack; corridor constraints remain above platform requirements (**240 in clearance**, **286,000 lbs weight limit**).\n\n**Alternate Corridors:**\n- **Road:** **MCB-PEN \u2192 POE-LGB**; feasible direct move at **0.2 days**, with **5,200 TPD**, **198 in clearance**, and **88,000 lbs weight limit**, but higher cost than rail.\n- **Waterway:** No path available.\n- **Air:** No path available.\n\n**Cost & Risk Note:** Rail is **lower cost than road** (**cost index 0.39** relative to road\u2019s **0.75**); biggest residual risk is **rail terminal coordination at RT-LAX affecting short-haul schedule execution**.\n\nUNCLASSIFIED // FOR PLANNING USE",
+    "generated_at": "2026-04-27T20:27:59.741918+00:00"
+  },
+  "lej-hro-himars": {
+    "scenario": {
+      "id": "lej-hro-himars",
+      "origin_id": "MCB-LEJ",
+      "destination_id": "POE-HRO",
+      "end_item_id": "HIMARS",
+      "label": "Camp Lejeune \u2192 Port of Hampton Roads \u00b7 HIMARS battery"
+    },
+    "plan": {
+      "origin": {
+        "id": "MCB-LEJ",
+        "name": "MCB Camp Lejeune",
+        "kind": "mclb",
+        "state": "NC",
+        "lat": 34.689,
+        "lon": -77.341,
+        "throughput_tpd": 2900,
+        "ccdr": "USMARFORCOM"
+      },
+      "destination": {
+        "id": "POE-HRO",
+        "name": "Port of Hampton Roads",
+        "kind": "poe",
+        "state": "VA",
+        "lat": 36.946,
+        "lon": -76.33,
+        "throughput_tpd": 9800,
+        "ccdr": "USMARFORCOM"
+      },
+      "end_item": {
+        "id": "HIMARS",
+        "name": "M142 HIMARS Launcher",
+        "weight_lbs": 36000,
+        "length_in": 280,
+        "width_in": 96,
+        "height_in": 130,
+        "category": "wheeled-armor",
+        "permit_required": false,
+        "rail_compatible": true,
+        "air_compatible_c17": true,
+        "notes": "C-130 / C-17 air-deployable; STRAHNET road OK."
+      },
+      "per_mode": {
+        "road": {
+          "available": true,
+          "node_path": [
+            "MCB-LEJ",
+            "POE-HRO"
+          ],
+          "edge_path": [
+            {
+              "a": "MCB-LEJ",
+              "b": "POE-HRO",
+              "mode": "road",
+              "miles": 215,
+              "capacity_tpd": 2700,
+              "clearance_in": 192,
+              "weight_limit_lbs": 80000,
+              "bottleneck_named": ""
+            }
+          ],
+          "summary": {
+            "miles": 215,
+            "min_capacity_tpd": 2700,
+            "min_clearance_in": 192,
+            "min_weight_limit_lbs": 80000,
+            "named_bottlenecks": [],
+            "feasible": true,
+            "reasons": [],
+            "capacity_road_rail_min": 2700
+          },
+          "transit_days": 0.5,
+          "cost_index": 2.15
+        },
+        "rail": {
+          "available": false,
+          "reason": "no path in this mode"
+        },
+        "waterway": {
+          "available": false,
+          "reason": "no path in this mode"
+        },
+        "air": {
+          "available": false,
+          "reason": "no path in this mode"
+        }
+      },
+      "recommended_mode_baseline": "road",
+      "baseline_bottleneck": "none on recommended corridor",
+      "generated_at": "2026-04-27T20:27:59.742283+00:00"
+    },
+    "json_brief": {
+      "recommended_mode": "road",
+      "transit_days_estimate": 0.5,
+      "bottleneck_named": "none",
+      "alternate_corridors": [],
+      "cost_relative": 2.15,
+      "_source": "llm"
+    },
+    "narrative": "# POE Movement Plan\n\n## POE Movement Plan\n**BLUF:** Recommend **road** movement to **Port of Hampton Roads** with an estimated transit time of **0.5 days**.\n\n**Recommended Corridor:** **MCB-LEJ \u2192 POE-HRO by road.** This is the only feasible corridor in the evidence pack and is fully suitable for the M142 HIMARS Launcher. Route capacity is **2,700 TPD**, with **192 in** minimum clearance and **80,000 lbs** minimum weight limit, all exceeding the vehicle\u2019s requirements (**130 in** height, **36,000 lbs** weight). Item is also noted as **STRAHNET road OK**, supporting direct highway movement without special routing concerns.\n\n**Named Bottlenecks:**\n- **None identified** \u2014 no named bottlenecks on the recommended corridor; governing route constraints remain **192 in clearance** and **80,000 lbs weight limit**, both acceptable for HIMARS.\n\n**Alternate Corridors:**\n- **None available** \u2014 rail: no path available.\n- **None available** \u2014 waterway: no path available.\n- **None available** \u2014 air: no path available.\n\n**Cost & Risk Note:** Cost index is **2.15** relative to road baseline; biggest residual risk is routine highway movement disruption despite no named corridor bottlenecks.\n\nUNCLASSIFIED // FOR PLANNING USE",
+    "generated_at": "2026-04-27T20:28:06.941479+00:00"
+  }
+}

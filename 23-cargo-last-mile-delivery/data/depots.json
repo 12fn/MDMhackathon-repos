@@ -1,0 +1,13 @@
+[
+  {
+    "id": "FOB-RAVEN",
+    "name": "FOB Raven (Forward Depot)",
+    "type": "austere",
+    "lat": 33.415,
+    "lon": 43.7,
+    "elev_m": 240,
+    "lz_grade": "dirt",
+    "fuel_capacity_gal": 3200,
+    "notes": "Class I + Class V on-hand; no hardstand; UAS overwatch x1."
+  }
+]

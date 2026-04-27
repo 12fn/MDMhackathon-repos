@@ -1,0 +1,1082 @@
+{
+  "meu_soc_30d_tropical_high": {
+    "scenario": {
+      "id": "meu_soc_30d_tropical_high",
+      "label": "MEU(SOC), 2,200 personnel, 30 days, expeditionary austere, tropical high-tempo",
+      "unit_type": "MEU(SOC)",
+      "personnel": 2200,
+      "days": 30,
+      "climate": "tropical",
+      "opscale": "high",
+      "supply_basis": "expeditionary_austere"
+    },
+    "estimate": {
+      "scenario_id": "meu_soc_30d_tropical_high",
+      "scenario_label": "MEU(SOC), 2,200 personnel, 30 days, expeditionary austere, tropical high-tempo",
+      "personnel": 2200,
+      "days": 30,
+      "climate": "tropical",
+      "opscale": "high",
+      "classes": [
+        {
+          "class": "I",
+          "name": "Subsistence (MREs / UGRs / fresh)",
+          "daily_consumption": 12760.0,
+          "daily_unit": "lbs/day",
+          "total_30day_or_window": 382800.0,
+          "total_unit": "lbs",
+          "variance_band_pct": 7,
+          "rate_basis": "5.8 lbs/Marine/day",
+          "_source": "baseline"
+        },
+        {
+          "class": "II",
+          "name": "Clothing & individual equipment",
+          "daily_consumption": 2640.0,
+          "daily_unit": "lbs/day",
+          "total_30day_or_window": 79200.0,
+          "total_unit": "lbs",
+          "variance_band_pct": 10,
+          "rate_basis": "1.2 lbs/Marine/day",
+          "_source": "baseline"
+        },
+        {
+          "class": "III",
+          "name": "POL \u2014 fuel & lubricants",
+          "daily_consumption": 15400.0,
+          "daily_unit": "gal/day",
+          "total_30day_or_window": 462000.0,
+          "total_unit": "gal",
+          "variance_band_pct": 22,
+          "rate_basis": "7.0 gal/Marine/day",
+          "_source": "baseline"
+        },
+        {
+          "class": "IV",
+          "name": "Construction & barrier materials",
+          "daily_consumption": 6600.0,
+          "daily_unit": "lbs/day",
+          "total_30day_or_window": 198000.0,
+          "total_unit": "lbs",
+          "variance_band_pct": 20,
+          "rate_basis": "3.0 lbs/Marine/day",
+          "_source": "baseline"
+        },
+        {
+          "class": "V",
+          "name": "Ammunition",
+          "daily_consumption": 48400.0,
+          "daily_unit": "lbs/day",
+          "total_30day_or_window": 1452000.0,
+          "total_unit": "lbs",
+          "variance_band_pct": 30,
+          "rate_basis": "22.0 lbs/Marine/day",
+          "_source": "baseline"
+        },
+        {
+          "class": "VI",
+          "name": "Personal demand items (sundries)",
+          "daily_consumption": 1100.0,
+          "daily_unit": "lbs/day",
+          "total_30day_or_window": 33000.0,
+          "total_unit": "lbs",
+          "variance_band_pct": 8,
+          "rate_basis": "0.5 lbs/Marine/day",
+          "_source": "baseline"
+        },
+        {
+          "class": "VII",
+          "name": "Major end items",
+          "daily_consumption": 0.0,
+          "daily_unit": "ea/day",
+          "total_30day_or_window": 726.0,
+          "total_unit": "ea",
+          "variance_band_pct": 30,
+          "rate_basis": "3.6 ea/100Marines/30day",
+          "_source": "baseline"
+        },
+        {
+          "class": "VIII",
+          "name": "Medical supplies",
+          "daily_consumption": 3080.0,
+          "daily_unit": "lbs/day",
+          "total_30day_or_window": 92400.0,
+          "total_unit": "lbs",
+          "variance_band_pct": 14,
+          "rate_basis": "1.4 lbs/Marine/day",
+          "_source": "baseline"
+        },
+        {
+          "class": "IX",
+          "name": "Repair parts",
+          "daily_consumption": 10560.0,
+          "daily_unit": "lbs/day",
+          "total_30day_or_window": 316800.0,
+          "total_unit": "lbs",
+          "variance_band_pct": 18,
+          "rate_basis": "4.8 lbs/Marine/day",
+          "_source": "baseline"
+        }
+      ],
+      "sourcing": [
+        {
+          "class": "I",
+          "sources": [
+            {
+              "depot_id": "MCLB-ALB",
+              "name": "MCLB Albany",
+              "on_hand": 720000,
+              "unit": "lbs",
+              "covers_pct": 188.15
+            },
+            {
+              "depot_id": "CLEJ-SMU",
+              "name": "Camp Lejeune SMU",
+              "on_hand": 540000,
+              "unit": "lbs",
+              "covers_pct": 141.07
+            },
+            {
+              "depot_id": "CPEN-SMU",
+              "name": "Camp Pendleton SMU",
+              "on_hand": 510000,
+              "unit": "lbs",
+              "covers_pct": 133.2
+            }
+          ]
+        },
+        {
+          "class": "II",
+          "sources": [
+            {
+              "depot_id": "MCLB-ALB",
+              "name": "MCLB Albany",
+              "on_hand": 95000,
+              "unit": "lbs",
+              "covers_pct": 119.95
+            },
+            {
+              "depot_id": "CLEJ-SMU",
+              "name": "Camp Lejeune SMU",
+              "on_hand": 82000,
+              "unit": "lbs",
+              "covers_pct": 103.54
+            },
+            {
+              "depot_id": "CPEN-SMU",
+              "name": "Camp Pendleton SMU",
+              "on_hand": 78000,
+              "unit": "lbs",
+              "covers_pct": 98.48
+            }
+          ]
+        },
+        {
+          "class": "III",
+          "sources": [
+            {
+              "depot_id": "BICMD",
+              "name": "Blount Island Command",
+              "on_hand": 480000,
+              "unit": "gal",
+              "covers_pct": 103.9
+            },
+            {
+              "depot_id": "MEUMPS",
+              "name": "MPSRON-3 (afloat, Guam)",
+              "on_hand": 380000,
+              "unit": "gal",
+              "covers_pct": 82.25
+            },
+            {
+              "depot_id": "MCLB-BAR",
+              "name": "MCLB Barstow",
+              "on_hand": 220000,
+              "unit": "gal",
+              "covers_pct": 47.62
+            }
+          ]
+        },
+        {
+          "class": "IV",
+          "sources": [
+            {
+              "depot_id": "BICMD",
+              "name": "Blount Island Command",
+              "on_hand": 200000,
+              "unit": "lbs",
+              "covers_pct": 101.01
+            },
+            {
+              "depot_id": "MCLB-ALB",
+              "name": "MCLB Albany",
+              "on_hand": 150000,
+              "unit": "lbs",
+              "covers_pct": 75.76
+            },
+            {
+              "depot_id": "MEUMPS",
+              "name": "MPSRON-3 (afloat, Guam)",
+              "on_hand": 130000,
+              "unit": "lbs",
+              "covers_pct": 65.66
+            }
+          ]
+        },
+        {
+          "class": "V",
+          "sources": [
+            {
+              "depot_id": "BICMD",
+              "name": "Blount Island Command",
+              "on_hand": 920000,
+              "unit": "lbs",
+              "covers_pct": 63.36
+            },
+            {
+              "depot_id": "MCLB-ALB",
+              "name": "MCLB Albany",
+              "on_hand": 880000,
+              "unit": "lbs",
+              "covers_pct": 60.61
+            },
+            {
+              "depot_id": "MCLB-BAR",
+              "name": "MCLB Barstow",
+              "on_hand": 760000,
+              "unit": "lbs",
+              "covers_pct": 52.34
+            }
+          ]
+        },
+        {
+          "class": "VI",
+          "sources": [
+            {
+              "depot_id": "MCLB-ALB",
+              "name": "MCLB Albany",
+              "on_hand": 42000,
+              "unit": "lbs",
+              "covers_pct": 127.27
+            },
+            {
+              "depot_id": "BICMD",
+              "name": "Blount Island Command",
+              "on_hand": 31000,
+              "unit": "lbs",
+              "covers_pct": 93.94
+            },
+            {
+              "depot_id": "CLEJ-SMU",
+              "name": "Camp Lejeune SMU",
+              "on_hand": 31000,
+              "unit": "lbs",
+              "covers_pct": 93.94
+            }
+          ]
+        },
+        {
+          "class": "VII",
+          "sources": [
+            {
+              "depot_id": "BICMD",
+              "name": "Blount Island Command",
+              "on_hand": 320,
+              "unit": "ea",
+              "covers_pct": 44.08
+            },
+            {
+              "depot_id": "MCLB-ALB",
+              "name": "MCLB Albany",
+              "on_hand": 240,
+              "unit": "ea",
+              "covers_pct": 33.06
+            },
+            {
+              "depot_id": "MEUMPS",
+              "name": "MPSRON-3 (afloat, Guam)",
+              "on_hand": 180,
+              "unit": "ea",
+              "covers_pct": 24.79
+            }
+          ]
+        },
+        {
+          "class": "VIII",
+          "sources": [
+            {
+              "depot_id": "MCLB-ALB",
+              "name": "MCLB Albany",
+              "on_hand": 62000,
+              "unit": "lbs",
+              "covers_pct": 67.1
+            },
+            {
+              "depot_id": "CLEJ-SMU",
+              "name": "Camp Lejeune SMU",
+              "on_hand": 41000,
+              "unit": "lbs",
+              "covers_pct": 44.39
+            },
+            {
+              "depot_id": "CPEN-SMU",
+              "name": "Camp Pendleton SMU",
+              "on_hand": 38000,
+              "unit": "lbs",
+              "covers_pct": 41.13
+            }
+          ]
+        },
+        {
+          "class": "IX",
+          "sources": [
+            {
+              "depot_id": "MCLB-ALB",
+              "name": "MCLB Albany",
+              "on_hand": 320000,
+              "unit": "lbs",
+              "covers_pct": 101.01
+            },
+            {
+              "depot_id": "BICMD",
+              "name": "Blount Island Command",
+              "on_hand": 360000,
+              "unit": "lbs",
+              "covers_pct": 113.64
+            },
+            {
+              "depot_id": "MEUMPS",
+              "name": "MPSRON-3 (afloat, Guam)",
+              "on_hand": 240000,
+              "unit": "lbs",
+              "covers_pct": 75.76
+            }
+          ]
+        }
+      ],
+      "_source": "llm"
+    },
+    "brief": "**Sustainment Estimate Brief \u2014 DTG 272025Z APR 2026**\n\n## PARA 1 \u2014 SITUATION\nSupported force is a **MEU(SOC)** of **2,200** personnel operating over **30 days** in **tropical** conditions at **high** opscale, with planning basis **expeditionary_austere**. Sustainment demand reflects elevated fuel, ammunition, medical, and repair-part consumption associated with distributed expeditionary operations and limited local support infrastructure.\n\n## PARA 2 \u2014 MISSION\nLOGCOM sustainment cell estimates, sources, and positions Classes I-IX support required to sustain the force through the 30-day operational window. Priority is to maintain continuity of supply to forward elements while mitigating shortfalls in high-variance classes through phased pre-positioning and contingency sourcing.\n\n## PARA 3 \u2014 CONSUMPTION ESTIMATE (Class I-IX)\n- **Class I:** 382,800 lbs over 30 days (\u00b17%); primary pre-positioning source: **MCLB Albany**.\n- **Class II:** 79,200 lbs over 30 days (\u00b110%); primary pre-positioning source: **MCLB Albany**.\n- **Class III:** 462,000 gal over 30 days (\u00b122%); primary pre-positioning source: **Blount Island Command**.\n- **Class IV:** 198,000 lbs over 30 days (\u00b120%); primary pre-positioning source: **Blount Island Command**.\n- **Class V:** 1,452,000 lbs over 30 days (\u00b130%); primary pre-positioning source: **Blount Island Command**.\n- **Class VI:** 33,000 lbs over 30 days (\u00b18%); primary pre-positioning source: **MCLB Albany**.\n- **Class VII:** 726 ea over 30 days (\u00b130%); primary pre-positioning source: **Blount Island Command**.\n- **Class VIII:** 92,400 lbs over 30 days (\u00b114%); primary pre-positioning source: **MCLB Albany**.\n- **Class IX:** 316,800 lbs over 30 days (\u00b118%); primary pre-positioning source: **MCLB Albany**.\n\n## PARA 4 \u2014 RISKS & CONTINGENCY\n- **Class V ammunition** is the principal risk: required quantity exceeds listed primary-source on-hand levels, with **\u00b130%** variance. Contingency: phase loads forward early, cross-level from adjacent stocks, and trigger follow-on issue from alternate ammunition holding activities.\n- **Class III POL** demand is high and primary-source inventory is near total requirement, with **\u00b122%** variance. Contingency: establish distributed fuel nodes, enforce consumption discipline, and plan supplemental bulk fuel delivery from alternate maritime or theater distribution points.\n- **Class IX repair parts** remain a readiness driver; requirement nearly matches primary-source on-hand with **\u00b118%** variance. Contingency: prioritize high-failure assemblies, push bench stock forward, and use expedited redistribution from secondary maintenance depots.\n- **Class VII major end items** present replacement risk due to **\u00b130%** variance and limited on-hand depth at the primary source. Contingency: maintain controlled float, cannibalize non-mission-essential assets when directed, and request theater-level substitution where feasible.\n- **Class VIII medical supplies** may surge above forecast in tropical and high-opscale conditions. Contingency: pre-stage trauma/resuscitative sets and coordinate emergency replenishment through medical logistics channels.\n\n## PARA 5 \u2014 SOURCES & SIGNAL\nOriginator: **TRACE / LOGCOM sustainment cell**. Source data derived from provided 30-day consumption estimate and stated primary depot holdings at **MCLB Albany** and **Blount Island Command**. Next refresh: **281200Z APR 2026** or upon significant change to personnel, opscale, or mission profile.  \n**Classification: UNCLASSIFIED // FOR OFFICIAL USE**",
+    "source": "hero"
+  },
+  "rct_15d_temperate_medium": {
+    "scenario": {
+      "id": "rct_15d_temperate_medium",
+      "label": "RCT, 4,800 personnel, 15 days, temperate, medium tempo",
+      "unit_type": "Regimental Combat Team (RCT)",
+      "personnel": 4800,
+      "days": 15,
+      "climate": "temperate",
+      "opscale": "medium",
+      "supply_basis": "temperate"
+    },
+    "estimate": {
+      "scenario_id": "rct_15d_temperate_medium",
+      "scenario_label": "RCT, 4,800 personnel, 15 days, temperate, medium tempo",
+      "personnel": 4800,
+      "days": 15,
+      "climate": "temperate",
+      "opscale": "medium",
+      "classes": [
+        {
+          "class": "I",
+          "name": "Subsistence (MREs / UGRs / fresh)",
+          "daily_consumption": 23040.0,
+          "daily_unit": "lbs/day",
+          "total_30day_or_window": 345600.0,
+          "total_unit": "lbs",
+          "variance_band_pct": 5,
+          "rate_basis": "4.8 lbs/Marine/day",
+          "_source": "baseline"
+        },
+        {
+          "class": "II",
+          "name": "Clothing & individual equipment",
+          "daily_consumption": 2880.0,
+          "daily_unit": "lbs/day",
+          "total_30day_or_window": 43200.0,
+          "total_unit": "lbs",
+          "variance_band_pct": 8,
+          "rate_basis": "0.6 lbs/Marine/day",
+          "_source": "baseline"
+        },
+        {
+          "class": "III",
+          "name": "POL \u2014 fuel & lubricants",
+          "daily_consumption": 15360.0,
+          "daily_unit": "gal/day",
+          "total_30day_or_window": 230400.0,
+          "total_unit": "gal",
+          "variance_band_pct": 12,
+          "rate_basis": "3.2 gal/Marine/day",
+          "_source": "baseline"
+        },
+        {
+          "class": "IV",
+          "name": "Construction & barrier materials",
+          "daily_consumption": 7680.0,
+          "daily_unit": "lbs/day",
+          "total_30day_or_window": 115200.0,
+          "total_unit": "lbs",
+          "variance_band_pct": 15,
+          "rate_basis": "1.6 lbs/Marine/day",
+          "_source": "baseline"
+        },
+        {
+          "class": "V",
+          "name": "Ammunition",
+          "daily_consumption": 38400.0,
+          "daily_unit": "lbs/day",
+          "total_30day_or_window": 576000.0,
+          "total_unit": "lbs",
+          "variance_band_pct": 20,
+          "rate_basis": "8.0 lbs/Marine/day",
+          "_source": "baseline"
+        },
+        {
+          "class": "VI",
+          "name": "Personal demand items (sundries)",
+          "daily_consumption": 1920.0,
+          "daily_unit": "lbs/day",
+          "total_30day_or_window": 28800.0,
+          "total_unit": "lbs",
+          "variance_band_pct": 6,
+          "rate_basis": "0.4 lbs/Marine/day",
+          "_source": "baseline"
+        },
+        {
+          "class": "VII",
+          "name": "Major end items",
+          "daily_consumption": 0.0,
+          "daily_unit": "ea/day",
+          "total_30day_or_window": 24.0,
+          "total_unit": "ea",
+          "variance_band_pct": 25,
+          "rate_basis": "1.8 ea/100Marines/30day",
+          "_source": "baseline"
+        },
+        {
+          "class": "VIII",
+          "name": "Medical supplies",
+          "daily_consumption": 2880.0,
+          "daily_unit": "lbs/day",
+          "total_30day_or_window": 43200.0,
+          "total_unit": "lbs",
+          "variance_band_pct": 10,
+          "rate_basis": "0.6 lbs/Marine/day",
+          "_source": "baseline"
+        },
+        {
+          "class": "IX",
+          "name": "Repair parts",
+          "daily_consumption": 11520.0,
+          "daily_unit": "lbs/day",
+          "total_30day_or_window": 172800.0,
+          "total_unit": "lbs",
+          "variance_band_pct": 12,
+          "rate_basis": "2.4 lbs/Marine/day",
+          "_source": "baseline"
+        }
+      ],
+      "sourcing": [
+        {
+          "class": "I",
+          "sources": [
+            {
+              "depot_id": "MCLB-ALB",
+              "name": "MCLB Albany",
+              "on_hand": 720000,
+              "unit": "lbs",
+              "covers_pct": 208.33
+            },
+            {
+              "depot_id": "CLEJ-SMU",
+              "name": "Camp Lejeune SMU",
+              "on_hand": 540000,
+              "unit": "lbs",
+              "covers_pct": 156.25
+            },
+            {
+              "depot_id": "CPEN-SMU",
+              "name": "Camp Pendleton SMU",
+              "on_hand": 510000,
+              "unit": "lbs",
+              "covers_pct": 147.57
+            }
+          ]
+        },
+        {
+          "class": "II",
+          "sources": [
+            {
+              "depot_id": "MCLB-ALB",
+              "name": "MCLB Albany",
+              "on_hand": 95000,
+              "unit": "lbs",
+              "covers_pct": 219.91
+            },
+            {
+              "depot_id": "MCLB-BAR",
+              "name": "MCLB Barstow",
+              "on_hand": 88000,
+              "unit": "lbs",
+              "covers_pct": 203.7
+            },
+            {
+              "depot_id": "CLEJ-SMU",
+              "name": "Camp Lejeune SMU",
+              "on_hand": 82000,
+              "unit": "lbs",
+              "covers_pct": 189.81
+            }
+          ]
+        },
+        {
+          "class": "III",
+          "sources": [
+            {
+              "depot_id": "BICMD",
+              "name": "Blount Island Command",
+              "on_hand": 480000,
+              "unit": "gal",
+              "covers_pct": 208.33
+            },
+            {
+              "depot_id": "MEUMPS",
+              "name": "MPSRON-3 (afloat, Guam)",
+              "on_hand": 380000,
+              "unit": "gal",
+              "covers_pct": 164.93
+            },
+            {
+              "depot_id": "MCLB-BAR",
+              "name": "MCLB Barstow",
+              "on_hand": 220000,
+              "unit": "gal",
+              "covers_pct": 95.49
+            }
+          ]
+        },
+        {
+          "class": "IV",
+          "sources": [
+            {
+              "depot_id": "BICMD",
+              "name": "Blount Island Command",
+              "on_hand": 200000,
+              "unit": "lbs",
+              "covers_pct": 173.61
+            },
+            {
+              "depot_id": "MCLB-ALB",
+              "name": "MCLB Albany",
+              "on_hand": 150000,
+              "unit": "lbs",
+              "covers_pct": 130.21
+            },
+            {
+              "depot_id": "MEUMPS",
+              "name": "MPSRON-3 (afloat, Guam)",
+              "on_hand": 130000,
+              "unit": "lbs",
+              "covers_pct": 112.85
+            }
+          ]
+        },
+        {
+          "class": "V",
+          "sources": [
+            {
+              "depot_id": "BICMD",
+              "name": "Blount Island Command",
+              "on_hand": 920000,
+              "unit": "lbs",
+              "covers_pct": 159.72
+            },
+            {
+              "depot_id": "MCLB-ALB",
+              "name": "MCLB Albany",
+              "on_hand": 880000,
+              "unit": "lbs",
+              "covers_pct": 152.78
+            },
+            {
+              "depot_id": "MCLB-BAR",
+              "name": "MCLB Barstow",
+              "on_hand": 760000,
+              "unit": "lbs",
+              "covers_pct": 131.94
+            }
+          ]
+        },
+        {
+          "class": "VI",
+          "sources": [
+            {
+              "depot_id": "MCLB-ALB",
+              "name": "MCLB Albany",
+              "on_hand": 42000,
+              "unit": "lbs",
+              "covers_pct": 145.83
+            },
+            {
+              "depot_id": "CLEJ-SMU",
+              "name": "Camp Lejeune SMU",
+              "on_hand": 31000,
+              "unit": "lbs",
+              "covers_pct": 107.64
+            },
+            {
+              "depot_id": "CPEN-SMU",
+              "name": "Camp Pendleton SMU",
+              "on_hand": 29000,
+              "unit": "lbs",
+              "covers_pct": 100.69
+            }
+          ]
+        },
+        {
+          "class": "VII",
+          "sources": [
+            {
+              "depot_id": "BICMD",
+              "name": "Blount Island Command",
+              "on_hand": 320,
+              "unit": "ea",
+              "covers_pct": 1333.33
+            },
+            {
+              "depot_id": "MCLB-ALB",
+              "name": "MCLB Albany",
+              "on_hand": 240,
+              "unit": "ea",
+              "covers_pct": 1000
+            },
+            {
+              "depot_id": "MEUMPS",
+              "name": "MPSRON-3 (afloat, Guam)",
+              "on_hand": 180,
+              "unit": "ea",
+              "covers_pct": 750
+            }
+          ]
+        },
+        {
+          "class": "VIII",
+          "sources": [
+            {
+              "depot_id": "MCLB-ALB",
+              "name": "MCLB Albany",
+              "on_hand": 62000,
+              "unit": "lbs",
+              "covers_pct": 143.52
+            },
+            {
+              "depot_id": "MCLB-BAR",
+              "name": "MCLB Barstow",
+              "on_hand": 54000,
+              "unit": "lbs",
+              "covers_pct": 125
+            },
+            {
+              "depot_id": "CLEJ-SMU",
+              "name": "Camp Lejeune SMU",
+              "on_hand": 41000,
+              "unit": "lbs",
+              "covers_pct": 94.91
+            }
+          ]
+        },
+        {
+          "class": "IX",
+          "sources": [
+            {
+              "depot_id": "MCLB-ALB",
+              "name": "MCLB Albany",
+              "on_hand": 320000,
+              "unit": "lbs",
+              "covers_pct": 185.19
+            },
+            {
+              "depot_id": "BICMD",
+              "name": "Blount Island Command",
+              "on_hand": 360000,
+              "unit": "lbs",
+              "covers_pct": 208.33
+            },
+            {
+              "depot_id": "MCLB-BAR",
+              "name": "MCLB Barstow",
+              "on_hand": 290000,
+              "unit": "lbs",
+              "covers_pct": 167.82
+            }
+          ]
+        }
+      ],
+      "_source": "llm"
+    },
+    "brief": "**Sustainment Estimate Brief \u2014 RCT 15-Day LOGCOM Support Outlook (DTG 272025Z APR 2026)**\n\n## PARA 1 \u2014 SITUATION\nSupported force is a **Regimental Combat Team (RCT)** of **4,800** personnel over **15 days** in a **temperate** climate at **medium** opscale. Current estimate is based on steady-state sustainment demand across Classes I-IX for the stated window, with primary support split between MCLB Albany and Blount Island Command.\n\n## PARA 2 \u2014 MISSION\nLOGCOM sustainment cell provides forecast-based sourcing, staging, and distribution planning to maintain uninterrupted support to the RCT throughout the 15-day window. Priority is to pre-position high-demand and high-variance commodities forward enough to absorb operational fluctuation while preserving depot responsiveness.\n\n## PARA 3 \u2014 CONSUMPTION ESTIMATE (Class I-IX)\n- **Class I:** 345,600 lbs over 15 days (\u00b15%); primary pre-positioning source: **MCLB Albany**.\n- **Class II:** 43,200 lbs over 15 days (\u00b18%); primary pre-positioning source: **MCLB Albany**.\n- **Class III:** 230,400 gal over 15 days (\u00b112%); primary pre-positioning source: **Blount Island Command**.\n- **Class IV:** 115,200 lbs over 15 days (\u00b115%); primary pre-positioning source: **Blount Island Command**.\n- **Class V:** 576,000 lbs over 15 days (\u00b120%); primary pre-positioning source: **Blount Island Command**.\n- **Class VI:** 28,800 lbs over 15 days (\u00b16%); primary pre-positioning source: **MCLB Albany**.\n- **Class VII:** 24 ea over 15 days (\u00b125%); primary pre-positioning source: **Blount Island Command**.\n- **Class VIII:** 43,200 lbs over 15 days (\u00b110%); primary pre-positioning source: **MCLB Albany**.\n- **Class IX:** 172,800 lbs over 15 days (\u00b112%); primary pre-positioning source: **MCLB Albany**.\n\n## PARA 4 \u2014 RISKS & CONTINGENCY\n- **Class V ammunition** carries the highest forecasted bulk demand and significant variance (\u00b120%); recommend forward buffering from **Blount Island Command** and phased push packages to avoid surge shortfalls.\n- **Class III POL** remains operationally decisive; consumption may rise with maneuver tempo, idle time, and generator load. Contingency is accelerated replenishment from **Blount Island Command** with prioritized line-haul and temporary stockage increase.\n- **Class IX repair parts** risk is tied to maintenance spikes and battle damage; establish demand-based reorder triggers and cross-level from **MCLB Albany** reserve stocks as readiness indicators shift.\n- **Class VII major end items** shows the highest variance percentage (\u00b125%) despite low quantity; hold replacement float at **Blount Island Command** and prepare rapid issue for mission-essential losses.\n- **Class IV barrier/construction materials** may increase if survivability or route-hardening requirements expand; contingency sourcing remains **Blount Island Command** with controlled release by priority of work.\n\n## PARA 5 \u2014 SOURCES & SIGNAL\nOriginator: **TRACE / LOGCOM sustainment cell**.  \nPrimary source nodes referenced: **MCLB Albany** and **Blount Island Command**.  \nNext refresh time: **281200Z APR 2026**.  \nClassification: UNCLASSIFIED // FOR OFFICIAL USE",
+    "source": "hero"
+  },
+  "magtf_60d_arid_high": {
+    "scenario": {
+      "id": "magtf_60d_arid_high",
+      "label": "MAGTF (reinforced), 7,500 personnel, 60 days, arid, high tempo",
+      "unit_type": "MAGTF (reinforced)",
+      "personnel": 7500,
+      "days": 60,
+      "climate": "arid",
+      "opscale": "high",
+      "supply_basis": "arid"
+    },
+    "estimate": {
+      "scenario_id": "magtf_60d_arid_high",
+      "scenario_label": "MAGTF (reinforced), 7,500 personnel, 60 days, arid, high tempo",
+      "personnel": 7500,
+      "days": 60,
+      "climate": "arid",
+      "opscale": "high",
+      "classes": [
+        {
+          "class": "I",
+          "name": "Subsistence (MREs / UGRs / fresh)",
+          "daily_consumption": 40500.0,
+          "daily_unit": "lbs/day",
+          "total_30day_or_window": 2430000.0,
+          "total_unit": "lbs",
+          "variance_band_pct": 6,
+          "rate_basis": "5.4 lbs/Marine/day",
+          "_source": "baseline"
+        },
+        {
+          "class": "II",
+          "name": "Clothing & individual equipment",
+          "daily_consumption": 6000.0,
+          "daily_unit": "lbs/day",
+          "total_30day_or_window": 360000.0,
+          "total_unit": "lbs",
+          "variance_band_pct": 9,
+          "rate_basis": "0.8 lbs/Marine/day",
+          "_source": "baseline"
+        },
+        {
+          "class": "III",
+          "name": "POL \u2014 fuel & lubricants",
+          "daily_consumption": 48000.0,
+          "daily_unit": "gal/day",
+          "total_30day_or_window": 2880000.0,
+          "total_unit": "gal",
+          "variance_band_pct": 18,
+          "rate_basis": "6.4 gal/Marine/day",
+          "_source": "baseline"
+        },
+        {
+          "class": "IV",
+          "name": "Construction & barrier materials",
+          "daily_consumption": 16500.0,
+          "daily_unit": "lbs/day",
+          "total_30day_or_window": 990000.0,
+          "total_unit": "lbs",
+          "variance_band_pct": 18,
+          "rate_basis": "2.2 lbs/Marine/day",
+          "_source": "baseline"
+        },
+        {
+          "class": "V",
+          "name": "Ammunition",
+          "daily_consumption": 142500.0,
+          "daily_unit": "lbs/day",
+          "total_30day_or_window": 8550000.0,
+          "total_unit": "lbs",
+          "variance_band_pct": 28,
+          "rate_basis": "19.0 lbs/Marine/day",
+          "_source": "baseline"
+        },
+        {
+          "class": "VI",
+          "name": "Personal demand items (sundries)",
+          "daily_consumption": 3750.0,
+          "daily_unit": "lbs/day",
+          "total_30day_or_window": 225000.0,
+          "total_unit": "lbs",
+          "variance_band_pct": 6,
+          "rate_basis": "0.5 lbs/Marine/day",
+          "_source": "baseline"
+        },
+        {
+          "class": "VII",
+          "name": "Major end items",
+          "daily_consumption": 750.0,
+          "daily_unit": "ea/day",
+          "total_30day_or_window": 45000.0,
+          "total_unit": "ea",
+          "variance_band_pct": 28,
+          "rate_basis": "3.0 ea/100Marines/30day",
+          "_source": "baseline"
+        },
+        {
+          "class": "VIII",
+          "name": "Medical supplies",
+          "daily_consumption": 8250.0,
+          "daily_unit": "lbs/day",
+          "total_30day_or_window": 495000.0,
+          "total_unit": "lbs",
+          "variance_band_pct": 12,
+          "rate_basis": "1.1 lbs/Marine/day",
+          "_source": "baseline"
+        },
+        {
+          "class": "IX",
+          "name": "Repair parts",
+          "daily_consumption": 31500.0,
+          "daily_unit": "lbs/day",
+          "total_30day_or_window": 1890000.0,
+          "total_unit": "lbs",
+          "variance_band_pct": 15,
+          "rate_basis": "4.2 lbs/Marine/day",
+          "_source": "baseline"
+        }
+      ],
+      "sourcing": [
+        {
+          "class": "I",
+          "sources": [
+            {
+              "depot_id": "MCLB-ALB",
+              "name": "MCLB Albany",
+              "on_hand": 720000,
+              "unit": "lbs",
+              "covers_pct": 29.63
+            },
+            {
+              "depot_id": "CPEN-SMU",
+              "name": "Camp Pendleton SMU",
+              "on_hand": 510000,
+              "unit": "lbs",
+              "covers_pct": 20.99
+            },
+            {
+              "depot_id": "CLEJ-SMU",
+              "name": "Camp Lejeune SMU",
+              "on_hand": 540000,
+              "unit": "lbs",
+              "covers_pct": 22.22
+            }
+          ]
+        },
+        {
+          "class": "II",
+          "sources": [
+            {
+              "depot_id": "MCLB-ALB",
+              "name": "MCLB Albany",
+              "on_hand": 95000,
+              "unit": "lbs",
+              "covers_pct": 26.39
+            },
+            {
+              "depot_id": "MCLB-BAR",
+              "name": "MCLB Barstow",
+              "on_hand": 88000,
+              "unit": "lbs",
+              "covers_pct": 24.44
+            },
+            {
+              "depot_id": "CLEJ-SMU",
+              "name": "Camp Lejeune SMU",
+              "on_hand": 82000,
+              "unit": "lbs",
+              "covers_pct": 22.78
+            }
+          ]
+        },
+        {
+          "class": "III",
+          "sources": [
+            {
+              "depot_id": "BICMD",
+              "name": "Blount Island Command",
+              "on_hand": 480000,
+              "unit": "gal",
+              "covers_pct": 16.67
+            },
+            {
+              "depot_id": "MEUMPS",
+              "name": "MPSRON-3 (afloat, Guam)",
+              "on_hand": 380000,
+              "unit": "gal",
+              "covers_pct": 13.19
+            },
+            {
+              "depot_id": "MCLB-BAR",
+              "name": "MCLB Barstow",
+              "on_hand": 220000,
+              "unit": "gal",
+              "covers_pct": 7.64
+            }
+          ]
+        },
+        {
+          "class": "IV",
+          "sources": [
+            {
+              "depot_id": "BICMD",
+              "name": "Blount Island Command",
+              "on_hand": 200000,
+              "unit": "lbs",
+              "covers_pct": 20.2
+            },
+            {
+              "depot_id": "MCLB-ALB",
+              "name": "MCLB Albany",
+              "on_hand": 150000,
+              "unit": "lbs",
+              "covers_pct": 15.15
+            },
+            {
+              "depot_id": "MEUMPS",
+              "name": "MPSRON-3 (afloat, Guam)",
+              "on_hand": 130000,
+              "unit": "lbs",
+              "covers_pct": 13.13
+            }
+          ]
+        },
+        {
+          "class": "V",
+          "sources": [
+            {
+              "depot_id": "BICMD",
+              "name": "Blount Island Command",
+              "on_hand": 920000,
+              "unit": "lbs",
+              "covers_pct": 10.76
+            },
+            {
+              "depot_id": "MCLB-ALB",
+              "name": "MCLB Albany",
+              "on_hand": 880000,
+              "unit": "lbs",
+              "covers_pct": 10.29
+            },
+            {
+              "depot_id": "MCLB-BAR",
+              "name": "MCLB Barstow",
+              "on_hand": 760000,
+              "unit": "lbs",
+              "covers_pct": 8.89
+            }
+          ]
+        },
+        {
+          "class": "VI",
+          "sources": [
+            {
+              "depot_id": "MCLB-ALB",
+              "name": "MCLB Albany",
+              "on_hand": 42000,
+              "unit": "lbs",
+              "covers_pct": 18.67
+            },
+            {
+              "depot_id": "MCLB-BAR",
+              "name": "MCLB Barstow",
+              "on_hand": 38000,
+              "unit": "lbs",
+              "covers_pct": 16.89
+            },
+            {
+              "depot_id": "CLEJ-SMU",
+              "name": "Camp Lejeune SMU",
+              "on_hand": 31000,
+              "unit": "lbs",
+              "covers_pct": 13.78
+            }
+          ]
+        },
+        {
+          "class": "VII",
+          "sources": [
+            {
+              "depot_id": "BICMD",
+              "name": "Blount Island Command",
+              "on_hand": 320,
+              "unit": "ea",
+              "covers_pct": 0.71
+            },
+            {
+              "depot_id": "MCLB-ALB",
+              "name": "MCLB Albany",
+              "on_hand": 240,
+              "unit": "ea",
+              "covers_pct": 0.53
+            },
+            {
+              "depot_id": "MCLB-BAR",
+              "name": "MCLB Barstow",
+              "on_hand": 210,
+              "unit": "ea",
+              "covers_pct": 0.47
+            }
+          ]
+        },
+        {
+          "class": "VIII",
+          "sources": [
+            {
+              "depot_id": "MCLB-ALB",
+              "name": "MCLB Albany",
+              "on_hand": 62000,
+              "unit": "lbs",
+              "covers_pct": 12.53
+            },
+            {
+              "depot_id": "MCLB-BAR",
+              "name": "MCLB Barstow",
+              "on_hand": 54000,
+              "unit": "lbs",
+              "covers_pct": 10.91
+            },
+            {
+              "depot_id": "CLEJ-SMU",
+              "name": "Camp Lejeune SMU",
+              "on_hand": 41000,
+              "unit": "lbs",
+              "covers_pct": 8.28
+            }
+          ]
+        },
+        {
+          "class": "IX",
+          "sources": [
+            {
+              "depot_id": "BICMD",
+              "name": "Blount Island Command",
+              "on_hand": 360000,
+              "unit": "lbs",
+              "covers_pct": 19.05
+            },
+            {
+              "depot_id": "MCLB-ALB",
+              "name": "MCLB Albany",
+              "on_hand": 320000,
+              "unit": "lbs",
+              "covers_pct": 16.93
+            },
+            {
+              "depot_id": "MCLB-BAR",
+              "name": "MCLB Barstow",
+              "on_hand": 290000,
+              "unit": "lbs",
+              "covers_pct": 15.34
+            }
+          ]
+        }
+      ],
+      "_source": "llm"
+    },
+    "brief": "**Sustainment Estimate Brief \u2014 DTG 272026Z APR 2026**\n\n## PARA 1 \u2014 SITUATION\nSupported force is a **MAGTF (reinforced)** of **7,500** personnel operating over **60 days** in **arid** climate at **high** opscale. Sustainment planning basis reflects sustained high-tempo operations in an arid environment, with demand weighted toward fuel, ammunition, repair parts, subsistence, and medical support across the full window.\n\n## PARA 2 \u2014 MISSION\nLOGCOM sustainment cell estimates, stages, and coordinates Class I-IX support required to maintain the force through the 60-day operational window. Priority is to pre-position high-demand commodities forward from designated depots and preserve continuity of support under variable consumption conditions.\n\n## PARA 3 \u2014 CONSUMPTION ESTIMATE (Class I-IX)\n- **Class I:** 2,430,000 lbs over 60 days (\u00b16%); primary pre-positioning source: **MCLB Albany**.\n- **Class II:** 360,000 lbs over 60 days (\u00b19%); primary pre-positioning source: **MCLB Albany**.\n- **Class III:** 2,880,000 gal over 60 days (\u00b118%); primary pre-positioning source: **Blount Island Command**.\n- **Class IV:** 990,000 lbs over 60 days (\u00b118%); primary pre-positioning source: **Blount Island Command**.\n- **Class V:** 8,550,000 lbs over 60 days (\u00b128%); primary pre-positioning source: **Blount Island Command**.\n- **Class VI:** 225,000 lbs over 60 days (\u00b16%); primary pre-positioning source: **MCLB Albany**.\n- **Class VII:** 45,000 ea over 60 days (\u00b128%); primary pre-positioning source: **Blount Island Command**.\n- **Class VIII:** 495,000 lbs over 60 days (\u00b112%); primary pre-positioning source: **MCLB Albany**.\n- **Class IX:** 1,890,000 lbs over 60 days (\u00b115%); primary pre-positioning source: **Blount Island Command**.\n\n## PARA 4 \u2014 RISKS & CONTINGENCY\n- **Class V ammunition** carries the highest variance (\u00b128%) and largest total tonnage; contingency is phased push packages, tighter expenditure reporting, and surge sourcing through **Blount Island Command** with follow-on redistribution from theater stocks if available.\n- **Class III POL** demand remains highly sensitive to maneuver tempo and arid operating conditions (\u00b118%); contingency is to establish forward bulk storage, enforce fuel discipline, and schedule replenishment cycles from **Blount Island Command** with alternate commercial line-haul or host-nation bulk support if authorized.\n- **Class IX repair parts** risk is driven by high usage rates, dust-related wear, and maintenance backlog (\u00b115%); contingency is to pre-build high-failure bench stock, prioritize deadlining parts, and pull emergency resupply from **Blount Island Command** backed by expedited distribution channels.\n- **Class VII major end items** shows high variance (\u00b128%) with limited on-hand depth at source; contingency is controlled issue, battle-damage assessment for repair-versus-replace decisions, and cross-leveling from adjacent supported inventories before depot replenishment.\n- **Class IV barrier/construction material** may spike with survivability or route-hardening requirements (\u00b118%); contingency is early demand validation and supplemental sourcing from **Blount Island Command** plus local procurement where approved.\n\n## PARA 5 \u2014 SOURCES & SIGNAL\nOriginator: **TRACE / LOGCOM sustainment cell**.  \nPrimary sources referenced: **MCLB Albany** and **Blount Island Command**.  \nNext refresh: **282026Z APR 2026**.  \nClassification: UNCLASSIFIED // FOR OFFICIAL USE",
+    "source": "hero"
+  }
+}

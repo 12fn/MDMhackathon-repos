@@ -1,0 +1,243 @@
+{
+  "ioc_b261": {
+    "course_id": "ioc_b261",
+    "course_name": "Infantry Officer Course - Bravo Cohort 26-1",
+    "brief": "# Instructor's Competency Brief \u2014 Infantry Officer Course - Bravo Cohort 26-1\n**Generated:** 2026-04-27T20:25:47.665225+00:00 \u00b7 **Cohort size:** 18 \u00b7 **Artifacts assessed:** 200 forum posts, 98 submissions\n\n## PARA 1 - COHORT COMPETENCY MAP\nCohort competency averages (0-5 scale, rubric-aligned to USMC training standards):\n- Critical Thinking: **3.17/5**\n- Communication: **2.26/5**\n- Doctrinal Knowledge: **4.02/5**\n- Problem Solving: **2.99/5**\n\n## PARA 2 - TOP PERFORMERS\n- **Capt Alvarez** (S01) \u2014 depth: *analysis*, CT 4.8/5, PS 4.1/5\n- **Capt Gomez** (S07) \u2014 depth: *analysis*, CT 4.6/5, PS 4.2/5\n- **Sgt Lopez** (S12) \u2014 depth: *analysis*, CT 4.3/5, PS 4.1/5\n\n## PARA 3 - STUDENTS NEEDING INSTRUCTOR INTERVENTION (6 of 18)\n- **2ndLt Chen** (S03) \u2014 Communication weak: 1:1 OPORD writing drill with instructor review\n- **GySgt Diaz** (S04) \u2014 Doctrinal recall weak: assign focused MCDP-1/2/5 reading checks\n- **Sgt Ferguson** (S06) \u2014 Communication weak: 1:1 OPORD writing drill with instructor review\n- **2ndLt Iverson** (S09) \u2014 Communication weak: 1:1 OPORD writing drill with instructor review\n- **SSgt Kim** (S11) \u2014 Communication weak: 1:1 OPORD writing drill with instructor review\n- **SSgt Quinn** (S17) \u2014 Communication weak: 1:1 OPORD writing drill with instructor review\n\n## PARA 4 - ASSIGNMENT EFFECTIVENESS\n- **Lowest-performing assignment:** *Tactical Decision Game - Defensive Operations* \u2014 mean 80.3, spread 43. Recommend re-scoping or instructor reteach before next cohort.\n- **Highest-performing assignment:** *AAR - Live-Fire Squad Attack* \u2014 mean 90.8. Curriculum sequence working as designed.\n\n## PARA 5 - RECOMMENDED CURRICULUM ADJUSTMENTS\n- Reweight forum-discussion grading to incentivize **synthesis/evaluation** posts; cohort underweights these by ~15% vs. target.\n- Insert one additional tactical decision game between A2 and A4 to bridge problem-solving competencies.\n- Schedule 1:1 instructor reviews for the 6 students flagged above before the capstone (A6).\n- Consider pairing top performers with intervention list as peer mentors during AAR write-ups.\n\n_Originator: LEARN \u2014 Learning Intelligence Dashboard (LID). Classification: **UNCLASSIFIED // FOR OFFICIAL USE \u2014 Training Records (FERPA-equivalent)**._\n",
+    "cohort_summary": {
+      "cohort_avg": {
+        "critical_thinking": 3.17,
+        "communication": 2.26,
+        "doctrinal_knowledge": 4.02,
+        "problem_solving": 2.99
+      },
+      "intervention_ids": [
+        "S03",
+        "S04",
+        "S06",
+        "S09",
+        "S11",
+        "S17"
+      ],
+      "top_performer_ids": [
+        "S01",
+        "S07",
+        "S12"
+      ],
+      "assignment_effectiveness": [
+        {
+          "assignment_id": "A2",
+          "name": "Tactical Decision Game - Defensive Operations",
+          "rubric_axis": "problem_solving",
+          "n_submissions": 15,
+          "mean_grade": 80.3,
+          "spread": 43
+        },
+        {
+          "assignment_id": "A6",
+          "name": "Capstone Brief - Combined Arms Plan",
+          "rubric_axis": "synthesis",
+          "n_submissions": 17,
+          "mean_grade": 80.7,
+          "spread": 58
+        },
+        {
+          "assignment_id": "A5",
+          "name": "Case Study - Force on Force Lessons Learned",
+          "rubric_axis": "critical_thinking",
+          "n_submissions": 18,
+          "mean_grade": 82.1,
+          "spread": 56
+        },
+        {
+          "assignment_id": "A1",
+          "name": "Doctrinal Reading Quiz - MCDP 1 Warfighting",
+          "rubric_axis": "doctrinal_knowledge",
+          "n_submissions": 17,
+          "mean_grade": 86.2,
+          "spread": 36
+        },
+        {
+          "assignment_id": "A3",
+          "name": "Written Order - 5-paragraph OPORD",
+          "rubric_axis": "communication",
+          "n_submissions": 16,
+          "mean_grade": 87.1,
+          "spread": 40
+        },
+        {
+          "assignment_id": "A4",
+          "name": "AAR - Live-Fire Squad Attack",
+          "rubric_axis": "critical_thinking",
+          "n_submissions": 15,
+          "mean_grade": 90.8,
+          "spread": 48
+        }
+      ],
+      "n_students": 18,
+      "n_posts": 200,
+      "n_submissions": 98
+    },
+    "generated_at": "2026-04-27T20:25:47.665374+00:00",
+    "source": "baseline-precompute"
+  },
+  "pmos_0311": {
+    "course_id": "pmos_0311",
+    "course_name": "PMOS 0311 Pipeline - Class 26-04",
+    "brief": "# Instructor's Competency Brief \u2014 PMOS 0311 Pipeline - Class 26-04\n**Generated:** 2026-04-27T20:25:47.666612+00:00 \u00b7 **Cohort size:** 18 \u00b7 **Artifacts assessed:** 200 forum posts, 98 submissions\n\n## PARA 1 - COHORT COMPETENCY MAP\nCohort competency averages (0-5 scale, rubric-aligned to USMC training standards):\n- Critical Thinking: **3.76/5**\n- Communication: **2.22/5**\n- Doctrinal Knowledge: **4.03/5**\n- Problem Solving: **3.19/5**\n\n## PARA 2 - TOP PERFORMERS\n- **Capt Martinez** (S13) \u2014 depth: *analysis*, CT 4.9/5, PS 3.9/5\n- **2ndLt O'Connor** (S15) \u2014 depth: *analysis*, CT 4.5/5, PS 4.2/5\n- **SSgt Edwards** (S05) \u2014 depth: *analysis*, CT 5.0/5, PS 3.9/5\n\n## PARA 3 - STUDENTS NEEDING INSTRUCTOR INTERVENTION (4 of 18)\n- **1stLt Brennan** (S02) \u2014 Communication weak: 1:1 OPORD writing drill with instructor review\n- **Sgt Ferguson** (S06) \u2014 Communication weak: 1:1 OPORD writing drill with instructor review\n- **SSgt Kim** (S11) \u2014 Communication weak: 1:1 OPORD writing drill with instructor review\n- **Sgt Romero** (S18) \u2014 Communication weak: 1:1 OPORD writing drill with instructor review\n\n## PARA 4 - ASSIGNMENT EFFECTIVENESS\n- **Lowest-performing assignment:** *Case Study - Force on Force Lessons Learned* \u2014 mean 76.8, spread 55. Recommend re-scoping or instructor reteach before next cohort.\n- **Highest-performing assignment:** *Written Order - 5-paragraph OPORD* \u2014 mean 87.2. Curriculum sequence working as designed.\n\n## PARA 5 - RECOMMENDED CURRICULUM ADJUSTMENTS\n- Reweight forum-discussion grading to incentivize **synthesis/evaluation** posts; cohort underweights these by ~15% vs. target.\n- Insert one additional tactical decision game between A2 and A4 to bridge problem-solving competencies.\n- Schedule 1:1 instructor reviews for the 4 students flagged above before the capstone (A6).\n- Consider pairing top performers with intervention list as peer mentors during AAR write-ups.\n\n_Originator: LEARN \u2014 Learning Intelligence Dashboard (LID). Classification: **UNCLASSIFIED // FOR OFFICIAL USE \u2014 Training Records (FERPA-equivalent)**._\n",
+    "cohort_summary": {
+      "cohort_avg": {
+        "critical_thinking": 3.76,
+        "communication": 2.22,
+        "doctrinal_knowledge": 4.03,
+        "problem_solving": 3.19
+      },
+      "intervention_ids": [
+        "S02",
+        "S06",
+        "S11",
+        "S18"
+      ],
+      "top_performer_ids": [
+        "S13",
+        "S15",
+        "S05"
+      ],
+      "assignment_effectiveness": [
+        {
+          "assignment_id": "A5",
+          "name": "Case Study - Force on Force Lessons Learned",
+          "rubric_axis": "critical_thinking",
+          "n_submissions": 16,
+          "mean_grade": 76.8,
+          "spread": 55
+        },
+        {
+          "assignment_id": "A4",
+          "name": "AAR - Live-Fire Squad Attack",
+          "rubric_axis": "critical_thinking",
+          "n_submissions": 17,
+          "mean_grade": 79.4,
+          "spread": 56
+        },
+        {
+          "assignment_id": "A6",
+          "name": "Capstone Brief - Combined Arms Plan",
+          "rubric_axis": "synthesis",
+          "n_submissions": 16,
+          "mean_grade": 83.8,
+          "spread": 50
+        },
+        {
+          "assignment_id": "A2",
+          "name": "Tactical Decision Game - Defensive Operations",
+          "rubric_axis": "problem_solving",
+          "n_submissions": 16,
+          "mean_grade": 83.9,
+          "spread": 37
+        },
+        {
+          "assignment_id": "A1",
+          "name": "Doctrinal Reading Quiz - MCDP 1 Warfighting",
+          "rubric_axis": "doctrinal_knowledge",
+          "n_submissions": 18,
+          "mean_grade": 84.3,
+          "spread": 37
+        },
+        {
+          "assignment_id": "A3",
+          "name": "Written Order - 5-paragraph OPORD",
+          "rubric_axis": "communication",
+          "n_submissions": 15,
+          "mean_grade": 87.2,
+          "spread": 39
+        }
+      ],
+      "n_students": 18,
+      "n_posts": 200,
+      "n_submissions": 98
+    },
+    "generated_at": "2026-04-27T20:25:47.666619+00:00",
+    "source": "baseline-precompute"
+  },
+  "sgts_pme": {
+    "course_id": "sgts_pme",
+    "course_name": "Sergeants School / Squad Leader PME - Section 12",
+    "brief": "# Instructor's Competency Brief \u2014 Sergeants School / Squad Leader PME - Section 12\n**Generated:** 2026-04-27T20:25:47.667790+00:00 \u00b7 **Cohort size:** 18 \u00b7 **Artifacts assessed:** 200 forum posts, 97 submissions\n\n## PARA 1 - COHORT COMPETENCY MAP\nCohort competency averages (0-5 scale, rubric-aligned to USMC training standards):\n- Critical Thinking: **3.30/5**\n- Communication: **2.23/5**\n- Doctrinal Knowledge: **3.43/5**\n- Problem Solving: **3.50/5**\n\n## PARA 2 - TOP PERFORMERS\n- **1stLt Nguyen** (S14) \u2014 depth: *synthesis*, CT 4.9/5, PS 4.3/5\n- **Capt Martinez** (S13) \u2014 depth: *synthesis*, CT 5.0/5, PS 3.9/5\n- **Sgt Romero** (S18) \u2014 depth: *synthesis*, CT 4.9/5, PS 3.7/5\n\n## PARA 3 - STUDENTS NEEDING INSTRUCTOR INTERVENTION (6 of 18)\n- **1stLt Brennan** (S02) \u2014 Communication weak: 1:1 OPORD writing drill with instructor review\n- **2ndLt Chen** (S03) \u2014 Doctrinal recall weak: assign focused MCDP-1/2/5 reading checks\n- **SSgt Edwards** (S05) \u2014 Communication weak: 1:1 OPORD writing drill with instructor review\n- **Sgt Ferguson** (S06) \u2014 Doctrinal recall weak: assign focused MCDP-1/2/5 reading checks\n- **1stLt Hayes** (S08) \u2014 Communication weak: 1:1 OPORD writing drill with instructor review\n- **2ndLt O'Connor** (S15) \u2014 Doctrinal recall weak: assign focused MCDP-1/2/5 reading checks\n\n## PARA 4 - ASSIGNMENT EFFECTIVENESS\n- **Lowest-performing assignment:** *Capstone Brief - Combined Arms Plan* \u2014 mean 76.9, spread 56. Recommend re-scoping or instructor reteach before next cohort.\n- **Highest-performing assignment:** *Written Order - 5-paragraph OPORD* \u2014 mean 85.1. Curriculum sequence working as designed.\n\n## PARA 5 - RECOMMENDED CURRICULUM ADJUSTMENTS\n- Reweight forum-discussion grading to incentivize **synthesis/evaluation** posts; cohort underweights these by ~15% vs. target.\n- Insert one additional tactical decision game between A2 and A4 to bridge problem-solving competencies.\n- Schedule 1:1 instructor reviews for the 6 students flagged above before the capstone (A6).\n- Consider pairing top performers with intervention list as peer mentors during AAR write-ups.\n\n_Originator: LEARN \u2014 Learning Intelligence Dashboard (LID). Classification: **UNCLASSIFIED // FOR OFFICIAL USE \u2014 Training Records (FERPA-equivalent)**._\n",
+    "cohort_summary": {
+      "cohort_avg": {
+        "critical_thinking": 3.3,
+        "communication": 2.23,
+        "doctrinal_knowledge": 3.43,
+        "problem_solving": 3.5
+      },
+      "intervention_ids": [
+        "S02",
+        "S03",
+        "S05",
+        "S06",
+        "S08",
+        "S15"
+      ],
+      "top_performer_ids": [
+        "S14",
+        "S13",
+        "S18"
+      ],
+      "assignment_effectiveness": [
+        {
+          "assignment_id": "A6",
+          "name": "Capstone Brief - Combined Arms Plan",
+          "rubric_axis": "synthesis",
+          "n_submissions": 16,
+          "mean_grade": 76.9,
+          "spread": 56
+        },
+        {
+          "assignment_id": "A5",
+          "name": "Case Study - Force on Force Lessons Learned",
+          "rubric_axis": "critical_thinking",
+          "n_submissions": 18,
+          "mean_grade": 77.7,
+          "spread": 56
+        },
+        {
+          "assignment_id": "A4",
+          "name": "AAR - Live-Fire Squad Attack",
+          "rubric_axis": "critical_thinking",
+          "n_submissions": 16,
+          "mean_grade": 82.3,
+          "spread": 51
+        },
+        {
+          "assignment_id": "A2",
+          "name": "Tactical Decision Game - Defensive Operations",
+          "rubric_axis": "problem_solving",
+          "n_submissions": 17,
+          "mean_grade": 82.8,
+          "spread": 39
+        },
+        {
+          "assignment_id": "A1",
+          "name": "Doctrinal Reading Quiz - MCDP 1 Warfighting",
+          "rubric_axis": "doctrinal_knowledge",
+          "n_submissions": 14,
+          "mean_grade": 84.8,
+          "spread": 32
+        },
+        {
+          "assignment_id": "A3",
+          "name": "Written Order - 5-paragraph OPORD",
+          "rubric_axis": "communication",
+          "n_submissions": 16,
+          "mean_grade": 85.1,
+          "spread": 40
+        }
+      ],
+      "n_students": 18,
+      "n_posts": 200,
+      "n_submissions": 97
+    },
+    "generated_at": "2026-04-27T20:25:47.667796+00:00",
+    "source": "baseline-precompute"
+  }
+}

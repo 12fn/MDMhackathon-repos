@@ -1,0 +1,27 @@
+1
+00:00:00,000 --> 00:00:05,000
+WATCHTOWER. Installation Common Operating Picture, every feed in one tab.
+
+2
+00:00:05,214 --> 00:00:15,214
+LOGCOM published use case: the I-COP Aggregator. Seven streams, no integration project, one cross-stream picture for the commander.
+
+3
+00:00:14,716 --> 00:00:24,716
+We fuse HIFLD critical infrastructure, NASA Earthdata weather, GCSS-MC maintenance, plus gate, utility, EMS, and mass-notification — five hundred events, last 24 hours, no data movement.
+
+4
+00:00:23,732 --> 00:00:43,732
+Hero AI move: cross-stream correlation. The model finds three anomalies. The top one is a structure fire at Las Pulgas Magazine 14, corroborated across four streams in the same 30-minute window.
+
+5
+00:00:41,366 --> 00:01:01,366
+One click, the Kamiwaza-deployed model writes the Commander I-COP Brief — BLUF, top three anomalies, predictive risk for the next twelve hours, pre-positioning actions.
+
+6
+00:00:58,949 --> 00:01:13,949
+Same code, on-prem. Set KAMIWAZA_BASE_URL and the entire pipeline runs inside your accredited environment. Air-gapped, IL5 and IL6 ready.
+
+7
+00:01:12,971 --> 00:01:22,971
+WATCHTOWER. Built on the Kamiwaza Stack. Deploy in hours, not months. One hundred percent data containment.

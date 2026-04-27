@@ -1,0 +1,23 @@
+1
+00:00:00,000 --> 00:00:05,000
+AGORA. Role-aware AI support agents for multi-app SSO ecosystems.
+
+2
+00:00:05,000 --> 00:00:15,000
+Marines move across LMS, CMS, BBB, and Keycloak with different roles in each. The AI assistant has to know who is asking before it answers.
+
+3
+00:00:15,000 --> 00:00:25,000
+Sixty doc chunks across four apps. Four demo personas, each with a JSON role and ABAC tree. Active persona: a Private at boot camp.
+
+4
+00:00:25,000 --> 00:00:45,000
+Private Joe asks how to pull a battalion-wide transcript report. Persona-aware RAG runs and the audit panel lists exactly what was excluded — and why.
+
+5
+00:00:45,000 --> 00:01:05,000
+Same code path. Set KAMIWAZA_BASE_URL and the assistant runs inside the SCIF. Identity, ABAC, and inference all on-prem.
+
+6
+00:01:05,000 --> 00:01:20,000
+AGORA. Built on the Kamiwaza Stack. Deploy in hours, not months.

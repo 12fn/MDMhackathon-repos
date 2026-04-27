@@ -1,0 +1,31 @@
+1
+00:00:03,639 --> 00:00:08,639
+CARGO. Last-mile expeditionary delivery in 60 seconds.
+
+2
+00:00:08,641 --> 00:00:14,641
+Forward depot to eight dispersed squads — thirty kilometers, forty-eight hours.
+
+3
+00:00:14,643 --> 00:00:20,643
+Eight squads alpha through hotel. Three named threat zones — UAS, sniper, IED-cleared corridor.
+
+4
+00:00:20,645 --> 00:00:26,645
+Operator types one push request — agent fires real tool calls on a Kamiwaza-deployed model.
+
+5
+00:00:26,727 --> 00:00:35,727
+list_squad_positions, compute_route, check_threat_overlay, compare_options — streamed live.
+
+6
+00:00:35,728 --> 00:00:44,728
+Three options ranked. Recommended pulses neon green — animated route over the dark map.
+
+7
+00:00:44,731 --> 00:00:52,731
+Set KAMIWAZA_BASE_URL — same code, on-prem inference, 100% data containment.
+
+8
+00:00:52,736 --> 00:00:59,736
+CARGO. Built on the Kamiwaza Stack. Deploy in hours, not months.

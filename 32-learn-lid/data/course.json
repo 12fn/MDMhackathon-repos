@@ -1,0 +1,199 @@
+{
+  "course": {
+    "id": "ioc_b261",
+    "name": "Infantry Officer Course - Bravo Cohort 26-1",
+    "code": "IOC-B26-1"
+  },
+  "students": [
+    {
+      "student_id": "S01",
+      "name": "Capt Alvarez",
+      "rank": "Capt",
+      "profile": "rising_star",
+      "edipi_synth": "1777725078"
+    },
+    {
+      "student_id": "S02",
+      "name": "1stLt Brennan",
+      "rank": "1stLt",
+      "profile": "high_performer",
+      "edipi_synth": "1548369021"
+    },
+    {
+      "student_id": "S03",
+      "name": "2ndLt Chen",
+      "rank": "2ndLt",
+      "profile": "needs_remediation",
+      "edipi_synth": "1049124755"
+    },
+    {
+      "student_id": "S04",
+      "name": "GySgt Diaz",
+      "rank": "GySgt",
+      "profile": "needs_remediation",
+      "edipi_synth": "1866189497"
+    },
+    {
+      "student_id": "S05",
+      "name": "SSgt Edwards",
+      "rank": "SSgt",
+      "profile": "quiet_thinker",
+      "edipi_synth": "1141076653"
+    },
+    {
+      "student_id": "S06",
+      "name": "Sgt Ferguson",
+      "rank": "Sgt",
+      "profile": "developing",
+      "edipi_synth": "1316458637"
+    },
+    {
+      "student_id": "S07",
+      "name": "Capt Gomez",
+      "rank": "Capt",
+      "profile": "high_performer",
+      "edipi_synth": "1517686853"
+    },
+    {
+      "student_id": "S08",
+      "name": "1stLt Hayes",
+      "rank": "1stLt",
+      "profile": "solid",
+      "edipi_synth": "1363117637"
+    },
+    {
+      "student_id": "S09",
+      "name": "2ndLt Iverson",
+      "rank": "2ndLt",
+      "profile": "developing",
+      "edipi_synth": "1211968691"
+    },
+    {
+      "student_id": "S10",
+      "name": "GySgt Johnson",
+      "rank": "GySgt",
+      "profile": "rising_star",
+      "edipi_synth": "1470434246"
+    },
+    {
+      "student_id": "S11",
+      "name": "SSgt Kim",
+      "rank": "SSgt",
+      "profile": "developing",
+      "edipi_synth": "1374431702"
+    },
+    {
+      "student_id": "S12",
+      "name": "Sgt Lopez",
+      "rank": "Sgt",
+      "profile": "high_performer",
+      "edipi_synth": "1765475428"
+    },
+    {
+      "student_id": "S13",
+      "name": "Capt Martinez",
+      "rank": "Capt",
+      "profile": "solid",
+      "edipi_synth": "1754970182"
+    },
+    {
+      "student_id": "S14",
+      "name": "1stLt Nguyen",
+      "rank": "1stLt",
+      "profile": "quiet_thinker",
+      "edipi_synth": "1952407067"
+    },
+    {
+      "student_id": "S15",
+      "name": "2ndLt O'Connor",
+      "rank": "2ndLt",
+      "profile": "solid",
+      "edipi_synth": "1876965969"
+    },
+    {
+      "student_id": "S16",
+      "name": "GySgt Patel",
+      "rank": "GySgt",
+      "profile": "solid",
+      "edipi_synth": "1859704687"
+    },
+    {
+      "student_id": "S17",
+      "name": "SSgt Quinn",
+      "rank": "SSgt",
+      "profile": "developing",
+      "edipi_synth": "1149816919"
+    },
+    {
+      "student_id": "S18",
+      "name": "Sgt Romero",
+      "rank": "Sgt",
+      "profile": "solid",
+      "edipi_synth": "1535728127"
+    }
+  ],
+  "assignments": [
+    {
+      "id": "A1",
+      "name": "Doctrinal Reading Quiz - MCDP 1 Warfighting",
+      "rubric": "doctrinal_knowledge"
+    },
+    {
+      "id": "A2",
+      "name": "Tactical Decision Game - Defensive Operations",
+      "rubric": "problem_solving"
+    },
+    {
+      "id": "A3",
+      "name": "Written Order - 5-paragraph OPORD",
+      "rubric": "communication"
+    },
+    {
+      "id": "A4",
+      "name": "AAR - Live-Fire Squad Attack",
+      "rubric": "critical_thinking"
+    },
+    {
+      "id": "A5",
+      "name": "Case Study - Force on Force Lessons Learned",
+      "rubric": "critical_thinking"
+    },
+    {
+      "id": "A6",
+      "name": "Capstone Brief - Combined Arms Plan",
+      "rubric": "synthesis"
+    }
+  ],
+  "forum_threads": [
+    "Discussion: When does centralized control hurt initiative?",
+    "Critique: Defensive vs offensive mindset in MCDP-1",
+    "Apply MCDP-5 Planning to a 72-hour LZ seizure",
+    "Lessons learned: 1st Marines Fallujah AAR readings",
+    "Compare: Ridgway's leadership in Korea vs current doctrine",
+    "Decision-making under uncertainty: Boyd's OODA in modern conflict",
+    "How would you brief a non-doctrinal commander's intent?",
+    "Case study: Failed amphibious raid - what went wrong?",
+    "Apply MCWP 3-01 to a contested LZ scenario",
+    "Discussion: Mission-type orders in DDIL environments",
+    "Tactical patience vs decisive action - when to which?",
+    "Reading reaction: Shattered Sword - intelligence assumptions",
+    "Defensive in depth - terrain analysis exercise",
+    "Combined arms integration at company level",
+    "Logistics rebellion: when sustainment dictates the plan",
+    "Casualty evacuation - planning factors discussion",
+    "Civilian considerations under MCRP 3-03A.1",
+    "Adversary EW exploitation - hardening RTOs",
+    "Heat casualty mitigation - leader actions in tropical climates",
+    "AAR best-practice - the brutally honest version",
+    "Mentorship: how do you develop initiative in juniors?",
+    "Critique: Boyd's OODA loop - is it overstated?",
+    "MCDP-2 Intelligence - center of gravity practical",
+    "Patrol base operations - security plan walkthrough",
+    "Squad in the attack - reverse-slope considerations",
+    "MOUT planning - synchronization with the breach",
+    "Reception, staging, onward movement, and integration",
+    "Force protection at port-of-debark",
+    "Air-ground integration - CAS request brief",
+    "Rules of engagement - decision tree for the squad leader"
+  ]
+}

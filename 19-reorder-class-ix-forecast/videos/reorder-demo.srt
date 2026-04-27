@@ -1,0 +1,39 @@
+1
+00:00:02,418 --> 00:00:07,418
+REORDER. Class IX demand forecasting for contested logistics.
+
+2
+00:00:07,420 --> 00:00:12,420
+LOGCOM use case: predict Class IX consumption for a deployed MAGTF.
+
+3
+00:00:12,421 --> 00:00:17,421
+OPTEMPO, environment, and historical maintenance drive the forecast.
+
+4
+00:00:17,424 --> 00:00:23,424
+Ninety days of GCSS-MC work orders stream in. No data movement.
+
+5
+00:00:23,427 --> 00:00:29,427
+A Holt-Winters forecaster projects each NSN thirty, sixty, ninety days out.
+
+6
+00:00:29,978 --> 00:00:37,978
+A Kamiwaza-deployed model judges each top-N NSN — RED, AMBER, GREEN — with a pre-position action.
+
+7
+00:00:36,071 --> 00:00:43,071
+Sortable risk table. Pre-position by depot and date. One sustainment brief.
+
+8
+00:00:43,074 --> 00:00:49,074
+Forward nodes plus recommended pre-position flows on the map.
+
+9
+00:00:49,077 --> 00:00:56,077
+Set KAMIWAZA_BASE_URL and the same code runs inside the wire.
+
+10
+00:00:56,080 --> 00:01:04,080
+Powered by the Kamiwaza Stack. Deploy in hours, not months.

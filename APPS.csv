@@ -13,3 +13,23 @@ ANCHOR,NGA MSI World Port Index Pub 150,https://github.com/12fn/MDMhackathon-rep
 WEATHERVANE,NASA Earthdata (MERRA-2 / MODIS / IMERG / GHRSST / WW3),https://github.com/12fn/MDMhackathon-repos/tree/main/12-weathervane-nasa-earthdata
 WILDFIRE,NASA FIRMS (MODIS Terra/Aqua + VIIRS),https://github.com/12fn/MDMhackathon-repos/tree/main/13-wildfire-nasa-firms
 EMBER,NASA FIRMS Ukraine 24-month archive,https://github.com/12fn/MDMhackathon-repos/tree/main/14-ember-firms-ukraine
+VITALS,Medical Supply Inventory + Medical Supply Network Data Model,https://github.com/12fn/MDMhackathon-repos/tree/main/15-vitals-medical-supply
+WATCHTOWER,HIFLD + NASA Earthdata + GCSS-MC Supply & Maintenance,https://github.com/12fn/MDMhackathon-repos/tree/main/16-watchtower-installation-cop
+PALLET-VISION,Drone Dataset (UAV) + Moving objects in construction sites,https://github.com/12fn/MDMhackathon-repos/tree/main/17-pallet-vision-drone-construction
+TRACE,Logistics-and-supply-chain-dataset (california) + GCSS-MC,https://github.com/12fn/MDMhackathon-repos/tree/main/18-trace-class-i-ix-consumption
+REORDER,NASA Pred Mx + Predictive Mx + GCSS-MC,https://github.com/12fn/MDMhackathon-repos/tree/main/19-reorder-class-ix-forecast
+QUEUE,GCSS-MC Supply & Maintenance + Predictive Mx,https://github.com/12fn/MDMhackathon-repos/tree/main/20-queue-depot-throughput
+GHOST,IEEE Real-world WiFi & Bluetooth RF Fingerprinting,https://github.com/12fn/MDMhackathon-repos/tree/main/21-ghost-rf-fingerprinting
+STOCKROOM,Inventory Control Management (Excel),https://github.com/12fn/MDMhackathon-repos/tree/main/22-stockroom-inventory-control
+CARGO,Last Mile Delivery (LaDe),https://github.com/12fn/MDMhackathon-repos/tree/main/23-cargo-last-mile-delivery
+CHAIN,Global Supply Chain Disruption + Risk + Logistics,https://github.com/12fn/MDMhackathon-repos/tree/main/24-chain-supply-chain-disruption
+HUB,Bureau of Transportation Statistics (NTAD),https://github.com/12fn/MDMhackathon-repos/tree/main/25-hub-bts-multimodal-corridor
+OPENGATE,data.gov federal catalog (RAG),https://github.com/12fn/MDMhackathon-repos/tree/main/26-opengate-data-gov-rag
+EMBODIED,Xperience-10M egocentric multimodal,https://github.com/12fn/MDMhackathon-repos/tree/main/27-embodied-xperience-10m
+REDLINE,Synthetic CUI corpus (per DoDM 5200.01),https://github.com/12fn/MDMhackathon-repos/tree/main/28-redline-cui-tagging
+CHORUS,Synthetic personas (per arxiv.org/abs/2403.20252),https://github.com/12fn/MDMhackathon-repos/tree/main/29-chorus-pa-audience-sim
+GUARDIAN,Synthetic browser-intercept events,https://github.com/12fn/MDMhackathon-repos/tree/main/30-guardian-browser-ai-governance
+DISPATCH,Synthetic 911 transcripts + dispatcher map,https://github.com/12fn/MDMhackathon-repos/tree/main/31-dispatch-ermp
+LEARN,Synthetic Moodle-shape course export,https://github.com/12fn/MDMhackathon-repos/tree/main/32-learn-lid
+AGORA,Synthetic role/permission tree + ecosystem corpus,https://github.com/12fn/MDMhackathon-repos/tree/main/33-agora-multi-model-rbac
+VOUCHER,Synthetic DTS records + Citi Manager statements,https://github.com/12fn/MDMhackathon-repos/tree/main/34-voucher-dts-travel

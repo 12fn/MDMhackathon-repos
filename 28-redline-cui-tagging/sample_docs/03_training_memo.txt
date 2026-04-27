@@ -1,0 +1,13 @@
+SUBJECT: 2d Marine Logistics Group Annual CUI Refresher Training Memorandum
+
+1. PURPOSE. This memorandum directs all 2d MLG personnel — military, civilian, and embedded contractor — to complete Annual CUI Refresher Training NLT 30 June 2026 in accordance with DoDM 5200.01 Vol 2 and 32 CFR Part 2002.
+
+2. APPLICABILITY. All personnel assigned, attached, or providing direct support to 2d MLG. Contractor personnel will complete training under the data-handling clauses of their contract and will provide the contracting officer's representative with a completion certificate.
+
+3. TRAINING CONTENT. The training module covers: (a) the CUI program lifecycle, (b) lawful-government-purpose disclosure standards, (c) the difference between CUI Basic and CUI Specified, (d) marking mechanics including banner lines and portion marks, and (e) destruction standards under NIST SP 800-88. None of this content is itself controlled.
+
+4. ADMINISTRATIVE NOTES. The training is hosted on the unclassified MarineNet learning management system. There are no PII fields, no force-protection indicators, no proprietary contractor data, and no operational details in this memorandum. The memorandum is intended for unrestricted internal distribution and posting on the 2d MLG SharePoint announcements page.
+
+5. POINT OF CONTACT. Direct questions to the 2d MLG Information Protection Officer through the chain of command. The IPO mailbox is published on the public 2d MLG portal.
+
+6. DISTRIBUTION. Unrestricted internal distribution. May be reposted on the public 2d MLG website if no banner-line marking is applied at the page level.

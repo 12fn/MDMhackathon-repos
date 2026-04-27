@@ -1,0 +1,62 @@
+[
+  {
+    "id": "MASS-0000",
+    "stream": "massnotify",
+    "ts_iso": "2026-04-26T20:00:00+00:00",
+    "severity": "TEST",
+    "message": "Daily AtHoc test broadcast \u2014 no action required.",
+    "system": "AtHoc / Giant Voice",
+    "is_anomaly": false,
+    "anomaly_note": null
+  },
+  {
+    "id": "MASS-0001",
+    "stream": "massnotify",
+    "ts_iso": "2026-04-27T02:00:00+00:00",
+    "severity": "ADVISORY",
+    "message": "Family housing area water-system flushing 0900-1100; brief discoloration possible.",
+    "system": "AtHoc / Giant Voice",
+    "is_anomaly": false,
+    "anomaly_note": null
+  },
+  {
+    "id": "MASS-0002",
+    "stream": "massnotify",
+    "ts_iso": "2026-04-27T08:00:00+00:00",
+    "severity": "ADVISORY",
+    "message": "Las Pulgas range complex live-fire 1300-1700; expect blast noise on Basilone Rd.",
+    "system": "AtHoc / Giant Voice",
+    "is_anomaly": false,
+    "anomaly_note": null
+  },
+  {
+    "id": "MASS-0003",
+    "stream": "massnotify",
+    "ts_iso": "2026-04-27T14:00:00+00:00",
+    "severity": "INFO",
+    "message": "Commissary closes at 2000 today; reopens 0900 tomorrow.",
+    "system": "AtHoc / Giant Voice",
+    "is_anomaly": false,
+    "anomaly_note": null
+  },
+  {
+    "id": "MASS-0004",
+    "stream": "massnotify",
+    "ts_iso": "2026-04-27T15:36:00+00:00",
+    "severity": "EMERGENCY",
+    "message": "ATTENTION ALL HANDS: Active incident vicinity Las Pulgas Magazine 14. All non-essential personnel shelter in place. Avoid Basilone Rd north of Stuart Mesa. EOC activated.",
+    "system": "AtHoc / Giant Voice",
+    "is_anomaly": true,
+    "anomaly_note": "Active emergency mass-notification"
+  },
+  {
+    "id": "MASS-0005",
+    "stream": "massnotify",
+    "ts_iso": "2026-04-27T15:52:00+00:00",
+    "severity": "UPDATE",
+    "message": "Las Pulgas incident: structure fire contained to magazine perimeter. No munitions detonation. Family housing in San Onofre placed on voluntary evacuation. Continue to avoid Basilone Rd.",
+    "system": "AtHoc / Giant Voice",
+    "is_anomaly": true,
+    "anomaly_note": null
+  }
+]

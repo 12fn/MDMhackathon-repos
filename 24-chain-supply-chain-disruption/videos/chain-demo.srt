@@ -1,0 +1,39 @@
+1
+00:00:02,440 --> 00:00:07,440
+CHAIN. Critical-component sourcing in a polycrisis world.
+
+2
+00:00:07,442 --> 00:00:12,442
+When a Taiwan Strait or Suez disruption hits, which Marine programs are exposed?
+
+3
+00:00:12,443 --> 00:00:17,443
+Thirty named nodes — TSMC, ASML, rare-earth mines, primes, and USMC end-items.
+
+4
+00:00:17,444 --> 00:00:23,444
+Sixty days of synthetic disruption events stream in — typhoons, cyber, export controls.
+
+5
+00:00:23,448 --> 00:00:29,448
+A multi-step LLM agent analyzes the disrupted network — structured JSON.
+
+6
+00:00:29,472 --> 00:00:37,472
+Then a Kamiwaza-deployed model writes a Critical-Component Risk Brief for PEO Land Systems.
+
+7
+00:00:31,482 --> 00:00:38,482
+Exposed programs. Substitute suppliers. Lead-time impact. Mitigation playbook.
+
+8
+00:00:38,485 --> 00:00:44,485
+Three pre-baked scenarios — Taiwan Strait, Suez compound, rare-earth freeze.
+
+9
+00:00:42,989 --> 00:00:49,989
+Set KAMIWAZA_BASE_URL and the same code runs inside the wire — air-gapped, IL5/IL6 ready.
+
+10
+00:00:49,992 --> 00:00:57,992
+Powered by the Kamiwaza Stack. Deploy in hours, not months.

@@ -1,0 +1,24 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1440
+PlayResY: 900
+ScaledBorderAndShadow: yes
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Helvetica,22,&H00FFFFFF,&H00FFFFFF,&H00000000,&HC8000000,1,0,0,0,100,100,0,0,3,1,0.5,2,80,80,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:02.43,0:00:07.43,Default,,0,0,0,,LEARN. Cognitive-development analytics for USMC schoolhouses.
+Dialogue: 0,0:00:07.44,0:00:12.43,Default,,0,0,0,,LOGCOM use case: Learning Intelligence Dashboard. Are Marines actually\Nlearning?
+Dialogue: 0,0:00:12.44,0:00:17.44,Default,,0,0,0,,Eighteen students. Six assignments. Two hundred forum posts. One\Nquestion.
+Dialogue: 0,0:00:17.44,0:00:23.44,Default,,0,0,0,,Synthetic Moodle export streams in. No data movement.
+Dialogue: 0,0:00:23.44,0:00:29.44,Default,,0,0,0,,A three-stage agent scores every student against the USMC competency\Nrubric.
+Dialogue: 0,0:00:29.46,0:00:37.47,Default,,0,0,0,,A Kamiwaza-deployed model drafts the Instructors Competency Brief.
+Dialogue: 0,0:00:31.48,0:00:38.48,Default,,0,0,0,,Three-click drill-down: heatmap to student to remediation\Nrecommendation.
+Dialogue: 0,0:00:38.49,0:00:44.49,Default,,0,0,0,,Class-level competency map. Top performers. Intervention list.
+Dialogue: 0,0:00:44.49,0:00:51.49,Default,,0,0,0,,Every assessment SHA-256 chained. SJA, IG, and TRADOC can replay\Nmonths later.
+Dialogue: 0,0:00:51.50,0:00:59.50,Default,,0,0,0,,Powered by the Kamiwaza Stack. FERPA-friendly. IL5 ready. Deploy in\Nhours.

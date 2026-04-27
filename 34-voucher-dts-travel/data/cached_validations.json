@@ -1,0 +1,4485 @@
+{
+  "generated_at": "2026-04-27T20:40:16.609314+00:00",
+  "validations": [
+    {
+      "record_id": "DTS-2026-00001",
+      "issues_found": [],
+      "severity": "info",
+      "auto_correctable": true,
+      "recommended_action": "Clean \u2014 no further action.",
+      "confidence": 0.9,
+      "dollar_exposure": 0,
+      "_source": "baseline",
+      "_record": {
+        "record_id": "DTS-2026-00001",
+        "unit": "1st Marine Division (Camp Pendleton)",
+        "unit_code": "1MARDIV",
+        "traveler": "SSgt M. ANDERSON",
+        "trip_reason": "TAD \u2014 Equipment fielding",
+        "tdy_city": "Yuma",
+        "depart_date": "2026-02-07",
+        "return_date": "2026-02-14",
+        "voucher_total": 1559.77,
+        "voucher_lines": [
+          {
+            "category": "lodging",
+            "rate_per_unit": 101.69,
+            "units": 7,
+            "amount": 711.8
+          },
+          {
+            "category": "mie",
+            "rate_per_unit": 64,
+            "units": 7,
+            "amount": 480.0
+          },
+          {
+            "category": "rental_car",
+            "rate_per_unit": 272.02,
+            "units": 1,
+            "amount": 272.02
+          },
+          {
+            "category": "ground_trans",
+            "rate_per_unit": 66.57,
+            "units": 1,
+            "amount": 66.57
+          },
+          {
+            "category": "incidentals",
+            "rate_per_unit": 29.38,
+            "units": 1,
+            "amount": 29.38
+          }
+        ],
+        "citi_transactions": [
+          {
+            "txn_id": "CITI-2026-00001",
+            "card_last4": "1007",
+            "traveler_rank": "SSgt",
+            "traveler_name": "M. ANDERSON",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-08",
+            "merchant": "HILTON GARDEN INN",
+            "merchant_category": "lodging",
+            "amount": 711.8,
+            "linked_dts_record": "DTS-2026-00001"
+          },
+          {
+            "txn_id": "CITI-2026-00002",
+            "card_last4": "1007",
+            "traveler_rank": "SSgt",
+            "traveler_name": "M. ANDERSON",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-07",
+            "merchant": "ENTERPRISE RENT-A-CAR",
+            "merchant_category": "rental_car",
+            "amount": 272.02,
+            "linked_dts_record": "DTS-2026-00001"
+          },
+          {
+            "txn_id": "CITI-2026-00003",
+            "card_last4": "1007",
+            "traveler_rank": "SSgt",
+            "traveler_name": "M. ANDERSON",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-13",
+            "merchant": "UBER TRIP",
+            "merchant_category": "ground_trans",
+            "amount": 29.73,
+            "linked_dts_record": "DTS-2026-00001"
+          },
+          {
+            "txn_id": "CITI-2026-00004",
+            "card_last4": "1007",
+            "traveler_rank": "SSgt",
+            "traveler_name": "M. ANDERSON",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-09",
+            "merchant": "WMATA SMARTRIP",
+            "merchant_category": "ground_trans",
+            "amount": 11.94,
+            "linked_dts_record": "DTS-2026-00001"
+          },
+          {
+            "txn_id": "CITI-2026-00005",
+            "card_last4": "1007",
+            "traveler_rank": "SSgt",
+            "traveler_name": "M. ANDERSON",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-12",
+            "merchant": "YELLOW CAB CO",
+            "merchant_category": "ground_trans",
+            "amount": 13.92,
+            "linked_dts_record": "DTS-2026-00001"
+          },
+          {
+            "txn_id": "CITI-2026-00006",
+            "card_last4": "1007",
+            "traveler_rank": "SSgt",
+            "traveler_name": "M. ANDERSON",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-10",
+            "merchant": "LYFT * RIDE",
+            "merchant_category": "ground_trans",
+            "amount": 10.98,
+            "linked_dts_record": "DTS-2026-00001"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "DTS-2026-00002",
+      "issues_found": [],
+      "severity": "info",
+      "auto_correctable": true,
+      "recommended_action": "Clean \u2014 no further action.",
+      "confidence": 0.9,
+      "dollar_exposure": 0,
+      "_source": "baseline",
+      "_record": {
+        "record_id": "DTS-2026-00002",
+        "unit": "1st Marine Division (Camp Pendleton)",
+        "unit_code": "1MARDIV",
+        "traveler": "WO1 D. RODRIGUEZ",
+        "trip_reason": "TAD \u2014 Training course",
+        "tdy_city": "Quantico",
+        "depart_date": "2026-01-13",
+        "return_date": "2026-01-15",
+        "voucher_total": 2219.27,
+        "voucher_lines": [
+          {
+            "category": "lodging",
+            "rate_per_unit": 184.11,
+            "units": 2,
+            "amount": 368.23
+          },
+          {
+            "category": "mie",
+            "rate_per_unit": 79,
+            "units": 2,
+            "amount": 197.5
+          },
+          {
+            "category": "airfare",
+            "rate_per_unit": 1117.12,
+            "units": 1,
+            "amount": 1117.12
+          },
+          {
+            "category": "rental_car",
+            "rate_per_unit": 415.24,
+            "units": 1,
+            "amount": 415.24
+          },
+          {
+            "category": "ground_trans",
+            "rate_per_unit": 68.38,
+            "units": 1,
+            "amount": 68.38
+          },
+          {
+            "category": "incidentals",
+            "rate_per_unit": 52.8,
+            "units": 1,
+            "amount": 52.8
+          }
+        ],
+        "citi_transactions": [
+          {
+            "txn_id": "CITI-2026-00007",
+            "card_last4": "1014",
+            "traveler_rank": "WO1",
+            "traveler_name": "D. RODRIGUEZ",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-14",
+            "merchant": "MARRIOTT GAITHERSBG MD",
+            "merchant_category": "lodging",
+            "amount": 368.23,
+            "linked_dts_record": "DTS-2026-00002"
+          },
+          {
+            "txn_id": "CITI-2026-00008",
+            "card_last4": "1014",
+            "traveler_rank": "WO1",
+            "traveler_name": "D. RODRIGUEZ",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-11",
+            "merchant": "AMERICAN AIRLINES",
+            "merchant_category": "airfare",
+            "amount": 1117.12,
+            "linked_dts_record": "DTS-2026-00002"
+          },
+          {
+            "txn_id": "CITI-2026-00009",
+            "card_last4": "1014",
+            "traveler_rank": "WO1",
+            "traveler_name": "D. RODRIGUEZ",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-13",
+            "merchant": "ENTERPRISE RENT-A-CAR",
+            "merchant_category": "rental_car",
+            "amount": 415.24,
+            "linked_dts_record": "DTS-2026-00002"
+          },
+          {
+            "txn_id": "CITI-2026-00010",
+            "card_last4": "1014",
+            "traveler_rank": "WO1",
+            "traveler_name": "D. RODRIGUEZ",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-14",
+            "merchant": "LYFT * RIDE",
+            "merchant_category": "ground_trans",
+            "amount": 29.16,
+            "linked_dts_record": "DTS-2026-00002"
+          },
+          {
+            "txn_id": "CITI-2026-00011",
+            "card_last4": "1014",
+            "traveler_rank": "WO1",
+            "traveler_name": "D. RODRIGUEZ",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-14",
+            "merchant": "WMATA SMARTRIP",
+            "merchant_category": "ground_trans",
+            "amount": 35.33,
+            "linked_dts_record": "DTS-2026-00002"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "DTS-2026-00003",
+      "issues_found": [],
+      "severity": "info",
+      "auto_correctable": true,
+      "recommended_action": "Clean \u2014 no further action.",
+      "confidence": 0.9,
+      "dollar_exposure": 0,
+      "_source": "baseline",
+      "_record": {
+        "record_id": "DTS-2026-00003",
+        "unit": "1st Marine Division (Camp Pendleton)",
+        "unit_code": "1MARDIV",
+        "traveler": "Cpl R. BAKER",
+        "trip_reason": "TAD \u2014 Inspection / IG team",
+        "tdy_city": "San Diego",
+        "depart_date": "2026-01-27",
+        "return_date": "2026-02-02",
+        "voucher_total": 2314.75,
+        "voucher_lines": [
+          {
+            "category": "lodging",
+            "rate_per_unit": 214.81,
+            "units": 6,
+            "amount": 1288.87
+          },
+          {
+            "category": "mie",
+            "rate_per_unit": 79,
+            "units": 6,
+            "amount": 513.5
+          },
+          {
+            "category": "rental_car",
+            "rate_per_unit": 418.38,
+            "units": 1,
+            "amount": 418.38
+          },
+          {
+            "category": "ground_trans",
+            "rate_per_unit": 85.61,
+            "units": 1,
+            "amount": 85.61
+          },
+          {
+            "category": "incidentals",
+            "rate_per_unit": 8.39,
+            "units": 1,
+            "amount": 8.39
+          }
+        ],
+        "citi_transactions": [
+          {
+            "txn_id": "CITI-2026-00012",
+            "card_last4": "1021",
+            "traveler_rank": "Cpl",
+            "traveler_name": "R. BAKER",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-28",
+            "merchant": "HILTON GARDEN INN",
+            "merchant_category": "lodging",
+            "amount": 1288.87,
+            "linked_dts_record": "DTS-2026-00003"
+          },
+          {
+            "txn_id": "CITI-2026-00013",
+            "card_last4": "1021",
+            "traveler_rank": "Cpl",
+            "traveler_name": "R. BAKER",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-27",
+            "merchant": "AVIS RENT-A-CAR",
+            "merchant_category": "rental_car",
+            "amount": 418.38,
+            "linked_dts_record": "DTS-2026-00003"
+          },
+          {
+            "txn_id": "CITI-2026-00014",
+            "card_last4": "1021",
+            "traveler_rank": "Cpl",
+            "traveler_name": "R. BAKER",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-31",
+            "merchant": "UBER TRIP",
+            "merchant_category": "ground_trans",
+            "amount": 37.87,
+            "linked_dts_record": "DTS-2026-00003"
+          },
+          {
+            "txn_id": "CITI-2026-00015",
+            "card_last4": "1021",
+            "traveler_rank": "Cpl",
+            "traveler_name": "R. BAKER",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-27",
+            "merchant": "UBER TRIP",
+            "merchant_category": "ground_trans",
+            "amount": 26.55,
+            "linked_dts_record": "DTS-2026-00003"
+          },
+          {
+            "txn_id": "CITI-2026-00016",
+            "card_last4": "1021",
+            "traveler_rank": "Cpl",
+            "traveler_name": "R. BAKER",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-01",
+            "merchant": "LYFT * RIDE",
+            "merchant_category": "ground_trans",
+            "amount": 21.19,
+            "linked_dts_record": "DTS-2026-00003"
+          },
+          {
+            "txn_id": "CITI-2026-00017",
+            "card_last4": "1021",
+            "traveler_rank": "Cpl",
+            "traveler_name": "R. BAKER",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-31",
+            "merchant": "SUBWAY SANDWICHES",
+            "merchant_category": "meals",
+            "amount": 57.28,
+            "linked_dts_record": "DTS-2026-00003"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "DTS-2026-00004",
+      "issues_found": [
+        "amount_mismatch"
+      ],
+      "severity": "warn",
+      "auto_correctable": true,
+      "recommended_action": "Reconcile DTS voucher against Citi sum; correct in DTS.",
+      "confidence": 0.62,
+      "dollar_exposure": 220,
+      "_source": "baseline",
+      "_record": {
+        "record_id": "DTS-2026-00004",
+        "unit": "1st Marine Division (Camp Pendleton)",
+        "unit_code": "1MARDIV",
+        "traveler": "1stLt G. SANCHEZ",
+        "trip_reason": "TAD \u2014 Working group",
+        "tdy_city": "Twentynine Palms",
+        "depart_date": "2026-01-12",
+        "return_date": "2026-01-16",
+        "voucher_total": 1023.44,
+        "voucher_lines": [
+          {
+            "category": "lodging",
+            "rate_per_unit": 106.8,
+            "units": 4,
+            "amount": 427.2
+          },
+          {
+            "category": "mie",
+            "rate_per_unit": 64,
+            "units": 4,
+            "amount": 288.0
+          },
+          {
+            "category": "rental_car",
+            "rate_per_unit": 185.21,
+            "units": 1,
+            "amount": 185.21
+          },
+          {
+            "category": "ground_trans",
+            "rate_per_unit": 75.52,
+            "units": 1,
+            "amount": 75.52
+          },
+          {
+            "category": "incidentals",
+            "rate_per_unit": 47.51,
+            "units": 1,
+            "amount": 47.51
+          }
+        ],
+        "citi_transactions": [
+          {
+            "txn_id": "CITI-2026-00018",
+            "card_last4": "1028",
+            "traveler_rank": "1stLt",
+            "traveler_name": "G. SANCHEZ",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-13",
+            "merchant": "HILTON GARDEN INN",
+            "merchant_category": "lodging",
+            "amount": 553.41,
+            "linked_dts_record": "DTS-2026-00004"
+          },
+          {
+            "txn_id": "CITI-2026-00019",
+            "card_last4": "1028",
+            "traveler_rank": "1stLt",
+            "traveler_name": "G. SANCHEZ",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-12",
+            "merchant": "HERTZ RENT-A-CAR",
+            "merchant_category": "rental_car",
+            "amount": 185.21,
+            "linked_dts_record": "DTS-2026-00004"
+          },
+          {
+            "txn_id": "CITI-2026-00020",
+            "card_last4": "1028",
+            "traveler_rank": "1stLt",
+            "traveler_name": "G. SANCHEZ",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-14",
+            "merchant": "LYFT * RIDE",
+            "merchant_category": "ground_trans",
+            "amount": 33.82,
+            "linked_dts_record": "DTS-2026-00004"
+          },
+          {
+            "txn_id": "CITI-2026-00021",
+            "card_last4": "1028",
+            "traveler_rank": "1stLt",
+            "traveler_name": "G. SANCHEZ",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-13",
+            "merchant": "LYFT * RIDE",
+            "merchant_category": "ground_trans",
+            "amount": 10.25,
+            "linked_dts_record": "DTS-2026-00004"
+          },
+          {
+            "txn_id": "CITI-2026-00022",
+            "card_last4": "1028",
+            "traveler_rank": "1stLt",
+            "traveler_name": "G. SANCHEZ",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-14",
+            "merchant": "LYFT * RIDE",
+            "merchant_category": "ground_trans",
+            "amount": 27.49,
+            "linked_dts_record": "DTS-2026-00004"
+          },
+          {
+            "txn_id": "CITI-2026-00023",
+            "card_last4": "1028",
+            "traveler_rank": "1stLt",
+            "traveler_name": "G. SANCHEZ",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-12",
+            "merchant": "CHILIS RESTAURANT",
+            "merchant_category": "meals",
+            "amount": 64.02,
+            "linked_dts_record": "DTS-2026-00004"
+          },
+          {
+            "txn_id": "CITI-2026-00024",
+            "card_last4": "1028",
+            "traveler_rank": "1stLt",
+            "traveler_name": "G. SANCHEZ",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-12",
+            "merchant": "APPLEBEES NEIGHBORHOOD GRILL",
+            "merchant_category": "meals",
+            "amount": 26.73,
+            "linked_dts_record": "DTS-2026-00004"
+          },
+          {
+            "txn_id": "CITI-2026-00025",
+            "card_last4": "1028",
+            "traveler_rank": "1stLt",
+            "traveler_name": "G. SANCHEZ",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-12",
+            "merchant": "PANERA BREAD",
+            "merchant_category": "meals",
+            "amount": 26.62,
+            "linked_dts_record": "DTS-2026-00004"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "DTS-2026-00005",
+      "issues_found": [],
+      "severity": "info",
+      "auto_correctable": true,
+      "recommended_action": "Clean \u2014 no further action.",
+      "confidence": 0.9,
+      "dollar_exposure": 0,
+      "_source": "baseline",
+      "_record": {
+        "record_id": "DTS-2026-00005",
+        "unit": "1st Marine Division (Camp Pendleton)",
+        "unit_code": "1MARDIV",
+        "traveler": "CWO3 K. MARTINEZ",
+        "trip_reason": "PCS in-route travel",
+        "tdy_city": "Honolulu",
+        "depart_date": "2026-01-25",
+        "return_date": "2026-01-30",
+        "voucher_total": 3178.93,
+        "voucher_lines": [
+          {
+            "category": "lodging",
+            "rate_per_unit": 252.63,
+            "units": 5,
+            "amount": 1263.15
+          },
+          {
+            "category": "mie",
+            "rate_per_unit": 134,
+            "units": 5,
+            "amount": 737.0
+          },
+          {
+            "category": "airfare",
+            "rate_per_unit": 508.7,
+            "units": 1,
+            "amount": 508.7
+          },
+          {
+            "category": "rental_car",
+            "rate_per_unit": 526.57,
+            "units": 1,
+            "amount": 526.57
+          },
+          {
+            "category": "ground_trans",
+            "rate_per_unit": 86.47,
+            "units": 1,
+            "amount": 86.47
+          },
+          {
+            "category": "incidentals",
+            "rate_per_unit": 57.04,
+            "units": 1,
+            "amount": 57.04
+          }
+        ],
+        "citi_transactions": [
+          {
+            "txn_id": "CITI-2026-00026",
+            "card_last4": "1035",
+            "traveler_rank": "CWO3",
+            "traveler_name": "K. MARTINEZ",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-26",
+            "merchant": "HILTON GARDEN INN",
+            "merchant_category": "lodging",
+            "amount": 1263.15,
+            "linked_dts_record": "DTS-2026-00005"
+          },
+          {
+            "txn_id": "CITI-2026-00027",
+            "card_last4": "1035",
+            "traveler_rank": "CWO3",
+            "traveler_name": "K. MARTINEZ",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-23",
+            "merchant": "UNITED AIRLINES",
+            "merchant_category": "airfare",
+            "amount": 508.7,
+            "linked_dts_record": "DTS-2026-00005"
+          },
+          {
+            "txn_id": "CITI-2026-00028",
+            "card_last4": "1035",
+            "traveler_rank": "CWO3",
+            "traveler_name": "K. MARTINEZ",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-25",
+            "merchant": "AVIS RENT-A-CAR",
+            "merchant_category": "rental_car",
+            "amount": 526.57,
+            "linked_dts_record": "DTS-2026-00005"
+          },
+          {
+            "txn_id": "CITI-2026-00029",
+            "card_last4": "1035",
+            "traveler_rank": "CWO3",
+            "traveler_name": "K. MARTINEZ",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-28",
+            "merchant": "UBER TRIP",
+            "merchant_category": "ground_trans",
+            "amount": 18.18,
+            "linked_dts_record": "DTS-2026-00005"
+          },
+          {
+            "txn_id": "CITI-2026-00030",
+            "card_last4": "1035",
+            "traveler_rank": "CWO3",
+            "traveler_name": "K. MARTINEZ",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-29",
+            "merchant": "UBER TRIP",
+            "merchant_category": "ground_trans",
+            "amount": 14.48,
+            "linked_dts_record": "DTS-2026-00005"
+          },
+          {
+            "txn_id": "CITI-2026-00031",
+            "card_last4": "1035",
+            "traveler_rank": "CWO3",
+            "traveler_name": "K. MARTINEZ",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-29",
+            "merchant": "UBER TRIP",
+            "merchant_category": "ground_trans",
+            "amount": 28.84,
+            "linked_dts_record": "DTS-2026-00005"
+          },
+          {
+            "txn_id": "CITI-2026-00032",
+            "card_last4": "1035",
+            "traveler_rank": "CWO3",
+            "traveler_name": "K. MARTINEZ",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-25",
+            "merchant": "UBER TRIP",
+            "merchant_category": "ground_trans",
+            "amount": 13.36,
+            "linked_dts_record": "DTS-2026-00005"
+          },
+          {
+            "txn_id": "CITI-2026-00033",
+            "card_last4": "1035",
+            "traveler_rank": "CWO3",
+            "traveler_name": "K. MARTINEZ",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-28",
+            "merchant": "YELLOW CAB CO",
+            "merchant_category": "ground_trans",
+            "amount": 11.61,
+            "linked_dts_record": "DTS-2026-00005"
+          },
+          {
+            "txn_id": "CITI-2026-00034",
+            "card_last4": "1035",
+            "traveler_rank": "CWO3",
+            "traveler_name": "K. MARTINEZ",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-27",
+            "merchant": "OLIVE GARDEN",
+            "merchant_category": "meals",
+            "amount": 16.31,
+            "linked_dts_record": "DTS-2026-00005"
+          },
+          {
+            "txn_id": "CITI-2026-00035",
+            "card_last4": "1035",
+            "traveler_rank": "CWO3",
+            "traveler_name": "K. MARTINEZ",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-28",
+            "merchant": "PANERA BREAD",
+            "merchant_category": "meals",
+            "amount": 42.36,
+            "linked_dts_record": "DTS-2026-00005"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "DTS-2026-00006",
+      "issues_found": [],
+      "severity": "info",
+      "auto_correctable": true,
+      "recommended_action": "Clean \u2014 no further action.",
+      "confidence": 0.9,
+      "dollar_exposure": 0,
+      "_source": "baseline",
+      "_record": {
+        "record_id": "DTS-2026-00006",
+        "unit": "1st Marine Division (Camp Pendleton)",
+        "unit_code": "1MARDIV",
+        "traveler": "CWO2 E. HARRIS",
+        "trip_reason": "PCS in-route travel",
+        "tdy_city": "Oceanside",
+        "depart_date": "2026-01-07",
+        "return_date": "2026-01-10",
+        "voucher_total": 1178.46,
+        "voucher_lines": [
+          {
+            "category": "lodging",
+            "rate_per_unit": 176.57,
+            "units": 3,
+            "amount": 529.71
+          },
+          {
+            "category": "mie",
+            "rate_per_unit": 74,
+            "units": 3,
+            "amount": 259.0
+          },
+          {
+            "category": "airfare",
+            "rate_per_unit": 313.0,
+            "units": 1,
+            "amount": 313.0
+          },
+          {
+            "category": "ground_trans",
+            "rate_per_unit": 37.88,
+            "units": 1,
+            "amount": 37.88
+          },
+          {
+            "category": "incidentals",
+            "rate_per_unit": 38.87,
+            "units": 1,
+            "amount": 38.87
+          }
+        ],
+        "citi_transactions": [
+          {
+            "txn_id": "CITI-2026-00036",
+            "card_last4": "1042",
+            "traveler_rank": "CWO2",
+            "traveler_name": "E. HARRIS",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-08",
+            "merchant": "HILTON GARDEN INN",
+            "merchant_category": "lodging",
+            "amount": 529.71,
+            "linked_dts_record": "DTS-2026-00006"
+          },
+          {
+            "txn_id": "CITI-2026-00037",
+            "card_last4": "1042",
+            "traveler_rank": "CWO2",
+            "traveler_name": "E. HARRIS",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-05",
+            "merchant": "SOUTHWEST AIRLINES",
+            "merchant_category": "airfare",
+            "amount": 313.0,
+            "linked_dts_record": "DTS-2026-00006"
+          },
+          {
+            "txn_id": "CITI-2026-00038",
+            "card_last4": "1042",
+            "traveler_rank": "CWO2",
+            "traveler_name": "E. HARRIS",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-09",
+            "merchant": "UBER TRIP",
+            "merchant_category": "ground_trans",
+            "amount": 36.13,
+            "linked_dts_record": "DTS-2026-00006"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "DTS-2026-00007",
+      "issues_found": [],
+      "severity": "info",
+      "auto_correctable": true,
+      "recommended_action": "Clean \u2014 no further action.",
+      "confidence": 0.9,
+      "dollar_exposure": 0,
+      "_source": "baseline",
+      "_record": {
+        "record_id": "DTS-2026-00007",
+        "unit": "1st Marine Division (Camp Pendleton)",
+        "unit_code": "1MARDIV",
+        "traveler": "MSgt P. TAYLOR",
+        "trip_reason": "TAD \u2014 Conference attendance",
+        "tdy_city": "Twentynine Palms",
+        "depart_date": "2026-02-05",
+        "return_date": "2026-02-10",
+        "voucher_total": 949.07,
+        "voucher_lines": [
+          {
+            "category": "lodging",
+            "rate_per_unit": 110.27,
+            "units": 5,
+            "amount": 551.36
+          },
+          {
+            "category": "mie",
+            "rate_per_unit": 64,
+            "units": 5,
+            "amount": 352.0
+          },
+          {
+            "category": "ground_trans",
+            "rate_per_unit": 45.67,
+            "units": 1,
+            "amount": 45.67
+          },
+          {
+            "category": "incidentals",
+            "rate_per_unit": 0.04,
+            "units": 1,
+            "amount": 0.04
+          }
+        ],
+        "citi_transactions": [
+          {
+            "txn_id": "CITI-2026-00039",
+            "card_last4": "1049",
+            "traveler_rank": "MSgt",
+            "traveler_name": "P. TAYLOR",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-06",
+            "merchant": "HILTON GARDEN INN",
+            "merchant_category": "lodging",
+            "amount": 551.36,
+            "linked_dts_record": "DTS-2026-00007"
+          },
+          {
+            "txn_id": "CITI-2026-00040",
+            "card_last4": "1049",
+            "traveler_rank": "MSgt",
+            "traveler_name": "P. TAYLOR",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-06",
+            "merchant": "UBER TRIP",
+            "merchant_category": "ground_trans",
+            "amount": 11.17,
+            "linked_dts_record": "DTS-2026-00007"
+          },
+          {
+            "txn_id": "CITI-2026-00041",
+            "card_last4": "1049",
+            "traveler_rank": "MSgt",
+            "traveler_name": "P. TAYLOR",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-05",
+            "merchant": "YELLOW CAB CO",
+            "merchant_category": "ground_trans",
+            "amount": 25.05,
+            "linked_dts_record": "DTS-2026-00007"
+          },
+          {
+            "txn_id": "CITI-2026-00042",
+            "card_last4": "1049",
+            "traveler_rank": "MSgt",
+            "traveler_name": "P. TAYLOR",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-05",
+            "merchant": "YELLOW CAB CO",
+            "merchant_category": "ground_trans",
+            "amount": 9.45,
+            "linked_dts_record": "DTS-2026-00007"
+          },
+          {
+            "txn_id": "CITI-2026-00043",
+            "card_last4": "1049",
+            "traveler_rank": "MSgt",
+            "traveler_name": "P. TAYLOR",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-06",
+            "merchant": "CHILIS RESTAURANT",
+            "merchant_category": "meals",
+            "amount": 36.98,
+            "linked_dts_record": "DTS-2026-00007"
+          },
+          {
+            "txn_id": "CITI-2026-00044",
+            "card_last4": "1049",
+            "traveler_rank": "MSgt",
+            "traveler_name": "P. TAYLOR",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-05",
+            "merchant": "PANERA BREAD",
+            "merchant_category": "meals",
+            "amount": 12.29,
+            "linked_dts_record": "DTS-2026-00007"
+          },
+          {
+            "txn_id": "CITI-2026-00045",
+            "card_last4": "1049",
+            "traveler_rank": "MSgt",
+            "traveler_name": "P. TAYLOR",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-09",
+            "merchant": "CRACKER BARREL",
+            "merchant_category": "meals",
+            "amount": 43.43,
+            "linked_dts_record": "DTS-2026-00007"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "DTS-2026-00008",
+      "issues_found": [
+        "non_authorized_expense",
+        "card_charge_no_voucher"
+      ],
+      "severity": "escalate",
+      "auto_correctable": false,
+      "recommended_action": "Refer to Agency Program Coordinator (APC) for cardholder counseling.",
+      "confidence": 0.62,
+      "dollar_exposure": 290,
+      "_source": "baseline",
+      "_record": {
+        "record_id": "DTS-2026-00008",
+        "unit": "1st Marine Division (Camp Pendleton)",
+        "unit_code": "1MARDIV",
+        "traveler": "SSgt W. JOHNSON",
+        "trip_reason": "TAD \u2014 Conference attendance",
+        "tdy_city": "Honolulu",
+        "depart_date": "2026-02-08",
+        "return_date": "2026-02-12",
+        "voucher_total": 3130.75,
+        "voucher_lines": [
+          {
+            "category": "lodging",
+            "rate_per_unit": 252.85,
+            "units": 4,
+            "amount": 1011.39
+          },
+          {
+            "category": "mie",
+            "rate_per_unit": 134,
+            "units": 4,
+            "amount": 603.0
+          },
+          {
+            "category": "airfare",
+            "rate_per_unit": 1130.29,
+            "units": 1,
+            "amount": 1130.29
+          },
+          {
+            "category": "rental_car",
+            "rate_per_unit": 267.07,
+            "units": 1,
+            "amount": 267.07
+          },
+          {
+            "category": "ground_trans",
+            "rate_per_unit": 80.04,
+            "units": 1,
+            "amount": 80.04
+          },
+          {
+            "category": "incidentals",
+            "rate_per_unit": 38.96,
+            "units": 1,
+            "amount": 38.96
+          }
+        ],
+        "citi_transactions": [
+          {
+            "txn_id": "CITI-2026-00046",
+            "card_last4": "1056",
+            "traveler_rank": "SSgt",
+            "traveler_name": "W. JOHNSON",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-09",
+            "merchant": "HILTON GARDEN INN",
+            "merchant_category": "lodging",
+            "amount": 1011.39,
+            "linked_dts_record": "DTS-2026-00008"
+          },
+          {
+            "txn_id": "CITI-2026-00047",
+            "card_last4": "1056",
+            "traveler_rank": "SSgt",
+            "traveler_name": "W. JOHNSON",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-06",
+            "merchant": "AMERICAN AIRLINES",
+            "merchant_category": "airfare",
+            "amount": 1130.29,
+            "linked_dts_record": "DTS-2026-00008"
+          },
+          {
+            "txn_id": "CITI-2026-00048",
+            "card_last4": "1056",
+            "traveler_rank": "SSgt",
+            "traveler_name": "W. JOHNSON",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-08",
+            "merchant": "AVIS RENT-A-CAR",
+            "merchant_category": "rental_car",
+            "amount": 267.07,
+            "linked_dts_record": "DTS-2026-00008"
+          },
+          {
+            "txn_id": "CITI-2026-00049",
+            "card_last4": "1056",
+            "traveler_rank": "SSgt",
+            "traveler_name": "W. JOHNSON",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-09",
+            "merchant": "LYFT * RIDE",
+            "merchant_category": "ground_trans",
+            "amount": 13.11,
+            "linked_dts_record": "DTS-2026-00008"
+          },
+          {
+            "txn_id": "CITI-2026-00050",
+            "card_last4": "1056",
+            "traveler_rank": "SSgt",
+            "traveler_name": "W. JOHNSON",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-09",
+            "merchant": "LYFT * RIDE",
+            "merchant_category": "ground_trans",
+            "amount": 19.71,
+            "linked_dts_record": "DTS-2026-00008"
+          },
+          {
+            "txn_id": "CITI-2026-00051",
+            "card_last4": "1056",
+            "traveler_rank": "SSgt",
+            "traveler_name": "W. JOHNSON",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-09",
+            "merchant": "YELLOW CAB CO",
+            "merchant_category": "ground_trans",
+            "amount": 28.65,
+            "linked_dts_record": "DTS-2026-00008"
+          },
+          {
+            "txn_id": "CITI-2026-00052",
+            "card_last4": "1056",
+            "traveler_rank": "SSgt",
+            "traveler_name": "W. JOHNSON",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-09",
+            "merchant": "YELLOW CAB CO",
+            "merchant_category": "ground_trans",
+            "amount": 18.57,
+            "linked_dts_record": "DTS-2026-00008"
+          },
+          {
+            "txn_id": "CITI-2026-00053",
+            "card_last4": "1056",
+            "traveler_rank": "SSgt",
+            "traveler_name": "W. JOHNSON",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-11",
+            "merchant": "WALMART SUPERCENTER",
+            "merchant_category": "non_authorized",
+            "amount": 204.63,
+            "linked_dts_record": "DTS-2026-00008"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "DTS-2026-00009",
+      "issues_found": [],
+      "severity": "info",
+      "auto_correctable": true,
+      "recommended_action": "Clean \u2014 no further action.",
+      "confidence": 0.9,
+      "dollar_exposure": 0,
+      "_source": "baseline",
+      "_record": {
+        "record_id": "DTS-2026-00009",
+        "unit": "1st Marine Division (Camp Pendleton)",
+        "unit_code": "1MARDIV",
+        "traveler": "CWO3 K. CARTER",
+        "trip_reason": "TAD \u2014 School / PME",
+        "tdy_city": "Quantico",
+        "depart_date": "2026-02-10",
+        "return_date": "2026-02-14",
+        "voucher_total": 1979.51,
+        "voucher_lines": [
+          {
+            "category": "lodging",
+            "rate_per_unit": 192.3,
+            "units": 4,
+            "amount": 769.2
+          },
+          {
+            "category": "mie",
+            "rate_per_unit": 79,
+            "units": 4,
+            "amount": 355.5
+          },
+          {
+            "category": "airfare",
+            "rate_per_unit": 772.56,
+            "units": 1,
+            "amount": 772.56
+          },
+          {
+            "category": "ground_trans",
+            "rate_per_unit": 55.52,
+            "units": 1,
+            "amount": 55.52
+          },
+          {
+            "category": "incidentals",
+            "rate_per_unit": 26.73,
+            "units": 1,
+            "amount": 26.73
+          }
+        ],
+        "citi_transactions": [
+          {
+            "txn_id": "CITI-2026-00054",
+            "card_last4": "1063",
+            "traveler_rank": "CWO3",
+            "traveler_name": "K. CARTER",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-11",
+            "merchant": "MARRIOTT GAITHERSBG MD",
+            "merchant_category": "lodging",
+            "amount": 769.2,
+            "linked_dts_record": "DTS-2026-00009"
+          },
+          {
+            "txn_id": "CITI-2026-00055",
+            "card_last4": "1063",
+            "traveler_rank": "CWO3",
+            "traveler_name": "K. CARTER",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-08",
+            "merchant": "SOUTHWEST AIRLINES",
+            "merchant_category": "airfare",
+            "amount": 772.56,
+            "linked_dts_record": "DTS-2026-00009"
+          },
+          {
+            "txn_id": "CITI-2026-00056",
+            "card_last4": "1063",
+            "traveler_rank": "CWO3",
+            "traveler_name": "K. CARTER",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-12",
+            "merchant": "UBER TRIP",
+            "merchant_category": "ground_trans",
+            "amount": 13.17,
+            "linked_dts_record": "DTS-2026-00009"
+          },
+          {
+            "txn_id": "CITI-2026-00057",
+            "card_last4": "1063",
+            "traveler_rank": "CWO3",
+            "traveler_name": "K. CARTER",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-10",
+            "merchant": "LYFT * RIDE",
+            "merchant_category": "ground_trans",
+            "amount": 20.79,
+            "linked_dts_record": "DTS-2026-00009"
+          },
+          {
+            "txn_id": "CITI-2026-00058",
+            "card_last4": "1063",
+            "traveler_rank": "CWO3",
+            "traveler_name": "K. CARTER",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-12",
+            "merchant": "UBER TRIP",
+            "merchant_category": "ground_trans",
+            "amount": 13.5,
+            "linked_dts_record": "DTS-2026-00009"
+          },
+          {
+            "txn_id": "CITI-2026-00059",
+            "card_last4": "1063",
+            "traveler_rank": "CWO3",
+            "traveler_name": "K. CARTER",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-12",
+            "merchant": "UBER TRIP",
+            "merchant_category": "ground_trans",
+            "amount": 8.06,
+            "linked_dts_record": "DTS-2026-00009"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "DTS-2026-00010",
+      "issues_found": [
+        "missing_receipt"
+      ],
+      "severity": "warn",
+      "auto_correctable": true,
+      "recommended_action": "Request receipt from traveler; attach in DTS within 5 days.",
+      "confidence": 0.62,
+      "dollar_exposure": 175,
+      "_source": "baseline",
+      "_record": {
+        "record_id": "DTS-2026-00010",
+        "unit": "1st Marine Division (Camp Pendleton)",
+        "unit_code": "1MARDIV",
+        "traveler": "2ndLt T. LEE",
+        "trip_reason": "TAD \u2014 Inspection / IG team",
+        "tdy_city": "Twentynine Palms",
+        "depart_date": "2026-03-06",
+        "return_date": "2026-03-09",
+        "voucher_total": 1106.49,
+        "voucher_lines": [
+          {
+            "category": "lodging",
+            "rate_per_unit": 101.71,
+            "units": 3,
+            "amount": 305.12
+          },
+          {
+            "category": "mie",
+            "rate_per_unit": 64,
+            "units": 3,
+            "amount": 224.0
+          },
+          {
+            "category": "rental_car",
+            "rate_per_unit": 361.17,
+            "units": 1,
+            "amount": 361.17
+          },
+          {
+            "category": "ground_trans",
+            "rate_per_unit": 36.17,
+            "units": 1,
+            "amount": 36.17
+          },
+          {
+            "category": "incidentals",
+            "rate_per_unit": 23.08,
+            "units": 1,
+            "amount": 23.08
+          },
+          {
+            "category": "incidentals",
+            "rate_per_unit": 156.95,
+            "units": 1,
+            "amount": 156.95,
+            "note": "receipt_missing"
+          }
+        ],
+        "citi_transactions": [
+          {
+            "txn_id": "CITI-2026-00060",
+            "card_last4": "1070",
+            "traveler_rank": "2ndLt",
+            "traveler_name": "T. LEE",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-07",
+            "merchant": "HILTON GARDEN INN",
+            "merchant_category": "lodging",
+            "amount": 305.12,
+            "linked_dts_record": "DTS-2026-00010"
+          },
+          {
+            "txn_id": "CITI-2026-00061",
+            "card_last4": "1070",
+            "traveler_rank": "2ndLt",
+            "traveler_name": "T. LEE",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-06",
+            "merchant": "BUDGET RENT-A-CAR",
+            "merchant_category": "rental_car",
+            "amount": 361.17,
+            "linked_dts_record": "DTS-2026-00010"
+          },
+          {
+            "txn_id": "CITI-2026-00062",
+            "card_last4": "1070",
+            "traveler_rank": "2ndLt",
+            "traveler_name": "T. LEE",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-08",
+            "merchant": "YELLOW CAB CO",
+            "merchant_category": "ground_trans",
+            "amount": 9.55,
+            "linked_dts_record": "DTS-2026-00010"
+          },
+          {
+            "txn_id": "CITI-2026-00063",
+            "card_last4": "1070",
+            "traveler_rank": "2ndLt",
+            "traveler_name": "T. LEE",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-08",
+            "merchant": "WMATA SMARTRIP",
+            "merchant_category": "ground_trans",
+            "amount": 13.78,
+            "linked_dts_record": "DTS-2026-00010"
+          },
+          {
+            "txn_id": "CITI-2026-00064",
+            "card_last4": "1070",
+            "traveler_rank": "2ndLt",
+            "traveler_name": "T. LEE",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-06",
+            "merchant": "YELLOW CAB CO",
+            "merchant_category": "ground_trans",
+            "amount": 12.84,
+            "linked_dts_record": "DTS-2026-00010"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "DTS-2026-00011",
+      "issues_found": [],
+      "severity": "info",
+      "auto_correctable": true,
+      "recommended_action": "Clean \u2014 no further action.",
+      "confidence": 0.9,
+      "dollar_exposure": 0,
+      "_source": "baseline",
+      "_record": {
+        "record_id": "DTS-2026-00011",
+        "unit": "1st Marine Division (Camp Pendleton)",
+        "unit_code": "1MARDIV",
+        "traveler": "1stSgt G. ROBINSON",
+        "trip_reason": "PCS in-route travel",
+        "tdy_city": "Yuma",
+        "depart_date": "2026-02-03",
+        "return_date": "2026-02-05",
+        "voucher_total": 482.46,
+        "voucher_lines": [
+          {
+            "category": "lodging",
+            "rate_per_unit": 101.6,
+            "units": 2,
+            "amount": 203.19
+          },
+          {
+            "category": "mie",
+            "rate_per_unit": 64,
+            "units": 2,
+            "amount": 160.0
+          },
+          {
+            "category": "ground_trans",
+            "rate_per_unit": 80.63,
+            "units": 1,
+            "amount": 80.63
+          },
+          {
+            "category": "incidentals",
+            "rate_per_unit": 38.64,
+            "units": 1,
+            "amount": 38.64
+          }
+        ],
+        "citi_transactions": [
+          {
+            "txn_id": "CITI-2026-00065",
+            "card_last4": "1077",
+            "traveler_rank": "1stSgt",
+            "traveler_name": "G. ROBINSON",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-04",
+            "merchant": "HILTON GARDEN INN",
+            "merchant_category": "lodging",
+            "amount": 203.19,
+            "linked_dts_record": "DTS-2026-00011"
+          },
+          {
+            "txn_id": "CITI-2026-00066",
+            "card_last4": "1077",
+            "traveler_rank": "1stSgt",
+            "traveler_name": "G. ROBINSON",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-04",
+            "merchant": "LYFT * RIDE",
+            "merchant_category": "ground_trans",
+            "amount": 29.64,
+            "linked_dts_record": "DTS-2026-00011"
+          },
+          {
+            "txn_id": "CITI-2026-00067",
+            "card_last4": "1077",
+            "traveler_rank": "1stSgt",
+            "traveler_name": "G. ROBINSON",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-03",
+            "merchant": "WMATA SMARTRIP",
+            "merchant_category": "ground_trans",
+            "amount": 12.62,
+            "linked_dts_record": "DTS-2026-00011"
+          },
+          {
+            "txn_id": "CITI-2026-00068",
+            "card_last4": "1077",
+            "traveler_rank": "1stSgt",
+            "traveler_name": "G. ROBINSON",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-03",
+            "merchant": "YELLOW CAB CO",
+            "merchant_category": "ground_trans",
+            "amount": 8.4,
+            "linked_dts_record": "DTS-2026-00011"
+          },
+          {
+            "txn_id": "CITI-2026-00069",
+            "card_last4": "1077",
+            "traveler_rank": "1stSgt",
+            "traveler_name": "G. ROBINSON",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-03",
+            "merchant": "UBER TRIP",
+            "merchant_category": "ground_trans",
+            "amount": 27.23,
+            "linked_dts_record": "DTS-2026-00011"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "DTS-2026-00012",
+      "issues_found": [],
+      "severity": "info",
+      "auto_correctable": true,
+      "recommended_action": "Clean \u2014 no further action.",
+      "confidence": 0.9,
+      "dollar_exposure": 0,
+      "_source": "baseline",
+      "_record": {
+        "record_id": "DTS-2026-00012",
+        "unit": "1st Marine Division (Camp Pendleton)",
+        "unit_code": "1MARDIV",
+        "traveler": "SSgt M. TORRES",
+        "trip_reason": "TAD \u2014 Training course",
+        "tdy_city": "Honolulu",
+        "depart_date": "2026-03-15",
+        "return_date": "2026-03-18",
+        "voucher_total": 2509.37,
+        "voucher_lines": [
+          {
+            "category": "lodging",
+            "rate_per_unit": 241.73,
+            "units": 3,
+            "amount": 725.19
+          },
+          {
+            "category": "mie",
+            "rate_per_unit": 134,
+            "units": 3,
+            "amount": 469.0
+          },
+          {
+            "category": "airfare",
+            "rate_per_unit": 878.72,
+            "units": 1,
+            "amount": 878.72
+          },
+          {
+            "category": "rental_car",
+            "rate_per_unit": 372.57,
+            "units": 1,
+            "amount": 372.57
+          },
+          {
+            "category": "ground_trans",
+            "rate_per_unit": 24.63,
+            "units": 1,
+            "amount": 24.63
+          },
+          {
+            "category": "incidentals",
+            "rate_per_unit": 39.26,
+            "units": 1,
+            "amount": 39.26
+          }
+        ],
+        "citi_transactions": [
+          {
+            "txn_id": "CITI-2026-00070",
+            "card_last4": "1084",
+            "traveler_rank": "SSgt",
+            "traveler_name": "M. TORRES",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-16",
+            "merchant": "HILTON GARDEN INN",
+            "merchant_category": "lodging",
+            "amount": 725.19,
+            "linked_dts_record": "DTS-2026-00012"
+          },
+          {
+            "txn_id": "CITI-2026-00071",
+            "card_last4": "1084",
+            "traveler_rank": "SSgt",
+            "traveler_name": "M. TORRES",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-13",
+            "merchant": "UNITED AIRLINES",
+            "merchant_category": "airfare",
+            "amount": 878.72,
+            "linked_dts_record": "DTS-2026-00012"
+          },
+          {
+            "txn_id": "CITI-2026-00072",
+            "card_last4": "1084",
+            "traveler_rank": "SSgt",
+            "traveler_name": "M. TORRES",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-15",
+            "merchant": "AVIS RENT-A-CAR",
+            "merchant_category": "rental_car",
+            "amount": 372.57,
+            "linked_dts_record": "DTS-2026-00012"
+          },
+          {
+            "txn_id": "CITI-2026-00073",
+            "card_last4": "1084",
+            "traveler_rank": "SSgt",
+            "traveler_name": "M. TORRES",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-15",
+            "merchant": "LYFT * RIDE",
+            "merchant_category": "ground_trans",
+            "amount": 24.63,
+            "linked_dts_record": "DTS-2026-00012"
+          },
+          {
+            "txn_id": "CITI-2026-00074",
+            "card_last4": "1084",
+            "traveler_rank": "SSgt",
+            "traveler_name": "M. TORRES",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-16",
+            "merchant": "OLIVE GARDEN",
+            "merchant_category": "meals",
+            "amount": 26.68,
+            "linked_dts_record": "DTS-2026-00012"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "DTS-2026-00013",
+      "issues_found": [
+        "rate_above_per_diem"
+      ],
+      "severity": "warn",
+      "auto_correctable": true,
+      "recommended_action": "Lodging exceeds GSA ceiling; require justification memo.",
+      "confidence": 0.62,
+      "dollar_exposure": 290,
+      "_source": "baseline",
+      "_record": {
+        "record_id": "DTS-2026-00013",
+        "unit": "1st Marine Division (Camp Pendleton)",
+        "unit_code": "1MARDIV",
+        "traveler": "1stSgt S. THOMAS",
+        "trip_reason": "PCS in-route travel",
+        "tdy_city": "Honolulu",
+        "depart_date": "2026-01-17",
+        "return_date": "2026-01-19",
+        "voucher_total": 2537.62,
+        "voucher_lines": [
+          {
+            "category": "lodging",
+            "rate_per_unit": 316.11,
+            "units": 2,
+            "amount": 632.21
+          },
+          {
+            "category": "mie",
+            "rate_per_unit": 134,
+            "units": 2,
+            "amount": 335.0
+          },
+          {
+            "category": "airfare",
+            "rate_per_unit": 1073.12,
+            "units": 1,
+            "amount": 1073.12
+          },
+          {
+            "category": "rental_car",
+            "rate_per_unit": 430.8,
+            "units": 1,
+            "amount": 430.8
+          },
+          {
+            "category": "ground_trans",
+            "rate_per_unit": 17.48,
+            "units": 1,
+            "amount": 17.48
+          },
+          {
+            "category": "incidentals",
+            "rate_per_unit": 49.01,
+            "units": 1,
+            "amount": 49.01
+          }
+        ],
+        "citi_transactions": [
+          {
+            "txn_id": "CITI-2026-00075",
+            "card_last4": "1091",
+            "traveler_rank": "1stSgt",
+            "traveler_name": "S. THOMAS",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-18",
+            "merchant": "HILTON GARDEN INN",
+            "merchant_category": "lodging",
+            "amount": 632.21,
+            "linked_dts_record": "DTS-2026-00013"
+          },
+          {
+            "txn_id": "CITI-2026-00076",
+            "card_last4": "1091",
+            "traveler_rank": "1stSgt",
+            "traveler_name": "S. THOMAS",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-15",
+            "merchant": "DELTA AIR LINES",
+            "merchant_category": "airfare",
+            "amount": 1073.12,
+            "linked_dts_record": "DTS-2026-00013"
+          },
+          {
+            "txn_id": "CITI-2026-00077",
+            "card_last4": "1091",
+            "traveler_rank": "1stSgt",
+            "traveler_name": "S. THOMAS",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-17",
+            "merchant": "HERTZ RENT-A-CAR",
+            "merchant_category": "rental_car",
+            "amount": 430.8,
+            "linked_dts_record": "DTS-2026-00013"
+          },
+          {
+            "txn_id": "CITI-2026-00078",
+            "card_last4": "1091",
+            "traveler_rank": "1stSgt",
+            "traveler_name": "S. THOMAS",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-18",
+            "merchant": "LYFT * RIDE",
+            "merchant_category": "ground_trans",
+            "amount": 10.34,
+            "linked_dts_record": "DTS-2026-00013"
+          },
+          {
+            "txn_id": "CITI-2026-00079",
+            "card_last4": "1091",
+            "traveler_rank": "1stSgt",
+            "traveler_name": "S. THOMAS",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-17",
+            "merchant": "YELLOW CAB CO",
+            "merchant_category": "ground_trans",
+            "amount": 7.14,
+            "linked_dts_record": "DTS-2026-00013"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "DTS-2026-00014",
+      "issues_found": [],
+      "severity": "info",
+      "auto_correctable": true,
+      "recommended_action": "Clean \u2014 no further action.",
+      "confidence": 0.9,
+      "dollar_exposure": 0,
+      "_source": "baseline",
+      "_record": {
+        "record_id": "DTS-2026-00014",
+        "unit": "1st Marine Division (Camp Pendleton)",
+        "unit_code": "1MARDIV",
+        "traveler": "CWO2 W. TAYLOR",
+        "trip_reason": "TAD \u2014 Equipment fielding",
+        "tdy_city": "San Diego",
+        "depart_date": "2026-03-17",
+        "return_date": "2026-03-24",
+        "voucher_total": 2900.89,
+        "voucher_lines": [
+          {
+            "category": "lodging",
+            "rate_per_unit": 199.96,
+            "units": 7,
+            "amount": 1399.73
+          },
+          {
+            "category": "mie",
+            "rate_per_unit": 79,
+            "units": 7,
+            "amount": 592.5
+          },
+          {
+            "category": "airfare",
+            "rate_per_unit": 641.24,
+            "units": 1,
+            "amount": 641.24
+          },
+          {
+            "category": "rental_car",
+            "rate_per_unit": 218.9,
+            "units": 1,
+            "amount": 218.9
+          },
+          {
+            "category": "ground_trans",
+            "rate_per_unit": 44.82,
+            "units": 1,
+            "amount": 44.82
+          },
+          {
+            "category": "incidentals",
+            "rate_per_unit": 3.7,
+            "units": 1,
+            "amount": 3.7
+          }
+        ],
+        "citi_transactions": [
+          {
+            "txn_id": "CITI-2026-00080",
+            "card_last4": "1098",
+            "traveler_rank": "CWO2",
+            "traveler_name": "W. TAYLOR",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-18",
+            "merchant": "HILTON GARDEN INN",
+            "merchant_category": "lodging",
+            "amount": 1399.73,
+            "linked_dts_record": "DTS-2026-00014"
+          },
+          {
+            "txn_id": "CITI-2026-00081",
+            "card_last4": "1098",
+            "traveler_rank": "CWO2",
+            "traveler_name": "W. TAYLOR",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-15",
+            "merchant": "SOUTHWEST AIRLINES",
+            "merchant_category": "airfare",
+            "amount": 641.24,
+            "linked_dts_record": "DTS-2026-00014"
+          },
+          {
+            "txn_id": "CITI-2026-00082",
+            "card_last4": "1098",
+            "traveler_rank": "CWO2",
+            "traveler_name": "W. TAYLOR",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-17",
+            "merchant": "ENTERPRISE RENT-A-CAR",
+            "merchant_category": "rental_car",
+            "amount": 218.9,
+            "linked_dts_record": "DTS-2026-00014"
+          },
+          {
+            "txn_id": "CITI-2026-00083",
+            "card_last4": "1098",
+            "traveler_rank": "CWO2",
+            "traveler_name": "W. TAYLOR",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-23",
+            "merchant": "LYFT * RIDE",
+            "merchant_category": "ground_trans",
+            "amount": 10.12,
+            "linked_dts_record": "DTS-2026-00014"
+          },
+          {
+            "txn_id": "CITI-2026-00084",
+            "card_last4": "1098",
+            "traveler_rank": "CWO2",
+            "traveler_name": "W. TAYLOR",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-20",
+            "merchant": "UBER TRIP",
+            "merchant_category": "ground_trans",
+            "amount": 13.47,
+            "linked_dts_record": "DTS-2026-00014"
+          },
+          {
+            "txn_id": "CITI-2026-00085",
+            "card_last4": "1098",
+            "traveler_rank": "CWO2",
+            "traveler_name": "W. TAYLOR",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-18",
+            "merchant": "WMATA SMARTRIP",
+            "merchant_category": "ground_trans",
+            "amount": 21.23,
+            "linked_dts_record": "DTS-2026-00014"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "DTS-2026-00015",
+      "issues_found": [
+        "voucher_no_card_charge"
+      ],
+      "severity": "warn",
+      "auto_correctable": true,
+      "recommended_action": "Verify reimbursement is supported; potential fraud indicator.",
+      "confidence": 0.62,
+      "dollar_exposure": 145,
+      "_source": "baseline",
+      "_record": {
+        "record_id": "DTS-2026-00015",
+        "unit": "1st Marine Division (Camp Pendleton)",
+        "unit_code": "1MARDIV",
+        "traveler": "1stLt G. RIVERA",
+        "trip_reason": "TAD \u2014 Conference attendance",
+        "tdy_city": "San Diego",
+        "depart_date": "2026-01-05",
+        "return_date": "2026-01-09",
+        "voucher_total": 1727.85,
+        "voucher_lines": [
+          {
+            "category": "lodging",
+            "rate_per_unit": 218.07,
+            "units": 4,
+            "amount": 872.29
+          },
+          {
+            "category": "mie",
+            "rate_per_unit": 79,
+            "units": 4,
+            "amount": 355.5
+          },
+          {
+            "category": "rental_car",
+            "rate_per_unit": 222.87,
+            "units": 1,
+            "amount": 222.87
+          },
+          {
+            "category": "ground_trans",
+            "rate_per_unit": 26.01,
+            "units": 1,
+            "amount": 26.01
+          },
+          {
+            "category": "incidentals",
+            "rate_per_unit": 17.76,
+            "units": 1,
+            "amount": 17.76
+          },
+          {
+            "category": "rental_car",
+            "rate_per_unit": 233.42,
+            "units": 1,
+            "amount": 233.42,
+            "note": "claimed_no_card_match"
+          }
+        ],
+        "citi_transactions": [
+          {
+            "txn_id": "CITI-2026-00086",
+            "card_last4": "1105",
+            "traveler_rank": "1stLt",
+            "traveler_name": "G. RIVERA",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-06",
+            "merchant": "HILTON GARDEN INN",
+            "merchant_category": "lodging",
+            "amount": 872.29,
+            "linked_dts_record": "DTS-2026-00015"
+          },
+          {
+            "txn_id": "CITI-2026-00087",
+            "card_last4": "1105",
+            "traveler_rank": "1stLt",
+            "traveler_name": "G. RIVERA",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-05",
+            "merchant": "AVIS RENT-A-CAR",
+            "merchant_category": "rental_car",
+            "amount": 222.87,
+            "linked_dts_record": "DTS-2026-00015"
+          },
+          {
+            "txn_id": "CITI-2026-00088",
+            "card_last4": "1105",
+            "traveler_rank": "1stLt",
+            "traveler_name": "G. RIVERA",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-08",
+            "merchant": "WMATA SMARTRIP",
+            "merchant_category": "ground_trans",
+            "amount": 9.25,
+            "linked_dts_record": "DTS-2026-00015"
+          },
+          {
+            "txn_id": "CITI-2026-00089",
+            "card_last4": "1105",
+            "traveler_rank": "1stLt",
+            "traveler_name": "G. RIVERA",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-07",
+            "merchant": "LYFT * RIDE",
+            "merchant_category": "ground_trans",
+            "amount": 16.18,
+            "linked_dts_record": "DTS-2026-00015"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "DTS-2026-00016",
+      "issues_found": [],
+      "severity": "info",
+      "auto_correctable": true,
+      "recommended_action": "Clean \u2014 no further action.",
+      "confidence": 0.9,
+      "dollar_exposure": 0,
+      "_source": "baseline",
+      "_record": {
+        "record_id": "DTS-2026-00016",
+        "unit": "1st Marine Division (Camp Pendleton)",
+        "unit_code": "1MARDIV",
+        "traveler": "1stSgt L. TORRES",
+        "trip_reason": "TAD \u2014 Inspection / IG team",
+        "tdy_city": "Quantico",
+        "depart_date": "2026-01-05",
+        "return_date": "2026-01-12",
+        "voucher_total": 3090.16,
+        "voucher_lines": [
+          {
+            "category": "lodging",
+            "rate_per_unit": 185.11,
+            "units": 7,
+            "amount": 1295.8
+          },
+          {
+            "category": "mie",
+            "rate_per_unit": 79,
+            "units": 7,
+            "amount": 592.5
+          },
+          {
+            "category": "airfare",
+            "rate_per_unit": 1151.13,
+            "units": 1,
+            "amount": 1151.13
+          },
+          {
+            "category": "ground_trans",
+            "rate_per_unit": 39.62,
+            "units": 1,
+            "amount": 39.62
+          },
+          {
+            "category": "incidentals",
+            "rate_per_unit": 11.11,
+            "units": 1,
+            "amount": 11.11
+          }
+        ],
+        "citi_transactions": [
+          {
+            "txn_id": "CITI-2026-00090",
+            "card_last4": "1112",
+            "traveler_rank": "1stSgt",
+            "traveler_name": "L. TORRES",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-06",
+            "merchant": "MARRIOTT GAITHERSBG MD",
+            "merchant_category": "lodging",
+            "amount": 1295.8,
+            "linked_dts_record": "DTS-2026-00016"
+          },
+          {
+            "txn_id": "CITI-2026-00091",
+            "card_last4": "1112",
+            "traveler_rank": "1stSgt",
+            "traveler_name": "L. TORRES",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-03",
+            "merchant": "DELTA AIR LINES",
+            "merchant_category": "airfare",
+            "amount": 1151.13,
+            "linked_dts_record": "DTS-2026-00016"
+          },
+          {
+            "txn_id": "CITI-2026-00092",
+            "card_last4": "1112",
+            "traveler_rank": "1stSgt",
+            "traveler_name": "L. TORRES",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-11",
+            "merchant": "UBER TRIP",
+            "merchant_category": "ground_trans",
+            "amount": 10.04,
+            "linked_dts_record": "DTS-2026-00016"
+          },
+          {
+            "txn_id": "CITI-2026-00093",
+            "card_last4": "1112",
+            "traveler_rank": "1stSgt",
+            "traveler_name": "L. TORRES",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-08",
+            "merchant": "LYFT * RIDE",
+            "merchant_category": "ground_trans",
+            "amount": 29.58,
+            "linked_dts_record": "DTS-2026-00016"
+          },
+          {
+            "txn_id": "CITI-2026-00094",
+            "card_last4": "1112",
+            "traveler_rank": "1stSgt",
+            "traveler_name": "L. TORRES",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-11",
+            "merchant": "CHILIS RESTAURANT",
+            "merchant_category": "meals",
+            "amount": 14.28,
+            "linked_dts_record": "DTS-2026-00016"
+          },
+          {
+            "txn_id": "CITI-2026-00095",
+            "card_last4": "1112",
+            "traveler_rank": "1stSgt",
+            "traveler_name": "L. TORRES",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-07",
+            "merchant": "CHILIS RESTAURANT",
+            "merchant_category": "meals",
+            "amount": 17.25,
+            "linked_dts_record": "DTS-2026-00016"
+          },
+          {
+            "txn_id": "CITI-2026-00096",
+            "card_last4": "1112",
+            "traveler_rank": "1stSgt",
+            "traveler_name": "L. TORRES",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-10",
+            "merchant": "CHIPOTLE MEXICAN GRILL",
+            "merchant_category": "meals",
+            "amount": 14.51,
+            "linked_dts_record": "DTS-2026-00016"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "DTS-2026-00017",
+      "issues_found": [],
+      "severity": "info",
+      "auto_correctable": true,
+      "recommended_action": "Clean \u2014 no further action.",
+      "confidence": 0.9,
+      "dollar_exposure": 0,
+      "_source": "baseline",
+      "_record": {
+        "record_id": "DTS-2026-00017",
+        "unit": "1st Marine Division (Camp Pendleton)",
+        "unit_code": "1MARDIV",
+        "traveler": "Cpl K. ROBINSON",
+        "trip_reason": "PCS in-route travel",
+        "tdy_city": "Twentynine Palms",
+        "depart_date": "2026-01-25",
+        "return_date": "2026-01-31",
+        "voucher_total": 1169.32,
+        "voucher_lines": [
+          {
+            "category": "lodging",
+            "rate_per_unit": 105.23,
+            "units": 6,
+            "amount": 631.37
+          },
+          {
+            "category": "mie",
+            "rate_per_unit": 64,
+            "units": 6,
+            "amount": 416.0
+          },
+          {
+            "category": "ground_trans",
+            "rate_per_unit": 65.98,
+            "units": 1,
+            "amount": 65.98
+          },
+          {
+            "category": "incidentals",
+            "rate_per_unit": 55.97,
+            "units": 1,
+            "amount": 55.97
+          }
+        ],
+        "citi_transactions": [
+          {
+            "txn_id": "CITI-2026-00097",
+            "card_last4": "1119",
+            "traveler_rank": "Cpl",
+            "traveler_name": "K. ROBINSON",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-26",
+            "merchant": "HILTON GARDEN INN",
+            "merchant_category": "lodging",
+            "amount": 631.37,
+            "linked_dts_record": "DTS-2026-00017"
+          },
+          {
+            "txn_id": "CITI-2026-00098",
+            "card_last4": "1119",
+            "traveler_rank": "Cpl",
+            "traveler_name": "K. ROBINSON",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-25",
+            "merchant": "WMATA SMARTRIP",
+            "merchant_category": "ground_trans",
+            "amount": 23.52,
+            "linked_dts_record": "DTS-2026-00017"
+          },
+          {
+            "txn_id": "CITI-2026-00099",
+            "card_last4": "1119",
+            "traveler_rank": "Cpl",
+            "traveler_name": "K. ROBINSON",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-27",
+            "merchant": "UBER TRIP",
+            "merchant_category": "ground_trans",
+            "amount": 10.45,
+            "linked_dts_record": "DTS-2026-00017"
+          },
+          {
+            "txn_id": "CITI-2026-00100",
+            "card_last4": "1119",
+            "traveler_rank": "Cpl",
+            "traveler_name": "K. ROBINSON",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-28",
+            "merchant": "LYFT * RIDE",
+            "merchant_category": "ground_trans",
+            "amount": 23.46,
+            "linked_dts_record": "DTS-2026-00017"
+          },
+          {
+            "txn_id": "CITI-2026-00101",
+            "card_last4": "1119",
+            "traveler_rank": "Cpl",
+            "traveler_name": "K. ROBINSON",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-26",
+            "merchant": "UBER TRIP",
+            "merchant_category": "ground_trans",
+            "amount": 8.55,
+            "linked_dts_record": "DTS-2026-00017"
+          },
+          {
+            "txn_id": "CITI-2026-00102",
+            "card_last4": "1119",
+            "traveler_rank": "Cpl",
+            "traveler_name": "K. ROBINSON",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-26",
+            "merchant": "CHILIS RESTAURANT",
+            "merchant_category": "meals",
+            "amount": 37.23,
+            "linked_dts_record": "DTS-2026-00017"
+          },
+          {
+            "txn_id": "CITI-2026-00103",
+            "card_last4": "1119",
+            "traveler_rank": "Cpl",
+            "traveler_name": "K. ROBINSON",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-29",
+            "merchant": "OLIVE GARDEN",
+            "merchant_category": "meals",
+            "amount": 18.23,
+            "linked_dts_record": "DTS-2026-00017"
+          },
+          {
+            "txn_id": "CITI-2026-00104",
+            "card_last4": "1119",
+            "traveler_rank": "Cpl",
+            "traveler_name": "K. ROBINSON",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-26",
+            "merchant": "SUBWAY SANDWICHES",
+            "merchant_category": "meals",
+            "amount": 37.7,
+            "linked_dts_record": "DTS-2026-00017"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "DTS-2026-00018",
+      "issues_found": [
+        "amount_mismatch"
+      ],
+      "severity": "warn",
+      "auto_correctable": true,
+      "recommended_action": "Reconcile DTS voucher against Citi sum; correct in DTS.",
+      "confidence": 0.62,
+      "dollar_exposure": 220,
+      "_source": "baseline",
+      "_record": {
+        "record_id": "DTS-2026-00018",
+        "unit": "1st Marine Division (Camp Pendleton)",
+        "unit_code": "1MARDIV",
+        "traveler": "1stSgt K. HALL",
+        "trip_reason": "TAD \u2014 Liaison visit",
+        "tdy_city": "Honolulu",
+        "depart_date": "2026-02-05",
+        "return_date": "2026-02-12",
+        "voucher_total": 3599.43,
+        "voucher_lines": [
+          {
+            "category": "lodging",
+            "rate_per_unit": 242.68,
+            "units": 7,
+            "amount": 1698.75
+          },
+          {
+            "category": "mie",
+            "rate_per_unit": 134,
+            "units": 7,
+            "amount": 1005.0
+          },
+          {
+            "category": "airfare",
+            "rate_per_unit": 783.22,
+            "units": 1,
+            "amount": 783.22
+          },
+          {
+            "category": "ground_trans",
+            "rate_per_unit": 92.85,
+            "units": 1,
+            "amount": 92.85
+          },
+          {
+            "category": "incidentals",
+            "rate_per_unit": 19.61,
+            "units": 1,
+            "amount": 19.61
+          }
+        ],
+        "citi_transactions": [
+          {
+            "txn_id": "CITI-2026-00105",
+            "card_last4": "1126",
+            "traveler_rank": "1stSgt",
+            "traveler_name": "K. HALL",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-06",
+            "merchant": "HILTON GARDEN INN",
+            "merchant_category": "lodging",
+            "amount": 1977.18,
+            "linked_dts_record": "DTS-2026-00018"
+          },
+          {
+            "txn_id": "CITI-2026-00106",
+            "card_last4": "1126",
+            "traveler_rank": "1stSgt",
+            "traveler_name": "K. HALL",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-03",
+            "merchant": "UNITED AIRLINES",
+            "merchant_category": "airfare",
+            "amount": 783.22,
+            "linked_dts_record": "DTS-2026-00018"
+          },
+          {
+            "txn_id": "CITI-2026-00107",
+            "card_last4": "1126",
+            "traveler_rank": "1stSgt",
+            "traveler_name": "K. HALL",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-08",
+            "merchant": "UBER TRIP",
+            "merchant_category": "ground_trans",
+            "amount": 29.0,
+            "linked_dts_record": "DTS-2026-00018"
+          },
+          {
+            "txn_id": "CITI-2026-00108",
+            "card_last4": "1126",
+            "traveler_rank": "1stSgt",
+            "traveler_name": "K. HALL",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-07",
+            "merchant": "WMATA SMARTRIP",
+            "merchant_category": "ground_trans",
+            "amount": 28.09,
+            "linked_dts_record": "DTS-2026-00018"
+          },
+          {
+            "txn_id": "CITI-2026-00109",
+            "card_last4": "1126",
+            "traveler_rank": "1stSgt",
+            "traveler_name": "K. HALL",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-05",
+            "merchant": "YELLOW CAB CO",
+            "merchant_category": "ground_trans",
+            "amount": 13.94,
+            "linked_dts_record": "DTS-2026-00018"
+          },
+          {
+            "txn_id": "CITI-2026-00110",
+            "card_last4": "1126",
+            "traveler_rank": "1stSgt",
+            "traveler_name": "K. HALL",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-06",
+            "merchant": "WMATA SMARTRIP",
+            "merchant_category": "ground_trans",
+            "amount": 21.82,
+            "linked_dts_record": "DTS-2026-00018"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "DTS-2026-00019",
+      "issues_found": [],
+      "severity": "info",
+      "auto_correctable": true,
+      "recommended_action": "Clean \u2014 no further action.",
+      "confidence": 0.9,
+      "dollar_exposure": 0,
+      "_source": "baseline",
+      "_record": {
+        "record_id": "DTS-2026-00019",
+        "unit": "1st Marine Division (Camp Pendleton)",
+        "unit_code": "1MARDIV",
+        "traveler": "LCpl L. BAKER",
+        "trip_reason": "TAD \u2014 Funeral honors detail",
+        "tdy_city": "San Diego",
+        "depart_date": "2026-02-19",
+        "return_date": "2026-02-21",
+        "voucher_total": 1019.7,
+        "voucher_lines": [
+          {
+            "category": "lodging",
+            "rate_per_unit": 223.44,
+            "units": 2,
+            "amount": 446.87
+          },
+          {
+            "category": "mie",
+            "rate_per_unit": 79,
+            "units": 2,
+            "amount": 197.5
+          },
+          {
+            "category": "rental_car",
+            "rate_per_unit": 359.21,
+            "units": 1,
+            "amount": 359.21
+          },
+          {
+            "category": "ground_trans",
+            "rate_per_unit": 6.3,
+            "units": 1,
+            "amount": 6.3
+          },
+          {
+            "category": "incidentals",
+            "rate_per_unit": 9.82,
+            "units": 1,
+            "amount": 9.82
+          }
+        ],
+        "citi_transactions": [
+          {
+            "txn_id": "CITI-2026-00111",
+            "card_last4": "1133",
+            "traveler_rank": "LCpl",
+            "traveler_name": "L. BAKER",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-20",
+            "merchant": "HILTON GARDEN INN",
+            "merchant_category": "lodging",
+            "amount": 446.87,
+            "linked_dts_record": "DTS-2026-00019"
+          },
+          {
+            "txn_id": "CITI-2026-00112",
+            "card_last4": "1133",
+            "traveler_rank": "LCpl",
+            "traveler_name": "L. BAKER",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-19",
+            "merchant": "HERTZ RENT-A-CAR",
+            "merchant_category": "rental_car",
+            "amount": 359.21,
+            "linked_dts_record": "DTS-2026-00019"
+          },
+          {
+            "txn_id": "CITI-2026-00113",
+            "card_last4": "1133",
+            "traveler_rank": "LCpl",
+            "traveler_name": "L. BAKER",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-19",
+            "merchant": "YELLOW CAB CO",
+            "merchant_category": "ground_trans",
+            "amount": 6.3,
+            "linked_dts_record": "DTS-2026-00019"
+          },
+          {
+            "txn_id": "CITI-2026-00114",
+            "card_last4": "1133",
+            "traveler_rank": "LCpl",
+            "traveler_name": "L. BAKER",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-19",
+            "merchant": "APPLEBEES NEIGHBORHOOD GRILL",
+            "merchant_category": "meals",
+            "amount": 54.82,
+            "linked_dts_record": "DTS-2026-00019"
+          },
+          {
+            "txn_id": "CITI-2026-00115",
+            "card_last4": "1133",
+            "traveler_rank": "LCpl",
+            "traveler_name": "L. BAKER",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-19",
+            "merchant": "APPLEBEES NEIGHBORHOOD GRILL",
+            "merchant_category": "meals",
+            "amount": 18.1,
+            "linked_dts_record": "DTS-2026-00019"
+          },
+          {
+            "txn_id": "CITI-2026-00116",
+            "card_last4": "1133",
+            "traveler_rank": "LCpl",
+            "traveler_name": "L. BAKER",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-19",
+            "merchant": "CRACKER BARREL",
+            "merchant_category": "meals",
+            "amount": 62.61,
+            "linked_dts_record": "DTS-2026-00019"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "DTS-2026-00020",
+      "issues_found": [
+        "amount_mismatch",
+        "duplicate_charge"
+      ],
+      "severity": "escalate",
+      "auto_correctable": false,
+      "recommended_action": "Reconcile DTS voucher against Citi sum; correct in DTS.",
+      "confidence": 0.62,
+      "dollar_exposure": 385,
+      "_source": "baseline",
+      "_record": {
+        "record_id": "DTS-2026-00020",
+        "unit": "1st Marine Division (Camp Pendleton)",
+        "unit_code": "1MARDIV",
+        "traveler": "SSgt E. MITCHELL",
+        "trip_reason": "PCS in-route travel",
+        "tdy_city": "Yuma",
+        "depart_date": "2026-02-06",
+        "return_date": "2026-02-09",
+        "voucher_total": 1538.49,
+        "voucher_lines": [
+          {
+            "category": "lodging",
+            "rate_per_unit": 100.66,
+            "units": 3,
+            "amount": 301.98
+          },
+          {
+            "category": "mie",
+            "rate_per_unit": 64,
+            "units": 3,
+            "amount": 224.0
+          },
+          {
+            "category": "airfare",
+            "rate_per_unit": 378.7,
+            "units": 1,
+            "amount": 378.7
+          },
+          {
+            "category": "rental_car",
+            "rate_per_unit": 522.12,
+            "units": 1,
+            "amount": 522.12
+          },
+          {
+            "category": "ground_trans",
+            "rate_per_unit": 78.15,
+            "units": 1,
+            "amount": 78.15
+          },
+          {
+            "category": "incidentals",
+            "rate_per_unit": 33.54,
+            "units": 1,
+            "amount": 33.54
+          }
+        ],
+        "citi_transactions": [
+          {
+            "txn_id": "CITI-2026-00117",
+            "card_last4": "1140",
+            "traveler_rank": "SSgt",
+            "traveler_name": "E. MITCHELL",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-07",
+            "merchant": "HILTON GARDEN INN",
+            "merchant_category": "lodging",
+            "amount": 301.98,
+            "linked_dts_record": "DTS-2026-00020"
+          },
+          {
+            "txn_id": "CITI-2026-00118",
+            "card_last4": "1140",
+            "traveler_rank": "SSgt",
+            "traveler_name": "E. MITCHELL",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-04",
+            "merchant": "DELTA AIR LINES",
+            "merchant_category": "airfare",
+            "amount": 378.7,
+            "linked_dts_record": "DTS-2026-00020"
+          },
+          {
+            "txn_id": "CITI-2026-00119",
+            "card_last4": "1140",
+            "traveler_rank": "SSgt",
+            "traveler_name": "E. MITCHELL",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-06",
+            "merchant": "BUDGET RENT-A-CAR",
+            "merchant_category": "rental_car",
+            "amount": 522.12,
+            "linked_dts_record": "DTS-2026-00020"
+          },
+          {
+            "txn_id": "CITI-2026-00120",
+            "card_last4": "1140",
+            "traveler_rank": "SSgt",
+            "traveler_name": "E. MITCHELL",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-07",
+            "merchant": "UBER TRIP",
+            "merchant_category": "ground_trans",
+            "amount": 11.66,
+            "linked_dts_record": "DTS-2026-00020"
+          },
+          {
+            "txn_id": "CITI-2026-00121",
+            "card_last4": "1140",
+            "traveler_rank": "SSgt",
+            "traveler_name": "E. MITCHELL",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-07",
+            "merchant": "UBER TRIP",
+            "merchant_category": "ground_trans",
+            "amount": 33.35,
+            "linked_dts_record": "DTS-2026-00020"
+          },
+          {
+            "txn_id": "CITI-2026-00122",
+            "card_last4": "1140",
+            "traveler_rank": "SSgt",
+            "traveler_name": "E. MITCHELL",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-07",
+            "merchant": "YELLOW CAB CO",
+            "merchant_category": "ground_trans",
+            "amount": 13.36,
+            "linked_dts_record": "DTS-2026-00020"
+          },
+          {
+            "txn_id": "CITI-2026-00123",
+            "card_last4": "1140",
+            "traveler_rank": "SSgt",
+            "traveler_name": "E. MITCHELL",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-07",
+            "merchant": "YELLOW CAB CO",
+            "merchant_category": "ground_trans",
+            "amount": 14.11,
+            "linked_dts_record": "DTS-2026-00020"
+          },
+          {
+            "txn_id": "CITI-2026-00124",
+            "card_last4": "1140",
+            "traveler_rank": "SSgt",
+            "traveler_name": "E. MITCHELL",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-06",
+            "merchant": "UBER TRIP",
+            "merchant_category": "ground_trans",
+            "amount": 5.67,
+            "linked_dts_record": "DTS-2026-00020"
+          },
+          {
+            "txn_id": "CITI-2026-00125",
+            "card_last4": "1140",
+            "traveler_rank": "SSgt",
+            "traveler_name": "E. MITCHELL",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-07",
+            "merchant": "HILTON GARDEN INN",
+            "merchant_category": "lodging",
+            "amount": 301.98,
+            "linked_dts_record": "DTS-2026-00020"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "DTS-2026-00021",
+      "issues_found": [],
+      "severity": "info",
+      "auto_correctable": true,
+      "recommended_action": "Clean \u2014 no further action.",
+      "confidence": 0.9,
+      "dollar_exposure": 0,
+      "_source": "baseline",
+      "_record": {
+        "record_id": "DTS-2026-00021",
+        "unit": "1st Marine Division (Camp Pendleton)",
+        "unit_code": "1MARDIV",
+        "traveler": "SSgt B. THOMAS",
+        "trip_reason": "TAD \u2014 Site survey",
+        "tdy_city": "Twentynine Palms",
+        "depart_date": "2026-02-23",
+        "return_date": "2026-03-02",
+        "voucher_total": 1781.18,
+        "voucher_lines": [
+          {
+            "category": "lodging",
+            "rate_per_unit": 99.59,
+            "units": 7,
+            "amount": 697.11
+          },
+          {
+            "category": "mie",
+            "rate_per_unit": 64,
+            "units": 7,
+            "amount": 480.0
+          },
+          {
+            "category": "airfare",
+            "rate_per_unit": 318.07,
+            "units": 1,
+            "amount": 318.07
+          },
+          {
+            "category": "rental_car",
+            "rate_per_unit": 203.5,
+            "units": 1,
+            "amount": 203.5
+          },
+          {
+            "category": "ground_trans",
+            "rate_per_unit": 61.4,
+            "units": 1,
+            "amount": 61.4
+          },
+          {
+            "category": "incidentals",
+            "rate_per_unit": 21.1,
+            "units": 1,
+            "amount": 21.1
+          }
+        ],
+        "citi_transactions": [
+          {
+            "txn_id": "CITI-2026-00126",
+            "card_last4": "1147",
+            "traveler_rank": "SSgt",
+            "traveler_name": "B. THOMAS",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-24",
+            "merchant": "HILTON GARDEN INN",
+            "merchant_category": "lodging",
+            "amount": 697.11,
+            "linked_dts_record": "DTS-2026-00021"
+          },
+          {
+            "txn_id": "CITI-2026-00127",
+            "card_last4": "1147",
+            "traveler_rank": "SSgt",
+            "traveler_name": "B. THOMAS",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-21",
+            "merchant": "UNITED AIRLINES",
+            "merchant_category": "airfare",
+            "amount": 318.07,
+            "linked_dts_record": "DTS-2026-00021"
+          },
+          {
+            "txn_id": "CITI-2026-00128",
+            "card_last4": "1147",
+            "traveler_rank": "SSgt",
+            "traveler_name": "B. THOMAS",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-23",
+            "merchant": "AVIS RENT-A-CAR",
+            "merchant_category": "rental_car",
+            "amount": 203.5,
+            "linked_dts_record": "DTS-2026-00021"
+          },
+          {
+            "txn_id": "CITI-2026-00129",
+            "card_last4": "1147",
+            "traveler_rank": "SSgt",
+            "traveler_name": "B. THOMAS",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-26",
+            "merchant": "YELLOW CAB CO",
+            "merchant_category": "ground_trans",
+            "amount": 36.18,
+            "linked_dts_record": "DTS-2026-00021"
+          },
+          {
+            "txn_id": "CITI-2026-00130",
+            "card_last4": "1147",
+            "traveler_rank": "SSgt",
+            "traveler_name": "B. THOMAS",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-25",
+            "merchant": "YELLOW CAB CO",
+            "merchant_category": "ground_trans",
+            "amount": 25.22,
+            "linked_dts_record": "DTS-2026-00021"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "DTS-2026-00022",
+      "issues_found": [],
+      "severity": "info",
+      "auto_correctable": true,
+      "recommended_action": "Clean \u2014 no further action.",
+      "confidence": 0.9,
+      "dollar_exposure": 0,
+      "_source": "baseline",
+      "_record": {
+        "record_id": "DTS-2026-00022",
+        "unit": "1st Marine Division (Camp Pendleton)",
+        "unit_code": "1MARDIV",
+        "traveler": "Maj C. JACKSON",
+        "trip_reason": "PCS in-route travel",
+        "tdy_city": "Twentynine Palms",
+        "depart_date": "2026-01-26",
+        "return_date": "2026-02-01",
+        "voucher_total": 1207.85,
+        "voucher_lines": [
+          {
+            "category": "lodging",
+            "rate_per_unit": 113.37,
+            "units": 6,
+            "amount": 680.21
+          },
+          {
+            "category": "mie",
+            "rate_per_unit": 64,
+            "units": 6,
+            "amount": 416.0
+          },
+          {
+            "category": "ground_trans",
+            "rate_per_unit": 55.26,
+            "units": 1,
+            "amount": 55.26
+          },
+          {
+            "category": "incidentals",
+            "rate_per_unit": 56.38,
+            "units": 1,
+            "amount": 56.38
+          }
+        ],
+        "citi_transactions": [
+          {
+            "txn_id": "CITI-2026-00131",
+            "card_last4": "1154",
+            "traveler_rank": "Maj",
+            "traveler_name": "C. JACKSON",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-27",
+            "merchant": "HILTON GARDEN INN",
+            "merchant_category": "lodging",
+            "amount": 680.21,
+            "linked_dts_record": "DTS-2026-00022"
+          },
+          {
+            "txn_id": "CITI-2026-00132",
+            "card_last4": "1154",
+            "traveler_rank": "Maj",
+            "traveler_name": "C. JACKSON",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-27",
+            "merchant": "YELLOW CAB CO",
+            "merchant_category": "ground_trans",
+            "amount": 36.27,
+            "linked_dts_record": "DTS-2026-00022"
+          },
+          {
+            "txn_id": "CITI-2026-00133",
+            "card_last4": "1154",
+            "traveler_rank": "Maj",
+            "traveler_name": "C. JACKSON",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-27",
+            "merchant": "WMATA SMARTRIP",
+            "merchant_category": "ground_trans",
+            "amount": 12.1,
+            "linked_dts_record": "DTS-2026-00022"
+          },
+          {
+            "txn_id": "CITI-2026-00134",
+            "card_last4": "1154",
+            "traveler_rank": "Maj",
+            "traveler_name": "C. JACKSON",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-27",
+            "merchant": "LYFT * RIDE",
+            "merchant_category": "ground_trans",
+            "amount": 6.89,
+            "linked_dts_record": "DTS-2026-00022"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "DTS-2026-00023",
+      "issues_found": [
+        "amount_mismatch",
+        "card_charge_no_voucher"
+      ],
+      "severity": "escalate",
+      "auto_correctable": false,
+      "recommended_action": "Reconcile DTS voucher against Citi sum; correct in DTS.",
+      "confidence": 0.62,
+      "dollar_exposure": 330,
+      "_source": "baseline",
+      "_record": {
+        "record_id": "DTS-2026-00023",
+        "unit": "1st Marine Division (Camp Pendleton)",
+        "unit_code": "1MARDIV",
+        "traveler": "LCpl O. CAMPBELL",
+        "trip_reason": "TAD \u2014 Working group",
+        "tdy_city": "Yuma",
+        "depart_date": "2026-03-14",
+        "return_date": "2026-03-20",
+        "voucher_total": 1092.22,
+        "voucher_lines": [
+          {
+            "category": "lodging",
+            "rate_per_unit": 98.52,
+            "units": 6,
+            "amount": 591.14
+          },
+          {
+            "category": "mie",
+            "rate_per_unit": 64,
+            "units": 6,
+            "amount": 416.0
+          },
+          {
+            "category": "ground_trans",
+            "rate_per_unit": 26.97,
+            "units": 1,
+            "amount": 26.97
+          },
+          {
+            "category": "incidentals",
+            "rate_per_unit": 58.11,
+            "units": 1,
+            "amount": 58.11
+          }
+        ],
+        "citi_transactions": [
+          {
+            "txn_id": "CITI-2026-00135",
+            "card_last4": "1161",
+            "traveler_rank": "LCpl",
+            "traveler_name": "O. CAMPBELL",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-15",
+            "merchant": "HILTON GARDEN INN",
+            "merchant_category": "lodging",
+            "amount": 591.14,
+            "linked_dts_record": "DTS-2026-00023"
+          },
+          {
+            "txn_id": "CITI-2026-00136",
+            "card_last4": "1161",
+            "traveler_rank": "LCpl",
+            "traveler_name": "O. CAMPBELL",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-16",
+            "merchant": "YELLOW CAB CO",
+            "merchant_category": "ground_trans",
+            "amount": 20.27,
+            "linked_dts_record": "DTS-2026-00023"
+          },
+          {
+            "txn_id": "CITI-2026-00137",
+            "card_last4": "1161",
+            "traveler_rank": "LCpl",
+            "traveler_name": "O. CAMPBELL",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-18",
+            "merchant": "UBER TRIP",
+            "merchant_category": "ground_trans",
+            "amount": 6.7,
+            "linked_dts_record": "DTS-2026-00023"
+          },
+          {
+            "txn_id": "CITI-2026-00138",
+            "card_last4": "1161",
+            "traveler_rank": "LCpl",
+            "traveler_name": "O. CAMPBELL",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-18",
+            "merchant": "TARGET T-2204",
+            "merchant_category": "ground_trans",
+            "amount": 43.32,
+            "linked_dts_record": "DTS-2026-00023"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "DTS-2026-00024",
+      "issues_found": [],
+      "severity": "info",
+      "auto_correctable": true,
+      "recommended_action": "Clean \u2014 no further action.",
+      "confidence": 0.9,
+      "dollar_exposure": 0,
+      "_source": "baseline",
+      "_record": {
+        "record_id": "DTS-2026-00024",
+        "unit": "1st Marine Division (Camp Pendleton)",
+        "unit_code": "1MARDIV",
+        "traveler": "Sgt T. MITCHELL",
+        "trip_reason": "TAD \u2014 Site survey",
+        "tdy_city": "Oceanside",
+        "depart_date": "2026-02-14",
+        "return_date": "2026-02-20",
+        "voucher_total": 1554.73,
+        "voucher_lines": [
+          {
+            "category": "lodging",
+            "rate_per_unit": 159.78,
+            "units": 6,
+            "amount": 958.69
+          },
+          {
+            "category": "mie",
+            "rate_per_unit": 74,
+            "units": 6,
+            "amount": 481.0
+          },
+          {
+            "category": "ground_trans",
+            "rate_per_unit": 60.34,
+            "units": 1,
+            "amount": 60.34
+          },
+          {
+            "category": "incidentals",
+            "rate_per_unit": 54.7,
+            "units": 1,
+            "amount": 54.7
+          }
+        ],
+        "citi_transactions": [
+          {
+            "txn_id": "CITI-2026-00139",
+            "card_last4": "1168",
+            "traveler_rank": "Sgt",
+            "traveler_name": "T. MITCHELL",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-15",
+            "merchant": "HILTON GARDEN INN",
+            "merchant_category": "lodging",
+            "amount": 958.69,
+            "linked_dts_record": "DTS-2026-00024"
+          },
+          {
+            "txn_id": "CITI-2026-00140",
+            "card_last4": "1168",
+            "traveler_rank": "Sgt",
+            "traveler_name": "T. MITCHELL",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-17",
+            "merchant": "LYFT * RIDE",
+            "merchant_category": "ground_trans",
+            "amount": 30.8,
+            "linked_dts_record": "DTS-2026-00024"
+          },
+          {
+            "txn_id": "CITI-2026-00141",
+            "card_last4": "1168",
+            "traveler_rank": "Sgt",
+            "traveler_name": "T. MITCHELL",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-14",
+            "merchant": "UBER TRIP",
+            "merchant_category": "ground_trans",
+            "amount": 15.74,
+            "linked_dts_record": "DTS-2026-00024"
+          },
+          {
+            "txn_id": "CITI-2026-00142",
+            "card_last4": "1168",
+            "traveler_rank": "Sgt",
+            "traveler_name": "T. MITCHELL",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-16",
+            "merchant": "YELLOW CAB CO",
+            "merchant_category": "ground_trans",
+            "amount": 13.8,
+            "linked_dts_record": "DTS-2026-00024"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "DTS-2026-00025",
+      "issues_found": [],
+      "severity": "info",
+      "auto_correctable": true,
+      "recommended_action": "Clean \u2014 no further action.",
+      "confidence": 0.9,
+      "dollar_exposure": 0,
+      "_source": "baseline",
+      "_record": {
+        "record_id": "DTS-2026-00025",
+        "unit": "1st Marine Division (Camp Pendleton)",
+        "unit_code": "1MARDIV",
+        "traveler": "Col F. HILL",
+        "trip_reason": "TAD \u2014 Conference attendance",
+        "tdy_city": "Yuma",
+        "depart_date": "2026-02-05",
+        "return_date": "2026-02-07",
+        "voucher_total": 1453.12,
+        "voucher_lines": [
+          {
+            "category": "lodging",
+            "rate_per_unit": 103.05,
+            "units": 2,
+            "amount": 206.1
+          },
+          {
+            "category": "mie",
+            "rate_per_unit": 64,
+            "units": 2,
+            "amount": 160.0
+          },
+          {
+            "category": "airfare",
+            "rate_per_unit": 539.11,
+            "units": 1,
+            "amount": 539.11
+          },
+          {
+            "category": "rental_car",
+            "rate_per_unit": 473.51,
+            "units": 1,
+            "amount": 473.51
+          },
+          {
+            "category": "ground_trans",
+            "rate_per_unit": 31.52,
+            "units": 1,
+            "amount": 31.52
+          },
+          {
+            "category": "incidentals",
+            "rate_per_unit": 42.88,
+            "units": 1,
+            "amount": 42.88
+          }
+        ],
+        "citi_transactions": [
+          {
+            "txn_id": "CITI-2026-00143",
+            "card_last4": "1175",
+            "traveler_rank": "Col",
+            "traveler_name": "F. HILL",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-06",
+            "merchant": "HILTON GARDEN INN",
+            "merchant_category": "lodging",
+            "amount": 206.1,
+            "linked_dts_record": "DTS-2026-00025"
+          },
+          {
+            "txn_id": "CITI-2026-00144",
+            "card_last4": "1175",
+            "traveler_rank": "Col",
+            "traveler_name": "F. HILL",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-03",
+            "merchant": "DELTA AIR LINES",
+            "merchant_category": "airfare",
+            "amount": 539.11,
+            "linked_dts_record": "DTS-2026-00025"
+          },
+          {
+            "txn_id": "CITI-2026-00145",
+            "card_last4": "1175",
+            "traveler_rank": "Col",
+            "traveler_name": "F. HILL",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-05",
+            "merchant": "BUDGET RENT-A-CAR",
+            "merchant_category": "rental_car",
+            "amount": 473.51,
+            "linked_dts_record": "DTS-2026-00025"
+          },
+          {
+            "txn_id": "CITI-2026-00146",
+            "card_last4": "1175",
+            "traveler_rank": "Col",
+            "traveler_name": "F. HILL",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-05",
+            "merchant": "LYFT * RIDE",
+            "merchant_category": "ground_trans",
+            "amount": 23.5,
+            "linked_dts_record": "DTS-2026-00025"
+          },
+          {
+            "txn_id": "CITI-2026-00147",
+            "card_last4": "1175",
+            "traveler_rank": "Col",
+            "traveler_name": "F. HILL",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-05",
+            "merchant": "YELLOW CAB CO",
+            "merchant_category": "ground_trans",
+            "amount": 8.02,
+            "linked_dts_record": "DTS-2026-00025"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "DTS-2026-00026",
+      "issues_found": [],
+      "severity": "info",
+      "auto_correctable": true,
+      "recommended_action": "Clean \u2014 no further action.",
+      "confidence": 0.9,
+      "dollar_exposure": 0,
+      "_source": "baseline",
+      "_record": {
+        "record_id": "DTS-2026-00026",
+        "unit": "1st Marine Division (Camp Pendleton)",
+        "unit_code": "1MARDIV",
+        "traveler": "LtCol R. ADAMS",
+        "trip_reason": "PCS in-route travel",
+        "tdy_city": "Twentynine Palms",
+        "depart_date": "2026-01-21",
+        "return_date": "2026-01-27",
+        "voucher_total": 2209.46,
+        "voucher_lines": [
+          {
+            "category": "lodging",
+            "rate_per_unit": 106.83,
+            "units": 6,
+            "amount": 641.0
+          },
+          {
+            "category": "mie",
+            "rate_per_unit": 64,
+            "units": 6,
+            "amount": 416.0
+          },
+          {
+            "category": "airfare",
+            "rate_per_unit": 594.46,
+            "units": 1,
+            "amount": 594.46
+          },
+          {
+            "category": "rental_car",
+            "rate_per_unit": 454.92,
+            "units": 1,
+            "amount": 454.92
+          },
+          {
+            "category": "ground_trans",
+            "rate_per_unit": 91.88,
+            "units": 1,
+            "amount": 91.88
+          },
+          {
+            "category": "incidentals",
+            "rate_per_unit": 11.2,
+            "units": 1,
+            "amount": 11.2
+          }
+        ],
+        "citi_transactions": [
+          {
+            "txn_id": "CITI-2026-00148",
+            "card_last4": "1182",
+            "traveler_rank": "LtCol",
+            "traveler_name": "R. ADAMS",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-22",
+            "merchant": "HILTON GARDEN INN",
+            "merchant_category": "lodging",
+            "amount": 641.0,
+            "linked_dts_record": "DTS-2026-00026"
+          },
+          {
+            "txn_id": "CITI-2026-00149",
+            "card_last4": "1182",
+            "traveler_rank": "LtCol",
+            "traveler_name": "R. ADAMS",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-19",
+            "merchant": "UNITED AIRLINES",
+            "merchant_category": "airfare",
+            "amount": 594.46,
+            "linked_dts_record": "DTS-2026-00026"
+          },
+          {
+            "txn_id": "CITI-2026-00150",
+            "card_last4": "1182",
+            "traveler_rank": "LtCol",
+            "traveler_name": "R. ADAMS",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-21",
+            "merchant": "HERTZ RENT-A-CAR",
+            "merchant_category": "rental_car",
+            "amount": 454.92,
+            "linked_dts_record": "DTS-2026-00026"
+          },
+          {
+            "txn_id": "CITI-2026-00151",
+            "card_last4": "1182",
+            "traveler_rank": "LtCol",
+            "traveler_name": "R. ADAMS",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-22",
+            "merchant": "YELLOW CAB CO",
+            "merchant_category": "ground_trans",
+            "amount": 30.36,
+            "linked_dts_record": "DTS-2026-00026"
+          },
+          {
+            "txn_id": "CITI-2026-00152",
+            "card_last4": "1182",
+            "traveler_rank": "LtCol",
+            "traveler_name": "R. ADAMS",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-21",
+            "merchant": "YELLOW CAB CO",
+            "merchant_category": "ground_trans",
+            "amount": 18.99,
+            "linked_dts_record": "DTS-2026-00026"
+          },
+          {
+            "txn_id": "CITI-2026-00153",
+            "card_last4": "1182",
+            "traveler_rank": "LtCol",
+            "traveler_name": "R. ADAMS",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-22",
+            "merchant": "LYFT * RIDE",
+            "merchant_category": "ground_trans",
+            "amount": 32.45,
+            "linked_dts_record": "DTS-2026-00026"
+          },
+          {
+            "txn_id": "CITI-2026-00154",
+            "card_last4": "1182",
+            "traveler_rank": "LtCol",
+            "traveler_name": "R. ADAMS",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-21",
+            "merchant": "WMATA SMARTRIP",
+            "merchant_category": "ground_trans",
+            "amount": 10.08,
+            "linked_dts_record": "DTS-2026-00026"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "DTS-2026-00027",
+      "issues_found": [
+        "non_authorized_expense",
+        "card_charge_no_voucher"
+      ],
+      "severity": "escalate",
+      "auto_correctable": false,
+      "recommended_action": "Refer to Agency Program Coordinator (APC) for cardholder counseling.",
+      "confidence": 0.62,
+      "dollar_exposure": 290,
+      "_source": "baseline",
+      "_record": {
+        "record_id": "DTS-2026-00027",
+        "unit": "1st Marine Division (Camp Pendleton)",
+        "unit_code": "1MARDIV",
+        "traveler": "CWO3 M. HILL",
+        "trip_reason": "TAD \u2014 Site survey",
+        "tdy_city": "Twentynine Palms",
+        "depart_date": "2026-03-14",
+        "return_date": "2026-03-17",
+        "voucher_total": 838.67,
+        "voucher_lines": [
+          {
+            "category": "lodging",
+            "rate_per_unit": 110.37,
+            "units": 3,
+            "amount": 331.11
+          },
+          {
+            "category": "mie",
+            "rate_per_unit": 64,
+            "units": 3,
+            "amount": 224.0
+          },
+          {
+            "category": "rental_car",
+            "rate_per_unit": 188.55,
+            "units": 1,
+            "amount": 188.55
+          },
+          {
+            "category": "ground_trans",
+            "rate_per_unit": 91.21,
+            "units": 1,
+            "amount": 91.21
+          },
+          {
+            "category": "incidentals",
+            "rate_per_unit": 3.8,
+            "units": 1,
+            "amount": 3.8
+          }
+        ],
+        "citi_transactions": [
+          {
+            "txn_id": "CITI-2026-00155",
+            "card_last4": "1189",
+            "traveler_rank": "CWO3",
+            "traveler_name": "M. HILL",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-15",
+            "merchant": "HILTON GARDEN INN",
+            "merchant_category": "lodging",
+            "amount": 331.11,
+            "linked_dts_record": "DTS-2026-00027"
+          },
+          {
+            "txn_id": "CITI-2026-00156",
+            "card_last4": "1189",
+            "traveler_rank": "CWO3",
+            "traveler_name": "M. HILL",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-14",
+            "merchant": "BUDGET RENT-A-CAR",
+            "merchant_category": "rental_car",
+            "amount": 188.55,
+            "linked_dts_record": "DTS-2026-00027"
+          },
+          {
+            "txn_id": "CITI-2026-00157",
+            "card_last4": "1189",
+            "traveler_rank": "CWO3",
+            "traveler_name": "M. HILL",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-16",
+            "merchant": "YELLOW CAB CO",
+            "merchant_category": "ground_trans",
+            "amount": 25.45,
+            "linked_dts_record": "DTS-2026-00027"
+          },
+          {
+            "txn_id": "CITI-2026-00158",
+            "card_last4": "1189",
+            "traveler_rank": "CWO3",
+            "traveler_name": "M. HILL",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-15",
+            "merchant": "WMATA SMARTRIP",
+            "merchant_category": "ground_trans",
+            "amount": 23.59,
+            "linked_dts_record": "DTS-2026-00027"
+          },
+          {
+            "txn_id": "CITI-2026-00159",
+            "card_last4": "1189",
+            "traveler_rank": "CWO3",
+            "traveler_name": "M. HILL",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-15",
+            "merchant": "WMATA SMARTRIP",
+            "merchant_category": "ground_trans",
+            "amount": 28.19,
+            "linked_dts_record": "DTS-2026-00027"
+          },
+          {
+            "txn_id": "CITI-2026-00160",
+            "card_last4": "1189",
+            "traveler_rank": "CWO3",
+            "traveler_name": "M. HILL",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-15",
+            "merchant": "LYFT * RIDE",
+            "merchant_category": "ground_trans",
+            "amount": 13.98,
+            "linked_dts_record": "DTS-2026-00027"
+          },
+          {
+            "txn_id": "CITI-2026-00161",
+            "card_last4": "1189",
+            "traveler_rank": "CWO3",
+            "traveler_name": "M. HILL",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-16",
+            "merchant": "CRACKER BARREL",
+            "merchant_category": "meals",
+            "amount": 36.87,
+            "linked_dts_record": "DTS-2026-00027"
+          },
+          {
+            "txn_id": "CITI-2026-00162",
+            "card_last4": "1189",
+            "traveler_rank": "CWO3",
+            "traveler_name": "M. HILL",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-16",
+            "merchant": "CRACKER BARREL",
+            "merchant_category": "meals",
+            "amount": 33.9,
+            "linked_dts_record": "DTS-2026-00027"
+          },
+          {
+            "txn_id": "CITI-2026-00163",
+            "card_last4": "1189",
+            "traveler_rank": "CWO3",
+            "traveler_name": "M. HILL",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-15",
+            "merchant": "BEST BUY #0481",
+            "merchant_category": "non_authorized",
+            "amount": 281.02,
+            "linked_dts_record": "DTS-2026-00027"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "DTS-2026-00028",
+      "issues_found": [],
+      "severity": "info",
+      "auto_correctable": true,
+      "recommended_action": "Clean \u2014 no further action.",
+      "confidence": 0.9,
+      "dollar_exposure": 0,
+      "_source": "baseline",
+      "_record": {
+        "record_id": "DTS-2026-00028",
+        "unit": "1st Marine Division (Camp Pendleton)",
+        "unit_code": "1MARDIV",
+        "traveler": "CWO3 F. TORRES",
+        "trip_reason": "TAD \u2014 Inspection / IG team",
+        "tdy_city": "San Diego",
+        "depart_date": "2026-01-04",
+        "return_date": "2026-01-10",
+        "voucher_total": 2612.89,
+        "voucher_lines": [
+          {
+            "category": "lodging",
+            "rate_per_unit": 223.86,
+            "units": 6,
+            "amount": 1343.14
+          },
+          {
+            "category": "mie",
+            "rate_per_unit": 79,
+            "units": 6,
+            "amount": 513.5
+          },
+          {
+            "category": "airfare",
+            "rate_per_unit": 352.49,
+            "units": 1,
+            "amount": 352.49
+          },
+          {
+            "category": "rental_car",
+            "rate_per_unit": 272.4,
+            "units": 1,
+            "amount": 272.4
+          },
+          {
+            "category": "ground_trans",
+            "rate_per_unit": 94.7,
+            "units": 1,
+            "amount": 94.7
+          },
+          {
+            "category": "incidentals",
+            "rate_per_unit": 36.66,
+            "units": 1,
+            "amount": 36.66
+          }
+        ],
+        "citi_transactions": [
+          {
+            "txn_id": "CITI-2026-00164",
+            "card_last4": "1196",
+            "traveler_rank": "CWO3",
+            "traveler_name": "F. TORRES",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-05",
+            "merchant": "HILTON GARDEN INN",
+            "merchant_category": "lodging",
+            "amount": 1343.14,
+            "linked_dts_record": "DTS-2026-00028"
+          },
+          {
+            "txn_id": "CITI-2026-00165",
+            "card_last4": "1196",
+            "traveler_rank": "CWO3",
+            "traveler_name": "F. TORRES",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-02",
+            "merchant": "DELTA AIR LINES",
+            "merchant_category": "airfare",
+            "amount": 352.49,
+            "linked_dts_record": "DTS-2026-00028"
+          },
+          {
+            "txn_id": "CITI-2026-00166",
+            "card_last4": "1196",
+            "traveler_rank": "CWO3",
+            "traveler_name": "F. TORRES",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-04",
+            "merchant": "HERTZ RENT-A-CAR",
+            "merchant_category": "rental_car",
+            "amount": 272.4,
+            "linked_dts_record": "DTS-2026-00028"
+          },
+          {
+            "txn_id": "CITI-2026-00167",
+            "card_last4": "1196",
+            "traveler_rank": "CWO3",
+            "traveler_name": "F. TORRES",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-04",
+            "merchant": "LYFT * RIDE",
+            "merchant_category": "ground_trans",
+            "amount": 29.26,
+            "linked_dts_record": "DTS-2026-00028"
+          },
+          {
+            "txn_id": "CITI-2026-00168",
+            "card_last4": "1196",
+            "traveler_rank": "CWO3",
+            "traveler_name": "F. TORRES",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-05",
+            "merchant": "LYFT * RIDE",
+            "merchant_category": "ground_trans",
+            "amount": 32.87,
+            "linked_dts_record": "DTS-2026-00028"
+          },
+          {
+            "txn_id": "CITI-2026-00169",
+            "card_last4": "1196",
+            "traveler_rank": "CWO3",
+            "traveler_name": "F. TORRES",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-09",
+            "merchant": "UBER TRIP",
+            "merchant_category": "ground_trans",
+            "amount": 14.73,
+            "linked_dts_record": "DTS-2026-00028"
+          },
+          {
+            "txn_id": "CITI-2026-00170",
+            "card_last4": "1196",
+            "traveler_rank": "CWO3",
+            "traveler_name": "F. TORRES",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-07",
+            "merchant": "YELLOW CAB CO",
+            "merchant_category": "ground_trans",
+            "amount": 17.84,
+            "linked_dts_record": "DTS-2026-00028"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "DTS-2026-00029",
+      "issues_found": [
+        "amount_mismatch",
+        "missing_receipt"
+      ],
+      "severity": "warn",
+      "auto_correctable": true,
+      "recommended_action": "Reconcile DTS voucher against Citi sum; correct in DTS.",
+      "confidence": 0.62,
+      "dollar_exposure": 395,
+      "_source": "baseline",
+      "_record": {
+        "record_id": "DTS-2026-00029",
+        "unit": "1st Marine Division (Camp Pendleton)",
+        "unit_code": "1MARDIV",
+        "traveler": "Capt A. PEREZ",
+        "trip_reason": "TAD \u2014 Funeral honors detail",
+        "tdy_city": "Honolulu",
+        "depart_date": "2026-01-24",
+        "return_date": "2026-01-27",
+        "voucher_total": 2678.33,
+        "voucher_lines": [
+          {
+            "category": "lodging",
+            "rate_per_unit": 244.86,
+            "units": 3,
+            "amount": 734.59
+          },
+          {
+            "category": "mie",
+            "rate_per_unit": 134,
+            "units": 3,
+            "amount": 469.0
+          },
+          {
+            "category": "airfare",
+            "rate_per_unit": 801.13,
+            "units": 1,
+            "amount": 801.13
+          },
+          {
+            "category": "rental_car",
+            "rate_per_unit": 435.84,
+            "units": 1,
+            "amount": 435.84
+          },
+          {
+            "category": "ground_trans",
+            "rate_per_unit": 85.52,
+            "units": 1,
+            "amount": 85.52
+          },
+          {
+            "category": "incidentals",
+            "rate_per_unit": 29.48,
+            "units": 1,
+            "amount": 29.48
+          },
+          {
+            "category": "incidentals",
+            "rate_per_unit": 122.77,
+            "units": 1,
+            "amount": 122.77,
+            "note": "receipt_missing"
+          }
+        ],
+        "citi_transactions": [
+          {
+            "txn_id": "CITI-2026-00171",
+            "card_last4": "1203",
+            "traveler_rank": "Capt",
+            "traveler_name": "A. PEREZ",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-22",
+            "merchant": "UNITED AIRLINES",
+            "merchant_category": "airfare",
+            "amount": 801.13,
+            "linked_dts_record": "DTS-2026-00029"
+          },
+          {
+            "txn_id": "CITI-2026-00172",
+            "card_last4": "1203",
+            "traveler_rank": "Capt",
+            "traveler_name": "A. PEREZ",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-24",
+            "merchant": "ENTERPRISE RENT-A-CAR",
+            "merchant_category": "rental_car",
+            "amount": 435.84,
+            "linked_dts_record": "DTS-2026-00029"
+          },
+          {
+            "txn_id": "CITI-2026-00173",
+            "card_last4": "1203",
+            "traveler_rank": "Capt",
+            "traveler_name": "A. PEREZ",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-24",
+            "merchant": "YELLOW CAB CO",
+            "merchant_category": "ground_trans",
+            "amount": 23.2,
+            "linked_dts_record": "DTS-2026-00029"
+          },
+          {
+            "txn_id": "CITI-2026-00174",
+            "card_last4": "1203",
+            "traveler_rank": "Capt",
+            "traveler_name": "A. PEREZ",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-25",
+            "merchant": "YELLOW CAB CO",
+            "merchant_category": "ground_trans",
+            "amount": 31.13,
+            "linked_dts_record": "DTS-2026-00029"
+          },
+          {
+            "txn_id": "CITI-2026-00175",
+            "card_last4": "1203",
+            "traveler_rank": "Capt",
+            "traveler_name": "A. PEREZ",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-26",
+            "merchant": "LYFT * RIDE",
+            "merchant_category": "ground_trans",
+            "amount": 31.19,
+            "linked_dts_record": "DTS-2026-00029"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "DTS-2026-00030",
+      "issues_found": [],
+      "severity": "info",
+      "auto_correctable": true,
+      "recommended_action": "Clean \u2014 no further action.",
+      "confidence": 0.9,
+      "dollar_exposure": 0,
+      "_source": "baseline",
+      "_record": {
+        "record_id": "DTS-2026-00030",
+        "unit": "1st Marine Division (Camp Pendleton)",
+        "unit_code": "1MARDIV",
+        "traveler": "LtCol K. ROBERTS",
+        "trip_reason": "TAD \u2014 Training course",
+        "tdy_city": "San Diego",
+        "depart_date": "2026-02-25",
+        "return_date": "2026-03-02",
+        "voucher_total": 1629.23,
+        "voucher_lines": [
+          {
+            "category": "lodging",
+            "rate_per_unit": 224.88,
+            "units": 5,
+            "amount": 1124.41
+          },
+          {
+            "category": "mie",
+            "rate_per_unit": 79,
+            "units": 5,
+            "amount": 434.5
+          },
+          {
+            "category": "ground_trans",
+            "rate_per_unit": 29.83,
+            "units": 1,
+            "amount": 29.83
+          },
+          {
+            "category": "incidentals",
+            "rate_per_unit": 40.49,
+            "units": 1,
+            "amount": 40.49
+          }
+        ],
+        "citi_transactions": [
+          {
+            "txn_id": "CITI-2026-00176",
+            "card_last4": "1210",
+            "traveler_rank": "LtCol",
+            "traveler_name": "K. ROBERTS",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-26",
+            "merchant": "HILTON GARDEN INN",
+            "merchant_category": "lodging",
+            "amount": 1124.41,
+            "linked_dts_record": "DTS-2026-00030"
+          },
+          {
+            "txn_id": "CITI-2026-00177",
+            "card_last4": "1210",
+            "traveler_rank": "LtCol",
+            "traveler_name": "K. ROBERTS",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-01",
+            "merchant": "WMATA SMARTRIP",
+            "merchant_category": "ground_trans",
+            "amount": 15.53,
+            "linked_dts_record": "DTS-2026-00030"
+          },
+          {
+            "txn_id": "CITI-2026-00178",
+            "card_last4": "1210",
+            "traveler_rank": "LtCol",
+            "traveler_name": "K. ROBERTS",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-27",
+            "merchant": "YELLOW CAB CO",
+            "merchant_category": "ground_trans",
+            "amount": 14.3,
+            "linked_dts_record": "DTS-2026-00030"
+          },
+          {
+            "txn_id": "CITI-2026-00179",
+            "card_last4": "1210",
+            "traveler_rank": "LtCol",
+            "traveler_name": "K. ROBERTS",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-02-28",
+            "merchant": "CHIPOTLE MEXICAN GRILL",
+            "merchant_category": "meals",
+            "amount": 45.74,
+            "linked_dts_record": "DTS-2026-00030"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "DTS-2026-00031",
+      "issues_found": [],
+      "severity": "info",
+      "auto_correctable": true,
+      "recommended_action": "Clean \u2014 no further action.",
+      "confidence": 0.9,
+      "dollar_exposure": 0,
+      "_source": "baseline",
+      "_record": {
+        "record_id": "DTS-2026-00031",
+        "unit": "1st Marine Division (Camp Pendleton)",
+        "unit_code": "1MARDIV",
+        "traveler": "Maj E. GREEN",
+        "trip_reason": "TAD \u2014 Working group",
+        "tdy_city": "Yuma",
+        "depart_date": "2026-01-18",
+        "return_date": "2026-01-22",
+        "voucher_total": 817.31,
+        "voucher_lines": [
+          {
+            "category": "lodging",
+            "rate_per_unit": 106.34,
+            "units": 4,
+            "amount": 425.37
+          },
+          {
+            "category": "mie",
+            "rate_per_unit": 64,
+            "units": 4,
+            "amount": 288.0
+          },
+          {
+            "category": "ground_trans",
+            "rate_per_unit": 48.15,
+            "units": 1,
+            "amount": 48.15
+          },
+          {
+            "category": "incidentals",
+            "rate_per_unit": 55.79,
+            "units": 1,
+            "amount": 55.79
+          }
+        ],
+        "citi_transactions": [
+          {
+            "txn_id": "CITI-2026-00180",
+            "card_last4": "1217",
+            "traveler_rank": "Maj",
+            "traveler_name": "E. GREEN",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-19",
+            "merchant": "HILTON GARDEN INN",
+            "merchant_category": "lodging",
+            "amount": 425.37,
+            "linked_dts_record": "DTS-2026-00031"
+          },
+          {
+            "txn_id": "CITI-2026-00181",
+            "card_last4": "1217",
+            "traveler_rank": "Maj",
+            "traveler_name": "E. GREEN",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-18",
+            "merchant": "WMATA SMARTRIP",
+            "merchant_category": "ground_trans",
+            "amount": 37.26,
+            "linked_dts_record": "DTS-2026-00031"
+          },
+          {
+            "txn_id": "CITI-2026-00182",
+            "card_last4": "1217",
+            "traveler_rank": "Maj",
+            "traveler_name": "E. GREEN",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-01-20",
+            "merchant": "UBER TRIP",
+            "merchant_category": "ground_trans",
+            "amount": 10.89,
+            "linked_dts_record": "DTS-2026-00031"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "DTS-2026-00032",
+      "issues_found": [
+        "rate_above_per_diem"
+      ],
+      "severity": "warn",
+      "auto_correctable": true,
+      "recommended_action": "Lodging exceeds GSA ceiling; require justification memo.",
+      "confidence": 0.62,
+      "dollar_exposure": 290,
+      "_source": "baseline",
+      "_record": {
+        "record_id": "DTS-2026-00032",
+        "unit": "1st Marine Division (Camp Pendleton)",
+        "unit_code": "1MARDIV",
+        "traveler": "Cpl G. YOUNG",
+        "trip_reason": "PCS in-route travel",
+        "tdy_city": "Honolulu",
+        "depart_date": "2026-03-17",
+        "return_date": "2026-03-20",
+        "voucher_total": 2642.9,
+        "voucher_lines": [
+          {
+            "category": "lodging",
+            "rate_per_unit": 325.52,
+            "units": 3,
+            "amount": 976.55
+          },
+          {
+            "category": "mie",
+            "rate_per_unit": 134,
+            "units": 3,
+            "amount": 469.0
+          },
+          {
+            "category": "airfare",
+            "rate_per_unit": 684.3,
+            "units": 1,
+            "amount": 684.3
+          },
+          {
+            "category": "rental_car",
+            "rate_per_unit": 433.59,
+            "units": 1,
+            "amount": 433.59
+          },
+          {
+            "category": "ground_trans",
+            "rate_per_unit": 65.01,
+            "units": 1,
+            "amount": 65.01
+          },
+          {
+            "category": "incidentals",
+            "rate_per_unit": 14.45,
+            "units": 1,
+            "amount": 14.45
+          }
+        ],
+        "citi_transactions": [
+          {
+            "txn_id": "CITI-2026-00183",
+            "card_last4": "1224",
+            "traveler_rank": "Cpl",
+            "traveler_name": "G. YOUNG",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-18",
+            "merchant": "HILTON GARDEN INN",
+            "merchant_category": "lodging",
+            "amount": 976.55,
+            "linked_dts_record": "DTS-2026-00032"
+          },
+          {
+            "txn_id": "CITI-2026-00184",
+            "card_last4": "1224",
+            "traveler_rank": "Cpl",
+            "traveler_name": "G. YOUNG",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-15",
+            "merchant": "SOUTHWEST AIRLINES",
+            "merchant_category": "airfare",
+            "amount": 684.3,
+            "linked_dts_record": "DTS-2026-00032"
+          },
+          {
+            "txn_id": "CITI-2026-00185",
+            "card_last4": "1224",
+            "traveler_rank": "Cpl",
+            "traveler_name": "G. YOUNG",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-17",
+            "merchant": "AVIS RENT-A-CAR",
+            "merchant_category": "rental_car",
+            "amount": 433.59,
+            "linked_dts_record": "DTS-2026-00032"
+          },
+          {
+            "txn_id": "CITI-2026-00186",
+            "card_last4": "1224",
+            "traveler_rank": "Cpl",
+            "traveler_name": "G. YOUNG",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-19",
+            "merchant": "WMATA SMARTRIP",
+            "merchant_category": "ground_trans",
+            "amount": 19.36,
+            "linked_dts_record": "DTS-2026-00032"
+          },
+          {
+            "txn_id": "CITI-2026-00187",
+            "card_last4": "1224",
+            "traveler_rank": "Cpl",
+            "traveler_name": "G. YOUNG",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-17",
+            "merchant": "UBER TRIP",
+            "merchant_category": "ground_trans",
+            "amount": 15.26,
+            "linked_dts_record": "DTS-2026-00032"
+          },
+          {
+            "txn_id": "CITI-2026-00188",
+            "card_last4": "1224",
+            "traveler_rank": "Cpl",
+            "traveler_name": "G. YOUNG",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-17",
+            "merchant": "WMATA SMARTRIP",
+            "merchant_category": "ground_trans",
+            "amount": 18.37,
+            "linked_dts_record": "DTS-2026-00032"
+          },
+          {
+            "txn_id": "CITI-2026-00189",
+            "card_last4": "1224",
+            "traveler_rank": "Cpl",
+            "traveler_name": "G. YOUNG",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-19",
+            "merchant": "LYFT * RIDE",
+            "merchant_category": "ground_trans",
+            "amount": 12.02,
+            "linked_dts_record": "DTS-2026-00032"
+          },
+          {
+            "txn_id": "CITI-2026-00190",
+            "card_last4": "1224",
+            "traveler_rank": "Cpl",
+            "traveler_name": "G. YOUNG",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-19",
+            "merchant": "OLIVE GARDEN",
+            "merchant_category": "meals",
+            "amount": 55.05,
+            "linked_dts_record": "DTS-2026-00032"
+          },
+          {
+            "txn_id": "CITI-2026-00191",
+            "card_last4": "1224",
+            "traveler_rank": "Cpl",
+            "traveler_name": "G. YOUNG",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-17",
+            "merchant": "APPLEBEES NEIGHBORHOOD GRILL",
+            "merchant_category": "meals",
+            "amount": 64.29,
+            "linked_dts_record": "DTS-2026-00032"
+          }
+        ]
+      }
+    },
+    {
+      "record_id": "DTS-2026-00033",
+      "issues_found": [],
+      "severity": "info",
+      "auto_correctable": true,
+      "recommended_action": "Clean \u2014 no further action.",
+      "confidence": 0.9,
+      "dollar_exposure": 0,
+      "_source": "baseline",
+      "_record": {
+        "record_id": "DTS-2026-00033",
+        "unit": "1st Marine Division (Camp Pendleton)",
+        "unit_code": "1MARDIV",
+        "traveler": "MSgt K. GREEN",
+        "trip_reason": "TAD \u2014 Funeral honors detail",
+        "tdy_city": "Oceanside",
+        "depart_date": "2026-03-22",
+        "return_date": "2026-03-24",
+        "voucher_total": 895.99,
+        "voucher_lines": [
+          {
+            "category": "lodging",
+            "rate_per_unit": 166.13,
+            "units": 2,
+            "amount": 332.27
+          },
+          {
+            "category": "mie",
+            "rate_per_unit": 74,
+            "units": 2,
+            "amount": 185.0
+          },
+          {
+            "category": "airfare",
+            "rate_per_unit": 329.73,
+            "units": 1,
+            "amount": 329.73
+          },
+          {
+            "category": "ground_trans",
+            "rate_per_unit": 44.55,
+            "units": 1,
+            "amount": 44.55
+          },
+          {
+            "category": "incidentals",
+            "rate_per_unit": 4.44,
+            "units": 1,
+            "amount": 4.44
+          }
+        ],
+        "citi_transactions": [
+          {
+            "txn_id": "CITI-2026-00192",
+            "card_last4": "1231",
+            "traveler_rank": "MSgt",
+            "traveler_name": "K. GREEN",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-23",
+            "merchant": "HILTON GARDEN INN",
+            "merchant_category": "lodging",
+            "amount": 332.27,
+            "linked_dts_record": "DTS-2026-00033"
+          },
+          {
+            "txn_id": "CITI-2026-00193",
+            "card_last4": "1231",
+            "traveler_rank": "MSgt",
+            "traveler_name": "K. GREEN",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-20",
+            "merchant": "UNITED AIRLINES",
+            "merchant_category": "airfare",
+            "amount": 329.73,
+            "linked_dts_record": "DTS-2026-00033"
+          },
+          {
+            "txn_id": "CITI-2026-00194",
+            "card_last4": "1231",
+            "traveler_rank": "MSgt",
+            "traveler_name": "K. GREEN",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-22",
+            "merchant": "YELLOW CAB CO",
+            "merchant_category": "ground_trans",
+            "amount": 8.71,
+            "linked_dts_record": "DTS-2026-00033"
+          },
+          {
+            "txn_id": "CITI-2026-00195",
+            "card_last4": "1231",
+            "traveler_rank": "MSgt",
+            "traveler_name": "K. GREEN",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-22",
+            "merchant": "YELLOW CAB CO",
+            "merchant_category": "ground_trans",
+            "amount": 29.68,
+            "linked_dts_record": "DTS-2026-00033"
+          },
+          {
+            "txn_id": "CITI-2026-00196",
+            "card_last4": "1231",
+            "traveler_rank": "MSgt",
+            "traveler_name": "K. GREEN",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-22",
+            "merchant": "UBER TRIP",
+            "merchant_category": "ground_trans",
+            "amount": 6.16,
+            "linked_dts_record": "DTS-2026-00033"
+          },
+          {
+            "txn_id": "CITI-2026-00197",
+            "card_last4": "1231",
+            "traveler_rank": "MSgt",
+            "traveler_name": "K. GREEN",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-22",
+            "merchant": "SUBWAY SANDWICHES",
+            "merchant_category": "meals",
+            "amount": 12.59,
+            "linked_dts_record": "DTS-2026-00033"
+          },
+          {
+            "txn_id": "CITI-2026-00198",
+            "card_last4": "1231",
+            "traveler_rank": "MSgt",
+            "traveler_name": "K. GREEN",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-22",
+            "merchant": "SUBWAY SANDWICHES",
+            "merchant_category": "meals",
+            "amount": 23.94,
+            "linked_dts_record": "DTS-2026-00033"
+          },
+          {
+            "txn_id": "CITI-2026-00199",
+            "card_last4": "1231",
+            "traveler_rank": "MSgt",
+            "traveler_name": "K. GREEN",
+            "unit_code": "1MARDIV",
+            "unit": "1st Marine Division (Camp Pendleton)",
+            "post_date": "2026-03-23",
+            "merchant": "CRACKER BARREL",
+            "merchant_category": "meals",
+            "amount": 40.86,
+            "linked_dts_record": "DTS-2026-00033"
+          }
+        ]
+      }
+    }
+  ]
+}

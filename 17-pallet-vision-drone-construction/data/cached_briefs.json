@@ -1,0 +1,155 @@
+{
+  "S001": {
+    "quant": {
+      "pallets_visible": 20,
+      "pallet_type_estimate": "wood-stringer",
+      "stacking_efficiency_pct": 85.0,
+      "estimated_volume_m3": 40.0,
+      "estimated_weight_kg": 10000.0,
+      "vehicles_required": [
+        {
+          "platform": "M1083 FMTV (5-ton)",
+          "count": 5,
+          "load_pct": 100.0
+        }
+      ],
+      "constraints_named": [],
+      "confidence": 0.9,
+      "recommended_load_plan_brief": "Use 5 M1083 FMTV trucks to transport all pallets in one trip.",
+      "_model_used": "gpt-4o"
+    },
+    "brief_md": "- The cargo consists of 20 wood-stringer pallets with an estimated total weight of 10,000 kg.  \n- I recommend using the C-17 Globemaster III for airlift, utilizing all 18 463L pallet positions due to its high weight capacity of 77,519 kg and large volume capacity of 592.0 m\u00b3.  \n- As a backup plan, the KC-46A Pegasus could be employed, which also has 18 463L pallet positions and a maximum weight capacity of 65,317 kg.  \n- One risk to brief up the chain is the potential for weight distribution issues given the high density of the cargo, which may affect aircraft performance during flight.  ",
+    "scene_type": "warehouse",
+    "title": "Warehouse cube \u2014 staged pallets"
+  },
+  "S002": {
+    "quant": {
+      "pallets_visible": 10,
+      "pallet_type_estimate": "mixed",
+      "stacking_efficiency_pct": 75.0,
+      "estimated_volume_m3": 20.0,
+      "estimated_weight_kg": 5000.0,
+      "vehicles_required": [
+        {
+          "platform": "M1083 FMTV (5-ton)",
+          "count": 3,
+          "load_pct": 83.33
+        }
+      ],
+      "constraints_named": [
+        "M1083 FMTV pallet capacity: 4 pallets max"
+      ],
+      "confidence": 0.85,
+      "recommended_load_plan_brief": "Use three M1083 FMTV trucks to transport the 10 pallets in one trip, ensuring efficient load distribution.",
+      "_model_used": "gpt-4o"
+    },
+    "brief_md": "- The cargo is configured with 10 mixed pallets, estimated to weigh around 5000 kg, with a stacking efficiency of 75%.  \n- I would use the C-17 Globemaster III for transport, utilizing pallet positions 1-10, as it can accommodate all 10 pallets and has a maximum weight limit well above our estimated weight.  \n- As a backup, the KC-46A Pegasus could be utilized, also using pallet positions 1-10, should the C-17 not be available.  \n- A key risk to brief up the chain is the M1083 FMTV's limited pallet capacity of 4 pallets max, which may necessitate multiple trips if this platform is used.  ",
+    "scene_type": "loading_dock",
+    "title": "Loading dock \u2014 mixed cargo"
+  },
+  "S003": {
+    "quant": {
+      "pallets_visible": 4,
+      "pallet_type_estimate": "463L",
+      "stacking_efficiency_pct": 100.0,
+      "estimated_volume_m3": 8.0,
+      "estimated_weight_kg": 8000.0,
+      "vehicles_required": [
+        {
+          "platform": "MTVR (MK23)",
+          "count": 1,
+          "load_pct": 100.0
+        }
+      ],
+      "constraints_named": [
+        "MTVR pallet capacity constraint: 4 pallets max"
+      ],
+      "confidence": 0.95,
+      "recommended_load_plan_brief": "The MTVR is fully loaded with 4 463L pallets, maximizing its capacity.",
+      "_model_used": "gpt-4o"
+    },
+    "brief_md": "- The cargo is configured with 4 463L pallets, totaling an estimated weight of 8000 kg, fully utilizing the MTVR's capacity.  \n- I would use the MTVR (MK23) first, as it can accommodate all 4 pallets in position 1-4, maximizing its load capacity.  \n- If the MTVR is not available, the backup option would be the LVSR (MK36), which can carry up to 8 pallets and has a higher weight limit of 20412 kg.  \n- One risk to brief up the chain is the MTVR's pallet capacity constraint, which limits us to a maximum of 4 pallets, potentially affecting load flexibility.  ",
+    "scene_type": "drone_overhead",
+    "title": "Drone overhead \u2014 MTVR loaded"
+  },
+  "S004": {
+    "quant": {
+      "pallets_visible": 12,
+      "pallet_type_estimate": "463L",
+      "stacking_efficiency_pct": 90.0,
+      "estimated_volume_m3": 50.0,
+      "estimated_weight_kg": 54432.0,
+      "vehicles_required": [
+        {
+          "platform": "C-17 Globemaster III",
+          "count": 1,
+          "load_pct": 66.67
+        }
+      ],
+      "constraints_named": [
+        "C-17 pallet position constraint: 18 463L max"
+      ],
+      "confidence": 0.95,
+      "recommended_load_plan_brief": "Load all 12 pallets onto a single C-17 Globemaster III for efficient transport.",
+      "_model_used": "gpt-4o"
+    },
+    "brief_md": "- The cargo is configured with 12 pallets of 463L type, estimated to weigh approximately 54,432 kg in total.  \n- I would use the C-17 Globemaster III first, utilizing pallet positions 1 through 12, as it can accommodate all 12 pallets within its capacity limits.  \n- As a backup plan, if the C-17 is unavailable, I would chain the load to the KC-46A Pegasus, which can also handle 18 pallets but has a lower weight limit of 65,317 kg.  \n- One risk to brief up the chain is the weight constraint, as the total estimated weight of 54,432 kg is close to the maximum limit of the C-17, which could affect loading operations.  ",
+    "scene_type": "flight_line",
+    "title": "Flight line \u2014 463L stacks"
+  },
+  "S005": {
+    "quant": {
+      "pallets_visible": 6,
+      "pallet_type_estimate": "wood-stringer",
+      "stacking_efficiency_pct": 75.0,
+      "estimated_volume_m3": 12.0,
+      "estimated_weight_kg": 3000.0,
+      "vehicles_required": [
+        {
+          "platform": "M1083 FMTV (5-ton)",
+          "count": 2,
+          "load_pct": 75.0
+        }
+      ],
+      "constraints_named": [
+        "M1083 FMTV pallet capacity: 4 pallets max"
+      ],
+      "confidence": 0.85,
+      "recommended_load_plan_brief": "Use two M1083 FMTV trucks to transport the pallets, ensuring efficient stacking and distribution.",
+      "_model_used": "gpt-4o"
+    },
+    "brief_md": "- The cargo consists of 6 wood-stringer pallets with an estimated total weight of 3000 kg, requiring 2 M1083 FMTV trucks for transport due to their 4-pallet capacity limit.  \n- I recommend using the C-130J Super Hercules as the first platform, utilizing position 1 through 6, as it can accommodate the weight and volume efficiently.  \n- As a backup, the MTVR (MK23) can be utilized if the C-130J is unavailable, as it can carry 4 pallets with a maximum weight limit of 6804 kg.  \n- One risk to brief up the chain is the weight constraint of the M1083 FMTV, which has a maximum capacity of 4536 kg, necessitating careful weight management during loading.  ",
+    "scene_type": "construction_yard",
+    "title": "Construction yard \u2014 heavy equipment"
+  },
+  "S006": {
+    "quant": {
+      "pallets_visible": 30,
+      "pallet_type_estimate": "463L",
+      "stacking_efficiency_pct": 85.0,
+      "estimated_volume_m3": 150.0,
+      "estimated_weight_kg": 136080.0,
+      "vehicles_required": [
+        {
+          "platform": "C-17 Globemaster III",
+          "count": 2,
+          "load_pct": 83.33
+        },
+        {
+          "platform": "LCAC",
+          "count": 3,
+          "load_pct": 83.33
+        }
+      ],
+      "constraints_named": [
+        "C-17 pallet position constraint: 18 463L max"
+      ],
+      "confidence": 0.95,
+      "recommended_load_plan_brief": "Use two C-17 aircraft for airlift or three LCACs for ship-to-shore transport.",
+      "_model_used": "gpt-4o"
+    },
+    "brief_md": "- The cargo is configured with 30 pallets of 463L type, estimated to weigh approximately 136,080 kg.  \n- I would use two C-17 Globemaster III aircraft, utilizing pallet position numbers 1 through 18, as they can accommodate the full weight and volume with a capacity of 18 pallets each.  \n- As a backup plan, I would chain the operation with three LCACs, which can each carry 12 pallets, providing an alternative for ship-to-shore transport if the C-17s are unavailable.  \n- One risk to brief up the chain is the C-17's pallet position constraint, which limits us to a maximum of 18 pallets, potentially requiring careful load planning to avoid exceeding capacity.  ",
+    "scene_type": "ship_deck",
+    "title": "Ship deck \u2014 sealift staging"
+  }
+}

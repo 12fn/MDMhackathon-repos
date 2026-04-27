@@ -1,0 +1,16 @@
+nsn,nomenclature,used_by,on_hand,eta_days,eta_date,long_pole,unit_cost_usd,source
+4730-01-441-2298,"Hydraulic seal kit, lift assy","MTVR,AAV,LAV,M1A1",2,7,2026-05-04,Y,230000,OEM (BAE)
+2520-01-562-9981,"Transfer case, ratio 1.85","MTVR,LAV",0,21,2026-05-18,Y,230000,OEM (BAE)
+1680-01-651-2244,"Prop rotor blade, MV-22 (composite)",MV-22,0,21,2026-05-18,Y,450,OEM (BAE)
+1730-01-498-7102,"Hydraulic actuator, ramp assy","AAV,M1A1",4,60,2026-06-26,Y,230000,OEM (BAE)
+2920-01-588-4471,"Starter, 24V high-torque","MTVR,LAV,AAV",49,0,,N,3400,DLA Aviation
+5340-01-122-4419,"Bracket, armor liner","LAV,M1A1,AAV",55,3,2026-04-30,N,230000,OEM (Oshkosh)
+4710-01-440-9921,"Hose, hydraulic high-pressure 1.25in","MTVR,AAV,LAV,M1A1",9,14,2026-05-11,N,28000,DLA Land
+3110-01-617-8013,"Bearing, prop hub MV-22",MV-22,0,14,2026-05-11,Y,110000,DLA Land
+2540-01-572-3041,"Seat, armored crew (driver)","LAV,AAV,MTVR",48,14,2026-05-11,N,450,OEM (Oshkosh)
+6130-01-651-1182,"Power distribution unit, vehicle","MTVR,LAV,AAV,M1A1",27,7,2026-05-04,N,7800,DLA Land
+1240-01-602-7715,"Optical sight assembly, M1A1",M1A1,1,7,2026-05-04,Y,28000,DLA Land
+2935-01-510-9923,"Fuel control, MV-22 engine",MV-22,0,7,2026-05-04,Y,450,OEM (BAE)
+5305-01-118-4422,"Bolt, armor track shoe","AAV,M1A1",48,7,2026-05-04,N,110000,DLA Land
+2920-01-518-9912,"Alternator, 28V 300A","MTVR,LAV,AAV,M1A1",40,3,2026-04-30,N,450,OEM (Oshkosh)
+1660-01-560-2218,"Environmental control unit, crew cab","MV-22,AAV,M1A1",37,0,,N,3400,OEM (Oshkosh)

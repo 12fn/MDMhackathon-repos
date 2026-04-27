@@ -1,0 +1,39 @@
+1
+00:00:02,433 --> 00:00:07,433
+LEARN. Cognitive-development analytics for USMC schoolhouses.
+
+2
+00:00:07,435 --> 00:00:12,435
+LOGCOM use case: Learning Intelligence Dashboard. Are Marines actually learning?
+
+3
+00:00:12,436 --> 00:00:17,436
+Eighteen students. Six assignments. Two hundred forum posts. One question.
+
+4
+00:00:17,438 --> 00:00:23,438
+Synthetic Moodle export streams in. No data movement.
+
+5
+00:00:23,444 --> 00:00:29,444
+A three-stage agent scores every student against the USMC competency rubric.
+
+6
+00:00:29,465 --> 00:00:37,465
+A Kamiwaza-deployed model drafts the Instructors Competency Brief.
+
+7
+00:00:31,475 --> 00:00:38,475
+Three-click drill-down: heatmap to student to remediation recommendation.
+
+8
+00:00:38,487 --> 00:00:44,487
+Class-level competency map. Top performers. Intervention list.
+
+9
+00:00:44,492 --> 00:00:51,492
+Every assessment SHA-256 chained. SJA, IG, and TRADOC can replay months later.
+
+10
+00:00:51,504 --> 00:00:59,504
+Powered by the Kamiwaza Stack. FERPA-friendly. IL5 ready. Deploy in hours.

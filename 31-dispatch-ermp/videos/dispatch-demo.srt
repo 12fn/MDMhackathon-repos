@@ -1,0 +1,31 @@
+1
+00:00:00,000 --> 00:00:05,000
+DISPATCH — Emergency Response Modernization. From 9-1-1 to units rolling in under 30 seconds.
+
+2
+00:00:05,138 --> 00:00:15,138
+LOGCOM ERMP challenge — Installation Incident Response. Real-time transcription, AI triage, geospatial unit orchestration.
+
+3
+00:00:14,640 --> 00:00:24,640
+Five synthetic 9-1-1 calls. We pick the structure fire in base housing — Magnolia Loop, family unaccounted for.
+
+4
+00:00:22,623 --> 00:00:35,623
+Stage 1: live call transcript streams in. Whisper-style segmentation, dispatcher and caller separated.
+
+5
+00:00:34,661 --> 00:00:48,661
+Stage 2: AI triage agent. Structured-output JSON — incident type, APCO severity ECHO, recommended units, callback questions.
+
+6
+00:00:47,675 --> 00:01:01,675
+Stage 3: geospatial orchestration. Engines, rescue, ambulance routed from the nearest station, ETA computed live.
+
+7
+00:01:00,697 --> 00:01:14,697
+And the dispatcher CAD entry — incident summary, unit assignment, scene safety brief — drafted by the Kamiwaza-deployed model.
+
+8
+00:01:13,714 --> 00:01:23,714
+DISPATCH — runs inside your accredited environment. Kamiwaza Stack. Deploy in hours, not months.

@@ -1,0 +1,39 @@
+1
+00:00:02,731 --> 00:00:07,731
+EMBODIED. Egocentric multimodal Marine training simulator.
+
+2
+00:00:07,733 --> 00:00:12,733
+LOGCOM training modernization: instructor-to-trainee ratio is the bottleneck.
+
+3
+00:00:12,735 --> 00:00:17,735
+Eight egocentric scenarios — doorway, checkpoint, casualty, IED, night perimeter.
+
+4
+00:00:17,737 --> 00:00:23,737
+Each scenario is anchored to a doctrine reference — MCWP, MCRP, TM. No invention.
+
+5
+00:00:23,742 --> 00:00:30,742
+Trainee types their action. Multimodal coach reads the frame plus the response.
+
+6
+00:00:26,319 --> 00:00:33,319
+Vision-capable model classifies the action against doctrine. Structured JSON.
+
+7
+00:00:30,831 --> 00:00:37,831
+Score, doctrine cite, simulated consequence, coaching feedback — in one shot.
+
+8
+00:00:37,833 --> 00:00:43,833
+After-action across attempts — a one-page Egocentric Decision Brief.
+
+9
+00:00:43,347 --> 00:00:50,347
+Set KAMIWAZA_BASE_URL — same code, trainee video stays inside the wire.
+
+10
+00:00:50,350 --> 00:00:58,350
+Built on the Kamiwaza Stack. Deploy in hours, not months.

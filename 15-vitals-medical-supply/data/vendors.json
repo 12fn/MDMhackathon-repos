@@ -1,0 +1,82 @@
+[
+  {
+    "id": "V-DRYICE-01",
+    "name": "Pacific Cold Chain Logistics (Guam)",
+    "country": "Guam (US)",
+    "supplies": [
+      "dry_ice",
+      "gel_packs",
+      "cold-chain-couriers"
+    ],
+    "lead_time_h": 6,
+    "trust": "HIGH",
+    "contract_vehicle": "GSA Schedule 51V",
+    "notes": "Pre-negotiated 24x7 dispatch from Apra; approved by NAVMED Logistics."
+  },
+  {
+    "id": "V-REAGENT-02",
+    "name": "Roche Diagnostics APAC (HCMC)",
+    "country": "Vietnam",
+    "supplies": [
+      "lab_reagents",
+      "donor-screening-kits"
+    ],
+    "lead_time_h": 36,
+    "trust": "HIGH",
+    "contract_vehicle": "DLA Troop Support BPA",
+    "notes": "Host-nation procurement vehicle in place; air-lift to APRA via PACAF."
+  },
+  {
+    "id": "V-LIFT-03",
+    "name": "Berry Aviation (Contracted Cargo)",
+    "country": "USA",
+    "supplies": [
+      "fixed-wing-lift",
+      "rotary-lift"
+    ],
+    "lead_time_h": 12,
+    "trust": "HIGH",
+    "contract_vehicle": "AMC TRANSCOM CRAF Stage I",
+    "notes": "Surge contract aviation for inter-island med resupply."
+  },
+  {
+    "id": "V-DONOR-04",
+    "name": "JSDF Self-Defense Med Supply (Okinawa)",
+    "country": "Japan",
+    "supplies": [
+      "LTOWB",
+      "donor-network",
+      "PRBC"
+    ],
+    "lead_time_h": 18,
+    "trust": "MODERATE",
+    "contract_vehicle": "ACSA cross-servicing",
+    "notes": "ACSA (Acquisition & Cross-Servicing Agreement) blood swap, JSDF Naha."
+  },
+  {
+    "id": "V-COURIER-05",
+    "name": "FedEx Express Critical (Manila)",
+    "country": "Philippines",
+    "supplies": [
+      "cold-chain-couriers",
+      "validated-shippers"
+    ],
+    "lead_time_h": 8,
+    "trust": "MODERATE",
+    "contract_vehicle": "Open-market spot",
+    "notes": "Cleared for class VIIIa shipment; SLA 8h Manila->WestPac spokes."
+  },
+  {
+    "id": "V-FRIDGE-06",
+    "name": "Helmer Scientific (Field Refrigeration)",
+    "country": "USA",
+    "supplies": [
+      "field-refrigerators",
+      "spares"
+    ],
+    "lead_time_h": 72,
+    "trust": "HIGH",
+    "contract_vehicle": "DLA Troop Support direct",
+    "notes": "Air-droppable Pelican-style cold boxes; 72h DLOA."
+  }
+]

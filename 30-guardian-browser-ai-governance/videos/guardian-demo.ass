@@ -1,0 +1,25 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1440
+PlayResY: 900
+ScaledBorderAndShadow: yes
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Helvetica,22,&H00FFFFFF,&H00FFFFFF,&H00000000,&HC8000000,1,0,0,0,100,100,0,0,3,1,0.5,2,80,80,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:02.94,0:00:07.94,Default,,0,0,0,,GUARDIAN. Stop browser AI from acting on internal LOGCOM apps.
+Dialogue: 0,0:00:07.94,0:00:12.94,Default,,0,0,0,,LOGCOM use case: browser-based agent governance — protect CUI from\NComet, manus.im, and the rest.
+Dialogue: 0,0:00:12.94,0:00:17.94,Default,,0,0,0,,Eight active policies in the sidebar. Every event is screened against\Nthem.
+Dialogue: 0,0:00:17.94,0:00:23.44,Default,,0,0,0,,Synthetic browser intercepts stream into the GUARDIAN middleware — no\Ndata movement.
+Dialogue: 0,0:00:23.68,0:00:29.68,Default,,0,0,0,,Per-event chat_json policy decision — agent class, confidence,\Nsignals, action.
+Dialogue: 0,0:00:29.68,0:00:35.68,Default,,0,0,0,,Color-coded decisions: ALLOW · BLOCK · CHALLENGE_HUMAN · REDACT_PII.
+Dialogue: 0,0:00:35.69,0:00:42.19,Default,,0,0,0,,Every decision is appended to a SHA-256 hash-chained audit log.
+Dialogue: 0,0:00:42.20,0:00:49.20,Default,,0,0,0,,Hero call: a posture brief — BLUF, top exfil vectors, recommended\Ntightening.
+Dialogue: 0,0:00:49.20,0:00:56.20,Default,,0,0,0,,Cache-first. The brief is ready before the operator clicks. Three\Nscenarios pre-staged.
+Dialogue: 0,0:00:56.20,0:01:03.70,Default,,0,0,0,,Set KAMIWAZA_BASE_URL and the same code routes inside your accredited\Nboundary.
+Dialogue: 0,0:01:03.70,0:01:11.70,Default,,0,0,0,,Powered by the Kamiwaza Stack. Deploy in hours, not months.

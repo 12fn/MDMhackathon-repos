@@ -1,0 +1,134 @@
+[
+  {
+    "id": "ENG-1",
+    "callsign": "Engine 1",
+    "type": "engine",
+    "status": "available",
+    "base": "Fire Station 1",
+    "location": [
+      32.686,
+      -84.188
+    ],
+    "personnel": 4,
+    "capabilities": [
+      "structure fire",
+      "vehicle fire",
+      "aircraft fire"
+    ]
+  },
+  {
+    "id": "RES-1",
+    "callsign": "Rescue 1",
+    "type": "rescue",
+    "status": "available",
+    "base": "Fire Station 1",
+    "location": [
+      32.686,
+      -84.188
+    ],
+    "personnel": 4,
+    "capabilities": [
+      "technical rescue",
+      "extrication",
+      "search"
+    ]
+  },
+  {
+    "id": "AMB-1",
+    "callsign": "Ambulance 1",
+    "type": "ambulance",
+    "status": "available",
+    "base": "Medical Clinic",
+    "location": [
+      32.683,
+      -84.186
+    ],
+    "personnel": 2,
+    "capabilities": [
+      "ALS transport",
+      "trauma"
+    ]
+  },
+  {
+    "id": "AMB-2",
+    "callsign": "Ambulance 2",
+    "type": "ambulance",
+    "status": "available",
+    "base": "Medical Clinic",
+    "location": [
+      32.683,
+      -84.186
+    ],
+    "personnel": 2,
+    "capabilities": [
+      "BLS transport",
+      "MCI"
+    ]
+  },
+  {
+    "id": "HAZ-1",
+    "callsign": "Hazmat 1",
+    "type": "hazmat",
+    "status": "available",
+    "base": "Fire Station 1",
+    "location": [
+      32.686,
+      -84.188
+    ],
+    "personnel": 3,
+    "capabilities": [
+      "fuel spill",
+      "chemical containment",
+      "decon"
+    ]
+  },
+  {
+    "id": "MP-3",
+    "callsign": "MP Unit 3",
+    "type": "police",
+    "status": "available",
+    "base": "Main Gate (Gate 1)",
+    "location": [
+      32.694,
+      -84.187
+    ],
+    "personnel": 2,
+    "capabilities": [
+      "traffic control",
+      "scene security",
+      "force protection"
+    ]
+  },
+  {
+    "id": "MP-7",
+    "callsign": "MP Unit 7",
+    "type": "police",
+    "status": "available",
+    "base": "Motor Pool Charlie",
+    "location": [
+      32.6855,
+      -84.182
+    ],
+    "personnel": 2,
+    "capabilities": [
+      "patrol",
+      "EOD coordination"
+    ]
+  },
+  {
+    "id": "GW-1",
+    "callsign": "Game Warden 1",
+    "type": "police",
+    "status": "available",
+    "base": "Range Complex Bravo (Live-Fire)",
+    "location": [
+      32.671,
+      -84.181
+    ],
+    "personnel": 1,
+    "capabilities": [
+      "range security",
+      "wildland fire spotter"
+    ]
+  }
+]

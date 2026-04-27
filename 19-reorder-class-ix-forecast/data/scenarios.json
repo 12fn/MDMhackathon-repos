@@ -1,0 +1,26 @@
+[
+  {
+    "id": "INDOPAC-MEB-HIGH-MARITIME",
+    "label": "INDOPACOM MEB \u00b7 High OPTEMPO \u00b7 Maritime",
+    "magtf_size": "MEB",
+    "optempo": "high",
+    "environment": "maritime",
+    "narrative_hint": "First Island Chain stand-in force, 30-day contested resupply window."
+  },
+  {
+    "id": "CENTCOM-MEU-MED-DESERT",
+    "label": "CENTCOM MEU \u00b7 Medium OPTEMPO \u00b7 Desert",
+    "magtf_size": "MEU",
+    "optempo": "medium",
+    "environment": "desert",
+    "narrative_hint": "MEU sustainment ashore, brownwater LOC, persistent drone harassment."
+  },
+  {
+    "id": "AFRICOM-MEB-HIGH-JUNGLE",
+    "label": "AFRICOM MEB \u00b7 High OPTEMPO \u00b7 Jungle",
+    "magtf_size": "MEB",
+    "optempo": "high",
+    "environment": "jungle",
+    "narrative_hint": "Crisis response into littoral jungle environment, 60-day resupply pipeline."
+  }
+]

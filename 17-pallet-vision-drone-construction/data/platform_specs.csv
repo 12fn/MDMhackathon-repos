@@ -1,0 +1,10 @@
+platform,category,pallets_463l,max_payload_kg,internal_cube_m3,notes
+C-17 Globemaster III,Airlift,18,77519,592.0,18 463L position spine; oversize/outsize cargo capable; primary inter-theater.
+C-130J Super Hercules,Airlift,6,19958,127.4,6 463L max in standard cargo config; primary intra-theater.
+KC-46A Pegasus,Airlift,18,65317,432.0,"Tanker-cargo; 18 463L positions, lower deck cargo only."
+KC-130J,Airlift,6,20411,127.4,"USMC tanker variant; 6 463L positions, loadmaster-controlled."
+MTVR (MK23),Surface,4,6804,18.5,"Marine 7-ton; 4 standard 463L pallets on cargo bed, 15-ton off-road."
+M1083 FMTV (5-ton),Surface,4,4536,17.0,Family of Medium Tactical Vehicles; standard cargo bed.
+M1078 LMTV (2.5-ton),Surface,2,2268,9.0,Light variant; 2 standard pallets.
+LVSR (MK36),Surface,8,20412,36.0,Logistics Vehicle System Replacement; 22.5-ton on-road.
+LCAC,Sealift,12,54431,168.0,Landing Craft Air Cushion; ship-to-shore connector.

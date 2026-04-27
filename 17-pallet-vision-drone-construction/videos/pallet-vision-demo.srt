@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:05,000
+PALLET-VISION. Photo in. Load plan out. AI Visual Quantification for the Marine ground fleet.
+
+2
+00:00:05,006 --> 00:00:15,006
+LOGCOM use case, verbatim: convert images of physical goods into accurate estimates of palletization and transportation requirements.
+
+3
+00:00:15,010 --> 00:00:25,010
+Six-image sample bank — warehouse, dock, drone overhead, flight line, engineer yard, ship deck. Upload your own at any time.
+
+4
+00:00:25,275 --> 00:00:37,275
+One multimodal call. Strict JSON. Pallet count, type, weight, and the exact USAF and USMC platforms required.
+
+5
+00:00:31,298 --> 00:00:39,298
+Cached for the demo; live regenerate is one click. Lift requirement is rendered with named platform constraints.
+
+6
+00:00:37,329 --> 00:00:44,329
+A second narrator call grounds the JSON in the real platform-spec table.
+
+7
+00:00:44,356 --> 00:00:57,356
+C-17 holds 18 pallets. C-130J holds 6. MTVR holds 4. Four bullets, loadmaster-ready.
+
+8
+00:00:57,359 --> 00:01:12,359
+Powered by a Kamiwaza-deployed model. Set KAMIWAZA_BASE_URL to your accredited boundary. Same code. Air-gapped. IL5 IL6 ready.
+
+9
+00:01:12,364 --> 00:01:22,364
+PALLET-VISION. Built on the Kamiwaza Stack. Deploy in hours, not months.

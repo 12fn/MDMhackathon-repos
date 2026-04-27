@@ -1,0 +1,81 @@
+bumper_no,family,family_long,depot,priority,priority_label,labor_hours_est,skills_needed,required_parts_nsn,induct_date,status
+MV--1014,MV-22,MV-22B Osprey,BIC,1,FD-1 / IPL-A — combat-essential,2795,"avionics,powertrain,hydraulics","2935-01-510-9923,3110-01-617-8013",2026-01-27,PENDING
+MV--1058,MV-22,MV-22B Osprey,BIC,1,FD-1 / IPL-A — combat-essential,1988,"avionics,powertrain,hydraulics","1660-01-560-2218,1680-01-651-2244,3110-01-617-8013",2026-02-02,INDUCTED
+LAV-1053,LAV,Light Armored Vehicle,BAR,1,FD-1 / IPL-A — combat-essential,552,"powertrain,armor,weapons",2920-01-518-9912,2026-02-09,PENDING
+MTV-1077,MTVR,Medium Tactical Vehicle Replacement,BAR,1,FD-1 / IPL-A — combat-essential,233,"powertrain,hydraulics",4710-01-440-9921,2026-02-16,PENDING
+M1A-1007,M1A1,M1A1 Abrams Tank,BIC,1,FD-1 / IPL-A — combat-essential,2501,"armor,powertrain,weapons","1660-01-560-2218,6130-01-651-1182",2026-02-25,PENDING
+AAV-1061,AAV,Assault Amphibious Vehicle,BIC,1,FD-1 / IPL-A — combat-essential,703,"armor,powertrain,hydraulics","4730-01-441-2298,1660-01-560-2218,2920-01-588-4471",2026-03-01,INDUCTED
+AAV-1005,AAV,Assault Amphibious Vehicle,BAR,1,FD-1 / IPL-A — combat-essential,1090,"armor,powertrain,hydraulics",1660-01-560-2218,2026-03-09,PENDING
+MTV-1050,MTVR,Medium Tactical Vehicle Replacement,ALB,1,FD-1 / IPL-A — combat-essential,428,"powertrain,hydraulics","2520-01-562-9981,2920-01-518-9912,2920-01-588-4471",2026-03-14,INDUCTED
+AAV-1003,AAV,Assault Amphibious Vehicle,BIC,1,FD-1 / IPL-A — combat-essential,919,"armor,powertrain,hydraulics","5305-01-118-4422,5340-01-122-4419,2920-01-518-9912",2026-03-31,PENDING
+AAV-1012,AAV,Assault Amphibious Vehicle,BAR,2,FD-2 / IPL-B — mission-critical,876,"armor,powertrain,hydraulics","1730-01-498-7102,5305-01-118-4422,6130-01-651-1182",2026-01-29,PENDING
+LAV-1029,LAV,Light Armored Vehicle,BAR,2,FD-2 / IPL-B — mission-critical,580,"powertrain,armor,weapons",2540-01-572-3041,2026-01-31,INDUCTED
+M1A-1016,M1A1,M1A1 Abrams Tank,ALB,2,FD-2 / IPL-B — mission-critical,3656,"armor,powertrain,weapons","4710-01-440-9921,6130-01-651-1182,5305-01-118-4422",2026-02-06,PENDING
+MTV-1060,MTVR,Medium Tactical Vehicle Replacement,ALB,2,FD-2 / IPL-B — mission-critical,310,"powertrain,hydraulics","4710-01-440-9921,2540-01-572-3041",2026-02-06,PENDING
+AAV-1069,AAV,Assault Amphibious Vehicle,BIC,2,FD-2 / IPL-B — mission-critical,1096,"armor,powertrain,hydraulics",6130-01-651-1182,2026-02-10,PENDING
+M1A-1078,M1A1,M1A1 Abrams Tank,ALB,2,FD-2 / IPL-B — mission-critical,2512,"armor,powertrain,weapons",6130-01-651-1182,2026-02-13,PENDING
+MTV-1062,MTVR,Medium Tactical Vehicle Replacement,BAR,2,FD-2 / IPL-B — mission-critical,417,"powertrain,hydraulics",4730-01-441-2298,2026-02-26,PENDING
+LAV-1076,LAV,Light Armored Vehicle,BAR,2,FD-2 / IPL-B — mission-critical,743,"powertrain,armor,weapons","2540-01-572-3041,6130-01-651-1182,5340-01-122-4419",2026-03-07,PENDING
+MTV-1043,MTVR,Medium Tactical Vehicle Replacement,BAR,2,FD-2 / IPL-B — mission-critical,444,"powertrain,hydraulics",6130-01-651-1182,2026-03-11,INDUCTED
+LAV-1066,LAV,Light Armored Vehicle,BAR,2,FD-2 / IPL-B — mission-critical,603,"powertrain,armor,weapons","2520-01-562-9981,4730-01-441-2298",2026-03-20,PENDING
+M1A-1001,M1A1,M1A1 Abrams Tank,ALB,2,FD-2 / IPL-B — mission-critical,2880,"armor,powertrain,weapons",1660-01-560-2218,2026-03-21,INDUCTED
+AAV-1068,AAV,Assault Amphibious Vehicle,BIC,2,FD-2 / IPL-B — mission-critical,924,"armor,powertrain,hydraulics",5305-01-118-4422,2026-03-22,PENDING
+AAV-1017,AAV,Assault Amphibious Vehicle,BIC,2,FD-2 / IPL-B — mission-critical,912,"armor,powertrain,hydraulics","4710-01-440-9921,6130-01-651-1182",2026-03-28,PENDING
+AAV-1019,AAV,Assault Amphibious Vehicle,BAR,2,FD-2 / IPL-B — mission-critical,695,"armor,powertrain,hydraulics","2540-01-572-3041,4710-01-440-9921,2920-01-588-4471",2026-04-02,INDUCTED
+MTV-1059,MTVR,Medium Tactical Vehicle Replacement,ALB,2,FD-2 / IPL-B — mission-critical,223,"powertrain,hydraulics","2540-01-572-3041,6130-01-651-1182,2920-01-518-9912",2026-04-07,PENDING
+MTV-1011,MTVR,Medium Tactical Vehicle Replacement,ALB,2,FD-2 / IPL-B — mission-critical,371,"powertrain,hydraulics",4710-01-440-9921,2026-04-15,PENDING
+AAV-1040,AAV,Assault Amphibious Vehicle,BIC,2,FD-2 / IPL-B — mission-critical,667,"armor,powertrain,hydraulics",4710-01-440-9921,2026-04-17,PENDING
+MTV-1042,MTVR,Medium Tactical Vehicle Replacement,BIC,2,FD-2 / IPL-B — mission-critical,347,"powertrain,hydraulics","2540-01-572-3041,4730-01-441-2298",2026-04-19,PENDING
+MV--1046,MV-22,MV-22B Osprey,BIC,2,FD-2 / IPL-B — mission-critical,2596,"avionics,powertrain,hydraulics",1660-01-560-2218,2026-04-19,INDUCTED
+AAV-1051,AAV,Assault Amphibious Vehicle,BIC,2,FD-2 / IPL-B — mission-critical,1046,"armor,powertrain,hydraulics","2920-01-518-9912,1730-01-498-7102",2026-04-25,INDUCTED
+MTV-1064,MTVR,Medium Tactical Vehicle Replacement,ALB,3,FD-3 / Standard — sustainment,380,"powertrain,hydraulics","6130-01-651-1182,2520-01-562-9981,2920-01-518-9912",2026-01-29,PENDING
+M1A-1010,M1A1,M1A1 Abrams Tank,ALB,3,FD-3 / Standard — sustainment,2544,"armor,powertrain,weapons","4710-01-440-9921,6130-01-651-1182,5305-01-118-4422",2026-02-02,PENDING
+AAV-1027,AAV,Assault Amphibious Vehicle,BAR,3,FD-3 / Standard — sustainment,726,"armor,powertrain,hydraulics","2920-01-588-4471,6130-01-651-1182,4710-01-440-9921",2026-02-05,INDUCTED
+AAV-1036,AAV,Assault Amphibious Vehicle,BIC,3,FD-3 / Standard — sustainment,1050,"armor,powertrain,hydraulics","1730-01-498-7102,6130-01-651-1182",2026-02-07,PENDING
+MTV-1041,MTVR,Medium Tactical Vehicle Replacement,ALB,3,FD-3 / Standard — sustainment,369,"powertrain,hydraulics","2540-01-572-3041,6130-01-651-1182",2026-02-09,PENDING
+LAV-1074,LAV,Light Armored Vehicle,BAR,3,FD-3 / Standard — sustainment,684,"powertrain,armor,weapons","2520-01-562-9981,5340-01-122-4419",2026-02-09,PENDING
+LAV-1045,LAV,Light Armored Vehicle,BAR,3,FD-3 / Standard — sustainment,590,"powertrain,armor,weapons","2920-01-588-4471,4710-01-440-9921",2026-02-18,PENDING
+MTV-1072,MTVR,Medium Tactical Vehicle Replacement,ALB,3,FD-3 / Standard — sustainment,450,"powertrain,hydraulics","2540-01-572-3041,2920-01-518-9912",2026-02-20,INDUCTED
+MTV-1033,MTVR,Medium Tactical Vehicle Replacement,ALB,3,FD-3 / Standard — sustainment,294,"powertrain,hydraulics","2920-01-518-9912,4710-01-440-9921,2920-01-588-4471",2026-02-21,PENDING
+MTV-1026,MTVR,Medium Tactical Vehicle Replacement,ALB,3,FD-3 / Standard — sustainment,263,"powertrain,hydraulics","2920-01-588-4471,2540-01-572-3041",2026-02-23,PENDING
+MTV-1052,MTVR,Medium Tactical Vehicle Replacement,BAR,3,FD-3 / Standard — sustainment,267,"powertrain,hydraulics","4710-01-440-9921,2540-01-572-3041",2026-02-23,PENDING
+MV--1009,MV-22,MV-22B Osprey,BIC,3,FD-3 / Standard — sustainment,2059,"avionics,powertrain,hydraulics","2935-01-510-9923,3110-01-617-8013,1660-01-560-2218",2026-02-24,INDUCTED
+AAV-1018,AAV,Assault Amphibious Vehicle,BIC,3,FD-3 / Standard — sustainment,649,"armor,powertrain,hydraulics","1660-01-560-2218,4710-01-440-9921,2920-01-588-4471",2026-02-26,PENDING
+LAV-1034,LAV,Light Armored Vehicle,ALB,3,FD-3 / Standard — sustainment,757,"powertrain,armor,weapons","4730-01-441-2298,2540-01-572-3041",2026-03-02,INDUCTED
+MV--1070,MV-22,MV-22B Osprey,BIC,3,FD-3 / Standard — sustainment,1984,"avionics,powertrain,hydraulics",3110-01-617-8013,2026-03-06,PENDING
+M1A-1063,M1A1,M1A1 Abrams Tank,ALB,3,FD-3 / Standard — sustainment,3623,"armor,powertrain,weapons",5340-01-122-4419,2026-03-08,INDUCTED
+M1A-1032,M1A1,M1A1 Abrams Tank,ALB,3,FD-3 / Standard — sustainment,3265,"armor,powertrain,weapons","5340-01-122-4419,4710-01-440-9921",2026-03-10,PENDING
+LAV-1071,LAV,Light Armored Vehicle,ALB,3,FD-3 / Standard — sustainment,772,"powertrain,armor,weapons","2920-01-518-9912,2520-01-562-9981,2540-01-572-3041",2026-03-10,PENDING
+MTV-1025,MTVR,Medium Tactical Vehicle Replacement,BAR,3,FD-3 / Standard — sustainment,298,"powertrain,hydraulics",2520-01-562-9981,2026-03-17,PENDING
+AAV-1004,AAV,Assault Amphibious Vehicle,BIC,3,FD-3 / Standard — sustainment,641,"armor,powertrain,hydraulics","1660-01-560-2218,2540-01-572-3041,6130-01-651-1182",2026-03-20,PENDING
+MV--1073,MV-22,MV-22B Osprey,BIC,3,FD-3 / Standard — sustainment,2251,"avionics,powertrain,hydraulics",3110-01-617-8013,2026-03-24,PENDING
+LAV-1020,LAV,Light Armored Vehicle,BAR,3,FD-3 / Standard — sustainment,809,"powertrain,armor,weapons","6130-01-651-1182,4710-01-440-9921,4730-01-441-2298",2026-03-26,INDUCTED
+MTV-1057,MTVR,Medium Tactical Vehicle Replacement,ALB,3,FD-3 / Standard — sustainment,262,"powertrain,hydraulics",2520-01-562-9981,2026-03-26,PENDING
+LAV-1028,LAV,Light Armored Vehicle,BAR,3,FD-3 / Standard — sustainment,519,"powertrain,armor,weapons","2540-01-572-3041,6130-01-651-1182",2026-03-29,PENDING
+LAV-1048,LAV,Light Armored Vehicle,ALB,3,FD-3 / Standard — sustainment,538,"powertrain,armor,weapons","2520-01-562-9981,2540-01-572-3041",2026-03-29,PENDING
+MV--1022,MV-22,MV-22B Osprey,BIC,3,FD-3 / Standard — sustainment,2826,"avionics,powertrain,hydraulics","1680-01-651-2244,3110-01-617-8013",2026-04-01,INDUCTED
+MTV-1065,MTVR,Medium Tactical Vehicle Replacement,BAR,3,FD-3 / Standard — sustainment,449,"powertrain,hydraulics","4730-01-441-2298,2520-01-562-9981",2026-04-04,PENDING
+AAV-1000,AAV,Assault Amphibious Vehicle,BAR,3,FD-3 / Standard — sustainment,685,"armor,powertrain,hydraulics","4730-01-441-2298,2540-01-572-3041,2920-01-588-4471",2026-04-05,INDUCTED
+AAV-1023,AAV,Assault Amphibious Vehicle,BAR,3,FD-3 / Standard — sustainment,788,"armor,powertrain,hydraulics",5305-01-118-4422,2026-04-05,INDUCTED
+MTV-1047,MTVR,Medium Tactical Vehicle Replacement,BIC,3,FD-3 / Standard — sustainment,359,"powertrain,hydraulics","6130-01-651-1182,2520-01-562-9981",2026-04-08,PENDING
+MV--1067,MV-22,MV-22B Osprey,BIC,3,FD-3 / Standard — sustainment,1915,"avionics,powertrain,hydraulics","2935-01-510-9923,1680-01-651-2244,1660-01-560-2218",2026-04-08,PENDING
+MTV-1075,MTVR,Medium Tactical Vehicle Replacement,ALB,3,FD-3 / Standard — sustainment,326,"powertrain,hydraulics",4710-01-440-9921,2026-04-11,PENDING
+M1A-1031,M1A1,M1A1 Abrams Tank,ALB,3,FD-3 / Standard — sustainment,2810,"armor,powertrain,weapons","2920-01-518-9912,1730-01-498-7102",2026-04-13,INDUCTED
+AAV-1024,AAV,Assault Amphibious Vehicle,BAR,3,FD-3 / Standard — sustainment,738,"armor,powertrain,hydraulics",2540-01-572-3041,2026-04-14,PENDING
+LAV-1038,LAV,Light Armored Vehicle,BAR,3,FD-3 / Standard — sustainment,570,"powertrain,armor,weapons",2540-01-572-3041,2026-04-14,PENDING
+LAV-1055,LAV,Light Armored Vehicle,ALB,3,FD-3 / Standard — sustainment,708,"powertrain,armor,weapons",6130-01-651-1182,2026-04-15,PENDING
+MTV-1039,MTVR,Medium Tactical Vehicle Replacement,BAR,3,FD-3 / Standard — sustainment,276,"powertrain,hydraulics",4710-01-440-9921,2026-04-19,INDUCTED
+MV--1037,MV-22,MV-22B Osprey,BIC,3,FD-3 / Standard — sustainment,2035,"avionics,powertrain,hydraulics","1660-01-560-2218,3110-01-617-8013",2026-04-24,PENDING
+MV--1049,MV-22,MV-22B Osprey,BIC,3,FD-3 / Standard — sustainment,2256,"avionics,powertrain,hydraulics","3110-01-617-8013,1680-01-651-2244",2026-04-26,PENDING
+AAV-1030,AAV,Assault Amphibious Vehicle,BAR,3,FD-3 / Standard — sustainment,853,"armor,powertrain,hydraulics",4710-01-440-9921,2026-04-27,PENDING
+M1A-1056,M1A1,M1A1 Abrams Tank,BAR,3,FD-3 / Standard — sustainment,3368,"armor,powertrain,weapons","6130-01-651-1182,2920-01-518-9912,1240-01-602-7715",2026-04-27,PENDING
+MV--1013,MV-22,MV-22B Osprey,BIC,4,FD-4 / Backlog — recoverable,2217,"avionics,powertrain,hydraulics","3110-01-617-8013,1680-01-651-2244",2026-01-29,PENDING
+MV--1008,MV-22,MV-22B Osprey,BIC,4,FD-4 / Backlog — recoverable,3128,"avionics,powertrain,hydraulics","2935-01-510-9923,1680-01-651-2244",2026-02-20,PENDING
+MTV-1002,MTVR,Medium Tactical Vehicle Replacement,BAR,4,FD-4 / Backlog — recoverable,297,"powertrain,hydraulics","2920-01-518-9912,4710-01-440-9921,2540-01-572-3041",2026-02-27,PENDING
+MTV-1015,MTVR,Medium Tactical Vehicle Replacement,ALB,4,FD-4 / Backlog — recoverable,402,"powertrain,hydraulics","4730-01-441-2298,4710-01-440-9921,2540-01-572-3041",2026-02-27,INDUCTED
+LAV-1044,LAV,Light Armored Vehicle,ALB,4,FD-4 / Backlog — recoverable,512,"powertrain,armor,weapons","2520-01-562-9981,5340-01-122-4419",2026-03-07,PENDING
+MTV-1035,MTVR,Medium Tactical Vehicle Replacement,ALB,4,FD-4 / Backlog — recoverable,412,"powertrain,hydraulics","2540-01-572-3041,2520-01-562-9981,4730-01-441-2298",2026-03-08,PENDING
+M1A-1079,M1A1,M1A1 Abrams Tank,ALB,4,FD-4 / Backlog — recoverable,3042,"armor,powertrain,weapons",1240-01-602-7715,2026-03-20,PENDING
+LAV-1054,LAV,Light Armored Vehicle,BAR,4,FD-4 / Backlog — recoverable,769,"powertrain,armor,weapons","2920-01-588-4471,5340-01-122-4419,2920-01-518-9912",2026-04-08,INDUCTED
+LAV-1006,LAV,Light Armored Vehicle,ALB,4,FD-4 / Backlog — recoverable,667,"powertrain,armor,weapons","4730-01-441-2298,2520-01-562-9981",2026-04-09,PENDING
+MTV-1021,MTVR,Medium Tactical Vehicle Replacement,ALB,4,FD-4 / Backlog — recoverable,247,"powertrain,hydraulics","4710-01-440-9921,6130-01-651-1182,2920-01-588-4471",2026-04-27,PENDING

@@ -1,0 +1,27 @@
+1
+00:00:00,000 --> 00:00:04,800
+REDLINE. CUI marking at the speed of inference.
+
+2
+00:00:04,611 --> 00:00:14,111
+LOGCOM CUI Auto-Tagging Assistant. An LLM that reads draft documents and recommends markings, classification levels, and caveats per DoDM 5200.01.
+
+3
+00:00:14,114 --> 00:00:23,614
+Pick a draft. Four synthetic documents — operations brief, intel summary, training memo, contractor SOW. Cached briefs load instantly.
+
+4
+00:00:22,008 --> 00:00:35,008
+Per-paragraph structured-JSON marking. Each paragraph gets a CUI category, trigger phrases, caveats, and confidence. Above it, the Document Marking Brief — overall classification, releasability call, and the explicit over- versus under-marking tradeoff.
+
+5
+00:00:35,014 --> 00:00:52,514
+Three clicks. Read the brief. Pick a paragraph. Sign concur into the SHA-256 hash-chained audit log. Tamper-evident — every entry references the previous hash.
+
+6
+00:00:48,552 --> 00:01:02,052
+Set KAMIWAZA_BASE_URL and the same code talks to a Kamiwaza vLLM inside your accredited boundary. 100% data containment. IL5/IL6 ready.
+
+7
+00:01:01,555 --> 00:01:10,055
+REDLINE. Built on the Kamiwaza Stack. Deploy in hours, not months.

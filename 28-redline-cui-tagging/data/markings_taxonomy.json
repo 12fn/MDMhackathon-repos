@@ -1,0 +1,97 @@
+{
+  "categories": [
+    {
+      "marking": "UNCLASSIFIED",
+      "long_name": "Unclassified",
+      "description": "Public-releasable information; no CUI categories triggered.",
+      "indicator_phrases": ["public release approved", "OPSEC reviewed", "open source", "press release"]
+    },
+    {
+      "marking": "CUI//FOUO",
+      "long_name": "CUI // For Official Use Only (legacy banner)",
+      "description": "Information requiring protection against public disclosure under FOIA Exemption 2-9. Formerly FOUO. Default catch-all for internal-government-only working documents.",
+      "indicator_phrases": ["internal use only", "do not release", "pre-decisional", "draft", "working paper", "FOUO", "official use only"]
+    },
+    {
+      "marking": "CUI//SP-PROPIN",
+      "long_name": "CUI // SP-PROPIN (Proprietary Business Information)",
+      "description": "Trade secrets, commercial / financial information obtained from a contractor or vendor that is privileged or confidential.",
+      "indicator_phrases": ["proprietary", "trade secret", "vendor pricing", "company confidential", "BAFO", "rate card", "labor rate", "ODC", "bid", "cost build-up"]
+    },
+    {
+      "marking": "CUI//SP-PRVCY",
+      "long_name": "CUI // SP-PRVCY (Privacy)",
+      "description": "Personally Identifiable Information (PII) protected under the Privacy Act of 1974 / DoD 5400.11-R.",
+      "indicator_phrases": ["SSN", "social security", "DOB", "date of birth", "home address", "personal email", "medical record", "DEERS", "EDIPI", "next of kin"]
+    },
+    {
+      "marking": "CUI//SP-NF",
+      "long_name": "CUI // SP-NF (NOFORN — Not Releasable to Foreign Nationals)",
+      "description": "CUI bearing the NOFORN limited-dissemination control. May not be released to foreign governments, foreign nationals, or coalition partners.",
+      "indicator_phrases": ["NOFORN", "U.S. only", "no foreign disclosure", "U.S. eyes only"]
+    },
+    {
+      "marking": "CUI//SP-OPSEC",
+      "long_name": "CUI // SP-OPSEC (Operations Security)",
+      "description": "Information identifying critical assets, vulnerabilities, indicators, or sensitive activities under DoDD 5205.02E.",
+      "indicator_phrases": ["force protection", "FPCON", "vulnerability assessment", "CARVER", "critical infrastructure", "rotation schedule", "manning roster"]
+    },
+    {
+      "marking": "CUI//SP-EXPT",
+      "long_name": "CUI // SP-EXPT (Export Controlled)",
+      "description": "Information subject to ITAR (22 CFR 120-130) or EAR (15 CFR 730-774) export-control restrictions.",
+      "indicator_phrases": ["ITAR", "EAR", "export controlled", "USML", "ECCN", "deemed export", "technical data"]
+    },
+    {
+      "marking": "CUI//SP-LEI",
+      "long_name": "CUI // SP-LEI (Law Enforcement Information)",
+      "description": "Information compiled for law enforcement purposes; investigative / case-file material.",
+      "indicator_phrases": ["NCIS", "investigation", "subject of investigation", "case number", "informant", "BOLO"]
+    },
+    {
+      "marking": "CUI//SP-CTI",
+      "long_name": "CUI // SP-CTI (Controlled Technical Information)",
+      "description": "Technical information with military or space application that requires export control under DoDI 5230.24.",
+      "indicator_phrases": ["technical data package", "TDP", "engineering drawings", "source code", "CAD model", "performance envelope", "weapon system specification"]
+    },
+    {
+      "marking": "CUI//SP-PROCURE",
+      "long_name": "CUI // SP-PROCURE (Procurement and Acquisition)",
+      "description": "Source-selection / procurement-sensitive information under FAR 3.104.",
+      "indicator_phrases": ["source selection", "SSEB", "evaluation", "award decision", "competitive range", "best value", "tradeoff analysis"]
+    }
+  ],
+  "caveats": [
+    {
+      "caveat": "NOFORN",
+      "expansion": "Not Releasable to Foreign Nationals",
+      "use_when": "Document contains U.S.-only operational, technical, or intelligence content."
+    },
+    {
+      "caveat": "REL TO USA, FVEY",
+      "expansion": "Releasable to USA and Five Eyes partners (GBR, AUS, CAN, NZL)",
+      "use_when": "Coalition operations or shared intel with FVEY partners."
+    },
+    {
+      "caveat": "REL TO USA, GBR, AUS",
+      "expansion": "Releasable to USA, United Kingdom, Australia (AUKUS)",
+      "use_when": "AUKUS-aligned technology / industrial-base sharing."
+    },
+    {
+      "caveat": "REL TO USA, NATO",
+      "expansion": "Releasable to USA and NATO members",
+      "use_when": "NATO joint exercise / interoperability planning."
+    },
+    {
+      "caveat": "DISPLAY ONLY",
+      "expansion": "May be displayed to foreign nationals but not released physically",
+      "use_when": "Verbal briefings or screen-only displays to coalition LNOs."
+    },
+    {
+      "caveat": "FED ONLY",
+      "expansion": "Federal employees only; no contractors",
+      "use_when": "Sensitive personnel or pre-decisional policy material."
+    }
+  ],
+  "reg_anchor": "DoDM 5200.01 Vol 2, Encl 4 (CUI Markings) and 32 CFR Part 2002 (CUI Program). Synthetic taxonomy for demo only — not authoritative."
+}

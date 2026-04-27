@@ -1,0 +1,419 @@
+[
+  {
+    "persona_id": "P01_LOCAL_PRESS",
+    "tier": "Domestic media & oversight",
+    "label": "Local-base press journalist",
+    "demographics": "F, 38, beat reporter for a coastal Carolina daily near a major Marine installation; 12 yrs covering DoD; sources inside PAO and base CIWG.",
+    "values": [
+      "accuracy over access",
+      "casualty transparency",
+      "timeline discipline"
+    ],
+    "concerns": [
+      "evasive language",
+      "passive voice masking responsibility",
+      "blocked FOIA"
+    ],
+    "trust_baseline": 0,
+    "lens": "Reads every release for what is NOT said. Cross-checks against open-source flight tracking and ship AIS.",
+    "trigger_phrases_negative": [
+      "regret any loss",
+      "fog of war",
+      "unable to comment",
+      "ongoing investigation"
+    ],
+    "trigger_phrases_positive": [
+      "named officer",
+      "specific timeline",
+      "we will publish findings",
+      "next-of-kin notified"
+    ]
+  },
+  {
+    "persona_id": "P02_CONGR_STAFFER",
+    "tier": "Domestic media & oversight",
+    "label": "Senate Armed Services Committee staffer",
+    "demographics": "M, 33, professional staff member for a senior SASC senator; former O-3 infantry; reads every MARADMIN.",
+    "values": [
+      "civilian control",
+      "Title 10 authorities",
+      "appropriations linkage"
+    ],
+    "concerns": [
+      "preemption of investigations",
+      "unfunded mandates implied",
+      "inconsistent talking points across services"
+    ],
+    "trust_baseline": 1,
+    "lens": "Maps every statement to a hearing, an authorization line, and a constituent-letter risk surface.",
+    "trigger_phrases_negative": [
+      "pending CCMD review",
+      "policy is being clarified",
+      "no further details at this time"
+    ],
+    "trigger_phrases_positive": [
+      "briefed the committee",
+      "we will testify",
+      "appropriations footprint",
+      "lessons-learned package"
+    ]
+  },
+  {
+    "persona_id": "P03_VETERAN_INFLUENCER",
+    "tier": "Domestic media & oversight",
+    "label": "Veteran-community Substack influencer (200k subs)",
+    "demographics": "M, 45, retired GySgt, runs a heterodox veteran newsletter; 200k subscribers, half active-duty.",
+    "values": [
+      "plain English",
+      "respect for the rifleman",
+      "no spin"
+    ],
+    "concerns": [
+      "jargon",
+      "PowerPoint voice",
+      "officers shielding officers"
+    ],
+    "trust_baseline": -1,
+    "lens": "Will quote your release in full and roast specific phrases. Drives a substantial slice of the lance-corporal underground.",
+    "trigger_phrases_negative": [
+      "robust",
+      "leverage",
+      "synergy",
+      "kinetic outcome"
+    ],
+    "trigger_phrases_positive": [
+      "the Marine made this call",
+      "we owned it",
+      "here is what we changed"
+    ]
+  },
+  {
+    "persona_id": "P04_MIL_SPOUSE",
+    "tier": "Domestic media & oversight",
+    "label": "Deployed-Marine spouse (FRG admin)",
+    "demographics": "F, 31, spouse of a deployed 2/8 Marine, runs the unit Family Readiness Group Facebook group (1,400 members).",
+    "values": [
+      "are my Marines safe",
+      "predictability",
+      "honest casualty reporting"
+    ],
+    "concerns": [
+      "learning of incidents from Twitter first",
+      "vague timelines",
+      "policy changes mid-deployment"
+    ],
+    "trust_baseline": 0,
+    "lens": "Filters every statement through 'does this make my husband safer or less safe today.' Will share the post within 5 minutes.",
+    "trigger_phrases_negative": [
+      "operational details cannot be shared",
+      "no impact on the mission",
+      "we are aware of the reports"
+    ],
+    "trigger_phrases_positive": [
+      "families have been notified",
+      "command will hold a town hall",
+      "here is the unit POC"
+    ]
+  },
+  {
+    "persona_id": "P05_GOLD_STAR_ADV",
+    "tier": "Domestic media & oversight",
+    "label": "Gold Star Family advocacy lead",
+    "demographics": "F, 56, mother of a Marine KIA in 2019; runs a 501(c)(3) supporting next-of-kin notification reform.",
+    "values": [
+      "dignity of the fallen",
+      "next-of-kin first",
+      "no surprises in the press"
+    ],
+    "concerns": [
+      "families learning of incidents from media",
+      "name releases without notification",
+      "boilerplate condolences"
+    ],
+    "trust_baseline": -2,
+    "lens": "Has the contact list of every other Gold Star family in the affected unit's history. Influence is moral, not numerical.",
+    "trigger_phrases_negative": [
+      "thoughts and prayers",
+      "ultimate sacrifice",
+      "regret to inform"
+    ],
+    "trigger_phrases_positive": [
+      "families notified before this release",
+      "named in coordination with next-of-kin",
+      "investigation findings will be shared with the family first"
+    ]
+  },
+  {
+    "persona_id": "P06_HOST_CIVIC",
+    "tier": "Host-nation & coalition",
+    "label": "Host-nation civic leader (mayor of a base-adjacent town)",
+    "demographics": "M, 52, three-term mayor of a town of 18,000 outside a Marine air station overseas; coalition-friendly but politically exposed.",
+    "values": [
+      "noise abatement",
+      "economic spillover",
+      "respect for local custom"
+    ],
+    "concerns": [
+      "bypassed by U.S. spokespeople",
+      "English-only releases",
+      "incidents in local press before official notice"
+    ],
+    "trust_baseline": 1,
+    "lens": "Reads through translation; weights tone heavily. A bad release costs him his next election.",
+    "trigger_phrases_negative": [
+      "U.S. forces will continue operations",
+      "regret the inconvenience",
+      "in accordance with the SOFA"
+    ],
+    "trigger_phrases_positive": [
+      "mayor was briefed in advance",
+      "town council POC named",
+      "translated copy attached"
+    ]
+  },
+  {
+    "persona_id": "P07_FOREIGN_PRESS",
+    "tier": "Host-nation & coalition",
+    "label": "Host-nation national press correspondent",
+    "demographics": "F, 41, defense correspondent for a major host-nation broadsheet, accredited at the embassy press pool.",
+    "values": [
+      "sovereignty narrative",
+      "casualty transparency",
+      "domestic political resonance"
+    ],
+    "concerns": [
+      "U.S.-centric framing",
+      "no host-nation casualty acknowledgment",
+      "embassy not in synch with PACOM"
+    ],
+    "trust_baseline": 0,
+    "lens": "Looks for the host-nation angle in every release; will lead with it whether you provide it or not.",
+    "trigger_phrases_negative": [
+      "coordinated with allies",
+      "no host-nation casualties reported",
+      "our operations continue"
+    ],
+    "trigger_phrases_positive": [
+      "host-nation citizens were affected",
+      "we are coordinating compensation",
+      "joint statement with the embassy"
+    ]
+  },
+  {
+    "persona_id": "P08_NATO_PA",
+    "tier": "Host-nation & coalition",
+    "label": "Coalition-partner PA officer (NATO O-4)",
+    "demographics": "M, 38, public affairs officer at a NATO partner-nation MOD; works the same incident from his nation's lane.",
+    "values": [
+      "alliance coherence",
+      "no daylight between national talking points",
+      "advance notice"
+    ],
+    "concerns": [
+      "being surprised by U.S. release",
+      "mismatched casualty figures",
+      "diverging timelines"
+    ],
+    "trust_baseline": 2,
+    "lens": "Compares U.S. release line-by-line with his own MOD's release. Looks for things he can/cannot echo.",
+    "trigger_phrases_negative": [
+      "U.S.-led",
+      "American leadership",
+      "we will continue to act"
+    ],
+    "trigger_phrases_positive": [
+      "coalition partners briefed in advance",
+      "joint findings will be released",
+      "shared talking points attached"
+    ]
+  },
+  {
+    "persona_id": "P09_NGO_AID",
+    "tier": "Host-nation & coalition",
+    "label": "International humanitarian NGO field director",
+    "demographics": "F, 47, country director for a major INGO operating in the same theater; manages 200 local staff.",
+    "values": [
+      "civilian protection",
+      "humanitarian space",
+      "principled neutrality"
+    ],
+    "concerns": [
+      "military describing aid as a force multiplier",
+      "blurred lines with NGO ops",
+      "civilian casualty under-counts"
+    ],
+    "trust_baseline": -1,
+    "lens": "Reads every U.S. release for language that compromises her staff's safety on the ground.",
+    "trigger_phrases_negative": [
+      "humanitarian assistance",
+      "winning hearts and minds",
+      "civilian-military cooperation"
+    ],
+    "trigger_phrases_positive": [
+      "civilian harm assessment underway",
+      "we are deconflicting with humanitarian actors",
+      "ICRC has been notified"
+    ]
+  },
+  {
+    "persona_id": "P10_RELIG_LEADER",
+    "tier": "Host-nation & coalition",
+    "label": "Host-nation religious leader (community elder)",
+    "demographics": "M, 64, senior cleric in the affected village; voice on local radio; not a state actor.",
+    "values": [
+      "dignity of the dead",
+      "respect for funeral rites",
+      "community grief"
+    ],
+    "concerns": [
+      "bodies not returned per custom",
+      "Friday-prayer references in U.S. talking points",
+      "spokesperson tone-deaf to local mourning calendar"
+    ],
+    "trust_baseline": -2,
+    "lens": "His Friday sermon will frame the incident for the community for months. A clumsy U.S. release becomes the sermon.",
+    "trigger_phrases_negative": [
+      "regrettable incident",
+      "minimize collateral",
+      "thoughts are with"
+    ],
+    "trigger_phrases_positive": [
+      "bodies returned in accordance with local custom",
+      "elders consulted on funeral arrangements",
+      "we attended the prayers"
+    ]
+  },
+  {
+    "persona_id": "P11_ADV_IO",
+    "tier": "Adversary / contested IE",
+    "label": "Foreign adversary IO analyst",
+    "demographics": "Composite, 35-50, doctrinal IO/PSYOP analyst at a near-peer adversary's strategic-comms cell.",
+    "values": [
+      "narrative dominance",
+      "wedge-driving",
+      "Western alliance erosion"
+    ],
+    "concerns": [
+      "not enough U.S. self-incrimination to amplify"
+    ],
+    "trust_baseline": -8,
+    "lens": "Mines every U.S. release for one quotable line that can be re-cut into 30s of disinfo across 14 platforms.",
+    "trigger_phrases_negative": [
+      "fog of war",
+      "unable to confirm",
+      "investigation is ongoing",
+      "regrettable"
+    ],
+    "trigger_phrases_positive": [
+      "we are publishing the after-action report",
+      "named accountability",
+      "civilian harm count attached"
+    ]
+  },
+  {
+    "persona_id": "P12_TROLL_NETWORK",
+    "tier": "Adversary / contested IE",
+    "label": "Coordinated inauthentic-behavior network operator",
+    "demographics": "Composite operator behind a network of 4,800 inauthentic accounts across X / TikTok / Telegram.",
+    "values": [
+      "engagement velocity",
+      "amplification of any wedge",
+      "deniability"
+    ],
+    "concerns": [
+      "U.S. release that doesn't give them an angle"
+    ],
+    "trust_baseline": -10,
+    "lens": "Pulls one phrase, machine-translates into 9 languages, A/B tests across the network within 90 minutes.",
+    "trigger_phrases_negative": [
+      "no comment",
+      "unable to confirm",
+      "operational security"
+    ],
+    "trigger_phrases_positive": [
+      "full transparency",
+      "named individual",
+      "documented timeline",
+      "ICRC observers present"
+    ]
+  },
+  {
+    "persona_id": "P13_DOMESTIC_DISINFO",
+    "tier": "Adversary / contested IE",
+    "label": "Domestic conspiracy-influencer node",
+    "demographics": "M, 42, runs a 600k-follower Telegram channel that rebroadcasts adversary-aligned content with U.S.-flag framing.",
+    "values": [
+      "distrust of institutions",
+      "anti-DoD prior",
+      "narrative entrepreneurship"
+    ],
+    "concerns": [
+      "mainstream coverage that pre-empts his framing"
+    ],
+    "trust_baseline": -6,
+    "lens": "Will post the same release within 12 minutes of issuance with a hostile gloss. Plain language denies him the gloss.",
+    "trigger_phrases_negative": [
+      "DoD cannot confirm",
+      "spokesperson said",
+      "in coordination with"
+    ],
+    "trigger_phrases_positive": [
+      "here is the video",
+      "here is the timeline",
+      "we made this mistake, here is the fix"
+    ]
+  },
+  {
+    "persona_id": "P14_HOSTILE_PARLIAMENT",
+    "tier": "Adversary / contested IE",
+    "label": "Adversary-aligned parliamentarian (third country)",
+    "demographics": "M/F, 50s, member of parliament in a third country whose party platform opposes U.S. military presence in the region.",
+    "values": [
+      "sovereignty grievance",
+      "domestic political capital",
+      "anti-base messaging"
+    ],
+    "concerns": [
+      "U.S. bypass of his parliament's question hour"
+    ],
+    "trust_baseline": -5,
+    "lens": "Will table a parliamentary question within 24h citing the U.S. release verbatim.",
+    "trigger_phrases_negative": [
+      "U.S. forces will continue",
+      "in our national interest",
+      "no host-nation casualties"
+    ],
+    "trigger_phrases_positive": [
+      "briefed the host-nation parliament",
+      "operations are paused pending review",
+      "joint host-nation investigation"
+    ]
+  },
+  {
+    "persona_id": "P15_NEUTRAL_OBS",
+    "tier": "Adversary / contested IE",
+    "label": "Neutral OSINT analyst (independent)",
+    "demographics": "F, 29, runs a respected OSINT account; cited by Bellingcat-tier outlets; geolocates incidents within 6 hours.",
+    "values": [
+      "evidence over narrative",
+      "geolocation discipline",
+      "open-source verifiability"
+    ],
+    "concerns": [
+      "releases that contradict OSINT timelines",
+      "missing satellite-imagery references"
+    ],
+    "trust_baseline": 2,
+    "lens": "Will publish a thread within 4 hours either supporting or shredding the U.S. timeline. A factual release earns durable credibility.",
+    "trigger_phrases_negative": [
+      "approximately",
+      "in the vicinity of",
+      "we are still gathering facts"
+    ],
+    "trigger_phrases_positive": [
+      "coordinates 33.21N 44.18E",
+      "observed at 14:02 local",
+      "satellite imagery to be released"
+    ]
+  }
+]
