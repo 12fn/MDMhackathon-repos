@@ -1,0 +1,7 @@
+vehicle_id,class,weight_kg,ground_clearance_in,fording_depth_in,max_grade_pct,max_side_slope_pct,tire_or_track,powertrain,autonomy_level
+LAV-25,Light Armored Vehicle,12700,19.7,60.0,70,30,8x8 wheeled,diesel,manned
+JLTV,Joint Light Tactical Vehicle (M1278),6577,18.0,60.0,60,40,"4x4 wheeled, run-flat",diesel,manned
+MTVR-MK23,Medium Tactical Vehicle Replacement,17690,17.0,60.0,60,30,"6x6 wheeled, CTIS",diesel,manned
+ALPV-1,Autonomous Low-Profile Vehicle (Force Design 2030),1100,11.0,24.0,45,25,"4x4 wheeled, all-terrain",hybrid-electric,autonomous (SAE L4)
+ATT-EV,"Autonomous Electric Tow Tractor (MDMC Albany pilot, STEER Tech)",2400,6.5,8.0,18,12,"4x4 pneumatic, depot-grade",battery-electric,"autonomous (SAE L4, geofenced)"
+UGV-MULE,Unmanned Ground Vehicle (squad mule),540,13.0,18.0,50,30,tracked rubber,hybrid-electric,autonomous (SAE L3 follow-me)

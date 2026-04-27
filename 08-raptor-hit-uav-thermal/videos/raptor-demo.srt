@@ -1,0 +1,31 @@
+1
+00:00:00,000 --> 00:00:05,000
+RAPTOR. Real-time aerial persistent thermal object reasoning.
+
+2
+00:00:05,123 --> 00:00:15,123
+MARADMIN 131/26 calls for digital tools to enhance situational awareness during installation-level incidents.
+
+3
+00:00:15,156 --> 00:00:25,156
+We pull from HIT-UAV — high-altitude infrared thermal imagery. 30 frames, 640 by 512, no data movement.
+
+4
+00:00:18,229 --> 00:00:28,229
+Heuristic blob detection finds heat signatures in under 30 milliseconds. Persons, vehicles, fires, generators — classified live.
+
+5
+00:00:23,537 --> 00:00:48,537
+A Kamiwaza-deployed vision-language model reads the current frame plus five prior frames and writes a four-paragraph mission INTREP. Multi-step reasoning across a temporal window, on-prem.
+
+6
+00:00:48,065 --> 00:01:03,065
+Structured JSON drops straight into a COC dispatch ticket. An E-5 watchstander gets an actionable answer in under ten seconds.
+
+7
+00:01:02,390 --> 00:01:12,390
+Set KAMIWAZA_BASE_URL and KAMIWAZA_API_KEY — same code, now behind the wire. 100% data containment. SIPR and JWICS ready.
+
+8
+00:01:12,394 --> 00:01:17,394
+RAPTOR. Powered by a Kamiwaza-deployed model. Deploy in hours, not months.

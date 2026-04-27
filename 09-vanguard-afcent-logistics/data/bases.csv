@@ -1,0 +1,51 @@
+code,name,country,lat,lon,type,theater
+ARIFJAN,Camp Arifjan,Kuwait,29.043,47.91,joint,CENTCOM
+ALIASAL,Ali Al Salem AB,Kuwait,29.347,47.52,air,CENTCOM
+ALUDEID,Al Udeid AB,Qatar,25.117,51.315,air,CENTCOM
+ALDHAFR,Al Dhafra AB,UAE,24.248,54.547,air,CENTCOM
+FUJAIRH,Port of Fujairah,UAE,25.142,56.346,sea,CENTCOM
+JEBELALI,Port Jebel Ali,UAE,25.012,55.062,sea,CENTCOM
+MUSCAT,Muscat Intl,Oman,23.593,58.284,air,CENTCOM
+DUQM,Port of Duqm,Oman,19.66,57.7,sea,CENTCOM
+MASIRAH,Masirah Island AB,Oman,20.675,58.89,air,CENTCOM
+THUMRT,Thumrait AB,Oman,17.666,54.025,air,CENTCOM
+ESEEB,Es-Sayd / Seeb,Oman,23.589,58.284,joint,CENTCOM
+BAGRAM,Bagram (legacy),Afghanistan,34.946,69.265,air,CENTCOM
+KANDHR,Kandahar (legacy),Afghanistan,31.506,65.847,air,CENTCOM
+BAHRAIN,NSA Bahrain,Bahrain,26.209,50.612,sea,CENTCOM
+ISABAH,Isa Air Base,Bahrain,25.946,50.595,air,CENTCOM
+PSAB,Prince Sultan AB,Saudi Arabia,24.063,47.581,air,CENTCOM
+KKIA,King Khalid Intl,Saudi Arabia,24.957,46.699,air,CENTCOM
+JEDDAH,Jeddah Islamic Port,Saudi Arabia,21.491,39.15,sea,CENTCOM
+DAMMAM,King Abdulaziz Port,Saudi Arabia,26.508,50.205,sea,CENTCOM
+TABUK,Tabuk RSAF,Saudi Arabia,28.366,36.619,air,CENTCOM
+MUWAFAQ,Muwaffaq Salti AB,Jordan,32.358,36.259,air,CENTCOM
+AQABA,Port of Aqaba,Jordan,29.518,34.997,sea,CENTCOM
+ERBIL,Erbil Intl,Iraq,36.237,43.963,joint,CENTCOM
+BAGHDAD,Baghdad Intl,Iraq,33.262,44.234,air,CENTCOM
+BASRAH,Basrah Port,Iraq,30.534,47.836,sea,CENTCOM
+ALASAD,Al Asad AB,Iraq,33.785,42.441,air,CENTCOM
+INCIRLK,Incirlik AB,Turkey,37.002,35.426,air,CENTCOM
+DOHA,Doha Port,Qatar,25.286,51.568,sea,CENTCOM
+SOUDA,Souda Bay,Greece,35.539,24.149,joint,CENTCOM
+AVIANO,Aviano AB,Italy,46.032,12.596,air,CENTCOM
+RAMSTN,Ramstein AB,Germany,49.437,7.6,air,CENTCOM
+ROTA,Naval Station Rota,Spain,36.645,-6.349,sea,CENTCOM
+DJIBSEA,Port of Djibouti,Djibouti,11.595,43.143,sea,CENTCOM
+LEMONNR,Camp Lemonnier,Djibouti,11.546,43.159,joint,CENTCOM
+DIEGOGR,Diego Garcia,BIOT,-7.313,72.411,joint,CENTCOM
+MANAMA,Manama Logistics Hub,Bahrain,26.227,50.586,land,CENTCOM
+SHARM,Sharm el-Sheikh Intl,Egypt,27.977,34.395,air,CENTCOM
+CAIROW,Cairo West AB,Egypt,30.115,30.917,air,CENTCOM
+LARNACA,Larnaca Intl,Cyprus,34.875,33.624,air,CENTCOM
+MORON,Moron AB,Spain,37.175,-5.616,air,CENTCOM
+KARACHI,Karachi Port,Pakistan,24.846,66.989,sea,CENTCOM
+MANAS,Manas (legacy),Kyrgyzstan,43.061,74.477,air,CENTCOM
+SALALAH,Port of Salalah,Oman,16.943,54.005,sea,CENTCOM
+MUHARRQ,Muharraq Bahrain,Bahrain,26.27,50.633,air,CENTCOM
+ABUDHB,Zayed Port AUH,UAE,24.519,54.378,sea,CENTCOM
+HARGEISA,Hargeisa Intl,Somaliland,9.518,44.088,air,CENTCOM
+MOMBASA,Port of Mombasa,Kenya,-4.044,39.668,sea,CENTCOM
+KUWAIT,Kuwait Intl,Kuwait,29.227,47.972,air,CENTCOM
+DOHAINT,Hamad Intl Doha,Qatar,25.273,51.608,air,CENTCOM
+RIYADH,Riyadh Intl Cargo,Saudi Arabia,24.961,46.701,air,CENTCOM

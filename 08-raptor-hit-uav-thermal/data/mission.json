@@ -1,0 +1,48 @@
+{
+  "mission_id": "RAPTOR-DEMO-0001",
+  "platform": "RQ-21A Blackjack (Group 3 UAV)",
+  "sensor": "MX-10 EO/IR turret, LWIR 640x512 @ 30Hz",
+  "altitude_msl_ft": 4500,
+  "altitude_agl_ft": 1800,
+  "site": "MCB Quantico \u2014 northern perimeter sector NPC-7 (synthetic)",
+  "tasking": "Persistent ISR over reported intrusion vector; report any FOMO (forces of military observation) activity, vehicle ingress/egress, or anomalous heat sources.",
+  "start_time_utc": "2026-04-30T03:00:00Z",
+  "duration_s": 120,
+  "frame_rate_demo_hz": 0.25,
+  "ground_truth_phases": [
+    {
+      "window_s": [
+        0,
+        28
+      ],
+      "narrative": "Two dismounts emerge from north tree-line moving south toward parked sedan; vehicle thermally cold (long-parked)."
+    },
+    {
+      "window_s": [
+        32,
+        56
+      ],
+      "narrative": "Third dismount joins from west; vehicle hood + exhaust warming \u2014 engine just started."
+    },
+    {
+      "window_s": [
+        60,
+        88
+      ],
+      "narrative": "Vehicle departs east off-frame; small fire ignites at perimeter barrel (possible signal/marker)."
+    },
+    {
+      "window_s": [
+        92,
+        116
+      ],
+      "narrative": "Generator at LZ pad spins up; remaining personnel disperse to defensive arc."
+    }
+  ],
+  "real_dataset_provenance": {
+    "name": "HIT-UAV: A High-altitude Infrared Thermal Dataset for UAV-based Object Detection",
+    "size_mb": 775,
+    "team": "Truffle",
+    "note": "Synthetic frames generated here for hackathon demo; identical pipeline (grayscale 8-bit + bbox JSON) ingests HIT-UAV unchanged."
+  }
+}

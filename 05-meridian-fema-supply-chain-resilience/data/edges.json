@@ -1,0 +1,92 @@
+[
+  {
+    "a": "YOKO",
+    "b": "APRA",
+    "mode": "sea",
+    "leg_nm": 1500
+  },
+  {
+    "a": "SASEBO",
+    "b": "NAHA",
+    "mode": "sea",
+    "leg_nm": 380
+  },
+  {
+    "a": "NAHA",
+    "b": "KADENA",
+    "mode": "road",
+    "leg_nm": 7
+  },
+  {
+    "a": "KADENA",
+    "b": "AAFB",
+    "mode": "air",
+    "leg_nm": 1370
+  },
+  {
+    "a": "AAFB",
+    "b": "APRA",
+    "mode": "road",
+    "leg_nm": 12
+  },
+  {
+    "a": "APRA",
+    "b": "TINIAN",
+    "mode": "sea",
+    "leg_nm": 105
+  },
+  {
+    "a": "AAFB",
+    "b": "TINIAN",
+    "mode": "air",
+    "leg_nm": 130
+  },
+  {
+    "a": "APRA",
+    "b": "PALAU",
+    "mode": "sea",
+    "leg_nm": 800
+  },
+  {
+    "a": "APRA",
+    "b": "PNI",
+    "mode": "sea",
+    "leg_nm": 950
+  },
+  {
+    "a": "PALAU",
+    "b": "SUBIC",
+    "mode": "sea",
+    "leg_nm": 600
+  },
+  {
+    "a": "IWAKUNI",
+    "b": "SASEBO",
+    "mode": "road",
+    "leg_nm": 220
+  },
+  {
+    "a": "YOKO",
+    "b": "IWAKUNI",
+    "mode": "road",
+    "leg_nm": 470
+  },
+  {
+    "a": "SUBIC",
+    "b": "DGAR",
+    "mode": "sea",
+    "leg_nm": 4800
+  },
+  {
+    "a": "APRA",
+    "b": "DGAR",
+    "mode": "cable",
+    "leg_nm": 5800
+  },
+  {
+    "a": "YOKO",
+    "b": "KADENA",
+    "mode": "cable",
+    "leg_nm": 950
+  }
+]

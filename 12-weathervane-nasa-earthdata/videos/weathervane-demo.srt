@@ -1,0 +1,35 @@
+1
+00:00:01,558 --> 00:00:06,558
+WEATHERVANE — finds the weather window before the planner finishes their coffee.
+
+2
+00:00:06,560 --> 00:00:16,560
+LOGCOM challenge: contested logistics + expeditionary operations need real-time environmental intel.
+
+3
+00:00:16,600 --> 00:00:26,600
+Fusing NASA MERRA-2, GPM IMERG, MODIS, GHRSST and WAVEWATCH III — no data movement.
+
+4
+00:00:26,602 --> 00:00:36,602
+Planner asks: amphibious landing at Subic Bay, 14–21 May. WEATHERVANE answers.
+
+5
+00:00:36,656 --> 00:00:46,656
+Kamiwaza-deployed model fuses five timeseries into a typed go/no-go grade and a 4-hour H-hour window.
+
+6
+00:00:47,088 --> 00:00:57,088
+Five charts render with the recommended window highlighted in green.
+
+7
+00:00:52,092 --> 00:01:02,092
+Narrative brief — planner-grade prose, source-cited, ready for the OPORD annex.
+
+8
+00:00:57,096 --> 00:01:12,096
+Set KAMIWAZA_BASE_URL=https://kamiwaza.local/api/v1 and the same code stays inside the wire.
+
+9
+00:01:12,101 --> 00:01:22,101
+Built on the Kamiwaza Stack. Deploy in hours, not months.

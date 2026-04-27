@@ -1,0 +1,7 @@
+openai>=1.40
+python-dotenv>=1.0
+anthropic>=0.39
+streamlit>=1.30
+opencv-python-headless>=4.8
+numpy>=1.26
+pillow>=10.0

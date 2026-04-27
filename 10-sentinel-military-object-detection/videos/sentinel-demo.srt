@@ -1,0 +1,27 @@
+1
+00:00:00,000 --> 00:00:04,800
+SENTINEL. Defensible Positive ID at the speed of inference.
+
+2
+00:00:04,727 --> 00:00:14,227
+LOGCOM PID and Data Sanitization, MARADMIN 131 of 26. Vision calls Marines can defend to SJA, IG, and classification reviewers months later.
+
+3
+00:00:14,229 --> 00:00:23,729
+Drop a sensor frame. Hashed at ingest. Grounded against a 30-platform reference library.
+
+4
+00:00:23,798 --> 00:00:36,798
+Vision-language model returns asset class, country of origin, confidence, releasability, and a numbered analyst-style reasoning trace.
+
+5
+00:00:36,804 --> 00:00:54,304
+Three clicks. Read the trace. Open the structured JSON. Sign the attestation into the chain.
+
+6
+00:00:49,884 --> 00:01:03,384
+Set KAMIWAZA_BASE_URL and the same code talks to a Kamiwaza vLLM inside your accredited boundary. 100% data containment. IL5/IL6 ready.
+
+7
+00:01:02,889 --> 00:01:11,389
+SENTINEL. Built on the Kamiwaza Stack. Deploy in hours, not months.

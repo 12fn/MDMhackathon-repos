@@ -1,0 +1,43 @@
+1
+00:00:01,354 --> 00:00:06,354
+CORSAIR. Maritime risk forecasts for contested logistics.
+
+2
+00:00:06,356 --> 00:00:11,356
+Every MEU PMC routes through three of the top five piracy basins.
+
+3
+00:00:11,358 --> 00:00:16,358
+NGA ASAM gives you yesterday. CORSAIR gives you the next 30 days.
+
+4
+00:00:16,359 --> 00:00:21,359
+60 by 60 KDE grid. Recency weighted. Seasonality corrected.
+
+5
+00:00:21,239 --> 00:00:26,239
+An LLM agent ingests the top five hotspots and recent attack narratives.
+
+6
+00:00:21,280 --> 00:00:27,280
+It drafts a SIPR-format Maritime Intel Summary and structured indicator board.
+
+7
+00:00:32,281 --> 00:00:37,281
+Three clicks: theater, generate, drilldown.
+
+8
+00:00:33,106 --> 00:00:39,106
+Drill into a hotspot — the three real incidents that produced the forecast appear.
+
+9
+00:00:43,108 --> 00:00:49,108
+Set KAMIWAZA_BASE_URL — same code, now on-prem via the Inference Mesh.
+
+10
+00:00:49,109 --> 00:00:54,109
+IL5 / IL6 ready. ReBAC. Zero data movement.
+
+11
+00:00:54,111 --> 00:00:59,111
+CORSAIR. Built on the Kamiwaza Stack. Powered by Kamiwaza.

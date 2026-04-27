@@ -1,0 +1,31 @@
+1
+00:00:00,000 --> 00:00:05,000
+FORGE. Forecasted Onset of Rotational-Gear Endpoint. Predictive bearing-failure for the Marine ground fleet.
+
+2
+00:00:05,002 --> 00:00:13,002
+MARADMIN 131/26 calls for AI to anticipate equipment failure and improve readiness. We answer it for MTVR, JLTV, and LAV-25 wheel hubs.
+
+3
+00:00:13,003 --> 00:00:22,003
+Pick MTVR-2491. 12 kHz drive-end accelerometer, 1-second window — spectrogram and envelope spectrum render with BPFO, BPFI, BSF highlighted.
+
+4
+00:00:22,036 --> 00:00:35,036
+Classifier flags OUTER RACE FAULT with high confidence. Remaining useful life: about 118 operating hours. Rule-based call: INDUCT NOW.
+
+5
+00:00:35,102 --> 00:00:45,102
+Multimodal LLM agent reads the spectrogram image, the classifier output, the 6-month maintenance log, and a parts-availability tool call against MCLB Albany supply.
+
+6
+00:00:45,120 --> 00:00:53,120
+It outputs a structured JSON recommendation: induct now, NSN 3110 in stock — 14 on the shelf at Albany.
+
+7
+00:00:53,164 --> 00:01:05,164
+Powered by a Kamiwaza-deployed model. Set KAMIWAZA_BASE_URL to kamiwaza.local for fully on-prem inference. Same code. Air-gapped. IL5/IL6 ready.
+
+8
+00:01:05,167 --> 00:01:13,167
+FORGE. Built on the Kamiwaza Stack. Deploy in hours, not months.

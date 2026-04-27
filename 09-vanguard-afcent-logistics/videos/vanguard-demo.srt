@@ -1,0 +1,35 @@
+1
+00:00:00,103 --> 00:00:05,103
+VANGUARD. AFCENT logistics in one sentence.
+
+2
+00:00:05,105 --> 00:00:11,105
+TMRs today take a week and three NCOs. VANGUARD does it in 60 seconds.
+
+3
+00:00:11,108 --> 00:00:16,108
+Maps to the LOGCOM Transportation Movement Request Automation use case.
+
+4
+00:00:16,110 --> 00:00:21,110
+200 assets, 50 bases across CENTCOM. No data movement.
+
+5
+00:00:21,112 --> 00:00:26,112
+Operator types one sentence — the agent fires real tool calls on a Kamiwaza-deployed model.
+
+6
+00:00:26,182 --> 00:00:34,182
+list_assets, compute_route, compare_options — streamed live in the sidebar.
+
+7
+00:00:34,184 --> 00:00:42,184
+Three options ranked. Recommended option pulses neon green on the map.
+
+8
+00:00:42,185 --> 00:00:49,185
+Set KAMIWAZA_BASE_URL — same code, on-prem inference, 100% data containment.
+
+9
+00:00:49,186 --> 00:00:55,186
+VANGUARD. Built on the Kamiwaza Stack. Deploy in hours, not months.

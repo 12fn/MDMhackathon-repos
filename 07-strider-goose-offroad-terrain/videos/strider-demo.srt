@@ -1,0 +1,59 @@
+1
+00:00:01,309 --> 00:00:06,309
+STRIDER. Tells autonomous Marines what they are rolling onto.
+
+2
+00:00:06,311 --> 00:00:11,311
+Force Design 2030 puts Marines in places maps do not reach.
+
+3
+00:00:11,318 --> 00:00:16,318
+LOGCOM fields the autonomous tow tractor at MDMC Albany today, ALPV tomorrow.
+
+4
+00:00:16,329 --> 00:00:21,329
+Forward rover snaps a frame. GOOSE off-road imagery, never leaves the wire.
+
+5
+00:00:18,853 --> 00:00:23,853
+Fifty gigabytes of labelled terrain, on-prem.
+
+6
+00:00:21,354 --> 00:00:27,354
+Kamiwaza-deployed vision call: terrain frame becomes structured JSON.
+
+7
+00:00:27,398 --> 00:00:33,398
+Soft sand. Very-soft firmness. No water crossing.
+
+8
+00:00:33,400 --> 00:00:39,400
+Reasoner cross-references fording depth and ground clearance per vehicle.
+
+9
+00:00:39,403 --> 00:00:45,403
+Green, amber, red. Binding constraint named in plain English.
+
+10
+00:00:45,405 --> 00:00:51,405
+ALPV caution. JLTV caution. ATT-EV NO-GO -- 6.5 inch clearance bogs in soft sand.
+
+11
+00:00:51,430 --> 00:00:55,430
+Convoy commander has the answer in four seconds.
+
+12
+00:00:55,433 --> 00:01:00,433
+Audit trail: full JSON every call. Operator can replay any decision.
+
+13
+00:01:00,512 --> 00:01:05,512
+Set KAMIWAZA_BASE_URL. Same code hits on-prem vLLM. 100% data containment.
+
+14
+00:01:05,517 --> 00:01:10,517
+IL5 / IL6 ready. STIG-hardened. Inference Mesh handles the routing.
+
+15
+00:01:10,519 --> 00:01:15,519
+Built on the Kamiwaza Stack. Deploy in hours, not months.

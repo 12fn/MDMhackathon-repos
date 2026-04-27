@@ -1,0 +1,25 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1440
+PlayResY: 900
+ScaledBorderAndShadow: yes
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Helvetica,22,&H00FFFFFF,&H00FFFFFF,&H00000000,&HC8000000,1,0,0,0,100,100,0,0,3,1,0.5,2,80,80,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:01.35,0:00:06.35,Default,,0,0,0,,CORSAIR. Maritime risk forecasts for contested logistics.
+Dialogue: 0,0:00:06.36,0:00:11.36,Default,,0,0,0,,Every MEU PMC routes through three of the top five piracy basins.
+Dialogue: 0,0:00:11.36,0:00:16.36,Default,,0,0,0,,NGA ASAM gives you yesterday. CORSAIR gives you the next 30 days.
+Dialogue: 0,0:00:16.36,0:00:21.36,Default,,0,0,0,,60 by 60 KDE grid. Recency weighted. Seasonality corrected.
+Dialogue: 0,0:00:21.24,0:00:26.24,Default,,0,0,0,,An LLM agent ingests the top five hotspots and recent attack\Nnarratives.
+Dialogue: 0,0:00:21.28,0:00:27.28,Default,,0,0,0,,It drafts a SIPR-format Maritime Intel Summary and structured\Nindicator board.
+Dialogue: 0,0:00:32.28,0:00:37.28,Default,,0,0,0,,Three clicks: theater, generate, drilldown.
+Dialogue: 0,0:00:33.11,0:00:39.11,Default,,0,0,0,,Drill into a hotspot — the three real incidents that produced the\Nforecast appear.
+Dialogue: 0,0:00:43.11,0:00:49.11,Default,,0,0,0,,Set KAMIWAZA_BASE_URL — same code, now on-prem via the Inference Mesh.
+Dialogue: 0,0:00:49.11,0:00:54.11,Default,,0,0,0,,IL5 / IL6 ready. ReBAC. Zero data movement.
+Dialogue: 0,0:00:54.11,0:00:59.11,Default,,0,0,0,,CORSAIR. Built on the Kamiwaza Stack. Powered by Kamiwaza.

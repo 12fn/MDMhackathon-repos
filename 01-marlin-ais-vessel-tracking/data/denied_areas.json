@@ -1,0 +1,58 @@
+[
+  {
+    "id": "BASHI_DENIED",
+    "name": "Bashi Channel Restricted Op Area",
+    "kind": "denied",
+    "polygon": [
+      [
+        21.2,
+        121.2
+      ],
+      [
+        21.2,
+        121.85
+      ],
+      [
+        20.55,
+        121.85
+      ],
+      [
+        20.55,
+        121.2
+      ],
+      [
+        21.2,
+        121.2
+      ]
+    ],
+    "rationale": "PRC PLAN exercise area declared 12 Aug 2024"
+  },
+  {
+    "id": "MIYAKO_RESTRICTED",
+    "name": "Miyako Strait Caution Zone",
+    "kind": "caution",
+    "polygon": [
+      [
+        25.1,
+        124.2
+      ],
+      [
+        25.1,
+        125.3
+      ],
+      [
+        24.4,
+        125.3
+      ],
+      [
+        24.4,
+        124.2
+      ],
+      [
+        25.1,
+        124.2
+      ]
+    ],
+    "rationale": "Adjacent to JS Yonaguni radar; high foreign vessel transit"
+  }
+]

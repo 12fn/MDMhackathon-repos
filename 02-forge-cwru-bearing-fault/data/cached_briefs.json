@@ -1,0 +1,161 @@
+{
+  "MTVR-2491": {
+    "agent_result": {
+      "recommendation": "induct_now",
+      "urgency": "red",
+      "rationale_bullets": [
+        "Classifier flags outer_race fault at 0.759 confidence; severity is 0.596, just under the 0.60 cutoff, but the fault is corroborated by the spectrogram and log trend.",
+        "RUL is only 242 operating hours, which is below the 250-hour induct-now threshold.",
+        "Maintenance log shows worsening right-rear hub symptoms: slight temp rise on 2025-10-12, rumble on 2025-12-04, vibration on 2026-01-19, constant rumble by 2026-03-30, and amber sensor trigger on 2026-04-18.",
+        "Spectrogram shows a persistent bearing-related band around the expected defect frequency region with increasing transient energy, consistent with an outer-race spall progression."
+      ],
+      "commander_brief": "Induct MTVR-2491 now for right rear hub bearing replacement. The model sees an outer-race fault, the remaining life is only 242 hours, and the vibration trend has clearly worsened over the last several maintenance events. NSN 3110-01-433-0978 is in stock at MCLB Albany, so pull the part and schedule teardown immediately.",
+      "parts_action": "NSN 3110-01-433-0978 in stock, 14 ea at MCLB Albany; pull immediately.",
+      "predicted_failure_mode": "Outer-race spall progressing to hub overheating and possible seizure within ~30 days of operation",
+      "_tool_call_log": [
+        {
+          "tool": "lookup_part_availability",
+          "args": {
+            "nsn": "3110-01-433-0978"
+          },
+          "result": {
+            "nsn": "3110-01-433-0978",
+            "found": true,
+            "name": "Bearing, Wheel Hub, Tapered Roller, MTVR Drive Axle",
+            "in_stock_at_mclb_albany": true,
+            "qty_albany": 14,
+            "alt_depots": {
+              "MCLB_Barstow": 8,
+              "Blount_Island_Command": 22
+            },
+            "lead_time_days_if_short": 11,
+            "unit_cost_usd": 387.42
+          }
+        }
+      ],
+      "_model": "Kamiwaza mini"
+    },
+    "classifier_result": {
+      "class": "outer_race",
+      "confidence": 0.7593333333333335,
+      "probabilities": {
+        "healthy": 0.0,
+        "inner_race": 0.203,
+        "outer_race": 0.7593333333333335,
+        "ball": 0.03766666666666666
+      }
+    },
+    "rul_result": {
+      "rul_hours": 242,
+      "recommendation": "monitor_closely",
+      "model_severity": 0.5955536365509033
+    },
+    "severity_est": 0.5955536365509033
+  },
+  "JLTV-1107": {
+    "agent_result": {
+      "recommendation": "safe_to_operate",
+      "urgency": "green",
+      "rationale_bullets": [
+        "Classifier is HEALTHY at 0.9967 confidence; outer-race probability is only 0.0033, with no inner-race or ball fault signature.",
+        "RUL is 1907 operating hours, well above the 800-hour safe-to-operate threshold and far from the 250-hour induct-now trigger.",
+        "Maintenance log shows no confirmed bearing defect: PMCS-Q on 2026-03-02 found all hubs within spec; the 2026-01-15 cold-start moan was transient and not reproduced.",
+        "Spectrogram does not show a strong BPFO/BPFI/BSF harmonic pattern or rising sideband structure consistent with an active wheel-bearing spall."
+      ],
+      "commander_brief": "Front-left wheel bearing on JLTV-1107 is healthy and safe to keep in service. No bearing fault pattern is showing, and estimated life remaining is high at 1907 hours. Continue routine PMCS and recheck if the cold-start moan returns or vibration increases.",
+      "parts_action": "No parts action required; NSN 3110-01-660-2271 not needed at this time.",
+      "predicted_failure_mode": "No active bearing failure indicated; continue monitoring for early outer-race spall only if vibration trend changes.",
+      "_tool_call_log": [
+        {
+          "tool": "lookup_part_availability",
+          "args": {
+            "nsn": "3110-01-660-2271"
+          },
+          "result": {
+            "nsn": "3110-01-660-2271",
+            "found": true,
+            "name": "Bearing, Wheel Hub, Front, JLTV",
+            "in_stock_at_mclb_albany": true,
+            "qty_albany": 41,
+            "alt_depots": {
+              "MCLB_Barstow": 27,
+              "Blount_Island_Command": 19
+            },
+            "lead_time_days_if_short": 6,
+            "unit_cost_usd": 512.1
+          }
+        }
+      ],
+      "_model": "Kamiwaza mini"
+    },
+    "classifier_result": {
+      "class": "healthy",
+      "confidence": 0.9966666666666667,
+      "probabilities": {
+        "healthy": 0.9966666666666667,
+        "inner_race": 0.0,
+        "outer_race": 0.003333333333333333,
+        "ball": 0.0
+      }
+    },
+    "rul_result": {
+      "rul_hours": 1907,
+      "recommendation": "safe_to_operate",
+      "model_severity": 0.21808594465255737
+    },
+    "severity_est": 0.21808594465255737
+  },
+  "LAV-25-0892": {
+    "agent_result": {
+      "recommendation": "induct_now",
+      "urgency": "red",
+      "rationale_bullets": [
+        "Classifier flags an outer-race fault at 0.427 confidence; combined with model severity 0.443 and the spectrogram\u2019s persistent banding near the bearing fault frequency region, this is not a healthy signature.",
+        "RUL is only 334 operating hours, and the fault trend has worsened: whine reported on 2025-11-30, still present on 2026-01-08, grease only partially reduced it on 2026-02-26, and the sensor crossed yellow on 2026-04-05.",
+        "The hub bearing was refurbished at overhaul on 2025-09-22, not replaced, which matches a progressing bearing defect rather than a one-time noise issue.",
+        "NSN 3110-01-204-5587 is not in stock at MCLB Albany, but the short lead time and alternate depot availability support immediate induction planning."
+      ],
+      "commander_brief": "Induct this LAV-25A2 axle 2 right hub now for bearing inspection and replacement planning. The vibration package points to a developing outer-race bearing fault, and the vehicle only has about 334 hours of life left before likely failure. Reference NSN 3110-01-204-5587 and coordinate parts pull from alternate depot stock immediately.",
+      "parts_action": "NSN 3110-01-204-5587 not in stock at MCLB Albany; request from MCLB Barstow (3) or Blount Island Command (5) now, 21-day lead time if short.",
+      "predicted_failure_mode": "Outer-race spall progressing to increased heat, noise, and possible hub seizure within ~30 days of operation",
+      "_tool_call_log": [
+        {
+          "tool": "lookup_part_availability",
+          "args": {
+            "nsn": "3110-01-204-5587"
+          },
+          "result": {
+            "nsn": "3110-01-204-5587",
+            "found": true,
+            "name": "Bearing, Wheel Hub, LAV-25 Drive Train",
+            "in_stock_at_mclb_albany": false,
+            "qty_albany": 0,
+            "alt_depots": {
+              "MCLB_Barstow": 3,
+              "Blount_Island_Command": 5
+            },
+            "lead_time_days_if_short": 21,
+            "unit_cost_usd": 622.85
+          }
+        }
+      ],
+      "_model": "Kamiwaza mini"
+    },
+    "classifier_result": {
+      "class": "outer_race",
+      "confidence": 0.42724999999999996,
+      "probabilities": {
+        "healthy": 0.0,
+        "inner_race": 0.2909999999999999,
+        "outer_race": 0.42724999999999996,
+        "ball": 0.28175
+      }
+    },
+    "rul_result": {
+      "rul_hours": 334,
+      "recommendation": "monitor_closely",
+      "model_severity": 0.44269654154777527
+    },
+    "severity_est": 0.44269654154777527
+  }
+}

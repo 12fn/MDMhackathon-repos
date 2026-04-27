@@ -1,0 +1,31 @@
+asset_class,country_of_origin,type,distinguishing_features
+M1A2 Abrams,United States,MBT,Flat angular turret; 120mm M256 smoothbore; CITV optic; M1A2 Trophy APS RWS; seven road wheels per side; gas-turbine exhaust grille on rear deck.
+M2A3 Bradley,United States,IFV,Twin TOW launcher box on right of turret; 25mm M242 Bushmaster; six road wheels; BUSK-III ERA tiles.
+T-72B3,Russian Federation,MBT,"Round low-profile turret; 125mm 2A46 with bore evacuator mid-barrel; six road wheels per side, no return rollers; Kontakt-5 ERA arrow pattern on glacis."
+T-90M Proryv,Russian Federation,MBT,Welded turret with Relikt ERA wedges; Sosna-U gunner sight on left of mantlet; soft-kill APS Shtora EOCM boxes either side of main gun.
+T-14 Armata,Russian Federation,MBT,Unmanned turret; very low silhouette over crew capsule; Afghanit hard-kill APS launcher tubes around turret base; seven road wheels.
+Type 99A,China (PRC),MBT,Wedge-shaped turret with composite armor blocks; large laser-dazzler box on turret roof; six road wheels; 125mm smoothbore.
+Leopard 2A7,Germany,MBT,Boxy angular turret with vertical front face; Rh-120 L/55; seven road wheels; thermal sight box top-right of mantlet.
+Challenger 3,United Kingdom,MBT,New unmanned-style turret (vs Challenger 2 cast turret); L55A1 smoothbore; Trophy APS panels; seven road wheels.
+BMP-3,Russian Federation,IFV,100mm 2A70 + coaxial 30mm 2A72 main armament combo; rear engine layout with troop hatches over rear deck.
+ZTQ-15 Type 15,China (PRC),Light Tank,Light tank profile; 105mm rifled gun; commander RWS; six small road wheels; intended for plateau / amphibious ops.
+AH-64E Apache Guardian,United States,Attack Helicopter,Tandem cockpit; chin-mounted M230 30mm; nose Longbow millimeter-wave radar dome above main rotor; four-blade main rotor; stub wings with Hellfire rails.
+UH-60M Black Hawk,United States,Utility Helicopter,Four-blade main rotor; canted tail rotor; large side cabin doors; ESSS stub wings optional.
+Mi-28N Havoc,Russian Federation,Attack Helicopter,Tandem cockpit; chin 30mm 2A42; mast-mounted radar (Mi-28NM); five-blade main rotor; stub wings with Ataka/Vikhr.
+Ka-52 Alligator,Russian Federation,Attack Helicopter,Coaxial counter-rotating main rotors (no tail rotor); side-by-side cockpit; ejection seats; chin 2A42 30mm offset to right.
+Z-10 Wuzhi,China (PRC),Attack Helicopter,Tandem narrow cockpit; chin 23mm cannon; five-blade main rotor; stub wings with HJ-10 ATGMs; canted exhaust IR suppressors.
+F-35A Lightning II,United States,5th-gen Fighter,Single engine; chined nose with EOTS sensor under nose; canted twin tails; internal weapons bays; DAS apertures around airframe.
+F-22 Raptor,United States,5th-gen Fighter,Twin engines with 2D thrust-vector nozzles; diamond planform wing; canted twin tails; chined nose; large internal bays.
+Su-57 Felon,Russian Federation,5th-gen Fighter,Twin widely-spaced engines; LEVCONs forward of wing root; all-moving canted twin tails; long tailcone between engines.
+J-20 Mighty Dragon,China (PRC),5th-gen Fighter,Canard-delta layout; twin canted tails + ventral fins; chined nose; long fuselage; internal weapons bays.
+Su-34 Fullback,Russian Federation,Strike Fighter,Side-by-side cockpit ('platypus' nose); twin engines; tandem main gear; large dorsal spine; rear-warning radar tailcone.
+MQ-9 Reaper,United States,MALE UCAV,Long slender fuselage; V-tail with ventral fin; pusher prop; SATCOM bulge above nose; Hellfire/GBU-12 hardpoints under wings; ~20m wingspan.
+MQ-1C Gray Eagle,United States,MALE UAS,Inverted-V tail (no ventral fin); pusher prop; SATCOM bulge; smaller than Reaper; wing root larger than RQ-7.
+RQ-4 Global Hawk,United States,HALE ISR,Whale-like SATCOM bulb nose; very long thin straight wings; V-tail; jet engine atop rear fuselage.
+Bayraktar TB2,Turkey,MALE UCAV,Inverted-V tail; pusher prop; small EO/IR ball under nose; ~12m wingspan; no SATCOM bulge (line-of-sight only).
+Bayraktar Akinci,Turkey,HALE UCAV,Twin turboprop tractor engines on wing; inverted-V tail; SATCOM bulge; ~20m wingspan; six hardpoints.
+Shahed-136 / Geran-2,Iran (Russian re-mfg as Geran-2),Loitering munition,Delta wing with vertical winglets; pusher prop; ~3.5m wingspan; warhead in nose; launched from rail/canister; triangular planform.
+Wing Loong II,China (PRC),MALE UCAV,Conventional V-tail (not inverted); pusher prop; SATCOM bulge; 6 hardpoints; very similar profile to MQ-9 but smaller and V-tail orientation differs.
+Type 055 Renhai,China (PRC),Cruiser,"Integrated mast with panel arrays; 112-cell VLS; ~13,000t; long flush forecastle; flat-faced superstructure."
+Arleigh Burke Flight III,United States,DDG,SPY-6 panel arrays integrated into superstructure; 96-cell Mk-41 VLS; angular RCS-reduced superstructure; single 5-inch Mk-45 forward.
+Ticonderoga CG,United States,Cruiser,Twin SPY-1 panels on box-shaped superstructure; 122-cell Mk-41 VLS (split fwd/aft); two 5-inch Mk-45; planned retirement.

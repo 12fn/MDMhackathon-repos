@@ -1,0 +1,182 @@
+[
+  {
+    "file": "01_geo_SASEBO.md",
+    "kind": "geo",
+    "target": "SASEBO",
+    "issued": "2026-04-02T00:50:00"
+  },
+  {
+    "file": "02_swell_AAFB.md",
+    "kind": "swell",
+    "target": "AAFB",
+    "issued": "2026-04-12T07:21:00"
+  },
+  {
+    "file": "03_equip_PALAU.md",
+    "kind": "equip",
+    "target": "PALAU",
+    "issued": "2026-02-24T00:31:00"
+  },
+  {
+    "file": "04_typhoon_NAHA.md",
+    "kind": "typhoon",
+    "target": "NAHA",
+    "issued": "2026-03-12T00:01:00"
+  },
+  {
+    "file": "05_typhoon_PNI.md",
+    "kind": "typhoon",
+    "target": "PNI",
+    "issued": "2026-03-25T10:30:00"
+  },
+  {
+    "file": "06_swell_NAHA.md",
+    "kind": "swell",
+    "target": "NAHA",
+    "issued": "2026-03-12T05:27:00"
+  },
+  {
+    "file": "07_equip_PALAU.md",
+    "kind": "equip",
+    "target": "PALAU",
+    "issued": "2026-04-17T09:27:00"
+  },
+  {
+    "file": "08_geo_DGAR.md",
+    "kind": "geo",
+    "target": "DGAR",
+    "issued": "2026-03-12T13:01:00"
+  },
+  {
+    "file": "09_swell_IWAKUNI.md",
+    "kind": "swell",
+    "target": "IWAKUNI",
+    "issued": "2026-03-06T00:20:00"
+  },
+  {
+    "file": "10_typhoon_SUBIC.md",
+    "kind": "typhoon",
+    "target": "SUBIC",
+    "issued": "2026-04-11T15:14:00"
+  },
+  {
+    "file": "11_geo_AAFB.md",
+    "kind": "geo",
+    "target": "AAFB",
+    "issued": "2026-03-13T11:35:00"
+  },
+  {
+    "file": "12_equip_AAFB.md",
+    "kind": "equip",
+    "target": "AAFB",
+    "issued": "2026-03-28T15:06:00"
+  },
+  {
+    "file": "13_typhoon_NAHA.md",
+    "kind": "typhoon",
+    "target": "NAHA",
+    "issued": "2026-02-25T08:25:00"
+  },
+  {
+    "file": "14_climate_PNI.md",
+    "kind": "climate",
+    "target": "PNI",
+    "issued": "2026-03-23T02:59:00"
+  },
+  {
+    "file": "15_geo_SUBIC.md",
+    "kind": "geo",
+    "target": "SUBIC",
+    "issued": "2026-03-05T05:40:00"
+  },
+  {
+    "file": "16_climate_IWAKUNI.md",
+    "kind": "climate",
+    "target": "IWAKUNI",
+    "issued": "2026-04-22T22:27:00"
+  },
+  {
+    "file": "17_typhoon_AAFB.md",
+    "kind": "typhoon",
+    "target": "AAFB",
+    "issued": "2026-02-24T19:58:00"
+  },
+  {
+    "file": "18_swell_TINIAN.md",
+    "kind": "swell",
+    "target": "TINIAN",
+    "issued": "2026-03-22T04:20:00"
+  },
+  {
+    "file": "19_climate_YOKO.md",
+    "kind": "climate",
+    "target": "YOKO",
+    "issued": "2026-03-31T01:42:00"
+  },
+  {
+    "file": "20_geo_NAHA.md",
+    "kind": "geo",
+    "target": "NAHA",
+    "issued": "2026-02-24T12:50:00"
+  },
+  {
+    "file": "21_typhoon_PALAU.md",
+    "kind": "typhoon",
+    "target": "PALAU",
+    "issued": "2026-02-27T21:18:00"
+  },
+  {
+    "file": "22_climate_DGAR.md",
+    "kind": "climate",
+    "target": "DGAR",
+    "issued": "2026-03-11T05:45:00"
+  },
+  {
+    "file": "23_swell_IWAKUNI.md",
+    "kind": "swell",
+    "target": "IWAKUNI",
+    "issued": "2026-03-04T17:10:00"
+  },
+  {
+    "file": "24_typhoon_DGAR.md",
+    "kind": "typhoon",
+    "target": "DGAR",
+    "issued": "2026-03-03T08:40:00"
+  },
+  {
+    "file": "25_swell_APRA.md",
+    "kind": "swell",
+    "target": "APRA",
+    "issued": "2026-04-15T06:35:00"
+  },
+  {
+    "file": "26_equip_DGAR.md",
+    "kind": "equip",
+    "target": "DGAR",
+    "issued": "2026-03-03T07:22:00"
+  },
+  {
+    "file": "27_equip_TINIAN.md",
+    "kind": "equip",
+    "target": "TINIAN",
+    "issued": "2026-04-08T23:34:00"
+  },
+  {
+    "file": "28_typhoon_NAHA.md",
+    "kind": "typhoon",
+    "target": "NAHA",
+    "issued": "2026-04-07T05:54:00"
+  },
+  {
+    "file": "29_climate_IWAKUNI.md",
+    "kind": "climate",
+    "target": "IWAKUNI",
+    "issued": "2026-04-20T06:07:00"
+  },
+  {
+    "file": "30_climate_DGAR.md",
+    "kind": "climate",
+    "target": "DGAR",
+    "issued": "2026-03-13T06:37:00"
+  }
+]

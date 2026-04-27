@@ -1,0 +1,58 @@
+[
+  {
+    "id": "S001",
+    "asset_class": "T-72B3",
+    "country": "Russian Federation",
+    "wikimedia_url": "https://commons.wikimedia.org/wiki/File:T-72B3_-_TankBiathlon2013-15.jpg",
+    "local_path": "sample_images/S001_T-72B3.png"
+  },
+  {
+    "id": "S002",
+    "asset_class": "M1A2 Abrams",
+    "country": "United States",
+    "wikimedia_url": "https://commons.wikimedia.org/wiki/File:M1A2_Abrams_in_motion.jpg",
+    "local_path": "sample_images/S002_M1A2_Abrams.png"
+  },
+  {
+    "id": "S003",
+    "asset_class": "MQ-9 Reaper",
+    "country": "United States",
+    "wikimedia_url": "https://commons.wikimedia.org/wiki/File:MQ-9_Reaper_in_flight_(2007).jpg",
+    "local_path": "sample_images/S003_MQ-9_Reaper.png"
+  },
+  {
+    "id": "S004",
+    "asset_class": "Bayraktar TB2",
+    "country": "Turkey",
+    "wikimedia_url": "https://commons.wikimedia.org/wiki/File:Bayraktar_TB2_Runway.jpg",
+    "local_path": "sample_images/S004_Bayraktar_TB2.png"
+  },
+  {
+    "id": "S005",
+    "asset_class": "AH-64E Apache Guardian",
+    "country": "United States",
+    "wikimedia_url": "https://commons.wikimedia.org/wiki/File:AH-64_Apache_Helicopter.jpg",
+    "local_path": "sample_images/S005_AH-64E_Apache_Guardian.png"
+  },
+  {
+    "id": "S006",
+    "asset_class": "Ka-52 Alligator",
+    "country": "Russian Federation",
+    "wikimedia_url": "https://commons.wikimedia.org/wiki/File:Russian_Air_Force_Kamov_Ka-52_Beltyukov.jpg",
+    "local_path": "sample_images/S006_Ka-52_Alligator.png"
+  },
+  {
+    "id": "S007",
+    "asset_class": "Su-57 Felon",
+    "country": "Russian Federation",
+    "wikimedia_url": "https://commons.wikimedia.org/wiki/File:Sukhoi_T-50_Beltyukov.jpg",
+    "local_path": "sample_images/S007_Su-57_Felon.png"
+  },
+  {
+    "id": "S008",
+    "asset_class": "Shahed-136 / Geran-2",
+    "country": "Iran (Russian re-mfg as Geran-2)",
+    "wikimedia_url": "https://commons.wikimedia.org/wiki/File:HESA_Shahed_136.png",
+    "local_path": "sample_images/S008_Shahed-136_-_Geran-2.png"
+  }
+]

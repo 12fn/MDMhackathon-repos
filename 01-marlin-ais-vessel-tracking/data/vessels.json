@@ -1,0 +1,82 @@
+[
+  {
+    "mmsi": "232017854",
+    "name": "MAERSK SENTOSA",
+    "type": "Cargo",
+    "flag": "GBR",
+    "color": "#3aa0ff",
+    "ping_count": 100
+  },
+  {
+    "mmsi": "477123456",
+    "name": "OOCL HONG KONG",
+    "type": "Cargo",
+    "flag": "HKG",
+    "color": "#3aa0ff",
+    "ping_count": 100
+  },
+  {
+    "mmsi": "353136000",
+    "name": "EVER GIVEN",
+    "type": "Cargo",
+    "flag": "PAN",
+    "color": "#3aa0ff",
+    "ping_count": 65
+  },
+  {
+    "mmsi": "412888001",
+    "name": "HAI LU 88",
+    "type": "Fishing",
+    "flag": "CHN",
+    "color": "#f5b942",
+    "ping_count": 100
+  },
+  {
+    "mmsi": "412888092",
+    "name": "HAI LU 92",
+    "type": "Fishing",
+    "flag": "CHN",
+    "color": "#f5b942",
+    "ping_count": 100
+  },
+  {
+    "mmsi": "548112233",
+    "name": "PHL FV BANGUS",
+    "type": "Fishing",
+    "flag": "PHL",
+    "color": "#f5b942",
+    "ping_count": 100
+  },
+  {
+    "mmsi": "636019887",
+    "name": "DARK STAR",
+    "type": "Tanker",
+    "flag": "LBR",
+    "color": "#9d6bff",
+    "ping_count": 100
+  },
+  {
+    "mmsi": "413555012",
+    "name": "YANTAI SPIRIT",
+    "type": "Tanker",
+    "flag": "CHN",
+    "color": "#9d6bff",
+    "ping_count": 100
+  },
+  {
+    "mmsi": "413700777",
+    "name": "SHEN ZHEN HAO",
+    "type": "Research",
+    "flag": "CHN",
+    "color": "#ff5577",
+    "ping_count": 100
+  },
+  {
+    "mmsi": "338910001",
+    "name": "USNS CHARLES DREW",
+    "type": "Mil Sealift",
+    "flag": "USA",
+    "color": "#00FFA7",
+    "ping_count": 100
+  }
+]

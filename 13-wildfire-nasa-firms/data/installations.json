@@ -1,0 +1,239 @@
+[
+  {
+    "id": "pendleton",
+    "name": "MCB Camp Pendleton",
+    "state": "CA",
+    "centroid": [
+      33.3858,
+      -117.5631
+    ],
+    "polygon": [
+      [
+        33.55,
+        -117.71
+      ],
+      [
+        33.55,
+        -117.32
+      ],
+      [
+        33.21,
+        -117.32
+      ],
+      [
+        33.21,
+        -117.71
+      ]
+    ],
+    "personnel": 70000,
+    "inventory": {
+      "family_housing_units": 6800,
+      "barracks": 140,
+      "ammo_storage_bunkers": 24,
+      "aviation_parking_aircraft": 64,
+      "motor_pools": 28,
+      "fuel_storage_gal": 3200000,
+      "critical_c2_nodes": 6
+    },
+    "fire_history": "Burned 6+ times in the last decade \u2014 Las Pulgas (2014), Talega (2017), De Luz (2018, 2020, 2022, 2024). 2014 fire forced evacuation of family housing in Las Pulgas and San Onofre.",
+    "evacuation_routes": [
+      "Vandegrift Blvd",
+      "Stuart Mesa Rd",
+      "Basilone Rd",
+      "I-5 South"
+    ],
+    "assembly_areas": [
+      "DelMar Beach AAA",
+      "Camp Horno LZ",
+      "23 Area Parade Deck"
+    ]
+  },
+  {
+    "id": "twentynine-palms",
+    "name": "MCAGCC Twentynine Palms",
+    "state": "CA",
+    "centroid": [
+      34.2378,
+      -116.0542
+    ],
+    "polygon": [
+      [
+        34.55,
+        -116.4
+      ],
+      [
+        34.55,
+        -115.65
+      ],
+      [
+        33.92,
+        -115.65
+      ],
+      [
+        33.92,
+        -116.4
+      ]
+    ],
+    "personnel": 11000,
+    "inventory": {
+      "family_housing_units": 2200,
+      "barracks": 48,
+      "ammo_storage_bunkers": 36,
+      "aviation_parking_aircraft": 22,
+      "motor_pools": 14,
+      "fuel_storage_gal": 1900000,
+      "critical_c2_nodes": 4
+    },
+    "fire_history": "Largest USMC training installation. Range fires from live-fire exercises are routine; high desert fuel loads spike Jun-Sep.",
+    "evacuation_routes": [
+      "SR-62 West",
+      "Adobe Rd",
+      "Condor Rd"
+    ],
+    "assembly_areas": [
+      "Camp Wilson MEDEVAC LZ",
+      "Mainside Parade Field"
+    ]
+  },
+  {
+    "id": "yuma",
+    "name": "MCAS Yuma",
+    "state": "AZ",
+    "centroid": [
+      32.6566,
+      -114.6058
+    ],
+    "polygon": [
+      [
+        32.74,
+        -114.69
+      ],
+      [
+        32.74,
+        -114.51
+      ],
+      [
+        32.57,
+        -114.51
+      ],
+      [
+        32.57,
+        -114.69
+      ]
+    ],
+    "personnel": 5600,
+    "inventory": {
+      "family_housing_units": 1100,
+      "barracks": 22,
+      "ammo_storage_bunkers": 14,
+      "aviation_parking_aircraft": 48,
+      "motor_pools": 4,
+      "fuel_storage_gal": 1400000,
+      "critical_c2_nodes": 2
+    },
+    "fire_history": "Sonoran Desert grass fires after wet winters; F-35B + AV-8B flightline parking is the protect-priority asset.",
+    "evacuation_routes": [
+      "32nd St",
+      "Avenue 3E",
+      "I-8 East"
+    ],
+    "assembly_areas": [
+      "Mainside Parade Deck",
+      "BX Parking"
+    ]
+  },
+  {
+    "id": "lejeune-training",
+    "name": "MCB Camp Lejeune Training Area",
+    "state": "NC",
+    "centroid": [
+      34.684,
+      -77.3464
+    ],
+    "polygon": [
+      [
+        34.86,
+        -77.55
+      ],
+      [
+        34.86,
+        -77.15
+      ],
+      [
+        34.51,
+        -77.15
+      ],
+      [
+        34.51,
+        -77.55
+      ]
+    ],
+    "personnel": 47000,
+    "inventory": {
+      "family_housing_units": 4500,
+      "barracks": 92,
+      "ammo_storage_bunkers": 18,
+      "aviation_parking_aircraft": 0,
+      "motor_pools": 12,
+      "fuel_storage_gal": 2400000,
+      "critical_c2_nodes": 4
+    },
+    "fire_history": "Prescribed burns + lightning-ignited longleaf pine fires; ~3,000 ac/yr historical. Greater Sandy Run burns adjacent.",
+    "evacuation_routes": [
+      "Holcomb Blvd",
+      "Sneads Ferry Rd",
+      "NC-172"
+    ],
+    "assembly_areas": [
+      "Onslow Beach AAA",
+      "Tarawa Terrace LZ"
+    ]
+  },
+  {
+    "id": "quantico",
+    "name": "MCB Quantico",
+    "state": "VA",
+    "centroid": [
+      38.5223,
+      -77.3047
+    ],
+    "polygon": [
+      [
+        38.62,
+        -77.45
+      ],
+      [
+        38.62,
+        -77.2
+      ],
+      [
+        38.4,
+        -77.2
+      ],
+      [
+        38.4,
+        -77.45
+      ]
+    ],
+    "personnel": 16000,
+    "inventory": {
+      "family_housing_units": 1400,
+      "barracks": 36,
+      "ammo_storage_bunkers": 8,
+      "aviation_parking_aircraft": 12,
+      "motor_pools": 8,
+      "fuel_storage_gal": 800000,
+      "critical_c2_nodes": 5
+    },
+    "fire_history": "Mid-Atlantic hardwood; range fires occasional. TBS / OCS schools represent high-density personnel risk.",
+    "evacuation_routes": [
+      "Russell Rd",
+      "Fuller Rd",
+      "I-95 North"
+    ],
+    "assembly_areas": [
+      "Butler Stadium",
+      "TBS Parade Deck"
+    ]
+  }
+]

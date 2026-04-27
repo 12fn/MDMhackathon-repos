@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body { background: #0A0A0A; color: #E5E5E5; height: 100%; }
+body { font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+
+/* Make Leaflet attribution + zoom control fit dark theme */
+.leaflet-container { background: #061018 !important; }
+.leaflet-control-attribution {
+  background: rgba(10,10,10,0.6) !important;
+  color: #6A6969 !important;
+  font-size: 10px !important;
+}
+.leaflet-control-attribution a { color: #00BB7A !important; }
+.leaflet-bar a {
+  background: #0E0E0E !important;
+  color: #00FFA7 !important;
+  border-color: #222 !important;
+}
+
+/* Pulsing red flagged-vessel marker */
+@keyframes pulse-red {
+  0%   { box-shadow: 0 0 0 0 rgba(255,80,80, 0.85); }
+  70%  { box-shadow: 0 0 0 18px rgba(255,80,80, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(255,80,80, 0); }
+}
+.marker-flagged {
+  background: #ff4d4d;
+  border-radius: 50%;
+  width: 14px; height: 14px;
+  border: 2px solid #fff;
+  animation: pulse-red 1.4s infinite;
+}
+.marker-normal {
+  border-radius: 50%;
+  width: 10px; height: 10px;
+  border: 2px solid #0A0A0A;
+}
+
+/* Time slider */
+input[type=range].kw-range {
+  -webkit-appearance: none;
+  background: linear-gradient(to right, #00BB7A var(--p, 0%), #222 var(--p, 0%));
+  height: 6px; border-radius: 4px; outline: none;
+}
+input[type=range].kw-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 16px; height: 16px; border-radius: 50%;
+  background: #00FFA7; border: 2px solid #0A0A0A; cursor: pointer;
+  box-shadow: 0 0 8px rgba(0,255,167,0.6);
+}
+
+.scroll-hidden::-webkit-scrollbar { width: 6px; }
+.scroll-hidden::-webkit-scrollbar-thumb { background: #222; border-radius: 4px; }
+
+.terminal-line { color: #00FFA7; font-family: ui-monospace, monospace; }
+.cursor-blink::after { content: '_'; animation: blink 1s steps(1) infinite; }
+@keyframes blink { 50% { opacity: 0; } }

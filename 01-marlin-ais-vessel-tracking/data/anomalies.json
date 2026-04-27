@@ -1,0 +1,43 @@
+[
+  {
+    "id": "ANOM_GAP_EVER_GIVEN",
+    "kind": "ais_gap",
+    "mmsi": "353136000",
+    "vessel": "EVER GIVEN",
+    "severity": "high",
+    "summary": "AIS broadcast gap of 175 min while transiting Bashi Channel approach.",
+    "t_start": "2024-08-14T20:30:00+00:00",
+    "t_end": "2024-08-14T23:25:00+00:00",
+    "lat": 19.91156,
+    "lon": 121.85527
+  },
+  {
+    "id": "ANOM_LOITER_HAILU88",
+    "kind": "loiter_denied",
+    "mmsi": "412888001",
+    "vessel": "HAI LU 88",
+    "severity": "high",
+    "summary": "Sustained tight-radius loiter inside Bashi Channel restricted op area.",
+    "t_start": "2024-08-14T19:40:00+00:00",
+    "t_end": "2024-08-14T23:45:00+00:00",
+    "lat": 20.85,
+    "lon": 121.55,
+    "denied_area": "BASHI_DENIED"
+  },
+  {
+    "id": "ANOM_RDV_DARKSTAR_YANTAI",
+    "kind": "rendezvous",
+    "mmsi": "636019887",
+    "vessel": "DARK STAR <-> YANTAI SPIRIT",
+    "partners": [
+      "636019887",
+      "413555012"
+    ],
+    "severity": "critical",
+    "summary": "Two flagged tankers converged to <0.5 nm in open ocean for ~30 min \u2014 pattern consistent with covert STS transfer.",
+    "t_start": "2024-08-14T22:35:00+00:00",
+    "t_end": "2024-08-14T23:00:00+00:00",
+    "lat": 21.95,
+    "lon": 121.7
+  }
+]

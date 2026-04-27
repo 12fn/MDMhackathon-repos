@@ -1,0 +1,39 @@
+1
+00:00:04,148 --> 00:00:09,148
+MERIDIAN. Climate-resilience watch over MARFORPAC supply lines.
+
+2
+00:00:09,151 --> 00:00:14,151
+LOGCOM problem set: contested logistics, supply chain, expeditionary ops.
+
+3
+00:00:14,153 --> 00:00:19,153
+Twelve critical nodes — Guam to Okinawa to CNMI to the Philippines.
+
+4
+00:00:19,155 --> 00:00:25,155
+Thirty NOAA, JTWC, FEMA, and G-4 reports stream in — no data movement.
+
+5
+00:00:25,161 --> 00:00:31,161
+A multi-step LLM agent scores all twelve nodes — structured JSON.
+
+6
+00:00:31,189 --> 00:00:39,189
+Then a Kamiwaza-deployed model drafts a USMC OPORD-style five-paragraph brief.
+
+7
+00:00:34,486 --> 00:00:41,486
+Top-3 named threats. Recommended COA per CCDR. One page.
+
+8
+00:00:41,489 --> 00:00:47,489
+Inject a new incident — re-rank the chain in seconds.
+
+9
+00:00:47,503 --> 00:00:54,503
+Set KAMIWAZA_BASE_URL and the same code runs inside the wire.
+
+10
+00:00:54,507 --> 00:01:02,507
+Powered by the Kamiwaza Stack. Deploy in hours, not months.

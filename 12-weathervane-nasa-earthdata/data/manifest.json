@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-04-24T09:36:18.705250Z",
+  "horizon_start_utc": "2026-05-01T00:00:00+00:00",
+  "hours": 720,
+  "locations": [
+    {
+      "slug": "subic_bay",
+      "name": "Subic Bay, Philippines",
+      "lat": 14.79,
+      "lon": 120.27,
+      "rows": 720,
+      "csv": "subic_bay.csv"
+    },
+    {
+      "slug": "yemen_coast",
+      "name": "Yemen Coast (Bab-el-Mandeb)",
+      "lat": 12.59,
+      "lon": 43.32,
+      "rows": 720,
+      "csv": "yemen_coast.csv"
+    },
+    {
+      "slug": "norway_fjord",
+      "name": "Vestfjorden, Norway",
+      "lat": 68.1,
+      "lon": 14.3,
+      "rows": 720,
+      "csv": "norway_fjord.csv"
+    },
+    {
+      "slug": "marforpac_training",
+      "name": "MARFORPAC Training Area (PMRF, Kauai)",
+      "lat": 22.02,
+      "lon": -159.78,
+      "rows": 720,
+      "csv": "marforpac_training.csv"
+    }
+  ],
+  "sources_simulated": [
+    "NASA MERRA-2 (10-m winds)",
+    "NASA GPM IMERG (precipitation rate)",
+    "NASA GHRSST (sea-surface temperature)",
+    "NASA MODIS Terra/Aqua (cloud cover)",
+    "WAVEWATCH III ensemble (significant wave height)"
+  ]
+}

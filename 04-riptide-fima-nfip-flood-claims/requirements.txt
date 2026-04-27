@@ -1,0 +1,13 @@
+openai>=1.40
+python-dotenv>=1.0
+anthropic>=0.39
+streamlit>=1.30
+fastapi>=0.110
+uvicorn[standard]>=0.27
+pandas>=2.1
+folium>=0.15
+streamlit-folium>=0.18
+numpy>=1.26
+pyarrow>=14
+pydantic>=2.5
+requests>=2.31

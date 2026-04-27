@@ -1,0 +1,35 @@
+1
+00:00:01,480 --> 00:00:06,480
+ANCHOR. Allied Naval Capability Hub for Operational Readiness.
+
+2
+00:00:06,480 --> 00:00:16,480
+Maritime Prepositioning Force planning: Blount Island Command owns 13 forward ships across two squadrons.
+
+3
+00:00:16,482 --> 00:00:26,482
+Two hundred and fifty ports indexed across the Pacific, Indian Ocean, and Mediterranean.
+
+4
+00:00:26,484 --> 00:00:34,484
+A planner asks: which ports within 500 nautical miles of Subic Bay can offload two BIC-class roll-on roll-off vessels with twelve-meter channel depth?
+
+5
+00:00:34,545 --> 00:00:44,545
+Agentic RAG over the WPI corpus: parse intent, filter capability and geography, vector-rerank two hundred and fifty port profiles.
+
+6
+00:00:44,546 --> 00:00:56,546
+Live map pins update. Top-K candidates highlight in Kamiwaza neon. The Kamiwaza-deployed model streams a comparison table with fit scores and recommended roles.
+
+7
+00:00:56,553 --> 00:01:13,553
+The Kamiwaza-deployed model streams an OPORD-adjacent narrative recommendation: BLUF, primary, backup, risk notes, next action.
+
+8
+00:01:13,581 --> 00:01:24,581
+The inference endpoint in the footer confirms the Kamiwaza-deployed model. Set KAMIWAZA_BASE_URL and the same code runs inside the SCIF.
+
+9
+00:01:24,585 --> 00:01:32,585
+ANCHOR. Built on the Kamiwaza Stack. Deploy in hours, not months.

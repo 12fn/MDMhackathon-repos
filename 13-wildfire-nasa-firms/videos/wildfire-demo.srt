@@ -1,0 +1,35 @@
+1
+00:00:00,001 --> 00:00:05,001
+WILDFIRE — Wildland Incident Locator. From a NASA satellite ping to a base-wide evacuation order in 90 seconds.
+
+2
+00:00:05,150 --> 00:00:12,150
+LOGCOM Installation Incident Response challenge — MARADMIN 131/26. Camp Pendleton has burned six times in the last decade.
+
+3
+00:00:11,652 --> 00:00:21,652
+We pull 200 NASA FIRMS pixels biased near western Marine bases. T minus six hours: every base is CLEAR.
+
+4
+00:00:20,661 --> 00:00:30,661
+Sweep the timeline forward six hours. Fires grow. The alert ladder ticks: WATCH, ALERT, WARNING.
+
+5
+00:00:25,867 --> 00:00:35,867
+Three Pendleton fires within 12 miles. Wind alignment 0.74 — Santa Ana blowing the fire straight at family housing.
+
+6
+00:00:35,369 --> 00:00:51,369
+One click. The Kamiwaza-deployed model drafts four channels at once: MARFORRES email, intranet banner, commander SMS, evacuation brief.
+
+7
+00:00:50,598 --> 00:01:02,598
+Each channel uses the right military register — formal email, terse SMS, banner ready to push.
+
+8
+00:01:01,150 --> 00:01:13,150
+The Kamiwaza-deployed model runs inside your accredited environment. Set KAMIWAZA_BASE_URL and the entire pipeline stays on-base.
+
+9
+00:01:12,664 --> 00:01:22,664
+WILDFIRE — Powered by the Kamiwaza-deployed model stack. Deploy in hours, not months. 100 percent data containment.

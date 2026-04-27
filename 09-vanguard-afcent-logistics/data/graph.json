@@ -1,0 +1,8026 @@
+{
+  "nodes": [
+    "ARIFJAN",
+    "ALIASAL",
+    "ALUDEID",
+    "ALDHAFR",
+    "FUJAIRH",
+    "JEBELALI",
+    "MUSCAT",
+    "DUQM",
+    "MASIRAH",
+    "THUMRT",
+    "ESEEB",
+    "BAGRAM",
+    "KANDHR",
+    "BAHRAIN",
+    "ISABAH",
+    "PSAB",
+    "KKIA",
+    "JEDDAH",
+    "DAMMAM",
+    "TABUK",
+    "MUWAFAQ",
+    "AQABA",
+    "ERBIL",
+    "BAGHDAD",
+    "BASRAH",
+    "ALASAD",
+    "INCIRLK",
+    "DOHA",
+    "SOUDA",
+    "AVIANO",
+    "RAMSTN",
+    "ROTA",
+    "DJIBSEA",
+    "LEMONNR",
+    "DIEGOGR",
+    "MANAMA",
+    "SHARM",
+    "CAIROW",
+    "LARNACA",
+    "MORON",
+    "KARACHI",
+    "MANAS",
+    "SALALAH",
+    "MUHARRQ",
+    "ABUDHB",
+    "HARGEISA",
+    "MOMBASA",
+    "KUWAIT",
+    "DOHAINT",
+    "RIYADH"
+  ],
+  "adj": {
+    "ARIFJAN": [
+      {
+        "to": "ALIASAL",
+        "mode": "air",
+        "distance_nm": 27.4
+      },
+      {
+        "to": "ALUDEID",
+        "mode": "air",
+        "distance_nm": 297.8
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "air",
+        "distance_nm": 457.8
+      },
+      {
+        "to": "MUSCAT",
+        "mode": "air",
+        "distance_nm": 646.7
+      },
+      {
+        "to": "MASIRAH",
+        "mode": "air",
+        "distance_nm": 780.4
+      },
+      {
+        "to": "THUMRT",
+        "mode": "air",
+        "distance_nm": 761.3
+      },
+      {
+        "to": "ESEEB",
+        "mode": "air",
+        "distance_nm": 646.8
+      },
+      {
+        "to": "BAGRAM",
+        "mode": "air",
+        "distance_nm": 1141.0
+      },
+      {
+        "to": "KANDHR",
+        "mode": "air",
+        "distance_nm": 940.7
+      },
+      {
+        "to": "ISABAH",
+        "mode": "air",
+        "distance_nm": 234.6
+      },
+      {
+        "to": "PSAB",
+        "mode": "air",
+        "distance_nm": 299.5
+      },
+      {
+        "to": "KKIA",
+        "mode": "air",
+        "distance_nm": 253.7
+      },
+      {
+        "to": "TABUK",
+        "mode": "air",
+        "distance_nm": 595.8
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "air",
+        "distance_nm": 633.1
+      },
+      {
+        "to": "ERBIL",
+        "mode": "air",
+        "distance_nm": 475.7
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "air",
+        "distance_nm": 315.9
+      },
+      {
+        "to": "ALASAD",
+        "mode": "air",
+        "distance_nm": 399.3
+      },
+      {
+        "to": "INCIRLK",
+        "mode": "air",
+        "distance_nm": 788.3
+      },
+      {
+        "to": "SOUDA",
+        "mode": "air",
+        "distance_nm": 1263.8
+      },
+      {
+        "to": "AVIANO",
+        "mode": "air",
+        "distance_nm": 1943.1
+      },
+      {
+        "to": "RAMSTN",
+        "mode": "air",
+        "distance_nm": 2200.3
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "air",
+        "distance_nm": 1083.7
+      },
+      {
+        "to": "SHARM",
+        "mode": "air",
+        "distance_nm": 715.5
+      },
+      {
+        "to": "CAIROW",
+        "mode": "air",
+        "distance_nm": 888.8
+      },
+      {
+        "to": "LARNACA",
+        "mode": "air",
+        "distance_nm": 806.5
+      },
+      {
+        "to": "MANAS",
+        "mode": "air",
+        "distance_nm": 1529.5
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "air",
+        "distance_nm": 220.6
+      },
+      {
+        "to": "HARGEISA",
+        "mode": "air",
+        "distance_nm": 1191.9
+      },
+      {
+        "to": "KUWAIT",
+        "mode": "air",
+        "distance_nm": 11.5
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "air",
+        "distance_nm": 300.4
+      },
+      {
+        "to": "RIYADH",
+        "mode": "air",
+        "distance_nm": 253.5
+      },
+      {
+        "to": "FUJAIRH",
+        "mode": "sea",
+        "distance_nm": 507.9
+      },
+      {
+        "to": "JEBELALI",
+        "mode": "sea",
+        "distance_nm": 452.5
+      },
+      {
+        "to": "DUQM",
+        "mode": "sea",
+        "distance_nm": 776.5
+      },
+      {
+        "to": "ESEEB",
+        "mode": "sea",
+        "distance_nm": 646.8
+      },
+      {
+        "to": "BAHRAIN",
+        "mode": "sea",
+        "distance_nm": 222.7
+      },
+      {
+        "to": "JEDDAH",
+        "mode": "sea",
+        "distance_nm": 656.7
+      },
+      {
+        "to": "DAMMAM",
+        "mode": "sea",
+        "distance_nm": 195.0
+      },
+      {
+        "to": "AQABA",
+        "mode": "sea",
+        "distance_nm": 676.5
+      },
+      {
+        "to": "ERBIL",
+        "mode": "sea",
+        "distance_nm": 475.7
+      },
+      {
+        "to": "BASRAH",
+        "mode": "sea",
+        "distance_nm": 89.6
+      },
+      {
+        "to": "DOHA",
+        "mode": "sea",
+        "distance_nm": 298.4
+      },
+      {
+        "to": "SOUDA",
+        "mode": "sea",
+        "distance_nm": 1263.8
+      },
+      {
+        "to": "ROTA",
+        "mode": "sea",
+        "distance_nm": 2738.7
+      },
+      {
+        "to": "DJIBSEA",
+        "mode": "sea",
+        "distance_nm": 1081.1
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "sea",
+        "distance_nm": 1083.7
+      },
+      {
+        "to": "DIEGOGR",
+        "mode": "sea",
+        "distance_nm": 2602.3
+      },
+      {
+        "to": "KARACHI",
+        "mode": "sea",
+        "distance_nm": 1050.5
+      },
+      {
+        "to": "SALALAH",
+        "mode": "sea",
+        "distance_nm": 800.4
+      },
+      {
+        "to": "ABUDHB",
+        "mode": "sea",
+        "distance_nm": 440.3
+      },
+      {
+        "to": "MOMBASA",
+        "mode": "sea",
+        "distance_nm": 2042.6
+      },
+      {
+        "to": "ALIASAL",
+        "mode": "road",
+        "distance_nm": 27.4
+      },
+      {
+        "to": "ERBIL",
+        "mode": "road",
+        "distance_nm": 475.7
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "road",
+        "distance_nm": 315.9
+      },
+      {
+        "to": "ALASAD",
+        "mode": "road",
+        "distance_nm": 399.3
+      },
+      {
+        "to": "KUWAIT",
+        "mode": "road",
+        "distance_nm": 11.5
+      }
+    ],
+    "ALIASAL": [
+      {
+        "to": "ARIFJAN",
+        "mode": "air",
+        "distance_nm": 27.4
+      },
+      {
+        "to": "ALUDEID",
+        "mode": "air",
+        "distance_nm": 324.8
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "air",
+        "distance_nm": 485.1
+      },
+      {
+        "to": "MUSCAT",
+        "mode": "air",
+        "distance_nm": 673.3
+      },
+      {
+        "to": "MASIRAH",
+        "mode": "air",
+        "distance_nm": 807.7
+      },
+      {
+        "to": "THUMRT",
+        "mode": "air",
+        "distance_nm": 787.0
+      },
+      {
+        "to": "ESEEB",
+        "mode": "air",
+        "distance_nm": 673.4
+      },
+      {
+        "to": "BAGRAM",
+        "mode": "air",
+        "distance_nm": 1152.7
+      },
+      {
+        "to": "KANDHR",
+        "mode": "air",
+        "distance_nm": 956.5
+      },
+      {
+        "to": "ISABAH",
+        "mode": "air",
+        "distance_nm": 261.6
+      },
+      {
+        "to": "PSAB",
+        "mode": "air",
+        "distance_nm": 317.3
+      },
+      {
+        "to": "KKIA",
+        "mode": "air",
+        "distance_nm": 267.2
+      },
+      {
+        "to": "TABUK",
+        "mode": "air",
+        "distance_nm": 576.0
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "air",
+        "distance_nm": 607.6
+      },
+      {
+        "to": "ERBIL",
+        "mode": "air",
+        "distance_nm": 450.9
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "air",
+        "distance_nm": 289.2
+      },
+      {
+        "to": "ALASAD",
+        "mode": "air",
+        "distance_nm": 372.1
+      },
+      {
+        "to": "INCIRLK",
+        "mode": "air",
+        "distance_nm": 760.9
+      },
+      {
+        "to": "SOUDA",
+        "mode": "air",
+        "distance_nm": 1237.7
+      },
+      {
+        "to": "AVIANO",
+        "mode": "air",
+        "distance_nm": 1915.7
+      },
+      {
+        "to": "RAMSTN",
+        "mode": "air",
+        "distance_nm": 2172.9
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "air",
+        "distance_nm": 1096.3
+      },
+      {
+        "to": "SHARM",
+        "mode": "air",
+        "distance_nm": 696.0
+      },
+      {
+        "to": "CAIROW",
+        "mode": "air",
+        "distance_nm": 866.1
+      },
+      {
+        "to": "LARNACA",
+        "mode": "air",
+        "distance_nm": 779.8
+      },
+      {
+        "to": "MANAS",
+        "mode": "air",
+        "distance_nm": 1533.4
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "air",
+        "distance_nm": 247.9
+      },
+      {
+        "to": "HARGEISA",
+        "mode": "air",
+        "distance_nm": 1206.1
+      },
+      {
+        "to": "KUWAIT",
+        "mode": "air",
+        "distance_nm": 24.7
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "air",
+        "distance_nm": 327.6
+      },
+      {
+        "to": "RIYADH",
+        "mode": "air",
+        "distance_nm": 266.9
+      },
+      {
+        "to": "ARIFJAN",
+        "mode": "road",
+        "distance_nm": 27.4
+      },
+      {
+        "to": "ERBIL",
+        "mode": "road",
+        "distance_nm": 450.9
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "road",
+        "distance_nm": 289.2
+      },
+      {
+        "to": "ALASAD",
+        "mode": "road",
+        "distance_nm": 372.1
+      },
+      {
+        "to": "KUWAIT",
+        "mode": "road",
+        "distance_nm": 24.7
+      }
+    ],
+    "ALUDEID": [
+      {
+        "to": "ARIFJAN",
+        "mode": "air",
+        "distance_nm": 297.8
+      },
+      {
+        "to": "ALIASAL",
+        "mode": "air",
+        "distance_nm": 324.8
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "air",
+        "distance_nm": 183.9
+      },
+      {
+        "to": "MUSCAT",
+        "mode": "air",
+        "distance_nm": 392.0
+      },
+      {
+        "to": "MASIRAH",
+        "mode": "air",
+        "distance_nm": 496.5
+      },
+      {
+        "to": "THUMRT",
+        "mode": "air",
+        "distance_nm": 472.3
+      },
+      {
+        "to": "ESEEB",
+        "mode": "air",
+        "distance_nm": 392.0
+      },
+      {
+        "to": "BAGRAM",
+        "mode": "air",
+        "distance_nm": 1101.2
+      },
+      {
+        "to": "KANDHR",
+        "mode": "air",
+        "distance_nm": 857.5
+      },
+      {
+        "to": "ISABAH",
+        "mode": "air",
+        "distance_nm": 63.2
+      },
+      {
+        "to": "PSAB",
+        "mode": "air",
+        "distance_nm": 213.4
+      },
+      {
+        "to": "KKIA",
+        "mode": "air",
+        "distance_nm": 251.3
+      },
+      {
+        "to": "TABUK",
+        "mode": "air",
+        "distance_nm": 811.2
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "air",
+        "distance_nm": 902.7
+      },
+      {
+        "to": "ERBIL",
+        "mode": "air",
+        "distance_nm": 767.4
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "air",
+        "distance_nm": 613.5
+      },
+      {
+        "to": "ALASAD",
+        "mode": "air",
+        "distance_nm": 696.6
+      },
+      {
+        "to": "INCIRLK",
+        "mode": "air",
+        "distance_nm": 1082.1
+      },
+      {
+        "to": "SOUDA",
+        "mode": "air",
+        "distance_nm": 1533.9
+      },
+      {
+        "to": "AVIANO",
+        "mode": "air",
+        "distance_nm": 2236.8
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "air",
+        "distance_nm": 937.3
+      },
+      {
+        "to": "DIEGOGR",
+        "mode": "air",
+        "distance_nm": 2304.6
+      },
+      {
+        "to": "SHARM",
+        "mode": "air",
+        "distance_nm": 924.0
+      },
+      {
+        "to": "CAIROW",
+        "mode": "air",
+        "distance_nm": 1124.1
+      },
+      {
+        "to": "LARNACA",
+        "mode": "air",
+        "distance_nm": 1088.0
+      },
+      {
+        "to": "MANAS",
+        "mode": "air",
+        "distance_nm": 1567.0
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "air",
+        "distance_nm": 78.4
+      },
+      {
+        "to": "HARGEISA",
+        "mode": "air",
+        "distance_nm": 1023.4
+      },
+      {
+        "to": "KUWAIT",
+        "mode": "air",
+        "distance_nm": 304.6
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "air",
+        "distance_nm": 18.5
+      },
+      {
+        "to": "RIYADH",
+        "mode": "air",
+        "distance_nm": 251.2
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "road",
+        "distance_nm": 183.9
+      },
+      {
+        "to": "ISABAH",
+        "mode": "road",
+        "distance_nm": 63.2
+      },
+      {
+        "to": "PSAB",
+        "mode": "road",
+        "distance_nm": 213.4
+      },
+      {
+        "to": "KKIA",
+        "mode": "road",
+        "distance_nm": 251.3
+      },
+      {
+        "to": "MANAMA",
+        "mode": "road",
+        "distance_nm": 77.4
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "road",
+        "distance_nm": 78.4
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "road",
+        "distance_nm": 18.5
+      },
+      {
+        "to": "RIYADH",
+        "mode": "road",
+        "distance_nm": 251.2
+      }
+    ],
+    "ALDHAFR": [
+      {
+        "to": "ARIFJAN",
+        "mode": "air",
+        "distance_nm": 457.8
+      },
+      {
+        "to": "ALIASAL",
+        "mode": "air",
+        "distance_nm": 485.1
+      },
+      {
+        "to": "ALUDEID",
+        "mode": "air",
+        "distance_nm": 183.9
+      },
+      {
+        "to": "MUSCAT",
+        "mode": "air",
+        "distance_nm": 208.8
+      },
+      {
+        "to": "MASIRAH",
+        "mode": "air",
+        "distance_nm": 322.6
+      },
+      {
+        "to": "THUMRT",
+        "mode": "air",
+        "distance_nm": 396.3
+      },
+      {
+        "to": "ESEEB",
+        "mode": "air",
+        "distance_nm": 208.9
+      },
+      {
+        "to": "BAGRAM",
+        "mode": "air",
+        "distance_nm": 999.4
+      },
+      {
+        "to": "KANDHR",
+        "mode": "air",
+        "distance_nm": 740.6
+      },
+      {
+        "to": "ISABAH",
+        "mode": "air",
+        "distance_nm": 237.8
+      },
+      {
+        "to": "PSAB",
+        "mode": "air",
+        "distance_nm": 381.7
+      },
+      {
+        "to": "KKIA",
+        "mode": "air",
+        "distance_nm": 430.5
+      },
+      {
+        "to": "TABUK",
+        "mode": "air",
+        "distance_nm": 995.0
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "air",
+        "distance_nm": 1080.3
+      },
+      {
+        "to": "ERBIL",
+        "mode": "air",
+        "distance_nm": 903.9
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "air",
+        "distance_nm": 765.7
+      },
+      {
+        "to": "ALASAD",
+        "mode": "air",
+        "distance_nm": 854.2
+      },
+      {
+        "to": "INCIRLK",
+        "mode": "air",
+        "distance_nm": 1245.7
+      },
+      {
+        "to": "SOUDA",
+        "mode": "air",
+        "distance_nm": 1712.3
+      },
+      {
+        "to": "AVIANO",
+        "mode": "air",
+        "distance_nm": 2399.9
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "air",
+        "distance_nm": 1001.3
+      },
+      {
+        "to": "DIEGOGR",
+        "mode": "air",
+        "distance_nm": 2164.6
+      },
+      {
+        "to": "SHARM",
+        "mode": "air",
+        "distance_nm": 1107.9
+      },
+      {
+        "to": "CAIROW",
+        "mode": "air",
+        "distance_nm": 1307.5
+      },
+      {
+        "to": "LARNACA",
+        "mode": "air",
+        "distance_nm": 1261.4
+      },
+      {
+        "to": "MANAS",
+        "mode": "air",
+        "distance_nm": 1498.0
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "air",
+        "distance_nm": 244.7
+      },
+      {
+        "to": "HARGEISA",
+        "mode": "air",
+        "distance_nm": 1068.0
+      },
+      {
+        "to": "KUWAIT",
+        "mode": "air",
+        "distance_nm": 462.1
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "air",
+        "distance_nm": 171.6
+      },
+      {
+        "to": "RIYADH",
+        "mode": "air",
+        "distance_nm": 430.4
+      },
+      {
+        "to": "ALUDEID",
+        "mode": "road",
+        "distance_nm": 183.9
+      },
+      {
+        "to": "MUSCAT",
+        "mode": "road",
+        "distance_nm": 208.8
+      },
+      {
+        "to": "MASIRAH",
+        "mode": "road",
+        "distance_nm": 322.6
+      },
+      {
+        "to": "THUMRT",
+        "mode": "road",
+        "distance_nm": 396.3
+      },
+      {
+        "to": "ESEEB",
+        "mode": "road",
+        "distance_nm": 208.9
+      },
+      {
+        "to": "PSAB",
+        "mode": "road",
+        "distance_nm": 381.7
+      },
+      {
+        "to": "KKIA",
+        "mode": "road",
+        "distance_nm": 430.5
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "road",
+        "distance_nm": 171.6
+      },
+      {
+        "to": "RIYADH",
+        "mode": "road",
+        "distance_nm": 430.4
+      }
+    ],
+    "FUJAIRH": [
+      {
+        "to": "ARIFJAN",
+        "mode": "sea",
+        "distance_nm": 507.9
+      },
+      {
+        "to": "JEBELALI",
+        "mode": "sea",
+        "distance_nm": 70.3
+      },
+      {
+        "to": "DUQM",
+        "mode": "sea",
+        "distance_nm": 337.6
+      },
+      {
+        "to": "ESEEB",
+        "mode": "sea",
+        "distance_nm": 141.2
+      },
+      {
+        "to": "BAHRAIN",
+        "mode": "sea",
+        "distance_nm": 316.8
+      },
+      {
+        "to": "JEDDAH",
+        "mode": "sea",
+        "distance_nm": 972.4
+      },
+      {
+        "to": "DAMMAM",
+        "mode": "sea",
+        "distance_nm": 341.8
+      },
+      {
+        "to": "AQABA",
+        "mode": "sea",
+        "distance_nm": 1166.8
+      },
+      {
+        "to": "ERBIL",
+        "mode": "sea",
+        "distance_nm": 921.7
+      },
+      {
+        "to": "BASRAH",
+        "mode": "sea",
+        "distance_nm": 555.5
+      },
+      {
+        "to": "DOHA",
+        "mode": "sea",
+        "distance_nm": 259.7
+      },
+      {
+        "to": "SOUDA",
+        "mode": "sea",
+        "distance_nm": 1771.6
+      },
+      {
+        "to": "ROTA",
+        "mode": "sea",
+        "distance_nm": 3246.5
+      },
+      {
+        "to": "DJIBSEA",
+        "mode": "sea",
+        "distance_nm": 1106.3
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "sea",
+        "distance_nm": 1107.9
+      },
+      {
+        "to": "DIEGOGR",
+        "mode": "sea",
+        "distance_nm": 2163.0
+      },
+      {
+        "to": "KARACHI",
+        "mode": "sea",
+        "distance_nm": 579.3
+      },
+      {
+        "to": "SALALAH",
+        "mode": "sea",
+        "distance_nm": 509.4
+      },
+      {
+        "to": "ABUDHB",
+        "mode": "sea",
+        "distance_nm": 113.6
+      },
+      {
+        "to": "MOMBASA",
+        "mode": "sea",
+        "distance_nm": 2004.1
+      }
+    ],
+    "JEBELALI": [
+      {
+        "to": "ARIFJAN",
+        "mode": "sea",
+        "distance_nm": 452.5
+      },
+      {
+        "to": "FUJAIRH",
+        "mode": "sea",
+        "distance_nm": 70.3
+      },
+      {
+        "to": "DUQM",
+        "mode": "sea",
+        "distance_nm": 353.1
+      },
+      {
+        "to": "ESEEB",
+        "mode": "sea",
+        "distance_nm": 195.9
+      },
+      {
+        "to": "BAHRAIN",
+        "mode": "sea",
+        "distance_nm": 251.4
+      },
+      {
+        "to": "JEDDAH",
+        "mode": "sea",
+        "distance_nm": 902.2
+      },
+      {
+        "to": "DAMMAM",
+        "mode": "sea",
+        "distance_nm": 277.5
+      },
+      {
+        "to": "AQABA",
+        "mode": "sea",
+        "distance_nm": 1102.9
+      },
+      {
+        "to": "ERBIL",
+        "mode": "sea",
+        "distance_nm": 883.5
+      },
+      {
+        "to": "BASRAH",
+        "mode": "sea",
+        "distance_nm": 507.0
+      },
+      {
+        "to": "DOHA",
+        "mode": "sea",
+        "distance_nm": 190.6
+      },
+      {
+        "to": "SOUDA",
+        "mode": "sea",
+        "distance_nm": 1714.0
+      },
+      {
+        "to": "ROTA",
+        "mode": "sea",
+        "distance_nm": 3188.7
+      },
+      {
+        "to": "DJIBSEA",
+        "mode": "sea",
+        "distance_nm": 1052.4
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "sea",
+        "distance_nm": 1054.1
+      },
+      {
+        "to": "DIEGOGR",
+        "mode": "sea",
+        "distance_nm": 2189.9
+      },
+      {
+        "to": "KARACHI",
+        "mode": "sea",
+        "distance_nm": 649.3
+      },
+      {
+        "to": "SALALAH",
+        "mode": "sea",
+        "distance_nm": 488.1
+      },
+      {
+        "to": "ABUDHB",
+        "mode": "sea",
+        "distance_nm": 47.6
+      },
+      {
+        "to": "MOMBASA",
+        "mode": "sea",
+        "distance_nm": 1962.0
+      }
+    ],
+    "MUSCAT": [
+      {
+        "to": "ARIFJAN",
+        "mode": "air",
+        "distance_nm": 646.7
+      },
+      {
+        "to": "ALIASAL",
+        "mode": "air",
+        "distance_nm": 673.3
+      },
+      {
+        "to": "ALUDEID",
+        "mode": "air",
+        "distance_nm": 392.0
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "air",
+        "distance_nm": 208.8
+      },
+      {
+        "to": "MASIRAH",
+        "mode": "air",
+        "distance_nm": 178.4
+      },
+      {
+        "to": "THUMRT",
+        "mode": "air",
+        "distance_nm": 428.8
+      },
+      {
+        "to": "ESEEB",
+        "mode": "air",
+        "distance_nm": 0.2
+      },
+      {
+        "to": "BAGRAM",
+        "mode": "air",
+        "distance_nm": 890.5
+      },
+      {
+        "to": "KANDHR",
+        "mode": "air",
+        "distance_nm": 622.3
+      },
+      {
+        "to": "ISABAH",
+        "mode": "air",
+        "distance_nm": 442.2
+      },
+      {
+        "to": "PSAB",
+        "mode": "air",
+        "distance_nm": 588.4
+      },
+      {
+        "to": "KKIA",
+        "mode": "air",
+        "distance_nm": 639.1
+      },
+      {
+        "to": "TABUK",
+        "mode": "air",
+        "distance_nm": 1202.1
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "air",
+        "distance_nm": 1277.6
+      },
+      {
+        "to": "ERBIL",
+        "mode": "air",
+        "distance_nm": 1061.4
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "air",
+        "distance_nm": 940.4
+      },
+      {
+        "to": "ALASAD",
+        "mode": "air",
+        "distance_nm": 1032.6
+      },
+      {
+        "to": "INCIRLK",
+        "mode": "air",
+        "distance_nm": 1426.3
+      },
+      {
+        "to": "SOUDA",
+        "mode": "air",
+        "distance_nm": 1909.4
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "air",
+        "distance_nm": 1126.4
+      },
+      {
+        "to": "DIEGOGR",
+        "mode": "air",
+        "distance_nm": 2032.2
+      },
+      {
+        "to": "SHARM",
+        "mode": "air",
+        "distance_nm": 1315.8
+      },
+      {
+        "to": "CAIROW",
+        "mode": "air",
+        "distance_nm": 1513.2
+      },
+      {
+        "to": "LARNACA",
+        "mode": "air",
+        "distance_nm": 1453.1
+      },
+      {
+        "to": "MANAS",
+        "mode": "air",
+        "distance_nm": 1417.8
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "air",
+        "distance_nm": 446.4
+      },
+      {
+        "to": "HARGEISA",
+        "mode": "air",
+        "distance_nm": 1173.5
+      },
+      {
+        "to": "KUWAIT",
+        "mode": "air",
+        "distance_nm": 649.1
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "air",
+        "distance_nm": 378.6
+      },
+      {
+        "to": "RIYADH",
+        "mode": "air",
+        "distance_nm": 639.0
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "road",
+        "distance_nm": 208.8
+      },
+      {
+        "to": "MASIRAH",
+        "mode": "road",
+        "distance_nm": 178.4
+      },
+      {
+        "to": "THUMRT",
+        "mode": "road",
+        "distance_nm": 428.8
+      },
+      {
+        "to": "ESEEB",
+        "mode": "road",
+        "distance_nm": 0.2
+      }
+    ],
+    "DUQM": [
+      {
+        "to": "ARIFJAN",
+        "mode": "sea",
+        "distance_nm": 776.5
+      },
+      {
+        "to": "FUJAIRH",
+        "mode": "sea",
+        "distance_nm": 337.6
+      },
+      {
+        "to": "JEBELALI",
+        "mode": "sea",
+        "distance_nm": 353.1
+      },
+      {
+        "to": "ESEEB",
+        "mode": "sea",
+        "distance_nm": 238.1
+      },
+      {
+        "to": "BAHRAIN",
+        "mode": "sea",
+        "distance_nm": 554.9
+      },
+      {
+        "to": "JEDDAH",
+        "mode": "sea",
+        "distance_nm": 1047.9
+      },
+      {
+        "to": "DAMMAM",
+        "mode": "sea",
+        "distance_nm": 583.2
+      },
+      {
+        "to": "AQABA",
+        "mode": "sea",
+        "distance_nm": 1370.0
+      },
+      {
+        "to": "ERBIL",
+        "mode": "sea",
+        "distance_nm": 1230.5
+      },
+      {
+        "to": "BASRAH",
+        "mode": "sea",
+        "distance_nm": 844.0
+      },
+      {
+        "to": "DOHA",
+        "mode": "sea",
+        "distance_nm": 479.3
+      },
+      {
+        "to": "SOUDA",
+        "mode": "sea",
+        "distance_nm": 2009.6
+      },
+      {
+        "to": "ROTA",
+        "mode": "sea",
+        "distance_nm": 3476.1
+      },
+      {
+        "to": "DJIBSEA",
+        "mode": "sea",
+        "distance_nm": 970.2
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "sea",
+        "distance_nm": 970.9
+      },
+      {
+        "to": "DIEGOGR",
+        "mode": "sea",
+        "distance_nm": 1838.2
+      },
+      {
+        "to": "KARACHI",
+        "mode": "sea",
+        "distance_nm": 602.5
+      },
+      {
+        "to": "SALALAH",
+        "mode": "sea",
+        "distance_nm": 266.4
+      },
+      {
+        "to": "ABUDHB",
+        "mode": "sea",
+        "distance_nm": 345.3
+      },
+      {
+        "to": "MOMBASA",
+        "mode": "sea",
+        "distance_nm": 1777.2
+      }
+    ],
+    "MASIRAH": [
+      {
+        "to": "ARIFJAN",
+        "mode": "air",
+        "distance_nm": 780.4
+      },
+      {
+        "to": "ALIASAL",
+        "mode": "air",
+        "distance_nm": 807.7
+      },
+      {
+        "to": "ALUDEID",
+        "mode": "air",
+        "distance_nm": 496.5
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "air",
+        "distance_nm": 322.6
+      },
+      {
+        "to": "MUSCAT",
+        "mode": "air",
+        "distance_nm": 178.4
+      },
+      {
+        "to": "THUMRT",
+        "mode": "air",
+        "distance_nm": 329.7
+      },
+      {
+        "to": "ESEEB",
+        "mode": "air",
+        "distance_nm": 178.2
+      },
+      {
+        "to": "BAGRAM",
+        "mode": "air",
+        "distance_nm": 1017.2
+      },
+      {
+        "to": "KANDHR",
+        "mode": "air",
+        "distance_nm": 750.2
+      },
+      {
+        "to": "ISABAH",
+        "mode": "air",
+        "distance_nm": 555.9
+      },
+      {
+        "to": "PSAB",
+        "mode": "air",
+        "distance_nm": 659.8
+      },
+      {
+        "to": "KKIA",
+        "mode": "air",
+        "distance_nm": 721.6
+      },
+      {
+        "to": "TABUK",
+        "mode": "air",
+        "distance_nm": 1298.6
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "air",
+        "distance_nm": 1399.1
+      },
+      {
+        "to": "ERBIL",
+        "mode": "air",
+        "distance_nm": 1219.0
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "air",
+        "distance_nm": 1086.8
+      },
+      {
+        "to": "ALASAD",
+        "mode": "air",
+        "distance_nm": 1176.2
+      },
+      {
+        "to": "INCIRLK",
+        "mode": "air",
+        "distance_nm": 1568.1
+      },
+      {
+        "to": "SOUDA",
+        "mode": "air",
+        "distance_nm": 2030.4
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "air",
+        "distance_nm": 1058.9
+      },
+      {
+        "to": "DIEGOGR",
+        "mode": "air",
+        "distance_nm": 1860.2
+      },
+      {
+        "to": "SHARM",
+        "mode": "air",
+        "distance_nm": 1406.9
+      },
+      {
+        "to": "CAIROW",
+        "mode": "air",
+        "distance_nm": 1614.3
+      },
+      {
+        "to": "LARNACA",
+        "mode": "air",
+        "distance_nm": 1582.7
+      },
+      {
+        "to": "MANAS",
+        "mode": "air",
+        "distance_nm": 1555.5
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "air",
+        "distance_nm": 565.1
+      },
+      {
+        "to": "HARGEISA",
+        "mode": "air",
+        "distance_nm": 1087.1
+      },
+      {
+        "to": "KUWAIT",
+        "mode": "air",
+        "distance_nm": 784.6
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "air",
+        "distance_nm": 487.9
+      },
+      {
+        "to": "RIYADH",
+        "mode": "air",
+        "distance_nm": 721.6
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "road",
+        "distance_nm": 322.6
+      },
+      {
+        "to": "MUSCAT",
+        "mode": "road",
+        "distance_nm": 178.4
+      },
+      {
+        "to": "THUMRT",
+        "mode": "road",
+        "distance_nm": 329.7
+      },
+      {
+        "to": "ESEEB",
+        "mode": "road",
+        "distance_nm": 178.2
+      }
+    ],
+    "THUMRT": [
+      {
+        "to": "ARIFJAN",
+        "mode": "air",
+        "distance_nm": 761.3
+      },
+      {
+        "to": "ALIASAL",
+        "mode": "air",
+        "distance_nm": 787.0
+      },
+      {
+        "to": "ALUDEID",
+        "mode": "air",
+        "distance_nm": 472.3
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "air",
+        "distance_nm": 396.3
+      },
+      {
+        "to": "MUSCAT",
+        "mode": "air",
+        "distance_nm": 428.8
+      },
+      {
+        "to": "MASIRAH",
+        "mode": "air",
+        "distance_nm": 329.7
+      },
+      {
+        "to": "ESEEB",
+        "mode": "air",
+        "distance_nm": 428.6
+      },
+      {
+        "to": "BAGRAM",
+        "mode": "air",
+        "distance_nm": 1318.9
+      },
+      {
+        "to": "KANDHR",
+        "mode": "air",
+        "distance_nm": 1050.5
+      },
+      {
+        "to": "ISABAH",
+        "mode": "air",
+        "distance_nm": 532.5
+      },
+      {
+        "to": "PSAB",
+        "mode": "air",
+        "distance_nm": 527.3
+      },
+      {
+        "to": "KKIA",
+        "mode": "air",
+        "distance_nm": 599.3
+      },
+      {
+        "to": "TABUK",
+        "mode": "air",
+        "distance_nm": 1154.4
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "air",
+        "distance_nm": 1304.9
+      },
+      {
+        "to": "ERBIL",
+        "mode": "air",
+        "distance_nm": 1236.3
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "air",
+        "distance_nm": 1074.9
+      },
+      {
+        "to": "ALASAD",
+        "mode": "air",
+        "distance_nm": 1150.9
+      },
+      {
+        "to": "INCIRLK",
+        "mode": "air",
+        "distance_nm": 1520.9
+      },
+      {
+        "to": "SOUDA",
+        "mode": "air",
+        "distance_nm": 1917.1
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "air",
+        "distance_nm": 730.1
+      },
+      {
+        "to": "DIEGOGR",
+        "mode": "air",
+        "distance_nm": 1854.2
+      },
+      {
+        "to": "SHARM",
+        "mode": "air",
+        "distance_nm": 1247.7
+      },
+      {
+        "to": "CAIROW",
+        "mode": "air",
+        "distance_nm": 1467.7
+      },
+      {
+        "to": "LARNACA",
+        "mode": "air",
+        "distance_nm": 1501.9
+      },
+      {
+        "to": "MANAS",
+        "mode": "air",
+        "distance_nm": 1845.7
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "air",
+        "distance_nm": 549.9
+      },
+      {
+        "to": "HARGEISA",
+        "mode": "air",
+        "distance_nm": 758.2
+      },
+      {
+        "to": "KUWAIT",
+        "mode": "air",
+        "distance_nm": 769.7
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "air",
+        "distance_nm": 476.2
+      },
+      {
+        "to": "RIYADH",
+        "mode": "air",
+        "distance_nm": 599.4
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "road",
+        "distance_nm": 396.3
+      },
+      {
+        "to": "MUSCAT",
+        "mode": "road",
+        "distance_nm": 428.8
+      },
+      {
+        "to": "MASIRAH",
+        "mode": "road",
+        "distance_nm": 329.7
+      },
+      {
+        "to": "ESEEB",
+        "mode": "road",
+        "distance_nm": 428.6
+      }
+    ],
+    "ESEEB": [
+      {
+        "to": "ARIFJAN",
+        "mode": "air",
+        "distance_nm": 646.8
+      },
+      {
+        "to": "ALIASAL",
+        "mode": "air",
+        "distance_nm": 673.4
+      },
+      {
+        "to": "ALUDEID",
+        "mode": "air",
+        "distance_nm": 392.0
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "air",
+        "distance_nm": 208.9
+      },
+      {
+        "to": "MUSCAT",
+        "mode": "air",
+        "distance_nm": 0.2
+      },
+      {
+        "to": "MASIRAH",
+        "mode": "air",
+        "distance_nm": 178.2
+      },
+      {
+        "to": "THUMRT",
+        "mode": "air",
+        "distance_nm": 428.6
+      },
+      {
+        "to": "BAGRAM",
+        "mode": "air",
+        "distance_nm": 890.7
+      },
+      {
+        "to": "KANDHR",
+        "mode": "air",
+        "distance_nm": 622.5
+      },
+      {
+        "to": "ISABAH",
+        "mode": "air",
+        "distance_nm": 442.3
+      },
+      {
+        "to": "PSAB",
+        "mode": "air",
+        "distance_nm": 588.4
+      },
+      {
+        "to": "KKIA",
+        "mode": "air",
+        "distance_nm": 639.2
+      },
+      {
+        "to": "TABUK",
+        "mode": "air",
+        "distance_nm": 1202.1
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "air",
+        "distance_nm": 1277.7
+      },
+      {
+        "to": "ERBIL",
+        "mode": "air",
+        "distance_nm": 1061.6
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "air",
+        "distance_nm": 940.5
+      },
+      {
+        "to": "ALASAD",
+        "mode": "air",
+        "distance_nm": 1032.7
+      },
+      {
+        "to": "INCIRLK",
+        "mode": "air",
+        "distance_nm": 1426.5
+      },
+      {
+        "to": "SOUDA",
+        "mode": "air",
+        "distance_nm": 1909.5
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "air",
+        "distance_nm": 1126.2
+      },
+      {
+        "to": "DIEGOGR",
+        "mode": "air",
+        "distance_nm": 2032.0
+      },
+      {
+        "to": "SHARM",
+        "mode": "air",
+        "distance_nm": 1315.8
+      },
+      {
+        "to": "CAIROW",
+        "mode": "air",
+        "distance_nm": 1513.3
+      },
+      {
+        "to": "LARNACA",
+        "mode": "air",
+        "distance_nm": 1453.2
+      },
+      {
+        "to": "MANAS",
+        "mode": "air",
+        "distance_nm": 1418.0
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "air",
+        "distance_nm": 446.5
+      },
+      {
+        "to": "HARGEISA",
+        "mode": "air",
+        "distance_nm": 1173.3
+      },
+      {
+        "to": "KUWAIT",
+        "mode": "air",
+        "distance_nm": 649.2
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "air",
+        "distance_nm": 378.6
+      },
+      {
+        "to": "RIYADH",
+        "mode": "air",
+        "distance_nm": 639.1
+      },
+      {
+        "to": "ARIFJAN",
+        "mode": "sea",
+        "distance_nm": 646.8
+      },
+      {
+        "to": "FUJAIRH",
+        "mode": "sea",
+        "distance_nm": 141.2
+      },
+      {
+        "to": "JEBELALI",
+        "mode": "sea",
+        "distance_nm": 195.9
+      },
+      {
+        "to": "DUQM",
+        "mode": "sea",
+        "distance_nm": 238.1
+      },
+      {
+        "to": "BAHRAIN",
+        "mode": "sea",
+        "distance_nm": 446.3
+      },
+      {
+        "to": "JEDDAH",
+        "mode": "sea",
+        "distance_nm": 1067.7
+      },
+      {
+        "to": "DAMMAM",
+        "mode": "sea",
+        "distance_nm": 473.0
+      },
+      {
+        "to": "AQABA",
+        "mode": "sea",
+        "distance_nm": 1297.7
+      },
+      {
+        "to": "ERBIL",
+        "mode": "sea",
+        "distance_nm": 1061.6
+      },
+      {
+        "to": "BASRAH",
+        "mode": "sea",
+        "distance_nm": 696.5
+      },
+      {
+        "to": "DOHA",
+        "mode": "sea",
+        "distance_nm": 380.9
+      },
+      {
+        "to": "SOUDA",
+        "mode": "sea",
+        "distance_nm": 1909.5
+      },
+      {
+        "to": "ROTA",
+        "mode": "sea",
+        "distance_nm": 3384.3
+      },
+      {
+        "to": "DJIBSEA",
+        "mode": "sea",
+        "distance_nm": 1125.0
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "sea",
+        "distance_nm": 1126.2
+      },
+      {
+        "to": "DIEGOGR",
+        "mode": "sea",
+        "distance_nm": 2032.0
+      },
+      {
+        "to": "KARACHI",
+        "mode": "sea",
+        "distance_nm": 482.5
+      },
+      {
+        "to": "SALALAH",
+        "mode": "sea",
+        "distance_nm": 466.1
+      },
+      {
+        "to": "ABUDHB",
+        "mode": "sea",
+        "distance_nm": 221.3
+      },
+      {
+        "to": "MOMBASA",
+        "mode": "sea",
+        "distance_nm": 1984.9
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "road",
+        "distance_nm": 208.9
+      },
+      {
+        "to": "MUSCAT",
+        "mode": "road",
+        "distance_nm": 0.2
+      },
+      {
+        "to": "MASIRAH",
+        "mode": "road",
+        "distance_nm": 178.2
+      },
+      {
+        "to": "THUMRT",
+        "mode": "road",
+        "distance_nm": 428.6
+      }
+    ],
+    "BAGRAM": [
+      {
+        "to": "ARIFJAN",
+        "mode": "air",
+        "distance_nm": 1141.0
+      },
+      {
+        "to": "ALIASAL",
+        "mode": "air",
+        "distance_nm": 1152.7
+      },
+      {
+        "to": "ALUDEID",
+        "mode": "air",
+        "distance_nm": 1101.2
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "air",
+        "distance_nm": 999.4
+      },
+      {
+        "to": "MUSCAT",
+        "mode": "air",
+        "distance_nm": 890.5
+      },
+      {
+        "to": "MASIRAH",
+        "mode": "air",
+        "distance_nm": 1017.2
+      },
+      {
+        "to": "THUMRT",
+        "mode": "air",
+        "distance_nm": 1318.9
+      },
+      {
+        "to": "ESEEB",
+        "mode": "air",
+        "distance_nm": 890.7
+      },
+      {
+        "to": "KANDHR",
+        "mode": "air",
+        "distance_nm": 268.5
+      },
+      {
+        "to": "ISABAH",
+        "mode": "air",
+        "distance_nm": 1104.5
+      },
+      {
+        "to": "PSAB",
+        "mode": "air",
+        "distance_nm": 1303.6
+      },
+      {
+        "to": "KKIA",
+        "mode": "air",
+        "distance_nm": 1313.9
+      },
+      {
+        "to": "TABUK",
+        "mode": "air",
+        "distance_nm": 1706.5
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "air",
+        "distance_nm": 1649.4
+      },
+      {
+        "to": "ERBIL",
+        "mode": "air",
+        "distance_nm": 1234.3
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "air",
+        "distance_nm": 1245.3
+      },
+      {
+        "to": "ALASAD",
+        "mode": "air",
+        "distance_nm": 1327.3
+      },
+      {
+        "to": "INCIRLK",
+        "mode": "air",
+        "distance_nm": 1640.2
+      },
+      {
+        "to": "SOUDA",
+        "mode": "air",
+        "distance_nm": 2192.8
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "air",
+        "distance_nm": 1999.2
+      },
+      {
+        "to": "SHARM",
+        "mode": "air",
+        "distance_nm": 1824.4
+      },
+      {
+        "to": "CAIROW",
+        "mode": "air",
+        "distance_nm": 1950.8
+      },
+      {
+        "to": "LARNACA",
+        "mode": "air",
+        "distance_nm": 1745.3
+      },
+      {
+        "to": "MANAS",
+        "mode": "air",
+        "distance_nm": 544.3
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "air",
+        "distance_nm": 1092.1
+      },
+      {
+        "to": "HARGEISA",
+        "mode": "air",
+        "distance_nm": 2058.0
+      },
+      {
+        "to": "KUWAIT",
+        "mode": "air",
+        "distance_nm": 1133.6
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "air",
+        "distance_nm": 1082.9
+      },
+      {
+        "to": "RIYADH",
+        "mode": "air",
+        "distance_nm": 1313.7
+      },
+      {
+        "to": "KANDHR",
+        "mode": "road",
+        "distance_nm": 268.5
+      }
+    ],
+    "KANDHR": [
+      {
+        "to": "ARIFJAN",
+        "mode": "air",
+        "distance_nm": 940.7
+      },
+      {
+        "to": "ALIASAL",
+        "mode": "air",
+        "distance_nm": 956.5
+      },
+      {
+        "to": "ALUDEID",
+        "mode": "air",
+        "distance_nm": 857.5
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "air",
+        "distance_nm": 740.6
+      },
+      {
+        "to": "MUSCAT",
+        "mode": "air",
+        "distance_nm": 622.3
+      },
+      {
+        "to": "MASIRAH",
+        "mode": "air",
+        "distance_nm": 750.2
+      },
+      {
+        "to": "THUMRT",
+        "mode": "air",
+        "distance_nm": 1050.5
+      },
+      {
+        "to": "ESEEB",
+        "mode": "air",
+        "distance_nm": 622.5
+      },
+      {
+        "to": "BAGRAM",
+        "mode": "air",
+        "distance_nm": 268.5
+      },
+      {
+        "to": "ISABAH",
+        "mode": "air",
+        "distance_nm": 868.6
+      },
+      {
+        "to": "PSAB",
+        "mode": "air",
+        "distance_nm": 1066.3
+      },
+      {
+        "to": "KKIA",
+        "mode": "air",
+        "distance_nm": 1084.6
+      },
+      {
+        "to": "TABUK",
+        "mode": "air",
+        "distance_nm": 1527.8
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "air",
+        "distance_nm": 1503.7
+      },
+      {
+        "to": "ERBIL",
+        "mode": "air",
+        "distance_nm": 1124.6
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "air",
+        "distance_nm": 1098.9
+      },
+      {
+        "to": "ALASAD",
+        "mode": "air",
+        "distance_nm": 1188.6
+      },
+      {
+        "to": "INCIRLK",
+        "mode": "air",
+        "distance_nm": 1538.4
+      },
+      {
+        "to": "SOUDA",
+        "mode": "air",
+        "distance_nm": 2085.7
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "air",
+        "distance_nm": 1736.4
+      },
+      {
+        "to": "DIEGOGR",
+        "mode": "air",
+        "distance_nm": 2361.0
+      },
+      {
+        "to": "SHARM",
+        "mode": "air",
+        "distance_nm": 1647.6
+      },
+      {
+        "to": "CAIROW",
+        "mode": "air",
+        "distance_nm": 1795.6
+      },
+      {
+        "to": "LARNACA",
+        "mode": "air",
+        "distance_nm": 1624.6
+      },
+      {
+        "to": "MANAS",
+        "mode": "air",
+        "distance_nm": 806.0
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "air",
+        "distance_nm": 858.3
+      },
+      {
+        "to": "HARGEISA",
+        "mode": "air",
+        "distance_nm": 1792.1
+      },
+      {
+        "to": "KUWAIT",
+        "mode": "air",
+        "distance_nm": 935.0
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "air",
+        "distance_nm": 839.0
+      },
+      {
+        "to": "RIYADH",
+        "mode": "air",
+        "distance_nm": 1084.4
+      },
+      {
+        "to": "BAGRAM",
+        "mode": "road",
+        "distance_nm": 268.5
+      }
+    ],
+    "BAHRAIN": [
+      {
+        "to": "ARIFJAN",
+        "mode": "sea",
+        "distance_nm": 222.7
+      },
+      {
+        "to": "FUJAIRH",
+        "mode": "sea",
+        "distance_nm": 316.8
+      },
+      {
+        "to": "JEBELALI",
+        "mode": "sea",
+        "distance_nm": 251.4
+      },
+      {
+        "to": "DUQM",
+        "mode": "sea",
+        "distance_nm": 554.9
+      },
+      {
+        "to": "ESEEB",
+        "mode": "sea",
+        "distance_nm": 446.3
+      },
+      {
+        "to": "JEDDAH",
+        "mode": "sea",
+        "distance_nm": 689.8
+      },
+      {
+        "to": "DAMMAM",
+        "mode": "sea",
+        "distance_nm": 28.3
+      },
+      {
+        "to": "AQABA",
+        "mode": "sea",
+        "distance_nm": 851.6
+      },
+      {
+        "to": "ERBIL",
+        "mode": "sea",
+        "distance_nm": 691.7
+      },
+      {
+        "to": "BASRAH",
+        "mode": "sea",
+        "distance_nm": 298.2
+      },
+      {
+        "to": "DOHA",
+        "mode": "sea",
+        "distance_nm": 75.8
+      },
+      {
+        "to": "SOUDA",
+        "mode": "sea",
+        "distance_nm": 1468.4
+      },
+      {
+        "to": "ROTA",
+        "mode": "sea",
+        "distance_nm": 2941.9
+      },
+      {
+        "to": "DJIBSEA",
+        "mode": "sea",
+        "distance_nm": 973.9
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "sea",
+        "distance_nm": 976.2
+      },
+      {
+        "to": "DIEGOGR",
+        "mode": "sea",
+        "distance_nm": 2380.2
+      },
+      {
+        "to": "KARACHI",
+        "mode": "sea",
+        "distance_nm": 890.5
+      },
+      {
+        "to": "SALALAH",
+        "mode": "sea",
+        "distance_nm": 587.6
+      },
+      {
+        "to": "ABUDHB",
+        "mode": "sea",
+        "distance_nm": 228.1
+      },
+      {
+        "to": "MOMBASA",
+        "mode": "sea",
+        "distance_nm": 1924.6
+      }
+    ],
+    "ISABAH": [
+      {
+        "to": "ARIFJAN",
+        "mode": "air",
+        "distance_nm": 234.6
+      },
+      {
+        "to": "ALIASAL",
+        "mode": "air",
+        "distance_nm": 261.6
+      },
+      {
+        "to": "ALUDEID",
+        "mode": "air",
+        "distance_nm": 63.2
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "air",
+        "distance_nm": 237.8
+      },
+      {
+        "to": "MUSCAT",
+        "mode": "air",
+        "distance_nm": 442.2
+      },
+      {
+        "to": "MASIRAH",
+        "mode": "air",
+        "distance_nm": 555.9
+      },
+      {
+        "to": "THUMRT",
+        "mode": "air",
+        "distance_nm": 532.5
+      },
+      {
+        "to": "ESEEB",
+        "mode": "air",
+        "distance_nm": 442.3
+      },
+      {
+        "to": "BAGRAM",
+        "mode": "air",
+        "distance_nm": 1104.5
+      },
+      {
+        "to": "KANDHR",
+        "mode": "air",
+        "distance_nm": 868.6
+      },
+      {
+        "to": "PSAB",
+        "mode": "air",
+        "distance_nm": 199.2
+      },
+      {
+        "to": "KKIA",
+        "mode": "air",
+        "distance_nm": 219.4
+      },
+      {
+        "to": "TABUK",
+        "mode": "air",
+        "distance_nm": 760.2
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "air",
+        "distance_nm": 843.5
+      },
+      {
+        "to": "ERBIL",
+        "mode": "air",
+        "distance_nm": 705.2
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "air",
+        "distance_nm": 550.4
+      },
+      {
+        "to": "ALASAD",
+        "mode": "air",
+        "distance_nm": 633.3
+      },
+      {
+        "to": "INCIRLK",
+        "mode": "air",
+        "distance_nm": 1019.3
+      },
+      {
+        "to": "SOUDA",
+        "mode": "air",
+        "distance_nm": 1475.3
+      },
+      {
+        "to": "AVIANO",
+        "mode": "air",
+        "distance_nm": 2174.1
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "air",
+        "distance_nm": 961.7
+      },
+      {
+        "to": "DIEGOGR",
+        "mode": "air",
+        "distance_nm": 2367.8
+      },
+      {
+        "to": "SHARM",
+        "mode": "air",
+        "distance_nm": 874.8
+      },
+      {
+        "to": "CAIROW",
+        "mode": "air",
+        "distance_nm": 1071.0
+      },
+      {
+        "to": "LARNACA",
+        "mode": "air",
+        "distance_nm": 1027.1
+      },
+      {
+        "to": "MANAS",
+        "mode": "air",
+        "distance_nm": 1555.8
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "air",
+        "distance_nm": 19.6
+      },
+      {
+        "to": "HARGEISA",
+        "mode": "air",
+        "distance_nm": 1053.6
+      },
+      {
+        "to": "KUWAIT",
+        "mode": "air",
+        "distance_nm": 241.4
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "air",
+        "distance_nm": 68.1
+      },
+      {
+        "to": "RIYADH",
+        "mode": "air",
+        "distance_nm": 219.2
+      },
+      {
+        "to": "ALUDEID",
+        "mode": "road",
+        "distance_nm": 63.2
+      },
+      {
+        "to": "PSAB",
+        "mode": "road",
+        "distance_nm": 199.2
+      },
+      {
+        "to": "KKIA",
+        "mode": "road",
+        "distance_nm": 219.4
+      },
+      {
+        "to": "MANAMA",
+        "mode": "road",
+        "distance_nm": 16.9
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "road",
+        "distance_nm": 19.6
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "road",
+        "distance_nm": 68.1
+      },
+      {
+        "to": "RIYADH",
+        "mode": "road",
+        "distance_nm": 219.2
+      }
+    ],
+    "PSAB": [
+      {
+        "to": "ARIFJAN",
+        "mode": "air",
+        "distance_nm": 299.5
+      },
+      {
+        "to": "ALIASAL",
+        "mode": "air",
+        "distance_nm": 317.3
+      },
+      {
+        "to": "ALUDEID",
+        "mode": "air",
+        "distance_nm": 213.4
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "air",
+        "distance_nm": 381.7
+      },
+      {
+        "to": "MUSCAT",
+        "mode": "air",
+        "distance_nm": 588.4
+      },
+      {
+        "to": "MASIRAH",
+        "mode": "air",
+        "distance_nm": 659.8
+      },
+      {
+        "to": "THUMRT",
+        "mode": "air",
+        "distance_nm": 527.3
+      },
+      {
+        "to": "ESEEB",
+        "mode": "air",
+        "distance_nm": 588.4
+      },
+      {
+        "to": "BAGRAM",
+        "mode": "air",
+        "distance_nm": 1303.6
+      },
+      {
+        "to": "KANDHR",
+        "mode": "air",
+        "distance_nm": 1066.3
+      },
+      {
+        "to": "ISABAH",
+        "mode": "air",
+        "distance_nm": 199.2
+      },
+      {
+        "to": "KKIA",
+        "mode": "air",
+        "distance_nm": 72.1
+      },
+      {
+        "to": "TABUK",
+        "mode": "air",
+        "distance_nm": 644.1
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "air",
+        "distance_nm": 778.1
+      },
+      {
+        "to": "ERBIL",
+        "mode": "air",
+        "distance_nm": 754.5
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "air",
+        "distance_nm": 579.7
+      },
+      {
+        "to": "ALASAD",
+        "mode": "air",
+        "distance_nm": 642.9
+      },
+      {
+        "to": "INCIRLK",
+        "mode": "air",
+        "distance_nm": 997.4
+      },
+      {
+        "to": "SOUDA",
+        "mode": "air",
+        "distance_nm": 1396.4
+      },
+      {
+        "to": "AVIANO",
+        "mode": "air",
+        "distance_nm": 2139.0
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "air",
+        "distance_nm": 792.7
+      },
+      {
+        "to": "DIEGOGR",
+        "mode": "air",
+        "distance_nm": 2380.1
+      },
+      {
+        "to": "SHARM",
+        "mode": "air",
+        "distance_nm": 748.7
+      },
+      {
+        "to": "CAIROW",
+        "mode": "air",
+        "distance_nm": 960.7
+      },
+      {
+        "to": "LARNACA",
+        "mode": "air",
+        "distance_nm": 974.6
+      },
+      {
+        "to": "MANAS",
+        "mode": "air",
+        "distance_nm": 1750.1
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "air",
+        "distance_nm": 212.3
+      },
+      {
+        "to": "HARGEISA",
+        "mode": "air",
+        "distance_nm": 895.9
+      },
+      {
+        "to": "KUWAIT",
+        "mode": "air",
+        "distance_nm": 310.8
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "air",
+        "distance_nm": 231.4
+      },
+      {
+        "to": "RIYADH",
+        "mode": "air",
+        "distance_nm": 72.2
+      },
+      {
+        "to": "ALUDEID",
+        "mode": "road",
+        "distance_nm": 213.4
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "road",
+        "distance_nm": 381.7
+      },
+      {
+        "to": "ISABAH",
+        "mode": "road",
+        "distance_nm": 199.2
+      },
+      {
+        "to": "KKIA",
+        "mode": "road",
+        "distance_nm": 72.1
+      },
+      {
+        "to": "TABUK",
+        "mode": "road",
+        "distance_nm": 644.1
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "road",
+        "distance_nm": 579.7
+      },
+      {
+        "to": "ALASAD",
+        "mode": "road",
+        "distance_nm": 642.9
+      },
+      {
+        "to": "MANAMA",
+        "mode": "road",
+        "distance_nm": 208.7
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "road",
+        "distance_nm": 212.3
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "road",
+        "distance_nm": 231.4
+      },
+      {
+        "to": "RIYADH",
+        "mode": "road",
+        "distance_nm": 72.2
+      }
+    ],
+    "KKIA": [
+      {
+        "to": "ARIFJAN",
+        "mode": "air",
+        "distance_nm": 253.7
+      },
+      {
+        "to": "ALIASAL",
+        "mode": "air",
+        "distance_nm": 267.2
+      },
+      {
+        "to": "ALUDEID",
+        "mode": "air",
+        "distance_nm": 251.3
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "air",
+        "distance_nm": 430.5
+      },
+      {
+        "to": "MUSCAT",
+        "mode": "air",
+        "distance_nm": 639.1
+      },
+      {
+        "to": "MASIRAH",
+        "mode": "air",
+        "distance_nm": 721.6
+      },
+      {
+        "to": "THUMRT",
+        "mode": "air",
+        "distance_nm": 599.3
+      },
+      {
+        "to": "ESEEB",
+        "mode": "air",
+        "distance_nm": 639.2
+      },
+      {
+        "to": "BAGRAM",
+        "mode": "air",
+        "distance_nm": 1313.9
+      },
+      {
+        "to": "KANDHR",
+        "mode": "air",
+        "distance_nm": 1084.6
+      },
+      {
+        "to": "ISABAH",
+        "mode": "air",
+        "distance_nm": 219.4
+      },
+      {
+        "to": "PSAB",
+        "mode": "air",
+        "distance_nm": 72.1
+      },
+      {
+        "to": "TABUK",
+        "mode": "air",
+        "distance_nm": 578.0
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "air",
+        "distance_nm": 706.4
+      },
+      {
+        "to": "ERBIL",
+        "mode": "air",
+        "distance_nm": 691.8
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "air",
+        "distance_nm": 515.1
+      },
+      {
+        "to": "ALASAD",
+        "mode": "air",
+        "distance_nm": 574.8
+      },
+      {
+        "to": "INCIRLK",
+        "mode": "air",
+        "distance_nm": 925.7
+      },
+      {
+        "to": "SOUDA",
+        "mode": "air",
+        "distance_nm": 1326.3
+      },
+      {
+        "to": "AVIANO",
+        "mode": "air",
+        "distance_nm": 2066.9
+      },
+      {
+        "to": "RAMSTN",
+        "mode": "air",
+        "distance_nm": 2336.5
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "air",
+        "distance_nm": 830.0
+      },
+      {
+        "to": "SHARM",
+        "mode": "air",
+        "distance_nm": 685.3
+      },
+      {
+        "to": "CAIROW",
+        "mode": "air",
+        "distance_nm": 894.5
+      },
+      {
+        "to": "LARNACA",
+        "mode": "air",
+        "distance_nm": 902.6
+      },
+      {
+        "to": "MANAS",
+        "mode": "air",
+        "distance_nm": 1744.4
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "air",
+        "distance_nm": 227.1
+      },
+      {
+        "to": "HARGEISA",
+        "mode": "air",
+        "distance_nm": 938.9
+      },
+      {
+        "to": "KUWAIT",
+        "mode": "air",
+        "distance_nm": 265.2
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "air",
+        "distance_nm": 267.5
+      },
+      {
+        "to": "RIYADH",
+        "mode": "air",
+        "distance_nm": 0.3
+      },
+      {
+        "to": "ALUDEID",
+        "mode": "road",
+        "distance_nm": 251.3
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "road",
+        "distance_nm": 430.5
+      },
+      {
+        "to": "ISABAH",
+        "mode": "road",
+        "distance_nm": 219.4
+      },
+      {
+        "to": "PSAB",
+        "mode": "road",
+        "distance_nm": 72.1
+      },
+      {
+        "to": "TABUK",
+        "mode": "road",
+        "distance_nm": 578.0
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "road",
+        "distance_nm": 706.4
+      },
+      {
+        "to": "ERBIL",
+        "mode": "road",
+        "distance_nm": 691.8
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "road",
+        "distance_nm": 515.1
+      },
+      {
+        "to": "ALASAD",
+        "mode": "road",
+        "distance_nm": 574.8
+      },
+      {
+        "to": "MANAMA",
+        "mode": "road",
+        "distance_nm": 223.9
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "road",
+        "distance_nm": 227.1
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "road",
+        "distance_nm": 267.5
+      },
+      {
+        "to": "RIYADH",
+        "mode": "road",
+        "distance_nm": 0.3
+      }
+    ],
+    "JEDDAH": [
+      {
+        "to": "ARIFJAN",
+        "mode": "sea",
+        "distance_nm": 656.7
+      },
+      {
+        "to": "FUJAIRH",
+        "mode": "sea",
+        "distance_nm": 972.4
+      },
+      {
+        "to": "JEBELALI",
+        "mode": "sea",
+        "distance_nm": 902.2
+      },
+      {
+        "to": "DUQM",
+        "mode": "sea",
+        "distance_nm": 1047.9
+      },
+      {
+        "to": "ESEEB",
+        "mode": "sea",
+        "distance_nm": 1067.7
+      },
+      {
+        "to": "BAHRAIN",
+        "mode": "sea",
+        "distance_nm": 689.8
+      },
+      {
+        "to": "DAMMAM",
+        "mode": "sea",
+        "distance_nm": 676.6
+      },
+      {
+        "to": "AQABA",
+        "mode": "sea",
+        "distance_nm": 531.8
+      },
+      {
+        "to": "ERBIL",
+        "mode": "sea",
+        "distance_nm": 920.4
+      },
+      {
+        "to": "BASRAH",
+        "mode": "sea",
+        "distance_nm": 716.7
+      },
+      {
+        "to": "DOHA",
+        "mode": "sea",
+        "distance_nm": 720.9
+      },
+      {
+        "to": "SOUDA",
+        "mode": "sea",
+        "distance_nm": 1153.7
+      },
+      {
+        "to": "ROTA",
+        "mode": "sea",
+        "distance_nm": 2527.9
+      },
+      {
+        "to": "DJIBSEA",
+        "mode": "sea",
+        "distance_nm": 636.9
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "sea",
+        "distance_nm": 640.0
+      },
+      {
+        "to": "DIEGOGR",
+        "mode": "sea",
+        "distance_nm": 2613.2
+      },
+      {
+        "to": "KARACHI",
+        "mode": "sea",
+        "distance_nm": 1547.1
+      },
+      {
+        "to": "SALALAH",
+        "mode": "sea",
+        "distance_nm": 884.8
+      },
+      {
+        "to": "ABUDHB",
+        "mode": "sea",
+        "distance_nm": 860.5
+      },
+      {
+        "to": "MOMBASA",
+        "mode": "sea",
+        "distance_nm": 1533.4
+      }
+    ],
+    "DAMMAM": [
+      {
+        "to": "ARIFJAN",
+        "mode": "sea",
+        "distance_nm": 195.0
+      },
+      {
+        "to": "FUJAIRH",
+        "mode": "sea",
+        "distance_nm": 341.8
+      },
+      {
+        "to": "JEBELALI",
+        "mode": "sea",
+        "distance_nm": 277.5
+      },
+      {
+        "to": "DUQM",
+        "mode": "sea",
+        "distance_nm": 583.2
+      },
+      {
+        "to": "ESEEB",
+        "mode": "sea",
+        "distance_nm": 473.0
+      },
+      {
+        "to": "BAHRAIN",
+        "mode": "sea",
+        "distance_nm": 28.3
+      },
+      {
+        "to": "JEDDAH",
+        "mode": "sea",
+        "distance_nm": 676.6
+      },
+      {
+        "to": "AQABA",
+        "mode": "sea",
+        "distance_nm": 825.4
+      },
+      {
+        "to": "ERBIL",
+        "mode": "sea",
+        "distance_nm": 665.6
+      },
+      {
+        "to": "BASRAH",
+        "mode": "sea",
+        "distance_nm": 272.1
+      },
+      {
+        "to": "DOHA",
+        "mode": "sea",
+        "distance_nm": 103.9
+      },
+      {
+        "to": "SOUDA",
+        "mode": "sea",
+        "distance_nm": 1440.5
+      },
+      {
+        "to": "ROTA",
+        "mode": "sea",
+        "distance_nm": 2914.3
+      },
+      {
+        "to": "DJIBSEA",
+        "mode": "sea",
+        "distance_nm": 980.3
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "sea",
+        "distance_nm": 982.7
+      },
+      {
+        "to": "DIEGOGR",
+        "mode": "sea",
+        "distance_nm": 2407.5
+      },
+      {
+        "to": "KARACHI",
+        "mode": "sea",
+        "distance_nm": 913.0
+      },
+      {
+        "to": "SALALAH",
+        "mode": "sea",
+        "distance_nm": 612.0
+      },
+      {
+        "to": "ABUDHB",
+        "mode": "sea",
+        "distance_nm": 255.7
+      },
+      {
+        "to": "MOMBASA",
+        "mode": "sea",
+        "distance_nm": 1933.8
+      }
+    ],
+    "TABUK": [
+      {
+        "to": "ARIFJAN",
+        "mode": "air",
+        "distance_nm": 595.8
+      },
+      {
+        "to": "ALIASAL",
+        "mode": "air",
+        "distance_nm": 576.0
+      },
+      {
+        "to": "ALUDEID",
+        "mode": "air",
+        "distance_nm": 811.2
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "air",
+        "distance_nm": 995.0
+      },
+      {
+        "to": "MUSCAT",
+        "mode": "air",
+        "distance_nm": 1202.1
+      },
+      {
+        "to": "MASIRAH",
+        "mode": "air",
+        "distance_nm": 1298.6
+      },
+      {
+        "to": "THUMRT",
+        "mode": "air",
+        "distance_nm": 1154.4
+      },
+      {
+        "to": "ESEEB",
+        "mode": "air",
+        "distance_nm": 1202.1
+      },
+      {
+        "to": "BAGRAM",
+        "mode": "air",
+        "distance_nm": 1706.5
+      },
+      {
+        "to": "KANDHR",
+        "mode": "air",
+        "distance_nm": 1527.8
+      },
+      {
+        "to": "ISABAH",
+        "mode": "air",
+        "distance_nm": 760.2
+      },
+      {
+        "to": "PSAB",
+        "mode": "air",
+        "distance_nm": 644.1
+      },
+      {
+        "to": "KKIA",
+        "mode": "air",
+        "distance_nm": 578.0
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "air",
+        "distance_nm": 240.4
+      },
+      {
+        "to": "ERBIL",
+        "mode": "air",
+        "distance_nm": 601.4
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "air",
+        "distance_nm": 490.2
+      },
+      {
+        "to": "ALASAD",
+        "mode": "air",
+        "distance_nm": 442.0
+      },
+      {
+        "to": "INCIRLK",
+        "mode": "air",
+        "distance_nm": 522.0
+      },
+      {
+        "to": "SOUDA",
+        "mode": "air",
+        "distance_nm": 766.5
+      },
+      {
+        "to": "AVIANO",
+        "mode": "air",
+        "distance_nm": 1552.1
+      },
+      {
+        "to": "RAMSTN",
+        "mode": "air",
+        "distance_nm": 1833.5
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "air",
+        "distance_nm": 1074.6
+      },
+      {
+        "to": "SHARM",
+        "mode": "air",
+        "distance_nm": 120.0
+      },
+      {
+        "to": "CAIROW",
+        "mode": "air",
+        "distance_nm": 316.6
+      },
+      {
+        "to": "LARNACA",
+        "mode": "air",
+        "distance_nm": 419.7
+      },
+      {
+        "to": "MORON",
+        "mode": "air",
+        "distance_nm": 2178.0
+      },
+      {
+        "to": "MANAS",
+        "mode": "air",
+        "distance_nm": 2023.2
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "air",
+        "distance_nm": 757.6
+      },
+      {
+        "to": "HARGEISA",
+        "mode": "air",
+        "distance_nm": 1207.6
+      },
+      {
+        "to": "KUWAIT",
+        "mode": "air",
+        "distance_nm": 599.3
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "air",
+        "distance_nm": 823.7
+      },
+      {
+        "to": "RIYADH",
+        "mode": "air",
+        "distance_nm": 578.0
+      },
+      {
+        "to": "PSAB",
+        "mode": "road",
+        "distance_nm": 644.1
+      },
+      {
+        "to": "KKIA",
+        "mode": "road",
+        "distance_nm": 578.0
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "road",
+        "distance_nm": 240.4
+      },
+      {
+        "to": "ERBIL",
+        "mode": "road",
+        "distance_nm": 601.4
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "road",
+        "distance_nm": 490.2
+      },
+      {
+        "to": "ALASAD",
+        "mode": "road",
+        "distance_nm": 442.0
+      },
+      {
+        "to": "RIYADH",
+        "mode": "road",
+        "distance_nm": 578.0
+      }
+    ],
+    "MUWAFAQ": [
+      {
+        "to": "ARIFJAN",
+        "mode": "air",
+        "distance_nm": 633.1
+      },
+      {
+        "to": "ALIASAL",
+        "mode": "air",
+        "distance_nm": 607.6
+      },
+      {
+        "to": "ALUDEID",
+        "mode": "air",
+        "distance_nm": 902.7
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "air",
+        "distance_nm": 1080.3
+      },
+      {
+        "to": "MUSCAT",
+        "mode": "air",
+        "distance_nm": 1277.6
+      },
+      {
+        "to": "MASIRAH",
+        "mode": "air",
+        "distance_nm": 1399.1
+      },
+      {
+        "to": "THUMRT",
+        "mode": "air",
+        "distance_nm": 1304.9
+      },
+      {
+        "to": "ESEEB",
+        "mode": "air",
+        "distance_nm": 1277.7
+      },
+      {
+        "to": "BAGRAM",
+        "mode": "air",
+        "distance_nm": 1649.4
+      },
+      {
+        "to": "KANDHR",
+        "mode": "air",
+        "distance_nm": 1503.7
+      },
+      {
+        "to": "ISABAH",
+        "mode": "air",
+        "distance_nm": 843.5
+      },
+      {
+        "to": "PSAB",
+        "mode": "air",
+        "distance_nm": 778.1
+      },
+      {
+        "to": "KKIA",
+        "mode": "air",
+        "distance_nm": 706.4
+      },
+      {
+        "to": "TABUK",
+        "mode": "air",
+        "distance_nm": 240.4
+      },
+      {
+        "to": "ERBIL",
+        "mode": "air",
+        "distance_nm": 447.3
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "air",
+        "distance_nm": 406.0
+      },
+      {
+        "to": "ALASAD",
+        "mode": "air",
+        "distance_nm": 322.6
+      },
+      {
+        "to": "INCIRLK",
+        "mode": "air",
+        "distance_nm": 281.8
+      },
+      {
+        "to": "SOUDA",
+        "mode": "air",
+        "distance_nm": 632.2
+      },
+      {
+        "to": "AVIANO",
+        "mode": "air",
+        "distance_nm": 1364.6
+      },
+      {
+        "to": "RAMSTN",
+        "mode": "air",
+        "distance_nm": 1639.2
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "air",
+        "distance_nm": 1306.4
+      },
+      {
+        "to": "SHARM",
+        "mode": "air",
+        "distance_nm": 280.3
+      },
+      {
+        "to": "CAIROW",
+        "mode": "air",
+        "distance_nm": 305.5
+      },
+      {
+        "to": "LARNACA",
+        "mode": "air",
+        "distance_nm": 200.5
+      },
+      {
+        "to": "MORON",
+        "mode": "air",
+        "distance_nm": 2068.7
+      },
+      {
+        "to": "MANAS",
+        "mode": "air",
+        "distance_nm": 1906.5
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "air",
+        "distance_nm": 835.5
+      },
+      {
+        "to": "HARGEISA",
+        "mode": "air",
+        "distance_nm": 1438.6
+      },
+      {
+        "to": "KUWAIT",
+        "mode": "air",
+        "distance_nm": 632.3
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "air",
+        "distance_nm": 911.3
+      },
+      {
+        "to": "RIYADH",
+        "mode": "air",
+        "distance_nm": 706.3
+      },
+      {
+        "to": "KKIA",
+        "mode": "road",
+        "distance_nm": 706.4
+      },
+      {
+        "to": "TABUK",
+        "mode": "road",
+        "distance_nm": 240.4
+      },
+      {
+        "to": "ERBIL",
+        "mode": "road",
+        "distance_nm": 447.3
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "road",
+        "distance_nm": 406.0
+      },
+      {
+        "to": "ALASAD",
+        "mode": "road",
+        "distance_nm": 322.6
+      },
+      {
+        "to": "RIYADH",
+        "mode": "road",
+        "distance_nm": 706.3
+      }
+    ],
+    "AQABA": [
+      {
+        "to": "ARIFJAN",
+        "mode": "sea",
+        "distance_nm": 676.5
+      },
+      {
+        "to": "FUJAIRH",
+        "mode": "sea",
+        "distance_nm": 1166.8
+      },
+      {
+        "to": "JEBELALI",
+        "mode": "sea",
+        "distance_nm": 1102.9
+      },
+      {
+        "to": "DUQM",
+        "mode": "sea",
+        "distance_nm": 1370.0
+      },
+      {
+        "to": "ESEEB",
+        "mode": "sea",
+        "distance_nm": 1297.7
+      },
+      {
+        "to": "BAHRAIN",
+        "mode": "sea",
+        "distance_nm": 851.6
+      },
+      {
+        "to": "JEDDAH",
+        "mode": "sea",
+        "distance_nm": 531.8
+      },
+      {
+        "to": "DAMMAM",
+        "mode": "sea",
+        "distance_nm": 825.4
+      },
+      {
+        "to": "ERBIL",
+        "mode": "sea",
+        "distance_nm": 605.4
+      },
+      {
+        "to": "BASRAH",
+        "mode": "sea",
+        "distance_nm": 669.8
+      },
+      {
+        "to": "DOHA",
+        "mode": "sea",
+        "distance_nm": 918.1
+      },
+      {
+        "to": "SOUDA",
+        "mode": "sea",
+        "distance_nm": 656.8
+      },
+      {
+        "to": "ROTA",
+        "mode": "sea",
+        "distance_nm": 2106.9
+      },
+      {
+        "to": "DJIBSEA",
+        "mode": "sea",
+        "distance_nm": 1168.4
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "sea",
+        "distance_nm": 1171.5
+      },
+      {
+        "to": "DIEGOGR",
+        "mode": "sea",
+        "distance_nm": 3090.7
+      },
+      {
+        "to": "KARACHI",
+        "mode": "sea",
+        "distance_nm": 1726.0
+      },
+      {
+        "to": "SALALAH",
+        "mode": "sea",
+        "distance_nm": 1288.9
+      },
+      {
+        "to": "ABUDHB",
+        "mode": "sea",
+        "distance_nm": 1077.7
+      },
+      {
+        "to": "MOMBASA",
+        "mode": "sea",
+        "distance_nm": 2032.9
+      }
+    ],
+    "ERBIL": [
+      {
+        "to": "ARIFJAN",
+        "mode": "air",
+        "distance_nm": 475.7
+      },
+      {
+        "to": "ALIASAL",
+        "mode": "air",
+        "distance_nm": 450.9
+      },
+      {
+        "to": "ALUDEID",
+        "mode": "air",
+        "distance_nm": 767.4
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "air",
+        "distance_nm": 903.9
+      },
+      {
+        "to": "MUSCAT",
+        "mode": "air",
+        "distance_nm": 1061.4
+      },
+      {
+        "to": "MASIRAH",
+        "mode": "air",
+        "distance_nm": 1219.0
+      },
+      {
+        "to": "THUMRT",
+        "mode": "air",
+        "distance_nm": 1236.3
+      },
+      {
+        "to": "ESEEB",
+        "mode": "air",
+        "distance_nm": 1061.6
+      },
+      {
+        "to": "BAGRAM",
+        "mode": "air",
+        "distance_nm": 1234.3
+      },
+      {
+        "to": "KANDHR",
+        "mode": "air",
+        "distance_nm": 1124.6
+      },
+      {
+        "to": "ISABAH",
+        "mode": "air",
+        "distance_nm": 705.2
+      },
+      {
+        "to": "PSAB",
+        "mode": "air",
+        "distance_nm": 754.5
+      },
+      {
+        "to": "KKIA",
+        "mode": "air",
+        "distance_nm": 691.8
+      },
+      {
+        "to": "TABUK",
+        "mode": "air",
+        "distance_nm": 601.4
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "air",
+        "distance_nm": 447.3
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "air",
+        "distance_nm": 179.1
+      },
+      {
+        "to": "ALASAD",
+        "mode": "air",
+        "distance_nm": 165.1
+      },
+      {
+        "to": "INCIRLK",
+        "mode": "air",
+        "distance_nm": 413.8
+      },
+      {
+        "to": "SOUDA",
+        "mode": "air",
+        "distance_nm": 963.0
+      },
+      {
+        "to": "AVIANO",
+        "mode": "air",
+        "distance_nm": 1523.0
+      },
+      {
+        "to": "RAMSTN",
+        "mode": "air",
+        "distance_nm": 1763.6
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "air",
+        "distance_nm": 1483.1
+      },
+      {
+        "to": "SHARM",
+        "mode": "air",
+        "distance_nm": 694.0
+      },
+      {
+        "to": "CAIROW",
+        "mode": "air",
+        "distance_nm": 750.6
+      },
+      {
+        "to": "LARNACA",
+        "mode": "air",
+        "distance_nm": 511.3
+      },
+      {
+        "to": "MORON",
+        "mode": "air",
+        "distance_nm": 2359.3
+      },
+      {
+        "to": "MANAS",
+        "mode": "air",
+        "distance_nm": 1459.8
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "air",
+        "distance_nm": 689.0
+      },
+      {
+        "to": "HARGEISA",
+        "mode": "air",
+        "distance_nm": 1604.2
+      },
+      {
+        "to": "KUWAIT",
+        "mode": "air",
+        "distance_nm": 466.9
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "air",
+        "distance_nm": 766.7
+      },
+      {
+        "to": "RIYADH",
+        "mode": "air",
+        "distance_nm": 691.5
+      },
+      {
+        "to": "ARIFJAN",
+        "mode": "sea",
+        "distance_nm": 475.7
+      },
+      {
+        "to": "FUJAIRH",
+        "mode": "sea",
+        "distance_nm": 921.7
+      },
+      {
+        "to": "JEBELALI",
+        "mode": "sea",
+        "distance_nm": 883.5
+      },
+      {
+        "to": "DUQM",
+        "mode": "sea",
+        "distance_nm": 1230.5
+      },
+      {
+        "to": "ESEEB",
+        "mode": "sea",
+        "distance_nm": 1061.6
+      },
+      {
+        "to": "BAHRAIN",
+        "mode": "sea",
+        "distance_nm": 691.7
+      },
+      {
+        "to": "JEDDAH",
+        "mode": "sea",
+        "distance_nm": 920.4
+      },
+      {
+        "to": "DAMMAM",
+        "mode": "sea",
+        "distance_nm": 665.6
+      },
+      {
+        "to": "AQABA",
+        "mode": "sea",
+        "distance_nm": 605.4
+      },
+      {
+        "to": "BASRAH",
+        "mode": "sea",
+        "distance_nm": 393.5
+      },
+      {
+        "to": "DOHA",
+        "mode": "sea",
+        "distance_nm": 765.0
+      },
+      {
+        "to": "SOUDA",
+        "mode": "sea",
+        "distance_nm": 963.0
+      },
+      {
+        "to": "ROTA",
+        "mode": "sea",
+        "distance_nm": 2401.3
+      },
+      {
+        "to": "DJIBSEA",
+        "mode": "sea",
+        "distance_nm": 1480.2
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "sea",
+        "distance_nm": 1483.1
+      },
+      {
+        "to": "DIEGOGR",
+        "mode": "sea",
+        "distance_nm": 3067.1
+      },
+      {
+        "to": "KARACHI",
+        "mode": "sea",
+        "distance_nm": 1367.8
+      },
+      {
+        "to": "SALALAH",
+        "mode": "sea",
+        "distance_nm": 1275.8
+      },
+      {
+        "to": "ABUDHB",
+        "mode": "sea",
+        "distance_nm": 885.3
+      },
+      {
+        "to": "MOMBASA",
+        "mode": "sea",
+        "distance_nm": 2430.5
+      },
+      {
+        "to": "ARIFJAN",
+        "mode": "road",
+        "distance_nm": 475.7
+      },
+      {
+        "to": "ALIASAL",
+        "mode": "road",
+        "distance_nm": 450.9
+      },
+      {
+        "to": "KKIA",
+        "mode": "road",
+        "distance_nm": 691.8
+      },
+      {
+        "to": "TABUK",
+        "mode": "road",
+        "distance_nm": 601.4
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "road",
+        "distance_nm": 447.3
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "road",
+        "distance_nm": 179.1
+      },
+      {
+        "to": "ALASAD",
+        "mode": "road",
+        "distance_nm": 165.1
+      },
+      {
+        "to": "INCIRLK",
+        "mode": "road",
+        "distance_nm": 413.8
+      },
+      {
+        "to": "KUWAIT",
+        "mode": "road",
+        "distance_nm": 466.9
+      },
+      {
+        "to": "RIYADH",
+        "mode": "road",
+        "distance_nm": 691.5
+      }
+    ],
+    "BAGHDAD": [
+      {
+        "to": "ARIFJAN",
+        "mode": "air",
+        "distance_nm": 315.9
+      },
+      {
+        "to": "ALIASAL",
+        "mode": "air",
+        "distance_nm": 289.2
+      },
+      {
+        "to": "ALUDEID",
+        "mode": "air",
+        "distance_nm": 613.5
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "air",
+        "distance_nm": 765.7
+      },
+      {
+        "to": "MUSCAT",
+        "mode": "air",
+        "distance_nm": 940.4
+      },
+      {
+        "to": "MASIRAH",
+        "mode": "air",
+        "distance_nm": 1086.8
+      },
+      {
+        "to": "THUMRT",
+        "mode": "air",
+        "distance_nm": 1074.9
+      },
+      {
+        "to": "ESEEB",
+        "mode": "air",
+        "distance_nm": 940.5
+      },
+      {
+        "to": "BAGRAM",
+        "mode": "air",
+        "distance_nm": 1245.3
+      },
+      {
+        "to": "KANDHR",
+        "mode": "air",
+        "distance_nm": 1098.9
+      },
+      {
+        "to": "ISABAH",
+        "mode": "air",
+        "distance_nm": 550.4
+      },
+      {
+        "to": "PSAB",
+        "mode": "air",
+        "distance_nm": 579.7
+      },
+      {
+        "to": "KKIA",
+        "mode": "air",
+        "distance_nm": 515.1
+      },
+      {
+        "to": "TABUK",
+        "mode": "air",
+        "distance_nm": 490.2
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "air",
+        "distance_nm": 406.0
+      },
+      {
+        "to": "ERBIL",
+        "mode": "air",
+        "distance_nm": 179.1
+      },
+      {
+        "to": "ALASAD",
+        "mode": "air",
+        "distance_nm": 95.1
+      },
+      {
+        "to": "INCIRLK",
+        "mode": "air",
+        "distance_nm": 487.0
+      },
+      {
+        "to": "SOUDA",
+        "mode": "air",
+        "distance_nm": 1002.6
+      },
+      {
+        "to": "AVIANO",
+        "mode": "air",
+        "distance_nm": 1636.3
+      },
+      {
+        "to": "RAMSTN",
+        "mode": "air",
+        "distance_nm": 1888.9
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "air",
+        "distance_nm": 1305.2
+      },
+      {
+        "to": "SHARM",
+        "mode": "air",
+        "distance_nm": 598.8
+      },
+      {
+        "to": "CAIROW",
+        "mode": "air",
+        "distance_nm": 705.5
+      },
+      {
+        "to": "LARNACA",
+        "mode": "air",
+        "distance_nm": 536.2
+      },
+      {
+        "to": "MANAS",
+        "mode": "air",
+        "distance_nm": 1533.6
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "air",
+        "distance_nm": 535.9
+      },
+      {
+        "to": "HARGEISA",
+        "mode": "air",
+        "distance_nm": 1425.6
+      },
+      {
+        "to": "KUWAIT",
+        "mode": "air",
+        "distance_nm": 309.0
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "air",
+        "distance_nm": 615.4
+      },
+      {
+        "to": "RIYADH",
+        "mode": "air",
+        "distance_nm": 514.9
+      },
+      {
+        "to": "ARIFJAN",
+        "mode": "road",
+        "distance_nm": 315.9
+      },
+      {
+        "to": "ALIASAL",
+        "mode": "road",
+        "distance_nm": 289.2
+      },
+      {
+        "to": "PSAB",
+        "mode": "road",
+        "distance_nm": 579.7
+      },
+      {
+        "to": "KKIA",
+        "mode": "road",
+        "distance_nm": 515.1
+      },
+      {
+        "to": "TABUK",
+        "mode": "road",
+        "distance_nm": 490.2
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "road",
+        "distance_nm": 406.0
+      },
+      {
+        "to": "ERBIL",
+        "mode": "road",
+        "distance_nm": 179.1
+      },
+      {
+        "to": "ALASAD",
+        "mode": "road",
+        "distance_nm": 95.1
+      },
+      {
+        "to": "INCIRLK",
+        "mode": "road",
+        "distance_nm": 487.0
+      },
+      {
+        "to": "KUWAIT",
+        "mode": "road",
+        "distance_nm": 309.0
+      },
+      {
+        "to": "RIYADH",
+        "mode": "road",
+        "distance_nm": 514.9
+      }
+    ],
+    "BASRAH": [
+      {
+        "to": "ARIFJAN",
+        "mode": "sea",
+        "distance_nm": 89.6
+      },
+      {
+        "to": "FUJAIRH",
+        "mode": "sea",
+        "distance_nm": 555.5
+      },
+      {
+        "to": "JEBELALI",
+        "mode": "sea",
+        "distance_nm": 507.0
+      },
+      {
+        "to": "DUQM",
+        "mode": "sea",
+        "distance_nm": 844.0
+      },
+      {
+        "to": "ESEEB",
+        "mode": "sea",
+        "distance_nm": 696.5
+      },
+      {
+        "to": "BAHRAIN",
+        "mode": "sea",
+        "distance_nm": 298.2
+      },
+      {
+        "to": "JEDDAH",
+        "mode": "sea",
+        "distance_nm": 716.7
+      },
+      {
+        "to": "DAMMAM",
+        "mode": "sea",
+        "distance_nm": 272.1
+      },
+      {
+        "to": "AQABA",
+        "mode": "sea",
+        "distance_nm": 669.8
+      },
+      {
+        "to": "ERBIL",
+        "mode": "sea",
+        "distance_nm": 393.5
+      },
+      {
+        "to": "DOHA",
+        "mode": "sea",
+        "distance_nm": 372.1
+      },
+      {
+        "to": "SOUDA",
+        "mode": "sea",
+        "distance_nm": 1226.2
+      },
+      {
+        "to": "ROTA",
+        "mode": "sea",
+        "distance_nm": 2699.3
+      },
+      {
+        "to": "DJIBSEA",
+        "mode": "sea",
+        "distance_nm": 1166.7
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "sea",
+        "distance_nm": 1169.4
+      },
+      {
+        "to": "DIEGOGR",
+        "mode": "sea",
+        "distance_nm": 2676.6
+      },
+      {
+        "to": "KARACHI",
+        "mode": "sea",
+        "distance_nm": 1072.3
+      },
+      {
+        "to": "SALALAH",
+        "mode": "sea",
+        "distance_nm": 883.2
+      },
+      {
+        "to": "ABUDHB",
+        "mode": "sea",
+        "distance_nm": 501.5
+      },
+      {
+        "to": "MOMBASA",
+        "mode": "sea",
+        "distance_nm": 2128.3
+      }
+    ],
+    "ALASAD": [
+      {
+        "to": "ARIFJAN",
+        "mode": "air",
+        "distance_nm": 399.3
+      },
+      {
+        "to": "ALIASAL",
+        "mode": "air",
+        "distance_nm": 372.1
+      },
+      {
+        "to": "ALUDEID",
+        "mode": "air",
+        "distance_nm": 696.6
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "air",
+        "distance_nm": 854.2
+      },
+      {
+        "to": "MUSCAT",
+        "mode": "air",
+        "distance_nm": 1032.6
+      },
+      {
+        "to": "MASIRAH",
+        "mode": "air",
+        "distance_nm": 1176.2
+      },
+      {
+        "to": "THUMRT",
+        "mode": "air",
+        "distance_nm": 1150.9
+      },
+      {
+        "to": "ESEEB",
+        "mode": "air",
+        "distance_nm": 1032.7
+      },
+      {
+        "to": "BAGRAM",
+        "mode": "air",
+        "distance_nm": 1327.3
+      },
+      {
+        "to": "KANDHR",
+        "mode": "air",
+        "distance_nm": 1188.6
+      },
+      {
+        "to": "ISABAH",
+        "mode": "air",
+        "distance_nm": 633.3
+      },
+      {
+        "to": "PSAB",
+        "mode": "air",
+        "distance_nm": 642.9
+      },
+      {
+        "to": "KKIA",
+        "mode": "air",
+        "distance_nm": 574.8
+      },
+      {
+        "to": "TABUK",
+        "mode": "air",
+        "distance_nm": 442.0
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "air",
+        "distance_nm": 322.6
+      },
+      {
+        "to": "ERBIL",
+        "mode": "air",
+        "distance_nm": 165.1
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "air",
+        "distance_nm": 95.1
+      },
+      {
+        "to": "INCIRLK",
+        "mode": "air",
+        "distance_nm": 393.8
+      },
+      {
+        "to": "SOUDA",
+        "mode": "air",
+        "distance_nm": 908.1
+      },
+      {
+        "to": "AVIANO",
+        "mode": "air",
+        "distance_nm": 1545.9
+      },
+      {
+        "to": "RAMSTN",
+        "mode": "air",
+        "distance_nm": 1801.2
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "air",
+        "distance_nm": 1335.8
+      },
+      {
+        "to": "SHARM",
+        "mode": "air",
+        "distance_nm": 541.4
+      },
+      {
+        "to": "CAIROW",
+        "mode": "air",
+        "distance_nm": 626.6
+      },
+      {
+        "to": "LARNACA",
+        "mode": "air",
+        "distance_nm": 441.9
+      },
+      {
+        "to": "MORON",
+        "mode": "air",
+        "distance_nm": 2333.4
+      },
+      {
+        "to": "MANAS",
+        "mode": "air",
+        "distance_nm": 1594.8
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "air",
+        "distance_nm": 619.9
+      },
+      {
+        "to": "HARGEISA",
+        "mode": "air",
+        "distance_nm": 1459.8
+      },
+      {
+        "to": "KUWAIT",
+        "mode": "air",
+        "distance_nm": 393.6
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "air",
+        "distance_nm": 699.7
+      },
+      {
+        "to": "RIYADH",
+        "mode": "air",
+        "distance_nm": 574.6
+      },
+      {
+        "to": "ARIFJAN",
+        "mode": "road",
+        "distance_nm": 399.3
+      },
+      {
+        "to": "ALIASAL",
+        "mode": "road",
+        "distance_nm": 372.1
+      },
+      {
+        "to": "PSAB",
+        "mode": "road",
+        "distance_nm": 642.9
+      },
+      {
+        "to": "KKIA",
+        "mode": "road",
+        "distance_nm": 574.8
+      },
+      {
+        "to": "TABUK",
+        "mode": "road",
+        "distance_nm": 442.0
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "road",
+        "distance_nm": 322.6
+      },
+      {
+        "to": "ERBIL",
+        "mode": "road",
+        "distance_nm": 165.1
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "road",
+        "distance_nm": 95.1
+      },
+      {
+        "to": "INCIRLK",
+        "mode": "road",
+        "distance_nm": 393.8
+      },
+      {
+        "to": "KUWAIT",
+        "mode": "road",
+        "distance_nm": 393.6
+      },
+      {
+        "to": "RIYADH",
+        "mode": "road",
+        "distance_nm": 574.6
+      }
+    ],
+    "INCIRLK": [
+      {
+        "to": "ARIFJAN",
+        "mode": "air",
+        "distance_nm": 788.3
+      },
+      {
+        "to": "ALIASAL",
+        "mode": "air",
+        "distance_nm": 760.9
+      },
+      {
+        "to": "ALUDEID",
+        "mode": "air",
+        "distance_nm": 1082.1
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "air",
+        "distance_nm": 1245.7
+      },
+      {
+        "to": "MUSCAT",
+        "mode": "air",
+        "distance_nm": 1426.3
+      },
+      {
+        "to": "MASIRAH",
+        "mode": "air",
+        "distance_nm": 1568.1
+      },
+      {
+        "to": "THUMRT",
+        "mode": "air",
+        "distance_nm": 1520.9
+      },
+      {
+        "to": "ESEEB",
+        "mode": "air",
+        "distance_nm": 1426.5
+      },
+      {
+        "to": "BAGRAM",
+        "mode": "air",
+        "distance_nm": 1640.2
+      },
+      {
+        "to": "KANDHR",
+        "mode": "air",
+        "distance_nm": 1538.4
+      },
+      {
+        "to": "ISABAH",
+        "mode": "air",
+        "distance_nm": 1019.3
+      },
+      {
+        "to": "PSAB",
+        "mode": "air",
+        "distance_nm": 997.4
+      },
+      {
+        "to": "KKIA",
+        "mode": "air",
+        "distance_nm": 925.7
+      },
+      {
+        "to": "TABUK",
+        "mode": "air",
+        "distance_nm": 522.0
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "air",
+        "distance_nm": 281.8
+      },
+      {
+        "to": "ERBIL",
+        "mode": "air",
+        "distance_nm": 413.8
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "air",
+        "distance_nm": 487.0
+      },
+      {
+        "to": "ALASAD",
+        "mode": "air",
+        "distance_nm": 393.8
+      },
+      {
+        "to": "SOUDA",
+        "mode": "air",
+        "distance_nm": 552.6
+      },
+      {
+        "to": "AVIANO",
+        "mode": "air",
+        "distance_nm": 1154.9
+      },
+      {
+        "to": "RAMSTN",
+        "mode": "air",
+        "distance_nm": 1415.9
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "air",
+        "distance_nm": 1584.4
+      },
+      {
+        "to": "SHARM",
+        "mode": "air",
+        "distance_nm": 544.4
+      },
+      {
+        "to": "CAIROW",
+        "mode": "air",
+        "distance_nm": 470.9
+      },
+      {
+        "to": "LARNACA",
+        "mode": "air",
+        "distance_nm": 154.9
+      },
+      {
+        "to": "MORON",
+        "mode": "air",
+        "distance_nm": 1950.0
+      },
+      {
+        "to": "MANAS",
+        "mode": "air",
+        "distance_nm": 1814.7
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "air",
+        "distance_nm": 1007.3
+      },
+      {
+        "to": "HARGEISA",
+        "mode": "air",
+        "distance_nm": 1715.9
+      },
+      {
+        "to": "KUWAIT",
+        "mode": "air",
+        "distance_nm": 783.7
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "air",
+        "distance_nm": 1086.8
+      },
+      {
+        "to": "RIYADH",
+        "mode": "air",
+        "distance_nm": 925.5
+      },
+      {
+        "to": "ERBIL",
+        "mode": "road",
+        "distance_nm": 413.8
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "road",
+        "distance_nm": 487.0
+      },
+      {
+        "to": "ALASAD",
+        "mode": "road",
+        "distance_nm": 393.8
+      },
+      {
+        "to": "SOUDA",
+        "mode": "road",
+        "distance_nm": 552.6
+      }
+    ],
+    "DOHA": [
+      {
+        "to": "ARIFJAN",
+        "mode": "sea",
+        "distance_nm": 298.4
+      },
+      {
+        "to": "FUJAIRH",
+        "mode": "sea",
+        "distance_nm": 259.7
+      },
+      {
+        "to": "JEBELALI",
+        "mode": "sea",
+        "distance_nm": 190.6
+      },
+      {
+        "to": "DUQM",
+        "mode": "sea",
+        "distance_nm": 479.3
+      },
+      {
+        "to": "ESEEB",
+        "mode": "sea",
+        "distance_nm": 380.9
+      },
+      {
+        "to": "BAHRAIN",
+        "mode": "sea",
+        "distance_nm": 75.8
+      },
+      {
+        "to": "JEDDAH",
+        "mode": "sea",
+        "distance_nm": 720.9
+      },
+      {
+        "to": "DAMMAM",
+        "mode": "sea",
+        "distance_nm": 103.9
+      },
+      {
+        "to": "AQABA",
+        "mode": "sea",
+        "distance_nm": 918.1
+      },
+      {
+        "to": "ERBIL",
+        "mode": "sea",
+        "distance_nm": 765.0
+      },
+      {
+        "to": "BASRAH",
+        "mode": "sea",
+        "distance_nm": 372.1
+      },
+      {
+        "to": "SOUDA",
+        "mode": "sea",
+        "distance_nm": 1540.6
+      },
+      {
+        "to": "ROTA",
+        "mode": "sea",
+        "distance_nm": 3013.3
+      },
+      {
+        "to": "DJIBSEA",
+        "mode": "sea",
+        "distance_nm": 951.0
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "sea",
+        "distance_nm": 953.2
+      },
+      {
+        "to": "DIEGOGR",
+        "mode": "sea",
+        "distance_nm": 2305.1
+      },
+      {
+        "to": "KARACHI",
+        "mode": "sea",
+        "distance_nm": 838.6
+      },
+      {
+        "to": "SALALAH",
+        "mode": "sea",
+        "distance_nm": 519.1
+      },
+      {
+        "to": "ABUDHB",
+        "mode": "sea",
+        "distance_nm": 159.8
+      },
+      {
+        "to": "MOMBASA",
+        "mode": "sea",
+        "distance_nm": 1892.7
+      }
+    ],
+    "SOUDA": [
+      {
+        "to": "ARIFJAN",
+        "mode": "air",
+        "distance_nm": 1263.8
+      },
+      {
+        "to": "ALIASAL",
+        "mode": "air",
+        "distance_nm": 1237.7
+      },
+      {
+        "to": "ALUDEID",
+        "mode": "air",
+        "distance_nm": 1533.9
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "air",
+        "distance_nm": 1712.3
+      },
+      {
+        "to": "MUSCAT",
+        "mode": "air",
+        "distance_nm": 1909.4
+      },
+      {
+        "to": "MASIRAH",
+        "mode": "air",
+        "distance_nm": 2030.4
+      },
+      {
+        "to": "THUMRT",
+        "mode": "air",
+        "distance_nm": 1917.1
+      },
+      {
+        "to": "ESEEB",
+        "mode": "air",
+        "distance_nm": 1909.5
+      },
+      {
+        "to": "BAGRAM",
+        "mode": "air",
+        "distance_nm": 2192.8
+      },
+      {
+        "to": "KANDHR",
+        "mode": "air",
+        "distance_nm": 2085.7
+      },
+      {
+        "to": "ISABAH",
+        "mode": "air",
+        "distance_nm": 1475.3
+      },
+      {
+        "to": "PSAB",
+        "mode": "air",
+        "distance_nm": 1396.4
+      },
+      {
+        "to": "KKIA",
+        "mode": "air",
+        "distance_nm": 1326.3
+      },
+      {
+        "to": "TABUK",
+        "mode": "air",
+        "distance_nm": 766.5
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "air",
+        "distance_nm": 632.2
+      },
+      {
+        "to": "ERBIL",
+        "mode": "air",
+        "distance_nm": 963.0
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "air",
+        "distance_nm": 1002.6
+      },
+      {
+        "to": "ALASAD",
+        "mode": "air",
+        "distance_nm": 908.1
+      },
+      {
+        "to": "INCIRLK",
+        "mode": "air",
+        "distance_nm": 552.6
+      },
+      {
+        "to": "AVIANO",
+        "mode": "air",
+        "distance_nm": 818.4
+      },
+      {
+        "to": "RAMSTN",
+        "mode": "air",
+        "distance_nm": 1105.5
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "air",
+        "distance_nm": 1772.9
+      },
+      {
+        "to": "SHARM",
+        "mode": "air",
+        "distance_nm": 691.9
+      },
+      {
+        "to": "CAIROW",
+        "mode": "air",
+        "distance_nm": 471.6
+      },
+      {
+        "to": "LARNACA",
+        "mode": "air",
+        "distance_nm": 466.3
+      },
+      {
+        "to": "MORON",
+        "mode": "air",
+        "distance_nm": 1436.7
+      },
+      {
+        "to": "MANAS",
+        "mode": "air",
+        "distance_nm": 2345.6
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "air",
+        "distance_nm": 1467.6
+      },
+      {
+        "to": "HARGEISA",
+        "mode": "air",
+        "distance_nm": 1905.1
+      },
+      {
+        "to": "KUWAIT",
+        "mode": "air",
+        "distance_nm": 1262.3
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "air",
+        "distance_nm": 1542.9
+      },
+      {
+        "to": "RIYADH",
+        "mode": "air",
+        "distance_nm": 1326.3
+      },
+      {
+        "to": "ARIFJAN",
+        "mode": "sea",
+        "distance_nm": 1263.8
+      },
+      {
+        "to": "FUJAIRH",
+        "mode": "sea",
+        "distance_nm": 1771.6
+      },
+      {
+        "to": "JEBELALI",
+        "mode": "sea",
+        "distance_nm": 1714.0
+      },
+      {
+        "to": "DUQM",
+        "mode": "sea",
+        "distance_nm": 2009.6
+      },
+      {
+        "to": "ESEEB",
+        "mode": "sea",
+        "distance_nm": 1909.5
+      },
+      {
+        "to": "BAHRAIN",
+        "mode": "sea",
+        "distance_nm": 1468.4
+      },
+      {
+        "to": "JEDDAH",
+        "mode": "sea",
+        "distance_nm": 1153.7
+      },
+      {
+        "to": "DAMMAM",
+        "mode": "sea",
+        "distance_nm": 1440.5
+      },
+      {
+        "to": "AQABA",
+        "mode": "sea",
+        "distance_nm": 656.8
+      },
+      {
+        "to": "ERBIL",
+        "mode": "sea",
+        "distance_nm": 963.0
+      },
+      {
+        "to": "BASRAH",
+        "mode": "sea",
+        "distance_nm": 1226.2
+      },
+      {
+        "to": "DOHA",
+        "mode": "sea",
+        "distance_nm": 1540.6
+      },
+      {
+        "to": "ROTA",
+        "mode": "sea",
+        "distance_nm": 1474.9
+      },
+      {
+        "to": "DJIBSEA",
+        "mode": "sea",
+        "distance_nm": 1769.9
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "sea",
+        "distance_nm": 1772.9
+      },
+      {
+        "to": "DIEGOGR",
+        "mode": "sea",
+        "distance_nm": 3746.4
+      },
+      {
+        "to": "KARACHI",
+        "mode": "sea",
+        "distance_nm": 2294.6
+      },
+      {
+        "to": "SALALAH",
+        "mode": "sea",
+        "distance_nm": 1944.3
+      },
+      {
+        "to": "ABUDHB",
+        "mode": "sea",
+        "distance_nm": 1696.2
+      },
+      {
+        "to": "MOMBASA",
+        "mode": "sea",
+        "distance_nm": 2532.1
+      },
+      {
+        "to": "INCIRLK",
+        "mode": "road",
+        "distance_nm": 552.6
+      }
+    ],
+    "AVIANO": [
+      {
+        "to": "ARIFJAN",
+        "mode": "air",
+        "distance_nm": 1943.1
+      },
+      {
+        "to": "ALIASAL",
+        "mode": "air",
+        "distance_nm": 1915.7
+      },
+      {
+        "to": "ALUDEID",
+        "mode": "air",
+        "distance_nm": 2236.8
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "air",
+        "distance_nm": 2399.9
+      },
+      {
+        "to": "ISABAH",
+        "mode": "air",
+        "distance_nm": 2174.1
+      },
+      {
+        "to": "PSAB",
+        "mode": "air",
+        "distance_nm": 2139.0
+      },
+      {
+        "to": "KKIA",
+        "mode": "air",
+        "distance_nm": 2066.9
+      },
+      {
+        "to": "TABUK",
+        "mode": "air",
+        "distance_nm": 1552.1
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "air",
+        "distance_nm": 1364.6
+      },
+      {
+        "to": "ERBIL",
+        "mode": "air",
+        "distance_nm": 1523.0
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "air",
+        "distance_nm": 1636.3
+      },
+      {
+        "to": "ALASAD",
+        "mode": "air",
+        "distance_nm": 1545.9
+      },
+      {
+        "to": "INCIRLK",
+        "mode": "air",
+        "distance_nm": 1154.9
+      },
+      {
+        "to": "SOUDA",
+        "mode": "air",
+        "distance_nm": 818.4
+      },
+      {
+        "to": "RAMSTN",
+        "mode": "air",
+        "distance_nm": 287.1
+      },
+      {
+        "to": "SHARM",
+        "mode": "air",
+        "distance_nm": 1496.0
+      },
+      {
+        "to": "CAIROW",
+        "mode": "air",
+        "distance_nm": 1283.3
+      },
+      {
+        "to": "LARNACA",
+        "mode": "air",
+        "distance_nm": 1165.3
+      },
+      {
+        "to": "MORON",
+        "mode": "air",
+        "distance_nm": 971.8
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "air",
+        "distance_nm": 2162.2
+      },
+      {
+        "to": "KUWAIT",
+        "mode": "air",
+        "distance_nm": 1938.2
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "air",
+        "distance_nm": 2241.7
+      },
+      {
+        "to": "RIYADH",
+        "mode": "air",
+        "distance_nm": 2066.8
+      }
+    ],
+    "RAMSTN": [
+      {
+        "to": "ARIFJAN",
+        "mode": "air",
+        "distance_nm": 2200.3
+      },
+      {
+        "to": "ALIASAL",
+        "mode": "air",
+        "distance_nm": 2172.9
+      },
+      {
+        "to": "KKIA",
+        "mode": "air",
+        "distance_nm": 2336.5
+      },
+      {
+        "to": "TABUK",
+        "mode": "air",
+        "distance_nm": 1833.5
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "air",
+        "distance_nm": 1639.2
+      },
+      {
+        "to": "ERBIL",
+        "mode": "air",
+        "distance_nm": 1763.6
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "air",
+        "distance_nm": 1888.9
+      },
+      {
+        "to": "ALASAD",
+        "mode": "air",
+        "distance_nm": 1801.2
+      },
+      {
+        "to": "INCIRLK",
+        "mode": "air",
+        "distance_nm": 1415.9
+      },
+      {
+        "to": "SOUDA",
+        "mode": "air",
+        "distance_nm": 1105.5
+      },
+      {
+        "to": "AVIANO",
+        "mode": "air",
+        "distance_nm": 287.1
+      },
+      {
+        "to": "SHARM",
+        "mode": "air",
+        "distance_nm": 1780.6
+      },
+      {
+        "to": "CAIROW",
+        "mode": "air",
+        "distance_nm": 1569.4
+      },
+      {
+        "to": "LARNACA",
+        "mode": "air",
+        "distance_nm": 1438.9
+      },
+      {
+        "to": "MORON",
+        "mode": "air",
+        "distance_nm": 932.8
+      },
+      {
+        "to": "KUWAIT",
+        "mode": "air",
+        "distance_nm": 2194.8
+      },
+      {
+        "to": "RIYADH",
+        "mode": "air",
+        "distance_nm": 2336.4
+      }
+    ],
+    "ROTA": [
+      {
+        "to": "ARIFJAN",
+        "mode": "sea",
+        "distance_nm": 2738.7
+      },
+      {
+        "to": "FUJAIRH",
+        "mode": "sea",
+        "distance_nm": 3246.5
+      },
+      {
+        "to": "JEBELALI",
+        "mode": "sea",
+        "distance_nm": 3188.7
+      },
+      {
+        "to": "DUQM",
+        "mode": "sea",
+        "distance_nm": 3476.1
+      },
+      {
+        "to": "ESEEB",
+        "mode": "sea",
+        "distance_nm": 3384.3
+      },
+      {
+        "to": "BAHRAIN",
+        "mode": "sea",
+        "distance_nm": 2941.9
+      },
+      {
+        "to": "JEDDAH",
+        "mode": "sea",
+        "distance_nm": 2527.9
+      },
+      {
+        "to": "DAMMAM",
+        "mode": "sea",
+        "distance_nm": 2914.3
+      },
+      {
+        "to": "AQABA",
+        "mode": "sea",
+        "distance_nm": 2106.9
+      },
+      {
+        "to": "ERBIL",
+        "mode": "sea",
+        "distance_nm": 2401.3
+      },
+      {
+        "to": "BASRAH",
+        "mode": "sea",
+        "distance_nm": 2699.3
+      },
+      {
+        "to": "DOHA",
+        "mode": "sea",
+        "distance_nm": 3013.3
+      },
+      {
+        "to": "SOUDA",
+        "mode": "sea",
+        "distance_nm": 1474.9
+      },
+      {
+        "to": "DJIBSEA",
+        "mode": "sea",
+        "distance_nm": 3056.9
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "sea",
+        "distance_nm": 3059.4
+      },
+      {
+        "to": "KARACHI",
+        "mode": "sea",
+        "distance_nm": 3761.1
+      },
+      {
+        "to": "SALALAH",
+        "mode": "sea",
+        "distance_nm": 3385.5
+      },
+      {
+        "to": "ABUDHB",
+        "mode": "sea",
+        "distance_nm": 3170.0
+      },
+      {
+        "to": "MOMBASA",
+        "mode": "sea",
+        "distance_nm": 3547.7
+      }
+    ],
+    "DJIBSEA": [
+      {
+        "to": "ARIFJAN",
+        "mode": "sea",
+        "distance_nm": 1081.1
+      },
+      {
+        "to": "FUJAIRH",
+        "mode": "sea",
+        "distance_nm": 1106.3
+      },
+      {
+        "to": "JEBELALI",
+        "mode": "sea",
+        "distance_nm": 1052.4
+      },
+      {
+        "to": "DUQM",
+        "mode": "sea",
+        "distance_nm": 970.2
+      },
+      {
+        "to": "ESEEB",
+        "mode": "sea",
+        "distance_nm": 1125.0
+      },
+      {
+        "to": "BAHRAIN",
+        "mode": "sea",
+        "distance_nm": 973.9
+      },
+      {
+        "to": "JEDDAH",
+        "mode": "sea",
+        "distance_nm": 636.9
+      },
+      {
+        "to": "DAMMAM",
+        "mode": "sea",
+        "distance_nm": 980.3
+      },
+      {
+        "to": "AQABA",
+        "mode": "sea",
+        "distance_nm": 1168.4
+      },
+      {
+        "to": "ERBIL",
+        "mode": "sea",
+        "distance_nm": 1480.2
+      },
+      {
+        "to": "BASRAH",
+        "mode": "sea",
+        "distance_nm": 1166.7
+      },
+      {
+        "to": "DOHA",
+        "mode": "sea",
+        "distance_nm": 951.0
+      },
+      {
+        "to": "SOUDA",
+        "mode": "sea",
+        "distance_nm": 1769.9
+      },
+      {
+        "to": "ROTA",
+        "mode": "sea",
+        "distance_nm": 3056.9
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "sea",
+        "distance_nm": 3.1
+      },
+      {
+        "to": "DIEGOGR",
+        "mode": "sea",
+        "distance_nm": 2084.2
+      },
+      {
+        "to": "KARACHI",
+        "mode": "sea",
+        "distance_nm": 1571.2
+      },
+      {
+        "to": "SALALAH",
+        "mode": "sea",
+        "distance_nm": 708.6
+      },
+      {
+        "to": "ABUDHB",
+        "mode": "sea",
+        "distance_nm": 1005.5
+      },
+      {
+        "to": "MOMBASA",
+        "mode": "sea",
+        "distance_nm": 961.6
+      }
+    ],
+    "LEMONNR": [
+      {
+        "to": "ARIFJAN",
+        "mode": "air",
+        "distance_nm": 1083.7
+      },
+      {
+        "to": "ALIASAL",
+        "mode": "air",
+        "distance_nm": 1096.3
+      },
+      {
+        "to": "ALUDEID",
+        "mode": "air",
+        "distance_nm": 937.3
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "air",
+        "distance_nm": 1001.3
+      },
+      {
+        "to": "MUSCAT",
+        "mode": "air",
+        "distance_nm": 1126.4
+      },
+      {
+        "to": "MASIRAH",
+        "mode": "air",
+        "distance_nm": 1058.9
+      },
+      {
+        "to": "THUMRT",
+        "mode": "air",
+        "distance_nm": 730.1
+      },
+      {
+        "to": "ESEEB",
+        "mode": "air",
+        "distance_nm": 1126.2
+      },
+      {
+        "to": "BAGRAM",
+        "mode": "air",
+        "distance_nm": 1999.2
+      },
+      {
+        "to": "KANDHR",
+        "mode": "air",
+        "distance_nm": 1736.4
+      },
+      {
+        "to": "ISABAH",
+        "mode": "air",
+        "distance_nm": 961.7
+      },
+      {
+        "to": "PSAB",
+        "mode": "air",
+        "distance_nm": 792.7
+      },
+      {
+        "to": "KKIA",
+        "mode": "air",
+        "distance_nm": 830.0
+      },
+      {
+        "to": "TABUK",
+        "mode": "air",
+        "distance_nm": 1074.6
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "air",
+        "distance_nm": 1306.4
+      },
+      {
+        "to": "ERBIL",
+        "mode": "air",
+        "distance_nm": 1483.1
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "air",
+        "distance_nm": 1305.2
+      },
+      {
+        "to": "ALASAD",
+        "mode": "air",
+        "distance_nm": 1335.8
+      },
+      {
+        "to": "INCIRLK",
+        "mode": "air",
+        "distance_nm": 1584.4
+      },
+      {
+        "to": "SOUDA",
+        "mode": "air",
+        "distance_nm": 1772.9
+      },
+      {
+        "to": "DIEGOGR",
+        "mode": "air",
+        "distance_nm": 2081.9
+      },
+      {
+        "to": "SHARM",
+        "mode": "air",
+        "distance_nm": 1102.8
+      },
+      {
+        "to": "CAIROW",
+        "mode": "air",
+        "distance_nm": 1307.2
+      },
+      {
+        "to": "LARNACA",
+        "mode": "air",
+        "distance_nm": 1494.2
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "air",
+        "distance_nm": 980.0
+      },
+      {
+        "to": "HARGEISA",
+        "mode": "air",
+        "distance_nm": 133.5
+      },
+      {
+        "to": "KUWAIT",
+        "mode": "air",
+        "distance_nm": 1095.2
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "air",
+        "distance_nm": 953.6
+      },
+      {
+        "to": "RIYADH",
+        "mode": "air",
+        "distance_nm": 830.2
+      },
+      {
+        "to": "ARIFJAN",
+        "mode": "sea",
+        "distance_nm": 1083.7
+      },
+      {
+        "to": "FUJAIRH",
+        "mode": "sea",
+        "distance_nm": 1107.9
+      },
+      {
+        "to": "JEBELALI",
+        "mode": "sea",
+        "distance_nm": 1054.1
+      },
+      {
+        "to": "DUQM",
+        "mode": "sea",
+        "distance_nm": 970.9
+      },
+      {
+        "to": "ESEEB",
+        "mode": "sea",
+        "distance_nm": 1126.2
+      },
+      {
+        "to": "BAHRAIN",
+        "mode": "sea",
+        "distance_nm": 976.2
+      },
+      {
+        "to": "JEDDAH",
+        "mode": "sea",
+        "distance_nm": 640.0
+      },
+      {
+        "to": "DAMMAM",
+        "mode": "sea",
+        "distance_nm": 982.7
+      },
+      {
+        "to": "AQABA",
+        "mode": "sea",
+        "distance_nm": 1171.5
+      },
+      {
+        "to": "ERBIL",
+        "mode": "sea",
+        "distance_nm": 1483.1
+      },
+      {
+        "to": "BASRAH",
+        "mode": "sea",
+        "distance_nm": 1169.4
+      },
+      {
+        "to": "DOHA",
+        "mode": "sea",
+        "distance_nm": 953.2
+      },
+      {
+        "to": "SOUDA",
+        "mode": "sea",
+        "distance_nm": 1772.9
+      },
+      {
+        "to": "ROTA",
+        "mode": "sea",
+        "distance_nm": 3059.4
+      },
+      {
+        "to": "DJIBSEA",
+        "mode": "sea",
+        "distance_nm": 3.1
+      },
+      {
+        "to": "DIEGOGR",
+        "mode": "sea",
+        "distance_nm": 2081.9
+      },
+      {
+        "to": "KARACHI",
+        "mode": "sea",
+        "distance_nm": 1572.1
+      },
+      {
+        "to": "SALALAH",
+        "mode": "sea",
+        "distance_nm": 709.2
+      },
+      {
+        "to": "ABUDHB",
+        "mode": "sea",
+        "distance_nm": 1007.2
+      },
+      {
+        "to": "MOMBASA",
+        "mode": "sea",
+        "distance_nm": 959.0
+      }
+    ],
+    "DIEGOGR": [
+      {
+        "to": "ALUDEID",
+        "mode": "air",
+        "distance_nm": 2304.6
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "air",
+        "distance_nm": 2164.6
+      },
+      {
+        "to": "MUSCAT",
+        "mode": "air",
+        "distance_nm": 2032.2
+      },
+      {
+        "to": "MASIRAH",
+        "mode": "air",
+        "distance_nm": 1860.2
+      },
+      {
+        "to": "THUMRT",
+        "mode": "air",
+        "distance_nm": 1854.2
+      },
+      {
+        "to": "ESEEB",
+        "mode": "air",
+        "distance_nm": 2032.0
+      },
+      {
+        "to": "KANDHR",
+        "mode": "air",
+        "distance_nm": 2361.0
+      },
+      {
+        "to": "ISABAH",
+        "mode": "air",
+        "distance_nm": 2367.8
+      },
+      {
+        "to": "PSAB",
+        "mode": "air",
+        "distance_nm": 2380.1
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "air",
+        "distance_nm": 2081.9
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "air",
+        "distance_nm": 2382.5
+      },
+      {
+        "to": "HARGEISA",
+        "mode": "air",
+        "distance_nm": 1972.6
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "air",
+        "distance_nm": 2303.2
+      },
+      {
+        "to": "ARIFJAN",
+        "mode": "sea",
+        "distance_nm": 2602.3
+      },
+      {
+        "to": "FUJAIRH",
+        "mode": "sea",
+        "distance_nm": 2163.0
+      },
+      {
+        "to": "JEBELALI",
+        "mode": "sea",
+        "distance_nm": 2189.9
+      },
+      {
+        "to": "DUQM",
+        "mode": "sea",
+        "distance_nm": 1838.2
+      },
+      {
+        "to": "ESEEB",
+        "mode": "sea",
+        "distance_nm": 2032.0
+      },
+      {
+        "to": "BAHRAIN",
+        "mode": "sea",
+        "distance_nm": 2380.2
+      },
+      {
+        "to": "JEDDAH",
+        "mode": "sea",
+        "distance_nm": 2613.2
+      },
+      {
+        "to": "DAMMAM",
+        "mode": "sea",
+        "distance_nm": 2407.5
+      },
+      {
+        "to": "AQABA",
+        "mode": "sea",
+        "distance_nm": 3090.7
+      },
+      {
+        "to": "ERBIL",
+        "mode": "sea",
+        "distance_nm": 3067.1
+      },
+      {
+        "to": "BASRAH",
+        "mode": "sea",
+        "distance_nm": 2676.6
+      },
+      {
+        "to": "DOHA",
+        "mode": "sea",
+        "distance_nm": 2305.1
+      },
+      {
+        "to": "SOUDA",
+        "mode": "sea",
+        "distance_nm": 3746.4
+      },
+      {
+        "to": "DJIBSEA",
+        "mode": "sea",
+        "distance_nm": 2084.2
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "sea",
+        "distance_nm": 2081.9
+      },
+      {
+        "to": "KARACHI",
+        "mode": "sea",
+        "distance_nm": 1956.7
+      },
+      {
+        "to": "SALALAH",
+        "mode": "sea",
+        "distance_nm": 1820.7
+      },
+      {
+        "to": "ABUDHB",
+        "mode": "sea",
+        "distance_nm": 2183.3
+      },
+      {
+        "to": "MOMBASA",
+        "mode": "sea",
+        "distance_nm": 1965.5
+      }
+    ],
+    "MANAMA": [
+      {
+        "to": "ALUDEID",
+        "mode": "road",
+        "distance_nm": 77.4
+      },
+      {
+        "to": "ISABAH",
+        "mode": "road",
+        "distance_nm": 16.9
+      },
+      {
+        "to": "PSAB",
+        "mode": "road",
+        "distance_nm": 208.7
+      },
+      {
+        "to": "KKIA",
+        "mode": "road",
+        "distance_nm": 223.9
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "road",
+        "distance_nm": 3.6
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "road",
+        "distance_nm": 79.6
+      },
+      {
+        "to": "RIYADH",
+        "mode": "road",
+        "distance_nm": 223.7
+      }
+    ],
+    "SHARM": [
+      {
+        "to": "ARIFJAN",
+        "mode": "air",
+        "distance_nm": 715.5
+      },
+      {
+        "to": "ALIASAL",
+        "mode": "air",
+        "distance_nm": 696.0
+      },
+      {
+        "to": "ALUDEID",
+        "mode": "air",
+        "distance_nm": 924.0
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "air",
+        "distance_nm": 1107.9
+      },
+      {
+        "to": "MUSCAT",
+        "mode": "air",
+        "distance_nm": 1315.8
+      },
+      {
+        "to": "MASIRAH",
+        "mode": "air",
+        "distance_nm": 1406.9
+      },
+      {
+        "to": "THUMRT",
+        "mode": "air",
+        "distance_nm": 1247.7
+      },
+      {
+        "to": "ESEEB",
+        "mode": "air",
+        "distance_nm": 1315.8
+      },
+      {
+        "to": "BAGRAM",
+        "mode": "air",
+        "distance_nm": 1824.4
+      },
+      {
+        "to": "KANDHR",
+        "mode": "air",
+        "distance_nm": 1647.6
+      },
+      {
+        "to": "ISABAH",
+        "mode": "air",
+        "distance_nm": 874.8
+      },
+      {
+        "to": "PSAB",
+        "mode": "air",
+        "distance_nm": 748.7
+      },
+      {
+        "to": "KKIA",
+        "mode": "air",
+        "distance_nm": 685.3
+      },
+      {
+        "to": "TABUK",
+        "mode": "air",
+        "distance_nm": 120.0
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "air",
+        "distance_nm": 280.3
+      },
+      {
+        "to": "ERBIL",
+        "mode": "air",
+        "distance_nm": 694.0
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "air",
+        "distance_nm": 598.8
+      },
+      {
+        "to": "ALASAD",
+        "mode": "air",
+        "distance_nm": 541.4
+      },
+      {
+        "to": "INCIRLK",
+        "mode": "air",
+        "distance_nm": 544.4
+      },
+      {
+        "to": "SOUDA",
+        "mode": "air",
+        "distance_nm": 691.9
+      },
+      {
+        "to": "AVIANO",
+        "mode": "air",
+        "distance_nm": 1496.0
+      },
+      {
+        "to": "RAMSTN",
+        "mode": "air",
+        "distance_nm": 1780.6
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "air",
+        "distance_nm": 1102.8
+      },
+      {
+        "to": "CAIROW",
+        "mode": "air",
+        "distance_nm": 223.1
+      },
+      {
+        "to": "LARNACA",
+        "mode": "air",
+        "distance_nm": 416.0
+      },
+      {
+        "to": "MORON",
+        "mode": "air",
+        "distance_nm": 2081.7
+      },
+      {
+        "to": "MANAS",
+        "mode": "air",
+        "distance_nm": 2132.2
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "air",
+        "distance_nm": 873.1
+      },
+      {
+        "to": "HARGEISA",
+        "mode": "air",
+        "distance_nm": 1236.3
+      },
+      {
+        "to": "KUWAIT",
+        "mode": "air",
+        "distance_nm": 719.2
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "air",
+        "distance_nm": 937.2
+      },
+      {
+        "to": "RIYADH",
+        "mode": "air",
+        "distance_nm": 685.4
+      },
+      {
+        "to": "CAIROW",
+        "mode": "road",
+        "distance_nm": 223.1
+      }
+    ],
+    "CAIROW": [
+      {
+        "to": "ARIFJAN",
+        "mode": "air",
+        "distance_nm": 888.8
+      },
+      {
+        "to": "ALIASAL",
+        "mode": "air",
+        "distance_nm": 866.1
+      },
+      {
+        "to": "ALUDEID",
+        "mode": "air",
+        "distance_nm": 1124.1
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "air",
+        "distance_nm": 1307.5
+      },
+      {
+        "to": "MUSCAT",
+        "mode": "air",
+        "distance_nm": 1513.2
+      },
+      {
+        "to": "MASIRAH",
+        "mode": "air",
+        "distance_nm": 1614.3
+      },
+      {
+        "to": "THUMRT",
+        "mode": "air",
+        "distance_nm": 1467.7
+      },
+      {
+        "to": "ESEEB",
+        "mode": "air",
+        "distance_nm": 1513.3
+      },
+      {
+        "to": "BAGRAM",
+        "mode": "air",
+        "distance_nm": 1950.8
+      },
+      {
+        "to": "KANDHR",
+        "mode": "air",
+        "distance_nm": 1795.6
+      },
+      {
+        "to": "ISABAH",
+        "mode": "air",
+        "distance_nm": 1071.0
+      },
+      {
+        "to": "PSAB",
+        "mode": "air",
+        "distance_nm": 960.7
+      },
+      {
+        "to": "KKIA",
+        "mode": "air",
+        "distance_nm": 894.5
+      },
+      {
+        "to": "TABUK",
+        "mode": "air",
+        "distance_nm": 316.6
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "air",
+        "distance_nm": 305.5
+      },
+      {
+        "to": "ERBIL",
+        "mode": "air",
+        "distance_nm": 750.6
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "air",
+        "distance_nm": 705.5
+      },
+      {
+        "to": "ALASAD",
+        "mode": "air",
+        "distance_nm": 626.6
+      },
+      {
+        "to": "INCIRLK",
+        "mode": "air",
+        "distance_nm": 470.9
+      },
+      {
+        "to": "SOUDA",
+        "mode": "air",
+        "distance_nm": 471.6
+      },
+      {
+        "to": "AVIANO",
+        "mode": "air",
+        "distance_nm": 1283.3
+      },
+      {
+        "to": "RAMSTN",
+        "mode": "air",
+        "distance_nm": 1569.4
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "air",
+        "distance_nm": 1307.2
+      },
+      {
+        "to": "SHARM",
+        "mode": "air",
+        "distance_nm": 223.1
+      },
+      {
+        "to": "LARNACA",
+        "mode": "air",
+        "distance_nm": 316.9
+      },
+      {
+        "to": "MORON",
+        "mode": "air",
+        "distance_nm": 1862.4
+      },
+      {
+        "to": "MANAS",
+        "mode": "air",
+        "distance_nm": 2210.5
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "air",
+        "distance_nm": 1067.1
+      },
+      {
+        "to": "HARGEISA",
+        "mode": "air",
+        "distance_nm": 1440.2
+      },
+      {
+        "to": "KUWAIT",
+        "mode": "air",
+        "distance_nm": 890.5
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "air",
+        "distance_nm": 1135.9
+      },
+      {
+        "to": "RIYADH",
+        "mode": "air",
+        "distance_nm": 894.5
+      },
+      {
+        "to": "SHARM",
+        "mode": "road",
+        "distance_nm": 223.1
+      }
+    ],
+    "LARNACA": [
+      {
+        "to": "ARIFJAN",
+        "mode": "air",
+        "distance_nm": 806.5
+      },
+      {
+        "to": "ALIASAL",
+        "mode": "air",
+        "distance_nm": 779.8
+      },
+      {
+        "to": "ALUDEID",
+        "mode": "air",
+        "distance_nm": 1088.0
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "air",
+        "distance_nm": 1261.4
+      },
+      {
+        "to": "MUSCAT",
+        "mode": "air",
+        "distance_nm": 1453.1
+      },
+      {
+        "to": "MASIRAH",
+        "mode": "air",
+        "distance_nm": 1582.7
+      },
+      {
+        "to": "THUMRT",
+        "mode": "air",
+        "distance_nm": 1501.9
+      },
+      {
+        "to": "ESEEB",
+        "mode": "air",
+        "distance_nm": 1453.2
+      },
+      {
+        "to": "BAGRAM",
+        "mode": "air",
+        "distance_nm": 1745.3
+      },
+      {
+        "to": "KANDHR",
+        "mode": "air",
+        "distance_nm": 1624.6
+      },
+      {
+        "to": "ISABAH",
+        "mode": "air",
+        "distance_nm": 1027.1
+      },
+      {
+        "to": "PSAB",
+        "mode": "air",
+        "distance_nm": 974.6
+      },
+      {
+        "to": "KKIA",
+        "mode": "air",
+        "distance_nm": 902.6
+      },
+      {
+        "to": "TABUK",
+        "mode": "air",
+        "distance_nm": 419.7
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "air",
+        "distance_nm": 200.5
+      },
+      {
+        "to": "ERBIL",
+        "mode": "air",
+        "distance_nm": 511.3
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "air",
+        "distance_nm": 536.2
+      },
+      {
+        "to": "ALASAD",
+        "mode": "air",
+        "distance_nm": 441.9
+      },
+      {
+        "to": "INCIRLK",
+        "mode": "air",
+        "distance_nm": 154.9
+      },
+      {
+        "to": "SOUDA",
+        "mode": "air",
+        "distance_nm": 466.3
+      },
+      {
+        "to": "AVIANO",
+        "mode": "air",
+        "distance_nm": 1165.3
+      },
+      {
+        "to": "RAMSTN",
+        "mode": "air",
+        "distance_nm": 1438.9
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "air",
+        "distance_nm": 1494.2
+      },
+      {
+        "to": "SHARM",
+        "mode": "air",
+        "distance_nm": 416.0
+      },
+      {
+        "to": "CAIROW",
+        "mode": "air",
+        "distance_nm": 316.9
+      },
+      {
+        "to": "MORON",
+        "mode": "air",
+        "distance_nm": 1896.9
+      },
+      {
+        "to": "MANAS",
+        "mode": "air",
+        "distance_nm": 1948.8
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "air",
+        "distance_nm": 1017.6
+      },
+      {
+        "to": "HARGEISA",
+        "mode": "air",
+        "distance_nm": 1627.2
+      },
+      {
+        "to": "KUWAIT",
+        "mode": "air",
+        "distance_nm": 804.0
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "air",
+        "distance_nm": 1095.2
+      },
+      {
+        "to": "RIYADH",
+        "mode": "air",
+        "distance_nm": 902.6
+      }
+    ],
+    "MORON": [
+      {
+        "to": "TABUK",
+        "mode": "air",
+        "distance_nm": 2178.0
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "air",
+        "distance_nm": 2068.7
+      },
+      {
+        "to": "ERBIL",
+        "mode": "air",
+        "distance_nm": 2359.3
+      },
+      {
+        "to": "ALASAD",
+        "mode": "air",
+        "distance_nm": 2333.4
+      },
+      {
+        "to": "INCIRLK",
+        "mode": "air",
+        "distance_nm": 1950.0
+      },
+      {
+        "to": "SOUDA",
+        "mode": "air",
+        "distance_nm": 1436.7
+      },
+      {
+        "to": "AVIANO",
+        "mode": "air",
+        "distance_nm": 971.8
+      },
+      {
+        "to": "RAMSTN",
+        "mode": "air",
+        "distance_nm": 932.8
+      },
+      {
+        "to": "SHARM",
+        "mode": "air",
+        "distance_nm": 2081.7
+      },
+      {
+        "to": "CAIROW",
+        "mode": "air",
+        "distance_nm": 1862.4
+      },
+      {
+        "to": "LARNACA",
+        "mode": "air",
+        "distance_nm": 1896.9
+      }
+    ],
+    "KARACHI": [
+      {
+        "to": "ARIFJAN",
+        "mode": "sea",
+        "distance_nm": 1050.5
+      },
+      {
+        "to": "FUJAIRH",
+        "mode": "sea",
+        "distance_nm": 579.3
+      },
+      {
+        "to": "JEBELALI",
+        "mode": "sea",
+        "distance_nm": 649.3
+      },
+      {
+        "to": "DUQM",
+        "mode": "sea",
+        "distance_nm": 602.5
+      },
+      {
+        "to": "ESEEB",
+        "mode": "sea",
+        "distance_nm": 482.5
+      },
+      {
+        "to": "BAHRAIN",
+        "mode": "sea",
+        "distance_nm": 890.5
+      },
+      {
+        "to": "JEDDAH",
+        "mode": "sea",
+        "distance_nm": 1547.1
+      },
+      {
+        "to": "DAMMAM",
+        "mode": "sea",
+        "distance_nm": 913.0
+      },
+      {
+        "to": "AQABA",
+        "mode": "sea",
+        "distance_nm": 1726.0
+      },
+      {
+        "to": "ERBIL",
+        "mode": "sea",
+        "distance_nm": 1367.8
+      },
+      {
+        "to": "BASRAH",
+        "mode": "sea",
+        "distance_nm": 1072.3
+      },
+      {
+        "to": "DOHA",
+        "mode": "sea",
+        "distance_nm": 838.6
+      },
+      {
+        "to": "SOUDA",
+        "mode": "sea",
+        "distance_nm": 2294.6
+      },
+      {
+        "to": "ROTA",
+        "mode": "sea",
+        "distance_nm": 3761.1
+      },
+      {
+        "to": "DJIBSEA",
+        "mode": "sea",
+        "distance_nm": 1571.2
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "sea",
+        "distance_nm": 1572.1
+      },
+      {
+        "to": "DIEGOGR",
+        "mode": "sea",
+        "distance_nm": 1956.7
+      },
+      {
+        "to": "SALALAH",
+        "mode": "sea",
+        "distance_nm": 868.4
+      },
+      {
+        "to": "ABUDHB",
+        "mode": "sea",
+        "distance_nm": 688.0
+      },
+      {
+        "to": "MOMBASA",
+        "mode": "sea",
+        "distance_nm": 2355.6
+      }
+    ],
+    "MANAS": [
+      {
+        "to": "ARIFJAN",
+        "mode": "air",
+        "distance_nm": 1529.5
+      },
+      {
+        "to": "ALIASAL",
+        "mode": "air",
+        "distance_nm": 1533.4
+      },
+      {
+        "to": "ALUDEID",
+        "mode": "air",
+        "distance_nm": 1567.0
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "air",
+        "distance_nm": 1498.0
+      },
+      {
+        "to": "MUSCAT",
+        "mode": "air",
+        "distance_nm": 1417.8
+      },
+      {
+        "to": "MASIRAH",
+        "mode": "air",
+        "distance_nm": 1555.5
+      },
+      {
+        "to": "THUMRT",
+        "mode": "air",
+        "distance_nm": 1845.7
+      },
+      {
+        "to": "ESEEB",
+        "mode": "air",
+        "distance_nm": 1418.0
+      },
+      {
+        "to": "BAGRAM",
+        "mode": "air",
+        "distance_nm": 544.3
+      },
+      {
+        "to": "KANDHR",
+        "mode": "air",
+        "distance_nm": 806.0
+      },
+      {
+        "to": "ISABAH",
+        "mode": "air",
+        "distance_nm": 1555.8
+      },
+      {
+        "to": "PSAB",
+        "mode": "air",
+        "distance_nm": 1750.1
+      },
+      {
+        "to": "KKIA",
+        "mode": "air",
+        "distance_nm": 1744.4
+      },
+      {
+        "to": "TABUK",
+        "mode": "air",
+        "distance_nm": 2023.2
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "air",
+        "distance_nm": 1906.5
+      },
+      {
+        "to": "ERBIL",
+        "mode": "air",
+        "distance_nm": 1459.8
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "air",
+        "distance_nm": 1533.6
+      },
+      {
+        "to": "ALASAD",
+        "mode": "air",
+        "distance_nm": 1594.8
+      },
+      {
+        "to": "INCIRLK",
+        "mode": "air",
+        "distance_nm": 1814.7
+      },
+      {
+        "to": "SOUDA",
+        "mode": "air",
+        "distance_nm": 2345.6
+      },
+      {
+        "to": "SHARM",
+        "mode": "air",
+        "distance_nm": 2132.2
+      },
+      {
+        "to": "CAIROW",
+        "mode": "air",
+        "distance_nm": 2210.5
+      },
+      {
+        "to": "LARNACA",
+        "mode": "air",
+        "distance_nm": 1948.8
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "air",
+        "distance_nm": 1540.1
+      },
+      {
+        "to": "KUWAIT",
+        "mode": "air",
+        "distance_nm": 1519.9
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "air",
+        "distance_nm": 1549.5
+      },
+      {
+        "to": "RIYADH",
+        "mode": "air",
+        "distance_nm": 1744.2
+      }
+    ],
+    "SALALAH": [
+      {
+        "to": "ARIFJAN",
+        "mode": "sea",
+        "distance_nm": 800.4
+      },
+      {
+        "to": "FUJAIRH",
+        "mode": "sea",
+        "distance_nm": 509.4
+      },
+      {
+        "to": "JEBELALI",
+        "mode": "sea",
+        "distance_nm": 488.1
+      },
+      {
+        "to": "DUQM",
+        "mode": "sea",
+        "distance_nm": 266.4
+      },
+      {
+        "to": "ESEEB",
+        "mode": "sea",
+        "distance_nm": 466.1
+      },
+      {
+        "to": "BAHRAIN",
+        "mode": "sea",
+        "distance_nm": 587.6
+      },
+      {
+        "to": "JEDDAH",
+        "mode": "sea",
+        "distance_nm": 884.8
+      },
+      {
+        "to": "DAMMAM",
+        "mode": "sea",
+        "distance_nm": 612.0
+      },
+      {
+        "to": "AQABA",
+        "mode": "sea",
+        "distance_nm": 1288.9
+      },
+      {
+        "to": "ERBIL",
+        "mode": "sea",
+        "distance_nm": 1275.8
+      },
+      {
+        "to": "BASRAH",
+        "mode": "sea",
+        "distance_nm": 883.2
+      },
+      {
+        "to": "DOHA",
+        "mode": "sea",
+        "distance_nm": 519.1
+      },
+      {
+        "to": "SOUDA",
+        "mode": "sea",
+        "distance_nm": 1944.3
+      },
+      {
+        "to": "ROTA",
+        "mode": "sea",
+        "distance_nm": 3385.5
+      },
+      {
+        "to": "DJIBSEA",
+        "mode": "sea",
+        "distance_nm": 708.6
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "sea",
+        "distance_nm": 709.2
+      },
+      {
+        "to": "DIEGOGR",
+        "mode": "sea",
+        "distance_nm": 1820.7
+      },
+      {
+        "to": "KARACHI",
+        "mode": "sea",
+        "distance_nm": 868.4
+      },
+      {
+        "to": "ABUDHB",
+        "mode": "sea",
+        "distance_nm": 455.3
+      },
+      {
+        "to": "MOMBASA",
+        "mode": "sea",
+        "distance_nm": 1520.1
+      }
+    ],
+    "MUHARRQ": [
+      {
+        "to": "ARIFJAN",
+        "mode": "air",
+        "distance_nm": 220.6
+      },
+      {
+        "to": "ALIASAL",
+        "mode": "air",
+        "distance_nm": 247.9
+      },
+      {
+        "to": "ALUDEID",
+        "mode": "air",
+        "distance_nm": 78.4
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "air",
+        "distance_nm": 244.7
+      },
+      {
+        "to": "MUSCAT",
+        "mode": "air",
+        "distance_nm": 446.4
+      },
+      {
+        "to": "MASIRAH",
+        "mode": "air",
+        "distance_nm": 565.1
+      },
+      {
+        "to": "THUMRT",
+        "mode": "air",
+        "distance_nm": 549.9
+      },
+      {
+        "to": "ESEEB",
+        "mode": "air",
+        "distance_nm": 446.5
+      },
+      {
+        "to": "BAGRAM",
+        "mode": "air",
+        "distance_nm": 1092.1
+      },
+      {
+        "to": "KANDHR",
+        "mode": "air",
+        "distance_nm": 858.3
+      },
+      {
+        "to": "ISABAH",
+        "mode": "air",
+        "distance_nm": 19.6
+      },
+      {
+        "to": "PSAB",
+        "mode": "air",
+        "distance_nm": 212.3
+      },
+      {
+        "to": "KKIA",
+        "mode": "air",
+        "distance_nm": 227.1
+      },
+      {
+        "to": "TABUK",
+        "mode": "air",
+        "distance_nm": 757.6
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "air",
+        "distance_nm": 835.5
+      },
+      {
+        "to": "ERBIL",
+        "mode": "air",
+        "distance_nm": 689.0
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "air",
+        "distance_nm": 535.9
+      },
+      {
+        "to": "ALASAD",
+        "mode": "air",
+        "distance_nm": 619.9
+      },
+      {
+        "to": "INCIRLK",
+        "mode": "air",
+        "distance_nm": 1007.3
+      },
+      {
+        "to": "SOUDA",
+        "mode": "air",
+        "distance_nm": 1467.6
+      },
+      {
+        "to": "AVIANO",
+        "mode": "air",
+        "distance_nm": 2162.2
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "air",
+        "distance_nm": 980.0
+      },
+      {
+        "to": "DIEGOGR",
+        "mode": "air",
+        "distance_nm": 2382.5
+      },
+      {
+        "to": "SHARM",
+        "mode": "air",
+        "distance_nm": 873.1
+      },
+      {
+        "to": "CAIROW",
+        "mode": "air",
+        "distance_nm": 1067.1
+      },
+      {
+        "to": "LARNACA",
+        "mode": "air",
+        "distance_nm": 1017.6
+      },
+      {
+        "to": "MANAS",
+        "mode": "air",
+        "distance_nm": 1540.1
+      },
+      {
+        "to": "HARGEISA",
+        "mode": "air",
+        "distance_nm": 1072.4
+      },
+      {
+        "to": "KUWAIT",
+        "mode": "air",
+        "distance_nm": 226.9
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "air",
+        "distance_nm": 79.8
+      },
+      {
+        "to": "RIYADH",
+        "mode": "air",
+        "distance_nm": 226.9
+      },
+      {
+        "to": "ALUDEID",
+        "mode": "road",
+        "distance_nm": 78.4
+      },
+      {
+        "to": "ISABAH",
+        "mode": "road",
+        "distance_nm": 19.6
+      },
+      {
+        "to": "PSAB",
+        "mode": "road",
+        "distance_nm": 212.3
+      },
+      {
+        "to": "KKIA",
+        "mode": "road",
+        "distance_nm": 227.1
+      },
+      {
+        "to": "MANAMA",
+        "mode": "road",
+        "distance_nm": 3.6
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "road",
+        "distance_nm": 79.8
+      },
+      {
+        "to": "RIYADH",
+        "mode": "road",
+        "distance_nm": 226.9
+      }
+    ],
+    "ABUDHB": [
+      {
+        "to": "ARIFJAN",
+        "mode": "sea",
+        "distance_nm": 440.3
+      },
+      {
+        "to": "FUJAIRH",
+        "mode": "sea",
+        "distance_nm": 113.6
+      },
+      {
+        "to": "JEBELALI",
+        "mode": "sea",
+        "distance_nm": 47.6
+      },
+      {
+        "to": "DUQM",
+        "mode": "sea",
+        "distance_nm": 345.3
+      },
+      {
+        "to": "ESEEB",
+        "mode": "sea",
+        "distance_nm": 221.3
+      },
+      {
+        "to": "BAHRAIN",
+        "mode": "sea",
+        "distance_nm": 228.1
+      },
+      {
+        "to": "JEDDAH",
+        "mode": "sea",
+        "distance_nm": 860.5
+      },
+      {
+        "to": "DAMMAM",
+        "mode": "sea",
+        "distance_nm": 255.7
+      },
+      {
+        "to": "AQABA",
+        "mode": "sea",
+        "distance_nm": 1077.7
+      },
+      {
+        "to": "ERBIL",
+        "mode": "sea",
+        "distance_nm": 885.3
+      },
+      {
+        "to": "BASRAH",
+        "mode": "sea",
+        "distance_nm": 501.5
+      },
+      {
+        "to": "DOHA",
+        "mode": "sea",
+        "distance_nm": 159.8
+      },
+      {
+        "to": "SOUDA",
+        "mode": "sea",
+        "distance_nm": 1696.2
+      },
+      {
+        "to": "ROTA",
+        "mode": "sea",
+        "distance_nm": 3170.0
+      },
+      {
+        "to": "DJIBSEA",
+        "mode": "sea",
+        "distance_nm": 1005.5
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "sea",
+        "distance_nm": 1007.2
+      },
+      {
+        "to": "DIEGOGR",
+        "mode": "sea",
+        "distance_nm": 2183.3
+      },
+      {
+        "to": "KARACHI",
+        "mode": "sea",
+        "distance_nm": 688.0
+      },
+      {
+        "to": "SALALAH",
+        "mode": "sea",
+        "distance_nm": 455.3
+      },
+      {
+        "to": "MOMBASA",
+        "mode": "sea",
+        "distance_nm": 1918.1
+      }
+    ],
+    "HARGEISA": [
+      {
+        "to": "ARIFJAN",
+        "mode": "air",
+        "distance_nm": 1191.9
+      },
+      {
+        "to": "ALIASAL",
+        "mode": "air",
+        "distance_nm": 1206.1
+      },
+      {
+        "to": "ALUDEID",
+        "mode": "air",
+        "distance_nm": 1023.4
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "air",
+        "distance_nm": 1068.0
+      },
+      {
+        "to": "MUSCAT",
+        "mode": "air",
+        "distance_nm": 1173.5
+      },
+      {
+        "to": "MASIRAH",
+        "mode": "air",
+        "distance_nm": 1087.1
+      },
+      {
+        "to": "THUMRT",
+        "mode": "air",
+        "distance_nm": 758.2
+      },
+      {
+        "to": "ESEEB",
+        "mode": "air",
+        "distance_nm": 1173.3
+      },
+      {
+        "to": "BAGRAM",
+        "mode": "air",
+        "distance_nm": 2058.0
+      },
+      {
+        "to": "KANDHR",
+        "mode": "air",
+        "distance_nm": 1792.1
+      },
+      {
+        "to": "ISABAH",
+        "mode": "air",
+        "distance_nm": 1053.6
+      },
+      {
+        "to": "PSAB",
+        "mode": "air",
+        "distance_nm": 895.9
+      },
+      {
+        "to": "KKIA",
+        "mode": "air",
+        "distance_nm": 938.9
+      },
+      {
+        "to": "TABUK",
+        "mode": "air",
+        "distance_nm": 1207.6
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "air",
+        "distance_nm": 1438.6
+      },
+      {
+        "to": "ERBIL",
+        "mode": "air",
+        "distance_nm": 1604.2
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "air",
+        "distance_nm": 1425.6
+      },
+      {
+        "to": "ALASAD",
+        "mode": "air",
+        "distance_nm": 1459.8
+      },
+      {
+        "to": "INCIRLK",
+        "mode": "air",
+        "distance_nm": 1715.9
+      },
+      {
+        "to": "SOUDA",
+        "mode": "air",
+        "distance_nm": 1905.1
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "air",
+        "distance_nm": 133.5
+      },
+      {
+        "to": "DIEGOGR",
+        "mode": "air",
+        "distance_nm": 1972.6
+      },
+      {
+        "to": "SHARM",
+        "mode": "air",
+        "distance_nm": 1236.3
+      },
+      {
+        "to": "CAIROW",
+        "mode": "air",
+        "distance_nm": 1440.2
+      },
+      {
+        "to": "LARNACA",
+        "mode": "air",
+        "distance_nm": 1627.2
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "air",
+        "distance_nm": 1072.4
+      },
+      {
+        "to": "KUWAIT",
+        "mode": "air",
+        "distance_nm": 1203.3
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "air",
+        "distance_nm": 1038.7
+      },
+      {
+        "to": "RIYADH",
+        "mode": "air",
+        "distance_nm": 939.1
+      }
+    ],
+    "MOMBASA": [
+      {
+        "to": "ARIFJAN",
+        "mode": "sea",
+        "distance_nm": 2042.6
+      },
+      {
+        "to": "FUJAIRH",
+        "mode": "sea",
+        "distance_nm": 2004.1
+      },
+      {
+        "to": "JEBELALI",
+        "mode": "sea",
+        "distance_nm": 1962.0
+      },
+      {
+        "to": "DUQM",
+        "mode": "sea",
+        "distance_nm": 1777.2
+      },
+      {
+        "to": "ESEEB",
+        "mode": "sea",
+        "distance_nm": 1984.9
+      },
+      {
+        "to": "BAHRAIN",
+        "mode": "sea",
+        "distance_nm": 1924.6
+      },
+      {
+        "to": "JEDDAH",
+        "mode": "sea",
+        "distance_nm": 1533.4
+      },
+      {
+        "to": "DAMMAM",
+        "mode": "sea",
+        "distance_nm": 1933.8
+      },
+      {
+        "to": "AQABA",
+        "mode": "sea",
+        "distance_nm": 2032.9
+      },
+      {
+        "to": "ERBIL",
+        "mode": "sea",
+        "distance_nm": 2430.5
+      },
+      {
+        "to": "BASRAH",
+        "mode": "sea",
+        "distance_nm": 2128.3
+      },
+      {
+        "to": "DOHA",
+        "mode": "sea",
+        "distance_nm": 1892.7
+      },
+      {
+        "to": "SOUDA",
+        "mode": "sea",
+        "distance_nm": 2532.1
+      },
+      {
+        "to": "ROTA",
+        "mode": "sea",
+        "distance_nm": 3547.7
+      },
+      {
+        "to": "DJIBSEA",
+        "mode": "sea",
+        "distance_nm": 961.6
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "sea",
+        "distance_nm": 959.0
+      },
+      {
+        "to": "DIEGOGR",
+        "mode": "sea",
+        "distance_nm": 1965.5
+      },
+      {
+        "to": "KARACHI",
+        "mode": "sea",
+        "distance_nm": 2355.6
+      },
+      {
+        "to": "SALALAH",
+        "mode": "sea",
+        "distance_nm": 1520.1
+      },
+      {
+        "to": "ABUDHB",
+        "mode": "sea",
+        "distance_nm": 1918.1
+      }
+    ],
+    "KUWAIT": [
+      {
+        "to": "ARIFJAN",
+        "mode": "air",
+        "distance_nm": 11.5
+      },
+      {
+        "to": "ALIASAL",
+        "mode": "air",
+        "distance_nm": 24.7
+      },
+      {
+        "to": "ALUDEID",
+        "mode": "air",
+        "distance_nm": 304.6
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "air",
+        "distance_nm": 462.1
+      },
+      {
+        "to": "MUSCAT",
+        "mode": "air",
+        "distance_nm": 649.1
+      },
+      {
+        "to": "MASIRAH",
+        "mode": "air",
+        "distance_nm": 784.6
+      },
+      {
+        "to": "THUMRT",
+        "mode": "air",
+        "distance_nm": 769.7
+      },
+      {
+        "to": "ESEEB",
+        "mode": "air",
+        "distance_nm": 649.2
+      },
+      {
+        "to": "BAGRAM",
+        "mode": "air",
+        "distance_nm": 1133.6
+      },
+      {
+        "to": "KANDHR",
+        "mode": "air",
+        "distance_nm": 935.0
+      },
+      {
+        "to": "ISABAH",
+        "mode": "air",
+        "distance_nm": 241.4
+      },
+      {
+        "to": "PSAB",
+        "mode": "air",
+        "distance_nm": 310.8
+      },
+      {
+        "to": "KKIA",
+        "mode": "air",
+        "distance_nm": 265.2
+      },
+      {
+        "to": "TABUK",
+        "mode": "air",
+        "distance_nm": 599.3
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "air",
+        "distance_nm": 632.3
+      },
+      {
+        "to": "ERBIL",
+        "mode": "air",
+        "distance_nm": 466.9
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "air",
+        "distance_nm": 309.0
+      },
+      {
+        "to": "ALASAD",
+        "mode": "air",
+        "distance_nm": 393.6
+      },
+      {
+        "to": "INCIRLK",
+        "mode": "air",
+        "distance_nm": 783.7
+      },
+      {
+        "to": "SOUDA",
+        "mode": "air",
+        "distance_nm": 1262.3
+      },
+      {
+        "to": "AVIANO",
+        "mode": "air",
+        "distance_nm": 1938.2
+      },
+      {
+        "to": "RAMSTN",
+        "mode": "air",
+        "distance_nm": 2194.8
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "air",
+        "distance_nm": 1095.2
+      },
+      {
+        "to": "SHARM",
+        "mode": "air",
+        "distance_nm": 719.2
+      },
+      {
+        "to": "CAIROW",
+        "mode": "air",
+        "distance_nm": 890.5
+      },
+      {
+        "to": "LARNACA",
+        "mode": "air",
+        "distance_nm": 804.0
+      },
+      {
+        "to": "MANAS",
+        "mode": "air",
+        "distance_nm": 1519.9
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "air",
+        "distance_nm": 226.9
+      },
+      {
+        "to": "HARGEISA",
+        "mode": "air",
+        "distance_nm": 1203.3
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "air",
+        "distance_nm": 306.6
+      },
+      {
+        "to": "RIYADH",
+        "mode": "air",
+        "distance_nm": 265.0
+      },
+      {
+        "to": "ARIFJAN",
+        "mode": "road",
+        "distance_nm": 11.5
+      },
+      {
+        "to": "ALIASAL",
+        "mode": "road",
+        "distance_nm": 24.7
+      },
+      {
+        "to": "ERBIL",
+        "mode": "road",
+        "distance_nm": 466.9
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "road",
+        "distance_nm": 309.0
+      },
+      {
+        "to": "ALASAD",
+        "mode": "road",
+        "distance_nm": 393.6
+      }
+    ],
+    "DOHAINT": [
+      {
+        "to": "ARIFJAN",
+        "mode": "air",
+        "distance_nm": 300.4
+      },
+      {
+        "to": "ALIASAL",
+        "mode": "air",
+        "distance_nm": 327.6
+      },
+      {
+        "to": "ALUDEID",
+        "mode": "air",
+        "distance_nm": 18.5
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "air",
+        "distance_nm": 171.6
+      },
+      {
+        "to": "MUSCAT",
+        "mode": "air",
+        "distance_nm": 378.6
+      },
+      {
+        "to": "MASIRAH",
+        "mode": "air",
+        "distance_nm": 487.9
+      },
+      {
+        "to": "THUMRT",
+        "mode": "air",
+        "distance_nm": 476.2
+      },
+      {
+        "to": "ESEEB",
+        "mode": "air",
+        "distance_nm": 378.6
+      },
+      {
+        "to": "BAGRAM",
+        "mode": "air",
+        "distance_nm": 1082.9
+      },
+      {
+        "to": "KANDHR",
+        "mode": "air",
+        "distance_nm": 839.0
+      },
+      {
+        "to": "ISABAH",
+        "mode": "air",
+        "distance_nm": 68.1
+      },
+      {
+        "to": "PSAB",
+        "mode": "air",
+        "distance_nm": 231.4
+      },
+      {
+        "to": "KKIA",
+        "mode": "air",
+        "distance_nm": 267.5
+      },
+      {
+        "to": "TABUK",
+        "mode": "air",
+        "distance_nm": 823.7
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "air",
+        "distance_nm": 911.3
+      },
+      {
+        "to": "ERBIL",
+        "mode": "air",
+        "distance_nm": 766.7
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "air",
+        "distance_nm": 615.4
+      },
+      {
+        "to": "ALASAD",
+        "mode": "air",
+        "distance_nm": 699.7
+      },
+      {
+        "to": "INCIRLK",
+        "mode": "air",
+        "distance_nm": 1086.8
+      },
+      {
+        "to": "SOUDA",
+        "mode": "air",
+        "distance_nm": 1542.9
+      },
+      {
+        "to": "AVIANO",
+        "mode": "air",
+        "distance_nm": 2241.7
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "air",
+        "distance_nm": 953.6
+      },
+      {
+        "to": "DIEGOGR",
+        "mode": "air",
+        "distance_nm": 2303.2
+      },
+      {
+        "to": "SHARM",
+        "mode": "air",
+        "distance_nm": 937.2
+      },
+      {
+        "to": "CAIROW",
+        "mode": "air",
+        "distance_nm": 1135.9
+      },
+      {
+        "to": "LARNACA",
+        "mode": "air",
+        "distance_nm": 1095.2
+      },
+      {
+        "to": "MANAS",
+        "mode": "air",
+        "distance_nm": 1549.5
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "air",
+        "distance_nm": 79.8
+      },
+      {
+        "to": "HARGEISA",
+        "mode": "air",
+        "distance_nm": 1038.7
+      },
+      {
+        "to": "KUWAIT",
+        "mode": "air",
+        "distance_nm": 306.6
+      },
+      {
+        "to": "RIYADH",
+        "mode": "air",
+        "distance_nm": 267.4
+      },
+      {
+        "to": "ALUDEID",
+        "mode": "road",
+        "distance_nm": 18.5
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "road",
+        "distance_nm": 171.6
+      },
+      {
+        "to": "ISABAH",
+        "mode": "road",
+        "distance_nm": 68.1
+      },
+      {
+        "to": "PSAB",
+        "mode": "road",
+        "distance_nm": 231.4
+      },
+      {
+        "to": "KKIA",
+        "mode": "road",
+        "distance_nm": 267.5
+      },
+      {
+        "to": "MANAMA",
+        "mode": "road",
+        "distance_nm": 79.6
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "road",
+        "distance_nm": 79.8
+      },
+      {
+        "to": "RIYADH",
+        "mode": "road",
+        "distance_nm": 267.4
+      }
+    ],
+    "RIYADH": [
+      {
+        "to": "ARIFJAN",
+        "mode": "air",
+        "distance_nm": 253.5
+      },
+      {
+        "to": "ALIASAL",
+        "mode": "air",
+        "distance_nm": 266.9
+      },
+      {
+        "to": "ALUDEID",
+        "mode": "air",
+        "distance_nm": 251.2
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "air",
+        "distance_nm": 430.4
+      },
+      {
+        "to": "MUSCAT",
+        "mode": "air",
+        "distance_nm": 639.0
+      },
+      {
+        "to": "MASIRAH",
+        "mode": "air",
+        "distance_nm": 721.6
+      },
+      {
+        "to": "THUMRT",
+        "mode": "air",
+        "distance_nm": 599.4
+      },
+      {
+        "to": "ESEEB",
+        "mode": "air",
+        "distance_nm": 639.1
+      },
+      {
+        "to": "BAGRAM",
+        "mode": "air",
+        "distance_nm": 1313.7
+      },
+      {
+        "to": "KANDHR",
+        "mode": "air",
+        "distance_nm": 1084.4
+      },
+      {
+        "to": "ISABAH",
+        "mode": "air",
+        "distance_nm": 219.2
+      },
+      {
+        "to": "PSAB",
+        "mode": "air",
+        "distance_nm": 72.2
+      },
+      {
+        "to": "KKIA",
+        "mode": "air",
+        "distance_nm": 0.3
+      },
+      {
+        "to": "TABUK",
+        "mode": "air",
+        "distance_nm": 578.0
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "air",
+        "distance_nm": 706.3
+      },
+      {
+        "to": "ERBIL",
+        "mode": "air",
+        "distance_nm": 691.5
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "air",
+        "distance_nm": 514.9
+      },
+      {
+        "to": "ALASAD",
+        "mode": "air",
+        "distance_nm": 574.6
+      },
+      {
+        "to": "INCIRLK",
+        "mode": "air",
+        "distance_nm": 925.5
+      },
+      {
+        "to": "SOUDA",
+        "mode": "air",
+        "distance_nm": 1326.3
+      },
+      {
+        "to": "AVIANO",
+        "mode": "air",
+        "distance_nm": 2066.8
+      },
+      {
+        "to": "RAMSTN",
+        "mode": "air",
+        "distance_nm": 2336.4
+      },
+      {
+        "to": "LEMONNR",
+        "mode": "air",
+        "distance_nm": 830.2
+      },
+      {
+        "to": "SHARM",
+        "mode": "air",
+        "distance_nm": 685.4
+      },
+      {
+        "to": "CAIROW",
+        "mode": "air",
+        "distance_nm": 894.5
+      },
+      {
+        "to": "LARNACA",
+        "mode": "air",
+        "distance_nm": 902.6
+      },
+      {
+        "to": "MANAS",
+        "mode": "air",
+        "distance_nm": 1744.2
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "air",
+        "distance_nm": 226.9
+      },
+      {
+        "to": "HARGEISA",
+        "mode": "air",
+        "distance_nm": 939.1
+      },
+      {
+        "to": "KUWAIT",
+        "mode": "air",
+        "distance_nm": 265.0
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "air",
+        "distance_nm": 267.4
+      },
+      {
+        "to": "ALUDEID",
+        "mode": "road",
+        "distance_nm": 251.2
+      },
+      {
+        "to": "ALDHAFR",
+        "mode": "road",
+        "distance_nm": 430.4
+      },
+      {
+        "to": "ISABAH",
+        "mode": "road",
+        "distance_nm": 219.2
+      },
+      {
+        "to": "PSAB",
+        "mode": "road",
+        "distance_nm": 72.2
+      },
+      {
+        "to": "KKIA",
+        "mode": "road",
+        "distance_nm": 0.3
+      },
+      {
+        "to": "TABUK",
+        "mode": "road",
+        "distance_nm": 578.0
+      },
+      {
+        "to": "MUWAFAQ",
+        "mode": "road",
+        "distance_nm": 706.3
+      },
+      {
+        "to": "ERBIL",
+        "mode": "road",
+        "distance_nm": 691.5
+      },
+      {
+        "to": "BAGHDAD",
+        "mode": "road",
+        "distance_nm": 514.9
+      },
+      {
+        "to": "ALASAD",
+        "mode": "road",
+        "distance_nm": 574.6
+      },
+      {
+        "to": "MANAMA",
+        "mode": "road",
+        "distance_nm": 223.7
+      },
+      {
+        "to": "MUHARRQ",
+        "mode": "road",
+        "distance_nm": 226.9
+      },
+      {
+        "to": "DOHAINT",
+        "mode": "road",
+        "distance_nm": 267.4
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1440
+PlayResY: 900
+ScaledBorderAndShadow: yes
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Helvetica,22,&H00FFFFFF,&H00FFFFFF,&H00000000,&HC8000000,1,0,0,0,100,100,0,0,3,1,0.5,2,80,80,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:01.56,0:00:06.56,Default,,0,0,0,,WEATHERVANE — finds the weather window before the planner finishes\Ntheir coffee.
+Dialogue: 0,0:00:06.56,0:00:16.56,Default,,0,0,0,,LOGCOM challenge: contested logistics + expeditionary operations need\Nreal-time environmental intel.
+Dialogue: 0,0:00:16.60,0:00:26.60,Default,,0,0,0,,Fusing NASA MERRA-2, GPM IMERG, MODIS, GHRSST and WAVEWATCH III — no\Ndata movement.
+Dialogue: 0,0:00:26.60,0:00:36.60,Default,,0,0,0,,Planner asks: amphibious landing at Subic Bay, 14–21 May. WEATHERVANE\Nanswers.
+Dialogue: 0,0:00:36.66,0:00:46.66,Default,,0,0,0,,Kamiwaza-deployed model fuses five timeseries into a typed go/no-go\Ngrade and a 4-hour H-hour window.
+Dialogue: 0,0:00:47.09,0:00:57.09,Default,,0,0,0,,Five charts render with the recommended window highlighted in green.
+Dialogue: 0,0:00:52.09,0:01:02.09,Default,,0,0,0,,Narrative brief — planner-grade prose, source-cited, ready for the\NOPORD annex.
+Dialogue: 0,0:00:57.10,0:01:12.10,Default,,0,0,0,,Set KAMIWAZA_BASE_URL=https://kamiwaza.local/api/v1 and the same code\Nstays inside the wire.
+Dialogue: 0,0:01:12.10,0:01:22.10,Default,,0,0,0,,Built on the Kamiwaza Stack. Deploy in hours, not months.

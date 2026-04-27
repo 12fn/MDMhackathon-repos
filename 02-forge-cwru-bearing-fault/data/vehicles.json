@@ -1,0 +1,41 @@
+[
+  {
+    "vehicle_id": "MTVR-2491",
+    "type": "M1083 MTVR",
+    "unit": "1st MLG, CLB-1",
+    "hub_position": "Right rear (axle 3)",
+    "operating_hours": 4127,
+    "since_last_overhaul_hr": 612,
+    "current_class": "outer_race",
+    "current_severity": 0.78,
+    "rul_hours_estimate": 118,
+    "nsn": "3110-01-433-0978",
+    "part_name": "Bearing, Wheel Hub, Tapered Roller, MTVR Drive Axle"
+  },
+  {
+    "vehicle_id": "JLTV-1107",
+    "type": "JLTV M1278A1 Heavy Gun Carrier",
+    "unit": "2d MarDiv, 2/2",
+    "hub_position": "Front left",
+    "operating_hours": 1842,
+    "since_last_overhaul_hr": 421,
+    "current_class": "healthy",
+    "current_severity": 0.04,
+    "rul_hours_estimate": 1500,
+    "nsn": "3110-01-660-2271",
+    "part_name": "Bearing, Wheel Hub, Front, JLTV"
+  },
+  {
+    "vehicle_id": "LAV-25-0892",
+    "type": "LAV-25A2",
+    "unit": "1st LAR Bn",
+    "hub_position": "Mid right (axle 2)",
+    "operating_hours": 6810,
+    "since_last_overhaul_hr": 980,
+    "current_class": "inner_race",
+    "current_severity": 0.41,
+    "rul_hours_estimate": 312,
+    "nsn": "3110-01-204-5587",
+    "part_name": "Bearing, Wheel Hub, LAV-25 Drive Train"
+  }
+]

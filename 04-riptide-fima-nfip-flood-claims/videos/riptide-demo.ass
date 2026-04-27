@@ -1,0 +1,23 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1440
+PlayResY: 900
+ScaledBorderAndShadow: yes
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Helvetica,22,&H00FFFFFF,&H00FFFFFF,&H00000000,&HC8000000,1,0,0,0,100,100,0,0,3,1,0.5,2,80,80,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:02.56,0:00:07.56,Default,,0,0,0,,RIPTIDE — forecast the flood before it floods readiness.
+Dialogue: 0,0:00:07.56,0:00:17.56,Default,,0,0,0,,LOGCOM Installation Incident Response — situational awareness, fast.
+Dialogue: 0,0:00:17.56,0:00:27.56,Default,,0,0,0,,5,000 NFIP claim records — FEMA schema — no data movement.
+Dialogue: 0,0:00:27.58,0:00:33.58,Default,,0,0,0,,Select MCAS Cherry Point. Cat 3 hurricane. Run.
+Dialogue: 0,0:00:31.28,0:00:38.28,Default,,0,0,0,,Kamiwaza-deployed model reads claim history + installation inventory.
+Dialogue: 0,0:00:44.47,0:00:54.47,Default,,0,0,0,,$106M projected claims, 10 days to mission-capable.
+Dialogue: 0,0:00:54.48,0:01:04.48,Default,,0,0,0,,Five prioritized actions, dollar-costed, lead-time-aware.
+Dialogue: 0,0:01:04.48,0:01:19.48,Default,,0,0,0,,Set KAMIWAZA_BASE_URL — same code, on-prem. 100% data containment.
+Dialogue: 0,0:01:19.50,0:01:29.50,Default,,0,0,0,,Built on the Kamiwaza Stack. Deploy in hours, not months.

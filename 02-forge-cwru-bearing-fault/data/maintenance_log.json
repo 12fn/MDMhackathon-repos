@@ -1,0 +1,92 @@
+{
+  "MTVR-2491": [
+    {
+      "date": "2025-10-12",
+      "type": "PMCS-Q",
+      "narrative": "Quarterly PMCS. Hub temp slightly elevated rear right; greased; within tolerance.",
+      "operating_hours_at_event": 3702
+    },
+    {
+      "date": "2025-12-04",
+      "type": "Operator Report",
+      "narrative": "Driver complains of intermittent rumble at 25-40 mph from rear right corner. No vibration at low speed.",
+      "operating_hours_at_event": 3854
+    },
+    {
+      "date": "2026-01-19",
+      "type": "PMCS-Q",
+      "narrative": "Quarterly PMCS. Vibration noted on rear right hub. Mechanic recommended monitor; no maintenance action taken \u2014 mission tempo prevented teardown.",
+      "operating_hours_at_event": 3961
+    },
+    {
+      "date": "2026-02-22",
+      "type": "Mission Log",
+      "narrative": "VTC convoy SAN MATEO->BLOUNT ISLAND. 412 mi. No mid-mission faults but driver re-reported rumble.",
+      "operating_hours_at_event": 4034
+    },
+    {
+      "date": "2026-03-30",
+      "type": "Operator Report",
+      "narrative": "Rumble now constant >15 mph. Tactical movement to MCB CamPen. Vehicle returned for evaluation.",
+      "operating_hours_at_event": 4087
+    },
+    {
+      "date": "2026-04-18",
+      "type": "Sensor Trigger",
+      "narrative": "Vibration sensor on hub passed amber threshold during yard test. Telemetry forwarded to FORGE.",
+      "operating_hours_at_event": 4127
+    }
+  ],
+  "JLTV-1107": [
+    {
+      "date": "2025-11-08",
+      "type": "PMCS-S",
+      "narrative": "Semi-annual. All hubs nominal. New vehicle, low hours.",
+      "operating_hours_at_event": 1422
+    },
+    {
+      "date": "2026-01-15",
+      "type": "Operator Report",
+      "narrative": "Cold start moan front left, dissipates within 1 mile. Likely brake; no further investigation.",
+      "operating_hours_at_event": 1611
+    },
+    {
+      "date": "2026-03-02",
+      "type": "PMCS-Q",
+      "narrative": "Quarterly PMCS. All hubs within spec. Greased per LO.",
+      "operating_hours_at_event": 1759
+    }
+  ],
+  "LAV-25-0892": [
+    {
+      "date": "2025-09-22",
+      "type": "Depot Overhaul",
+      "narrative": "Returned from 50-level overhaul at MDMC Barstow. New axle 1, axle 2 hub bearings refurbished (not replaced).",
+      "operating_hours_at_event": 5830
+    },
+    {
+      "date": "2025-11-30",
+      "type": "Operator Report",
+      "narrative": "High-pitched whine axle 2 right at sustained road speed >35 mph.",
+      "operating_hours_at_event": 6042
+    },
+    {
+      "date": "2026-01-08",
+      "type": "PMCS-Q",
+      "narrative": "Quarterly PMCS. Mechanic noted whine still present, recommended hub inspection at next 1000 hr mark.",
+      "operating_hours_at_event": 6201
+    },
+    {
+      "date": "2026-02-26",
+      "type": "Field Repair",
+      "narrative": "Mid-mission grease pumped to axle 2 right hub. Whine reduced but did not eliminate.",
+      "operating_hours_at_event": 6488
+    },
+    {
+      "date": "2026-04-05",
+      "type": "Sensor Trigger",
+      "narrative": "Vibration sensor crossed yellow threshold. Crew re-tasked to FORGE evaluation queue.",
+      "operating_hours_at_event": 6810
+    }
+  ]
+}

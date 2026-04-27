@@ -1,0 +1,27 @@
+1
+00:00:02,831 --> 00:00:07,831
+EMBER. Every artillery shell that lands shows up in a NASA satellite. We read the burns and write the brief.
+
+2
+00:00:07,832 --> 00:00:17,832
+MARADMIN 131/26 calls out contested logistics. Stand-In Forces forward in WestPac can't reach back to a rear analytic centre.
+
+3
+00:00:17,842 --> 00:00:27,842
+We pull the NASA FIRMS Ukraine 24-month archive -- 5,000 pixels, 15 megabytes -- and run a space-plus-time DBSCAN. No data leaves the enclave.
+
+4
+00:00:26,071 --> 00:00:46,071
+Each cluster is classified by a Kamiwaza-routed model in JSON mode. Donetsk, peak 412 K, point pattern -- combat artillery, confidence 0.84.
+
+5
+00:00:44,081 --> 00:01:04,081
+One click — the Kamiwaza-deployed hero model composes a SIPR-style daily all-source brief. An E-5 has the product before the coffee cools.
+
+6
+00:01:04,088 --> 00:01:19,088
+Set KAMIWAZA_BASE_URL to your enclave gateway and we're behind the wire. IL5, IL6, FedRAMP High compatible. Same code, zero migration.
+
+7
+00:01:19,092 --> 00:01:29,092
+EMBER. Built on the Kamiwaza Stack. Deploy in hours, not months.

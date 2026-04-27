@@ -1,0 +1,1682 @@
+[
+  {
+    "frame": 0,
+    "timestamp_utc": "2026-04-30T03:00:00Z",
+    "phase_narrative": "Two dismounts emerge from north tree-line moving south toward parked sedan; vehicle thermally cold (long-parked).",
+    "n_objects": 3,
+    "objects": [
+      {
+        "class": "person",
+        "cx": 120.0,
+        "cy": 90.0,
+        "bbox": [
+          113,
+          74,
+          127,
+          105
+        ],
+        "intensity": 0.78
+      },
+      {
+        "class": "person",
+        "cx": 150.0,
+        "cy": 90.0,
+        "bbox": [
+          143,
+          74,
+          157,
+          105
+        ],
+        "intensity": 0.78
+      },
+      {
+        "class": "vehicle",
+        "cx": 310.0,
+        "cy": 300.0,
+        "bbox": [
+          279,
+          280,
+          340,
+          319
+        ],
+        "intensity": 0.32
+      }
+    ]
+  },
+  {
+    "frame": 1,
+    "timestamp_utc": "2026-04-30T03:00:04Z",
+    "phase_narrative": "Two dismounts emerge from north tree-line moving south toward parked sedan; vehicle thermally cold (long-parked).",
+    "n_objects": 3,
+    "objects": [
+      {
+        "class": "person",
+        "cx": 131.4,
+        "cy": 103.6,
+        "bbox": [
+          124,
+          88,
+          138,
+          118
+        ],
+        "intensity": 0.827
+      },
+      {
+        "class": "person",
+        "cx": 160.4,
+        "cy": 104.3,
+        "bbox": [
+          153,
+          88,
+          167,
+          119
+        ],
+        "intensity": 0.827
+      },
+      {
+        "class": "vehicle",
+        "cx": 310.0,
+        "cy": 300.0,
+        "bbox": [
+          279,
+          280,
+          340,
+          319
+        ],
+        "intensity": 0.32
+      }
+    ]
+  },
+  {
+    "frame": 2,
+    "timestamp_utc": "2026-04-30T03:00:08Z",
+    "phase_narrative": "Two dismounts emerge from north tree-line moving south toward parked sedan; vehicle thermally cold (long-parked).",
+    "n_objects": 3,
+    "objects": [
+      {
+        "class": "person",
+        "cx": 142.9,
+        "cy": 117.1,
+        "bbox": [
+          135,
+          101,
+          149,
+          132
+        ],
+        "intensity": 0.838
+      },
+      {
+        "class": "person",
+        "cx": 170.7,
+        "cy": 118.6,
+        "bbox": [
+          163,
+          103,
+          177,
+          133
+        ],
+        "intensity": 0.838
+      },
+      {
+        "class": "vehicle",
+        "cx": 310.0,
+        "cy": 300.0,
+        "bbox": [
+          279,
+          280,
+          340,
+          319
+        ],
+        "intensity": 0.32
+      }
+    ]
+  },
+  {
+    "frame": 3,
+    "timestamp_utc": "2026-04-30T03:00:12Z",
+    "phase_narrative": "Two dismounts emerge from north tree-line moving south toward parked sedan; vehicle thermally cold (long-parked).",
+    "n_objects": 3,
+    "objects": [
+      {
+        "class": "person",
+        "cx": 154.3,
+        "cy": 130.7,
+        "bbox": [
+          147,
+          115,
+          161,
+          146
+        ],
+        "intensity": 0.806
+      },
+      {
+        "class": "person",
+        "cx": 181.1,
+        "cy": 132.9,
+        "bbox": [
+          174,
+          117,
+          188,
+          148
+        ],
+        "intensity": 0.806
+      },
+      {
+        "class": "vehicle",
+        "cx": 310.0,
+        "cy": 300.0,
+        "bbox": [
+          279,
+          280,
+          340,
+          319
+        ],
+        "intensity": 0.32
+      }
+    ]
+  },
+  {
+    "frame": 4,
+    "timestamp_utc": "2026-04-30T03:00:16Z",
+    "phase_narrative": "Two dismounts emerge from north tree-line moving south toward parked sedan; vehicle thermally cold (long-parked).",
+    "n_objects": 3,
+    "objects": [
+      {
+        "class": "person",
+        "cx": 165.7,
+        "cy": 144.3,
+        "bbox": [
+          158,
+          128,
+          172,
+          159
+        ],
+        "intensity": 0.753
+      },
+      {
+        "class": "person",
+        "cx": 191.4,
+        "cy": 147.1,
+        "bbox": [
+          184,
+          131,
+          198,
+          162
+        ],
+        "intensity": 0.753
+      },
+      {
+        "class": "vehicle",
+        "cx": 310.0,
+        "cy": 300.0,
+        "bbox": [
+          279,
+          280,
+          340,
+          319
+        ],
+        "intensity": 0.32
+      }
+    ]
+  },
+  {
+    "frame": 5,
+    "timestamp_utc": "2026-04-30T03:00:20Z",
+    "phase_narrative": "Two dismounts emerge from north tree-line moving south toward parked sedan; vehicle thermally cold (long-parked).",
+    "n_objects": 3,
+    "objects": [
+      {
+        "class": "person",
+        "cx": 177.1,
+        "cy": 157.9,
+        "bbox": [
+          170,
+          142,
+          184,
+          173
+        ],
+        "intensity": 0.721
+      },
+      {
+        "class": "person",
+        "cx": 201.8,
+        "cy": 161.4,
+        "bbox": [
+          194,
+          146,
+          208,
+          176
+        ],
+        "intensity": 0.721
+      },
+      {
+        "class": "vehicle",
+        "cx": 310.0,
+        "cy": 300.0,
+        "bbox": [
+          279,
+          280,
+          340,
+          319
+        ],
+        "intensity": 0.32
+      }
+    ]
+  },
+  {
+    "frame": 6,
+    "timestamp_utc": "2026-04-30T03:00:24Z",
+    "phase_narrative": "Two dismounts emerge from north tree-line moving south toward parked sedan; vehicle thermally cold (long-parked).",
+    "n_objects": 3,
+    "objects": [
+      {
+        "class": "person",
+        "cx": 188.6,
+        "cy": 171.4,
+        "bbox": [
+          181,
+          156,
+          195,
+          186
+        ],
+        "intensity": 0.734
+      },
+      {
+        "class": "person",
+        "cx": 212.1,
+        "cy": 175.7,
+        "bbox": [
+          205,
+          160,
+          219,
+          191
+        ],
+        "intensity": 0.734
+      },
+      {
+        "class": "vehicle",
+        "cx": 310.0,
+        "cy": 300.0,
+        "bbox": [
+          279,
+          280,
+          340,
+          319
+        ],
+        "intensity": 0.32
+      }
+    ]
+  },
+  {
+    "frame": 7,
+    "timestamp_utc": "2026-04-30T03:00:28Z",
+    "phase_narrative": "Two dismounts emerge from north tree-line moving south toward parked sedan; vehicle thermally cold (long-parked).",
+    "n_objects": 3,
+    "objects": [
+      {
+        "class": "person",
+        "cx": 200.0,
+        "cy": 185.0,
+        "bbox": [
+          193,
+          169,
+          207,
+          200
+        ],
+        "intensity": 0.781
+      },
+      {
+        "class": "person",
+        "cx": 222.5,
+        "cy": 190.0,
+        "bbox": [
+          215,
+          174,
+          229,
+          205
+        ],
+        "intensity": 0.781
+      },
+      {
+        "class": "vehicle",
+        "cx": 310.0,
+        "cy": 300.0,
+        "bbox": [
+          279,
+          280,
+          340,
+          319
+        ],
+        "intensity": 0.32
+      }
+    ]
+  },
+  {
+    "frame": 8,
+    "timestamp_utc": "2026-04-30T03:00:32Z",
+    "phase_narrative": "Third dismount joins from west; vehicle hood + exhaust warming \u2014 engine just started.",
+    "n_objects": 4,
+    "objects": [
+      {
+        "class": "person",
+        "cx": 211.4,
+        "cy": 198.6,
+        "bbox": [
+          204,
+          183,
+          218,
+          213
+        ],
+        "intensity": 0.828
+      },
+      {
+        "class": "person",
+        "cx": 232.9,
+        "cy": 204.3,
+        "bbox": [
+          225,
+          188,
+          239,
+          219
+        ],
+        "intensity": 0.828
+      },
+      {
+        "class": "person",
+        "cx": 60.0,
+        "cy": 220.0,
+        "bbox": [
+          53,
+          204,
+          67,
+          235
+        ],
+        "intensity": 0.828
+      },
+      {
+        "class": "vehicle",
+        "cx": 310.0,
+        "cy": 300.0,
+        "bbox": [
+          279,
+          280,
+          340,
+          319
+        ],
+        "intensity": 0.32
+      }
+    ]
+  },
+  {
+    "frame": 9,
+    "timestamp_utc": "2026-04-30T03:00:36Z",
+    "phase_narrative": "Third dismount joins from west; vehicle hood + exhaust warming \u2014 engine just started.",
+    "n_objects": 4,
+    "objects": [
+      {
+        "class": "person",
+        "cx": 222.9,
+        "cy": 212.1,
+        "bbox": [
+          215,
+          196,
+          229,
+          227
+        ],
+        "intensity": 0.838
+      },
+      {
+        "class": "person",
+        "cx": 243.2,
+        "cy": 218.6,
+        "bbox": [
+          236,
+          203,
+          250,
+          233
+        ],
+        "intensity": 0.838
+      },
+      {
+        "class": "person",
+        "cx": 75.0,
+        "cy": 225.4,
+        "bbox": [
+          68,
+          209,
+          82,
+          240
+        ],
+        "intensity": 0.838
+      },
+      {
+        "class": "vehicle",
+        "cx": 310.0,
+        "cy": 300.0,
+        "bbox": [
+          279,
+          280,
+          340,
+          319
+        ],
+        "intensity": 0.32
+      }
+    ]
+  },
+  {
+    "frame": 10,
+    "timestamp_utc": "2026-04-30T03:00:40Z",
+    "phase_narrative": "Third dismount joins from west; vehicle hood + exhaust warming \u2014 engine just started.",
+    "n_objects": 4,
+    "objects": [
+      {
+        "class": "person",
+        "cx": 234.3,
+        "cy": 225.7,
+        "bbox": [
+          227,
+          210,
+          241,
+          241
+        ],
+        "intensity": 0.805
+      },
+      {
+        "class": "person",
+        "cx": 253.6,
+        "cy": 232.9,
+        "bbox": [
+          246,
+          217,
+          260,
+          248
+        ],
+        "intensity": 0.805
+      },
+      {
+        "class": "person",
+        "cx": 90.0,
+        "cy": 230.7,
+        "bbox": [
+          83,
+          215,
+          97,
+          246
+        ],
+        "intensity": 0.805
+      },
+      {
+        "class": "vehicle",
+        "cx": 310.0,
+        "cy": 300.0,
+        "bbox": [
+          279,
+          280,
+          340,
+          319
+        ],
+        "intensity": 0.32
+      }
+    ]
+  },
+  {
+    "frame": 11,
+    "timestamp_utc": "2026-04-30T03:00:44Z",
+    "phase_narrative": "Third dismount joins from west; vehicle hood + exhaust warming \u2014 engine just started.",
+    "n_objects": 5,
+    "objects": [
+      {
+        "class": "person",
+        "cx": 245.7,
+        "cy": 239.3,
+        "bbox": [
+          238,
+          223,
+          252,
+          254
+        ],
+        "intensity": 0.753
+      },
+      {
+        "class": "person",
+        "cx": 263.9,
+        "cy": 247.1,
+        "bbox": [
+          256,
+          231,
+          270,
+          262
+        ],
+        "intensity": 0.753
+      },
+      {
+        "class": "person",
+        "cx": 105.0,
+        "cy": 236.1,
+        "bbox": [
+          98,
+          220,
+          112,
+          251
+        ],
+        "intensity": 0.753
+      },
+      {
+        "class": "vehicle",
+        "cx": 310.0,
+        "cy": 300.0,
+        "bbox": [
+          279,
+          280,
+          340,
+          319
+        ],
+        "intensity": 0.458
+      },
+      {
+        "class": "exhaust",
+        "cx": 332,
+        "cy": 270,
+        "bbox": [
+          322,
+          253,
+          341,
+          286
+        ],
+        "intensity": 0.55
+      }
+    ]
+  },
+  {
+    "frame": 12,
+    "timestamp_utc": "2026-04-30T03:00:48Z",
+    "phase_narrative": "Third dismount joins from west; vehicle hood + exhaust warming \u2014 engine just started.",
+    "n_objects": 5,
+    "objects": [
+      {
+        "class": "person",
+        "cx": 257.1,
+        "cy": 252.9,
+        "bbox": [
+          250,
+          237,
+          264,
+          268
+        ],
+        "intensity": 0.721
+      },
+      {
+        "class": "person",
+        "cx": 274.3,
+        "cy": 261.4,
+        "bbox": [
+          267,
+          246,
+          281,
+          276
+        ],
+        "intensity": 0.721
+      },
+      {
+        "class": "person",
+        "cx": 120.0,
+        "cy": 241.4,
+        "bbox": [
+          113,
+          226,
+          127,
+          256
+        ],
+        "intensity": 0.721
+      },
+      {
+        "class": "vehicle",
+        "cx": 310.0,
+        "cy": 300.0,
+        "bbox": [
+          279,
+          280,
+          340,
+          319
+        ],
+        "intensity": 0.595
+      },
+      {
+        "class": "exhaust",
+        "cx": 332,
+        "cy": 282,
+        "bbox": [
+          322,
+          265,
+          341,
+          298
+        ],
+        "intensity": 0.53
+      }
+    ]
+  },
+  {
+    "frame": 13,
+    "timestamp_utc": "2026-04-30T03:00:52Z",
+    "phase_narrative": "Third dismount joins from west; vehicle hood + exhaust warming \u2014 engine just started.",
+    "n_objects": 5,
+    "objects": [
+      {
+        "class": "person",
+        "cx": 268.6,
+        "cy": 266.4,
+        "bbox": [
+          261,
+          251,
+          275,
+          281
+        ],
+        "intensity": 0.734
+      },
+      {
+        "class": "person",
+        "cx": 284.6,
+        "cy": 275.7,
+        "bbox": [
+          277,
+          260,
+          291,
+          291
+        ],
+        "intensity": 0.734
+      },
+      {
+        "class": "person",
+        "cx": 135.0,
+        "cy": 246.8,
+        "bbox": [
+          128,
+          231,
+          142,
+          262
+        ],
+        "intensity": 0.734
+      },
+      {
+        "class": "vehicle",
+        "cx": 310.0,
+        "cy": 300.0,
+        "bbox": [
+          279,
+          280,
+          340,
+          319
+        ],
+        "intensity": 0.733
+      },
+      {
+        "class": "exhaust",
+        "cx": 332,
+        "cy": 276,
+        "bbox": [
+          322,
+          259,
+          341,
+          292
+        ],
+        "intensity": 0.51
+      }
+    ]
+  },
+  {
+    "frame": 14,
+    "timestamp_utc": "2026-04-30T03:00:56Z",
+    "phase_narrative": "Third dismount joins from west; vehicle hood + exhaust warming \u2014 engine just started.",
+    "n_objects": 5,
+    "objects": [
+      {
+        "class": "person",
+        "cx": 280.0,
+        "cy": 280.0,
+        "bbox": [
+          273,
+          264,
+          287,
+          295
+        ],
+        "intensity": 0.782
+      },
+      {
+        "class": "person",
+        "cx": 295.0,
+        "cy": 290.0,
+        "bbox": [
+          288,
+          274,
+          302,
+          305
+        ],
+        "intensity": 0.782
+      },
+      {
+        "class": "person",
+        "cx": 150.0,
+        "cy": 252.1,
+        "bbox": [
+          143,
+          236,
+          157,
+          267
+        ],
+        "intensity": 0.782
+      },
+      {
+        "class": "vehicle",
+        "cx": 310.0,
+        "cy": 300.0,
+        "bbox": [
+          279,
+          280,
+          340,
+          319
+        ],
+        "intensity": 0.87
+      },
+      {
+        "class": "exhaust",
+        "cx": 332,
+        "cy": 270,
+        "bbox": [
+          322,
+          253,
+          341,
+          286
+        ],
+        "intensity": 0.49
+      }
+    ]
+  },
+  {
+    "frame": 15,
+    "timestamp_utc": "2026-04-30T03:01:00Z",
+    "phase_narrative": "Vehicle departs east off-frame; small fire ignites at perimeter barrel (possible signal/marker).",
+    "n_objects": 4,
+    "objects": [
+      {
+        "class": "person",
+        "cx": 165.0,
+        "cy": 257.5,
+        "bbox": [
+          158,
+          242,
+          172,
+          272
+        ],
+        "intensity": 0.828
+      },
+      {
+        "class": "vehicle",
+        "cx": 310.0,
+        "cy": 300.0,
+        "bbox": [
+          279,
+          280,
+          340,
+          319
+        ],
+        "intensity": 0.87
+      },
+      {
+        "class": "exhaust",
+        "cx": 332,
+        "cy": 282,
+        "bbox": [
+          322,
+          265,
+          341,
+          298
+        ],
+        "intensity": 0.47
+      },
+      {
+        "class": "fire",
+        "cx": 480,
+        "cy": 180,
+        "bbox": [
+          467,
+          167,
+          492,
+          192
+        ],
+        "intensity": 0.869
+      }
+    ]
+  },
+  {
+    "frame": 16,
+    "timestamp_utc": "2026-04-30T03:01:04Z",
+    "phase_narrative": "Vehicle departs east off-frame; small fire ignites at perimeter barrel (possible signal/marker).",
+    "n_objects": 4,
+    "objects": [
+      {
+        "class": "person",
+        "cx": 180.0,
+        "cy": 262.9,
+        "bbox": [
+          173,
+          247,
+          187,
+          278
+        ],
+        "intensity": 0.838
+      },
+      {
+        "class": "vehicle",
+        "cx": 355.7,
+        "cy": 304.3,
+        "bbox": [
+          324,
+          284,
+          386,
+          323
+        ],
+        "intensity": 0.87
+      },
+      {
+        "class": "exhaust",
+        "cx": 332,
+        "cy": 276,
+        "bbox": [
+          322,
+          259,
+          341,
+          292
+        ],
+        "intensity": 0.45
+      },
+      {
+        "class": "fire",
+        "cx": 480,
+        "cy": 180,
+        "bbox": [
+          467,
+          167,
+          492,
+          192
+        ],
+        "intensity": 0.71
+      }
+    ]
+  },
+  {
+    "frame": 17,
+    "timestamp_utc": "2026-04-30T03:01:08Z",
+    "phase_narrative": "Vehicle departs east off-frame; small fire ignites at perimeter barrel (possible signal/marker).",
+    "n_objects": 3,
+    "objects": [
+      {
+        "class": "person",
+        "cx": 195.0,
+        "cy": 268.2,
+        "bbox": [
+          188,
+          252,
+          202,
+          283
+        ],
+        "intensity": 0.804
+      },
+      {
+        "class": "vehicle",
+        "cx": 401.4,
+        "cy": 308.6,
+        "bbox": [
+          370,
+          288,
+          432,
+          328
+        ],
+        "intensity": 0.87
+      },
+      {
+        "class": "fire",
+        "cx": 480,
+        "cy": 180,
+        "bbox": [
+          467,
+          167,
+          492,
+          192
+        ],
+        "intensity": 1.0
+      }
+    ]
+  },
+  {
+    "frame": 18,
+    "timestamp_utc": "2026-04-30T03:01:12Z",
+    "phase_narrative": "Vehicle departs east off-frame; small fire ignites at perimeter barrel (possible signal/marker).",
+    "n_objects": 3,
+    "objects": [
+      {
+        "class": "person",
+        "cx": 210.0,
+        "cy": 273.6,
+        "bbox": [
+          203,
+          258,
+          217,
+          288
+        ],
+        "intensity": 0.752
+      },
+      {
+        "class": "vehicle",
+        "cx": 447.1,
+        "cy": 312.9,
+        "bbox": [
+          416,
+          293,
+          477,
+          332
+        ],
+        "intensity": 0.87
+      },
+      {
+        "class": "fire",
+        "cx": 480,
+        "cy": 180,
+        "bbox": [
+          467,
+          167,
+          492,
+          192
+        ],
+        "intensity": 0.785
+      }
+    ]
+  },
+  {
+    "frame": 19,
+    "timestamp_utc": "2026-04-30T03:01:16Z",
+    "phase_narrative": "Vehicle departs east off-frame; small fire ignites at perimeter barrel (possible signal/marker).",
+    "n_objects": 3,
+    "objects": [
+      {
+        "class": "person",
+        "cx": 225.0,
+        "cy": 278.9,
+        "bbox": [
+          218,
+          263,
+          232,
+          294
+        ],
+        "intensity": 0.721
+      },
+      {
+        "class": "vehicle",
+        "cx": 492.9,
+        "cy": 317.1,
+        "bbox": [
+          462,
+          297,
+          523,
+          336
+        ],
+        "intensity": 0.87
+      },
+      {
+        "class": "fire",
+        "cx": 480,
+        "cy": 180,
+        "bbox": [
+          467,
+          167,
+          492,
+          192
+        ],
+        "intensity": 0.776
+      }
+    ]
+  },
+  {
+    "frame": 20,
+    "timestamp_utc": "2026-04-30T03:01:20Z",
+    "phase_narrative": "Vehicle departs east off-frame; small fire ignites at perimeter barrel (possible signal/marker).",
+    "n_objects": 4,
+    "objects": [
+      {
+        "class": "person",
+        "cx": 240.0,
+        "cy": 284.3,
+        "bbox": [
+          233,
+          268,
+          247,
+          299
+        ],
+        "intensity": 0.735
+      },
+      {
+        "class": "vehicle",
+        "cx": 538.6,
+        "cy": 321.4,
+        "bbox": [
+          507,
+          301,
+          569,
+          341
+        ],
+        "intensity": 0.87
+      },
+      {
+        "class": "fire",
+        "cx": 480,
+        "cy": 180,
+        "bbox": [
+          467,
+          167,
+          492,
+          192
+        ],
+        "intensity": 1.0
+      },
+      {
+        "class": "generator",
+        "cx": 95,
+        "cy": 410,
+        "bbox": [
+          75,
+          396,
+          114,
+          424
+        ],
+        "intensity": 0.734
+      }
+    ]
+  },
+  {
+    "frame": 21,
+    "timestamp_utc": "2026-04-30T03:01:24Z",
+    "phase_narrative": "Vehicle departs east off-frame; small fire ignites at perimeter barrel (possible signal/marker).",
+    "n_objects": 4,
+    "objects": [
+      {
+        "class": "person",
+        "cx": 255.0,
+        "cy": 289.6,
+        "bbox": [
+          248,
+          274,
+          262,
+          305
+        ],
+        "intensity": 0.783
+      },
+      {
+        "class": "vehicle",
+        "cx": 584.3,
+        "cy": 325.7,
+        "bbox": [
+          553,
+          306,
+          615,
+          345
+        ],
+        "intensity": 0.87
+      },
+      {
+        "class": "fire",
+        "cx": 480,
+        "cy": 180,
+        "bbox": [
+          467,
+          167,
+          492,
+          192
+        ],
+        "intensity": 0.725
+      },
+      {
+        "class": "generator",
+        "cx": 95,
+        "cy": 410,
+        "bbox": [
+          75,
+          396,
+          114,
+          424
+        ],
+        "intensity": 0.675
+      }
+    ]
+  },
+  {
+    "frame": 22,
+    "timestamp_utc": "2026-04-30T03:01:28Z",
+    "phase_narrative": "Vehicle departs east off-frame; small fire ignites at perimeter barrel (possible signal/marker).",
+    "n_objects": 4,
+    "objects": [
+      {
+        "class": "person",
+        "cx": 270.0,
+        "cy": 295.0,
+        "bbox": [
+          263,
+          279,
+          277,
+          310
+        ],
+        "intensity": 0.829
+      },
+      {
+        "class": "vehicle",
+        "cx": 630.0,
+        "cy": 330.0,
+        "bbox": [
+          599,
+          310,
+          639,
+          349
+        ],
+        "intensity": 0.87
+      },
+      {
+        "class": "fire",
+        "cx": 480,
+        "cy": 180,
+        "bbox": [
+          467,
+          167,
+          492,
+          192
+        ],
+        "intensity": 0.859
+      },
+      {
+        "class": "generator",
+        "cx": 95,
+        "cy": 410,
+        "bbox": [
+          75,
+          396,
+          114,
+          424
+        ],
+        "intensity": 0.691
+      }
+    ]
+  },
+  {
+    "frame": 23,
+    "timestamp_utc": "2026-04-30T03:01:32Z",
+    "phase_narrative": "Generator at LZ pad spins up; remaining personnel disperse to defensive arc.",
+    "n_objects": 5,
+    "objects": [
+      {
+        "class": "fire",
+        "cx": 480,
+        "cy": 180,
+        "bbox": [
+          467,
+          167,
+          492,
+          192
+        ],
+        "intensity": 0.958
+      },
+      {
+        "class": "generator",
+        "cx": 95,
+        "cy": 410,
+        "bbox": [
+          75,
+          396,
+          114,
+          424
+        ],
+        "intensity": 0.755
+      },
+      {
+        "class": "person",
+        "cx": 250.0,
+        "cy": 200.0,
+        "bbox": [
+          243,
+          184,
+          257,
+          215
+        ],
+        "intensity": 0.838
+      },
+      {
+        "class": "person",
+        "cx": 380.0,
+        "cy": 220.0,
+        "bbox": [
+          373,
+          204,
+          387,
+          235
+        ],
+        "intensity": 0.838
+      },
+      {
+        "class": "person",
+        "cx": 420.0,
+        "cy": 280.0,
+        "bbox": [
+          413,
+          264,
+          427,
+          295
+        ],
+        "intensity": 0.838
+      }
+    ]
+  },
+  {
+    "frame": 24,
+    "timestamp_utc": "2026-04-30T03:01:36Z",
+    "phase_narrative": "Generator at LZ pad spins up; remaining personnel disperse to defensive arc.",
+    "n_objects": 5,
+    "objects": [
+      {
+        "class": "fire",
+        "cx": 480,
+        "cy": 180,
+        "bbox": [
+          467,
+          167,
+          492,
+          192
+        ],
+        "intensity": 0.706
+      },
+      {
+        "class": "generator",
+        "cx": 95,
+        "cy": 410,
+        "bbox": [
+          75,
+          396,
+          114,
+          424
+        ],
+        "intensity": 0.761
+      },
+      {
+        "class": "person",
+        "cx": 241.7,
+        "cy": 188.3,
+        "bbox": [
+          234,
+          172,
+          248,
+          203
+        ],
+        "intensity": 0.803
+      },
+      {
+        "class": "person",
+        "cx": 393.3,
+        "cy": 236.7,
+        "bbox": [
+          386,
+          221,
+          400,
+          252
+        ],
+        "intensity": 0.803
+      },
+      {
+        "class": "person",
+        "cx": 435.0,
+        "cy": 291.7,
+        "bbox": [
+          428,
+          276,
+          442,
+          307
+        ],
+        "intensity": 0.803
+      }
+    ]
+  },
+  {
+    "frame": 25,
+    "timestamp_utc": "2026-04-30T03:01:40Z",
+    "phase_narrative": "Generator at LZ pad spins up; remaining personnel disperse to defensive arc.",
+    "n_objects": 5,
+    "objects": [
+      {
+        "class": "fire",
+        "cx": 480,
+        "cy": 180,
+        "bbox": [
+          467,
+          167,
+          492,
+          192
+        ],
+        "intensity": 0.928
+      },
+      {
+        "class": "generator",
+        "cx": 95,
+        "cy": 410,
+        "bbox": [
+          75,
+          396,
+          114,
+          424
+        ],
+        "intensity": 0.699
+      },
+      {
+        "class": "person",
+        "cx": 233.3,
+        "cy": 176.7,
+        "bbox": [
+          226,
+          161,
+          240,
+          192
+        ],
+        "intensity": 0.751
+      },
+      {
+        "class": "person",
+        "cx": 406.7,
+        "cy": 253.3,
+        "bbox": [
+          399,
+          237,
+          413,
+          268
+        ],
+        "intensity": 0.751
+      },
+      {
+        "class": "person",
+        "cx": 450.0,
+        "cy": 303.3,
+        "bbox": [
+          443,
+          287,
+          457,
+          318
+        ],
+        "intensity": 0.751
+      }
+    ]
+  },
+  {
+    "frame": 26,
+    "timestamp_utc": "2026-04-30T03:01:44Z",
+    "phase_narrative": "Generator at LZ pad spins up; remaining personnel disperse to defensive arc.",
+    "n_objects": 5,
+    "objects": [
+      {
+        "class": "fire",
+        "cx": 480,
+        "cy": 180,
+        "bbox": [
+          467,
+          167,
+          492,
+          192
+        ],
+        "intensity": 0.886
+      },
+      {
+        "class": "generator",
+        "cx": 95,
+        "cy": 410,
+        "bbox": [
+          75,
+          396,
+          114,
+          424
+        ],
+        "intensity": 0.672
+      },
+      {
+        "class": "person",
+        "cx": 225.0,
+        "cy": 165.0,
+        "bbox": [
+          218,
+          149,
+          232,
+          180
+        ],
+        "intensity": 0.721
+      },
+      {
+        "class": "person",
+        "cx": 420.0,
+        "cy": 270.0,
+        "bbox": [
+          413,
+          254,
+          427,
+          285
+        ],
+        "intensity": 0.721
+      },
+      {
+        "class": "person",
+        "cx": 465.0,
+        "cy": 315.0,
+        "bbox": [
+          458,
+          299,
+          472,
+          330
+        ],
+        "intensity": 0.721
+      }
+    ]
+  },
+  {
+    "frame": 27,
+    "timestamp_utc": "2026-04-30T03:01:48Z",
+    "phase_narrative": "Generator at LZ pad spins up; remaining personnel disperse to defensive arc.",
+    "n_objects": 5,
+    "objects": [
+      {
+        "class": "fire",
+        "cx": 480,
+        "cy": 180,
+        "bbox": [
+          467,
+          167,
+          492,
+          192
+        ],
+        "intensity": 0.733
+      },
+      {
+        "class": "generator",
+        "cx": 95,
+        "cy": 410,
+        "bbox": [
+          75,
+          396,
+          114,
+          424
+        ],
+        "intensity": 0.725
+      },
+      {
+        "class": "person",
+        "cx": 216.7,
+        "cy": 153.3,
+        "bbox": [
+          209,
+          137,
+          223,
+          168
+        ],
+        "intensity": 0.736
+      },
+      {
+        "class": "person",
+        "cx": 433.3,
+        "cy": 286.7,
+        "bbox": [
+          426,
+          271,
+          440,
+          302
+        ],
+        "intensity": 0.736
+      },
+      {
+        "class": "person",
+        "cx": 480.0,
+        "cy": 326.7,
+        "bbox": [
+          473,
+          311,
+          487,
+          342
+        ],
+        "intensity": 0.736
+      }
+    ]
+  },
+  {
+    "frame": 28,
+    "timestamp_utc": "2026-04-30T03:01:52Z",
+    "phase_narrative": "Generator at LZ pad spins up; remaining personnel disperse to defensive arc.",
+    "n_objects": 5,
+    "objects": [
+      {
+        "class": "fire",
+        "cx": 480,
+        "cy": 180,
+        "bbox": [
+          467,
+          167,
+          492,
+          192
+        ],
+        "intensity": 0.963
+      },
+      {
+        "class": "generator",
+        "cx": 95,
+        "cy": 410,
+        "bbox": [
+          75,
+          396,
+          114,
+          424
+        ],
+        "intensity": 0.77
+      },
+      {
+        "class": "person",
+        "cx": 208.3,
+        "cy": 141.7,
+        "bbox": [
+          201,
+          126,
+          215,
+          157
+        ],
+        "intensity": 0.784
+      },
+      {
+        "class": "person",
+        "cx": 446.7,
+        "cy": 303.3,
+        "bbox": [
+          439,
+          287,
+          453,
+          318
+        ],
+        "intensity": 0.784
+      },
+      {
+        "class": "person",
+        "cx": 495.0,
+        "cy": 338.3,
+        "bbox": [
+          488,
+          322,
+          502,
+          353
+        ],
+        "intensity": 0.784
+      }
+    ]
+  },
+  {
+    "frame": 29,
+    "timestamp_utc": "2026-04-30T03:01:56Z",
+    "phase_narrative": "Generator at LZ pad spins up; remaining personnel disperse to defensive arc.",
+    "n_objects": 5,
+    "objects": [
+      {
+        "class": "fire",
+        "cx": 480,
+        "cy": 180,
+        "bbox": [
+          467,
+          167,
+          492,
+          192
+        ],
+        "intensity": 0.815
+      },
+      {
+        "class": "generator",
+        "cx": 95,
+        "cy": 410,
+        "bbox": [
+          75,
+          396,
+          114,
+          424
+        ],
+        "intensity": 0.732
+      },
+      {
+        "class": "person",
+        "cx": 200.0,
+        "cy": 130.0,
+        "bbox": [
+          193,
+          114,
+          207,
+          145
+        ],
+        "intensity": 0.829
+      },
+      {
+        "class": "person",
+        "cx": 460.0,
+        "cy": 320.0,
+        "bbox": [
+          453,
+          304,
+          467,
+          335
+        ],
+        "intensity": 0.829
+      },
+      {
+        "class": "person",
+        "cx": 510.0,
+        "cy": 350.0,
+        "bbox": [
+          503,
+          334,
+          517,
+          365
+        ],
+        "intensity": 0.829
+      }
+    ]
+  }
+]

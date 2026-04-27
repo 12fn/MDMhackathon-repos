@@ -1,0 +1,43 @@
+1
+00:00:01,368 --> 00:00:06,368
+MARLIN. Maritime Anomaly and Risk Intelligence Layer.
+
+2
+00:00:06,369 --> 00:00:16,369
+LOGCOM contested logistics: dark vessels and gray-zone rendezvous in the second island chain.
+
+3
+00:00:16,372 --> 00:00:21,372
+Ten vessel tracks. One thousand AIS pings. One hundred-event timeline replaying live.
+
+4
+00:00:21,440 --> 00:00:26,440
+Three anomalies surface automatically: AIS gap, denied-area loiter, and a midnight rendezvous.
+
+5
+00:00:26,465 --> 00:00:31,465
+We click the flagged tanker. A Kamiwaza-deployed model reads the track, neighbors, and denied areas.
+
+6
+00:00:31,497 --> 00:00:41,497
+A three-paragraph intel narrative streams in, citing specific timestamps and lat lon coordinates.
+
+7
+00:00:41,501 --> 00:00:46,501
+Pattern of life. Anomaly analysis. A time-bounded recommendation for the watch officer.
+
+8
+00:00:46,504 --> 00:00:56,504
+A second JSON-mode call returns structured indicators ready for tipping and cueing.
+
+9
+00:00:56,521 --> 00:01:02,521
+Running on a Kamiwaza-deployed model behind KAMIWAZA_BASE_URL. Air-gapped, IL5/IL6 ready.
+
+10
+00:01:02,548 --> 00:01:08,548
+One hundred percent data containment. Nothing leaves your accredited environment.
+
+11
+00:01:08,551 --> 00:01:16,551
+MARLIN. Built on the Kamiwaza Stack. Deploy in hours, not months.

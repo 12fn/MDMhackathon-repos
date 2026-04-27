@@ -1,0 +1,35 @@
+1
+00:00:02,558 --> 00:00:07,558
+RIPTIDE — forecast the flood before it floods readiness.
+
+2
+00:00:07,560 --> 00:00:17,560
+LOGCOM Installation Incident Response — situational awareness, fast.
+
+3
+00:00:17,562 --> 00:00:27,562
+5,000 NFIP claim records — FEMA schema — no data movement.
+
+4
+00:00:27,578 --> 00:00:33,578
+Select MCAS Cherry Point. Cat 3 hurricane. Run.
+
+5
+00:00:31,282 --> 00:00:38,282
+Kamiwaza-deployed model reads claim history + installation inventory.
+
+6
+00:00:44,468 --> 00:00:54,468
+$106M projected claims, 10 days to mission-capable.
+
+7
+00:00:54,476 --> 00:01:04,476
+Five prioritized actions, dollar-costed, lead-time-aware.
+
+8
+00:01:04,480 --> 00:01:19,480
+Set KAMIWAZA_BASE_URL — same code, on-prem. 100% data containment.
+
+9
+00:01:19,503 --> 00:01:29,503
+Built on the Kamiwaza Stack. Deploy in hours, not months.

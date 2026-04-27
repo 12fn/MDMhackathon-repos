@@ -1,0 +1,26 @@
+{
+  "3110-01-433-0978": {
+    "name": "Bearing, Wheel Hub, Tapered Roller, MTVR Drive Axle",
+    "qty_albany": 14,
+    "qty_barstow": 8,
+    "qty_blount_island": 22,
+    "lead_time_days_if_short": 11,
+    "unit_cost_usd": 387.42
+  },
+  "3110-01-660-2271": {
+    "name": "Bearing, Wheel Hub, Front, JLTV",
+    "qty_albany": 41,
+    "qty_barstow": 27,
+    "qty_blount_island": 19,
+    "lead_time_days_if_short": 6,
+    "unit_cost_usd": 512.1
+  },
+  "3110-01-204-5587": {
+    "name": "Bearing, Wheel Hub, LAV-25 Drive Train",
+    "qty_albany": 0,
+    "qty_barstow": 3,
+    "qty_blount_island": 5,
+    "lead_time_days_if_short": 21,
+    "unit_cost_usd": 622.85
+  }
+}
