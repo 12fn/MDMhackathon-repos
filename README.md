@@ -31,7 +31,7 @@ The shared client (`shared/kamiwaza_client.py`) auto-detects from env vars. Set 
 | **Anthropic** | `ANTHROPIC_API_KEY` | Native Claude. Limited support for tool-calling apps. |
 | **Any OpenAI-compat** | `LLM_BASE_URL` + `LLM_API_KEY` | Together.ai, Groq, Anyscale, vLLM, Ollama, your self-host. |
 
-Full provider compatibility matrix and per-app notes in [DEPLOY.md](DEPLOY.md).
+Full provider compatibility matrix and per-app notes in [DEPLOY.md](DEPLOY.md). To install Kamiwaza locally and point the apps at it, see [KAMIWAZA_SETUP.md](KAMIWAZA_SETUP.md).
 
 ## The 14 apps
 
@@ -75,8 +75,9 @@ The shared scaffolding you get for free:
 MDMhackathon-repos/
 ├── README.md                  # this file
 ├── DEPLOY.md                  # multi-provider config + compatibility per app
+├── KAMIWAZA_SETUP.md          # install + connect to a Kamiwaza endpoint
 ├── DATA_INGESTION.md          # how to plug real data into each app
-├── ATTRIBUTION.md             # credits to Kamiwaza, datasets, etc.
+├── ATTRIBUTION.md             # credits to GAI, Kamiwaza, datasets, etc.
 ├── LICENSE                    # MIT
 ├── .env.example               # one env file, all providers
 ├── shared/
