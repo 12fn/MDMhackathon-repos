@@ -1,6 +1,3 @@
-# OPTIK — vision RAG over TM library
-# Part of the MDM 2026 Hackathon Templates (https://github.com/12fn/MDMhackathon-repos)
-# MIT licensed. Built on GAI (Government Acquisitions, Inc.) + Kamiwaza (https://www.kamiwaza.ai/).
 """Cosine-similarity RAG over the synthetic TM snippet corpus.
 
 Lightweight: pure NumPy + the shared embed() call. No Milvus / no FAISS.

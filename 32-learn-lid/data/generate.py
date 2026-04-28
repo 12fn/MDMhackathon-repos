@@ -21,11 +21,47 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 
 # --- Cohort scenarios (3 pre-computable for cache-first hero brief) ----------
+# Each cohort is anchored to its specific governing T&R Manual (NAVMC 3500-series)
+# or PME governing authority (MCO 1553.4B / DoDI 1322.35) so the brief can name
+# the exact event-set its competency calls map to. Records governance for ALL
+# cohorts is the Privacy Act of 1974 (5 U.S.C. § 552a) and DoDI 1322.35
+# "Military Education Records" — NOT FERPA (FERPA is K-12/higher-ed; Marines
+# under active military training are governed by the Privacy Act + DoDI 1322.35).
 COURSE_NAME = "Infantry Officer Course - Bravo Cohort 26-1"
 COURSE_VARIANTS = [
-    {"id": "ioc_b261",   "name": "Infantry Officer Course - Bravo Cohort 26-1",       "code": "IOC-B26-1"},
-    {"id": "pmos_0311",  "name": "PMOS 0311 Pipeline - Class 26-04",                  "code": "PMOS-0311-26-04"},
-    {"id": "sgts_pme",   "name": "Sergeants School / Squad Leader PME - Section 12",  "code": "SGTS-PME-12"},
+    {
+        "id": "ioc_b261",
+        "name": "Infantry Officer Course - Bravo Cohort 26-1",
+        "code": "IOC-B26-1",
+        "tr_manual": "NAVMC 3500.18 — Infantry Training & Readiness Manual",
+        "tr_manual_short": "NAVMC 3500.18",
+        "tr_event_examples": ["INF-MAN-1001", "INF-OPS-2001", "INF-PAT-2002"],
+        "schoolhouse": "Infantry Officer Course (IOC), TBS / The Basic School, MCB Quantico VA",
+        "governing_authority": "Privacy Act of 1974 (5 U.S.C. § 552a) and DoDI 1322.35 'Military Education Records'",
+    },
+    {
+        "id": "pmos_0411_log",
+        "name": "PMOS 0411 Maintenance Management Pipeline - Class 26-04",
+        "code": "PMOS-0411-26-04",
+        "tr_manual": "NAVMC 3500.58 — Logistics Training & Readiness Manual",
+        "tr_manual_short": "NAVMC 3500.58",
+        "tr_event_examples": ["LOG-MAINT-1001", "LOG-MAINT-2003", "LOG-DIST-2001"],
+        "schoolhouse": "Marine Corps Combat Service Support Schools (MCCSSS), Camp Johnson NC",
+        "governing_authority": "Privacy Act of 1974 (5 U.S.C. § 552a) and DoDI 1322.35 'Military Education Records'",
+    },
+    {
+        "id": "sgts_course",
+        "name": "Sergeants Course - Class 2-26 (SNCO Academy Quantico, resident PME for E-5)",
+        "code": "SGTS-2-26",
+        # Sergeants Course is resident PME — NOT a 3500-series MOS T&R pipeline.
+        # PME competency framework is governed under MCO 1553.4B + DoDI 1322.35.
+        # (The distinct Squad Leader Course is at SOI under the Infantry T&R / NAVMC 3500.18.)
+        "tr_manual": "MCO 1553.4B (PME Framework) and DoDI 1322.35 'Military Education' — Sergeants Course is resident PME at the SNCO Academy Quantico, distinct from the Squad Leader Course taught at SOI under the Infantry T&R (NAVMC 3500.18)",
+        "tr_manual_short": "MCO 1553.4B / DoDI 1322.35",
+        "tr_event_examples": ["PME-SGTS-LEAD-1", "PME-SGTS-COMM-2", "PME-SGTS-PROF-3"],
+        "schoolhouse": "Staff NCO Academy, MCB Quantico VA (resident PME, E-5 Sergeants)",
+        "governing_authority": "Privacy Act of 1974 (5 U.S.C. § 552a) and DoDI 1322.35 'Military Education Records'",
+    },
 ]
 
 ASSIGNMENTS = [
@@ -484,13 +520,23 @@ def _baseline_brief_text(course: dict, cohort: dict, per_student: dict[str, dict
     strongest_assn = cohort["assignment_effectiveness"][-1] if cohort["assignment_effectiveness"] else None
 
     course_name = course["course"]["name"]
+    tr_manual = course["course"].get("tr_manual", "USMC training standard")
+    tr_short = course["course"].get("tr_manual_short", "")
+    tr_events = course["course"].get("tr_event_examples", [])
+    schoolhouse = course["course"].get("schoolhouse", "")
+    tr_event_line = (
+        f"Sample T&R event anchors: {', '.join(tr_events)}." if tr_events else ""
+    )
     return (
         f"# Instructor's Competency Brief — {course_name}\n"
         f"**Generated:** {datetime.now(timezone.utc).isoformat()} · "
         f"**Cohort size:** {cohort['n_students']} · "
-        f"**Artifacts assessed:** {cohort['n_posts']} forum posts, {cohort['n_submissions']} submissions\n\n"
+        f"**Artifacts assessed:** {cohort['n_posts']} forum posts, {cohort['n_submissions']} submissions\n"
+        f"**Schoolhouse:** {schoolhouse}\n"
+        f"**Governing T&R / PME framework:** {tr_manual}\n"
+        f"**Records governance:** Privacy Act of 1974 (5 U.S.C. § 552a) and DoDI 1322.35 'Military Education Records'\n\n"
         f"## PARA 1 - COHORT COMPETENCY MAP\n"
-        f"Cohort competency averages (0-5 scale, rubric-aligned to USMC training standards):\n"
+        f"Cohort competency averages (0-5 scale, rubric-aligned to {tr_short or 'the governing T&R Manual'}). {tr_event_line}\n"
         f"- Critical Thinking: **{avg['critical_thinking']:.2f}/5**\n"
         f"- Communication: **{avg['communication']:.2f}/5**\n"
         f"- Doctrinal Knowledge: **{avg['doctrinal_knowledge']:.2f}/5**\n"
@@ -513,7 +559,8 @@ def _baseline_brief_text(course: dict, cohort: dict, per_student: dict[str, dict
         f"- Schedule 1:1 instructor reviews for the {len(cohort['intervention_ids'])} students flagged above before the capstone (A6).\n"
         f"- Consider pairing top performers with intervention list as peer mentors during AAR write-ups.\n\n"
         f"_Originator: LEARN — Learning Intelligence Dashboard (LID). "
-        f"Classification: **UNCLASSIFIED // FOR OFFICIAL USE — Training Records (FERPA-equivalent)**._\n"
+        f"Classification: **UNCLASSIFIED // FOR OFFICIAL USE — Military Education Records "
+        f"governed by the Privacy Act of 1974 (5 U.S.C. § 552a) and DoDI 1322.35**._\n"
     )
 
 

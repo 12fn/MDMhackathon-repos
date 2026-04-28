@@ -209,7 +209,7 @@ with st.sidebar:
     st.markdown(
         "<div style='color:#9A9A9A;font-size:11px;'>"
         "Tagline: <i>From Context to Action.</i><br/>"
-        "Compliance posture: IL5/IL6 ready · NIPR/SIPR/JWICS deployable · FERPA-equivalent for training records."
+        "Compliance posture: IL5/IL6 ready · NIPR/SIPR/JWICS deployable · Military Education Records governed by the Privacy Act of 1974 (5 U.S.C. § 552a) and DoDI 1322.35 'Military Education Records'."
         "</div>",
         unsafe_allow_html=True,
     )

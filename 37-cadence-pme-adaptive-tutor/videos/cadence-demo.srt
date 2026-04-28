@@ -1,0 +1,39 @@
+1
+00:00:03,021 --> 00:00:08,021
+CADENCE. Adaptive PME tutor for every Marine.
+
+2
+00:00:08,024 --> 00:00:13,024
+PME training problem: one-size-fits-all is not working at the artifact level.
+
+3
+00:00:13,029 --> 00:00:18,029
+Three demo courses. Three Marines. One personalized study plan each.
+
+4
+00:00:18,031 --> 00:00:24,031
+Marine logs in. CADENCE reads their docx submission and last 10 forum posts.
+
+5
+00:00:24,042 --> 00:00:30,042
+Three-stage agent. Read. Analyze. Plan.
+
+6
+00:00:30,100 --> 00:00:38,100
+A Kamiwaza-deployed model drafts the one-page Adaptive Study Plan.
+
+7
+00:00:32,108 --> 00:00:39,108
+Knowledge gaps. Doctrine to review. Three tailored study questions.
+
+8
+00:00:39,118 --> 00:00:45,118
+Seven-day learning targets. Daily action. Rubric-aligned writing tips.
+
+9
+00:00:45,127 --> 00:00:52,127
+Privacy Act of 1974 and DoDI 1322.35. NAVMC 3500 T&R cited. SHA-256 chained. Data stays in the SCIF.
+
+10
+00:00:52,136 --> 00:01:00,136
+Built on the Kamiwaza Stack. From Context to Action. Deploy in hours.

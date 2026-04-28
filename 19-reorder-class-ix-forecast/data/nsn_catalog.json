@@ -1,1602 +1,322 @@
 [
   {
-    "nsn": "4720-01-978-2672",
-    "part_name": "radial tire 395/85R20 (HMMWV)",
+    "nsn": "2610-01-541-1929",
+    "part_name": "radial tire 37x12.5R16.5 (HMMWV)",
     "primary_platform": "HMMWV",
     "subsystem": "tires",
-    "base_daily_per_vehicle": 0.00555,
-    "unit_price_usd": 18500
+    "base_daily_per_vehicle": 0.0034,
+    "unit_price_usd": 295
   },
   {
-    "nsn": "1015-01-728-4188",
-    "part_name": "extractor assembly (LAV)",
-    "primary_platform": "LAV",
-    "subsystem": "weapons",
-    "base_daily_per_vehicle": 0.00336,
-    "unit_price_usd": 18500
+    "nsn": "2610-01-561-7748",
+    "part_name": "radial tire 395/85R20 (MTVR)",
+    "primary_platform": "MTVR",
+    "subsystem": "tires",
+    "base_daily_per_vehicle": 0.0028,
+    "unit_price_usd": 690
   },
   {
-    "nsn": "1240-01-046-2152",
-    "part_name": "armor panel kit (JLTV)",
+    "nsn": "2610-01-647-5106",
+    "part_name": "run-flat radial tire 37x12.5R17 (JLTV)",
     "primary_platform": "JLTV",
-    "subsystem": "armor",
-    "base_daily_per_vehicle": 0.00417,
-    "unit_price_usd": 3200
+    "subsystem": "tires",
+    "base_daily_per_vehicle": 0.0026,
+    "unit_price_usd": 540
   },
   {
-    "nsn": "1240-01-908-2286",
-    "part_name": "ignition coil (LAV)",
+    "nsn": "2610-01-388-2086",
+    "part_name": "tire 12.00R20 (LAV-25 wheels)",
     "primary_platform": "LAV",
-    "subsystem": "electrical",
-    "base_daily_per_vehicle": 0.00644,
-    "unit_price_usd": 850
+    "subsystem": "wheels",
+    "base_daily_per_vehicle": 0.0022,
+    "unit_price_usd": 720
   },
   {
-    "nsn": "4720-01-137-1937",
-    "part_name": "track shoe assembly (M88A2)",
-    "primary_platform": "M88A2",
-    "subsystem": "tracks",
-    "base_daily_per_vehicle": 0.00252,
-    "unit_price_usd": 45
+    "nsn": "2610-01-330-4488",
+    "part_name": "tire valve stem assembly (MTVR)",
+    "primary_platform": "MTVR",
+    "subsystem": "tires",
+    "base_daily_per_vehicle": 0.009,
+    "unit_price_usd": 9
   },
   {
-    "nsn": "2510-01-489-2578",
+    "nsn": "2530-01-466-0822",
+    "part_name": "brake pad set (HMMWV front)",
+    "primary_platform": "HMMWV",
+    "subsystem": "brakes",
+    "base_daily_per_vehicle": 0.0061,
+    "unit_price_usd": 78
+  },
+  {
+    "nsn": "2530-01-621-3107",
     "part_name": "brake rotor (MTVR)",
     "primary_platform": "MTVR",
     "subsystem": "brakes",
-    "base_daily_per_vehicle": 0.00415,
-    "unit_price_usd": 3200
-  },
-  {
-    "nsn": "2920-01-052-7860",
-    "part_name": "winch drum brake (M88A2)",
-    "primary_platform": "M88A2",
-    "subsystem": "winch",
-    "base_daily_per_vehicle": 0.00781,
-    "unit_price_usd": 120
-  },
-  {
-    "nsn": "2930-01-431-9106",
-    "part_name": "ABS sensor (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "brakes",
-    "base_daily_per_vehicle": 0.00235,
-    "unit_price_usd": 3200
-  },
-  {
-    "nsn": "5340-01-486-4362",
-    "part_name": "EGR valve (LAV)",
-    "primary_platform": "LAV",
-    "subsystem": "engine",
-    "base_daily_per_vehicle": 0.01195,
-    "unit_price_usd": 120
-  },
-  {
-    "nsn": "2520-01-347-2827",
-    "part_name": "radial tire 395/85R20 (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "tires",
-    "base_daily_per_vehicle": 0.01094,
-    "unit_price_usd": 18500
-  },
-  {
-    "nsn": "4720-01-241-9888",
-    "part_name": "voltage regulator (LAV)",
-    "primary_platform": "LAV",
-    "subsystem": "electrical",
-    "base_daily_per_vehicle": 0.00478,
-    "unit_price_usd": 850
-  },
-  {
-    "nsn": "2510-01-751-7744",
-    "part_name": "leaf spring (JLTV)",
-    "primary_platform": "JLTV",
-    "subsystem": "suspension",
-    "base_daily_per_vehicle": 0.00261,
-    "unit_price_usd": 850
-  },
-  {
-    "nsn": "2920-01-810-4979",
-    "part_name": "fuel injector (JLTV)",
-    "primary_platform": "JLTV",
-    "subsystem": "engine",
-    "base_daily_per_vehicle": 0.01086,
-    "unit_price_usd": 18500
-  },
-  {
-    "nsn": "6135-01-811-2064",
-    "part_name": "turret drive motor (LAV)",
-    "primary_platform": "LAV",
-    "subsystem": "turret",
-    "base_daily_per_vehicle": 0.00811,
-    "unit_price_usd": 380
-  },
-  {
-    "nsn": "2930-01-221-1612",
-    "part_name": "water pump (JLTV)",
-    "primary_platform": "JLTV",
-    "subsystem": "engine",
-    "base_daily_per_vehicle": 0.0022,
-    "unit_price_usd": 45
-  },
-  {
-    "nsn": "2805-01-982-1971",
-    "part_name": "wheel bearing (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "tires",
-    "base_daily_per_vehicle": 0.00559,
-    "unit_price_usd": 1400
-  },
-  {
-    "nsn": "6135-01-565-1912",
-    "part_name": "water pump (JLTV)",
-    "primary_platform": "JLTV",
-    "subsystem": "engine",
-    "base_daily_per_vehicle": 0.00376,
-    "unit_price_usd": 45
-  },
-  {
-    "nsn": "2510-01-814-9030",
-    "part_name": "master cylinder (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "brakes",
-    "base_daily_per_vehicle": 0.00488,
-    "unit_price_usd": 45
-  },
-  {
-    "nsn": "1015-01-926-1747",
-    "part_name": "track shoe assembly (M88A2)",
-    "primary_platform": "M88A2",
-    "subsystem": "tracks",
-    "base_daily_per_vehicle": 0.0068,
-    "unit_price_usd": 120
-  },
-  {
-    "nsn": "2540-01-913-5154",
-    "part_name": "torque converter (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "transmission",
-    "base_daily_per_vehicle": 0.00644,
-    "unit_price_usd": 3200
-  },
-  {
-    "nsn": "1015-01-370-9876",
-    "part_name": "shift solenoid (LAV)",
-    "primary_platform": "LAV",
-    "subsystem": "transmission",
-    "base_daily_per_vehicle": 0.00555,
-    "unit_price_usd": 1400
-  },
-  {
-    "nsn": "2510-01-507-7842",
-    "part_name": "turret bearing race (LAV)",
-    "primary_platform": "LAV",
-    "subsystem": "turret",
-    "base_daily_per_vehicle": 0.00939,
-    "unit_price_usd": 45
-  },
-  {
-    "nsn": "2510-01-666-7721",
-    "part_name": "high-pressure hose (MTVR)",
-    "primary_platform": "MTVR",
-    "subsystem": "hydraulics",
-    "base_daily_per_vehicle": 0.01131,
-    "unit_price_usd": 120
-  },
-  {
-    "nsn": "4720-01-983-2587",
-    "part_name": "ball joint (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "suspension",
-    "base_daily_per_vehicle": 0.00582,
-    "unit_price_usd": 380
-  },
-  {
-    "nsn": "1015-01-699-7966",
-    "part_name": "voltage regulator (JLTV)",
-    "primary_platform": "JLTV",
-    "subsystem": "electrical",
-    "base_daily_per_vehicle": 0.00174,
-    "unit_price_usd": 120
-  },
-  {
-    "nsn": "2930-01-933-0269",
-    "part_name": "hydraulic pump (M88A2)",
-    "primary_platform": "M88A2",
-    "subsystem": "hydraulics",
-    "base_daily_per_vehicle": 0.00277,
-    "unit_price_usd": 7800
-  },
-  {
-    "nsn": "2520-01-212-4381",
-    "part_name": "wheel bearing (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "tires",
-    "base_daily_per_vehicle": 0.00174,
-    "unit_price_usd": 45
-  },
-  {
-    "nsn": "1015-01-374-1231",
-    "part_name": "EGR valve (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "engine",
-    "base_daily_per_vehicle": 0.00197,
-    "unit_price_usd": 850
-  },
-  {
-    "nsn": "2540-01-754-9512",
-    "part_name": "transfer case seal (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "transmission",
-    "base_daily_per_vehicle": 0.00913,
-    "unit_price_usd": 3200
-  },
-  {
-    "nsn": "1240-01-957-8759",
-    "part_name": "torsion bar (M88A2)",
-    "primary_platform": "M88A2",
-    "subsystem": "tracks",
-    "base_daily_per_vehicle": 0.00682,
-    "unit_price_usd": 120
-  },
-  {
-    "nsn": "2805-01-581-2257",
-    "part_name": "leaf spring (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "suspension",
-    "base_daily_per_vehicle": 0.00874,
-    "unit_price_usd": 850
-  },
-  {
-    "nsn": "5340-01-944-9384",
-    "part_name": "hydraulic filter (M88A2)",
-    "primary_platform": "M88A2",
-    "subsystem": "hydraulics",
-    "base_daily_per_vehicle": 0.00424,
-    "unit_price_usd": 850
-  },
-  {
-    "nsn": "2930-01-155-5957",
-    "part_name": "boom pivot pin (M88A2)",
-    "primary_platform": "M88A2",
-    "subsystem": "boom",
-    "base_daily_per_vehicle": 0.01023,
-    "unit_price_usd": 45
-  },
-  {
-    "nsn": "6135-01-754-4440",
-    "part_name": "starter motor (M88A2)",
-    "primary_platform": "M88A2",
-    "subsystem": "engine",
-    "base_daily_per_vehicle": 0.00629,
-    "unit_price_usd": 18500
-  },
-  {
-    "nsn": "5305-01-456-7927",
-    "part_name": "tire valve stem (JLTV)",
-    "primary_platform": "JLTV",
-    "subsystem": "tires",
-    "base_daily_per_vehicle": 0.01079,
-    "unit_price_usd": 7800
-  },
-  {
-    "nsn": "1240-01-436-2591",
-    "part_name": "fuel injector (LAV)",
-    "primary_platform": "LAV",
-    "subsystem": "engine",
-    "base_daily_per_vehicle": 0.008,
-    "unit_price_usd": 45
-  },
-  {
-    "nsn": "2805-01-246-1340",
-    "part_name": "turret drive motor (LAV)",
-    "primary_platform": "LAV",
-    "subsystem": "turret",
-    "base_daily_per_vehicle": 0.00465,
-    "unit_price_usd": 380
-  },
-  {
-    "nsn": "2805-01-781-7695",
-    "part_name": "ballistic glass insert (JLTV)",
-    "primary_platform": "JLTV",
-    "subsystem": "armor",
-    "base_daily_per_vehicle": 0.00629,
-    "unit_price_usd": 3200
-  },
-  {
-    "nsn": "2520-01-515-7373",
-    "part_name": "oil cooler (LAV)",
-    "primary_platform": "LAV",
-    "subsystem": "engine",
-    "base_daily_per_vehicle": 0.00513,
-    "unit_price_usd": 7800
-  },
-  {
-    "nsn": "2540-01-382-3157",
-    "part_name": "tire pressure sensor (MTVR)",
-    "primary_platform": "MTVR",
-    "subsystem": "tires",
-    "base_daily_per_vehicle": 0.00851,
-    "unit_price_usd": 7800
-  },
-  {
-    "nsn": "1015-01-358-0233",
-    "part_name": "underbody armor plate (JLTV)",
-    "primary_platform": "JLTV",
-    "subsystem": "armor",
-    "base_daily_per_vehicle": 0.00782,
-    "unit_price_usd": 1400
-  },
-  {
-    "nsn": "1015-01-195-6632",
-    "part_name": "clutch pack (LAV)",
-    "primary_platform": "LAV",
-    "subsystem": "transmission",
-    "base_daily_per_vehicle": 0.00619,
-    "unit_price_usd": 45
-  },
-  {
-    "nsn": "1015-01-593-1297",
-    "part_name": "torsion bar (M88A2)",
-    "primary_platform": "M88A2",
-    "subsystem": "tracks",
-    "base_daily_per_vehicle": 0.00333,
-    "unit_price_usd": 120
-  },
-  {
-    "nsn": "2805-01-973-6186",
-    "part_name": "armor panel kit (JLTV)",
-    "primary_platform": "JLTV",
-    "subsystem": "armor",
-    "base_daily_per_vehicle": 0.00332,
-    "unit_price_usd": 1400
-  },
-  {
-    "nsn": "1015-01-994-1775",
-    "part_name": "brake pad set (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "brakes",
-    "base_daily_per_vehicle": 0.01064,
-    "unit_price_usd": 45
-  },
-  {
-    "nsn": "5895-01-361-8441",
-    "part_name": "barrel assembly M242 (LAV)",
-    "primary_platform": "LAV",
-    "subsystem": "weapons",
-    "base_daily_per_vehicle": 0.00671,
-    "unit_price_usd": 45
-  },
-  {
-    "nsn": "5340-01-547-6791",
-    "part_name": "boom hoist cable (M88A2)",
-    "primary_platform": "M88A2",
-    "subsystem": "boom",
-    "base_daily_per_vehicle": 0.00378,
-    "unit_price_usd": 850
-  },
-  {
-    "nsn": "4720-01-244-1105",
-    "part_name": "underbody armor plate (JLTV)",
-    "primary_platform": "JLTV",
-    "subsystem": "armor",
-    "base_daily_per_vehicle": 0.00813,
-    "unit_price_usd": 380
-  },
-  {
-    "nsn": "2520-01-938-3234",
-    "part_name": "ballistic glass insert (JLTV)",
-    "primary_platform": "JLTV",
-    "subsystem": "armor",
-    "base_daily_per_vehicle": 0.01059,
-    "unit_price_usd": 850
-  },
-  {
-    "nsn": "1240-01-798-9791",
-    "part_name": "EGR valve (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "engine",
-    "base_daily_per_vehicle": 0.00434,
-    "unit_price_usd": 3200
-  },
-  {
-    "nsn": "2510-01-836-5557",
-    "part_name": "high-pressure hose (MTVR)",
-    "primary_platform": "MTVR",
-    "subsystem": "hydraulics",
-    "base_daily_per_vehicle": 0.0018,
-    "unit_price_usd": 45
-  },
-  {
-    "nsn": "6135-01-101-5325",
-    "part_name": "clutch pack (MTVR)",
-    "primary_platform": "MTVR",
-    "subsystem": "transmission",
-    "base_daily_per_vehicle": 0.00093,
-    "unit_price_usd": 1400
-  },
-  {
-    "nsn": "1240-01-114-2346",
-    "part_name": "torque converter (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "transmission",
-    "base_daily_per_vehicle": 0.0028,
-    "unit_price_usd": 18500
-  },
-  {
-    "nsn": "1240-01-389-1011",
-    "part_name": "torque converter (LAV)",
-    "primary_platform": "LAV",
-    "subsystem": "transmission",
-    "base_daily_per_vehicle": 0.0093,
-    "unit_price_usd": 850
-  },
-  {
-    "nsn": "5895-01-756-8588",
-    "part_name": "clutch pack (MTVR)",
-    "primary_platform": "MTVR",
-    "subsystem": "transmission",
-    "base_daily_per_vehicle": 0.00117,
-    "unit_price_usd": 120
-  },
-  {
-    "nsn": "5895-01-215-1191",
-    "part_name": "track pin (M88A2)",
-    "primary_platform": "M88A2",
-    "subsystem": "tracks",
-    "base_daily_per_vehicle": 0.00462,
-    "unit_price_usd": 7800
-  },
-  {
-    "nsn": "5340-01-121-9390",
-    "part_name": "reservoir cap (MTVR)",
-    "primary_platform": "MTVR",
-    "subsystem": "hydraulics",
-    "base_daily_per_vehicle": 0.00394,
-    "unit_price_usd": 1400
-  },
-  {
-    "nsn": "4720-01-395-4466",
-    "part_name": "brake caliper (MTVR)",
-    "primary_platform": "MTVR",
-    "subsystem": "brakes",
-    "base_daily_per_vehicle": 0.00862,
-    "unit_price_usd": 850
-  },
-  {
-    "nsn": "2930-01-616-5419",
-    "part_name": "radial tire 395/85R20 (JLTV)",
-    "primary_platform": "JLTV",
-    "subsystem": "tires",
-    "base_daily_per_vehicle": 0.00961,
-    "unit_price_usd": 45
-  },
-  {
-    "nsn": "1240-01-821-3032",
-    "part_name": "starter motor (MTVR)",
-    "primary_platform": "MTVR",
-    "subsystem": "engine",
-    "base_daily_per_vehicle": 0.00097,
-    "unit_price_usd": 120
-  },
-  {
-    "nsn": "5340-01-007-8942",
-    "part_name": "EGR valve (LAV)",
-    "primary_platform": "LAV",
-    "subsystem": "engine",
-    "base_daily_per_vehicle": 0.00849,
-    "unit_price_usd": 120
-  },
-  {
-    "nsn": "2510-01-548-8057",
-    "part_name": "oil cooler (LAV)",
-    "primary_platform": "LAV",
-    "subsystem": "engine",
-    "base_daily_per_vehicle": 0.00217,
-    "unit_price_usd": 850
-  },
-  {
-    "nsn": "2805-01-304-5515",
-    "part_name": "ABS sensor (MTVR)",
-    "primary_platform": "MTVR",
-    "subsystem": "brakes",
-    "base_daily_per_vehicle": 0.00416,
-    "unit_price_usd": 380
-  },
-  {
-    "nsn": "2815-01-818-7605",
-    "part_name": "shock absorber (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "suspension",
-    "base_daily_per_vehicle": 0.00135,
-    "unit_price_usd": 120
-  },
-  {
-    "nsn": "1240-01-447-5454",
-    "part_name": "master cylinder (MTVR)",
-    "primary_platform": "MTVR",
-    "subsystem": "brakes",
-    "base_daily_per_vehicle": 0.01101,
-    "unit_price_usd": 120
-  },
-  {
-    "nsn": "1240-01-525-1586",
-    "part_name": "starter motor (LAV)",
-    "primary_platform": "LAV",
-    "subsystem": "engine",
-    "base_daily_per_vehicle": 0.0032,
-    "unit_price_usd": 380
-  },
-  {
-    "nsn": "2930-01-183-8254",
-    "part_name": "tire pressure sensor (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "tires",
-    "base_daily_per_vehicle": 0.00328,
-    "unit_price_usd": 18500
-  },
-  {
-    "nsn": "2920-01-394-5354",
-    "part_name": "wiring harness (MTVR)",
-    "primary_platform": "MTVR",
-    "subsystem": "electrical",
-    "base_daily_per_vehicle": 0.00635,
-    "unit_price_usd": 850
-  },
-  {
-    "nsn": "1240-01-771-0427",
-    "part_name": "tire valve stem (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "tires",
-    "base_daily_per_vehicle": 0.00526,
-    "unit_price_usd": 18500
-  },
-  {
-    "nsn": "2930-01-044-3002",
-    "part_name": "transmission filter (JLTV)",
-    "primary_platform": "JLTV",
-    "subsystem": "transmission",
-    "base_daily_per_vehicle": 0.00592,
-    "unit_price_usd": 1400
-  },
-  {
-    "nsn": "1015-01-627-0272",
-    "part_name": "radial tire 395/85R20 (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "tires",
-    "base_daily_per_vehicle": 0.00134,
-    "unit_price_usd": 18500
-  },
-  {
-    "nsn": "2510-01-509-1086",
-    "part_name": "brake pad set (MTVR)",
-    "primary_platform": "MTVR",
-    "subsystem": "brakes",
-    "base_daily_per_vehicle": 0.00705,
-    "unit_price_usd": 45
-  },
-  {
-    "nsn": "6135-01-115-9685",
-    "part_name": "fuel pump (JLTV)",
-    "primary_platform": "JLTV",
-    "subsystem": "engine",
-    "base_daily_per_vehicle": 0.01026,
-    "unit_price_usd": 120
-  },
-  {
-    "nsn": "2520-01-813-3214",
-    "part_name": "transfer case seal (MTVR)",
-    "primary_platform": "MTVR",
-    "subsystem": "transmission",
-    "base_daily_per_vehicle": 0.01153,
-    "unit_price_usd": 45
-  },
-  {
-    "nsn": "1015-01-918-3608",
-    "part_name": "oil cooler (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "engine",
-    "base_daily_per_vehicle": 0.00568,
-    "unit_price_usd": 3200
-  },
-  {
-    "nsn": "2930-01-066-8465",
-    "part_name": "wiring harness (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "electrical",
-    "base_daily_per_vehicle": 0.00924,
-    "unit_price_usd": 1400
-  },
-  {
-    "nsn": "1240-01-124-0868",
-    "part_name": "shock absorber (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "suspension",
-    "base_daily_per_vehicle": 0.00542,
-    "unit_price_usd": 18500
-  },
-  {
-    "nsn": "2520-01-939-8471",
-    "part_name": "brake pad set (MTVR)",
-    "primary_platform": "MTVR",
-    "subsystem": "brakes",
-    "base_daily_per_vehicle": 0.00498,
-    "unit_price_usd": 850
-  },
-  {
-    "nsn": "2930-01-018-2865",
-    "part_name": "voltage regulator (JLTV)",
-    "primary_platform": "JLTV",
-    "subsystem": "electrical",
-    "base_daily_per_vehicle": 0.01187,
-    "unit_price_usd": 120
-  },
-  {
-    "nsn": "1015-01-131-5267",
-    "part_name": "transmission filter (MTVR)",
-    "primary_platform": "MTVR",
-    "subsystem": "transmission",
-    "base_daily_per_vehicle": 0.0013,
-    "unit_price_usd": 120
-  },
-  {
-    "nsn": "5340-01-066-2423",
-    "part_name": "water pump (M88A2)",
-    "primary_platform": "M88A2",
-    "subsystem": "engine",
-    "base_daily_per_vehicle": 0.00807,
-    "unit_price_usd": 3200
-  },
-  {
-    "nsn": "5340-01-298-6938",
-    "part_name": "transmission filter (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "transmission",
-    "base_daily_per_vehicle": 0.01063,
-    "unit_price_usd": 1400
-  },
-  {
-    "nsn": "2805-01-893-6657",
-    "part_name": "drive shaft U-joint (JLTV)",
-    "primary_platform": "JLTV",
-    "subsystem": "transmission",
-    "base_daily_per_vehicle": 0.00986,
-    "unit_price_usd": 120
-  },
-  {
-    "nsn": "2930-01-974-7358",
-    "part_name": "elevation gear (LAV)",
-    "primary_platform": "LAV",
-    "subsystem": "turret",
-    "base_daily_per_vehicle": 0.01192,
-    "unit_price_usd": 1400
-  },
-  {
-    "nsn": "2805-01-140-7768",
-    "part_name": "lug nut set (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "tires",
-    "base_daily_per_vehicle": 0.00543,
-    "unit_price_usd": 850
-  },
-  {
-    "nsn": "1240-01-811-0409",
-    "part_name": "clutch pack (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "transmission",
-    "base_daily_per_vehicle": 0.00867,
-    "unit_price_usd": 18500
-  },
-  {
-    "nsn": "4720-01-832-4651",
-    "part_name": "water pump (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "engine",
-    "base_daily_per_vehicle": 0.00586,
-    "unit_price_usd": 7800
-  },
-  {
-    "nsn": "2805-01-066-1716",
-    "part_name": "boom pivot pin (M88A2)",
-    "primary_platform": "M88A2",
-    "subsystem": "boom",
-    "base_daily_per_vehicle": 0.00743,
-    "unit_price_usd": 18500
-  },
-  {
-    "nsn": "2815-01-556-2498",
-    "part_name": "headlight assembly (MTVR)",
-    "primary_platform": "MTVR",
-    "subsystem": "electrical",
-    "base_daily_per_vehicle": 0.00748,
-    "unit_price_usd": 18500
-  },
-  {
-    "nsn": "2805-01-686-0165",
-    "part_name": "lug nut set (MTVR)",
-    "primary_platform": "MTVR",
-    "subsystem": "tires",
-    "base_daily_per_vehicle": 0.01102,
-    "unit_price_usd": 850
-  },
-  {
-    "nsn": "2520-01-686-3491",
-    "part_name": "winch cable 200ft (M88A2)",
-    "primary_platform": "M88A2",
-    "subsystem": "winch",
-    "base_daily_per_vehicle": 0.01091,
-    "unit_price_usd": 1400
-  },
-  {
-    "nsn": "2510-01-432-0204",
-    "part_name": "ABS sensor (MTVR)",
-    "primary_platform": "MTVR",
-    "subsystem": "brakes",
-    "base_daily_per_vehicle": 0.00556,
-    "unit_price_usd": 120
-  },
-  {
-    "nsn": "2520-01-867-1430",
-    "part_name": "ball joint (JLTV)",
-    "primary_platform": "JLTV",
-    "subsystem": "suspension",
-    "base_daily_per_vehicle": 0.00458,
-    "unit_price_usd": 3200
-  },
-  {
-    "nsn": "2930-01-529-3465",
-    "part_name": "water pump (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "engine",
-    "base_daily_per_vehicle": 0.0099,
-    "unit_price_usd": 850
-  },
-  {
-    "nsn": "2540-01-428-0563",
-    "part_name": "brake line (MTVR)",
-    "primary_platform": "MTVR",
-    "subsystem": "brakes",
-    "base_daily_per_vehicle": 0.00585,
-    "unit_price_usd": 3200
-  },
-  {
-    "nsn": "2920-01-041-1366",
-    "part_name": "brake line (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "brakes",
-    "base_daily_per_vehicle": 0.00636,
-    "unit_price_usd": 380
-  },
-  {
-    "nsn": "5895-01-632-1243",
-    "part_name": "wiring harness (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "electrical",
-    "base_daily_per_vehicle": 0.00917,
-    "unit_price_usd": 1400
-  },
-  {
-    "nsn": "2520-01-133-2914",
-    "part_name": "elevation gear (LAV)",
-    "primary_platform": "LAV",
-    "subsystem": "turret",
-    "base_daily_per_vehicle": 0.01183,
-    "unit_price_usd": 7800
-  },
-  {
-    "nsn": "1240-01-546-5686",
-    "part_name": "wheel bearing (MTVR)",
-    "primary_platform": "MTVR",
-    "subsystem": "tires",
-    "base_daily_per_vehicle": 0.00333,
-    "unit_price_usd": 45
-  },
-  {
-    "nsn": "2805-01-085-1000",
-    "part_name": "headlight assembly (M88A2)",
-    "primary_platform": "M88A2",
-    "subsystem": "electrical",
-    "base_daily_per_vehicle": 0.00116,
-    "unit_price_usd": 45
-  },
-  {
-    "nsn": "2540-01-351-8514",
-    "part_name": "headlight assembly (MTVR)",
-    "primary_platform": "MTVR",
-    "subsystem": "electrical",
-    "base_daily_per_vehicle": 0.00486,
-    "unit_price_usd": 18500
-  },
-  {
-    "nsn": "2930-01-479-4409",
-    "part_name": "battery 6TL (M88A2)",
-    "primary_platform": "M88A2",
-    "subsystem": "electrical",
-    "base_daily_per_vehicle": 0.01118,
-    "unit_price_usd": 850
-  },
-  {
-    "nsn": "5340-01-612-3430",
-    "part_name": "alternator (M88A2)",
-    "primary_platform": "M88A2",
-    "subsystem": "engine",
-    "base_daily_per_vehicle": 0.00594,
-    "unit_price_usd": 7800
-  },
-  {
-    "nsn": "2805-01-780-2990",
-    "part_name": "tire valve stem (MTVR)",
-    "primary_platform": "MTVR",
-    "subsystem": "tires",
-    "base_daily_per_vehicle": 0.00652,
-    "unit_price_usd": 45
-  },
-  {
-    "nsn": "6135-01-540-6946",
-    "part_name": "brake caliper (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "brakes",
-    "base_daily_per_vehicle": 0.01174,
-    "unit_price_usd": 45
-  },
-  {
-    "nsn": "5340-01-848-9580",
-    "part_name": "hydraulic filter (MTVR)",
-    "primary_platform": "MTVR",
-    "subsystem": "hydraulics",
-    "base_daily_per_vehicle": 0.00285,
-    "unit_price_usd": 850
-  },
-  {
-    "nsn": "2815-01-020-3391",
-    "part_name": "fuel pump (MTVR)",
-    "primary_platform": "MTVR",
-    "subsystem": "engine",
-    "base_daily_per_vehicle": 0.00973,
-    "unit_price_usd": 45
-  },
-  {
-    "nsn": "6135-01-116-7829",
-    "part_name": "armor panel kit (JLTV)",
-    "primary_platform": "JLTV",
-    "subsystem": "armor",
-    "base_daily_per_vehicle": 0.01148,
-    "unit_price_usd": 18500
-  },
-  {
-    "nsn": "2920-01-185-3728",
-    "part_name": "control arm bushing (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "suspension",
-    "base_daily_per_vehicle": 0.00905,
-    "unit_price_usd": 380
-  },
-  {
-    "nsn": "5340-01-850-4697",
-    "part_name": "leaf spring (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "suspension",
-    "base_daily_per_vehicle": 0.00572,
-    "unit_price_usd": 380
-  },
-  {
-    "nsn": "2520-01-463-4970",
-    "part_name": "radial tire 395/85R20 (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "tires",
-    "base_daily_per_vehicle": 0.01,
-    "unit_price_usd": 120
-  },
-  {
-    "nsn": "2815-01-810-4742",
-    "part_name": "voltage regulator (M88A2)",
-    "primary_platform": "M88A2",
-    "subsystem": "electrical",
-    "base_daily_per_vehicle": 0.00727,
-    "unit_price_usd": 1400
-  },
-  {
-    "nsn": "2920-01-749-4566",
-    "part_name": "wheel bearing (JLTV)",
-    "primary_platform": "JLTV",
-    "subsystem": "tires",
-    "base_daily_per_vehicle": 0.00435,
-    "unit_price_usd": 380
-  },
-  {
-    "nsn": "1015-01-711-6478",
-    "part_name": "tie-rod end (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "suspension",
-    "base_daily_per_vehicle": 0.01099,
-    "unit_price_usd": 7800
-  },
-  {
-    "nsn": "2805-01-042-4953",
-    "part_name": "tire 12.00R20 (LAV)",
-    "primary_platform": "LAV",
-    "subsystem": "wheels",
-    "base_daily_per_vehicle": 0.01145,
-    "unit_price_usd": 120
-  },
-  {
-    "nsn": "5895-01-998-5204",
-    "part_name": "ball joint (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "suspension",
-    "base_daily_per_vehicle": 0.01129,
-    "unit_price_usd": 120
-  },
-  {
-    "nsn": "1015-01-416-0514",
-    "part_name": "wheel bearing (MTVR)",
-    "primary_platform": "MTVR",
-    "subsystem": "tires",
-    "base_daily_per_vehicle": 0.00332,
-    "unit_price_usd": 380
-  },
-  {
-    "nsn": "2920-01-356-4725",
-    "part_name": "wheel bearing (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "tires",
-    "base_daily_per_vehicle": 0.00363,
-    "unit_price_usd": 7800
-  },
-  {
-    "nsn": "2815-01-387-9595",
-    "part_name": "clutch pack (JLTV)",
-    "primary_platform": "JLTV",
-    "subsystem": "transmission",
-    "base_daily_per_vehicle": 0.00919,
-    "unit_price_usd": 7800
-  },
-  {
-    "nsn": "2540-01-353-5231",
-    "part_name": "shift solenoid (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "transmission",
-    "base_daily_per_vehicle": 0.00592,
-    "unit_price_usd": 18500
-  },
-  {
-    "nsn": "2510-01-174-1762",
-    "part_name": "transfer case seal (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "transmission",
-    "base_daily_per_vehicle": 0.01186,
-    "unit_price_usd": 45
-  },
-  {
-    "nsn": "5305-01-030-9864",
-    "part_name": "transmission filter (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "transmission",
-    "base_daily_per_vehicle": 0.00841,
-    "unit_price_usd": 3200
-  },
-  {
-    "nsn": "2510-01-602-1212",
-    "part_name": "boom hydraulic ram (M88A2)",
-    "primary_platform": "M88A2",
-    "subsystem": "boom",
-    "base_daily_per_vehicle": 0.0108,
-    "unit_price_usd": 45
-  },
-  {
-    "nsn": "2805-01-740-4177",
-    "part_name": "ball joint (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "suspension",
-    "base_daily_per_vehicle": 0.00342,
-    "unit_price_usd": 7800
-  },
-  {
-    "nsn": "2920-01-384-1318",
-    "part_name": "alternator (MTVR)",
-    "primary_platform": "MTVR",
-    "subsystem": "engine",
-    "base_daily_per_vehicle": 0.00863,
-    "unit_price_usd": 7800
-  },
-  {
-    "nsn": "5340-01-619-6425",
-    "part_name": "clutch pack (JLTV)",
-    "primary_platform": "JLTV",
-    "subsystem": "transmission",
-    "base_daily_per_vehicle": 0.00764,
-    "unit_price_usd": 7800
-  },
-  {
-    "nsn": "6135-01-101-8294",
-    "part_name": "track shoe assembly (M88A2)",
-    "primary_platform": "M88A2",
-    "subsystem": "tracks",
-    "base_daily_per_vehicle": 0.00387,
-    "unit_price_usd": 380
-  },
-  {
-    "nsn": "2510-01-923-8946",
-    "part_name": "wheel hub assembly (LAV)",
-    "primary_platform": "LAV",
-    "subsystem": "wheels",
-    "base_daily_per_vehicle": 0.00515,
-    "unit_price_usd": 1400
-  },
-  {
-    "nsn": "2920-01-285-0146",
-    "part_name": "water pump (MTVR)",
-    "primary_platform": "MTVR",
-    "subsystem": "engine",
-    "base_daily_per_vehicle": 0.01029,
-    "unit_price_usd": 380
-  },
-  {
-    "nsn": "5895-01-059-3922",
-    "part_name": "ignition coil (M88A2)",
-    "primary_platform": "M88A2",
-    "subsystem": "electrical",
-    "base_daily_per_vehicle": 0.00271,
-    "unit_price_usd": 45
-  },
-  {
-    "nsn": "4720-01-391-9567",
-    "part_name": "boom hoist cable (M88A2)",
-    "primary_platform": "M88A2",
-    "subsystem": "boom",
-    "base_daily_per_vehicle": 0.00701,
-    "unit_price_usd": 3200
-  },
-  {
-    "nsn": "2920-01-524-7642",
-    "part_name": "hydraulic pump (MTVR)",
-    "primary_platform": "MTVR",
-    "subsystem": "hydraulics",
-    "base_daily_per_vehicle": 0.00616,
-    "unit_price_usd": 7800
-  },
-  {
-    "nsn": "5340-01-866-8607",
-    "part_name": "drive shaft U-joint (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "transmission",
-    "base_daily_per_vehicle": 0.00748,
-    "unit_price_usd": 1400
-  },
-  {
-    "nsn": "2520-01-119-0552",
-    "part_name": "drive sprocket (M88A2)",
-    "primary_platform": "M88A2",
-    "subsystem": "tracks",
-    "base_daily_per_vehicle": 0.00577,
-    "unit_price_usd": 1400
-  },
-  {
-    "nsn": "2920-01-229-8395",
-    "part_name": "headlight assembly (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "electrical",
-    "base_daily_per_vehicle": 0.00104,
-    "unit_price_usd": 380
-  },
-  {
-    "nsn": "5340-01-143-9017",
-    "part_name": "ECM module (LAV)",
-    "primary_platform": "LAV",
-    "subsystem": "electrical",
-    "base_daily_per_vehicle": 0.00979,
-    "unit_price_usd": 380
-  },
-  {
-    "nsn": "2920-01-435-7562",
-    "part_name": "brake caliper (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "brakes",
-    "base_daily_per_vehicle": 0.00565,
-    "unit_price_usd": 380
-  },
-  {
-    "nsn": "2920-01-349-6679",
-    "part_name": "transfer case seal (LAV)",
-    "primary_platform": "LAV",
-    "subsystem": "transmission",
-    "base_daily_per_vehicle": 0.00368,
-    "unit_price_usd": 380
-  },
-  {
-    "nsn": "2520-01-464-8575",
-    "part_name": "battery 6TL (M88A2)",
-    "primary_platform": "M88A2",
-    "subsystem": "electrical",
-    "base_daily_per_vehicle": 0.00547,
-    "unit_price_usd": 1400
-  },
-  {
-    "nsn": "4720-01-054-5652",
-    "part_name": "shift solenoid (MTVR)",
-    "primary_platform": "MTVR",
-    "subsystem": "transmission",
-    "base_daily_per_vehicle": 0.00315,
-    "unit_price_usd": 45
-  },
-  {
-    "nsn": "2930-01-489-9259",
-    "part_name": "boom hydraulic ram (M88A2)",
-    "primary_platform": "M88A2",
-    "subsystem": "boom",
-    "base_daily_per_vehicle": 0.0104,
-    "unit_price_usd": 1400
-  },
-  {
-    "nsn": "2920-01-164-0395",
-    "part_name": "voltage regulator (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "electrical",
-    "base_daily_per_vehicle": 0.00597,
-    "unit_price_usd": 7800
-  },
-  {
-    "nsn": "2510-01-623-5386",
-    "part_name": "feed chute (LAV)",
-    "primary_platform": "LAV",
-    "subsystem": "weapons",
-    "base_daily_per_vehicle": 0.00667,
-    "unit_price_usd": 45
-  },
-  {
-    "nsn": "2520-01-318-7485",
-    "part_name": "brake caliper (MTVR)",
-    "primary_platform": "MTVR",
-    "subsystem": "brakes",
-    "base_daily_per_vehicle": 0.00919,
-    "unit_price_usd": 45
-  },
-  {
-    "nsn": "6135-01-211-1537",
-    "part_name": "fuel pump (M88A2)",
-    "primary_platform": "M88A2",
-    "subsystem": "engine",
-    "base_daily_per_vehicle": 0.00961,
-    "unit_price_usd": 120
-  },
-  {
-    "nsn": "5895-01-079-0488",
-    "part_name": "water pump (JLTV)",
-    "primary_platform": "JLTV",
-    "subsystem": "engine",
-    "base_daily_per_vehicle": 0.00593,
-    "unit_price_usd": 3200
-  },
-  {
-    "nsn": "2930-01-359-0792",
-    "part_name": "battery 6TL (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "electrical",
-    "base_daily_per_vehicle": 0.00932,
-    "unit_price_usd": 18500
-  },
-  {
-    "nsn": "2805-01-124-3931",
-    "part_name": "hydraulic filter (MTVR)",
-    "primary_platform": "MTVR",
-    "subsystem": "hydraulics",
-    "base_daily_per_vehicle": 0.00714,
-    "unit_price_usd": 18500
-  },
-  {
-    "nsn": "2920-01-663-9435",
-    "part_name": "shock absorber (JLTV)",
-    "primary_platform": "JLTV",
-    "subsystem": "suspension",
-    "base_daily_per_vehicle": 0.00747,
-    "unit_price_usd": 850
-  },
-  {
-    "nsn": "2520-01-255-1799",
-    "part_name": "wheel stud (LAV)",
-    "primary_platform": "LAV",
-    "subsystem": "wheels",
-    "base_daily_per_vehicle": 0.00592,
-    "unit_price_usd": 45
-  },
-  {
-    "nsn": "5305-01-495-4204",
-    "part_name": "headlight assembly (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "electrical",
-    "base_daily_per_vehicle": 0.01029,
-    "unit_price_usd": 1400
-  },
-  {
-    "nsn": "1015-01-915-2481",
-    "part_name": "battery 6TL (LAV)",
-    "primary_platform": "LAV",
-    "subsystem": "electrical",
-    "base_daily_per_vehicle": 0.0072,
-    "unit_price_usd": 120
-  },
-  {
-    "nsn": "2930-01-757-1388",
-    "part_name": "drive shaft U-joint (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "transmission",
-    "base_daily_per_vehicle": 0.00806,
-    "unit_price_usd": 120
-  },
-  {
-    "nsn": "2920-01-397-7655",
-    "part_name": "tire pressure sensor (JLTV)",
-    "primary_platform": "JLTV",
-    "subsystem": "tires",
-    "base_daily_per_vehicle": 0.01085,
-    "unit_price_usd": 850
-  },
-  {
-    "nsn": "1240-01-558-1822",
-    "part_name": "voltage regulator (LAV)",
-    "primary_platform": "LAV",
-    "subsystem": "electrical",
-    "base_daily_per_vehicle": 0.00163,
-    "unit_price_usd": 850
-  },
-  {
-    "nsn": "4720-01-559-3187",
-    "part_name": "fuel injector (M88A2)",
-    "primary_platform": "M88A2",
-    "subsystem": "engine",
-    "base_daily_per_vehicle": 0.01018,
-    "unit_price_usd": 3200
-  },
-  {
-    "nsn": "4720-01-868-5669",
-    "part_name": "reservoir cap (M88A2)",
-    "primary_platform": "M88A2",
-    "subsystem": "hydraulics",
-    "base_daily_per_vehicle": 0.00153,
-    "unit_price_usd": 1400
-  },
-  {
-    "nsn": "2815-01-791-1435",
-    "part_name": "voltage regulator (JLTV)",
-    "primary_platform": "JLTV",
-    "subsystem": "electrical",
-    "base_daily_per_vehicle": 0.00651,
-    "unit_price_usd": 7800
-  },
-  {
-    "nsn": "2540-01-459-6148",
-    "part_name": "control arm bushing (JLTV)",
-    "primary_platform": "JLTV",
-    "subsystem": "suspension",
-    "base_daily_per_vehicle": 0.00427,
-    "unit_price_usd": 7800
-  },
-  {
-    "nsn": "2540-01-391-4549",
-    "part_name": "ballistic glass insert (JLTV)",
-    "primary_platform": "JLTV",
-    "subsystem": "armor",
-    "base_daily_per_vehicle": 0.00802,
-    "unit_price_usd": 120
-  },
-  {
-    "nsn": "2520-01-002-8588",
-    "part_name": "tire pressure sensor (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "tires",
-    "base_daily_per_vehicle": 0.01149,
-    "unit_price_usd": 18500
-  },
-  {
-    "nsn": "2930-01-843-7698",
-    "part_name": "tie-rod end (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "suspension",
-    "base_daily_per_vehicle": 0.0049,
-    "unit_price_usd": 850
-  },
-  {
-    "nsn": "2930-01-553-7625",
-    "part_name": "control arm bushing (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "suspension",
-    "base_daily_per_vehicle": 0.0042,
-    "unit_price_usd": 18500
-  },
-  {
-    "nsn": "2805-01-107-2368",
-    "part_name": "transfer case seal (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "transmission",
-    "base_daily_per_vehicle": 0.01125,
-    "unit_price_usd": 120
-  },
-  {
-    "nsn": "1015-01-317-2502",
-    "part_name": "starter motor (JLTV)",
-    "primary_platform": "JLTV",
-    "subsystem": "engine",
-    "base_daily_per_vehicle": 0.00816,
-    "unit_price_usd": 3200
-  },
-  {
-    "nsn": "2815-01-865-9588",
-    "part_name": "EGR valve (LAV)",
-    "primary_platform": "LAV",
-    "subsystem": "engine",
-    "base_daily_per_vehicle": 0.00739,
-    "unit_price_usd": 850
-  },
-  {
-    "nsn": "2815-01-927-6267",
-    "part_name": "clutch pack (JLTV)",
-    "primary_platform": "JLTV",
-    "subsystem": "transmission",
-    "base_daily_per_vehicle": 0.00331,
-    "unit_price_usd": 3200
-  },
-  {
-    "nsn": "6135-01-537-1664",
-    "part_name": "actuator cylinder (MTVR)",
-    "primary_platform": "MTVR",
-    "subsystem": "hydraulics",
-    "base_daily_per_vehicle": 0.00569,
-    "unit_price_usd": 380
-  },
-  {
-    "nsn": "1015-01-394-5081",
-    "part_name": "brake pad set (MTVR)",
-    "primary_platform": "MTVR",
-    "subsystem": "brakes",
-    "base_daily_per_vehicle": 0.01067,
-    "unit_price_usd": 45
-  },
-  {
-    "nsn": "5305-01-244-3433",
-    "part_name": "shift solenoid (LAV)",
-    "primary_platform": "LAV",
-    "subsystem": "transmission",
-    "base_daily_per_vehicle": 0.00715,
-    "unit_price_usd": 45
-  },
-  {
-    "nsn": "2510-01-172-6579",
-    "part_name": "turbocharger (JLTV)",
-    "primary_platform": "JLTV",
-    "subsystem": "engine",
-    "base_daily_per_vehicle": 0.00817,
-    "unit_price_usd": 3200
-  },
-  {
-    "nsn": "2805-01-007-6922",
-    "part_name": "shift solenoid (LAV)",
-    "primary_platform": "LAV",
-    "subsystem": "transmission",
-    "base_daily_per_vehicle": 0.00274,
-    "unit_price_usd": 45
-  },
-  {
-    "nsn": "4720-01-670-7503",
-    "part_name": "hydraulic filter (MTVR)",
-    "primary_platform": "MTVR",
-    "subsystem": "hydraulics",
-    "base_daily_per_vehicle": 0.00433,
-    "unit_price_usd": 120
-  },
-  {
-    "nsn": "5895-01-839-3696",
-    "part_name": "cylinder head gasket (LAV)",
-    "primary_platform": "LAV",
-    "subsystem": "engine",
-    "base_daily_per_vehicle": 0.01047,
-    "unit_price_usd": 3200
-  },
-  {
-    "nsn": "2815-01-184-0030",
-    "part_name": "headlight assembly (MTVR)",
-    "primary_platform": "MTVR",
-    "subsystem": "electrical",
-    "base_daily_per_vehicle": 0.00239,
-    "unit_price_usd": 7800
-  },
-  {
-    "nsn": "2930-01-114-7906",
-    "part_name": "turbocharger (JLTV)",
-    "primary_platform": "JLTV",
-    "subsystem": "engine",
-    "base_daily_per_vehicle": 0.00363,
-    "unit_price_usd": 7800
-  },
-  {
-    "nsn": "5340-01-493-8379",
-    "part_name": "ball joint (JLTV)",
-    "primary_platform": "JLTV",
-    "subsystem": "suspension",
-    "base_daily_per_vehicle": 0.0096,
-    "unit_price_usd": 120
-  },
-  {
-    "nsn": "2920-01-246-0451",
-    "part_name": "shock absorber (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "suspension",
-    "base_daily_per_vehicle": 0.00737,
-    "unit_price_usd": 18500
-  },
-  {
-    "nsn": "4720-01-087-6401",
-    "part_name": "battery 6TL (LAV)",
-    "primary_platform": "LAV",
-    "subsystem": "electrical",
-    "base_daily_per_vehicle": 0.01136,
-    "unit_price_usd": 850
-  },
-  {
-    "nsn": "5895-01-843-9996",
-    "part_name": "armor panel kit (JLTV)",
-    "primary_platform": "JLTV",
-    "subsystem": "armor",
-    "base_daily_per_vehicle": 0.01112,
-    "unit_price_usd": 3200
-  },
-  {
-    "nsn": "2805-01-541-2552",
-    "part_name": "track pin (M88A2)",
-    "primary_platform": "M88A2",
-    "subsystem": "tracks",
-    "base_daily_per_vehicle": 0.00786,
-    "unit_price_usd": 1400
-  },
-  {
-    "nsn": "2805-01-786-6170",
-    "part_name": "master cylinder (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "brakes",
-    "base_daily_per_vehicle": 0.00164,
-    "unit_price_usd": 3200
-  },
-  {
-    "nsn": "2805-01-517-4045",
-    "part_name": "ignition coil (LAV)",
-    "primary_platform": "LAV",
-    "subsystem": "electrical",
-    "base_daily_per_vehicle": 0.0036,
-    "unit_price_usd": 18500
-  },
-  {
-    "nsn": "4720-01-008-6506",
-    "part_name": "battery 6TL (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "electrical",
-    "base_daily_per_vehicle": 0.00855,
-    "unit_price_usd": 45
-  },
-  {
-    "nsn": "1240-01-420-8187",
-    "part_name": "firing pin (LAV)",
-    "primary_platform": "LAV",
-    "subsystem": "weapons",
-    "base_daily_per_vehicle": 0.01085,
-    "unit_price_usd": 120
-  },
-  {
-    "nsn": "2815-01-840-6934",
-    "part_name": "wheel bearing (LAV)",
-    "primary_platform": "LAV",
-    "subsystem": "wheels",
-    "base_daily_per_vehicle": 0.00346,
-    "unit_price_usd": 850
-  },
-  {
-    "nsn": "2520-01-902-2766",
-    "part_name": "elevation gear (LAV)",
-    "primary_platform": "LAV",
-    "subsystem": "turret",
-    "base_daily_per_vehicle": 0.00477,
-    "unit_price_usd": 1400
-  },
-  {
-    "nsn": "5340-01-136-8497",
-    "part_name": "winch drum brake (M88A2)",
-    "primary_platform": "M88A2",
-    "subsystem": "winch",
-    "base_daily_per_vehicle": 0.00441,
-    "unit_price_usd": 3200
-  },
-  {
-    "nsn": "6135-01-526-8120",
-    "part_name": "drive sprocket (M88A2)",
-    "primary_platform": "M88A2",
-    "subsystem": "tracks",
-    "base_daily_per_vehicle": 0.00097,
-    "unit_price_usd": 7800
-  },
-  {
-    "nsn": "5340-01-453-9594",
-    "part_name": "master cylinder (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "brakes",
-    "base_daily_per_vehicle": 0.00327,
-    "unit_price_usd": 120
-  },
-  {
-    "nsn": "6135-01-983-9677",
-    "part_name": "firing pin (LAV)",
-    "primary_platform": "LAV",
-    "subsystem": "weapons",
-    "base_daily_per_vehicle": 0.00434,
-    "unit_price_usd": 18500
-  },
-  {
-    "nsn": "2930-01-062-8381",
-    "part_name": "drive shaft U-joint (LAV)",
-    "primary_platform": "LAV",
-    "subsystem": "transmission",
-    "base_daily_per_vehicle": 0.0051,
-    "unit_price_usd": 1400
-  },
-  {
-    "nsn": "2930-01-671-5184",
-    "part_name": "torque converter (MTVR)",
-    "primary_platform": "MTVR",
-    "subsystem": "transmission",
-    "base_daily_per_vehicle": 0.00657,
-    "unit_price_usd": 1400
-  },
-  {
-    "nsn": "5340-01-695-0127",
-    "part_name": "firing pin (LAV)",
-    "primary_platform": "LAV",
-    "subsystem": "weapons",
     "base_daily_per_vehicle": 0.0019,
-    "unit_price_usd": 120
+    "unit_price_usd": 215
   },
   {
-    "nsn": "5895-01-031-1604",
-    "part_name": "starter motor (JLTV)",
+    "nsn": "2530-01-487-5511",
+    "part_name": "hydraulic brake caliper (JLTV)",
+    "primary_platform": "JLTV",
+    "subsystem": "brakes",
+    "base_daily_per_vehicle": 0.0014,
+    "unit_price_usd": 320
+  },
+  {
+    "nsn": "2530-01-356-7711",
+    "part_name": "power steering pump (MTVR)",
+    "primary_platform": "MTVR",
+    "subsystem": "brakes",
+    "base_daily_per_vehicle": 0.0009,
+    "unit_price_usd": 1180
+  },
+  {
+    "nsn": "2530-01-577-9919",
+    "part_name": "tie-rod end assembly (JLTV)",
+    "primary_platform": "JLTV",
+    "subsystem": "suspension",
+    "base_daily_per_vehicle": 0.0021,
+    "unit_price_usd": 95
+  },
+  {
+    "nsn": "2920-01-446-5219",
+    "part_name": "alternator 200A 28V (MTVR)",
+    "primary_platform": "MTVR",
+    "subsystem": "electrical",
+    "base_daily_per_vehicle": 0.0017,
+    "unit_price_usd": 410
+  },
+  {
+    "nsn": "2920-01-396-9234",
+    "part_name": "starter motor 24V (HMMWV)",
+    "primary_platform": "HMMWV",
+    "subsystem": "engine",
+    "base_daily_per_vehicle": 0.0013,
+    "unit_price_usd": 605
+  },
+  {
+    "nsn": "2920-01-432-7789",
+    "part_name": "ignition coil pack (JLTV)",
+    "primary_platform": "JLTV",
+    "subsystem": "electrical",
+    "base_daily_per_vehicle": 0.0024,
+    "unit_price_usd": 145
+  },
+  {
+    "nsn": "2920-01-540-1188",
+    "part_name": "voltage regulator 28V (LAV)",
+    "primary_platform": "LAV",
+    "subsystem": "electrical",
+    "base_daily_per_vehicle": 0.0016,
+    "unit_price_usd": 220
+  },
+  {
+    "nsn": "2920-01-512-6677",
+    "part_name": "ECM engine control module (HMMWV)",
+    "primary_platform": "HMMWV",
+    "subsystem": "electrical",
+    "base_daily_per_vehicle": 0.0007,
+    "unit_price_usd": 1850
+  },
+  {
+    "nsn": "2940-01-389-2196",
+    "part_name": "primary fuel/oil filter element (MTVR)",
+    "primary_platform": "MTVR",
+    "subsystem": "engine",
+    "base_daily_per_vehicle": 0.0095,
+    "unit_price_usd": 24
+  },
+  {
+    "nsn": "2940-01-413-1984",
+    "part_name": "engine air filter element (HMMWV)",
+    "primary_platform": "HMMWV",
+    "subsystem": "engine",
+    "base_daily_per_vehicle": 0.0082,
+    "unit_price_usd": 58
+  },
+  {
+    "nsn": "2940-01-510-2207",
+    "part_name": "transmission oil filter (JLTV)",
+    "primary_platform": "JLTV",
+    "subsystem": "transmission",
+    "base_daily_per_vehicle": 0.0048,
+    "unit_price_usd": 36
+  },
+  {
+    "nsn": "2930-01-477-0631",
+    "part_name": "fuel filter / water separator (MTVR)",
+    "primary_platform": "MTVR",
+    "subsystem": "engine",
+    "base_daily_per_vehicle": 0.007,
+    "unit_price_usd": 47
+  },
+  {
+    "nsn": "2930-01-329-9842",
+    "part_name": "fuel injector (HMMWV 6.5L)",
+    "primary_platform": "HMMWV",
+    "subsystem": "engine",
+    "base_daily_per_vehicle": 0.0033,
+    "unit_price_usd": 305
+  },
+  {
+    "nsn": "2930-01-552-4104",
+    "part_name": "electric fuel pump assembly (JLTV)",
     "primary_platform": "JLTV",
     "subsystem": "engine",
-    "base_daily_per_vehicle": 0.01102,
-    "unit_price_usd": 7800
+    "base_daily_per_vehicle": 0.0014,
+    "unit_price_usd": 480
   },
   {
-    "nsn": "5340-01-478-2923",
-    "part_name": "cylinder head gasket (JLTV)",
-    "primary_platform": "JLTV",
+    "nsn": "2930-01-296-1144",
+    "part_name": "engine water pump (LAV)",
+    "primary_platform": "LAV",
     "subsystem": "engine",
-    "base_daily_per_vehicle": 0.01158,
-    "unit_price_usd": 18500
+    "base_daily_per_vehicle": 0.0011,
+    "unit_price_usd": 360
   },
   {
-    "nsn": "2510-01-833-8042",
-    "part_name": "boom hoist cable (M88A2)",
+    "nsn": "2520-01-449-2287",
+    "part_name": "transfer case assembly (HMMWV)",
+    "primary_platform": "HMMWV",
+    "subsystem": "transmission",
+    "base_daily_per_vehicle": 0.00045,
+    "unit_price_usd": 3450
+  },
+  {
+    "nsn": "2520-01-365-7104",
+    "part_name": "drive shaft U-joint (MTVR)",
+    "primary_platform": "MTVR",
+    "subsystem": "transmission",
+    "base_daily_per_vehicle": 0.0033,
+    "unit_price_usd": 175
+  },
+  {
+    "nsn": "2520-01-528-3166",
+    "part_name": "torque converter (JLTV)",
+    "primary_platform": "JLTV",
+    "subsystem": "transmission",
+    "base_daily_per_vehicle": 0.00055,
+    "unit_price_usd": 2900
+  },
+  {
+    "nsn": "2540-01-565-2210",
+    "part_name": "ballistic glass window panel (JLTV)",
+    "primary_platform": "JLTV",
+    "subsystem": "armor",
+    "base_daily_per_vehicle": 0.0006,
+    "unit_price_usd": 2400
+  },
+  {
+    "nsn": "2540-01-491-7728",
+    "part_name": "underbody armor plate (HMMWV)",
+    "primary_platform": "HMMWV",
+    "subsystem": "armor",
+    "base_daily_per_vehicle": 0.00048,
+    "unit_price_usd": 1850
+  },
+  {
+    "nsn": "3110-01-413-2691",
+    "part_name": "wheel bearing assembly (HMMWV)",
+    "primary_platform": "HMMWV",
+    "subsystem": "tires",
+    "base_daily_per_vehicle": 0.0042,
+    "unit_price_usd": 82
+  },
+  {
+    "nsn": "3110-01-587-2018",
+    "part_name": "wheel bearing race (LAV)",
+    "primary_platform": "LAV",
+    "subsystem": "wheels",
+    "base_daily_per_vehicle": 0.0024,
+    "unit_price_usd": 110
+  },
+  {
+    "nsn": "4720-01-471-9951",
+    "part_name": "high-pressure hydraulic hose 1/2 in. (M88A2)",
     "primary_platform": "M88A2",
-    "subsystem": "boom",
-    "base_daily_per_vehicle": 0.00893,
-    "unit_price_usd": 120
+    "subsystem": "hydraulics",
+    "base_daily_per_vehicle": 0.0061,
+    "unit_price_usd": 95
   },
   {
-    "nsn": "2815-01-762-6652",
-    "part_name": "cylinder head gasket (JLTV)",
+    "nsn": "4720-01-329-4512",
+    "part_name": "coolant hose (MTVR engine)",
+    "primary_platform": "MTVR",
+    "subsystem": "engine",
+    "base_daily_per_vehicle": 0.0044,
+    "unit_price_usd": 38
+  },
+  {
+    "nsn": "2895-01-462-3318",
+    "part_name": "winch cable assembly 200ft (M88A2)",
+    "primary_platform": "M88A2",
+    "subsystem": "winch",
+    "base_daily_per_vehicle": 0.0029,
+    "unit_price_usd": 410
+  },
+  {
+    "nsn": "2815-01-377-2184",
+    "part_name": "cylinder head gasket (HMMWV 6.5L)",
+    "primary_platform": "HMMWV",
+    "subsystem": "engine",
+    "base_daily_per_vehicle": 0.00072,
+    "unit_price_usd": 220
+  },
+  {
+    "nsn": "5305-01-188-1057",
+    "part_name": "machine screw, hex-head 3/8-16 (general)",
+    "primary_platform": "MTVR",
+    "subsystem": "fasteners",
+    "base_daily_per_vehicle": 0.022,
+    "unit_price_usd": 2
+  },
+  {
+    "nsn": "5306-01-204-9033",
+    "part_name": "structural bolt 1/2-13 grade-8 (general)",
     "primary_platform": "JLTV",
-    "subsystem": "engine",
-    "base_daily_per_vehicle": 0.00339,
-    "unit_price_usd": 850
+    "subsystem": "fasteners",
+    "base_daily_per_vehicle": 0.018,
+    "unit_price_usd": 3
   },
   {
-    "nsn": "2540-01-728-9564",
-    "part_name": "cylinder head gasket (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "engine",
-    "base_daily_per_vehicle": 0.00547,
-    "unit_price_usd": 850
+    "nsn": "6135-01-301-8776",
+    "part_name": "BA-5590 lithium primary battery (radio)",
+    "primary_platform": "JLTV",
+    "subsystem": "comms",
+    "base_daily_per_vehicle": 0.012,
+    "unit_price_usd": 26
   },
   {
-    "nsn": "2930-01-671-9226",
-    "part_name": "water pump (HMMWV)",
-    "primary_platform": "HMMWV",
-    "subsystem": "engine",
-    "base_daily_per_vehicle": 0.00692,
-    "unit_price_usd": 45
+    "nsn": "6140-01-446-9512",
+    "part_name": "vehicle battery 6TL 12V (HMMWV/MTVR)",
+    "primary_platform": "MTVR",
+    "subsystem": "electrical",
+    "base_daily_per_vehicle": 0.0024,
+    "unit_price_usd": 138
+  },
+  {
+    "nsn": "6140-01-490-4316",
+    "part_name": "BB-2590/U rechargeable Li-ion battery",
+    "primary_platform": "JLTV",
+    "subsystem": "comms",
+    "base_daily_per_vehicle": 0.0072,
+    "unit_price_usd": 305
+  },
+  {
+    "nsn": "5995-01-538-7726",
+    "part_name": "RF coaxial cable assembly, vehicle SINCGARS",
+    "primary_platform": "LAV",
+    "subsystem": "comms",
+    "base_daily_per_vehicle": 0.0036,
+    "unit_price_usd": 84
+  },
+  {
+    "nsn": "5965-01-411-7783",
+    "part_name": "intercom headset H-250/U",
+    "primary_platform": "LAV",
+    "subsystem": "comms",
+    "base_daily_per_vehicle": 0.0058,
+    "unit_price_usd": 165
   }
 ]

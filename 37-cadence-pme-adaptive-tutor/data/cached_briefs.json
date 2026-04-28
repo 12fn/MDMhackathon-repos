@@ -1,0 +1,110 @@
+{
+  "M001_log_principles_paper": {
+    "student_id": "M001",
+    "course_id": "log_principles_paper",
+    "analysis": {
+      "student_id": "M001",
+      "course_id": "log_principles_paper",
+      "knowledge_gaps_identified": [
+        "RSOI throughput calculations",
+        "Sustainment estimate integration with MCPP"
+      ],
+      "doctrinal_references_cited_correctly": 0,
+      "doctrinal_references_to_review": [
+        "MCWP 4-11",
+        "MCRP 4-11.1F"
+      ],
+      "writing_competency_score": 2.4,
+      "critical_thinking_indicators": [
+        "weighs trade-offs",
+        "applies doctrine to context",
+        "recognizes doctrinal tension"
+      ],
+      "recommended_study_questions": [
+        "Walk through an RSOI throughput calculation for a notional MEU APOD with two C-17 spots and a 22-hour ops day. Show your work.",
+        "Where does the sustainment estimate enter the MCPP cycle, and what happens if the planner skips it?",
+        "Pick one of MCDP 4's seven principles and argue why it is most stressed in distributed maritime operations."
+      ],
+      "peer_learning_suggestions": [],
+      "estimated_competency_alignment_pct": 70,
+      "cognitive_depth_observed": "recall",
+      "_source": "baseline"
+    },
+    "study_plan": "# Adaptive Study Plan \u2014 Capt Alvarez, J.\n**Course:** Logistics Principles Paper (LOG-PRIN-26)  \n**T&R / PME authority:** NAVMC 3500.58 \u2014 Logistics Training & Readiness Manual  \u00b7  **T&R event codes:** LOG-DIST-2001, LOG-PLAN-2003, LOG-SUS-3001  \n**Estimated competency alignment:** 70%  \n**Cognitive depth observed:** recall\n\n## Knowledge Gaps Identified\n- RSOI throughput calculations\n- Sustainment estimate integration with MCPP\n\n## Doctrinal References to Review\n- **MCWP 4-11** \u2014 Tactical-Level Logistics\n- **MCRP 4-11.1F** \u2014 Tactical-Level Logistics \u2014 Reference Publication\n\n## 7-Day Learning Targets\n### Day 1 \u2014 Doctrine re-grounding\n- MCWP 4-11\n- MCRP 4-11.1F\n*Action:* Read the cited chapters; write a 100-word abstract for each in your own words.\n\n### Day 2 \u2014 Gap drill\n- RSOI throughput calculations\n- Sustainment estimate integration with MCPP\n*Action:* Pick the top gap. Write a 1-page brief addressing it. Cite at least two doctrinal sources.\n\n### Day 3 \u2014 Practice question\n- Walk through an RSOI throughput calculation for a notional MEU APOD with two C-17 spots and a 22-hour ops day. Show your work.\n*Action:* Spend 45 minutes drafting a written response. Self-grade against the rubric.\n\n### Day 4 \u2014 Peer learning\n*Action:* Read these forum threads. Reply to at least one with a synthesis-level post.\n\n### Day 5 \u2014 Practice question\n- Where does the sustainment estimate enter the MCPP cycle, and what happens if the planner skips it?\n*Action:* Repeat day-3 protocol. Compare your two drafts.\n\n### Day 6 \u2014 Rubric self-check\n- doctrinal_grounding\n- logistics_principles_application\n- writing_clarity\n- critical_thinking\n- rubric_alignment\n*Action:* Score your draft against each rubric axis 0-5. Identify one axis to improve before submission.\n\n### Day 7 \u2014 Capstone\n- Pick one of MCDP 4's seven principles and argue why it is most stressed in distributed maritime operations.\n*Action:* Submit your final draft to the instructor. Note three doctrinal references in your conclusion.\n\n## Rubric-Aligned Writing Tips\n- **Doctrinal Grounding**: address this rubric axis explicitly in the body of your draft.\n- **Logistics Principles Application**: address this rubric axis explicitly in the body of your draft.\n- **Writing Clarity**: address this rubric axis explicitly in the body of your draft.\n- **Critical Thinking**: address this rubric axis explicitly in the body of your draft.\n- **Rubric Alignment**: address this rubric axis explicitly in the body of your draft.\n\n---\n_Originator: CADENCE \u2014 Adaptive PME Tutor. Classification: **UNCLASSIFIED // FOR OFFICIAL USE \u2014 Military Education Records**.  \nRecords governance: **Privacy Act of 1974 (5 U.S.C. \u00a7 552a) and DoDI 1322.35 \"Military Education Records\"** (NOT FERPA \u2014 FERPA does not apply to active-duty military training).  \nAudit chain: SHA-256 chained append-only log under data/audit_logs/cadence_audit.jsonl. This Marine's submissions, forum posts, and the analysis above never leave the accredited environment._\n",
+    "generated_at": "2026-04-28T18:52:19.921795+00:00",
+    "source": "baseline-precompute"
+  },
+  "M002_sergeants_course": {
+    "student_id": "M002",
+    "course_id": "sergeants_course",
+    "analysis": {
+      "student_id": "M002",
+      "course_id": "sergeants_course",
+      "knowledge_gaps_identified": [
+        "Written argument structure",
+        "Doctrine citation density"
+      ],
+      "doctrinal_references_cited_correctly": 0,
+      "doctrinal_references_to_review": [
+        "MCRP 3-10A.4",
+        "MCDP 1"
+      ],
+      "writing_competency_score": 3.4,
+      "critical_thinking_indicators": [
+        "synthesizes across publications",
+        "challenges doctrinal assumptions",
+        "thinks across time horizons"
+      ],
+      "recommended_study_questions": [
+        "Rewrite your defensive plan with one additional explicit decision point covering the seam with 2nd Squad.",
+        "Compare MCDP 6 mission-type orders against your own DDIL-environment experience. Where does doctrine fall short?",
+        "Brief your commander's intent for an upcoming TDG in three sentences. End with the one thing you absolutely don't want to happen."
+      ],
+      "peer_learning_suggestions": [],
+      "estimated_competency_alignment_pct": 85,
+      "cognitive_depth_observed": "recall",
+      "_source": "baseline"
+    },
+    "study_plan": "# Adaptive Study Plan \u2014 Sgt Brennan, K.\n**Course:** Sergeants Course (Resident, SNCO Academy) (SGTS-CRS-2-26)  \n**T&R / PME authority:** MCO 1553.4B (PME Framework) and DoDI 1322.35 \"Military Education\" \u2014 anchored to NAVMC 3500.18 Infantry T&R for tactical events  \u00b7  **T&R event codes:** INF-MAN-1001, INF-OPS-2001, INF-PAT-2002  \n**Estimated competency alignment:** 85%  \n**Cognitive depth observed:** recall\n\n## Knowledge Gaps Identified\n- Written argument structure\n- Doctrine citation density\n\n## Doctrinal References to Review\n- **MCRP 3-10A.4** \u2014 Marine Rifle Squad\n- **MCDP 1** \u2014 Warfighting\n\n## 7-Day Learning Targets\n### Day 1 \u2014 Doctrine re-grounding\n- MCRP 3-10A.4\n- MCDP 1\n*Action:* Read the cited chapters; write a 100-word abstract for each in your own words.\n\n### Day 2 \u2014 Gap drill\n- Written argument structure\n- Doctrine citation density\n*Action:* Pick the top gap. Write a 1-page brief addressing it. Cite at least two doctrinal sources.\n\n### Day 3 \u2014 Practice question\n- Rewrite your defensive plan with one additional explicit decision point covering the seam with 2nd Squad.\n*Action:* Spend 45 minutes drafting a written response. Self-grade against the rubric.\n\n### Day 4 \u2014 Peer learning\n*Action:* Read these forum threads. Reply to at least one with a synthesis-level post.\n\n### Day 5 \u2014 Practice question\n- Compare MCDP 6 mission-type orders against your own DDIL-environment experience. Where does doctrine fall short?\n*Action:* Repeat day-3 protocol. Compare your two drafts.\n\n### Day 6 \u2014 Rubric self-check\n- doctrinal_grounding\n- leadership_judgment\n- writing_clarity\n- tactical_decision_making\n- rubric_alignment\n*Action:* Score your draft against each rubric axis 0-5. Identify one axis to improve before submission.\n\n### Day 7 \u2014 Capstone\n- Brief your commander's intent for an upcoming TDG in three sentences. End with the one thing you absolutely don't want to happen.\n*Action:* Submit your final draft to the instructor. Note three doctrinal references in your conclusion.\n\n## Rubric-Aligned Writing Tips\n- **Doctrinal Grounding**: address this rubric axis explicitly in the body of your draft.\n- **Leadership Judgment**: address this rubric axis explicitly in the body of your draft.\n- **Writing Clarity**: address this rubric axis explicitly in the body of your draft.\n- **Tactical Decision Making**: address this rubric axis explicitly in the body of your draft.\n- **Rubric Alignment**: address this rubric axis explicitly in the body of your draft.\n\n---\n_Originator: CADENCE \u2014 Adaptive PME Tutor. Classification: **UNCLASSIFIED // FOR OFFICIAL USE \u2014 Military Education Records**.  \nRecords governance: **Privacy Act of 1974 (5 U.S.C. \u00a7 552a) and DoDI 1322.35 \"Military Education Records\"** (NOT FERPA \u2014 FERPA does not apply to active-duty military training).  \nAudit chain: SHA-256 chained append-only log under data/audit_logs/cadence_audit.jsonl. This Marine's submissions, forum posts, and the analysis above never leave the accredited environment._\n",
+    "generated_at": "2026-04-28T18:52:19.921820+00:00",
+    "source": "baseline-precompute"
+  },
+  "M003_mos_0411_sustainment": {
+    "student_id": "M003",
+    "course_id": "mos_0411_sustainment",
+    "analysis": {
+      "student_id": "M003",
+      "course_id": "mos_0411_sustainment",
+      "knowledge_gaps_identified": [
+        "Class IX planning factors",
+        "UMMIPS priority designator selection",
+        "PMCS calendar-based intervals",
+        "GCSS-MC requisition flow"
+      ],
+      "doctrinal_references_cited_correctly": 0,
+      "doctrinal_references_to_review": [
+        "MCO 4790.25",
+        "MCWP 4-11.4",
+        "MCO 5400.18",
+        "MCRP 3-40D"
+      ],
+      "writing_competency_score": 1.4,
+      "critical_thinking_indicators": [
+        "recall-level engagement",
+        "names doctrine without applying it"
+      ],
+      "recommended_study_questions": [
+        "Define the difference between scheduled and corrective maintenance per MCO 4790.25 Ch 2. Cite the chapter.",
+        "Walk through a Class IX requisition in GCSS-MC step by step.",
+        "When would you push a UMMIPS line from priority designator 09 to 03? Cite MCO 4400.16K Ch 2."
+      ],
+      "peer_learning_suggestions": [],
+      "estimated_competency_alignment_pct": 55,
+      "cognitive_depth_observed": "recall",
+      "_source": "baseline"
+    },
+    "study_plan": "# Adaptive Study Plan \u2014 Cpl Chen, L.\n**Course:** MOS 0411 Sustainment Pipeline (MOS-0411-26)  \n**T&R / PME authority:** NAVMC 3500.58 \u2014 Logistics Training & Readiness Manual  \u00b7  **T&R event codes:** LOG-MAINT-1001, LOG-MAINT-2003, LOG-DIST-2001  \n**Estimated competency alignment:** 55%  \n**Cognitive depth observed:** recall\n\n## Knowledge Gaps Identified\n- Class IX planning factors\n- UMMIPS priority designator selection\n- PMCS calendar-based intervals\n- GCSS-MC requisition flow\n\n## Doctrinal References to Review\n- **MCO 4790.25** \u2014 Ground Equipment Records Procedures\n- **MCWP 4-11.4** \u2014 Maintenance Operations\n- **MCO 5400.18** \u2014 Marine Corps Logistics Command Structure\n- **MCRP 3-40D** \u2014 Sustainment Operations\n\n## 7-Day Learning Targets\n### Day 1 \u2014 Doctrine re-grounding\n- MCO 4790.25\n- MCWP 4-11.4\n- MCO 5400.18\n- MCRP 3-40D\n*Action:* Read the cited chapters; write a 100-word abstract for each in your own words.\n\n### Day 2 \u2014 Gap drill\n- Class IX planning factors\n- UMMIPS priority designator selection\n- PMCS calendar-based intervals\n- GCSS-MC requisition flow\n*Action:* Pick the top gap. Write a 1-page brief addressing it. Cite at least two doctrinal sources.\n\n### Day 3 \u2014 Practice question\n- Define the difference between scheduled and corrective maintenance per MCO 4790.25 Ch 2. Cite the chapter.\n*Action:* Spend 45 minutes drafting a written response. Self-grade against the rubric.\n\n### Day 4 \u2014 Peer learning\n*Action:* Read these forum threads. Reply to at least one with a synthesis-level post.\n\n### Day 5 \u2014 Practice question\n- Walk through a Class IX requisition in GCSS-MC step by step.\n*Action:* Repeat day-3 protocol. Compare your two drafts.\n\n### Day 6 \u2014 Rubric self-check\n- doctrinal_grounding\n- maintenance_planning_factors\n- writing_clarity\n- systems_thinking\n- rubric_alignment\n*Action:* Score your draft against each rubric axis 0-5. Identify one axis to improve before submission.\n\n### Day 7 \u2014 Capstone\n- When would you push a UMMIPS line from priority designator 09 to 03? Cite MCO 4400.16K Ch 2.\n*Action:* Submit your final draft to the instructor. Note three doctrinal references in your conclusion.\n\n## Rubric-Aligned Writing Tips\n- **Doctrinal Grounding**: address this rubric axis explicitly in the body of your draft.\n- **Maintenance Planning Factors**: address this rubric axis explicitly in the body of your draft.\n- **Writing Clarity**: address this rubric axis explicitly in the body of your draft.\n- **Systems Thinking**: address this rubric axis explicitly in the body of your draft.\n- **Rubric Alignment**: address this rubric axis explicitly in the body of your draft.\n\n---\n_Originator: CADENCE \u2014 Adaptive PME Tutor. Classification: **UNCLASSIFIED // FOR OFFICIAL USE \u2014 Military Education Records**.  \nRecords governance: **Privacy Act of 1974 (5 U.S.C. \u00a7 552a) and DoDI 1322.35 \"Military Education Records\"** (NOT FERPA \u2014 FERPA does not apply to active-duty military training).  \nAudit chain: SHA-256 chained append-only log under data/audit_logs/cadence_audit.jsonl. This Marine's submissions, forum posts, and the analysis above never leave the accredited environment._\n",
+    "generated_at": "2026-04-28T18:52:19.921838+00:00",
+    "source": "baseline-precompute"
+  }
+}

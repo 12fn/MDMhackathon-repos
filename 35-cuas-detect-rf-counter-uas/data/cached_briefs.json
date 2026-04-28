@@ -1,0 +1,224 @@
+{
+  "dji_mavic": {
+    "title": "DJI Mavic 3 (OcuSync 3+)",
+    "ground_truth": {
+      "uas_class": "DJI Mavic",
+      "controller": "OcuSync",
+      "band_ghz": "2.4 / 5.8",
+      "estimated_range_km": 3.2,
+      "intent_hint": "recon"
+    },
+    "spectral_features": {
+      "noise_floor": 0.159,
+      "peak_intensity": 1.0,
+      "snr_estimate_db": 16.0,
+      "top_freq_bins": [
+        354,
+        351,
+        353,
+        350,
+        11,
+        7,
+        349,
+        10
+      ],
+      "burst_count": 321,
+      "hop_period_px": 2.2,
+      "active_freq_span_pct": 0.056,
+      "modulation_hint": "fast FHSS (likely OcuSync / proprietary FHSS)"
+    },
+    "baseline_classifier": {
+      "uas_class_guess": "DJI Mavic",
+      "controller_guess": "OcuSync",
+      "intent_guess": "recon",
+      "baseline_confidence": 0.72,
+      "reasoning": "baseline: snr=16.0dB, hop_px=2.2, bursts=321, span=0.06, hint='fast FHSS (likely OcuSync / proprietary FHSS)'"
+    },
+    "engagement_brief": "(U) BLUF \u2014 A DJI Mavic 3 is conducting a reconnaissance mission within 3.2 km of Camp Pendleton, necessitating a response to mitigate potential threats.\n\n(U) Contact Identification \u2014 UAS class: DJI Mavic; controller: OcuSync; range: 3.2 km; confidence: 72%.\n\n(U) Threat Assessment \u2014 Inferred intent: reconnaissance; rationale: the UAS is likely gathering intelligence on the LOGCOM tenant area based on its operational characteristics and proximity.\n\n(U) Engagement Options (graded against ROE) \u2014 \n- [PASSIVE] Monitor the UAS and gather additional intelligence; authority required: OOD approval.\n- [NON-KINETIC] Employ electronic countermeasures to disrupt the UAS control link; authority required: OOD approval.\n- [KINETIC] Engage the UAS with small arms fire; authority required: higher command approval.\n\n(U) Recommended COA \u2014 [NON-KINETIC] Employ electronic countermeasures to disrupt the UAS control link; this option minimizes risk to personnel and infrastructure while addressing the reconnaissance threat effectively."
+  },
+  "parrot_anafi": {
+    "title": "Parrot Anafi USA (WiFi 802.11n)",
+    "ground_truth": {
+      "uas_class": "Parrot Anafi",
+      "controller": "WiFi",
+      "band_ghz": "2.4 / 5.8",
+      "estimated_range_km": 1.4,
+      "intent_hint": "recon"
+    },
+    "spectral_features": {
+      "noise_floor": 0.16,
+      "peak_intensity": 0.917,
+      "snr_estimate_db": 15.2,
+      "top_freq_bins": [
+        353,
+        352,
+        4,
+        355,
+        6,
+        13,
+        3,
+        351
+      ],
+      "burst_count": 372,
+      "hop_period_px": 1.9,
+      "active_freq_span_pct": 0.05,
+      "modulation_hint": "fast FHSS (likely OcuSync / proprietary FHSS)"
+    },
+    "baseline_classifier": {
+      "uas_class_guess": "DJI Mavic",
+      "controller_guess": "OcuSync",
+      "intent_guess": "recon",
+      "baseline_confidence": 0.72,
+      "reasoning": "baseline: snr=15.2dB, hop_px=1.9, bursts=372, span=0.05, hint='fast FHSS (likely OcuSync / proprietary FHSS)'"
+    },
+    "engagement_brief": "(U) BLUF \u2014 A Parrot Anafi UAS is conducting reconnaissance at a range of 1.4 km from Building 22 at Camp Pendleton.\n\n(U) Contact Identification \u2014 UAS class: Parrot Anafi; Controller: WiFi; Range: 1.4 km; Confidence: 0.72\n\n(U) Threat Assessment \u2014 Inferred intent: reconnaissance; Rationale: The UAS is actively gathering information, indicated by its classification and intent hint.\n\n(U) Engagement Options (graded against ROE) \u2014 \n- [PASSIVE] Monitor the UAS activity and maintain situational awareness; Authority: OOD\n- [NON-KINETIC] Utilize electronic countermeasures to disrupt the UAS control link; Authority: OOD\n- [KINETIC] Engage with small arms fire to neutralize the UAS; Authority: Commanding Officer\n\n(U) Recommended COA \u2014 Select the [NON-KINETIC] option to utilize electronic countermeasures to disrupt the UAS control link, as it minimizes risk to personnel and infrastructure while effectively addressing the reconnaissance threat."
+  },
+  "cots_fixed_wing": {
+    "title": "Custom commercial fixed-wing (LoRa C2)",
+    "ground_truth": {
+      "uas_class": "COTS-fixed-wing",
+      "controller": "LoRa",
+      "band_ghz": "0.9",
+      "estimated_range_km": 9.5,
+      "intent_hint": "strike"
+    },
+    "spectral_features": {
+      "noise_floor": 0.159,
+      "peak_intensity": 0.707,
+      "snr_estimate_db": 13.0,
+      "top_freq_bins": [
+        122,
+        126,
+        121,
+        119,
+        168,
+        211,
+        212,
+        214
+      ],
+      "burst_count": 267,
+      "hop_period_px": 2.7,
+      "active_freq_span_pct": 0.0,
+      "modulation_hint": "fast FHSS (likely OcuSync / proprietary FHSS)"
+    },
+    "baseline_classifier": {
+      "uas_class_guess": "DJI Mavic",
+      "controller_guess": "OcuSync",
+      "intent_guess": "recon",
+      "baseline_confidence": 0.72,
+      "reasoning": "baseline: snr=13.0dB, hop_px=2.7, bursts=267, span=0.00, hint='fast FHSS (likely OcuSync / proprietary FHSS)'"
+    },
+    "engagement_brief": "(U) BLUF \u2014 Immediate engagement is recommended due to the identified UAS's potential strike intent and proximity to sensitive infrastructure.\n\n(U) Contact Identification \u2014 COTS-fixed-wing UAS, controller: LoRa, estimated range: 9.5 km, confidence: 0.72.\n\n(U) Threat Assessment \u2014 Inferred intent: strike; rationale: the UAS exhibits characteristics consistent with a strike capability and is operating within a threatening range.\n\n(U) Engagement Options (graded against ROE):\n- [PASSIVE] Monitor and track the UAS to gather additional intelligence; authority: OOD.\n- [NON-KINETIC] Employ electronic countermeasures to disrupt the UAS's control link; authority: OOD.\n- [KINETIC] Engage with small arms fire if the UAS approaches critical infrastructure; authority: Commanding Officer.\n\n(U) Recommended COA \u2014 [NON-KINETIC] Employ electronic countermeasures to disrupt the UAS's control link; justification: this option minimizes risk to personnel and infrastructure while addressing the potential threat effectively."
+  },
+  "hobbyist_quad": {
+    "title": "Hobbyist quad (FrSky 2.4 GHz / proprietary FHSS)",
+    "ground_truth": {
+      "uas_class": "hobbyist-quad",
+      "controller": "proprietary",
+      "band_ghz": "2.4",
+      "estimated_range_km": 0.7,
+      "intent_hint": "decoy"
+    },
+    "spectral_features": {
+      "noise_floor": 0.159,
+      "peak_intensity": 0.675,
+      "snr_estimate_db": 12.5,
+      "top_freq_bins": [
+        239,
+        238,
+        240,
+        114,
+        115,
+        280,
+        197,
+        78
+      ],
+      "burst_count": 353,
+      "hop_period_px": 2.0,
+      "active_freq_span_pct": 0.047,
+      "modulation_hint": "fast FHSS (likely OcuSync / proprietary FHSS)"
+    },
+    "baseline_classifier": {
+      "uas_class_guess": "DJI Mavic",
+      "controller_guess": "OcuSync",
+      "intent_guess": "recon",
+      "baseline_confidence": 0.72,
+      "reasoning": "baseline: snr=12.5dB, hop_px=2.0, bursts=353, span=0.05, hint='fast FHSS (likely OcuSync / proprietary FHSS)'"
+    },
+    "engagement_brief": "(U) BLUF \u2014 A hobbyist quadcopter is detected at Camp Pendleton with a probable intent of decoying, requiring assessment for engagement.\n\n(U) Contact Identification \u2014 UAS class: hobbyist-quad, controller: proprietary, range: 0.7 km, confidence: high (based on spectral features).\n\n(U) Threat Assessment \u2014 Inferred intent: decoy; rationale: the UAS is operating within a short range and exhibits characteristics typical of hobbyist drones, suggesting non-hostile but potentially disruptive intent.\n\n(U) Engagement Options (graded against ROE) \u2014 \n- [PASSIVE] Monitor the UAS activity and gather additional intelligence; authority required: OOD.\n- [NON-KINETIC] Utilize electronic countermeasures to disrupt the UAS control link; authority required: OOD.\n- [KINETIC] Engage with small arms fire to neutralize the UAS; authority required: higher command.\n\n(U) Recommended COA \u2014 [NON-KINETIC] Utilize electronic countermeasures to disrupt the UAS control link; justification: this option minimizes risk to personnel and property while effectively addressing the potential threat posed by the UAS."
+  },
+  "swarm_pattern": {
+    "title": "Multi-emitter swarm (4-8 quads, mixed FHSS)",
+    "ground_truth": {
+      "uas_class": "swarm",
+      "controller": "proprietary",
+      "band_ghz": "2.4 / 5.8",
+      "estimated_range_km": 2.1,
+      "intent_hint": "swarm-overwatch"
+    },
+    "spectral_features": {
+      "noise_floor": 0.16,
+      "peak_intensity": 1.0,
+      "snr_estimate_db": 15.9,
+      "top_freq_bins": [
+        349,
+        351,
+        350,
+        348,
+        13,
+        8,
+        3,
+        355
+      ],
+      "burst_count": 262,
+      "hop_period_px": 2.7,
+      "active_freq_span_pct": 0.075,
+      "modulation_hint": "fast FHSS (likely OcuSync / proprietary FHSS)"
+    },
+    "baseline_classifier": {
+      "uas_class_guess": "DJI Mavic",
+      "controller_guess": "OcuSync",
+      "intent_guess": "recon",
+      "baseline_confidence": 0.72,
+      "reasoning": "baseline: snr=15.9dB, hop_px=2.7, bursts=262, span=0.07, hint='fast FHSS (likely OcuSync / proprietary FHSS)'"
+    },
+    "engagement_brief": "(U) BLUF \u2014 A swarm of UAS is detected at a distance of 2.1 km, indicating a potential surveillance threat.\n\n(U) Contact Identification \u2014 UAS class: swarm, controller: proprietary, range: 2.1 km, confidence: 0.72\n\n(U) Threat Assessment \u2014 Inferred intent: swarm-overwatch; rationale: the swarm formation and operational range suggest a reconnaissance or monitoring capability.\n\n(U) Engagement Options (graded against ROE):\n- [PASSIVE] Monitor and gather intelligence on UAS activity; authority required: OOD approval.\n- [NON-KINETIC] Employ electronic countermeasures to disrupt UAS operations; authority required: OOD approval.\n- [Kinetic] Engage with lethal force to neutralize the threat; authority required: higher command approval.\n\n(U) Recommended COA \u2014 Utilize non-kinetic electronic countermeasures to disrupt UAS operations; justification: this option minimizes risk to civilians and infrastructure while effectively addressing the surveillance threat posed by the swarm."
+  },
+  "ambient_no_signal": {
+    "title": "Ambient RF (no UAS detected)",
+    "ground_truth": {
+      "uas_class": "ambient",
+      "controller": "none",
+      "band_ghz": "2.4 / 5.8",
+      "estimated_range_km": 0.0,
+      "intent_hint": "unknown"
+    },
+    "spectral_features": {
+      "noise_floor": 0.16,
+      "peak_intensity": 0.372,
+      "snr_estimate_db": 7.3,
+      "top_freq_bins": [
+        136,
+        315,
+        226,
+        316,
+        137,
+        227,
+        135,
+        225
+      ],
+      "burst_count": 384,
+      "hop_period_px": 1.9,
+      "active_freq_span_pct": 0.025,
+      "modulation_hint": "below detection threshold (likely ambient)"
+    },
+    "baseline_classifier": {
+      "uas_class_guess": "ambient",
+      "controller_guess": "none",
+      "intent_guess": "unknown",
+      "baseline_confidence": 0.85,
+      "reasoning": "baseline: snr=7.3dB, hop_px=1.9, bursts=384, span=0.03, hint='below detection threshold (likely ambient)'"
+    },
+    "engagement_brief": "(U) BLUF \u2014 No immediate engagement is recommended as the UAS contact is identified as ambient with no controller present.\n\n(U) Contact Identification \u2014 UAS class: ambient, controller: none, range: 0.0 km, confidence: 0.85\n\n(U) Threat Assessment \u2014 Inferred intent: unknown; rationale: the UAS is classified as ambient with no detected controller or active threat.\n\n(U) Engagement Options (graded against ROE) \u2014 \n- [PASSIVE] Monitor the situation for further developments; authority: OOD discretion. \n- [NON-KINETIC] Utilize surveillance to assess the situation further; authority: OOD discretion. \n- [KINETIC] No kinetic options are applicable as there is no identifiable threat or controller; authority: N/A.\n\n(U) Recommended COA \u2014 [PASSIVE] Monitor the situation for further developments; this allows for continued observation without escalating to unnecessary engagement."
+  }
+}

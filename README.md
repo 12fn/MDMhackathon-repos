@@ -1,11 +1,12 @@
-# MDM 2026 — 34 LOGCOM Hackathon App Templates
+# MDM 2026 — 37 LOGCOM Hackathon App Templates
 
 Open-source AI app templates for the **Modern Day Marine 2026 LOGCOM AI Forum Hackathon** (27–30 April 2026, Walter E. Washington Convention Center).
 
-**34 apps total — covering all 31 published datasets and all 17 published use cases on the LOGCOM portal.** Built as runnable templates so any MDM 2026 competitor can fork, plug in their own data, point at any LLM provider, and ship a credible entry in hours instead of weeks.
+**37 apps total — covering all published LOGCOM datasets and all 17 published use cases on the portal, plus the new datasets added during the event.** Built as runnable templates so any MDM 2026 competitor can fork, plug in their own data, point at any LLM provider, and ship a credible entry in hours instead of weeks.
 
 - **Wave 1 (apps 01-14):** one app per dataset on the LOGCOM portal (MARLIN through EMBER)
 - **Wave 2 (apps 15-34):** one app per remaining dataset and one per published use case (VITALS through VOUCHER)
+- **Wave 3 (apps 35-37):** counter-UAS RF detection, raw I/Q spectrum awareness, adaptive PME tutor (CUAS-DETECT, SPECTRA, CADENCE)
 
 Every app is end-to-end working today: real LLM calls, real processing, polished UI, captioned demo video. The data is synthetic-but-plausible (per-app `data/generate.py`) — swap in your real dataset using [DATA_INGESTION.md](DATA_INGESTION.md).
 
@@ -79,6 +80,14 @@ Full provider compatibility matrix and per-app notes in [DEPLOY.md](DEPLOY.md). 
 | 32 | [32-learn-lid](32-learn-lid/) | **LEARN** | Learning Intelligence Dashboard (PME / MOS school analytics) |
 | 33 | [33-agora-multi-model-rbac](33-agora-multi-model-rbac/) | **AGORA** | Multi-model JIT context+role-aware AI support (ABAC RAG) |
 | 34 | [34-voucher-dts-travel](34-voucher-dts-travel/) | **VOUCHER** | Travel Program Validation (DTS + Citi Manager reconciliation) |
+
+## Wave 3 — datasets added during the event (3)
+
+| # | Folder | Codename | Dataset / Use Case |
+|---|---|---|---|
+| 35 | [35-cuas-detect-rf-counter-uas](35-cuas-detect-rf-counter-uas/) | **CUAS-DETECT** | Counter-UAS RF detection + engagement brief — multimodal vision on RF spectrogram |
+| 36 | [36-spectra-iq-spectrum-awareness](36-spectra-iq-spectrum-awareness/) | **SPECTRA** | Raw I/Q signal classification + spectrum awareness brief (NIST mds2-2731 schema) |
+| 37 | [37-cadence-pme-adaptive-tutor](37-cadence-pme-adaptive-tutor/) | **CADENCE** | Adaptive Marine PME tutor on real LMS .mbz exports + Student Assignment Examples |
 
 Each folder has its own README with launch instructions, hero AI move, and real-data swap recipe. The full per-app rubric scorecard with rankings is in [JUDGING_V2.md](JUDGING_V2.md).
 

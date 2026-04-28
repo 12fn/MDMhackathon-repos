@@ -8,6 +8,14 @@
 
 VOUCHER is an idiot-proof three-button S-1 desktop app. It ingests a quarter of synthetic DTS authorization+voucher pairs and Citi Manager card statements, runs a **two-tier LLM agent** over every record, and writes a polished **Travel Program Quarterly Brief** for the unit S-1.
 
+### Governing doctrine (cited explicitly)
+
+- **Joint Travel Regulations (JTR)** — DoD's authoritative travel manual issued by the Defense Travel Management Office (DTMO). All authorization, voucher, and per-diem rules in VOUCHER trace back to the JTR. CONUS per-diem flows from GSA *as adopted by JTR Ch 2*; OCONUS per-diem is published by DoD/DTMO under JTR Ch 3.
+- **DoDFMR Volume 9** (DoD Financial Management Regulation, Vol 9) — governs **Government Travel Charge Card (GTCC)** oversight. Non-authorized merchant-category charges and other findings are surfaced as **GTCC misuse flags per DoDFMR Vol 9 Chapter 5**.
+- **DoDI 5154.31** — DTMO program lead instruction. Unit-level GTCC oversight is performed by the **Agency/Organization Program Coordinator (APC)** designated under this instruction; VOUCHER's escalation actions route to the unit APC for cardholder counseling.
+
+Real DTS field shape is preserved verbatim in `data/dts_records.csv`: `doc_number, ta_number, traveler_edipi, traveler_name, traveler_grade, ao_edipi, ao_name, trip_purpose, trip_start, trip_end, status, total_authorized, total_voucher, mode_of_travel`. Citi Manager exports preserve the real 4-digit MCCs (no invented codes).
+
 > **AI runtime:** This app talks to `shared.kamiwaza_client.chat_json` and `shared.kamiwaza_client.chat`, configured for a Kamiwaza-deployed model endpoint. An OpenAI-compatible endpoint is supported as a transparent fallback for local development — same code path, no app changes.
 
 ## Hero AI move

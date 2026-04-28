@@ -1,16 +1,32 @@
 """Synthesize VOUCHER demo dataset.
 
+Governing doctrine: **Joint Travel Regulations (JTR)** issued by the Defense
+Travel Management Office (DTMO). Per-diem rates here are JTR-aligned synthetic
+values: CONUS per JTR Ch 2 (GSA-published), OCONUS per JTR Ch 3 (DTMO-published).
+GTCC oversight rules referenced by the synthetic issue tags are governed by
+**DoDFMR Vol 9 Ch 5** with unit-level oversight performed by the
+**Agency/Organization Program Coordinator (APC)** per **DoDI 5154.31**.
+
 Produces:
-  - data/per_diem_rates.json : GSA-style per-diem rates for 14 named cities
+  - data/per_diem_rates.json : JTR-aligned per-diem rates for 14 named cities
+                               (CONUS via GSA per JTR Ch 2; OCONUS via DTMO
+                               per JTR Ch 3).
   - data/dts_records.csv     : 100 DTS authorization + voucher pairs across
                                3 unit-quarter scenarios (Camp Pendleton, Camp
-                               Lejeune, MARFORPAC HQ — 1 quarter each).
-  - data/citi_statements.csv : 100 Citi Manager card transactions, partially
-                               linked to those vouchers, with seeded mismatches:
+                               Lejeune, MARFORPAC HQ — 1 quarter each). Real
+                               DTS column shape: doc_number, ta_number,
+                               traveler_edipi, traveler_name, traveler_grade,
+                               ao_edipi, ao_name, trip_purpose, trip_start,
+                               trip_end, status, total_authorized,
+                               total_voucher, mode_of_travel, ...
+  - data/citi_statements.csv : Citi Manager (GTCC) card transactions, partially
+                               linked to those vouchers. Real Citi shape with
+                               4-digit MCCs preserved. Seeded mismatches:
                                * amount mismatches (5 records)
                                * missing receipts on lines >$75 (4 records)
                                * lodging rates above per-diem (4 records)
-                               * non-authorized expenses (4 records)
+                               * non-authorized expenses → GTCC misuse flags
+                                 per DoDFMR Vol 9 Ch 5 (4 records)
                                * orphan card charges (4 records)
                                * orphan voucher lines (4 records)
                                * duplicate charges (3 records)
@@ -64,10 +80,50 @@ UNITS = [
                                           "Quantico", "Arlington", "Washington"]},
 ]
 
-# Plausible rank distribution for synthetic Marines
+# Plausible rank distribution for synthetic Marines.
+# JTR per-diem entitlement bands key off pay grade (E-/W-/O-), so we keep
+# both the colloquial USMC rank and a rank->grade mapping.
 RANKS = ["LCpl", "Cpl", "Sgt", "SSgt", "GySgt", "MSgt", "1stSgt",
          "WO1", "CWO2", "CWO3",
          "2ndLt", "1stLt", "Capt", "Maj", "LtCol", "Col"]
+
+# DoD pay grade for each USMC rank (per JTR — entitlement bands key off this)
+RANK_TO_GRADE = {
+    "LCpl": "E-3", "Cpl": "E-4", "Sgt": "E-5", "SSgt": "E-6",
+    "GySgt": "E-7", "MSgt": "E-8", "1stSgt": "E-8",
+    "WO1": "W-1", "CWO2": "W-2", "CWO3": "W-3",
+    "2ndLt": "O-1", "1stLt": "O-2", "Capt": "O-3",
+    "Maj":  "O-4", "LtCol": "O-5", "Col":   "O-6",
+}
+
+# DTS document numbers are real-shape: 6 letters + 6 digits (e.g. EJVQTR123456).
+DOC_LETTERS = "ABCDEFGHJKLMNPQRSTUVWXYZ"  # I/O excluded as in real DTS
+
+# Plausible Approving Officials (AOs) per unit (S-3, XO, S-1 OIC, etc.).
+# Each unit has a small AO pool; one AO signs many travelers' authorizations.
+AO_POOL = {
+    "1MARDIV": [
+        ("1234567890", "M. CALDWELL"),
+        ("1234567891", "R. PETERSEN"),
+        ("1234567892", "K. ALVARADO"),
+    ],
+    "IIMEF": [
+        ("2345678901", "T. WHITMORE"),
+        ("2345678902", "D. CHEN"),
+        ("2345678903", "J. OKAFOR"),
+    ],
+    "MARFORPAC": [
+        ("3456789012", "S. NAKAMURA"),
+        ("3456789013", "P. RIVERA"),
+        ("3456789014", "L. BRENNAN"),
+    ],
+}
+
+# DTS document status codes (real)
+DOC_STATUSES = ["APPROVED", "PAID", "RETURNED", "PENDING"]
+
+# Mode of travel codes used by DTS
+MODE_OF_TRAVEL = ["AIR", "POV", "GOV", "RAIL"]
 
 LAST_NAMES = ["MARTINEZ", "JOHNSON", "WILLIAMS", "BROWN", "JONES", "GARCIA",
               "MILLER", "DAVIS", "RODRIGUEZ", "WILSON", "ANDERSON", "TAYLOR",
@@ -208,9 +264,20 @@ def generate_dts_and_citi(rng: random.Random) -> tuple[list[dict], list[dict]]:
     for unit_i, unit in enumerate(UNITS):
         for _ in range(per_unit_counts[unit_i]):
             record_seq += 1
-            rec_id = f"DTS-{2026}-{record_seq:05d}"
+            # Real-shape DTS document number: 6 letters + 6 digits
+            doc_letters = "".join(rng.choice(DOC_LETTERS) for _ in range(6))
+            doc_number = f"{doc_letters}{100000 + record_seq:06d}"
+            # Travel Authorization (TA) Number — real DTS convention
+            ta_number = f"TA-{2026}-{record_seq:05d}"
+            # Legacy id retained for downstream join (validations cache, drilldown)
+            rec_id = doc_number
             tag_list = seeded_lookup.get(record_seq - 1, [])  # 0-indexed seed
             rank, name = make_traveler(rng)
+            grade = RANK_TO_GRADE.get(rank, "E-5")
+            # Synthetic 10-digit EDIPIs (deterministic via record_seq)
+            traveler_edipi = f"{1_000_000_000 + (record_seq * 1_300_877) % 8_999_999_999:010d}"
+            ao_edipi, ao_name = rng.choice(AO_POOL.get(unit["code"],
+                                            [("0000000000", "UNKNOWN")]))
             city = rng.choice(unit["city_pool"])
             lod_rate, mie_rate = per_diem_lookup(city)
 
@@ -263,22 +330,38 @@ def generate_dts_and_citi(rng: random.Random) -> tuple[list[dict], list[dict]]:
             # Default behavior: Citi sums roughly match voucher (within $5).
             citi_records_for_trip: list[dict] = []
 
+            # Real 4-digit MCCs (Merchant Category Codes) keyed by our
+            # internal vendor_kind. Multiple MCCs per kind, picked randomly
+            # to match real Citi export variability.
+            MCC_BY_KIND = {
+                "lodging":        ["7011"],
+                "airfare":        ["4511"],
+                "rental_car":     ["7512"],
+                "ground_trans":   ["4121", "4111"],
+                "meals":          ["5812", "5814"],
+                "non_authorized": ["7995", "5944", "5921", "7832"],
+                "other":          ["5999"],
+            }
+
             def add_citi(vendor: str, vendor_kind: str, amt: float,
                          date: datetime, last4: str = "1873") -> None:
                 nonlocal citi_seq
                 citi_seq += 1
+                mcc = rng.choice(MCC_BY_KIND.get(vendor_kind, ["5999"]))
                 citi_records_for_trip.append({
                     "txn_id": f"CITI-{2026}-{citi_seq:05d}",
                     "card_last4": last4,
-                    "traveler_rank": rank,
+                    "traveler_edipi": traveler_edipi,
                     "traveler_name": name,
+                    "traveler_grade": grade,
                     "unit_code": unit["code"],
                     "unit": unit["unit"],
                     "post_date": date.strftime("%Y-%m-%d"),
                     "merchant": vendor,
+                    "mcc": mcc,
                     "merchant_category": vendor_kind,
                     "amount": fmt_money(amt),
-                    "linked_dts_record": rec_id,
+                    "linked_doc_number": doc_number,
                 })
 
             traveler_last4 = f"{1000 + (record_seq * 7) % 9000:04d}"
@@ -410,26 +493,44 @@ def generate_dts_and_citi(rng: random.Random) -> tuple[list[dict], list[dict]]:
                                       "note": "receipt_missing"})
                 voucher_total = fmt_money(voucher_total + missing_amt)
 
+            # total_authorized: TA-side authorized total (typically slightly
+            # larger than the final voucher because the TA estimates).
+            total_authorized = fmt_money(voucher_total * rng.uniform(1.00, 1.08))
+            # Real DTS document statuses post-voucher
+            status = rng.choices(
+                ["APPROVED", "PAID", "RETURNED", "PENDING"],
+                weights=[0.25, 0.55, 0.10, 0.10],
+            )[0]
+            mode_of_travel = transport_mode if transport_mode in MODE_OF_TRAVEL else "AIR"
+            trip_purpose = rng.choice(TRIP_REASONS)
+
             dts.append({
-                "record_id": rec_id,
+                # JTR-aligned real DTS fields
+                "doc_number": doc_number,
+                "ta_number": ta_number,
+                "traveler_edipi": traveler_edipi,
+                "traveler_name": name,
+                "traveler_grade": grade,
+                "ao_edipi": ao_edipi,
+                "ao_name": ao_name,
+                "trip_purpose": trip_purpose,
+                "trip_start": depart.strftime("%Y-%m-%d"),
+                "trip_end": ret.strftime("%Y-%m-%d"),
+                "status": status,
+                "total_authorized": total_authorized,
+                "total_voucher": voucher_total,
+                "mode_of_travel": mode_of_travel,
+                # supporting fields used by the validator + UI
                 "unit_code": unit["code"],
                 "unit": unit["unit"],
                 "quarter": unit["quarter"],
                 "traveler_rank": rank,
-                "traveler_name": name,
                 "card_last4": traveler_last4,
-                "trip_reason": rng.choice(TRIP_REASONS),
                 "tdy_city": city,
-                "depart_date": depart.strftime("%Y-%m-%d"),
-                "return_date": ret.strftime("%Y-%m-%d"),
                 "nights": nights,
-                "transport_mode": transport_mode,
                 "per_diem_lodging_ceiling": lod_rate,
                 "per_diem_mie": mie_rate,
-                "voucher_total": voucher_total,
                 "voucher_lines": voucher_lines,
-                "auth_status": "APPROVED",
-                "voucher_status": "SUBMITTED",
                 "_seeded_issues": tag_list,  # internal hint, used by baseline
             })
 
@@ -463,7 +564,7 @@ def _baseline_brief(unit: dict, dts_subset: list[dict],
                 "duplicate": 165,
             }.get(tag, 75)
             if tag in ("non_authorized", "duplicate", "card_charge_no_voucher"):
-                escalations.append((r["record_id"], r["traveler_rank"],
+                escalations.append((r["doc_number"], r["traveler_rank"],
                                     r["traveler_name"], tag))
 
     issue_block = "\n".join(
@@ -523,8 +624,8 @@ def _try_llm_brief(unit: dict, dts_subset: list[dict],
             issue_counts[tag] = issue_counts.get(tag, 0) + 1
         if r.get("_seeded_issues"):
             sample_records.append(
-                f"- {r['record_id']} | {r['traveler_rank']} {r['traveler_name']} | "
-                f"{r['tdy_city']} | total ${r['voucher_total']:.2f} | "
+                f"- {r['doc_number']} | {r['traveler_rank']} {r['traveler_name']} | "
+                f"{r['tdy_city']} | total ${r['total_voucher']:.2f} | "
                 f"flags: {','.join(r['_seeded_issues'])}"
             )
 
@@ -637,52 +738,63 @@ def main() -> None:
 
     dts_csv = OUT / "dts_records.csv"
     with dts_csv.open("w", newline="") as f:
+        # Real DTS schema (JTR-aligned snake_case) — leading 14 columns match
+        # the spec exactly; supporting fields follow for the validator + UI.
         fieldnames = [
-            "record_id", "unit_code", "unit", "quarter",
-            "traveler_rank", "traveler_name", "card_last4",
-            "trip_reason", "tdy_city", "depart_date", "return_date", "nights",
-            "transport_mode", "per_diem_lodging_ceiling", "per_diem_mie",
-            "voucher_total", "voucher_lines_json",
-            "auth_status", "voucher_status", "seeded_issues",
+            "doc_number", "ta_number", "traveler_edipi", "traveler_name",
+            "traveler_grade", "ao_edipi", "ao_name", "trip_purpose",
+            "trip_start", "trip_end", "status", "total_authorized",
+            "total_voucher", "mode_of_travel",
+            # supporting fields (validator + UI)
+            "unit_code", "unit", "quarter", "traveler_rank", "card_last4",
+            "tdy_city", "nights", "per_diem_lodging_ceiling", "per_diem_mie",
+            "voucher_lines_json", "seeded_issues",
         ]
         w = csv.DictWriter(f, fieldnames=fieldnames)
         w.writeheader()
         for r in dts:
             w.writerow({
-                "record_id": r["record_id"],
+                "doc_number": r["doc_number"],
+                "ta_number": r["ta_number"],
+                "traveler_edipi": r["traveler_edipi"],
+                "traveler_name": r["traveler_name"],
+                "traveler_grade": r["traveler_grade"],
+                "ao_edipi": r["ao_edipi"],
+                "ao_name": r["ao_name"],
+                "trip_purpose": r["trip_purpose"],
+                "trip_start": r["trip_start"],
+                "trip_end": r["trip_end"],
+                "status": r["status"],
+                "total_authorized": r["total_authorized"],
+                "total_voucher": r["total_voucher"],
+                "mode_of_travel": r["mode_of_travel"],
                 "unit_code": r["unit_code"],
                 "unit": r["unit"],
                 "quarter": r["quarter"],
                 "traveler_rank": r["traveler_rank"],
-                "traveler_name": r["traveler_name"],
                 "card_last4": r["card_last4"],
-                "trip_reason": r["trip_reason"],
                 "tdy_city": r["tdy_city"],
-                "depart_date": r["depart_date"],
-                "return_date": r["return_date"],
                 "nights": r["nights"],
-                "transport_mode": r["transport_mode"],
                 "per_diem_lodging_ceiling": r["per_diem_lodging_ceiling"],
                 "per_diem_mie": r["per_diem_mie"],
-                "voucher_total": r["voucher_total"],
                 "voucher_lines_json": json.dumps(r["voucher_lines"]),
-                "auth_status": r["auth_status"],
-                "voucher_status": r["voucher_status"],
                 "seeded_issues": ",".join(r["_seeded_issues"]),
             })
     print(f"wrote dts_records.csv ({len(dts)} records)")
 
     citi_csv = OUT / "citi_statements.csv"
     with citi_csv.open("w", newline="") as f:
+        # Real Citi Manager export shape — keeps 4-digit MCCs (real) and
+        # joins back to DTS docs via linked_doc_number.
         fieldnames = [
-            "txn_id", "card_last4", "traveler_rank", "traveler_name",
-            "unit_code", "unit", "post_date", "merchant",
-            "merchant_category", "amount", "linked_dts_record",
+            "txn_id", "card_last4", "traveler_edipi", "traveler_name",
+            "traveler_grade", "unit_code", "unit", "post_date", "merchant",
+            "mcc", "merchant_category", "amount", "linked_doc_number",
         ]
         w = csv.DictWriter(f, fieldnames=fieldnames)
         w.writeheader()
         for c in citi:
-            w.writerow(c)
+            w.writerow({k: c.get(k, "") for k in fieldnames})
     print(f"wrote citi_statements.csv ({len(citi)} transactions)")
 
     # 3) Pre-compute hero briefs (cache-first)

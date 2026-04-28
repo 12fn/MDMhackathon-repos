@@ -1,0 +1,27 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1440
+PlayResY: 900
+ScaledBorderAndShadow: yes
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Helvetica,22,&H00FFFFFF,&H00FFFFFF,&H00000000,&HC8000000,1,0,0,0,100,100,0,0,3,1,0.5,2,80,80,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.64,0:00:05.64,Default,,0,0,0,,CUAS-DETECT. Counter-UAS RF detection for Marine installation force\Nprotection.
+Dialogue: 0,0:00:05.65,0:00:10.65,Default,,0,0,0,,LOGCOM Installation Incident Response. The OOD has thirty seconds to\Ncall it.
+Dialogue: 0,0:00:10.65,0:00:16.65,Default,,0,0,0,,Six sample spectrograms — DJI Mavic, Parrot Anafi, fixed-wing,\Nhobbyist quad, swarm, ambient.
+Dialogue: 0,0:00:16.69,0:00:23.69,Default,,0,0,0,,Stage 1: heuristic features. Numpy on the spectrogram — peak bins, hop\Nperiod, modulation hint.
+Dialogue: 0,0:00:23.70,0:00:29.70,Default,,0,0,0,,Stage 2: multimodal AI engine ingests the spectrogram. Structured CUAS\NJSON.
+Dialogue: 0,0:00:29.70,0:00:35.70,Default,,0,0,0,,Class, controller signature, intent, range, recommended COA, EOC\Ncallout.
+Dialogue: 0,0:00:36.60,0:00:41.60,Default,,0,0,0,,Operator picks the swarm capture. Pipeline reruns end-to-end.
+Dialogue: 0,0:00:41.60,0:00:46.60,Default,,0,0,0,,Stage 3: hero model writes the CUAS Engagement Recommendation.
+Dialogue: 0,0:00:46.60,0:00:52.60,Default,,0,0,0,,BLUF, contact ID, threat assessment, ROE-graded options, recommended\NCOA.
+Dialogue: 0,0:00:52.61,0:00:58.61,Default,,0,0,0,,Engagement options graded passive, non-kinetic, kinetic — each with\Nrequired authority.
+Dialogue: 0,0:00:58.62,0:01:03.62,Default,,0,0,0,,Set KAMIWAZA_BASE_URL — same code, now on the Inference Mesh.
+Dialogue: 0,0:01:03.62,0:01:08.62,Default,,0,0,0,,IL5 / IL6 ready. ReBAC. Air-gapped. Zero data movement.
+Dialogue: 0,0:01:08.62,0:01:13.62,Default,,0,0,0,,CUAS-DETECT. Built on the Kamiwaza Stack. Powered by Kamiwaza.

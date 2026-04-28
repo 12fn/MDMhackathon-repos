@@ -5,10 +5,28 @@
 **Codename:** LEARN  ·  **Port:** 3032  ·  **Stack:** Streamlit (mono)
 
 ## Pitch
-Marine training pipelines (Infantry Officer Course, PMOS pipelines, PME like Squad Leader School) generate huge volumes of learning artifacts — discussion forums, written assignments, training logs, AAR — but instructors and the cognitive-development chain have no scalable way to answer: **to what extent is learning actually occurring?** LEARN reads every post and every submission and produces structured competency evidence aligned to USMC training standards, plus a class-level Instructor's Competency Brief — with a SHA-256-chained audit log so every assessment is replayable.
+Marine training pipelines — Infantry Officer Course (IOC, NAVMC 3500.18 Infantry T&R), PMOS pipelines (e.g. 0411 Logistics under NAVMC 3500.58, SIGINT 26xx under NAVMC 3500.44), and resident PME courses such as the **Sergeants Course** at the SNCO Academy MCB Quantico (E-5 SGTs) — distinct from the **Squad Leader Course** taught at SOI under NAVMC 3500.18 — generate huge volumes of learning artifacts (discussion forums, written assignments, training logs, AAR). Instructors and the cognitive-development chain have no scalable way to answer: **to what extent is learning actually occurring?** LEARN reads every post and every submission and produces structured competency evidence anchored to the relevant NAVMC 3500-series T&R Manual (or the MCO 1553.4B / DoDI 1322.35 PME framework for resident PME), plus a class-level Instructor's Competency Brief — with a SHA-256-chained audit log so every assessment is replayable. Records governance: **Privacy Act of 1974 (5 U.S.C. § 552a)** and **DoDI 1322.35 'Military Education Records'** — NOT FERPA (FERPA is K-12 / civilian higher-ed; Marines under active military training are governed by the Privacy Act + DoDI 1322.35).
 
 ## LOGCOM use case (verbatim)
 > Learning Intelligence Dashboard (LID) — AI analyzes learning artifacts (discussion forums, assignments, training logs, AAR) to produce structured competency evidence aligned with USMC training standards. Answers: To what extent is learning occurring? Are Marines demonstrating required competencies? Are instructors providing effective training? Audit trails for transparency.
+
+## T&R Manual anchoring (per cohort)
+Every cohort the dashboard ships with is anchored to its specific governing T&R Manual or PME framework so the brief can name the exact event-set its competency calls map to:
+
+| Cohort | Schoolhouse | Governing T&R / PME framework |
+|---|---|---|
+| IOC Bravo 26-1 (`ioc_b261`) | IOC, TBS / The Basic School, MCB Quantico VA | **NAVMC 3500.18 — Infantry Training & Readiness Manual** (events e.g. INF-MAN-1001, INF-OPS-2001, INF-PAT-2002) |
+| PMOS 0411 Maintenance Mgmt 26-04 (`pmos_0411_log`) | MCCSSS, Camp Johnson NC | **NAVMC 3500.58 — Logistics Training & Readiness Manual** (events e.g. LOG-MAINT-1001, LOG-MAINT-2003, LOG-DIST-2001) |
+| Sergeants Course 2-26 (`sgts_course`) | **SNCO Academy, MCB Quantico VA** (resident PME, E-5 SGTs) | **MCO 1553.4B (PME Framework) and DoDI 1322.35 'Military Education'** — Sergeants Course is **distinct** from the Squad Leader Course (which is taught at SOI under the Infantry T&R, NAVMC 3500.18). Do not conflate. |
+
+A SIGINT pipeline cohort would map to **NAVMC 3500.44 — Signals Intelligence T&R Manual**.
+
+## Records governance
+Every assessment LEARN writes is a Military Education Record. Governance:
+- **Privacy Act of 1974 (5 U.S.C. § 552a)** — system-of-records authority; PII handled in-environment only.
+- **DoDI 1322.35 'Military Education Records'** — DoD-wide military education records policy.
+
+FERPA does not apply: FERPA covers K-12 / civilian higher-ed students, not active-duty Marines under military training.
 
 ## Hero AI move (cache-first, three-stage agent)
 
@@ -85,7 +103,7 @@ apps/32-learn/
 - **Mission Impact (30%)** — verbatim LOGCOM-published Learning Intelligence Dashboard use case.
 - **Technical Innovation (25%)** — three-stage agentic pipeline (per-student JSON → cohort JSON → hero narrative), cache-first with deterministic fallback under wall-clock timeout.
 - **Usability & Design (20%)** — Kamiwaza dark theme, Plotly cohort heatmap as the hero visual, 3-click drill-down, captioned 90s demo.
-- **Security & Sustainability (15%)** — On-prem via Kamiwaza Stack (`KAMIWAZA_BASE_URL` flips provider). FERPA-equivalent for training records: nothing leaves the accredited environment. Append-only chained audit log.
+- **Security & Sustainability (15%)** — On-prem via Kamiwaza Stack (`KAMIWAZA_BASE_URL` flips provider). Military Education Records governance under the **Privacy Act of 1974 (5 U.S.C. § 552a)** and **DoDI 1322.35 'Military Education Records'** (NOT FERPA — FERPA does not apply to active-duty military training): nothing leaves the accredited environment. Append-only chained audit log.
 - **Team Collaboration (10%)** — Modular agent / app / heatmap split, README documents reproducible synth (seed 1776), real-data swap recipe in `data/load_real.py`.
 
 ---

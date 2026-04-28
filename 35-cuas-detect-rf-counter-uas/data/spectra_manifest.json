@@ -1,0 +1,56 @@
+[
+  {
+    "id": "dji_mavic",
+    "title": "DJI Mavic 3 (OcuSync 3+)",
+    "uas_class": "DJI Mavic",
+    "controller": "OcuSync",
+    "band_ghz": "2.4 / 5.8",
+    "png": "sample_spectra/dji_mavic.png",
+    "npy": "sample_spectra/dji_mavic.npy"
+  },
+  {
+    "id": "parrot_anafi",
+    "title": "Parrot Anafi USA (WiFi 802.11n)",
+    "uas_class": "Parrot Anafi",
+    "controller": "WiFi",
+    "band_ghz": "2.4 / 5.8",
+    "png": "sample_spectra/parrot_anafi.png",
+    "npy": "sample_spectra/parrot_anafi.npy"
+  },
+  {
+    "id": "cots_fixed_wing",
+    "title": "Custom commercial fixed-wing (LoRa C2)",
+    "uas_class": "COTS-fixed-wing",
+    "controller": "LoRa",
+    "band_ghz": "0.9",
+    "png": "sample_spectra/cots_fixed_wing.png",
+    "npy": "sample_spectra/cots_fixed_wing.npy"
+  },
+  {
+    "id": "hobbyist_quad",
+    "title": "Hobbyist quad (FrSky 2.4 GHz / proprietary FHSS)",
+    "uas_class": "hobbyist-quad",
+    "controller": "proprietary",
+    "band_ghz": "2.4",
+    "png": "sample_spectra/hobbyist_quad.png",
+    "npy": "sample_spectra/hobbyist_quad.npy"
+  },
+  {
+    "id": "swarm_pattern",
+    "title": "Multi-emitter swarm (4-8 quads, mixed FHSS)",
+    "uas_class": "swarm",
+    "controller": "proprietary",
+    "band_ghz": "2.4 / 5.8",
+    "png": "sample_spectra/swarm_pattern.png",
+    "npy": "sample_spectra/swarm_pattern.npy"
+  },
+  {
+    "id": "ambient_no_signal",
+    "title": "Ambient RF (no UAS detected)",
+    "uas_class": "ambient",
+    "controller": "none",
+    "band_ghz": "2.4 / 5.8",
+    "png": "sample_spectra/ambient_no_signal.png",
+    "npy": "sample_spectra/ambient_no_signal.npy"
+  }
+]

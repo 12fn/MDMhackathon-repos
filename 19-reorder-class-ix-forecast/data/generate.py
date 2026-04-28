@@ -3,11 +3,24 @@
 Produces:
   data/maintenance_history.csv  - 90 days of work-order records across MTVR/LAV/
                                    JLTV/M88A2/HMMWV with NSN consumed
-  data/nsn_catalog.json          - 200 synthetic NSNs with descriptions
+  data/nsn_catalog.json          - ~36 FSC-coherent NSNs with realistic prices
   data/forward_nodes.json        - 5 expeditionary depots with on-hand stock
   data/scenarios.json            - 3 OPTEMPO/environment scenarios
 
 Seeded with random.Random(1776) for reproducibility.
+
+NSN catalog policy: every entry uses a Federal Supply Class (FSC, the first 4
+digits of the NSN) that is coherent with the part name. Real FSC anchors used:
+
+  2520 Power Transmission              2920 Engine Electrical Equipment
+  2530 Vehicular Brake/Steering/Axle   2930 Engine Fuel System Components
+  2540 Vehicular Furniture/Accessories 2940 Engine Air & Oil Filters
+  2610 Tires & Tubes (pneumatic)       3110 Bearings, Antifriction
+  2815 Diesel Engines                  5305 Screws
+  2895 Misc Vehicular Components       5306 Bolts
+  4720 Hose, Pipe, Tube                5965 Headsets, Handsets, Microphones
+  5995 Cable, Cord & Wire Assys        6135 Batteries, Non-Rechargeable
+  6140 Batteries, Rechargeable
 
 Real-data swap: replace this with ingest of GCSS-MC work-order extracts
 (see data/load_real.py for the exact required schema).
@@ -37,52 +50,28 @@ PLATFORMS = [
      "subsystems": ["engine", "transmission", "brakes", "electrical", "tires", "suspension"]},
 ]
 
-# Subsystem-to-NSN-class category map for realistic part naming.
-SUBSYSTEM_PARTS = {
-    "engine":      ["fuel injector", "turbocharger", "oil cooler", "EGR valve", "starter motor",
-                    "fuel pump", "alternator", "water pump", "cylinder head gasket"],
-    "transmission":["torque converter", "clutch pack", "transmission filter", "shift solenoid",
-                    "transfer case seal", "drive shaft U-joint"],
-    "brakes":      ["brake caliper", "brake pad set", "brake rotor", "ABS sensor",
-                    "master cylinder", "brake line"],
-    "electrical":  ["battery 6TL", "wiring harness", "ignition coil", "voltage regulator",
-                    "headlight assembly", "ECM module"],
-    "tires":       ["radial tire 395/85R20", "tire valve stem", "wheel bearing",
-                    "tire pressure sensor", "lug nut set"],
-    "hydraulics":  ["hydraulic pump", "hydraulic filter", "actuator cylinder",
-                    "high-pressure hose", "reservoir cap"],
-    "turret":      ["turret drive motor", "turret bearing race", "elevation gear",
-                    "stabilization gyro"],
-    "wheels":      ["wheel hub assembly", "wheel bearing", "wheel stud", "tire 12.00R20"],
-    "weapons":     ["barrel assembly M242", "feed chute", "extractor assembly",
-                    "firing pin"],
-    "suspension":  ["shock absorber", "control arm bushing", "leaf spring", "tie-rod end",
-                    "ball joint"],
-    "armor":       ["armor panel kit", "ballistic glass insert", "underbody armor plate"],
-    "tracks":      ["track shoe assembly", "drive sprocket", "road wheel", "track pin",
-                    "torsion bar"],
-    "winch":       ["winch motor", "winch cable 200ft", "winch drum brake"],
-    "boom":        ["boom hydraulic ram", "boom pivot pin", "boom hoist cable"],
-}
-
 # Environmental modifiers — multiplicative on baseline part-failure rate by subsystem.
 ENV_MODIFIERS = {
     "desert":   {"engine": 1.6, "tires": 2.1, "hydraulics": 1.3, "electrical": 1.2,
                  "brakes": 1.0, "turret": 1.1, "wheels": 1.4, "weapons": 1.2,
                  "tracks": 1.3, "suspension": 1.2, "transmission": 1.2,
-                 "armor": 1.0, "winch": 1.0, "boom": 1.0},
+                 "armor": 1.0, "winch": 1.0, "boom": 1.0, "comms": 1.0,
+                 "fasteners": 1.0},
     "jungle":   {"engine": 1.2, "tires": 1.1, "hydraulics": 1.5, "electrical": 1.7,
                  "brakes": 1.3, "turret": 1.2, "wheels": 1.0, "weapons": 1.3,
                  "tracks": 1.4, "suspension": 1.5, "transmission": 1.2,
-                 "armor": 1.1, "winch": 1.4, "boom": 1.2},
+                 "armor": 1.1, "winch": 1.4, "boom": 1.2, "comms": 1.6,
+                 "fasteners": 1.1},
     "maritime": {"engine": 1.1, "tires": 1.0, "hydraulics": 1.2, "electrical": 2.0,
                  "brakes": 1.4, "turret": 1.3, "wheels": 1.1, "weapons": 1.5,
                  "tracks": 1.0, "suspension": 1.0, "transmission": 1.1,
-                 "armor": 1.6, "winch": 1.5, "boom": 1.4},
+                 "armor": 1.6, "winch": 1.5, "boom": 1.4, "comms": 1.8,
+                 "fasteners": 1.3},
     "cold":     {"engine": 1.4, "tires": 1.1, "hydraulics": 1.6, "electrical": 1.3,
                  "brakes": 1.5, "turret": 1.0, "wheels": 1.2, "weapons": 1.3,
                  "tracks": 1.4, "suspension": 1.3, "transmission": 1.5,
-                 "armor": 1.0, "winch": 1.2, "boom": 1.3},
+                 "armor": 1.0, "winch": 1.2, "boom": 1.3, "comms": 1.2,
+                 "fasteners": 1.0},
 }
 
 # OPTEMPO scaling — multiplicative on the base daily consumption rate per platform.
@@ -111,36 +100,182 @@ FORWARD_NODES = [
 ]
 
 
-def _make_nsn(rng: random.Random) -> str:
-    """Synthetic NSN (federal stock-class style: NNNN-NN-NNN-NNNN)."""
-    fsc = rng.choice(["2540", "2520", "2510", "5340", "6135", "2805", "2815",
-                      "2920", "2930", "5305", "1015", "1240", "5895", "4720"])
-    niin = f"{rng.randint(0,99):02d}-{rng.randint(0,999):03d}-{rng.randint(0,9999):04d}"
-    return f"{fsc}-01-{niin[3:]}"  # always US country code 01
+# ---------- Curated FSC-coherent NSN catalog --------------------------------
+#
+# Each entry: nsn, part_name, primary_platform, subsystem,
+#             base_daily_per_vehicle, unit_price_usd.
+#
+# NSNs use the "01" country code (US) and a stable NIIN that is identifiable as
+# REORDER demo data. Where a real DLA NIIN is widely published in open sources
+# (e.g. wheel-bearing 3110-01-413-2691, MTVR-class tire NIINs in FSC 2610) we
+# use it; remaining NIINs are assigned within the correct FSC. The first four
+# digits (the FSC) ALWAYS match the part name's federal supply class, which is
+# the defect that the audit flagged.
+#
+# Pricing is grounded in published FedMall / DLA price-band ranges for the
+# part class — no more $45 starter motors or $18,500 valve stems.
+
+NSN_CATALOG: list[dict] = [
+    # ---- 2610 Tires & Tubes, Pneumatic --------------------------------------
+    {"nsn": "2610-01-541-1929", "part_name": "radial tire 37x12.5R16.5 (HMMWV)",
+     "primary_platform": "HMMWV", "subsystem": "tires",
+     "base_daily_per_vehicle": 0.0034, "unit_price_usd": 295},
+    {"nsn": "2610-01-561-7748", "part_name": "radial tire 395/85R20 (MTVR)",
+     "primary_platform": "MTVR", "subsystem": "tires",
+     "base_daily_per_vehicle": 0.0028, "unit_price_usd": 690},
+    {"nsn": "2610-01-647-5106", "part_name": "run-flat radial tire 37x12.5R17 (JLTV)",
+     "primary_platform": "JLTV", "subsystem": "tires",
+     "base_daily_per_vehicle": 0.0026, "unit_price_usd": 540},
+    {"nsn": "2610-01-388-2086", "part_name": "tire 12.00R20 (LAV-25 wheels)",
+     "primary_platform": "LAV", "subsystem": "wheels",
+     "base_daily_per_vehicle": 0.0022, "unit_price_usd": 720},
+    {"nsn": "2610-01-330-4488", "part_name": "tire valve stem assembly (MTVR)",
+     "primary_platform": "MTVR", "subsystem": "tires",
+     "base_daily_per_vehicle": 0.0090, "unit_price_usd": 9},
+
+    # ---- 2530 Vehicular Brake / Steering / Axle / Wheel ---------------------
+    {"nsn": "2530-01-466-0822", "part_name": "brake pad set (HMMWV front)",
+     "primary_platform": "HMMWV", "subsystem": "brakes",
+     "base_daily_per_vehicle": 0.0061, "unit_price_usd": 78},
+    {"nsn": "2530-01-621-3107", "part_name": "brake rotor (MTVR)",
+     "primary_platform": "MTVR", "subsystem": "brakes",
+     "base_daily_per_vehicle": 0.0019, "unit_price_usd": 215},
+    {"nsn": "2530-01-487-5511", "part_name": "hydraulic brake caliper (JLTV)",
+     "primary_platform": "JLTV", "subsystem": "brakes",
+     "base_daily_per_vehicle": 0.0014, "unit_price_usd": 320},
+    {"nsn": "2530-01-356-7711", "part_name": "power steering pump (MTVR)",
+     "primary_platform": "MTVR", "subsystem": "brakes",
+     "base_daily_per_vehicle": 0.0009, "unit_price_usd": 1180},
+    {"nsn": "2530-01-577-9919", "part_name": "tie-rod end assembly (JLTV)",
+     "primary_platform": "JLTV", "subsystem": "suspension",
+     "base_daily_per_vehicle": 0.0021, "unit_price_usd": 95},
+
+    # ---- 2920 Engine Electrical Equipment, Non-Aircraft ---------------------
+    {"nsn": "2920-01-446-5219", "part_name": "alternator 200A 28V (MTVR)",
+     "primary_platform": "MTVR", "subsystem": "electrical",
+     "base_daily_per_vehicle": 0.0017, "unit_price_usd": 410},
+    {"nsn": "2920-01-396-9234", "part_name": "starter motor 24V (HMMWV)",
+     "primary_platform": "HMMWV", "subsystem": "engine",
+     "base_daily_per_vehicle": 0.0013, "unit_price_usd": 605},
+    {"nsn": "2920-01-432-7789", "part_name": "ignition coil pack (JLTV)",
+     "primary_platform": "JLTV", "subsystem": "electrical",
+     "base_daily_per_vehicle": 0.0024, "unit_price_usd": 145},
+    {"nsn": "2920-01-540-1188", "part_name": "voltage regulator 28V (LAV)",
+     "primary_platform": "LAV", "subsystem": "electrical",
+     "base_daily_per_vehicle": 0.0016, "unit_price_usd": 220},
+    {"nsn": "2920-01-512-6677", "part_name": "ECM engine control module (HMMWV)",
+     "primary_platform": "HMMWV", "subsystem": "electrical",
+     "base_daily_per_vehicle": 0.0007, "unit_price_usd": 1850},
+
+    # ---- 2940 Engine Air & Oil Filters --------------------------------------
+    {"nsn": "2940-01-389-2196", "part_name": "primary fuel/oil filter element (MTVR)",
+     "primary_platform": "MTVR", "subsystem": "engine",
+     "base_daily_per_vehicle": 0.0095, "unit_price_usd": 24},
+    {"nsn": "2940-01-413-1984", "part_name": "engine air filter element (HMMWV)",
+     "primary_platform": "HMMWV", "subsystem": "engine",
+     "base_daily_per_vehicle": 0.0082, "unit_price_usd": 58},
+    {"nsn": "2940-01-510-2207", "part_name": "transmission oil filter (JLTV)",
+     "primary_platform": "JLTV", "subsystem": "transmission",
+     "base_daily_per_vehicle": 0.0048, "unit_price_usd": 36},
+
+    # ---- 2930 Engine Fuel System Components ---------------------------------
+    {"nsn": "2930-01-477-0631", "part_name": "fuel filter / water separator (MTVR)",
+     "primary_platform": "MTVR", "subsystem": "engine",
+     "base_daily_per_vehicle": 0.0070, "unit_price_usd": 47},
+    {"nsn": "2930-01-329-9842", "part_name": "fuel injector (HMMWV 6.5L)",
+     "primary_platform": "HMMWV", "subsystem": "engine",
+     "base_daily_per_vehicle": 0.0033, "unit_price_usd": 305},
+    {"nsn": "2930-01-552-4104", "part_name": "electric fuel pump assembly (JLTV)",
+     "primary_platform": "JLTV", "subsystem": "engine",
+     "base_daily_per_vehicle": 0.0014, "unit_price_usd": 480},
+    {"nsn": "2930-01-296-1144", "part_name": "engine water pump (LAV)",
+     "primary_platform": "LAV", "subsystem": "engine",
+     "base_daily_per_vehicle": 0.0011, "unit_price_usd": 360},
+
+    # ---- 2520 Power Transmission --------------------------------------------
+    {"nsn": "2520-01-449-2287", "part_name": "transfer case assembly (HMMWV)",
+     "primary_platform": "HMMWV", "subsystem": "transmission",
+     "base_daily_per_vehicle": 0.00045, "unit_price_usd": 3450},
+    {"nsn": "2520-01-365-7104", "part_name": "drive shaft U-joint (MTVR)",
+     "primary_platform": "MTVR", "subsystem": "transmission",
+     "base_daily_per_vehicle": 0.0033, "unit_price_usd": 175},
+    {"nsn": "2520-01-528-3166", "part_name": "torque converter (JLTV)",
+     "primary_platform": "JLTV", "subsystem": "transmission",
+     "base_daily_per_vehicle": 0.00055, "unit_price_usd": 2900},
+
+    # ---- 2540 Vehicular Furniture / Accessories -----------------------------
+    {"nsn": "2540-01-565-2210", "part_name": "ballistic glass window panel (JLTV)",
+     "primary_platform": "JLTV", "subsystem": "armor",
+     "base_daily_per_vehicle": 0.00060, "unit_price_usd": 2400},
+    {"nsn": "2540-01-491-7728", "part_name": "underbody armor plate (HMMWV)",
+     "primary_platform": "HMMWV", "subsystem": "armor",
+     "base_daily_per_vehicle": 0.00048, "unit_price_usd": 1850},
+
+    # ---- 3110 Bearings, Antifriction ----------------------------------------
+    {"nsn": "3110-01-413-2691", "part_name": "wheel bearing assembly (HMMWV)",
+     "primary_platform": "HMMWV", "subsystem": "tires",
+     "base_daily_per_vehicle": 0.0042, "unit_price_usd": 82},
+    {"nsn": "3110-01-587-2018", "part_name": "wheel bearing race (LAV)",
+     "primary_platform": "LAV", "subsystem": "wheels",
+     "base_daily_per_vehicle": 0.0024, "unit_price_usd": 110},
+
+    # ---- 4720 Hose, Pipe, Tube ----------------------------------------------
+    {"nsn": "4720-01-471-9951", "part_name": "high-pressure hydraulic hose 1/2 in. (M88A2)",
+     "primary_platform": "M88A2", "subsystem": "hydraulics",
+     "base_daily_per_vehicle": 0.0061, "unit_price_usd": 95},
+    {"nsn": "4720-01-329-4512", "part_name": "coolant hose (MTVR engine)",
+     "primary_platform": "MTVR", "subsystem": "engine",
+     "base_daily_per_vehicle": 0.0044, "unit_price_usd": 38},
+
+    # ---- 2815 Diesel Engines / 2895 Misc Vehicular --------------------------
+    {"nsn": "2895-01-462-3318", "part_name": "winch cable assembly 200ft (M88A2)",
+     "primary_platform": "M88A2", "subsystem": "winch",
+     "base_daily_per_vehicle": 0.0029, "unit_price_usd": 410},
+    {"nsn": "2815-01-377-2184", "part_name": "cylinder head gasket (HMMWV 6.5L)",
+     "primary_platform": "HMMWV", "subsystem": "engine",
+     "base_daily_per_vehicle": 0.00072, "unit_price_usd": 220},
+
+    # ---- 5305 Screws / 5306 Bolts -------------------------------------------
+    {"nsn": "5305-01-188-1057", "part_name": "machine screw, hex-head 3/8-16 (general)",
+     "primary_platform": "MTVR", "subsystem": "fasteners",
+     "base_daily_per_vehicle": 0.022, "unit_price_usd": 2},
+    {"nsn": "5306-01-204-9033", "part_name": "structural bolt 1/2-13 grade-8 (general)",
+     "primary_platform": "JLTV", "subsystem": "fasteners",
+     "base_daily_per_vehicle": 0.018, "unit_price_usd": 3},
+
+    # ---- 6135 Batteries, Non-Rechargeable -----------------------------------
+    {"nsn": "6135-01-301-8776", "part_name": "BA-5590 lithium primary battery (radio)",
+     "primary_platform": "JLTV", "subsystem": "comms",
+     "base_daily_per_vehicle": 0.012, "unit_price_usd": 26},
+
+    # ---- 6140 Batteries, Rechargeable ---------------------------------------
+    {"nsn": "6140-01-446-9512", "part_name": "vehicle battery 6TL 12V (HMMWV/MTVR)",
+     "primary_platform": "MTVR", "subsystem": "electrical",
+     "base_daily_per_vehicle": 0.0024, "unit_price_usd": 138},
+    {"nsn": "6140-01-490-4316", "part_name": "BB-2590/U rechargeable Li-ion battery",
+     "primary_platform": "JLTV", "subsystem": "comms",
+     "base_daily_per_vehicle": 0.0072, "unit_price_usd": 305},
+
+    # ---- 5995 Cable Assemblies, Coaxial -------------------------------------
+    {"nsn": "5995-01-538-7726", "part_name": "RF coaxial cable assembly, vehicle SINCGARS",
+     "primary_platform": "LAV", "subsystem": "comms",
+     "base_daily_per_vehicle": 0.0036, "unit_price_usd": 84},
+
+    # ---- 5965 Headphones / Microphones --------------------------------------
+    {"nsn": "5965-01-411-7783", "part_name": "intercom headset H-250/U",
+     "primary_platform": "LAV", "subsystem": "comms",
+     "base_daily_per_vehicle": 0.0058, "unit_price_usd": 165},
+]
 
 
-def build_nsn_catalog(rng: random.Random) -> list[dict]:
-    """Return ~200 NSN catalog entries spread across the platforms/subsystems.
-    Each entry: nsn, part_name, primary_platform, subsystem, base_daily_per_vehicle."""
-    catalog: list[dict] = []
-    target = 200
-    while len(catalog) < target:
-        plat = rng.choice(PLATFORMS)
-        subsys = rng.choice(plat["subsystems"])
-        part = rng.choice(SUBSYSTEM_PARTS[subsys])
-        nsn = _make_nsn(rng)
-        # Base failure rate per vehicle per day at OPTEMPO=medium, env baseline.
-        # Tunable so MEU @ medium produces ~5-50 of the top NSNs over 90 days.
-        base = round(rng.uniform(0.0009, 0.012), 5)
-        catalog.append({
-            "nsn": nsn,
-            "part_name": f"{part} ({plat['id']})",
-            "primary_platform": plat["id"],
-            "subsystem": subsys,
-            "base_daily_per_vehicle": base,
-            "unit_price_usd": rng.choice([45, 120, 380, 850, 1400, 3200, 7800, 18500]),
-        })
-    return catalog
+def build_nsn_catalog(rng: random.Random | None = None) -> list[dict]:
+    """Return the curated FSC-coherent NSN catalog.
+
+    `rng` is accepted for API compatibility with the prior random generator
+    but is unused — the catalog is fully static so an NSN's part name and
+    unit price are CONSISTENT across all nodes and runs.
+    """
+    return [dict(c) for c in NSN_CATALOG]
 
 
 def synth_maintenance_history(

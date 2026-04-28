@@ -12,17 +12,17 @@ Style: Default,Helvetica,22,&H00FFFFFF,&H00FFFFFF,&H00000000,&HC8000000,1,0,0,0,
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 
-Dialogue: 0,0:00:00.90,0:00:05.90,Default,,0,0,0,,OPTIK — On-Prem Tactical Image Knowledge.
-Dialogue: 0,0:00:05.90,0:00:10.90,Default,,0,0,0,,MARADMIN 131/26: anticipate equipment failure, improve readiness.
-Dialogue: 0,0:00:10.90,0:00:15.90,Default,,0,0,0,,A motor-pool Marine vs. 3,400 pages of Technical Manual.
-Dialogue: 0,0:00:15.91,0:00:20.91,Default,,0,0,0,,30 synthetic TM snippets indexed at startup — text-embedding-3-small.
-Dialogue: 0,0:00:20.91,0:00:25.91,Default,,0,0,0,,Swappable to your real GCSS-MC corpus on a Kamiwaza DDE volume.
-Dialogue: 0,0:00:25.91,0:00:29.91,Default,,0,0,0,,Drag-drop a field photo.
-Dialogue: 0,0:00:28.43,0:00:34.43,Default,,0,0,0,,Single Kamiwaza-deployed multimodal call. Structured-JSON detection\Nschema.
-Dialogue: 0,0:00:30.48,0:00:36.48,Default,,0,0,0,,Vision -> bounding boxes -> RAG over TM snippets.
-Dialogue: 0,0:00:44.48,0:00:52.48,Default,,0,0,0,,Senior-Sergeant-tone brief with TM number, section, and NSNs.
-Dialogue: 0,0:00:50.49,0:00:55.49,Default,,0,0,0,,Three clicks. Identify. Read brief. Print parts list.
-Dialogue: 0,0:00:55.49,0:01:00.49,Default,,0,0,0,,JSON ready to push to GCSS-MC. E-5 answers in 4 seconds.
-Dialogue: 0,0:01:00.49,0:01:06.49,Default,,0,0,0,,Kamiwaza-deployed inference today. OpenAI fallback when\NKAMIWAZA_BASE_URL unset — zero code change.
-Dialogue: 0,0:01:05.50,0:01:11.50,Default,,0,0,0,,Qwen2-VL or LLaVA on vLLM Inference Mesh. IL5/IL6 ready.
-Dialogue: 0,0:01:10.50,0:01:16.50,Default,,0,0,0,,OPTIK — Built on the Kamiwaza Stack. Deploy in hours, not months.
+Dialogue: 0,0:00:01.22,0:00:06.22,Default,,0,0,0,,OPTIK — On-Prem Tactical Image Knowledge.
+Dialogue: 0,0:00:06.22,0:00:11.22,Default,,0,0,0,,MARADMIN 131/26: anticipate equipment failure, improve readiness.
+Dialogue: 0,0:00:11.22,0:00:16.22,Default,,0,0,0,,A motor-pool Marine vs. 3,400 pages of Technical Manual.
+Dialogue: 0,0:00:16.23,0:00:21.22,Default,,0,0,0,,30 synthetic TM snippets indexed at startup — text-embedding-3-small.
+Dialogue: 0,0:00:21.23,0:00:26.23,Default,,0,0,0,,Swappable to your real GCSS-MC corpus on a Kamiwaza DDE volume.
+Dialogue: 0,0:00:26.23,0:00:30.23,Default,,0,0,0,,Drag-drop a field photo.
+Dialogue: 0,0:00:28.76,0:00:34.76,Default,,0,0,0,,Single Kamiwaza-deployed multimodal call. Structured-JSON detection\Nschema.
+Dialogue: 0,0:00:30.82,0:00:36.82,Default,,0,0,0,,Vision -> bounding boxes -> RAG over TM snippets.
+Dialogue: 0,0:00:44.82,0:00:52.82,Default,,0,0,0,,Senior-Sergeant-tone brief with TM number, section, and NSNs.
+Dialogue: 0,0:00:50.82,0:00:55.82,Default,,0,0,0,,Three clicks. Identify. Read brief. Print parts list.
+Dialogue: 0,0:00:55.82,0:01:00.82,Default,,0,0,0,,JSON ready to push to GCSS-MC. E-5 answers in 4 seconds.
+Dialogue: 0,0:01:00.83,0:01:06.83,Default,,0,0,0,,Kamiwaza-deployed inference today. OpenAI fallback when\NKAMIWAZA_BASE_URL unset — zero code change.
+Dialogue: 0,0:01:05.83,0:01:11.83,Default,,0,0,0,,Qwen2-VL or LLaVA on vLLM Inference Mesh. IL5/IL6 ready.
+Dialogue: 0,0:01:10.84,0:01:16.84,Default,,0,0,0,,OPTIK — Built on the Kamiwaza Stack. Deploy in hours, not months.

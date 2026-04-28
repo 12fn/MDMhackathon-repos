@@ -1,0 +1,51 @@
+1
+00:00:00,644 --> 00:00:05,644
+CUAS-DETECT. Counter-UAS RF detection for Marine installation force protection.
+
+2
+00:00:05,648 --> 00:00:10,648
+LOGCOM Installation Incident Response. The OOD has thirty seconds to call it.
+
+3
+00:00:10,652 --> 00:00:16,652
+Six sample spectrograms — DJI Mavic, Parrot Anafi, fixed-wing, hobbyist quad, swarm, ambient.
+
+4
+00:00:16,691 --> 00:00:23,691
+Stage 1: heuristic features. Numpy on the spectrogram — peak bins, hop period, modulation hint.
+
+5
+00:00:23,699 --> 00:00:29,699
+Stage 2: multimodal AI engine ingests the spectrogram. Structured CUAS JSON.
+
+6
+00:00:29,701 --> 00:00:35,701
+Class, controller signature, intent, range, recommended COA, EOC callout.
+
+7
+00:00:36,600 --> 00:00:41,600
+Operator picks the swarm capture. Pipeline reruns end-to-end.
+
+8
+00:00:41,604 --> 00:00:46,604
+Stage 3: hero model writes the CUAS Engagement Recommendation.
+
+9
+00:00:46,605 --> 00:00:52,605
+BLUF, contact ID, threat assessment, ROE-graded options, recommended COA.
+
+10
+00:00:52,607 --> 00:00:58,607
+Engagement options graded passive, non-kinetic, kinetic — each with required authority.
+
+11
+00:00:58,617 --> 00:01:03,617
+Set KAMIWAZA_BASE_URL — same code, now on the Inference Mesh.
+
+12
+00:01:03,618 --> 00:01:08,618
+IL5 / IL6 ready. ReBAC. Air-gapped. Zero data movement.
+
+13
+00:01:08,619 --> 00:01:13,619
+CUAS-DETECT. Built on the Kamiwaza Stack. Powered by Kamiwaza.

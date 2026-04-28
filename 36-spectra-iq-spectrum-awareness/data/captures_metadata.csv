@@ -1,0 +1,7 @@
+scenario_id,label,filename,synth_sample_rate_MSPS,nist_sample_rate_MSPS,center_freq_GHz,bw_MHz,gain_dB,hardware,noise_floor_dBm,calibration,expected_anomaly
+wifi_idle_24,Wi-Fi 2.4 GHz · idle AP beacon,captures/wifi_idle_24.npy,2.0,30.0,2.437,20.0,30,USRP-X300/UBX160/VERT2450,-96,factory,nominal
+wifi_busy_bt_mix,Wi-Fi 2.4 GHz busy + BT-LE traffic,captures/wifi_busy_bt_mix.npy,2.0,30.0,2.45,80.0,28,USRP-X300/UBX160/VERT2450,-94,factory,nominal
+bt_le_beacon_storm,Bluetooth LE beacon storm (8 advertisers),captures/bt_le_beacon_storm.npy,2.0,30.0,2.42,2.0,36,USRP-X300/UBX160/VERT2450,-97,factory,suspicious-pattern
+unauth_433_emitter,Unauthorized 433 MHz OOK emitter,captures/unauth_433_emitter.npy,2.0,30.0,0.43392,0.5,40,USRP-X300/UBX160/VERT2450,-98,factory,unauthorized-band
+jamming_sweep,Wideband chirp jammer · 2.4 GHz,captures/jamming_sweep.npy,2.0,30.0,2.45,80.0,22,USRP-X300/UBX160/VERT2450,-82,factory,active-jamming
+ambient_noise,Ambient noise floor · 5 GHz quiet channel,captures/ambient_noise.npy,2.0,30.0,5.18,20.0,30,USRP-X300/UBX160/VERT2450,-99,factory,nominal

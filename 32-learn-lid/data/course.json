@@ -2,7 +2,16 @@
   "course": {
     "id": "ioc_b261",
     "name": "Infantry Officer Course - Bravo Cohort 26-1",
-    "code": "IOC-B26-1"
+    "code": "IOC-B26-1",
+    "tr_manual": "NAVMC 3500.18 \u2014 Infantry Training & Readiness Manual",
+    "tr_manual_short": "NAVMC 3500.18",
+    "tr_event_examples": [
+      "INF-MAN-1001",
+      "INF-OPS-2001",
+      "INF-PAT-2002"
+    ],
+    "schoolhouse": "Infantry Officer Course (IOC), TBS / The Basic School, MCB Quantico VA",
+    "governing_authority": "Privacy Act of 1974 (5 U.S.C. \u00a7 552a) and DoDI 1322.35 'Military Education Records'"
   },
   "students": [
     {

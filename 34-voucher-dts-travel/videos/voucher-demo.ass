@@ -12,12 +12,12 @@ Style: Default,Helvetica,22,&H00FFFFFF,&H00FFFFFF,&H00000000,&HC8000000,1,0,0,0,
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 
-Dialogue: 0,0:00:00.61,0:00:05.61,Default,,0,0,0,,VOUCHER — idiot-proof DTS and Citi-card reconciliation for the unit\NS-1.
+Dialogue: 0,0:00:00.62,0:00:05.62,Default,,0,0,0,,VOUCHER — idiot-proof DTS and Citi-card reconciliation for the unit\NS-1.
 Dialogue: 0,0:00:05.62,0:00:15.62,Default,,0,0,0,,LOGCOM published use case: Travel Program Validation. Automate the\Nprocess. Make it idiot proof.
 Dialogue: 0,0:00:15.66,0:00:25.66,Default,,0,0,0,,100 DTS authorization-and-voucher pairs and 100 Citi Manager card\Ntransactions for one unit-quarter. No data movement.
-Dialogue: 0,0:00:25.67,0:00:35.67,Default,,0,0,0,,Click Run Validation. Two-tier agent fires: structured-JSON verdict\Nper record from the Kamiwaza-deployed model.
+Dialogue: 0,0:00:25.66,0:00:35.66,Default,,0,0,0,,Click Run Validation. Two-tier agent fires: structured-JSON verdict\Nper record from the Kamiwaza-deployed model.
 Dialogue: 0,0:00:33.73,0:00:43.73,Default,,0,0,0,,A deterministic rule baseline backstops every call — the issues table\Nnever sits empty waiting on the model.
 Dialogue: 0,0:00:41.74,0:00:51.74,Default,,0,0,0,,Sortable issues table — escalations first. Severity, dollar exposure,\Nrecommended action, confidence.
-Dialogue: 0,0:00:46.75,0:00:56.75,Default,,0,0,0,,Open a flagged record — DTS voucher lines on the left, Citi card\Ncharges on the right, agent rationale between.
-Dialogue: 0,0:00:51.75,0:01:06.75,Default,,0,0,0,,Same code path inside the wire. Set KAMIWAZA_BASE_URL and CUI never\Nleaves the perimeter. IL5/IL6 ready.
+Dialogue: 0,0:00:46.74,0:00:56.74,Default,,0,0,0,,Open a flagged record — DTS voucher lines on the left, Citi card\Ncharges on the right, agent rationale between.
+Dialogue: 0,0:00:51.74,0:01:06.74,Default,,0,0,0,,Same code path inside the wire. Set KAMIWAZA_BASE_URL and CUI never\Nleaves the perimeter. IL5/IL6 ready.
 Dialogue: 0,0:01:06.77,0:01:16.77,Default,,0,0,0,,Cached quarterly brief renders instantly. Three buttons. Built on the\NKamiwaza Stack.

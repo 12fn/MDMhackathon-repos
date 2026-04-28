@@ -1,0 +1,208 @@
+{
+  "MCWP 4-11": {
+    "title": "Tactical-Level Logistics",
+    "section_abstracts": {
+      "Ch 1": "Logistics functions defined: supply, maintenance, transportation, general engineering, health services, services.",
+      "Ch 3": "Class V (ammunition) planning factors and consumption rates by unit type and operation tempo.",
+      "Ch 5": "Sustainment estimate process; tying logistic estimate to commander's COA selection."
+    }
+  },
+  "MCRP 4-11.1F": {
+    "title": "Tactical-Level Logistics \u2014 Reference Publication",
+    "section_abstracts": {
+      "App A": "Standard sustainment planning factors; Class I/III/V/IX rates for MEU/MEB/MEF.",
+      "App C": "Throughput and reception, staging, onward movement, integration (RSOI) calculations."
+    }
+  },
+  "MCDP 4": {
+    "title": "Logistics",
+    "section_abstracts": {
+      "Ch 1": "Logistics as the bridge between national resources and tactical employment.",
+      "Ch 2": "The seven principles of logistics: responsiveness, simplicity, flexibility, economy, attainability, sustainability, survivability.",
+      "Ch 3": "Operational level: integration of logistics with the scheme of maneuver."
+    }
+  },
+  "MCWP 4-11.7": {
+    "title": "MAGTF Supply Operations",
+    "section_abstracts": {
+      "Ch 2": "Class I subsistence planning factors and field-feeding requirements.",
+      "Ch 4": "Class IX repair parts demand support and the GCSS-MC interface."
+    }
+  },
+  "MCRP 3-10A.4": {
+    "title": "Marine Rifle Squad",
+    "section_abstracts": {
+      "Ch 2": "Squad organization, weapons, and roles. Fire team functions.",
+      "Ch 4": "Squad in the offense \u2014 formations, control measures, fire and movement.",
+      "Ch 5": "Squad in the defense \u2014 sectors of fire, EAs, withdrawal under pressure."
+    }
+  },
+  "MCDP 1": {
+    "title": "Warfighting",
+    "section_abstracts": {
+      "Ch 1": "Nature of war: friction, uncertainty, fluidity, disorder, complexity.",
+      "Ch 4": "Conduct of war: maneuver warfare philosophy; tempo, focus, surprise, boldness, combined arms."
+    }
+  },
+  "MCWP 3-01": {
+    "title": "Offensive and Defensive Tactics",
+    "section_abstracts": {
+      "Ch 2": "Offensive operations: forms of maneuver, types of attack.",
+      "Ch 5": "Defensive operations: defense in depth, mutually supporting positions."
+    }
+  },
+  "MCRP 6-11D": {
+    "title": "Sustaining the Transformation",
+    "section_abstracts": {
+      "Ch 3": "Roles of the NCO in mentorship and standards enforcement.",
+      "Ch 5": "Five horizontal themes \u2014 fidelity, fortitude, initiative, perseverance, integrity."
+    }
+  },
+  "MCO 4790.25": {
+    "title": "Ground Equipment Records Procedures",
+    "section_abstracts": {
+      "Ch 2": "Maintenance management cycle; PMCS, scheduled maintenance, modifications.",
+      "Ch 4": "Equipment status reporting; readiness reportable equipment list (RREL)."
+    }
+  },
+  "MCWP 4-11.4": {
+    "title": "Maintenance Operations",
+    "section_abstracts": {
+      "Ch 2": "Echelons of maintenance; field, sustainment, and depot levels.",
+      "Ch 3": "Recovery and evacuation; cross-leveling parts within maintenance battalion."
+    }
+  },
+  "MCO 5400.18": {
+    "title": "Marine Corps Logistics Command Structure",
+    "section_abstracts": {
+      "Ch 1": "LOGCOM mission, organization, and supporting establishment relationships.",
+      "Ch 3": "Depot-level support for ground equipment; rebuild and reset programs."
+    }
+  },
+  "MCRP 3-40D": {
+    "title": "Sustainment Operations",
+    "section_abstracts": {
+      "Ch 2": "Distribution architecture: hubs, nodes, lines of communication.",
+      "Para 5": "Operational reach and culmination \u2014 when sustainment becomes the limiting factor."
+    }
+  },
+  "MCDP 5": {
+    "title": "Planning",
+    "section_abstracts": {
+      "Ch 2": "Marine Corps Planning Process (MCPP) \u2014 six-step cyclical model.",
+      "Ch 3": "Single-battle concept; integrating shaping, decisive, and sustaining actions."
+    }
+  },
+  "MCDP 6": {
+    "title": "Command and Control",
+    "section_abstracts": {
+      "Ch 3": "Mission-type orders; centralized planning, decentralized execution.",
+      "Ch 4": "Information management and the commander's critical information requirements (CCIR)."
+    }
+  },
+  "MCWP 5-10": {
+    "title": "Marine Corps Planning Process",
+    "section_abstracts": {
+      "Ch 2": "Step 1 \u2014 Problem framing.",
+      "Ch 4": "Step 4 \u2014 Course of action wargaming."
+    }
+  },
+  "MCO P3500.72A": {
+    "title": "Marine Corps Ground Training and Readiness",
+    "section_abstracts": {
+      "Ch 1": "T&R program structure and event-based training.",
+      "Ch 3": "Combat readiness percentage (CRP) calculation."
+    }
+  },
+  "MCWP 3-32": {
+    "title": "Marine Air-Ground Task Force Information Operations",
+    "section_abstracts": {
+      "Ch 2": "IO core competencies and the integration with kinetic operations."
+    }
+  },
+  "MCRP 3-30.4": {
+    "title": "Marine Corps Operations",
+    "section_abstracts": {
+      "Ch 4": "Sustainment warfighting function across the range of military operations."
+    }
+  },
+  "MCWP 3-40.1": {
+    "title": "MAGTF Command and Control",
+    "section_abstracts": {
+      "Ch 5": "Command relationships: OPCON, TACON, ADCON, support relationships."
+    }
+  },
+  "MCO 1500.59A": {
+    "title": "Marine Corps Distance Learning Program",
+    "section_abstracts": {
+      "Ch 2": "DL course completion standards and credit toward PME requirements."
+    }
+  },
+  "MCO 1553.3B": {
+    "title": "Unit Training Management",
+    "section_abstracts": {
+      "Ch 4": "Long-range training plan construction and the unit-level T&R event sequencing."
+    }
+  },
+  "MCRP 4-11.3K": {
+    "title": "Convoy Operations Handbook",
+    "section_abstracts": {
+      "Ch 2": "Convoy planning factors: serial, march unit, intervals, speed.",
+      "Ch 5": "Hardening and reaction drills under contact."
+    }
+  },
+  "MCWP 4-12": {
+    "title": "Operational-Level Logistics",
+    "section_abstracts": {
+      "Ch 3": "Theater distribution and the joint deployment distribution operations center (JDDOC)."
+    }
+  },
+  "MCO 4400.150": {
+    "title": "Consumer-Level Supply Policy",
+    "section_abstracts": {
+      "Ch 3": "Stock listing, requisitioning, and on-hand balance reconciliation."
+    }
+  },
+  "MCO 4400.16K": {
+    "title": "Uniform Materiel Movement and Issue Priority System",
+    "section_abstracts": {
+      "Ch 2": "UMMIPS priority designators and required delivery dates (RDDs)."
+    }
+  },
+  "MCRP 4-11.4A": {
+    "title": "Combat Service Support for Sustained Operations",
+    "section_abstracts": {
+      "Ch 3": "Sustainment estimate: building the days-of-supply (DOS) calculation."
+    }
+  },
+  "MCO 1700.29": {
+    "title": "Marine Corps Lifelong Learning Program",
+    "section_abstracts": {
+      "Ch 2": "Voluntary education and PME credit articulation."
+    }
+  },
+  "MCO 5530.14A": {
+    "title": "Marine Corps Physical Security Program",
+    "section_abstracts": {
+      "Ch 5": "Arms, ammunition, and explosives (AA&E) facility standards."
+    }
+  },
+  "MCO P5102.1B": {
+    "title": "Marine Corps Mishap Investigation",
+    "section_abstracts": {
+      "Ch 2": "Class A/B/C mishap definitions and reporting timelines."
+    }
+  },
+  "MCO 3501.36": {
+    "title": "Marine Corps Combat Readiness Reporting",
+    "section_abstracts": {
+      "Ch 2": "DRRS-MC reporting cycle and the C-level rollup methodology."
+    }
+  },
+  "MCWP 3-35.3": {
+    "title": "Military Operations on Urbanized Terrain",
+    "section_abstracts": {
+      "Ch 5": "Building entry, room clearing, fatal funnel mitigation."
+    }
+  }
+}

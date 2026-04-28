@@ -1,0 +1,244 @@
+{
+  "students": [
+    {
+      "student_id": "M001",
+      "name": "Capt Alvarez, J.",
+      "rank": "Capt",
+      "edipi_synth": "1234567890",
+      "primary_course_id": "log_principles_paper",
+      "profile": "developing",
+      "submission_history": [
+        {
+          "course_id": "log_principles_paper",
+          "assignment": "Logistics Principles Paper Draft 1",
+          "grade": 78,
+          "submitted": "2026-04-08"
+        },
+        {
+          "course_id": "log_principles_paper",
+          "assignment": "Discussion 2 Reflection",
+          "grade": 82,
+          "submitted": "2026-04-15"
+        },
+        {
+          "course_id": "log_principles_paper",
+          "assignment": "Sustainment Estimate Worksheet",
+          "grade": 75,
+          "submitted": "2026-04-20"
+        }
+      ],
+      "forum_posts": [
+        {
+          "thread": "Apply MCDP 4 principles to a 30-day MEU sustainment",
+          "depth": "application",
+          "body": "Applying responsiveness, the MEU's CLB needs the LCE to push 5-day pulses rather than waiting for pull from the BLT. Per MCDP 4 Ch 2 the responsiveness principle implies forward-positioned stocks."
+        },
+        {
+          "thread": "Class V planning factors \u2014 discussion",
+          "depth": "recall",
+          "body": "MCWP 4-11 Ch 3 has the consumption tables. I used the offensive operations baseline."
+        },
+        {
+          "thread": "Where does sustainment estimate fit in MCPP?",
+          "depth": "application",
+          "body": "It feeds COA wargaming in step 4 of MCPP. The logistic estimate has to be live so the wargame doesn't pick a COA we cannot sustain."
+        },
+        {
+          "thread": "Critique: simplicity vs flexibility in MCDP 4",
+          "depth": "analysis",
+          "body": "Simplicity argues for fewer SKU lines and standardized loadouts. Flexibility argues for tailored task-organized packages. Tension is real and the doctrine glosses it. I'd weight simplicity at the BLT level and flexibility at the LCE level."
+        },
+        {
+          "thread": "RSOI throughput \u2014 calculation walkthrough",
+          "depth": "application",
+          "body": "Used MCRP 4-11.1F App C. My APOD throughput calc came out to 1,200 STON/day given two C-17 spots and a 22-hr ops day."
+        },
+        {
+          "thread": "How does GCSS-MC handle cross-leveling?",
+          "depth": "recall",
+          "body": "Through the requisition module I think. We covered this in PMOS school but I have to look it up again."
+        },
+        {
+          "thread": "Logistics rebellion \u2014 when does the tail wag the dog?",
+          "depth": "analysis",
+          "body": "Sustainment becomes operational reach. If the planner doesn't model culmination per MCRP 3-40D para 5, the COA will overrun its DOS and the tail dictates the new mission."
+        },
+        {
+          "thread": "MEU sustainment estimate \u2014 peer review",
+          "depth": "application",
+          "body": "Peer reviewed S04's draft. Suggested rebuilding Class III(B) on JP-8 consumption per fuel-burner type, not per platform-day."
+        },
+        {
+          "thread": "What's the worst sustainment failure you've seen written up?",
+          "depth": "recall",
+          "body": "The Fallujah sustainment AAR \u2014 Class IX backlog hurt us at the company-level."
+        },
+        {
+          "thread": "MCDP 4 principle of survivability \u2014 apply to drone-saturated environment",
+          "depth": "application",
+          "body": "Survivability now demands distributed sustainment \u2014 fewer big nodes, more small nodes. Not in the doctrine yet."
+        }
+      ]
+    },
+    {
+      "student_id": "M002",
+      "name": "Sgt Brennan, K.",
+      "rank": "Sgt",
+      "edipi_synth": "2345678901",
+      "primary_course_id": "sergeants_course",
+      "profile": "rising_star",
+      "submission_history": [
+        {
+          "course_id": "sergeants_course",
+          "assignment": "Squad in the Defense \u2014 Written Check",
+          "grade": 88,
+          "submitted": "2026-04-10"
+        },
+        {
+          "course_id": "sergeants_course",
+          "assignment": "Mission-Type Orders Reflection",
+          "grade": 91,
+          "submitted": "2026-04-17"
+        },
+        {
+          "course_id": "sergeants_course",
+          "assignment": "Casualty Evac Plan",
+          "grade": 84,
+          "submitted": "2026-04-22"
+        }
+      ],
+      "forum_posts": [
+        {
+          "thread": "Squad in the defense \u2014 sectors of fire",
+          "depth": "synthesis",
+          "body": "Combining MCRP 3-10A.4 Ch 5 with MCWP 3-01 Ch 5: the squad's sector should overlap with the adjacent squad's by 50m to deny the enemy a seam, but the leader has to publish the seam owner explicitly or both squads will assume the other has it."
+        },
+        {
+          "thread": "Mission-type orders in DDIL \u2014 what really works?",
+          "depth": "evaluation",
+          "body": "MCDP 6 Ch 3 says mission-type orders. In DDIL it's not enough \u2014 you need pre-briefed contingencies because the orient step in OODA stalls when comms degrade. The doctrine is right in spirit but soft on the EW reality."
+        },
+        {
+          "thread": "Casualty evac \u2014 squad-level decision authority",
+          "depth": "synthesis",
+          "body": "The doctrine pushes CASEVAC launch to platoon. I'd push it to squad. The few minutes saved are decisive. That's a doctrine + policy conversation."
+        },
+        {
+          "thread": "Reverse-slope defense \u2014 when?",
+          "depth": "analysis",
+          "body": "When the enemy has overhead ISR or armor, reverse slope removes their direct observation. MCWP 3-01 covers this but the modern ISR threat makes it more important than the doctrine implies."
+        },
+        {
+          "thread": "Squad fire and movement \u2014 the basics",
+          "depth": "application",
+          "body": "Per MCRP 3-10A.4: bounding overwatch with team-level fire support. We rehearsed last week and it worked."
+        },
+        {
+          "thread": "Mentorship in MCRP 6-11D \u2014 what stuck?",
+          "depth": "recall",
+          "body": "The five horizontal themes \u2014 fidelity, fortitude, initiative, perseverance, integrity. I keep them on my notebook cover."
+        },
+        {
+          "thread": "Tactical patience \u2014 when do you wait vs press?",
+          "depth": "evaluation",
+          "body": "Doctrine doesn't give you a clean answer. My rule: press when you have initiative and intel. Wait when you have neither. Doctrine implies always press; that's wrong against a peer."
+        },
+        {
+          "thread": "Decision games \u2014 getting the most out of them",
+          "depth": "analysis",
+          "body": "Most TDGs ask 'what would you do?' The harder ones ask 'what would you do at T+15s, T+45s, T+2m?' Doctrine doesn't teach you to think on multiple time horizons."
+        },
+        {
+          "thread": "Heat casualty mitigation \u2014 leader actions",
+          "depth": "application",
+          "body": "Per the heat cat SOPs: water plan briefed, work-rest cycles enforced, a buddy-check at the top of every hour. We had a near-miss last summer because I missed a buddy check window."
+        },
+        {
+          "thread": "How do you brief commander's intent for a junior?",
+          "depth": "synthesis",
+          "body": "Strip it to: end state, two key tasks, one thing you absolutely don't want. That's it. Anything more and the junior won't carry it forward under stress."
+        }
+      ]
+    },
+    {
+      "student_id": "M003",
+      "name": "Cpl Chen, L.",
+      "rank": "Cpl",
+      "edipi_synth": "3456789012",
+      "primary_course_id": "mos_0411_sustainment",
+      "profile": "needs_remediation",
+      "submission_history": [
+        {
+          "course_id": "mos_0411_sustainment",
+          "assignment": "PMCS Cycle Quiz",
+          "grade": 64,
+          "submitted": "2026-04-09"
+        },
+        {
+          "course_id": "mos_0411_sustainment",
+          "assignment": "GCSS-MC Practical Exercise",
+          "grade": 58,
+          "submitted": "2026-04-16"
+        },
+        {
+          "course_id": "mos_0411_sustainment",
+          "assignment": "Class IX Demand Forecast",
+          "grade": 71,
+          "submitted": "2026-04-21"
+        }
+      ],
+      "forum_posts": [
+        {
+          "thread": "PMCS \u2014 what's the difference between scheduled and corrective?",
+          "depth": "recall",
+          "body": "Scheduled is on a calendar. Corrective is when something breaks. From MCO 4790.25."
+        },
+        {
+          "thread": "GCSS-MC requisition flow \u2014 walk through",
+          "depth": "recall",
+          "body": "You log in, you make the requisition, it routes. I'm still learning the screens."
+        },
+        {
+          "thread": "Class IX demand forecast \u2014 how do you do it?",
+          "depth": "recall",
+          "body": "Look at past consumption. Project forward. I think there's a tool in GCSS for this."
+        },
+        {
+          "thread": "Why is PMCS important?",
+          "depth": "recall",
+          "body": "It catches problems before they become deadlines. Keeps equipment ready."
+        },
+        {
+          "thread": "Recovery operations \u2014 squad responsibilities",
+          "depth": "recall",
+          "body": "Per MCWP 4-11.4 \u2014 we have to recover or evac. Cross-level if we can."
+        },
+        {
+          "thread": "What's the RREL?",
+          "depth": "recall",
+          "body": "Readiness reportable equipment list. From MCO 4790.25 Ch 4."
+        },
+        {
+          "thread": "Echelons of maintenance \u2014 confused on field vs sustainment",
+          "depth": "recall",
+          "body": "Field is at the operating unit. Sustainment is higher. I keep forgetting which is which."
+        },
+        {
+          "thread": "Class V planning \u2014 never done it before",
+          "depth": "recall",
+          "body": "I haven't done a Class V plan. Asking for help. Anyone done one for a rifle company?"
+        },
+        {
+          "thread": "GCSS-MC outage \u2014 what do we do?",
+          "depth": "application",
+          "body": "I think we go to manual requisitions. The SOP is in the binder somewhere. I have to find it."
+        },
+        {
+          "thread": "Why did my PMCS Quiz score so low?",
+          "depth": "recall",
+          "body": "I missed the questions on calendar-based intervals. Going to re-read MCO 4790.25 Ch 2 this week."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "OFDM": {
+    "WiFi-2.4": [
+      "wifi-AP",
+      "phone",
+      "iot-sensor"
+    ],
+    "WiFi-5": [
+      "wifi-AP",
+      "phone"
+    ],
+    "proprietary": [
+      "unknown-emitter"
+    ],
+    "unknown": [
+      "unknown-emitter"
+    ]
+  },
+  "FSK": {
+    "BT-Classic": [
+      "phone",
+      "wearable"
+    ],
+    "proprietary": [
+      "iot-sensor"
+    ],
+    "unknown": [
+      "unknown-emitter"
+    ]
+  },
+  "GFSK": {
+    "BT-Classic": [
+      "phone",
+      "wearable"
+    ],
+    "BT-LE": [
+      "bt-beacon",
+      "wearable",
+      "iot-sensor"
+    ],
+    "Zigbee": [
+      "iot-sensor"
+    ],
+    "unknown": [
+      "unknown-emitter"
+    ]
+  },
+  "DSSS": {
+    "WiFi-2.4": [
+      "wifi-AP"
+    ],
+    "Zigbee": [
+      "iot-sensor"
+    ],
+    "unknown": [
+      "unknown-emitter"
+    ]
+  },
+  "OOK": {
+    "proprietary": [
+      "unknown-emitter",
+      "iot-sensor"
+    ],
+    "unknown": [
+      "unknown-emitter"
+    ]
+  },
+  "Chirp": {
+    "proprietary": [
+      "unknown-emitter"
+    ],
+    "unknown": [
+      "unknown-emitter"
+    ]
+  },
+  "unknown": {
+    "unknown": [
+      "unknown-emitter"
+    ]
+  }
+}

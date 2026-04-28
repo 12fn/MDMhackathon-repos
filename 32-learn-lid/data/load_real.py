@@ -35,7 +35,10 @@ Required Moodle tables / columns (mapped to LEARN shape):
     - created               -> ts
     - depth label is computed locally (LLM step 1) — not in Moodle
 
-PII handling (FERPA-equivalent for training records):
+PII handling (Military Education Records governed by the Privacy Act of 1974
+(5 U.S.C. § 552a) and DoDI 1322.35 'Military Education Records' — NOT FERPA;
+FERPA covers K-12 / higher-ed civilian students, not Marines under active
+military training):
   - Replace real names with rank+last for display
   - Redact any email/phone/SSN-shaped strings before emitting
   - DO NOT emit raw EDIPI or SSN; surrogate-hash them

@@ -1,0 +1,51 @@
+1
+00:00:01,165 --> 00:00:06,165
+SPECTRA. Raw I/Q in, threat picture out.
+
+2
+00:00:06,167 --> 00:00:11,167
+Marine FOB Spectrum Awareness — what is in my bubble, is any of it not ours?
+
+3
+00:00:11,169 --> 00:00:16,169
+Six synthetic 1-second I/Q captures. NIST SigMF schema.
+
+4
+00:00:16,298 --> 00:00:21,298
+STFT renders the spectrogram. SigMF header on the right.
+
+5
+00:00:21,299 --> 00:00:26,299
+Multimodal model ingests the spectrogram plus the SigMF header.
+
+6
+00:00:21,335 --> 00:00:27,335
+Strict JSON: modulation, protocol, anomaly flag, confidence.
+
+7
+00:00:32,337 --> 00:00:37,337
+Hero model drafts a SIPR-format Spectrum Awareness Brief.
+
+8
+00:00:37,345 --> 00:00:43,345
+BLUF, header, top emitters, anomalies, recommended actions.
+
+9
+00:00:43,346 --> 00:00:48,346
+Three clicks: pick a capture, classify, draft the brief.
+
+10
+00:00:48,396 --> 00:00:53,396
+Unauthorized-band emitter. Cached brief loads instantly.
+
+11
+00:00:53,402 --> 00:00:59,402
+Set KAMIWAZA_BASE_URL — same code, now on the Inference Mesh.
+
+12
+00:00:59,403 --> 00:01:04,403
+IL5 / IL6 ready. ReBAC. Air-gapped. Zero data movement.
+
+13
+00:01:04,405 --> 00:01:09,405
+SPECTRA. Built on the Kamiwaza Stack. Powered by Kamiwaza.

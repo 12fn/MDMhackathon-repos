@@ -1,0 +1,88 @@
+{
+  "courses": [
+    {
+      "id": "log_principles_paper",
+      "name": "Logistics Principles Paper",
+      "code": "LOG-PRIN-26",
+      "school": "MAGTF Logistics Officers Course",
+      "description": "Mid-career logistics officer writing assignment. Maps directly to the Student Written Assignment Examples dataset on the LOGCOM portal (assignment .docx + rubric .xlsx + sample submissions).",
+      "primary_doctrine": [
+        "MCWP 4-11",
+        "MCRP 4-11.1F",
+        "MCDP 4",
+        "MCWP 4-11.7"
+      ],
+      "tr_manual": "NAVMC 3500.58 \u2014 Logistics Training & Readiness Manual",
+      "tr_manual_short": "NAVMC 3500.58",
+      "tr_event_codes": [
+        "LOG-DIST-2001",
+        "LOG-PLAN-2003",
+        "LOG-SUS-3001"
+      ],
+      "governing_authority": "Privacy Act of 1974 (5 U.S.C. \u00a7 552a) and DoDI 1322.35 \"Military Education Records\"",
+      "rubric_axes": [
+        "doctrinal_grounding",
+        "logistics_principles_application",
+        "writing_clarity",
+        "critical_thinking",
+        "rubric_alignment"
+      ]
+    },
+    {
+      "id": "sergeants_course",
+      "name": "Sergeants Course (Resident, SNCO Academy)",
+      "code": "SGTS-CRS-2-26",
+      "school": "Staff NCO Academy, MCB Quantico VA",
+      "description": "Resident NCO PME for E-5 Sergeants per MCO 1553.4B (PME framework). The legacy Squad Leader Distance Learning content has been folded into resident Sergeants Course (E-5) and Corporals Course (E-4); SQDL is no longer a current standalone PME pathway. Discussion forums + 4 written checks.",
+      "primary_doctrine": [
+        "MCRP 3-10A.4",
+        "MCDP 1",
+        "MCWP 3-01",
+        "MCRP 6-11D"
+      ],
+      "tr_manual": "MCO 1553.4B (PME Framework) and DoDI 1322.35 \"Military Education\" \u2014 anchored to NAVMC 3500.18 Infantry T&R for tactical events",
+      "tr_manual_short": "MCO 1553.4B / NAVMC 3500.18",
+      "tr_event_codes": [
+        "INF-MAN-1001",
+        "INF-OPS-2001",
+        "INF-PAT-2002"
+      ],
+      "governing_authority": "Privacy Act of 1974 (5 U.S.C. \u00a7 552a) and DoDI 1322.35 \"Military Education Records\"",
+      "rubric_axes": [
+        "doctrinal_grounding",
+        "leadership_judgment",
+        "writing_clarity",
+        "tactical_decision_making",
+        "rubric_alignment"
+      ]
+    },
+    {
+      "id": "mos_0411_sustainment",
+      "name": "MOS 0411 Sustainment Pipeline",
+      "code": "MOS-0411-26",
+      "school": "Marine Corps Logistics Operations Group",
+      "description": "Maintenance Management Specialist (0411) PMOS pipeline \u2014 class V/IX planning, preventive-maintenance scheduling, GCSS-MC interaction.",
+      "primary_doctrine": [
+        "MCO 4790.25",
+        "MCWP 4-11.4",
+        "MCO 5400.18",
+        "MCRP 3-40D"
+      ],
+      "tr_manual": "NAVMC 3500.58 \u2014 Logistics Training & Readiness Manual",
+      "tr_manual_short": "NAVMC 3500.58",
+      "tr_event_codes": [
+        "LOG-MAINT-1001",
+        "LOG-MAINT-2003",
+        "LOG-DIST-2001"
+      ],
+      "governing_authority": "Privacy Act of 1974 (5 U.S.C. \u00a7 552a) and DoDI 1322.35 \"Military Education Records\"",
+      "rubric_axes": [
+        "doctrinal_grounding",
+        "maintenance_planning_factors",
+        "writing_clarity",
+        "systems_thinking",
+        "rubric_alignment"
+      ]
+    }
+  ]
+}

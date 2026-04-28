@@ -147,7 +147,14 @@ from generate import (  # noqa: E402
 
 PER_STUDENT_SYSTEM = """You are LEARN, an AI cognitive-development analyst supporting USMC PME and PMOS instructors.
 
-You will receive ONE Marine student's forum posts and assignment submissions from a USMC training course (e.g. Infantry Officer Course, PMOS pipeline, Sergeants School). Score them against the published USMC training-standard rubric.
+You will receive ONE Marine student's forum posts and assignment submissions from a USMC training course. The course will be one of:
+  - Infantry Officer Course (IOC) — governed by NAVMC 3500.18 Infantry Training & Readiness Manual
+  - A PMOS pipeline (e.g. 04xx Logistics) — governed by the relevant NAVMC 3500-series T&R Manual (e.g. NAVMC 3500.58 Logistics, NAVMC 3500.44 Signals Intelligence)
+  - Sergeants Course — RESIDENT PME at the SNCO Academy MCB Quantico for E-5 Sergeants, governed by MCO 1553.4B (PME Framework) and DoDI 1322.35 'Military Education'. NOTE: the Sergeants Course is DISTINCT from the Squad Leader Course (which is taught at SOI under the Infantry T&R / NAVMC 3500.18). Do not conflate the two.
+
+The course's specific governing T&R Manual / PME framework will be supplied in the user prompt. Score the student's artifacts against the published USMC training-standard rubric anchored to that document.
+
+Records governance for every assessment: Privacy Act of 1974 (5 U.S.C. § 552a) and DoDI 1322.35 'Military Education Records' — NOT FERPA.
 
 Return STRICT JSON with this exact schema:
 
@@ -177,7 +184,8 @@ Be specific. Cite the artifact (post depth, assignment name, grade) when justify
 
 
 def _build_per_student_prompt(student: dict, posts: list[dict],
-                              subs: list[dict]) -> list[dict]:
+                              subs: list[dict],
+                              course_meta: dict | None = None) -> list[dict]:
     posts_text = "\n".join(
         f"  - [{p['depth']}, {p['word_count']}w] thread=\"{p['thread']}\": {p['body']}"
         for p in posts[:12]
@@ -186,11 +194,20 @@ def _build_per_student_prompt(student: dict, posts: list[dict],
         f"  - {s['assignment_name']} (rubric={s['rubric_axis']}, grade={s['grade']}, late={s['late']}): {s['excerpt'][:300]}"
         for s in subs
     ) or "  (no submissions on record)"
+    cm = course_meta or {}
+    course_header = (
+        f"COURSE: {cm.get('name','(unspecified)')} ({cm.get('code','')})\n"
+        f"GOVERNING T&R / PME FRAMEWORK: {cm.get('tr_manual','(unspecified)')}\n"
+        f"SAMPLE T&R EVENT ANCHORS: {', '.join(cm.get('tr_event_examples', []) or []) or '(n/a)'}\n"
+        f"RECORDS GOVERNANCE: Privacy Act of 1974 (5 U.S.C. § 552a) and DoDI 1322.35 "
+        f"'Military Education Records'\n\n"
+    ) if cm else ""
     user = (
+        f"{course_header}"
         f"STUDENT:\n  {student['name']} ({student['student_id']}, {student['rank']})\n\n"
         f"FORUM POSTS:\n{posts_text}\n\n"
         f"ASSIGNMENT SUBMISSIONS:\n{subs_text}\n\n"
-        "Score this student. Return JSON only."
+        "Score this student against the governing T&R / PME framework cited above. Return JSON only."
     )
     return [
         {"role": "system", "content": PER_STUDENT_SYSTEM},
@@ -210,10 +227,11 @@ def _call_chat_json_with_timeout(msgs: list[dict], timeout_s: float,
 
 
 def score_one_student(student: dict, posts: list[dict], subs: list[dict],
-                      *, baseline: dict | None = None) -> dict:
+                      *, baseline: dict | None = None,
+                      course_meta: dict | None = None) -> dict:
     """Stage 1 scoring with deterministic baseline overlay."""
     base = dict(baseline) if baseline else {}
-    msgs = _build_per_student_prompt(student, posts, subs)
+    msgs = _build_per_student_prompt(student, posts, subs, course_meta=course_meta)
     raw = _call_chat_json_with_timeout(
         msgs, PER_STUDENT_TIMEOUT_S,
         schema_hint='{"student_id":str,"competency_evidence":{"critical_thinking":int,"communication":int,"doctrinal_knowledge":int,"problem_solving":int},"cognitive_depth_observed":str,"growth_indicators":list,"remediation_recommendations":list,"instructor_intervention_needed":bool,"confidence":float}',
@@ -334,14 +352,16 @@ Compose a polished, one-page **Instructor's Competency Brief** in markdown using
 
 Constraints:
   - Open with a single bold one-line headline ABOVE the paragraphs (course name + cohort size).
-  - PARA 1: state cohort averages on all four competencies (0-5). Identify the cohort's strongest and weakest competency.
+  - Immediately under the headline, on its own line, state the governing T&R Manual or PME framework provided in the user prompt (e.g. "Anchored to NAVMC 3500.18 — Infantry T&R Manual" or "Anchored to MCO 1553.4B / DoDI 1322.35 PME Framework"). Records governance is the Privacy Act of 1974 (5 U.S.C. § 552a) and DoDI 1322.35 'Military Education Records' — NOT FERPA. Do not use the word FERPA anywhere.
+  - PARA 1: state cohort averages on all four competencies (0-5), explicitly tied to the T&R / PME framework cited. Identify the cohort's strongest and weakest competency. When a T&R event anchor is provided, cite at least one (e.g. "INF-MAN-1001").
   - PARA 2: name the top 3 performers by name and ID. Cite cognitive depth observed.
   - PARA 3: name every student needing intervention, with one specific recommended action per student.
   - PARA 4: identify the highest- and lowest-effectiveness assignments. For the lowest, propose a re-scoping fix.
   - PARA 5: 3-4 concrete curriculum adjustments. Be specific, tactical, and instructor-actionable.
   - Keep total length under ~500 words.
-  - End with a UNCLASSIFIED // FOR OFFICIAL USE — Training Records line.
+  - End with a single italic line: "_UNCLASSIFIED // FOR OFFICIAL USE — Military Education Records governed by the Privacy Act of 1974 (5 U.S.C. § 552a) and DoDI 1322.35._"
   - Do NOT mention model names. Do NOT use the word "AI" outside the title; refer to yourself as LEARN.
+  - For Sergeants Course cohorts: it is RESIDENT PME at the SNCO Academy MCB Quantico for E-5 Sergeants. Do NOT call it "Sergeants School" or conflate it with the distinct Squad Leader Course (which is at SOI under NAVMC 3500.18).
 """
 
 
@@ -357,13 +377,20 @@ def _build_hero_prompt(course: dict, per_student: dict[str, dict],
             f"DOCT={comp['doctrinal_knowledge']:.1f} PS={comp['problem_solving']:.1f}, "
             f"depth={ev['cognitive_depth_observed']}, intv={ev['instructor_intervention_needed']}"
         )
+    cm = course["course"]
     user = (
-        f"COURSE: {course['course']['name']} ({course['course']['code']})\n"
+        f"COURSE: {cm['name']} ({cm['code']})\n"
+        f"SCHOOLHOUSE: {cm.get('schoolhouse','(unspecified)')}\n"
+        f"GOVERNING T&R / PME FRAMEWORK: {cm.get('tr_manual','(unspecified)')}\n"
+        f"SAMPLE T&R EVENT ANCHORS: {', '.join(cm.get('tr_event_examples', []) or []) or '(n/a)'}\n"
+        f"RECORDS GOVERNANCE: Privacy Act of 1974 (5 U.S.C. § 552a) and DoDI 1322.35 "
+        f"'Military Education Records' (NOT FERPA)\n"
         f"COHORT SIZE: {len(course['students'])}\n"
         f"COHORT SUMMARY: {json.dumps(cohort, default=str)}\n\n"
         f"PER-STUDENT SCORES:\n" + "\n".join(rows) + "\n\n"
         f"DTG: {datetime.now(timezone.utc).strftime('%d%H%MZ %b %Y').upper()}\n\n"
-        "Compose the Instructor's Competency Brief now."
+        "Compose the Instructor's Competency Brief now. Cite the governing T&R / PME "
+        "framework explicitly under the headline."
     )
     return [
         {"role": "system", "content": HERO_SYSTEM},

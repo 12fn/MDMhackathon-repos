@@ -1,126 +1,126 @@
 {
   "INDOPAC-MEB-HIGH-MARITIME": {
-    "brief": "**Class IX posture is critically understocked at OKI-FWD; 30-day denied resupply would drive severe mobility and lethality degradation across the MEB stand-in force.**\n\n## BLUF\n12 NSNs are assessed RED, with HMMWV as the dominant consuming platform, and if resupply is denied for 30 days the MAGTF faces high risk of major mobility loss and cascading lethality reduction across the maritime stand-in force.\n\n## TOP 5 RED NSNs\n- 2930-01-018-2865 -> voltage regulator (JLTV) -> 513 projected / 6 forward -> pre-position 507 to Okinawa Forward Node by D-30.\n- 5305-01-495-4204 -> headlight assembly (HMMWV) -> 456 projected / 13 forward -> pre-position 443 to Okinawa Forward Node by D-30.\n- 2930-01-066-8465 -> wiring harness (HMMWV) -> 415 projected / 3 forward -> pre-position 412 to Okinawa Forward Node by D-30.\n- 2520-01-938-3234 -> ballistic glass insert (JLTV) -> 413 projected / 4 forward -> pre-position 409 to Okinawa Forward Node by D-30.\n- 4720-01-008-6506 -> battery 6TL (HMMWV) -> 401 projected / 13 forward -> pre-position 388 to Okinawa Forward Node by D-30.\n\n## CONTESTED-LOGISTICS IMPLICATIONS\nThe primary sustainment risk is a narrow resupply window inside a 30-day contested period, compounded by contested SLOC/ALOC access into the First Island Chain and single-source fragility for key JLTV and HMMWV repair parts. In this maritime, High OPTEMPO environment, low forward stocks on electrical, mobility, and protection-related NSNs will rapidly reduce vehicle availability, constrain displacement, and erode distributed stand-in force survivability. If interdiction persists, maintenance backlogs will outpace repair capacity and force cannibalization or mission reprioritization.\n\n## PRE-POSITIONING COURSES OF ACTION\n1. COA 1: MCLB Blount Island pushes the top five RED NSNs to Okinawa Forward Node (OKI-FWD) by D-30 to cover the highest-demand mobility and survivability shortfalls before the contested resupply window opens.\n2. COA 2: MCLB Albany stages secondary HMMWV electrical and brake-related RED NSNs to Okinawa Forward Node (OKI-FWD) by D-15 as a follow-on package to absorb surge failures under High OPTEMPO.\n3. COA 3: MCLB Pendleton builds a contingency float of alternate-source JLTV protection and electrical assemblies for onward movement to Okinawa Forward Node (OKI-FWD) by D-45 to hedge single-source disruption and shipping delay.\n\nOriginator: REORDER / G-4 Class IX cell.  \nClassification: UNCLASSIFIED // FOR OFFICIAL USE.",
+    "brief": "**Class IX posture at OKI-FWD is critically understocked: 12 RED NSNs create high risk of mobility and tactical endurance loss inside a 30-day contested resupply window.**\n\n## BLUF\nTwelve NSNs are assessed RED, with JLTV as the dominant consuming platform, and if resupply is denied for 30 days the MAGTF faces high risk to mobility and moderate-to-high risk to lethality due to cascading vehicle downtime, power shortfalls, and degraded sustainment of stand-in forces.\n\n## TOP 5 RED NSNs\n- **6135-01-301-8776** -> BA-5590 lithium primary battery -> 503 projected / 12 on hand -> pre-position 491 to Okinawa Forward Node by D-30.\n- **5306-01-204-9033** -> structural bolt 1/2-13 grade-8 -> 502 projected / 2 on hand -> pre-position 500 to Okinawa Forward Node by D-30.\n- **5305-01-188-1057** -> machine screw, hex-head 3/8-16 -> 480 projected / 12 on hand -> pre-position 468 to Okinawa Forward Node by D-30.\n- **6140-01-490-4316** -> BB-2590/U rechargeable Li-ion battery -> 312 projected / 0 on hand -> pre-position 312 to Okinawa Forward Node by D-30.\n- **2940-01-389-2196** -> primary fuel/oil filter element (MTVR) -> 233 projected / 9 on hand -> pre-position 224 to Okinawa Forward Node by D-30.\n\n## CONTESTED-LOGISTICS IMPLICATIONS\nIn this maritime, High OPTEMPO First Island Chain scenario, the specific Class IX risk is a narrow resupply window across contested SLOC/ALOC, compounded by single-source fragility for batteries, filters, and common hardware with almost no forward depth. If the 30-day window closes, OKI-FWD will burn through repair parts faster than replenishment can penetrate, driving non-mission-capable rates up first in JLTV and MTVR fleets and constraining both displacement and distributed sustainment. The result is reduced tactical mobility, weaker signature-management options, and less reliable power support to small stand-in elements.\n\n## PRE-POSITIONING COURSES OF ACTION\n1. **COA 1:** Push the top five RED NSNs from **MCLB Albany** to **Okinawa Forward Node (OKI-FWD)** no later than **D-30** to cover the highest-demand battery, hardware, and filter shortfalls before the contested resupply window opens.\n2. **COA 2:** Stage a second tranche of remaining RED automotive consumables from **MCLB Pendleton** to **Blount Island** by **D-45**, then onward for consolidation and movement to **OKI-FWD** as the primary afloat/air bridge package.\n3. **COA 3:** Establish a contingency sustainment package from **Blount Island** to **OKI-FWD** by **D-15** focused on batteries and high-failure mobility parts to hedge against late interdiction or partial loss of the main shipment.\n\nOriginator: REORDER / G-4 Class IX cell.  \nClassification: UNCLASSIFIED // FOR OFFICIAL USE.",
     "judged": [
       {
-        "nsn": "2930-01-018-2865",
-        "part_name": "voltage regulator (JLTV)",
+        "nsn": "5306-01-204-9033",
+        "part_name": "structural bolt 1/2-13 grade-8 (general)",
         "platform_consuming": "JLTV",
-        "projected_30d_demand": 513,
-        "current_stock_at_forward_node": 6,
+        "projected_30d_demand": 502,
+        "current_stock_at_forward_node": 2,
         "shortfall_risk": "RED",
-        "preposition_recommendation": "ship 507 units to Okinawa Forward Node by D-30",
-        "alt_supplier_or_substitution": "OEM alternate-source regulator assembly or approved JLTV electrical module substitute"
+        "preposition_recommendation": "ship 500 units to Okinawa Forward Node by D-30",
+        "alt_supplier_or_substitution": "Use approved equivalent grade-8 bolt NSN from local supply if exact NSN is denied"
       },
       {
-        "nsn": "5305-01-495-4204",
-        "part_name": "headlight assembly (HMMWV)",
-        "platform_consuming": "HMMWV",
-        "projected_30d_demand": 456,
-        "current_stock_at_forward_node": 13,
+        "nsn": "5305-01-188-1057",
+        "part_name": "machine screw, hex-head 3/8-16 (general)",
+        "platform_consuming": "MTVR",
+        "projected_30d_demand": 480,
+        "current_stock_at_forward_node": 12,
         "shortfall_risk": "RED",
-        "preposition_recommendation": "ship 443 units to Okinawa Forward Node by D-30",
-        "alt_supplier_or_substitution": "Use compatible HMMWV headlamp assembly NSN from alternate vendor if primary is denied"
+        "preposition_recommendation": "ship 468 units to Okinawa Forward Node by D-30",
+        "alt_supplier_or_substitution": "Substitute with equivalent 3/8-16 hex-head screw NSN from alternate DLA source"
       },
       {
-        "nsn": "2930-01-066-8465",
-        "part_name": "wiring harness (HMMWV)",
-        "platform_consuming": "HMMWV",
-        "projected_30d_demand": 415,
-        "current_stock_at_forward_node": 3,
-        "shortfall_risk": "RED",
-        "preposition_recommendation": "ship 412 units to Okinawa Forward Node by D-30",
-        "alt_supplier_or_substitution": "Field-repair harness with approved connector kit and wire repair set"
-      },
-      {
-        "nsn": "4720-01-008-6506",
-        "part_name": "battery 6TL (HMMWV)",
-        "platform_consuming": "HMMWV",
-        "projected_30d_demand": 401,
-        "current_stock_at_forward_node": 13,
-        "shortfall_risk": "RED",
-        "preposition_recommendation": "ship 388 units to Okinawa Forward Node by D-30",
-        "alt_supplier_or_substitution": "Source equivalent 6TL battery from alternate OEM or local battery contract"
-      },
-      {
-        "nsn": "2520-01-938-3234",
-        "part_name": "ballistic glass insert (JLTV)",
+        "nsn": "6135-01-301-8776",
+        "part_name": "BA-5590 lithium primary battery (radio)",
         "platform_consuming": "JLTV",
-        "projected_30d_demand": 413,
-        "current_stock_at_forward_node": 4,
+        "projected_30d_demand": 503,
+        "current_stock_at_forward_node": 12,
         "shortfall_risk": "RED",
-        "preposition_recommendation": "ship 409 units to Okinawa Forward Node by D-30",
-        "alt_supplier_or_substitution": "Substitute with approved transparent armor panel kit if insert is denied"
+        "preposition_recommendation": "ship 491 units to Okinawa Forward Node by D-30",
+        "alt_supplier_or_substitution": "Use compatible BA-5590/U commercial equivalent from OEM-approved source"
       },
       {
-        "nsn": "6135-01-116-7829",
-        "part_name": "armor panel kit (JLTV)",
+        "nsn": "6140-01-490-4316",
+        "part_name": "BB-2590/U rechargeable Li-ion battery",
         "platform_consuming": "JLTV",
-        "projected_30d_demand": 364,
+        "projected_30d_demand": 312,
+        "current_stock_at_forward_node": 0,
+        "shortfall_risk": "RED",
+        "preposition_recommendation": "ship 312 units to Okinawa Forward Node by D-30",
+        "alt_supplier_or_substitution": "Substitute with BB-2590/U equivalent battery assembly from OEM-approved vendor"
+      },
+      {
+        "nsn": "2940-01-389-2196",
+        "part_name": "primary fuel/oil filter element (MTVR)",
+        "platform_consuming": "MTVR",
+        "projected_30d_demand": 233,
         "current_stock_at_forward_node": 9,
         "shortfall_risk": "RED",
-        "preposition_recommendation": "ship 355 units to Okinawa Forward Node by D-30",
-        "alt_supplier_or_substitution": "Request OEM armor kit from alternate source or cannibalize from non-mission-capable hulls"
+        "preposition_recommendation": "ship 224 units to Okinawa Forward Node by D-30",
+        "alt_supplier_or_substitution": "Use cross-referenced filter element NSN approved for MTVR engine family"
       },
       {
-        "nsn": "5895-01-843-9996",
-        "part_name": "armor panel kit (JLTV)",
+        "nsn": "2530-01-466-0822",
+        "part_name": "brake pad set (HMMWV front)",
+        "platform_consuming": "HMMWV",
+        "projected_30d_demand": 218,
+        "current_stock_at_forward_node": 6,
+        "shortfall_risk": "RED",
+        "preposition_recommendation": "ship 212 units to Okinawa Forward Node by D-30",
+        "alt_supplier_or_substitution": "Use front brake pad set NSN for same HMMWV axle variant if exact part is denied"
+      },
+      {
+        "nsn": "2610-01-330-4488",
+        "part_name": "tire valve stem assembly (MTVR)",
+        "platform_consuming": "MTVR",
+        "projected_30d_demand": 182,
+        "current_stock_at_forward_node": 3,
+        "shortfall_risk": "RED",
+        "preposition_recommendation": "ship 179 units to Okinawa Forward Node by D-30",
+        "alt_supplier_or_substitution": "Use standard heavy-vehicle valve stem assembly from alternate tire support NSN"
+      },
+      {
+        "nsn": "2940-01-413-1984",
+        "part_name": "engine air filter element (HMMWV)",
+        "platform_consuming": "HMMWV",
+        "projected_30d_demand": 188,
+        "current_stock_at_forward_node": 10,
+        "shortfall_risk": "RED",
+        "preposition_recommendation": "ship 178 units to Okinawa Forward Node by D-30",
+        "alt_supplier_or_substitution": "Use equivalent HMMWV air filter element NSN from alternate depot stock"
+      },
+      {
+        "nsn": "2930-01-477-0631",
+        "part_name": "fuel filter / water separator (MTVR)",
+        "platform_consuming": "MTVR",
+        "projected_30d_demand": 139,
+        "current_stock_at_forward_node": 1,
+        "shortfall_risk": "RED",
+        "preposition_recommendation": "ship 138 units to Okinawa Forward Node by D-30",
+        "alt_supplier_or_substitution": "Use compatible fuel/water separator NSN for MTVR engine configuration"
+      },
+      {
+        "nsn": "2940-01-510-2207",
+        "part_name": "transmission oil filter (JLTV)",
         "platform_consuming": "JLTV",
-        "projected_30d_demand": 372,
-        "current_stock_at_forward_node": 5,
-        "shortfall_risk": "RED",
-        "preposition_recommendation": "ship 367 units to Okinawa Forward Node by D-30",
-        "alt_supplier_or_substitution": "Use approved interchangeable JLTV armor panel kit NSN if available"
-      },
-      {
-        "nsn": "6135-01-540-6946",
-        "part_name": "brake caliper (HMMWV)",
-        "platform_consuming": "HMMWV",
-        "projected_30d_demand": 383,
-        "current_stock_at_forward_node": 7,
-        "shortfall_risk": "RED",
-        "preposition_recommendation": "ship 376 units to Okinawa Forward Node by D-30",
-        "alt_supplier_or_substitution": "OEM reman caliper or rebuild kit if complete caliper is denied"
-      },
-      {
-        "nsn": "5895-01-632-1243",
-        "part_name": "wiring harness (HMMWV)",
-        "platform_consuming": "HMMWV",
-        "projected_30d_demand": 379,
-        "current_stock_at_forward_node": 5,
-        "shortfall_risk": "RED",
-        "preposition_recommendation": "ship 374 units to Okinawa Forward Node by D-30",
-        "alt_supplier_or_substitution": "Field-fabricate with approved harness repair kit and connector set"
-      },
-      {
-        "nsn": "2930-01-359-0792",
-        "part_name": "battery 6TL (HMMWV)",
-        "platform_consuming": "HMMWV",
-        "projected_30d_demand": 360,
+        "projected_30d_demand": 123,
         "current_stock_at_forward_node": 11,
         "shortfall_risk": "RED",
-        "preposition_recommendation": "ship 349 units to Okinawa Forward Node by D-30",
-        "alt_supplier_or_substitution": "Source equivalent 6TL battery from alternate OEM or local battery contract"
+        "preposition_recommendation": "ship 112 units to Okinawa Forward Node by D-30",
+        "alt_supplier_or_substitution": "Use OEM-approved transmission filter equivalent for JLTV"
       },
       {
-        "nsn": "1015-01-994-1775",
-        "part_name": "brake pad set (HMMWV)",
-        "platform_consuming": "HMMWV",
-        "projected_30d_demand": 365,
-        "current_stock_at_forward_node": 11,
-        "shortfall_risk": "RED",
-        "preposition_recommendation": "ship 354 units to Okinawa Forward Node by D-30",
-        "alt_supplier_or_substitution": "Use approved brake shoe/pad equivalent from alternate supply line"
-      },
-      {
-        "nsn": "5340-01-478-2923",
-        "part_name": "cylinder head gasket (JLTV)",
+        "nsn": "2920-01-432-7789",
+        "part_name": "ignition coil pack (JLTV)",
         "platform_consuming": "JLTV",
-        "projected_30d_demand": 308,
-        "current_stock_at_forward_node": 4,
+        "projected_30d_demand": 97,
+        "current_stock_at_forward_node": 9,
         "shortfall_risk": "RED",
-        "preposition_recommendation": "ship 304 units to Okinawa Forward Node by D-30",
-        "alt_supplier_or_substitution": "OEM gasket set or engine overhaul kit substitute if single gasket is denied"
+        "preposition_recommendation": "ship 88 units to Okinawa Forward Node by D-30",
+        "alt_supplier_or_substitution": "Use alternate-source ignition coil pack meeting JLTV spec"
+      },
+      {
+        "nsn": "6140-01-446-9512",
+        "part_name": "vehicle battery 6TL 12V (HMMWV/MTVR)",
+        "platform_consuming": "MTVR",
+        "projected_30d_demand": 94,
+        "current_stock_at_forward_node": 2,
+        "shortfall_risk": "RED",
+        "preposition_recommendation": "ship 92 units to Okinawa Forward Node by D-30",
+        "alt_supplier_or_substitution": "Use 6TL battery equivalent from OEM-approved commercial source"
       }
     ],
     "scenario": {
@@ -134,127 +134,127 @@
     "forward_node_id": "OKI-FWD"
   },
   "CENTCOM-MEU-MED-DESERT": {
-    "brief": "**Class IX posture is RED: mobility-critical wheeled-vehicle parts are understocked at OKI-FWD and will degrade MEU ashore sustainment if denied resupply.**\n\n## BLUF\n11 NSNs are RED, with HMMWV as the dominant platform consuming the highest-risk items, and if resupply is denied for 30 days the MAGTF faces high risk to tactical mobility and follow-on lethality due to cascading wheeled-vehicle non-mission-capable rates.\n\n## TOP 5 RED NSNs\n- 2520-01-463-4970 -> radial tire 395/85R20 (HMMWV) -> 72 projected / 11 forward -> pre-position 61 to Okinawa Forward Node by D-30.\n- 2520-01-002-8588 -> tire pressure sensor (HMMWV) -> 61 projected / 0 forward -> pre-position 61 to Okinawa Forward Node by D-30.\n- 2920-01-397-7655 -> tire pressure sensor (JLTV) -> 62 projected / 1 forward -> pre-position 61 to Okinawa Forward Node by D-30.\n- 2510-01-172-6579 -> turbocharger (JLTV) -> 59 projected / 1 forward -> pre-position 58 to Okinawa Forward Node by D-30.\n- 2930-01-616-5419 -> radial tire 395/85R20 (JLTV) -> 57 projected / 2 forward -> pre-position 55 to Okinawa Forward Node by D-30.\n\n## CONTESTED-LOGISTICS IMPLICATIONS\nThis demand profile is exposed to a narrow resupply window across contested SLOC/ALOC, with persistent drone harassment and brownwater LOC friction increasing the probability of delayed or fragmented Class IX delivery. In a desert environment at medium OPTEMPO, tire, TPMS, and drivetrain-related failures will accumulate faster from heat, dust, and sustained ashore movement, while several items also show single-source fragility that limits surge replacement options. If interdicted, the immediate effect is reduced wheeled mobility, slower displacement, and degraded ability to mass combat power ashore.\n\n## PRE-POSITIONING COURSES OF ACTION\n1. **COA 1:** Push the full top-tier RED package from **MCLB Albany** to **Okinawa Forward Node (OKI-FWD)** no later than **D-30** to cover the highest 30-day mobility shortfalls.\n2. **COA 2:** Stage a contingency sustainment tranche from **MCLB Pendleton** to **Okinawa Forward Node (OKI-FWD)** by **D-15** focused on HMMWV/JLTV tires, TPMS components, and wheel-end consumables vulnerable to desert wear.\n3. **COA 3:** Route a follow-on buffer from **Blount Island** to **Okinawa Forward Node (OKI-FWD)** by **D-45** for heavier repair parts, including turbochargers, injectors, and starter motors, to hedge against contested-lift disruption and single-source delays.\n\nOriginator: REORDER / G-4 Class IX cell.  \nClassification: UNCLASSIFIED // FOR OFFICIAL USE.",
+    "brief": "**Class IX posture at OKI-FWD is insufficient for 30-day denied-resupply operations; immediate pre-positioning is required to preserve MEU mobility and combat power.**\n\n## BLUF\nFive NSNs are assessed RED, with MTVR as the dominant platform consuming the highest-risk repair parts, and if resupply is denied for 30 days the MAGTF faces high risk to tactical mobility and moderate risk to lethality during sustained ashore operations.\n\n## TOP 5 RED NSNs\n- **5306-01-204-9033** -> structural bolt 1/2-13 grade-8 -> 53 projected / 2 on hand -> pre-position 51 to Okinawa Forward Node by D-30.\n- **2610-01-330-4488** -> tire valve stem assembly (MTVR) -> 47 projected / 3 on hand -> pre-position 44 to Okinawa Forward Node by D-30.\n- **5305-01-188-1057** -> machine screw, hex-head 3/8-16 -> 53 projected / 12 on hand -> pre-position 41 to Okinawa Forward Node by D-30.\n- **2930-01-477-0631** -> fuel filter / water separator (MTVR) -> 29 projected / 1 on hand -> pre-position 28 to Okinawa Forward Node by D-30.\n- **6140-01-490-4316** -> BB-2590/U rechargeable Li-ion battery -> 25 projected / 0 on hand -> pre-position 25 to Okinawa Forward Node by D-30.\n\n## CONTESTED-LOGISTICS IMPLICATIONS\nIn this desert, medium-OPTEMPO environment, the principal sustainment risk is a narrow resupply window across contested SLOC/ALOC, compounded by brownwater LOC friction and persistent drone harassment against distribution nodes and intra-theater movement. Several RED items are low-cost, high-failure-rate components whose absence can deadline vehicles disproportionately, while battery and filter dependencies expose single-source fragility if primary channels are disrupted. If denied replenishment, readiness degradation will first manifest in MTVR and JLTV availability, constraining maneuver ashore and reducing sustainment reach.\n\n## PRE-POSITIONING COURSES OF ACTION\n1. **COA 1:** Push the full RED package from **MCLB Albany** to **Okinawa Forward Node (OKI-FWD)** no later than **D-30** to cover the highest projected 30-day shortfalls in fasteners, valve stems, filters, and batteries.\n2. **COA 2:** Stage a mobility-focused contingency package from **MCLB Pendleton** to **Okinawa Forward Node (OKI-FWD)** by **D-15** emphasizing JLTV/MTVR substitute-approved tires, batteries, and common hardware for rapid issue under disrupted distribution conditions.\n3. **COA 3:** Move a sustainment reserve from **Blount Island** to **Okinawa Forward Node (OKI-FWD)** by **D-45** with emphasis on OEM-cross-reference filtration and repair consumables to hedge against single-source failures and delayed follow-on lift.\n\nOriginator: REORDER / G-4 Class IX cell.  \nClassification: UNCLASSIFIED // FOR OFFICIAL USE.",
     "judged": [
       {
-        "nsn": "2520-01-347-2827",
-        "part_name": "radial tire 395/85R20 (HMMWV)",
-        "platform_consuming": "HMMWV",
-        "projected_30d_demand": 59,
-        "current_stock_at_forward_node": 11,
-        "shortfall_risk": "RED",
-        "preposition_recommendation": "ship 48 units to Okinawa Forward Node by D-30",
-        "alt_supplier_or_substitution": "Use approved 395/85R20 commercial-military equivalent from OEM tire channel"
-      },
-      {
-        "nsn": "2520-01-463-4970",
-        "part_name": "radial tire 395/85R20 (HMMWV)",
-        "platform_consuming": "HMMWV",
-        "projected_30d_demand": 72,
-        "current_stock_at_forward_node": 11,
-        "shortfall_risk": "RED",
-        "preposition_recommendation": "ship 61 units to Okinawa Forward Node by D-30",
-        "alt_supplier_or_substitution": "Use approved 395/85R20 commercial-military equivalent from OEM tire channel"
-      },
-      {
-        "nsn": "2520-01-002-8588",
-        "part_name": "tire pressure sensor (HMMWV)",
-        "platform_consuming": "HMMWV",
-        "projected_30d_demand": 61,
-        "current_stock_at_forward_node": 0,
-        "shortfall_risk": "RED",
-        "preposition_recommendation": "ship 61 units to Okinawa Forward Node by D-30",
-        "alt_supplier_or_substitution": "Substitute with compatible HMMWV TPMS sensor kit if authorized"
-      },
-      {
-        "nsn": "2930-01-616-5419",
-        "part_name": "radial tire 395/85R20 (JLTV)",
+        "nsn": "5306-01-204-9033",
+        "part_name": "structural bolt 1/2-13 grade-8 (general)",
         "platform_consuming": "JLTV",
-        "projected_30d_demand": 57,
+        "projected_30d_demand": 53,
         "current_stock_at_forward_node": 2,
         "shortfall_risk": "RED",
-        "preposition_recommendation": "ship 55 units to Okinawa Forward Node by D-30",
-        "alt_supplier_or_substitution": "Use approved 395/85R20 commercial-military equivalent from OEM tire channel"
+        "preposition_recommendation": "ship 51 units to Okinawa Forward Node by D-30",
+        "alt_supplier_or_substitution": "Use OEM-equivalent grade-8 bolt from MCLB Albany if exact NSN is denied"
       },
       {
-        "nsn": "2920-01-397-7655",
-        "part_name": "tire pressure sensor (JLTV)",
-        "platform_consuming": "JLTV",
-        "projected_30d_demand": 62,
-        "current_stock_at_forward_node": 1,
-        "shortfall_risk": "RED",
-        "preposition_recommendation": "ship 61 units to Okinawa Forward Node by D-30",
-        "alt_supplier_or_substitution": "Substitute with compatible JLTV TPMS sensor kit if authorized"
-      },
-      {
-        "nsn": "2920-01-810-4979",
-        "part_name": "fuel injector (JLTV)",
-        "platform_consuming": "JLTV",
-        "projected_30d_demand": 49,
+        "nsn": "2610-01-330-4488",
+        "part_name": "tire valve stem assembly (MTVR)",
+        "platform_consuming": "MTVR",
+        "projected_30d_demand": 47,
         "current_stock_at_forward_node": 3,
         "shortfall_risk": "RED",
-        "preposition_recommendation": "ship 46 units to Okinawa Forward Node by D-30",
-        "alt_supplier_or_substitution": "OEM reman injector set or validated cross-reference injector assembly"
+        "preposition_recommendation": "ship 44 units to Okinawa Forward Node by D-30",
+        "alt_supplier_or_substitution": "Substitute with approved commercial heavy-duty valve stem assembly if NSN is unavailable"
       },
       {
-        "nsn": "2510-01-172-6579",
-        "part_name": "turbocharger (JLTV)",
+        "nsn": "5305-01-188-1057",
+        "part_name": "machine screw, hex-head 3/8-16 (general)",
+        "platform_consuming": "MTVR",
+        "projected_30d_demand": 53,
+        "current_stock_at_forward_node": 12,
+        "shortfall_risk": "RED",
+        "preposition_recommendation": "ship 41 units to Okinawa Forward Node by D-30",
+        "alt_supplier_or_substitution": "Source commercial ASTM grade fastener equivalent from MCLB Albany"
+      },
+      {
+        "nsn": "6135-01-301-8776",
+        "part_name": "BA-5590 lithium primary battery (radio)",
         "platform_consuming": "JLTV",
-        "projected_30d_demand": 59,
+        "projected_30d_demand": 38,
+        "current_stock_at_forward_node": 12,
+        "shortfall_risk": "AMBER",
+        "preposition_recommendation": "ship 26 units to Okinawa Forward Node by D-30",
+        "alt_supplier_or_substitution": "Substitute BB-2590/U where authorized for compatible radios/power modules"
+      },
+      {
+        "nsn": "2930-01-477-0631",
+        "part_name": "fuel filter / water separator (MTVR)",
+        "platform_consuming": "MTVR",
+        "projected_30d_demand": 29,
         "current_stock_at_forward_node": 1,
         "shortfall_risk": "RED",
-        "preposition_recommendation": "ship 58 units to Okinawa Forward Node by D-30",
-        "alt_supplier_or_substitution": "OEM reman turbocharger or depot-rebuilt unit"
+        "preposition_recommendation": "ship 28 units to Okinawa Forward Node by D-30",
+        "alt_supplier_or_substitution": "Use OEM cross-reference fuel/water separator element from Blount Island Command"
       },
       {
-        "nsn": "5305-01-456-7927",
-        "part_name": "tire valve stem (JLTV)",
+        "nsn": "6140-01-490-4316",
+        "part_name": "BB-2590/U rechargeable Li-ion battery",
         "platform_consuming": "JLTV",
-        "projected_30d_demand": 50,
-        "current_stock_at_forward_node": 8,
+        "projected_30d_demand": 25,
+        "current_stock_at_forward_node": 0,
         "shortfall_risk": "RED",
-        "preposition_recommendation": "ship 42 units to Okinawa Forward Node by D-30",
-        "alt_supplier_or_substitution": "Commercial valve stem of matching spec; field-installable equivalent"
+        "preposition_recommendation": "ship 25 units to Okinawa Forward Node by D-30",
+        "alt_supplier_or_substitution": "Use BA-5590 primary battery only for non-rechargeable loads if mission allows"
       },
       {
-        "nsn": "5895-01-031-1604",
-        "part_name": "starter motor (JLTV)",
-        "platform_consuming": "JLTV",
-        "projected_30d_demand": 50,
-        "current_stock_at_forward_node": 11,
-        "shortfall_risk": "RED",
-        "preposition_recommendation": "ship 39 units to Okinawa Forward Node by D-30",
-        "alt_supplier_or_substitution": "OEM reman starter motor or depot-rebuilt unit"
-      },
-      {
-        "nsn": "5340-01-298-6938",
-        "part_name": "transmission filter (HMMWV)",
+        "nsn": "2940-01-413-1984",
+        "part_name": "engine air filter element (HMMWV)",
         "platform_consuming": "HMMWV",
-        "projected_30d_demand": 56,
-        "current_stock_at_forward_node": 8,
-        "shortfall_risk": "RED",
-        "preposition_recommendation": "ship 48 units to Okinawa Forward Node by D-30",
-        "alt_supplier_or_substitution": "Use validated equivalent transmission filter element"
-      },
-      {
-        "nsn": "2805-01-982-1971",
-        "part_name": "wheel bearing (HMMWV)",
-        "platform_consuming": "HMMWV",
-        "projected_30d_demand": 49,
-        "current_stock_at_forward_node": 15,
+        "projected_30d_demand": 17,
+        "current_stock_at_forward_node": 10,
         "shortfall_risk": "AMBER",
-        "preposition_recommendation": "ship 22 units to Okinawa Forward Node by D-30",
-        "alt_supplier_or_substitution": "Commercial bearing cross-reference if NSN is delayed"
+        "preposition_recommendation": "ship 7 units to Okinawa Forward Node by D-30",
+        "alt_supplier_or_substitution": "Field an OEM-equivalent filter element with same fit and micron rating"
       },
       {
-        "nsn": "5895-01-998-5204",
-        "part_name": "ball joint (HMMWV)",
+        "nsn": "3110-01-413-2691",
+        "part_name": "wheel bearing assembly (HMMWV)",
         "platform_consuming": "HMMWV",
-        "projected_30d_demand": 51,
-        "current_stock_at_forward_node": 8,
-        "shortfall_risk": "RED",
-        "preposition_recommendation": "ship 43 units to Okinawa Forward Node by D-30",
-        "alt_supplier_or_substitution": "OEM or depot-rebuilt suspension joint assembly"
+        "projected_30d_demand": 29,
+        "current_stock_at_forward_node": 12,
+        "shortfall_risk": "AMBER",
+        "preposition_recommendation": "ship 17 units to Okinawa Forward Node by D-30",
+        "alt_supplier_or_substitution": "Use approved bearing kit cross-reference from MCLB Albany"
+      },
+      {
+        "nsn": "2610-01-541-1929",
+        "part_name": "radial tire 37x12.5R16.5 (HMMWV)",
+        "platform_consuming": "HMMWV",
+        "projected_30d_demand": 22,
+        "current_stock_at_forward_node": 16,
+        "shortfall_risk": "AMBER",
+        "preposition_recommendation": "ship 6 units to Okinawa Forward Node by D-30",
+        "alt_supplier_or_substitution": "Use commercial equivalent 37x12.5R16.5 tire meeting load rating"
+      },
+      {
+        "nsn": "2610-01-647-5106",
+        "part_name": "run-flat radial tire 37x12.5R17 (JLTV)",
+        "platform_consuming": "JLTV",
+        "projected_30d_demand": 24,
+        "current_stock_at_forward_node": 10,
+        "shortfall_risk": "AMBER",
+        "preposition_recommendation": "ship 14 units to Okinawa Forward Node by D-30",
+        "alt_supplier_or_substitution": "If denied, source OEM-approved run-flat assembly through MCLB Pendleton"
+      },
+      {
+        "nsn": "2940-01-389-2196",
+        "part_name": "primary fuel/oil filter element (MTVR)",
+        "platform_consuming": "MTVR",
+        "projected_30d_demand": 14,
+        "current_stock_at_forward_node": 9,
+        "shortfall_risk": "AMBER",
+        "preposition_recommendation": "ship 5 units to Okinawa Forward Node by D-30",
+        "alt_supplier_or_substitution": "Use commercial cross-reference filter element with identical gasket and bypass specs"
+      },
+      {
+        "nsn": "2530-01-466-0822",
+        "part_name": "brake pad set (HMMWV front)",
+        "platform_consuming": "HMMWV",
+        "projected_30d_demand": 19,
+        "current_stock_at_forward_node": 6,
+        "shortfall_risk": "AMBER",
+        "preposition_recommendation": "ship 13 units to Okinawa Forward Node by D-30",
+        "alt_supplier_or_substitution": "Substitute approved friction material kit from MCLB Albany"
       }
     ],
     "scenario": {
@@ -268,127 +268,127 @@
     "forward_node_id": "OKI-FWD"
   },
   "AFRICOM-MEB-HIGH-JUNGLE": {
-    "brief": "**Class IX posture is critically understocked at OKI-FWD; HMMWV-driven repair-part shortages will rapidly degrade mobility and reduce combat power if the 60-day pipeline is disrupted.**\n\n## BLUF\nAll 12 assessed NSNs are RED, HMMWV is the dominant consuming platform, and if resupply is denied for 30 days the MAGTF faces high risk to tactical mobility and moderate-to-high risk to lethality due to cascading vehicle non-mission-capable rates.\n\n## TOP 5 RED NSNs\n- **2930-01-018-2865** -> voltage regulator (JLTV) -> 454 demand / 6 stock -> pre-position **448** to Okinawa Forward Node by **D-30**.\n- **5305-01-495-4204** -> headlight assembly (HMMWV) -> 417 demand / 13 stock -> pre-position **404** to Okinawa Forward Node by **D-30**.\n- **1015-01-711-6478** -> tie-rod end (HMMWV) -> 389 demand / 0 stock -> pre-position **389** to Okinawa Forward Node by **D-30**.\n- **2930-01-359-0792** -> battery 6TL (HMMWV) -> 381 demand / 11 stock -> pre-position **370** to Okinawa Forward Node by **D-30**.\n- **5895-01-632-1243** -> wiring harness (HMMWV) -> 367 demand / 5 stock -> pre-position **362** to Okinawa Forward Node by **D-30**.\n\n## CONTESTED-LOGISTICS IMPLICATIONS\nThis demand profile is exposed to a narrow resupply window across contested SLOC/ALOC, with a 60-day pipeline that cannot absorb current RED shortfalls once operations begin. In a high-OPTEMPO jungle/littoral environment, suspension, electrical, brake, and battery failures will accelerate from terrain, humidity, and corrosion, while single-source fragility on key HMMWV/JLTV components increases the probability of prolonged NMC status. If interdiction or delay occurs, mobility losses will outpace maintenance recovery capacity at the forward node.\n\n## PRE-POSITIONING COURSES OF ACTION\n1. **COA 1:** Push the highest-demand HMMWV electrical, steering, and brake NSNs from **MCLB Albany** to **Okinawa Forward Node (OKI-FWD)** by **D-30** to cover the full 30-day shortfall window.\n2. **COA 2:** Stage JLTV electrical and engine-related RED NSNs from **MCLB Pendleton** to **Okinawa Forward Node (OKI-FWD)** by **D-45** to hedge against contested ALOC delays and preserve convoy mobility.\n3. **COA 3:** Build a follow-on afloat/port-support package of remaining RED Class IX from **Blount Island** to **Okinawa Forward Node (OKI-FWD)** by **D-15** to backstop attrition once initial stocks are consumed.\n\nOriginator: REORDER / G-4 Class IX cell.  \nClassification: UNCLASSIFIED // FOR OFFICIAL USE.",
+    "brief": "**Class IX posture is critically understocked at OKI-FWD; 12 high-demand NSNs are RED and require immediate pre-positioning to preserve mobility and combat power.**\n\n## BLUF\nTwelve NSNs are assessed RED, JLTV is the dominant platform consuming the highest-risk items, and if resupply is denied for 30 days the MAGTF faces high risk to tactical mobility and degraded lethality due to cascading vehicle, power, and sustainment failures.\n\n## TOP 5 RED NSNs\n- **6135-01-301-8776** -> BA-5590 lithium primary battery (radio) -> 483 projected / 12 on hand -> pre-position **471** to Okinawa Forward Node by **D-30**.\n- **5305-01-188-1057** -> machine screw, hex-head 3/8-16 -> 469 projected / 12 on hand -> pre-position **457** to Okinawa Forward Node by **D-30**.\n- **5306-01-204-9033** -> structural bolt 1/2-13 grade-8 -> 443 projected / 2 on hand -> pre-position **441** to Okinawa Forward Node by **D-30**.\n- **6140-01-490-4316** -> BB-2590/U rechargeable Li-ion battery -> 266 projected / 0 on hand -> pre-position **266** to Okinawa Forward Node by **D-30**.\n- **2940-01-389-2196** -> primary fuel/oil filter element (MTVR) -> 234 projected / 9 on hand -> pre-position **225** to Okinawa Forward Node by **D-30**.\n\n## CONTESTED-LOGISTICS IMPLICATIONS\nThis demand profile is exposed to a narrow resupply window across a 60-day pipeline, with contested SLOC/ALOC conditions likely to delay or fragment Class IX flow into the objective area. In a high-OPTEMPO jungle environment, filters, batteries, fasteners, and rolling-stock repair parts will burn faster due to moisture, mud, corrosion, and vehicle wear, while several items also show single-source fragility that limits surge replacement options. If interdicted, the immediate effect is reduced dispatch rates for JLTV, MTVR, and HMMWV fleets, constraining maneuver, recovery, and distributed sustainment.\n\n## PRE-POSITIONING COURSES OF ACTION\n1. **COA 1:** Push the top five RED NSNs from **MCLB Albany** to **Okinawa Forward Node (OKI-FWD)** NLT **D-30** to cover the highest 30-day shortfalls before deployment surge.  \n2. **COA 2:** Stage a secondary package of remaining RED vehicle consumables from **MCLB Pendleton** to **Blount Island** by **D-45**, then onward to **OKI-FWD** by **D-15** to hedge against contested lift disruptions.  \n3. **COA 3:** Build a contingency afloat-compatible sustainment set at **Blount Island** for transfer to **Okinawa Forward Node (OKI-FWD)** by **D-15**, prioritizing batteries, filters, hose, and wheel-end repair items for rapid issue.  \n\nOriginator: REORDER / G-4 Class IX cell.  \nClassification: UNCLASSIFIED // FOR OFFICIAL USE.",
     "judged": [
       {
-        "nsn": "2930-01-018-2865",
-        "part_name": "voltage regulator (JLTV)",
+        "nsn": "6135-01-301-8776",
+        "part_name": "BA-5590 lithium primary battery (radio)",
         "platform_consuming": "JLTV",
-        "projected_30d_demand": 454,
-        "current_stock_at_forward_node": 6,
+        "projected_30d_demand": 483,
+        "current_stock_at_forward_node": 12,
         "shortfall_risk": "RED",
-        "preposition_recommendation": "ship 448 units to Okinawa Forward Node by D-30",
-        "alt_supplier_or_substitution": "Use OEM alternator/regulator kit or approved JLTV electrical line-replaceable unit substitute if available"
+        "preposition_recommendation": "ship 471 units to Okinawa Forward Node by D-30",
+        "alt_supplier_or_substitution": "Use BA-5390/AA battery adapter kit if radios permit"
       },
       {
-        "nsn": "5305-01-495-4204",
-        "part_name": "headlight assembly (HMMWV)",
-        "platform_consuming": "HMMWV",
-        "projected_30d_demand": 417,
-        "current_stock_at_forward_node": 13,
+        "nsn": "5305-01-188-1057",
+        "part_name": "machine screw, hex-head 3/8-16 (general)",
+        "platform_consuming": "MTVR",
+        "projected_30d_demand": 469,
+        "current_stock_at_forward_node": 12,
         "shortfall_risk": "RED",
-        "preposition_recommendation": "ship 404 units to Okinawa Forward Node by D-30",
-        "alt_supplier_or_substitution": "Use compatible HMMWV lamp/reflector assembly or salvage serviceable units from cannibalization"
+        "preposition_recommendation": "ship 457 units to Okinawa Forward Node by D-30",
+        "alt_supplier_or_substitution": "Commercial ASTM A307 hex-head equivalent if spec allows"
       },
       {
-        "nsn": "1015-01-711-6478",
-        "part_name": "tie-rod end (HMMWV)",
-        "platform_consuming": "HMMWV",
-        "projected_30d_demand": 389,
+        "nsn": "5306-01-204-9033",
+        "part_name": "structural bolt 1/2-13 grade-8 (general)",
+        "platform_consuming": "JLTV",
+        "projected_30d_demand": 443,
+        "current_stock_at_forward_node": 2,
+        "shortfall_risk": "RED",
+        "preposition_recommendation": "ship 441 units to Okinawa Forward Node by D-30",
+        "alt_supplier_or_substitution": "Grade-8 commercial bolt equivalent with matching length/thread"
+      },
+      {
+        "nsn": "6140-01-490-4316",
+        "part_name": "BB-2590/U rechargeable Li-ion battery",
+        "platform_consuming": "JLTV",
+        "projected_30d_demand": 266,
         "current_stock_at_forward_node": 0,
         "shortfall_risk": "RED",
-        "preposition_recommendation": "ship 389 units to Okinawa Forward Node by D-30",
-        "alt_supplier_or_substitution": "No direct substitute; expedite OEM/NSN-equivalent tie-rod end from MCLB Albany"
+        "preposition_recommendation": "ship 266 units to Okinawa Forward Node by D-30",
+        "alt_supplier_or_substitution": "BB-2590/U OEM alternate source or approved smart-battery equivalent"
       },
       {
-        "nsn": "2930-01-359-0792",
-        "part_name": "battery 6TL (HMMWV)",
-        "platform_consuming": "HMMWV",
-        "projected_30d_demand": 381,
-        "current_stock_at_forward_node": 11,
+        "nsn": "2940-01-389-2196",
+        "part_name": "primary fuel/oil filter element (MTVR)",
+        "platform_consuming": "MTVR",
+        "projected_30d_demand": 234,
+        "current_stock_at_forward_node": 9,
         "shortfall_risk": "RED",
-        "preposition_recommendation": "ship 370 units to Okinawa Forward Node by D-30",
-        "alt_supplier_or_substitution": "Use approved 6TL battery equivalent or battery bank swap if platform wiring allows"
+        "preposition_recommendation": "ship 225 units to Okinawa Forward Node by D-30",
+        "alt_supplier_or_substitution": "Cross-reference to Wix/NAPA equivalent filter if fit verified"
       },
       {
-        "nsn": "5340-01-478-2923",
-        "part_name": "cylinder head gasket (JLTV)",
-        "platform_consuming": "JLTV",
-        "projected_30d_demand": 356,
-        "current_stock_at_forward_node": 4,
-        "shortfall_risk": "RED",
-        "preposition_recommendation": "ship 352 units to Okinawa Forward Node by D-30",
-        "alt_supplier_or_substitution": "Use OEM gasket set or engine overhaul kit substitute if exact gasket is denied"
-      },
-      {
-        "nsn": "2930-01-066-8465",
-        "part_name": "wiring harness (HMMWV)",
+        "nsn": "2940-01-413-1984",
+        "part_name": "engine air filter element (HMMWV)",
         "platform_consuming": "HMMWV",
-        "projected_30d_demand": 351,
+        "projected_30d_demand": 226,
+        "current_stock_at_forward_node": 10,
+        "shortfall_risk": "RED",
+        "preposition_recommendation": "ship 216 units to Okinawa Forward Node by D-30",
+        "alt_supplier_or_substitution": "Use approved commercial air-filter cross-reference if dimensions match"
+      },
+      {
+        "nsn": "2530-01-466-0822",
+        "part_name": "brake pad set (HMMWV front)",
+        "platform_consuming": "HMMWV",
+        "projected_30d_demand": 173,
+        "current_stock_at_forward_node": 6,
+        "shortfall_risk": "RED",
+        "preposition_recommendation": "ship 167 units to Okinawa Forward Node by D-30",
+        "alt_supplier_or_substitution": "OEM brake pad equivalent from alternate qualified vendor"
+      },
+      {
+        "nsn": "2610-01-330-4488",
+        "part_name": "tire valve stem assembly (MTVR)",
+        "platform_consuming": "MTVR",
+        "projected_30d_demand": 179,
         "current_stock_at_forward_node": 3,
         "shortfall_risk": "RED",
-        "preposition_recommendation": "ship 348 units to Okinawa Forward Node by D-30",
-        "alt_supplier_or_substitution": "Use depot-rebuilt harness or field-repair harness section with approved splice kit"
+        "preposition_recommendation": "ship 176 units to Okinawa Forward Node by D-30",
+        "alt_supplier_or_substitution": "Standard heavy-duty TR-618A valve stem if wheel spec permits"
       },
       {
-        "nsn": "5895-01-632-1243",
-        "part_name": "wiring harness (HMMWV)",
-        "platform_consuming": "HMMWV",
-        "projected_30d_demand": 367,
-        "current_stock_at_forward_node": 5,
+        "nsn": "2930-01-477-0631",
+        "part_name": "fuel filter / water separator (MTVR)",
+        "platform_consuming": "MTVR",
+        "projected_30d_demand": 139,
+        "current_stock_at_forward_node": 1,
         "shortfall_risk": "RED",
-        "preposition_recommendation": "ship 362 units to Okinawa Forward Node by D-30",
-        "alt_supplier_or_substitution": "Use depot-rebuilt harness or field-repair harness section with approved splice kit"
+        "preposition_recommendation": "ship 138 units to Okinawa Forward Node by D-30",
+        "alt_supplier_or_substitution": "Fleetguard/WIX cross-reference water-separator element if approved"
       },
       {
-        "nsn": "6135-01-540-6946",
-        "part_name": "brake caliper (HMMWV)",
-        "platform_consuming": "HMMWV",
-        "projected_30d_demand": 337,
-        "current_stock_at_forward_node": 7,
-        "shortfall_risk": "RED",
-        "preposition_recommendation": "ship 330 units to Okinawa Forward Node by D-30",
-        "alt_supplier_or_substitution": "Use remanufactured caliper assembly or approved brake rebuild kit"
-      },
-      {
-        "nsn": "5340-01-493-8379",
-        "part_name": "ball joint (JLTV)",
+        "nsn": "2940-01-510-2207",
+        "part_name": "transmission oil filter (JLTV)",
         "platform_consuming": "JLTV",
-        "projected_30d_demand": 331,
-        "current_stock_at_forward_node": 16,
-        "shortfall_risk": "RED",
-        "preposition_recommendation": "ship 315 units to Okinawa Forward Node by D-30",
-        "alt_supplier_or_substitution": "Use OEM suspension kit or matched JLTV front-end rebuild set"
-      },
-      {
-        "nsn": "4720-01-008-6506",
-        "part_name": "battery 6TL (HMMWV)",
-        "platform_consuming": "HMMWV",
-        "projected_30d_demand": 294,
-        "current_stock_at_forward_node": 13,
-        "shortfall_risk": "RED",
-        "preposition_recommendation": "ship 281 units to Okinawa Forward Node by D-30",
-        "alt_supplier_or_substitution": "Use approved 6TL battery equivalent or battery bank swap if platform wiring allows"
-      },
-      {
-        "nsn": "5895-01-998-5204",
-        "part_name": "ball joint (HMMWV)",
-        "platform_consuming": "HMMWV",
-        "projected_30d_demand": 289,
-        "current_stock_at_forward_node": 8,
-        "shortfall_risk": "RED",
-        "preposition_recommendation": "ship 281 units to Okinawa Forward Node by D-30",
-        "alt_supplier_or_substitution": "Use OEM suspension kit or matched HMMWV front-end rebuild set"
-      },
-      {
-        "nsn": "1015-01-994-1775",
-        "part_name": "brake pad set (HMMWV)",
-        "platform_consuming": "HMMWV",
-        "projected_30d_demand": 310,
+        "projected_30d_demand": 129,
         "current_stock_at_forward_node": 11,
         "shortfall_risk": "RED",
-        "preposition_recommendation": "ship 299 units to Okinawa Forward Node by D-30",
-        "alt_supplier_or_substitution": "Use remanufactured pad set or approved brake service kit"
+        "preposition_recommendation": "ship 118 units to Okinawa Forward Node by D-30",
+        "alt_supplier_or_substitution": "OEM alternate-source transmission filter element"
+      },
+      {
+        "nsn": "3110-01-413-2691",
+        "part_name": "wheel bearing assembly (HMMWV)",
+        "platform_consuming": "HMMWV",
+        "projected_30d_demand": 117,
+        "current_stock_at_forward_node": 12,
+        "shortfall_risk": "RED",
+        "preposition_recommendation": "ship 105 units to Okinawa Forward Node by D-30",
+        "alt_supplier_or_substitution": "Commercial bearing cross-reference by dimensions and load rating"
+      },
+      {
+        "nsn": "4720-01-329-4512",
+        "part_name": "coolant hose (MTVR engine)",
+        "platform_consuming": "MTVR",
+        "projected_30d_demand": 105,
+        "current_stock_at_forward_node": 8,
+        "shortfall_risk": "RED",
+        "preposition_recommendation": "ship 97 units to Okinawa Forward Node by D-30",
+        "alt_supplier_or_substitution": "Form-fit silicone hose workaround if bend radius and temp rating match"
       }
     ],
     "scenario": {

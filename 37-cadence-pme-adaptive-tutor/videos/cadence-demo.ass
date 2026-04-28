@@ -1,0 +1,24 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1440
+PlayResY: 900
+ScaledBorderAndShadow: yes
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Helvetica,22,&H00FFFFFF,&H00FFFFFF,&H00000000,&HC8000000,1,0,0,0,100,100,0,0,3,1,0.5,2,80,80,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:03.02,0:00:08.02,Default,,0,0,0,,CADENCE. Adaptive PME tutor for every Marine.
+Dialogue: 0,0:00:08.02,0:00:13.02,Default,,0,0,0,,PME training problem: one-size-fits-all is not working at the artifact\Nlevel.
+Dialogue: 0,0:00:13.03,0:00:18.03,Default,,0,0,0,,Three demo courses. Three Marines. One personalized study plan each.
+Dialogue: 0,0:00:18.03,0:00:24.03,Default,,0,0,0,,Marine logs in. CADENCE reads their docx submission and last 10 forum\Nposts.
+Dialogue: 0,0:00:24.04,0:00:30.04,Default,,0,0,0,,Three-stage agent. Read. Analyze. Plan.
+Dialogue: 0,0:00:30.10,0:00:38.10,Default,,0,0,0,,A Kamiwaza-deployed model drafts the one-page Adaptive Study Plan.
+Dialogue: 0,0:00:32.11,0:00:39.11,Default,,0,0,0,,Knowledge gaps. Doctrine to review. Three tailored study questions.
+Dialogue: 0,0:00:39.12,0:00:45.12,Default,,0,0,0,,Seven-day learning targets. Daily action. Rubric-aligned writing tips.
+Dialogue: 0,0:00:45.13,0:00:52.13,Default,,0,0,0,,Privacy Act of 1974 and DoDI 1322.35. NAVMC 3500 T&R cited. SHA-256\Nchained. Data stays in the SCIF.
+Dialogue: 0,0:00:52.14,0:01:00.14,Default,,0,0,0,,Built on the Kamiwaza Stack. From Context to Action. Deploy in hours.

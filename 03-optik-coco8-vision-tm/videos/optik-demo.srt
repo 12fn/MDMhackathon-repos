@@ -1,55 +1,55 @@
 1
-00:00:00,900 --> 00:00:05,900
+00:00:01,216 --> 00:00:06,216
 OPTIK — On-Prem Tactical Image Knowledge.
 
 2
-00:00:05,902 --> 00:00:10,902
+00:00:06,217 --> 00:00:11,217
 MARADMIN 131/26: anticipate equipment failure, improve readiness.
 
 3
-00:00:10,904 --> 00:00:15,904
+00:00:11,219 --> 00:00:16,219
 A motor-pool Marine vs. 3,400 pages of Technical Manual.
 
 4
-00:00:15,906 --> 00:00:20,906
+00:00:16,225 --> 00:00:21,225
 30 synthetic TM snippets indexed at startup — text-embedding-3-small.
 
 5
-00:00:20,909 --> 00:00:25,909
+00:00:21,228 --> 00:00:26,228
 Swappable to your real GCSS-MC corpus on a Kamiwaza DDE volume.
 
 6
-00:00:25,910 --> 00:00:29,910
+00:00:26,230 --> 00:00:30,230
 Drag-drop a field photo.
 
 7
-00:00:28,432 --> 00:00:34,432
+00:00:28,757 --> 00:00:34,757
 Single Kamiwaza-deployed multimodal call. Structured-JSON detection schema.
 
 8
-00:00:30,482 --> 00:00:36,482
+00:00:30,816 --> 00:00:36,816
 Vision -> bounding boxes -> RAG over TM snippets.
 
 9
-00:00:44,484 --> 00:00:52,484
+00:00:44,817 --> 00:00:52,817
 Senior-Sergeant-tone brief with TM number, section, and NSNs.
 
 10
-00:00:50,486 --> 00:00:55,486
+00:00:50,819 --> 00:00:55,819
 Three clicks. Identify. Read brief. Print parts list.
 
 11
-00:00:55,490 --> 00:01:00,490
+00:00:55,825 --> 00:01:00,825
 JSON ready to push to GCSS-MC. E-5 answers in 4 seconds.
 
 12
-00:01:00,492 --> 00:01:06,492
+00:01:00,826 --> 00:01:06,826
 Kamiwaza-deployed inference today. OpenAI fallback when KAMIWAZA_BASE_URL unset — zero code change.
 
 13
-00:01:05,495 --> 00:01:11,495
+00:01:05,834 --> 00:01:11,834
 Qwen2-VL or LLaVA on vLLM Inference Mesh. IL5/IL6 ready.
 
 14
-00:01:10,496 --> 00:01:16,496
+00:01:10,836 --> 00:01:16,836
 OPTIK — Built on the Kamiwaza Stack. Deploy in hours, not months.

@@ -1,6 +1,3 @@
-# OPTIK — vision RAG over TM library
-# Part of the MDM 2026 Hackathon Templates (https://github.com/12fn/MDMhackathon-repos)
-# MIT licensed. Built on GAI (Government Acquisitions, Inc.) + Kamiwaza (https://www.kamiwaza.ai/).
 """Vision-language hero call.
 
 Uses a Kamiwaza-deployed multimodal model via the shared OpenAI-compatible client

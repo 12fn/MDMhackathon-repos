@@ -33,3 +33,6 @@ DISPATCH,Synthetic 911 transcripts + dispatcher map,https://github.com/12fn/MDMh
 LEARN,Synthetic Moodle-shape course export,https://github.com/12fn/MDMhackathon-repos/tree/main/32-learn-lid
 AGORA,Synthetic role/permission tree + ecosystem corpus,https://github.com/12fn/MDMhackathon-repos/tree/main/33-agora-multi-model-rbac
 VOUCHER,Synthetic DTS records + Citi Manager statements,https://github.com/12fn/MDMhackathon-repos/tree/main/34-voucher-dts-travel
+CUAS-DETECT,Drone RF Spectrogram (DroneRF-B) + Drone RF Identification (DroneRC),https://github.com/12fn/MDMhackathon-repos/tree/main/35-cuas-detect-rf-counter-uas
+SPECTRA,NIST Wi-Fi & Bluetooth I/Q RF Recordings (mds2-2731),https://github.com/12fn/MDMhackathon-repos/tree/main/36-spectra-iq-spectrum-awareness
+CADENCE,LMS Course .mbz exports + Student Written Assignment Examples,https://github.com/12fn/MDMhackathon-repos/tree/main/37-cadence-pme-adaptive-tutor

@@ -71,7 +71,18 @@ DOLLAR_EXPOSURE_BY_ISSUE = {
 # I/O helpers
 # ─────────────────────────────────────────────────────────────────────────────
 def load_dts_records() -> list[dict]:
-    """Load DTS records from CSV, restoring voucher_lines as parsed JSON."""
+    """Load DTS records from CSV, restoring voucher_lines as parsed JSON.
+
+    Real DTS schema columns (JTR-aligned snake_case):
+      doc_number, ta_number, traveler_edipi, traveler_name, traveler_grade,
+      ao_edipi, ao_name, trip_purpose, trip_start, trip_end, status,
+      total_authorized, total_voucher, mode_of_travel.
+
+    The validator/UI code historically used `record_id`, `voucher_total`,
+    `depart_date`, `return_date`, `trip_reason`, `transport_mode`. We expose
+    BOTH the real (JTR-aligned) names AND those legacy aliases so neither tier
+    has to know about the schema rename.
+    """
     out: list[dict] = []
     p = DATA_DIR / "dts_records.csv"
     with p.open() as f:
@@ -85,16 +96,36 @@ def load_dts_records() -> list[dict]:
                     row[k] = int(row[k])
                 except Exception:
                     pass
+            # Total fields — accept either new (total_voucher / total_authorized)
+            # or legacy (voucher_total) column.
             try:
-                row["voucher_total"] = float(row["voucher_total"])
+                row["total_voucher"] = float(row.get("total_voucher",
+                                                    row.get("voucher_total", 0)) or 0.0)
             except Exception:
-                row["voucher_total"] = 0.0
+                row["total_voucher"] = 0.0
+            try:
+                row["total_authorized"] = float(row.get("total_authorized", 0) or 0.0)
+            except Exception:
+                row["total_authorized"] = 0.0
+            # Legacy alias used by the validator + UI
+            row["voucher_total"] = row["total_voucher"]
+            # record_id alias — real DTS field is doc_number (6 letters + 6 digits)
+            row["record_id"] = row.get("doc_number") or row.get("record_id", "")
+            # date aliases
+            row["depart_date"] = row.get("trip_start") or row.get("depart_date", "")
+            row["return_date"] = row.get("trip_end") or row.get("return_date", "")
+            # purpose / mode aliases
+            row["trip_reason"] = row.get("trip_purpose") or row.get("trip_reason", "")
+            row["transport_mode"] = row.get("mode_of_travel") or row.get("transport_mode", "")
             row["seeded_issues"] = [t for t in (row.get("seeded_issues") or "").split(",") if t]
             out.append(row)
     return out
 
 
 def load_citi_transactions() -> list[dict]:
+    """Load Citi GTCC transactions. The new schema links via `linked_doc_number`
+    (real DTS document number). Legacy code expects `linked_dts_record` — alias
+    both directions for backward compatibility."""
     out: list[dict] = []
     p = DATA_DIR / "citi_statements.csv"
     with p.open() as f:
@@ -103,6 +134,10 @@ def load_citi_transactions() -> list[dict]:
                 row["amount"] = float(row["amount"])
             except Exception:
                 row["amount"] = 0.0
+            # Alias new (linked_doc_number) <-> legacy (linked_dts_record)
+            link = row.get("linked_doc_number") or row.get("linked_dts_record", "")
+            row["linked_doc_number"] = link
+            row["linked_dts_record"] = link
             out.append(row)
     return out
 
