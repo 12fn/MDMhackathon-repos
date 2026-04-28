@@ -1,3 +1,6 @@
+# VOUCHER — DTS + Citi Manager travel program validation
+# Part of the MDM 2026 Hackathon Templates (https://github.com/12fn/MDMhackathon-repos)
+# MIT licensed. Built on GAI (Government Acquisitions, Inc.) + Kamiwaza (https://www.kamiwaza.ai/).
 """VOUCHER agent — two-tier travel-program QA pipeline.
 
 Tier 1 (chat_json):  Per-record validation — typed JSON verdict per DTS record:

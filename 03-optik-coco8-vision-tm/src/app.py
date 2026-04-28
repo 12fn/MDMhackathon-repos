@@ -1,3 +1,6 @@
+# OPTIK — vision RAG over a TM library — maintainer photo to TM citation
+# Part of the MDM 2026 Hackathon Templates (https://github.com/12fn/MDMhackathon-repos)
+# MIT licensed. Built on GAI (Government Acquisitions, Inc.) + Kamiwaza (https://www.kamiwaza.ai/).
 """OPTIK — On-Prem Tactical Image Knowledge.
 
 Gradio app: drag-drop a field photo -> vision detection + RAG over synthetic TM

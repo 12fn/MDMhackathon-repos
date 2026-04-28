@@ -1,5 +1,7 @@
 # LEARN — Learning Intelligence Dashboard (LID)
 
+> Built on **[GAI](https://www.governmentacquisitions.com/) (Government Acquisitions, Inc.)** + **[Kamiwaza](https://www.kamiwaza.ai/)**. MIT-licensed; part of the [MDM 2026 Hackathon Templates](https://github.com/12fn/MDMhackathon-repos). See [`../ATTRIBUTION.md`](../ATTRIBUTION.md).
+
 > *From Context to Action.* — Cognitive-development analytics for USMC PME / PMOS / Schoolhouses, on-prem, audit-traceable.
 
 **Codename:** LEARN  ·  **Port:** 3032  ·  **Stack:** Streamlit (mono)

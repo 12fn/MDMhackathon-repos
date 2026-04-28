@@ -1,5 +1,7 @@
 # OPTIK — On-Prem Tactical Image Knowledge
 
+> Built on **[GAI](https://www.governmentacquisitions.com/) (Government Acquisitions, Inc.)** + **[Kamiwaza](https://www.kamiwaza.ai/)**. MIT-licensed; part of the [MDM 2026 Hackathon Templates](https://github.com/12fn/MDMhackathon-repos). See [`../ATTRIBUTION.md`](../ATTRIBUTION.md).
+
 > Codename **OPTIK**. Agent #03 of 14. Hackathon: USMC LOGCOM CDAO AI Forum @ MDM 2026.
 
 **One-liner:** turn any Marine's phone into an embedded technical librarian.

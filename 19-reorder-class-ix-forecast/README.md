@@ -1,5 +1,7 @@
 # REORDER
 
+> Built on **[GAI](https://www.governmentacquisitions.com/) (Government Acquisitions, Inc.)** + **[Kamiwaza](https://www.kamiwaza.ai/)**. MIT-licensed; part of the [MDM 2026 Hackathon Templates](https://github.com/12fn/MDMhackathon-repos). See [`../ATTRIBUTION.md`](../ATTRIBUTION.md).
+
 **Class IX (repair parts) demand forecasting for a deployed MAGTF in contested logistics.**
 
 LOGCOM published the use case: predict Class IX consumption for a deployed

@@ -1,3 +1,6 @@
+# LEARN — Learning Intelligence Dashboard for USMC PME / MOS school
+# Part of the MDM 2026 Hackathon Templates (https://github.com/12fn/MDMhackathon-repos)
+# MIT licensed. Built on GAI (Government Acquisitions, Inc.) + Kamiwaza (https://www.kamiwaza.ai/).
 """LEARN agent — three-stage cache-first competency analysis pipeline.
 
 Stage 1 (chat_json):  Per-student rubric scoring from forum posts + submissions.

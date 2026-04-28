@@ -1,5 +1,7 @@
 # VOUCHER
 
+> Built on **[GAI](https://www.governmentacquisitions.com/) (Government Acquisitions, Inc.)** + **[Kamiwaza](https://www.kamiwaza.ai/)**. MIT-licensed; part of the [MDM 2026 Hackathon Templates](https://github.com/12fn/MDMhackathon-repos). See [`../ATTRIBUTION.md`](../ATTRIBUTION.md).
+
 *DTS + Citi Manager travel-program QA agent for the unit S-1.*
 **Hackathon app #34 — USMC LOGCOM AI Forum @ MDM 2026.**
 
