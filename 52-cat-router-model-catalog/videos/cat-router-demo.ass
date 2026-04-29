@@ -1,0 +1,22 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1440
+PlayResY: 900
+ScaledBorderAndShadow: yes
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Helvetica,22,&H00FFFFFF,&H00FFFFFF,&H00000000,&HC8000000,1,0,0,0,100,100,0,0,3,1,0.5,2,80,80,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.84,0:00:05.84,Default,,0,0,0,,CAT-ROUTER. Five LLM tasks, five different best models. Kamiwaza picks\Nthem automatically.
+Dialogue: 0,0:00:05.84,0:00:15.84,Default,,0,0,0,,A Marine analyst submits a daily intel brief workflow. Vision,\Nclassification, long-context synthesis, tool calling, hero narrative.
+Dialogue: 0,0:00:15.85,0:00:25.85,Default,,0,0,0,,Eight models in the on-prem catalog. Vision, tool calling, security\Nposture, hardware home — all metadata-tagged.
+Dialogue: 0,0:00:25.86,0:00:45.86,Default,,0,0,0,,Per-task routing decisions. Qwen-VL for vision, Llama 8B for fast\Nclassify, Qwen 72B for long context, Llama 3.3 70B for tool calls, …
+Dialogue: 0,0:00:45.87,0:00:53.87,Default,,0,0,0,,Toggle Fast slash Cheap mode. The catalog reroutes everything to Llama\Nthree point one eight B. Cost drops eighty percent. Quality drops …
+Dialogue: 0,0:00:53.94,0:01:05.94,Default,,0,0,0,,Operator sees the trade-off live: per-task cost, latency, and quality\Nside by side. Hash-chained audit of every routing decision.
+Dialogue: 0,0:01:05.94,0:01:18.94,Default,,0,0,0,,One environment variable swaps the synthetic catalog for a live\NKamiwaza Model Gateway behind the SCIF.
+Dialogue: 0,0:01:18.95,0:01:26.95,Default,,0,0,0,,CAT-ROUTER. Built on the Kamiwaza Stack. Right model, right task,\Nright pod — every time.

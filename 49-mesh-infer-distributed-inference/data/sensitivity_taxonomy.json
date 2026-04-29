@@ -1,0 +1,64 @@
+{
+  "UNCLASS": {
+    "rank": 0,
+    "label": "U \u2014 Unclassified",
+    "allowable_nodes": [
+      "edge-meusoc",
+      "rear-quantico",
+      "scif-marforpac-mixtral",
+      "scif-marforpac-vl"
+    ],
+    "max_egress_kb": 1024,
+    "network_classes": [
+      "NIPR",
+      "SIPR",
+      "JWICS"
+    ],
+    "notes": "Routable anywhere. Prefer edge for latency."
+  },
+  "CUI": {
+    "rank": 1,
+    "label": "CUI \u2014 Controlled Unclassified",
+    "allowable_nodes": [
+      "edge-meusoc",
+      "rear-quantico",
+      "scif-marforpac-mixtral",
+      "scif-marforpac-vl"
+    ],
+    "max_egress_kb": 512,
+    "network_classes": [
+      "NIPR (encrypted)",
+      "SIPR",
+      "JWICS"
+    ],
+    "notes": "Edge OK if data already at edge; otherwise rear-depot preferred."
+  },
+  "SECRET": {
+    "rank": 2,
+    "label": "S \u2014 SECRET",
+    "allowable_nodes": [
+      "rear-quantico",
+      "scif-marforpac-mixtral",
+      "scif-marforpac-vl"
+    ],
+    "max_egress_kb": 0,
+    "network_classes": [
+      "SIPR",
+      "JWICS"
+    ],
+    "notes": "Cannot leave the SIPR/JWICS perimeter. Rear-depot OK if SIPR-attached."
+  },
+  "TS-SCI": {
+    "rank": 3,
+    "label": "TS-SCI \u2014 Top Secret / SCI",
+    "allowable_nodes": [
+      "scif-marforpac-mixtral",
+      "scif-marforpac-vl"
+    ],
+    "max_egress_kb": 0,
+    "network_classes": [
+      "JWICS"
+    ],
+    "notes": "SCIF-only. Bandwidth-out is physically blocked."
+  }
+}

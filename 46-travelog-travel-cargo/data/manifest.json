@@ -1,0 +1,19 @@
+{
+  "scenarios": 30,
+  "dts_records": 30,
+  "assets": 9,
+  "bts_nodes": 14,
+  "bts_edges": 46,
+  "lade_records": 15,
+  "datasets_simulated": [
+    "Synthetic DTS authorizations (VOUCHER schema, JTR-aligned)",
+    "AFCENT Logistics Data (asset class / mode / fuel burn)",
+    "Bureau of Transportation Statistics (BTS NTAD multimodal corridor)",
+    "Last Mile Delivery (LaDe) records"
+  ],
+  "preset_scenario_ids": [
+    "PCS-002",
+    "PCS-006",
+    "PCS-016"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "anchors": [
+    {
+      "fusion_id": "F-001",
+      "name": "Covert vessel - Sulu Sea",
+      "lat": 6.45,
+      "lon": 121.08,
+      "dtg": "2026-04-26T14:05:00Z",
+      "sources": [
+        "ais",
+        "hituav",
+        "dronerf",
+        "asam"
+      ],
+      "narrative": "AIS gap on a Panamanian-flagged tanker overlapped with a thermal-IR blob 12 km off Jolo, drone-control RF spike on 2.4 GHz, and an ASAM boarding-attempt advisory from the same coordinates 90 min later."
+    },
+    {
+      "fusion_id": "F-002",
+      "name": "Suspected covert UAS launch - Mindoro",
+      "lat": 13.42,
+      "lon": 120.89,
+      "dtg": "2026-04-26T03:18:00Z",
+      "sources": [
+        "hituav",
+        "dronerf",
+        "milobj"
+      ],
+      "narrative": "HIT-UAV thermal frame caught a launch-rail signature on a coastal fishing platform; DroneRF spectrogram tagged DJI OcuSync at -68 dBm; IMINT tile classified small-boat-with-mast as 'unidentified UAS LRC'."
+    },
+    {
+      "fusion_id": "F-003",
+      "name": "Cross-INT industrial fire - Subic",
+      "lat": 14.797,
+      "lon": 120.272,
+      "dtg": "2026-04-26T08:42:00Z",
+      "sources": [
+        "firms",
+        "milobj",
+        "wifibt"
+      ],
+      "narrative": "FIRMS pixel cluster (FRP 78 MW) at a fuel-storage farm; IMINT shows POL tank thermal blooming; WiFi/BT density abruptly cratered at the facility (worker evacuation signature)."
+    },
+    {
+      "fusion_id": "F-004",
+      "name": "Pirate skiff swarm - Sibutu Passage",
+      "lat": 4.82,
+      "lon": 119.5,
+      "dtg": "2026-04-26T22:55:00Z",
+      "sources": [
+        "asam",
+        "ais",
+        "dronerf"
+      ],
+      "narrative": "ASAM advisory: 4 skiffs trailing a bulk carrier through Sibutu; AIS shows the carrier executing evasive S-turns; DroneRF picked up non-DJI 433 MHz handheld telemetry consistent with skiff coordination."
+    },
+    {
+      "fusion_id": "F-005",
+      "name": "Beach reconnaissance signature - Palawan",
+      "lat": 10.18,
+      "lon": 119.06,
+      "dtg": "2026-04-26T19:34:00Z",
+      "sources": [
+        "wifibt",
+        "hituav",
+        "milobj"
+      ],
+      "narrative": "Burst of Espressif (ESP32) WiFi MACs on an otherwise dark beach; HIT-UAV captured 3 warm bodies prone in vegetation; IMINT tile found 'small inflatable craft' partially camouflaged 40 m inland."
+    }
+  ],
+  "note": "Ground-truth multi-source fusion events. The correlator must rediscover these without seeing the labels."
+}

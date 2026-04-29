@@ -1,0 +1,27 @@
+1
+00:00:02,650 --> 00:00:07,650
+OMNI-INTEL. Seven ISR stovepipes, one target picture. Daily all-source brief at scale.
+
+2
+00:00:07,152 --> 00:00:17,152
+MARADMIN 131/26. A G-2 staff in WestPac runs seven separate INT pipelines. Nothing fuses until Wednesday's PowerPoint.
+
+3
+00:00:15,158 --> 00:00:25,158
+Sixteen-thousand observations, normalized into one envelope. AIS, ASAM, IMINT, MASINT, SIGINT, GEOINT all on the same dark map.
+
+4
+00:00:24,163 --> 00:00:44,163
+Cross-source correlator. AIS gap, plus a thermal IR blob, plus a drone-control RF spike, plus an ASAM advisory -- all within two kilometers and ninety minutes. That is one target.
+
+5
+00:00:41,191 --> 00:01:01,191
+One click. The Kamiwaza-deployed hero model writes a SIPR-style daily all-source brief. BLUF first, INTs cited, CCIR-aligned recommendations, CCDR distribution.
+
+6
+00:00:59,252 --> 00:01:14,252
+Set KAMIWAZA underscore BASE underscore URL to your enclave gateway. Multi-INT fusion stays inside the JWICS-equivalent enclave. Every cluster decision is hash-chained for ICD 501 audit.
+
+7
+00:01:12,271 --> 00:01:22,271
+OMNI-INTEL. Built on the Kamiwaza Stack. Deploy in hours, not months.

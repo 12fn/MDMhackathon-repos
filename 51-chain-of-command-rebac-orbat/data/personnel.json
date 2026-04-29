@@ -1,0 +1,167 @@
+[
+  {
+    "id": "P_SMITH",
+    "name": "LCpl Smith",
+    "rank": "LCpl",
+    "edipi": "1000000001",
+    "mos": "0311",
+    "clearance": "SECRET",
+    "nationality": "USA",
+    "current_unit": "3Sqd_1Plt_A_1_8",
+    "notes": "Demo hero. Rifleman, 3rd Squad / 1st Plt / A Co 1/8."
+  },
+  {
+    "id": "P_JONES",
+    "name": "Sgt Jones",
+    "rank": "Sgt",
+    "edipi": "1000000002",
+    "mos": "0369",
+    "clearance": "SECRET",
+    "nationality": "USA",
+    "current_unit": "1stPlt_A_1_8",
+    "notes": "Squad Leader."
+  },
+  {
+    "id": "P_GARCIA",
+    "name": "Cpl Garcia",
+    "rank": "Cpl",
+    "edipi": "1000000003",
+    "mos": "0341",
+    "clearance": "SECRET",
+    "nationality": "USA",
+    "current_unit": "3Sqd_1Plt_A_1_8",
+    "notes": "Mortarman, Smith's fire-team."
+  },
+  {
+    "id": "P_OBRIEN",
+    "name": "Capt O'Brien",
+    "rank": "Capt",
+    "edipi": "1000000004",
+    "mos": "0302",
+    "clearance": "TS",
+    "nationality": "USA",
+    "current_unit": "A_1_8",
+    "notes": "Co Cdr, A 1/8."
+  },
+  {
+    "id": "P_REYES",
+    "name": "Maj Reyes",
+    "rank": "Maj",
+    "edipi": "1000000005",
+    "mos": "0302",
+    "clearance": "TS",
+    "nationality": "USA",
+    "current_unit": "1_8",
+    "notes": "BN S-3."
+  },
+  {
+    "id": "P_SOTO",
+    "name": "LtCol Soto",
+    "rank": "LtCol",
+    "edipi": "1000000006",
+    "mos": "0302",
+    "clearance": "TS",
+    "nationality": "USA",
+    "current_unit": "2_2",
+    "notes": "Cdr, 2/2 BLT for 24th MEU."
+  },
+  {
+    "id": "P_KING",
+    "name": "Col King",
+    "rank": "Col",
+    "edipi": "1000000007",
+    "mos": "0302",
+    "clearance": "TS",
+    "nationality": "USA",
+    "current_unit": "24MEU",
+    "notes": "24th MEU CO."
+  },
+  {
+    "id": "P_PATEL",
+    "name": "GySgt Patel",
+    "rank": "GySgt",
+    "edipi": "1000000008",
+    "mos": "0369",
+    "clearance": "SECRET",
+    "nationality": "USA",
+    "current_unit": "A_1_1",
+    "notes": "PltSgt, 1st Plt A 1/1."
+  },
+  {
+    "id": "P_HARRIS",
+    "name": "Sgt Harris (RM)",
+    "rank": "Sgt",
+    "edipi": "UK00000001",
+    "mos": "LNO",
+    "clearance": "SECRET",
+    "nationality": "GBR",
+    "current_unit": "24MEU",
+    "notes": "Royal Marines LNO attached to 24th MEU (FVEY)."
+  },
+  {
+    "id": "P_WEBER",
+    "name": "OF-2 Weber (BWHr)",
+    "rank": "OF-2",
+    "edipi": "DE00000001",
+    "mos": "LNO",
+    "clearance": "NATO_SECRET",
+    "nationality": "DEU",
+    "current_unit": "MARFOREUR",
+    "notes": "Bundeswehr LNO, MARFOREUR/AF (NATO)."
+  },
+  {
+    "id": "P_VENDOR",
+    "name": "Quinn (SETA)",
+    "rank": "GS-9",
+    "edipi": "V0000001",
+    "mos": "CONTRACTOR",
+    "clearance": "UNCLASS",
+    "nationality": "USA",
+    "current_unit": "1_8",
+    "notes": "SETA contractor co-located but vendor realm."
+  },
+  {
+    "id": "P_LEE",
+    "name": "PFC Lee",
+    "rank": "PFC",
+    "edipi": "1000000010",
+    "mos": "0311",
+    "clearance": "SECRET",
+    "nationality": "USA",
+    "current_unit": "3Sqd_1Plt_A_1_8",
+    "notes": "Rifleman."
+  },
+  {
+    "id": "P_DIAZ",
+    "name": "PFC Diaz",
+    "rank": "PFC",
+    "edipi": "1000000011",
+    "mos": "0311",
+    "clearance": "UNCLASS",
+    "nationality": "USA",
+    "current_unit": "2Sqd_1Plt_A_1_8",
+    "notes": "Rifleman."
+  },
+  {
+    "id": "P_NGUYEN",
+    "name": "LCpl Nguyen",
+    "rank": "LCpl",
+    "edipi": "1000000012",
+    "mos": "0311",
+    "clearance": "SECRET",
+    "nationality": "USA",
+    "current_unit": "1Sqd_1Plt_A_1_8",
+    "notes": "Team Leader."
+  },
+  {
+    "id": "P_BROWN",
+    "name": "Sgt Brown",
+    "rank": "Sgt",
+    "edipi": "1000000013",
+    "mos": "0369",
+    "clearance": "SECRET",
+    "nationality": "USA",
+    "current_unit": "1stPlt_A_1_1",
+    "notes": "Sqd Ldr."
+  }
+]

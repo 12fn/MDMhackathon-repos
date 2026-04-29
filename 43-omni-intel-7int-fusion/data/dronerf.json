@@ -1,0 +1,113 @@
+[
+  {
+    "source_type": "dronerf",
+    "observation_id": "DRF-000",
+    "dtg": "2026-04-26T00:02:00Z",
+    "lat": 10.57752,
+    "lon": 122.91192,
+    "raw_signature": {
+      "spectrogram_id": "SPEC-286",
+      "rf_class": "DJI_OcuSync_2.4",
+      "center_freq_ghz": 2.4,
+      "rssi_dbm": -77,
+      "burst_duration_ms": 24,
+      "platform_int": "SIGINT"
+    },
+    "confidence": 0.75,
+    "audit_prev": "0000000000000000",
+    "audit_hash": "53276c5afe675614"
+  },
+  {
+    "source_type": "dronerf",
+    "observation_id": "DRF-FUSION-F-002",
+    "dtg": "2026-04-26T03:23:00Z",
+    "lat": 13.4177,
+    "lon": 120.88767,
+    "raw_signature": {
+      "spectrogram_id": "SPEC-527",
+      "rf_class": "DJI_OcuSync_2.4",
+      "center_freq_ghz": 2.4,
+      "rssi_dbm": -68,
+      "burst_duration_ms": 145,
+      "platform_int": "SIGINT",
+      "fusion_anchor": "F-002"
+    },
+    "confidence": 0.91,
+    "audit_prev": "53276c5afe675614",
+    "audit_hash": "94774f34b7207812"
+  },
+  {
+    "source_type": "dronerf",
+    "observation_id": "DRF-FUSION-F-001",
+    "dtg": "2026-04-26T14:05:00Z",
+    "lat": 6.44806,
+    "lon": 121.07522,
+    "raw_signature": {
+      "spectrogram_id": "SPEC-432",
+      "rf_class": "Lightbridge_2.4",
+      "center_freq_ghz": 2.4,
+      "rssi_dbm": -68,
+      "burst_duration_ms": 145,
+      "platform_int": "SIGINT",
+      "fusion_anchor": "F-001"
+    },
+    "confidence": 0.91,
+    "audit_prev": "94774f34b7207812",
+    "audit_hash": "f6a7dd4ffe6e64b5"
+  },
+  {
+    "source_type": "dronerf",
+    "observation_id": "DRF-002",
+    "dtg": "2026-04-26T18:04:30Z",
+    "lat": 11.88859,
+    "lon": 126.78746,
+    "raw_signature": {
+      "spectrogram_id": "SPEC-616",
+      "rf_class": "DJI_OcuSync_2.4",
+      "center_freq_ghz": 5.8,
+      "rssi_dbm": -84,
+      "burst_duration_ms": 171,
+      "platform_int": "SIGINT"
+    },
+    "confidence": 0.7,
+    "audit_prev": "f6a7dd4ffe6e64b5",
+    "audit_hash": "f0a068609b022791"
+  },
+  {
+    "source_type": "dronerf",
+    "observation_id": "DRF-001",
+    "dtg": "2026-04-26T18:41:05Z",
+    "lat": 14.59826,
+    "lon": 126.34618,
+    "raw_signature": {
+      "spectrogram_id": "SPEC-325",
+      "rf_class": "DJI_OcuSync_5.8",
+      "center_freq_ghz": 5.8,
+      "rssi_dbm": -67,
+      "burst_duration_ms": 83,
+      "platform_int": "SIGINT"
+    },
+    "confidence": 0.9,
+    "audit_prev": "f0a068609b022791",
+    "audit_hash": "6ed025bad761ae16"
+  },
+  {
+    "source_type": "dronerf",
+    "observation_id": "DRF-FUSION-F-004",
+    "dtg": "2026-04-26T22:55:00Z",
+    "lat": 4.82421,
+    "lon": 119.50067,
+    "raw_signature": {
+      "spectrogram_id": "SPEC-670",
+      "rf_class": "433MHz_handheld_telemetry",
+      "center_freq_ghz": 0.433,
+      "rssi_dbm": -68,
+      "burst_duration_ms": 145,
+      "platform_int": "SIGINT",
+      "fusion_anchor": "F-004"
+    },
+    "confidence": 0.91,
+    "audit_prev": "6ed025bad761ae16",
+    "audit_hash": "b1fe1ed658df5397"
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "spoke_id": "LHA-6",
+    "mode": "rotary+vertrep",
+    "distance_nm": 303.0,
+    "leg_hours": 1.0,
+    "lift_status": "RED",
+    "cold_chain_transit_risk": 0.28,
+    "last_resupply_h_ago": 51
+  },
+  {
+    "spoke_id": "LHD-1",
+    "mode": "fixed-wing+rotary",
+    "distance_nm": 787.0,
+    "leg_hours": 3.2,
+    "lift_status": "GREEN",
+    "cold_chain_transit_risk": 0.22,
+    "last_resupply_h_ago": 22
+  },
+  {
+    "spoke_id": "LPD-29",
+    "mode": "rotary+vertrep",
+    "distance_nm": 531.0,
+    "leg_hours": 1.9,
+    "lift_status": "AMBER",
+    "cold_chain_transit_risk": 0.31,
+    "last_resupply_h_ago": 34
+  },
+  {
+    "spoke_id": "MEU-31",
+    "mode": "fixed-wing",
+    "distance_nm": 1252.0,
+    "leg_hours": 6.2,
+    "lift_status": "AMBER",
+    "cold_chain_transit_risk": 0.2,
+    "last_resupply_h_ago": 71
+  },
+  {
+    "spoke_id": "MEU-13",
+    "mode": "fixed-wing",
+    "distance_nm": 1421.0,
+    "leg_hours": 6.4,
+    "lift_status": "GREEN",
+    "cold_chain_transit_risk": 0.37,
+    "last_resupply_h_ago": 49
+  },
+  {
+    "spoke_id": "EABO-PA",
+    "mode": "fixed-wing+rotary",
+    "distance_nm": 692.0,
+    "leg_hours": 2.5,
+    "lift_status": "GREEN",
+    "cold_chain_transit_risk": 0.23,
+    "last_resupply_h_ago": 23
+  },
+  {
+    "spoke_id": "EABO-TI",
+    "mode": "rotary+vertrep",
+    "distance_nm": 109.0,
+    "leg_hours": 0.4,
+    "lift_status": "AMBER",
+    "cold_chain_transit_risk": 0.45,
+    "last_resupply_h_ago": 37
+  },
+  {
+    "spoke_id": "EABO-IT",
+    "mode": "fixed-wing+rotary",
+    "distance_nm": 1399.0,
+    "leg_hours": 5.0,
+    "lift_status": "GREEN",
+    "cold_chain_transit_risk": 0.4,
+    "last_resupply_h_ago": 92
+  },
+  {
+    "spoke_id": "EABO-IS",
+    "mode": "fixed-wing+rotary",
+    "distance_nm": 1361.0,
+    "leg_hours": 4.9,
+    "lift_status": "GREEN",
+    "cold_chain_transit_risk": 0.11,
+    "last_resupply_h_ago": 79
+  },
+  {
+    "spoke_id": "MCAS-IW",
+    "mode": "fixed-wing",
+    "distance_nm": 1437.0,
+    "leg_hours": 5.0,
+    "lift_status": "GREEN",
+    "cold_chain_transit_risk": 0.3,
+    "last_resupply_h_ago": 21
+  },
+  {
+    "spoke_id": "ROLE3-OK",
+    "mode": "fixed-wing",
+    "distance_nm": 1249.0,
+    "leg_hours": 4.5,
+    "lift_status": "AMBER",
+    "cold_chain_transit_risk": 0.2,
+    "last_resupply_h_ago": 26
+  },
+  {
+    "spoke_id": "CVN-71",
+    "mode": "rotary+vertrep",
+    "distance_nm": 277.0,
+    "leg_hours": 0.9,
+    "lift_status": "AMBER",
+    "cold_chain_transit_risk": 0.41,
+    "last_resupply_h_ago": 69
+  }
+]

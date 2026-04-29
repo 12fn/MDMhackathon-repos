@@ -1,0 +1,55 @@
+1
+00:00:02,363 --> 00:00:07,363
+GUARDRAIL. Trusted Marine workspace — four governance layers, one verifiable chain.
+
+2
+00:00:07,365 --> 00:00:12,365
+CUI auto-tagging + ABAC + browser-AI gov + hash-chained audit — all in one shell.
+
+3
+00:00:12,367 --> 00:00:17,367
+Active persona: Pvt Joe Mason, SECRET clearance. Watch what he can see.
+
+4
+00:00:17,369 --> 00:00:22,869
+Layer 1 — per-paragraph CUI marking under DoDM 5200.01 Vol 2.
+
+5
+00:00:22,874 --> 00:00:29,374
+Switch persona to Capt Doe (TS-SCI). ABAC re-renders the same document.
+
+6
+00:00:29,422 --> 00:00:35,922
+Now the contractor — Quinn Park. Privacy-Act and ITAR paragraphs disappear.
+
+7
+00:00:35,935 --> 00:00:41,435
+Open the intel summary. SECRET//NOFORN paragraphs are redacted by clearance.
+
+8
+00:00:41,439 --> 00:00:46,939
+Layer 3 — browser-AI gov. Stream the live intercept feed.
+
+9
+00:00:45,948 --> 00:00:51,448
+Comet, manus.im, Skyvern — BLOCKED at the workspace boundary.
+
+10
+00:00:50,963 --> 00:00:57,463
+Ask the workspace AI. RAG over only the paragraphs ABAC authorizes.
+
+11
+00:00:57,473 --> 00:01:04,973
+Layer 4 — one SHA-256 chain across CUI marks, ABAC redactions, browser blocks, AI queries.
+
+12
+00:01:04,980 --> 00:01:11,480
+Hero call: a Workspace Governance Posture Brief — cache-first, ready before the click.
+
+13
+00:01:11,482 --> 00:01:16,482
+Set KAMIWAZA_BASE_URL — the whole workspace stays inside the SCIF.
+
+14
+00:01:16,484 --> 00:01:20,984
+Powered by the Kamiwaza Stack. Deploy in hours, not months.

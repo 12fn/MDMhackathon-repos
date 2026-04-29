@@ -1,0 +1,100 @@
+[
+  {
+    "id": "MCBLEJ",
+    "name": "MCB Camp Lejeune (NC)",
+    "lat": 34.6862,
+    "lon": -77.3471,
+    "kind": "installation"
+  },
+  {
+    "id": "MCBPEN",
+    "name": "MCB Camp Pendleton (CA)",
+    "lat": 33.3861,
+    "lon": -117.5731,
+    "kind": "installation"
+  },
+  {
+    "id": "MCBQUA",
+    "name": "MCB Quantico (VA)",
+    "lat": 38.5236,
+    "lon": -77.3035,
+    "kind": "installation"
+  },
+  {
+    "id": "MCAGCC",
+    "name": "MCAGCC Twentynine Palms (CA)",
+    "lat": 34.2331,
+    "lon": -116.0653,
+    "kind": "installation"
+  },
+  {
+    "id": "MCASCP",
+    "name": "MCAS Cherry Point (NC)",
+    "lat": 34.9008,
+    "lon": -76.8808,
+    "kind": "installation"
+  },
+  {
+    "id": "MCAS_YUMA",
+    "name": "MCAS Yuma (AZ)",
+    "lat": 32.6566,
+    "lon": -114.6058,
+    "kind": "installation"
+  },
+  {
+    "id": "MCBHAW",
+    "name": "MCB Hawaii / Camp Smith",
+    "lat": 21.4458,
+    "lon": -157.7758,
+    "kind": "installation"
+  },
+  {
+    "id": "MCAS_IWA",
+    "name": "MCAS Iwakuni (JP)",
+    "lat": 34.1444,
+    "lon": 132.2358,
+    "kind": "installation"
+  },
+  {
+    "id": "MCBOKI",
+    "name": "MCB Camp Butler / Okinawa",
+    "lat": 26.2773,
+    "lon": 127.7832,
+    "kind": "installation"
+  },
+  {
+    "id": "PORT_NORFOLK",
+    "name": "Port of Norfolk (VA)",
+    "lat": 36.8703,
+    "lon": -76.3014,
+    "kind": "seaport"
+  },
+  {
+    "id": "PORT_LB",
+    "name": "Port of Long Beach (CA)",
+    "lat": 33.7542,
+    "lon": -118.2165,
+    "kind": "seaport"
+  },
+  {
+    "id": "RAIL_KCY",
+    "name": "BNSF Hub Kansas City (MO)",
+    "lat": 39.0997,
+    "lon": -94.5786,
+    "kind": "rail_hub"
+  },
+  {
+    "id": "AIR_DOV",
+    "name": "Dover AFB AMC Hub (DE)",
+    "lat": 39.1295,
+    "lon": -75.466,
+    "kind": "air_hub"
+  },
+  {
+    "id": "AIR_TRA",
+    "name": "Travis AFB AMC Hub (CA)",
+    "lat": 38.2627,
+    "lon": -121.9277,
+    "kind": "air_hub"
+  }
+]

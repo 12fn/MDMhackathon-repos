@@ -1,0 +1,39 @@
+1
+00:00:04,131 --> 00:00:09,131
+STORM-SHIFT. Polycrisis readiness for USMC installations.
+
+2
+00:00:09,132 --> 00:00:15,132
+The polycrisis era is here — storms cascade into supply, inventory, and fire.
+
+3
+00:00:15,134 --> 00:00:19,134
+Operator picks installation, storm scenario, optional co-event.
+
+4
+00:00:19,137 --> 00:00:25,137
+Five datasets: NASA Earthdata, FIRMS, NFIP, FEMA Climate-SC, CA Logistics.
+
+5
+00:00:25,141 --> 00:00:32,141
+Six projection agents fan out in parallel — flood, supply, inventory, consumption, impact, fire.
+
+6
+00:00:32,147 --> 00:00:38,147
+Sankey diagram renders the cascade chain — storm to flood to supply to inventory red.
+
+7
+00:00:38,153 --> 00:00:44,153
+72-hour cascade timeline · polycrisis multiplier surfaces non-linear compounding.
+
+8
+00:00:44,157 --> 00:00:50,157
+A Kamiwaza-deployed model writes the Polycrisis Readiness Brief.
+
+9
+00:00:50,159 --> 00:00:57,159
+Storm models stay in your enclave. No cloud egress. Set KAMIWAZA_BASE_URL.
+
+10
+00:00:57,160 --> 00:01:05,160
+Built on the Kamiwaza Stack. Deploy in hours, not months.

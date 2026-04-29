@@ -1,0 +1,305 @@
+[
+  {
+    "id": "DOC_001",
+    "title": "INDOPACOM AOR Threat Assessment \u2014 24 MEU window",
+    "classification": "SECRET",
+    "classified_by": "MARFORPAC_G3",
+    "rel_to": [
+      "USA"
+    ],
+    "need_to_know_orgs": [
+      "24MEU",
+      "I_MEF",
+      "USINDOPACOM"
+    ],
+    "summary": "Assessment of PRC littoral activity in the 24 MEU's projected AOR.",
+    "topic": "Threat Assessment"
+  },
+  {
+    "id": "DOC_002",
+    "title": "24 MEU CONOPS \u2014 Phase II amphib insertion",
+    "classification": "SECRET",
+    "classified_by": "24MEU_G3",
+    "rel_to": [
+      "USA",
+      "FVEY"
+    ],
+    "need_to_know_orgs": [
+      "24MEU",
+      "2_2"
+    ],
+    "summary": "Phase II concept of operations for the BLT amphib insertion.",
+    "topic": "CONOPS"
+  },
+  {
+    "id": "DOC_003",
+    "title": "MARFOREUR Coalition ROE \u2014 NATO Article-5 contingency",
+    "classification": "NATO_SECRET",
+    "classified_by": "MARFOREUR_G3",
+    "rel_to": [
+      "NATO"
+    ],
+    "need_to_know_orgs": [
+      "MARFOREUR",
+      "USEUCOM"
+    ],
+    "summary": "Rules-of-engagement annex for NATO Article-5 contingency response.",
+    "topic": "ROE"
+  },
+  {
+    "id": "DOC_004",
+    "title": "1/8 Battalion training calendar Q3FY26",
+    "classification": "UNCLASS",
+    "classified_by": "1_8_S3",
+    "rel_to": [
+      "ALL"
+    ],
+    "need_to_know_orgs": [
+      "1_8"
+    ],
+    "summary": "Quarterly training calendar for 1/8.",
+    "topic": "Training"
+  },
+  {
+    "id": "DOC_005",
+    "title": "A Co 1/8 fire-team marksmanship grades \u2014 Q2",
+    "classification": "CUI",
+    "classified_by": "A_1_8_S3",
+    "rel_to": [
+      "USA"
+    ],
+    "need_to_know_orgs": [
+      "A_1_8",
+      "1_8"
+    ],
+    "summary": "Per-Marine marksmanship qualification scores.",
+    "topic": "Training"
+  },
+  {
+    "id": "DOC_006",
+    "title": "MEU Composite Logistics Plan \u2014 sustainment",
+    "classification": "CUI",
+    "classified_by": "24MEU_G4",
+    "rel_to": [
+      "USA",
+      "FVEY"
+    ],
+    "need_to_know_orgs": [
+      "24MEU"
+    ],
+    "summary": "Sustainment plan for the BLT during the float.",
+    "topic": "Logistics"
+  },
+  {
+    "id": "DOC_007",
+    "title": "Vendor Statement of Work \u2014 IT support",
+    "classification": "UNCLASS",
+    "classified_by": "1_8_S6",
+    "rel_to": [
+      "ALL"
+    ],
+    "need_to_know_orgs": [
+      "1_8",
+      "VENDOR"
+    ],
+    "summary": "Contractor SOW for unit IT support.",
+    "topic": "Contracting"
+  },
+  {
+    "id": "DOC_008",
+    "title": "INDOPACOM Posture Brief Q3",
+    "classification": "SECRET",
+    "classified_by": "USINDOPACOM_J3",
+    "rel_to": [
+      "USA",
+      "FVEY"
+    ],
+    "need_to_know_orgs": [
+      "USINDOPACOM"
+    ],
+    "summary": "Combatant Command quarterly posture brief. Need-to-know is bound tightly to USINDOPACOM; subordinates inherit only via OPCON / TACON command relationships (the demo's pivot edge).",
+    "topic": "Posture"
+  },
+  {
+    "id": "DOC_009",
+    "title": "1st MARDIV Plans Annex C \u2014 Fires",
+    "classification": "SECRET",
+    "classified_by": "1MARDIV_G3",
+    "rel_to": [
+      "USA"
+    ],
+    "need_to_know_orgs": [
+      "1MARDIV",
+      "I_MEF"
+    ],
+    "summary": "Fires annex for 1st MARDIV contingency plan.",
+    "topic": "Fires"
+  },
+  {
+    "id": "DOC_010",
+    "title": "Royal Marines Liaison Briefing Pack (FVEY)",
+    "classification": "SECRET",
+    "classified_by": "24MEU_G3",
+    "rel_to": [
+      "USA",
+      "FVEY"
+    ],
+    "need_to_know_orgs": [
+      "24MEU"
+    ],
+    "summary": "FVEY-releasable LNO orientation pack.",
+    "topic": "Coalition"
+  },
+  {
+    "id": "DOC_011",
+    "title": "Enrollment SOP \u2014 MarineNet courses",
+    "classification": "UNCLASS",
+    "classified_by": "TECOM",
+    "rel_to": [
+      "ALL"
+    ],
+    "need_to_know_orgs": [
+      "ALL"
+    ],
+    "summary": "How to enroll in MarineNet courses.",
+    "topic": "Training"
+  },
+  {
+    "id": "DOC_012",
+    "title": "TS//SCI Targeting Folder \u2014 Pacific",
+    "classification": "TS",
+    "classified_by": "USINDOPACOM_J2",
+    "rel_to": [
+      "USA"
+    ],
+    "need_to_know_orgs": [
+      "USINDOPACOM",
+      "MARFORPAC"
+    ],
+    "summary": "TS-level targeting folder.",
+    "topic": "Targeting"
+  },
+  {
+    "id": "DOC_013",
+    "title": "Coalition Bandwidth Sharing \u2014 NATO LZ",
+    "classification": "NATO_SECRET",
+    "classified_by": "MARFOREUR_G6",
+    "rel_to": [
+      "NATO"
+    ],
+    "need_to_know_orgs": [
+      "MARFOREUR"
+    ],
+    "summary": "NATO bandwidth-sharing arrangement at the LZ.",
+    "topic": "Comms"
+  },
+  {
+    "id": "DOC_014",
+    "title": "1/1 Sustainment Annex \u2014 MCAGCC",
+    "classification": "CUI",
+    "classified_by": "1_1_S4",
+    "rel_to": [
+      "USA"
+    ],
+    "need_to_know_orgs": [
+      "1_1",
+      "1MARDIV"
+    ],
+    "summary": "Sustainment plan for 1/1 at 29 Palms.",
+    "topic": "Logistics"
+  },
+  {
+    "id": "DOC_015",
+    "title": "BN OPORD \u2014 Cobra Gold 26",
+    "classification": "SECRET",
+    "classified_by": "1_8_S3",
+    "rel_to": [
+      "USA",
+      "FVEY"
+    ],
+    "need_to_know_orgs": [
+      "1_8",
+      "8th_Marines"
+    ],
+    "summary": "BN-level OPORD for Cobra Gold 26 exercise.",
+    "topic": "OPORD"
+  },
+  {
+    "id": "DOC_016",
+    "title": "Vendor Inventory \u2014 Hangar 7",
+    "classification": "UNCLASS",
+    "classified_by": "1_8_S4",
+    "rel_to": [
+      "ALL"
+    ],
+    "need_to_know_orgs": [
+      "VENDOR",
+      "1_8"
+    ],
+    "summary": "Inventory of vendor-managed equipment.",
+    "topic": "Logistics"
+  },
+  {
+    "id": "DOC_017",
+    "title": "MEU Composite Squadron ATO",
+    "classification": "SECRET",
+    "classified_by": "24MEU_ACE",
+    "rel_to": [
+      "USA",
+      "FVEY"
+    ],
+    "need_to_know_orgs": [
+      "24MEU"
+    ],
+    "summary": "Air Tasking Order for the MEU's composite squadron.",
+    "topic": "Air"
+  },
+  {
+    "id": "DOC_018",
+    "title": "MARFORPAC TPFDD Slice \u2014 III MEF",
+    "classification": "SECRET",
+    "classified_by": "MARFORPAC_G3",
+    "rel_to": [
+      "USA"
+    ],
+    "need_to_know_orgs": [
+      "MARFORPAC",
+      "III_MEF",
+      "USINDOPACOM"
+    ],
+    "summary": "Time-phased force deployment slice for III MEF.",
+    "topic": "Deployment"
+  },
+  {
+    "id": "DOC_019",
+    "title": "Personnel Recovery Annex \u2014 MEU",
+    "classification": "CUI",
+    "classified_by": "24MEU_G3",
+    "rel_to": [
+      "USA",
+      "FVEY"
+    ],
+    "need_to_know_orgs": [
+      "24MEU"
+    ],
+    "summary": "PR annex with on-call quick-reaction force.",
+    "topic": "PR"
+  },
+  {
+    "id": "DOC_020",
+    "title": "Joint Exercise OPORD \u2014 TALISMAN SABRE",
+    "classification": "SECRET",
+    "classified_by": "USINDOPACOM_J3",
+    "rel_to": [
+      "USA",
+      "FVEY"
+    ],
+    "need_to_know_orgs": [
+      "USINDOPACOM",
+      "MARFORPAC",
+      "31MEU"
+    ],
+    "summary": "Joint exercise OPORD for TALISMAN SABRE.",
+    "topic": "OPORD"
+  }
+]

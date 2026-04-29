@@ -1,0 +1,482 @@
+[
+  {
+    "event_id": "SC-0025",
+    "ts": "2026-04-28",
+    "location": "South China Sea",
+    "severity": "MEDIUM",
+    "narrative": "Coast Guard intercept of MSC freighter, 14 hr release",
+    "active": true
+  },
+  {
+    "event_id": "SC-0010",
+    "ts": "2026-04-27",
+    "location": "Strait of Malacca",
+    "severity": "MEDIUM",
+    "narrative": "Tanker grounding at One Fathom Bank \u2014 single-lane convoy ops",
+    "active": true
+  },
+  {
+    "event_id": "SC-0013",
+    "ts": "2026-04-27",
+    "location": "Port of Beaumont",
+    "severity": "LOW",
+    "narrative": "BNSF crew shortfall - 1 day rail delay",
+    "active": true
+  },
+  {
+    "event_id": "SC-0045",
+    "ts": "2026-04-26",
+    "location": "Suez Canal",
+    "severity": "MEDIUM",
+    "narrative": "Northbound convoy delay (sandstorm) \u2014 backlog of 38 vessels",
+    "active": true
+  },
+  {
+    "event_id": "SC-0057",
+    "ts": "2026-04-25",
+    "location": "Diego Garcia",
+    "severity": "LOW",
+    "narrative": "JP-8 supply tanker delayed - 2 day shortfall",
+    "active": true
+  },
+  {
+    "event_id": "SC-0000",
+    "ts": "2026-04-23",
+    "location": "Port of Kaohsiung",
+    "severity": "MEDIUM",
+    "narrative": "Cyber incident on container yard ICS - manual ops",
+    "active": true
+  },
+  {
+    "event_id": "SC-0021",
+    "ts": "2026-04-20",
+    "location": "Port of Beaumont",
+    "severity": "LOW",
+    "narrative": "BNSF crew shortfall - 1 day rail delay",
+    "active": true
+  },
+  {
+    "event_id": "SC-0048",
+    "ts": "2026-04-20",
+    "location": "Strait of Malacca",
+    "severity": "MEDIUM",
+    "narrative": "Tanker grounding at One Fathom Bank \u2014 single-lane convoy ops",
+    "active": true
+  },
+  {
+    "event_id": "SC-0005",
+    "ts": "2026-04-18",
+    "location": "Bab-el-Mandeb",
+    "severity": "HIGH",
+    "narrative": "Houthi anti-ship missile salvo \u2014 corridor closure 12-72 hr",
+    "active": true
+  },
+  {
+    "event_id": "SC-0030",
+    "ts": "2026-04-18",
+    "location": "Port of Beaumont",
+    "severity": "LOW",
+    "narrative": "BNSF crew shortfall - 1 day rail delay",
+    "active": true
+  },
+  {
+    "event_id": "SC-0053",
+    "ts": "2026-04-18",
+    "location": "Luzon Strait",
+    "severity": "HIGH",
+    "narrative": "PRC live-fire exercise NOTAM - 96hr corridor closure",
+    "active": true
+  },
+  {
+    "event_id": "SC-0007",
+    "ts": "2026-04-17",
+    "location": "Pearl Harbor",
+    "severity": "LOW",
+    "narrative": "Routine dredging in main channel - draft restriction 38 ft",
+    "active": true
+  },
+  {
+    "event_id": "SC-0015",
+    "ts": "2026-04-17",
+    "location": "Bab-el-Mandeb",
+    "severity": "HIGH",
+    "narrative": "Houthi anti-ship missile salvo \u2014 corridor closure 12-72 hr",
+    "active": true
+  },
+  {
+    "event_id": "SC-0004",
+    "ts": "2026-04-16",
+    "location": "Suez Canal",
+    "severity": "MEDIUM",
+    "narrative": "Northbound convoy delay (sandstorm) \u2014 backlog of 38 vessels",
+    "active": true
+  },
+  {
+    "event_id": "SC-0017",
+    "ts": "2026-04-16",
+    "location": "Strait of Malacca",
+    "severity": "MEDIUM",
+    "narrative": "Tanker grounding at One Fathom Bank \u2014 single-lane convoy ops",
+    "active": true
+  },
+  {
+    "event_id": "SC-0018",
+    "ts": "2026-04-15",
+    "location": "Apra Harbor",
+    "severity": "LOW",
+    "narrative": "LCAC pad maintenance - 1 of 2 pads down for 6 days",
+    "active": true
+  },
+  {
+    "event_id": "SC-0029",
+    "ts": "2026-04-15",
+    "location": "Diego Garcia",
+    "severity": "LOW",
+    "narrative": "JP-8 supply tanker delayed - 2 day shortfall",
+    "active": true
+  },
+  {
+    "event_id": "SC-0022",
+    "ts": "2026-04-14",
+    "location": "Bab-el-Mandeb",
+    "severity": "HIGH",
+    "narrative": "Houthi anti-ship missile salvo \u2014 corridor closure 12-72 hr",
+    "active": true
+  },
+  {
+    "event_id": "SC-0058",
+    "ts": "2026-04-14",
+    "location": "Pearl Harbor",
+    "severity": "LOW",
+    "narrative": "Routine dredging in main channel - draft restriction 38 ft",
+    "active": true
+  },
+  {
+    "event_id": "SC-0028",
+    "ts": "2026-04-13",
+    "location": "Diego Garcia",
+    "severity": "LOW",
+    "narrative": "JP-8 supply tanker delayed - 2 day shortfall",
+    "active": false
+  },
+  {
+    "event_id": "SC-0046",
+    "ts": "2026-04-13",
+    "location": "Port of Singapore",
+    "severity": "LOW",
+    "narrative": "Berth congestion \u2014 4 day wait inbound",
+    "active": false
+  },
+  {
+    "event_id": "SC-0039",
+    "ts": "2026-04-11",
+    "location": "Diego Garcia",
+    "severity": "LOW",
+    "narrative": "JP-8 supply tanker delayed - 2 day shortfall",
+    "active": false
+  },
+  {
+    "event_id": "SC-0056",
+    "ts": "2026-04-11",
+    "location": "Diego Garcia",
+    "severity": "LOW",
+    "narrative": "JP-8 supply tanker delayed - 2 day shortfall",
+    "active": false
+  },
+  {
+    "event_id": "SC-0032",
+    "ts": "2026-04-10",
+    "location": "Port of Kaohsiung",
+    "severity": "MEDIUM",
+    "narrative": "Cyber incident on container yard ICS - manual ops",
+    "active": false
+  },
+  {
+    "event_id": "SC-0051",
+    "ts": "2026-04-10",
+    "location": "Luzon Strait",
+    "severity": "HIGH",
+    "narrative": "PRC live-fire exercise NOTAM - 96hr corridor closure",
+    "active": false
+  },
+  {
+    "event_id": "SC-0041",
+    "ts": "2026-04-09",
+    "location": "Bab-el-Mandeb",
+    "severity": "HIGH",
+    "narrative": "Houthi anti-ship missile salvo \u2014 corridor closure 12-72 hr",
+    "active": false
+  },
+  {
+    "event_id": "SC-0020",
+    "ts": "2026-04-08",
+    "location": "Strait of Malacca",
+    "severity": "MEDIUM",
+    "narrative": "Tanker grounding at One Fathom Bank \u2014 single-lane convoy ops",
+    "active": false
+  },
+  {
+    "event_id": "SC-0033",
+    "ts": "2026-04-07",
+    "location": "Suez Canal",
+    "severity": "MEDIUM",
+    "narrative": "Northbound convoy delay (sandstorm) \u2014 backlog of 38 vessels",
+    "active": false
+  },
+  {
+    "event_id": "SC-0036",
+    "ts": "2026-04-07",
+    "location": "Pearl Harbor",
+    "severity": "LOW",
+    "narrative": "Routine dredging in main channel - draft restriction 38 ft",
+    "active": false
+  },
+  {
+    "event_id": "SC-0038",
+    "ts": "2026-04-05",
+    "location": "Port of Beaumont",
+    "severity": "LOW",
+    "narrative": "BNSF crew shortfall - 1 day rail delay",
+    "active": false
+  },
+  {
+    "event_id": "SC-0054",
+    "ts": "2026-04-04",
+    "location": "Luzon Strait",
+    "severity": "HIGH",
+    "narrative": "PRC live-fire exercise NOTAM - 96hr corridor closure",
+    "active": false
+  },
+  {
+    "event_id": "SC-0040",
+    "ts": "2026-04-03",
+    "location": "Diego Garcia",
+    "severity": "LOW",
+    "narrative": "JP-8 supply tanker delayed - 2 day shortfall",
+    "active": false
+  },
+  {
+    "event_id": "SC-0059",
+    "ts": "2026-04-03",
+    "location": "South China Sea",
+    "severity": "MEDIUM",
+    "narrative": "Coast Guard intercept of MSC freighter, 14 hr release",
+    "active": false
+  },
+  {
+    "event_id": "SC-0011",
+    "ts": "2026-04-01",
+    "location": "Pearl Harbor",
+    "severity": "LOW",
+    "narrative": "Routine dredging in main channel - draft restriction 38 ft",
+    "active": false
+  },
+  {
+    "event_id": "SC-0047",
+    "ts": "2026-03-27",
+    "location": "Suez Canal",
+    "severity": "MEDIUM",
+    "narrative": "Northbound convoy delay (sandstorm) \u2014 backlog of 38 vessels",
+    "active": false
+  },
+  {
+    "event_id": "SC-0019",
+    "ts": "2026-03-26",
+    "location": "Bab-el-Mandeb",
+    "severity": "HIGH",
+    "narrative": "Houthi anti-ship missile salvo \u2014 corridor closure 12-72 hr",
+    "active": false
+  },
+  {
+    "event_id": "SC-0027",
+    "ts": "2026-03-26",
+    "location": "Strait of Malacca",
+    "severity": "MEDIUM",
+    "narrative": "Tanker grounding at One Fathom Bank \u2014 single-lane convoy ops",
+    "active": false
+  },
+  {
+    "event_id": "SC-0026",
+    "ts": "2026-03-24",
+    "location": "Luzon Strait",
+    "severity": "HIGH",
+    "narrative": "PRC live-fire exercise NOTAM - 96hr corridor closure",
+    "active": false
+  },
+  {
+    "event_id": "SC-0031",
+    "ts": "2026-03-24",
+    "location": "Luzon Strait",
+    "severity": "HIGH",
+    "narrative": "PRC live-fire exercise NOTAM - 96hr corridor closure",
+    "active": false
+  },
+  {
+    "event_id": "SC-0003",
+    "ts": "2026-03-22",
+    "location": "Port of Beaumont",
+    "severity": "LOW",
+    "narrative": "BNSF crew shortfall - 1 day rail delay",
+    "active": false
+  },
+  {
+    "event_id": "SC-0042",
+    "ts": "2026-03-22",
+    "location": "Bashi Channel",
+    "severity": "MEDIUM",
+    "narrative": "Typhoon track within 200nm - reroute advisory",
+    "active": false
+  },
+  {
+    "event_id": "SC-0044",
+    "ts": "2026-03-22",
+    "location": "Port of Singapore",
+    "severity": "LOW",
+    "narrative": "Berth congestion \u2014 4 day wait inbound",
+    "active": false
+  },
+  {
+    "event_id": "SC-0016",
+    "ts": "2026-03-21",
+    "location": "Port of Beaumont",
+    "severity": "LOW",
+    "narrative": "BNSF crew shortfall - 1 day rail delay",
+    "active": false
+  },
+  {
+    "event_id": "SC-0006",
+    "ts": "2026-03-18",
+    "location": "Apra Harbor",
+    "severity": "LOW",
+    "narrative": "LCAC pad maintenance - 1 of 2 pads down for 6 days",
+    "active": false
+  },
+  {
+    "event_id": "SC-0052",
+    "ts": "2026-03-17",
+    "location": "Bashi Channel",
+    "severity": "MEDIUM",
+    "narrative": "Typhoon track within 200nm - reroute advisory",
+    "active": false
+  },
+  {
+    "event_id": "SC-0009",
+    "ts": "2026-03-16",
+    "location": "Diego Garcia",
+    "severity": "LOW",
+    "narrative": "JP-8 supply tanker delayed - 2 day shortfall",
+    "active": false
+  },
+  {
+    "event_id": "SC-0055",
+    "ts": "2026-03-14",
+    "location": "Port of Singapore",
+    "severity": "LOW",
+    "narrative": "Berth congestion \u2014 4 day wait inbound",
+    "active": false
+  },
+  {
+    "event_id": "SC-0008",
+    "ts": "2026-03-12",
+    "location": "Diego Garcia",
+    "severity": "LOW",
+    "narrative": "JP-8 supply tanker delayed - 2 day shortfall",
+    "active": false
+  },
+  {
+    "event_id": "SC-0049",
+    "ts": "2026-03-12",
+    "location": "Port of Beaumont",
+    "severity": "LOW",
+    "narrative": "BNSF crew shortfall - 1 day rail delay",
+    "active": false
+  },
+  {
+    "event_id": "SC-0002",
+    "ts": "2026-03-10",
+    "location": "Port of Singapore",
+    "severity": "LOW",
+    "narrative": "Berth congestion \u2014 4 day wait inbound",
+    "active": false
+  },
+  {
+    "event_id": "SC-0012",
+    "ts": "2026-03-09",
+    "location": "Port of Kaohsiung",
+    "severity": "MEDIUM",
+    "narrative": "Cyber incident on container yard ICS - manual ops",
+    "active": false
+  },
+  {
+    "event_id": "SC-0050",
+    "ts": "2026-03-09",
+    "location": "Port of Beaumont",
+    "severity": "LOW",
+    "narrative": "BNSF crew shortfall - 1 day rail delay",
+    "active": false
+  },
+  {
+    "event_id": "SC-0023",
+    "ts": "2026-03-07",
+    "location": "Port of Beaumont",
+    "severity": "LOW",
+    "narrative": "BNSF crew shortfall - 1 day rail delay",
+    "active": false
+  },
+  {
+    "event_id": "SC-0014",
+    "ts": "2026-03-06",
+    "location": "Bab-el-Mandeb",
+    "severity": "HIGH",
+    "narrative": "Houthi anti-ship missile salvo \u2014 corridor closure 12-72 hr",
+    "active": false
+  },
+  {
+    "event_id": "SC-0024",
+    "ts": "2026-03-05",
+    "location": "Pearl Harbor",
+    "severity": "LOW",
+    "narrative": "Routine dredging in main channel - draft restriction 38 ft",
+    "active": false
+  },
+  {
+    "event_id": "SC-0001",
+    "ts": "2026-03-03",
+    "location": "Luzon Strait",
+    "severity": "HIGH",
+    "narrative": "PRC live-fire exercise NOTAM - 96hr corridor closure",
+    "active": false
+  },
+  {
+    "event_id": "SC-0034",
+    "ts": "2026-03-02",
+    "location": "Diego Garcia",
+    "severity": "LOW",
+    "narrative": "JP-8 supply tanker delayed - 2 day shortfall",
+    "active": false
+  },
+  {
+    "event_id": "SC-0035",
+    "ts": "2026-03-02",
+    "location": "Bashi Channel",
+    "severity": "MEDIUM",
+    "narrative": "Typhoon track within 200nm - reroute advisory",
+    "active": false
+  },
+  {
+    "event_id": "SC-0037",
+    "ts": "2026-03-02",
+    "location": "Diego Garcia",
+    "severity": "LOW",
+    "narrative": "JP-8 supply tanker delayed - 2 day shortfall",
+    "active": false
+  },
+  {
+    "event_id": "SC-0043",
+    "ts": "2026-03-02",
+    "location": "Suez Canal",
+    "severity": "MEDIUM",
+    "narrative": "Northbound convoy delay (sandstorm) \u2014 backlog of 38 vessels",
+    "active": false
+  }
+]

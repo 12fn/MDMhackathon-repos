@@ -1,0 +1,31 @@
+manufacturer,controller_model,band_ghz,hopping_pattern,protocol
+DJI,RC-N1,2.4 / 5.8,FHSS 1.4ms,OcuSync 2.0
+DJI,RC Pro,2.4 / 5.8,FHSS 1.4ms,OcuSync 3+
+DJI,DJI RC 2,2.4 / 5.8,FHSS 1.6ms,OcuSync 3+
+DJI,Lightbridge 2,2.4,FHSS 2.0ms,Lightbridge
+DJI,Cendence,2.4 / 5.8,FHSS 1.5ms,Lightbridge 2
+Parrot,SkyController 4,2.4 / 5.8,WiFi 802.11ac,WiFi
+Parrot,Anafi USA RC,2.4 / 5.8,WiFi 802.11n,WiFi
+Autel,Smart Controller,2.4 / 5.8,FHSS 1.8ms,Autel-Sky
+Autel,EVO Lite RC,2.4 / 5.8,FHSS 2.0ms,Autel-Sky
+Skydio,Skydio 2 Beacon,2.4,WiFi 802.11n,WiFi
+Skydio,X10D Controller,2.4 / 5.8,FHSS 1.6ms,proprietary
+Yuneec,ST16S,2.4 / 5.8,WiFi 802.11n,WiFi
+FrSky,Taranis X9D,2.4,FHSS 9ms,ACCESS
+FrSky,Horus X10,2.4,FHSS 9ms,ACCST D16
+Spektrum,DX9 Black,2.4,DSSS/FHSS 11ms,DSMX
+Spektrum,iX20,2.4,DSSS/FHSS 11ms,DSMX
+Futaba,T16IZ,2.4,FHSS 8ms,FASSTest
+Futaba,T18SZ,2.4,FHSS 8ms,FASSTest
+Walkera,Devo F12E,2.4,FHSS 6ms,DEVO
+Spreadtrum,TBS Crossfire,0.9,LoRa 12ms chirp,Crossfire
+ImmersionRC,Tramp HV,5.8,analog video,analog VTx
+Holybro,Telemetry SiK,0.9,FHSS 10ms,MAVLink/SiK
+RFD900x,RFD900x telemetry,0.9,FHSS 25ms,MAVLink
+Microhard,pMDDL2450,2.4,TDMA,Microhard
+Doodle Labs,Mesh Rider,2.4 / 5.8,Mesh OFDM,MIMO mesh
+Silvus,StreamCaster,2.4 / 5.8,MIMO-OFDM,MN-MIMO
+Sirius,GCS-Lite,0.9 / 2.4,FHSS 7ms,proprietary
+Iris,ATAK companion,2.4,WiFi 802.11n,WiFi
+Generic,Locally-admin C2,2.4 / 5.8,FHSS unspecified,unknown
+Generic,ESP32 video drop,2.4,WiFi/raw 802.11,WiFi

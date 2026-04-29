@@ -1,0 +1,145 @@
+[
+  {
+    "id": "baseline",
+    "label": "Baseline (no storm)",
+    "kind": "baseline",
+    "category": 0,
+    "wind_kt": 15,
+    "rain_in_24h": 0.2,
+    "surge_ft": 0.0,
+    "shelter_days": 0,
+    "headcount_factor": 0.6,
+    "fire_secondary": false,
+    "applies_to": [
+      "lejeune",
+      "cherry-point",
+      "albany",
+      "yuma",
+      "pendleton"
+    ],
+    "narrative": "Steady-state posture, normal operations. Demand baseline."
+  },
+  {
+    "id": "ts-elsa",
+    "label": "Tropical Storm (TS-ELSA-shape)",
+    "kind": "tropical_storm",
+    "category": 0,
+    "wind_kt": 55,
+    "rain_in_24h": 4.5,
+    "surge_ft": 2.5,
+    "shelter_days": 1,
+    "headcount_factor": 0.95,
+    "fire_secondary": false,
+    "applies_to": [
+      "lejeune",
+      "cherry-point",
+      "albany"
+    ],
+    "narrative": "Tropical storm \u2014 sustained 55 kt winds, 4.5 inches rain in 24h, modest surge."
+  },
+  {
+    "id": "cat1",
+    "label": "Cat-1 Hurricane (HERMINE-shape)",
+    "kind": "hurricane",
+    "category": 1,
+    "wind_kt": 75,
+    "rain_in_24h": 6.0,
+    "surge_ft": 4.0,
+    "shelter_days": 2,
+    "headcount_factor": 1.0,
+    "fire_secondary": false,
+    "applies_to": [
+      "lejeune",
+      "cherry-point",
+      "albany"
+    ],
+    "narrative": "Cat-1 hurricane \u2014 75 kt sustained, storm surge 4 ft, 2-day shelter posture."
+  },
+  {
+    "id": "cat2",
+    "label": "Cat-2 Hurricane (FRAN-shape)",
+    "kind": "hurricane",
+    "category": 2,
+    "wind_kt": 95,
+    "rain_in_24h": 8.5,
+    "surge_ft": 7.0,
+    "shelter_days": 3,
+    "headcount_factor": 1.0,
+    "fire_secondary": false,
+    "applies_to": [
+      "lejeune",
+      "cherry-point",
+      "albany"
+    ],
+    "narrative": "Cat-2 \u2014 significant tree damage, structural risk to housing, prolonged power loss likely."
+  },
+  {
+    "id": "cat3",
+    "label": "Cat-3 Hurricane (FLORENCE-shape)",
+    "kind": "hurricane",
+    "category": 3,
+    "wind_kt": 115,
+    "rain_in_24h": 18.0,
+    "surge_ft": 10.0,
+    "shelter_days": 5,
+    "headcount_factor": 1.0,
+    "fire_secondary": false,
+    "applies_to": [
+      "lejeune",
+      "cherry-point",
+      "albany"
+    ],
+    "narrative": "Cat-3 \u2014 Florence-class, $3.6B+ damage precedent at Lejeune (2018). Mass shelter, chowhall surge."
+  },
+  {
+    "id": "cat4",
+    "label": "Cat-4 Hurricane (HUGO-shape)",
+    "kind": "hurricane",
+    "category": 4,
+    "wind_kt": 140,
+    "rain_in_24h": 22.0,
+    "surge_ft": 16.0,
+    "shelter_days": 7,
+    "headcount_factor": 1.0,
+    "fire_secondary": false,
+    "applies_to": [
+      "lejeune",
+      "cherry-point",
+      "albany"
+    ],
+    "narrative": "Cat-4 \u2014 catastrophic, week-long shelter, full DSCA activation, runways unusable."
+  },
+  {
+    "id": "atmos-river",
+    "label": "Atmospheric River (HILARY-shape)",
+    "kind": "atmospheric_river",
+    "category": 0,
+    "wind_kt": 45,
+    "rain_in_24h": 14.0,
+    "surge_ft": 1.5,
+    "shelter_days": 3,
+    "headcount_factor": 1.0,
+    "fire_secondary": true,
+    "applies_to": [
+      "pendleton",
+      "yuma"
+    ],
+    "narrative": "Atmospheric river \u2014 Hilary 2023 closed I-8, San Onofre Creek flooded Las Pulgas housing."
+  },
+  {
+    "id": "santa-ana-fire",
+    "label": "Santa Ana fire-following (THOMAS-shape)",
+    "kind": "santa_ana_fire",
+    "category": 0,
+    "wind_kt": 65,
+    "rain_in_24h": 0.0,
+    "surge_ft": 0.0,
+    "shelter_days": 4,
+    "headcount_factor": 1.0,
+    "fire_secondary": true,
+    "applies_to": [
+      "pendleton"
+    ],
+    "narrative": "Santa Ana \u2014 65 kt offshore winds + dry vegetation, fire ignition risk extreme. Downstream of atmos-river vegetation regrowth."
+  }
+]

@@ -1,0 +1,232 @@
+{
+  "workflows": [
+    {
+      "workflow_id": "bashi_intel_brief",
+      "label": "Daily intel brief on the Bashi Channel",
+      "narrator": "Build me a daily intel brief on the Bashi Channel, INDOPACOM AOR.",
+      "tasks": [
+        {
+          "task_id": "T1",
+          "task_type": "vision_isr",
+          "label": "Analyze 4 ISR photos of Bashi Channel surface contacts",
+          "input_summary": "4 EO/IR frames, 1920x1080, captured by RQ-21A Blackjack on 2026-04-26 0312Z",
+          "input_tokens": 1800,
+          "output_tokens": 600,
+          "context_required": 16000,
+          "latency_budget_s": 5.0
+        },
+        {
+          "task_id": "T2",
+          "task_type": "fast_classification",
+          "label": "Categorize 200 ASAM (Anti-Shipping Activity Messages) events",
+          "input_summary": "200 short maritime threat messages from NGA ASAM feed; classify by hostile/criminal/nav-hazard",
+          "input_tokens": 12000,
+          "output_tokens": 3000,
+          "context_required": 16000,
+          "latency_budget_s": 3.0
+        },
+        {
+          "task_id": "T3",
+          "task_type": "long_context_summarization",
+          "label": "Synthesize 50K-token corpus of PACOM open-source reporting",
+          "input_summary": "50,000 tokens of CSIS, USNI, Janes, and NGA OSINT excerpts from past 30 days",
+          "input_tokens": 50000,
+          "output_tokens": 1500,
+          "context_required": 64000,
+          "latency_budget_s": 30.0
+        },
+        {
+          "task_id": "T4",
+          "task_type": "tool_calling",
+          "label": "Fire 3 tools to validate facts (AIS lookup, NGA gazetteer, weather)",
+          "input_summary": "Three tool calls with structured args: ais.lookup(mmsi), nga.gazetteer(name), wx.tropical(lat,lon)",
+          "input_tokens": 2400,
+          "output_tokens": 1200,
+          "context_required": 16000,
+          "latency_budget_s": 8.0
+        },
+        {
+          "task_id": "T5",
+          "task_type": "long_form_prose",
+          "label": "Write final SIPR-style INTSUM in Marine voice",
+          "input_summary": "Compose 800-word INTSUM: BLUF, situation, threats, recommended ISR/MISO actions, BDA",
+          "input_tokens": 6500,
+          "output_tokens": 2000,
+          "context_required": 16000,
+          "latency_budget_s": 25.0
+        }
+      ]
+    },
+    {
+      "workflow_id": "haadr_typhoon_cell",
+      "label": "Stand-up HA/DR cell for typhoon-corridor response",
+      "narrator": "Spin up an HA/DR plan for an inbound super typhoon.",
+      "tasks": [
+        {
+          "task_id": "T1",
+          "task_type": "vision_isr",
+          "label": "Analyze pre-landfall satellite imagery of impacted islands",
+          "input_summary": "6 SkySat 1m EO frames over Luzon and Babuyan",
+          "input_tokens": 2200,
+          "output_tokens": 700,
+          "context_required": 16000,
+          "latency_budget_s": 6.0
+        },
+        {
+          "task_id": "T2",
+          "task_type": "rag_synthesis",
+          "label": "RAG over FEMA disaster declarations + USAID OFDA reports",
+          "input_summary": "Retrieve 40 chunks from prior typhoon-response playbooks",
+          "input_tokens": 38000,
+          "output_tokens": 1500,
+          "context_required": 64000,
+          "latency_budget_s": 20.0
+        },
+        {
+          "task_id": "T3",
+          "task_type": "fast_classification",
+          "label": "Tag 500 social-media posts by triage urgency",
+          "input_summary": "500 short Filipino-language posts; classify SAR-urgent / shelter / medical / non-urgent",
+          "input_tokens": 18000,
+          "output_tokens": 4000,
+          "context_required": 32000,
+          "latency_budget_s": 4.0
+        },
+        {
+          "task_id": "T4",
+          "task_type": "agentic_planning",
+          "label": "Plan 72-hour distribution of palletized water + MREs",
+          "input_summary": "Multi-step agent: pull stock levels, route via airfields, dispatch CH-53K sorties",
+          "input_tokens": 4800,
+          "output_tokens": 2400,
+          "context_required": 16000,
+          "latency_budget_s": 15.0
+        },
+        {
+          "task_id": "T5",
+          "task_type": "long_form_prose",
+          "label": "Draft commander's intent paragraph + execution checklist",
+          "input_summary": "800 words, FRAGORD-flavored",
+          "input_tokens": 5200,
+          "output_tokens": 1800,
+          "context_required": 16000,
+          "latency_budget_s": 25.0
+        }
+      ]
+    },
+    {
+      "workflow_id": "logistics_throughput",
+      "label": "Class IX parts-demand forecast for forward-deployed MAGTF",
+      "narrator": "Forecast 30-day Class IX demand and stage forward.",
+      "tasks": [
+        {
+          "task_id": "T1",
+          "task_type": "structured_extraction",
+          "label": "Pull line-item NSNs from 18 PDFs of GCSS-MC reports",
+          "input_summary": "18 PDFs, average 14 pages, mix of OCR'd scans",
+          "input_tokens": 22000,
+          "output_tokens": 3000,
+          "context_required": 32000,
+          "latency_budget_s": 10.0
+        },
+        {
+          "task_id": "T2",
+          "task_type": "math_reasoning",
+          "label": "Project 30-day demand per NSN with seasonality adjust",
+          "input_summary": "Time-series math over 12 months of consumption history",
+          "input_tokens": 6000,
+          "output_tokens": 1800,
+          "context_required": 16000,
+          "latency_budget_s": 8.0
+        },
+        {
+          "task_id": "T3",
+          "task_type": "tool_calling",
+          "label": "Call DLA stock + lift availability + COSIS shelf-life APIs",
+          "input_summary": "3 sequential tool calls + 1 conditional follow-up",
+          "input_tokens": 2800,
+          "output_tokens": 1200,
+          "context_required": 16000,
+          "latency_budget_s": 8.0
+        },
+        {
+          "task_id": "T4",
+          "task_type": "redaction_tagging",
+          "label": "CUI-tag the consolidated forecast for SIPR upload",
+          "input_summary": "Tag 80 forecast lines with CUI marking + DODI 5200.48 banner",
+          "input_tokens": 4200,
+          "output_tokens": 1200,
+          "context_required": 16000,
+          "latency_budget_s": 5.0
+        },
+        {
+          "task_id": "T5",
+          "task_type": "long_form_prose",
+          "label": "Logistics commander's executive summary",
+          "input_summary": "600 words, table + BLUF",
+          "input_tokens": 4000,
+          "output_tokens": 1400,
+          "context_required": 16000,
+          "latency_budget_s": 20.0
+        }
+      ]
+    },
+    {
+      "workflow_id": "force_protection",
+      "label": "MEU port-call force-protection assessment (Subic)",
+      "narrator": "Build a port-call FP assessment in 10 minutes.",
+      "tasks": [
+        {
+          "task_id": "T1",
+          "task_type": "vision_isr",
+          "label": "Read 8 commercial overhead frames of the harbor + approaches",
+          "input_summary": "8 PlanetScope 3m frames, 2026-04-25",
+          "input_tokens": 2400,
+          "output_tokens": 700,
+          "context_required": 16000,
+          "latency_budget_s": 6.0
+        },
+        {
+          "task_id": "T2",
+          "task_type": "translation",
+          "label": "Translate 60 Filipino + Mandarin local-news snippets",
+          "input_summary": "60 snippets, 80-200 words each",
+          "input_tokens": 14000,
+          "output_tokens": 9000,
+          "context_required": 32000,
+          "latency_budget_s": 12.0
+        },
+        {
+          "task_id": "T3",
+          "task_type": "fast_classification",
+          "label": "Triage 300 known-vehicle and PoL signatures from FP feed",
+          "input_summary": "300 short event records",
+          "input_tokens": 9000,
+          "output_tokens": 2400,
+          "context_required": 16000,
+          "latency_budget_s": 3.0
+        },
+        {
+          "task_id": "T4",
+          "task_type": "agentic_planning",
+          "label": "Recommend pier assignment + rover patrol pattern",
+          "input_summary": "Multi-step plan with constraints",
+          "input_tokens": 3200,
+          "output_tokens": 1500,
+          "context_required": 16000,
+          "latency_budget_s": 12.0
+        },
+        {
+          "task_id": "T5",
+          "task_type": "long_form_prose",
+          "label": "FP officer's executive brief",
+          "input_summary": "700 words SIPR-style",
+          "input_tokens": 4800,
+          "output_tokens": 1700,
+          "context_required": 16000,
+          "latency_budget_s": 20.0
+        }
+      ]
+    }
+  ]
+}

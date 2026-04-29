@@ -1,0 +1,35 @@
+1
+00:00:00,646 --> 00:00:05,646
+TRAVELOG. PCS = travel + cargo + paperwork across 3 different systems today. One sentence in. One plan out.
+
+2
+00:00:05,649 --> 00:00:15,649
+LOGCOM published use cases: Travel Program Validation, TMR Automation, LogTRACE. TRAVELOG covers all three.
+
+3
+00:00:15,696 --> 00:00:25,696
+Four datasets fused into one agent: synthetic DTS, AFCENT logistics, BTS NTAD multimodal corridor, LaDe last-mile. No data movement.
+
+4
+00:00:25,698 --> 00:00:35,698
+A Marine PCS-ing from Lejeune to Pendleton, escorting an M1078 LMTV. Click View Options.
+
+5
+00:00:33,748 --> 00:00:43,748
+The mode optimizer compares 4 packages: fly + ship cargo, drive + ship, drive escorting, fly + air-freight. Time, cost, fuel, JTR per-diem, cargo lead time.
+
+6
+00:00:40,758 --> 00:00:50,758
+Submit Both — real OpenAI tool-calling fires submit_tmr and prefill_dts_voucher in parallel.
+
+7
+00:00:47,783 --> 00:00:57,783
+DTS voucher pre-fill on the left. JTR-compliant per-diem, GTCC, mode-of-travel. Cargo TMR on the right. DTR 4500.9-R compliant. Cross-validated.
+
+8
+00:00:54,786 --> 00:01:09,786
+Same code path inside the wire. Set KAMIWAZA_BASE_URL and CUI never leaves the perimeter. Air-gapped, IL5/IL6 ready.
+
+9
+00:01:05,815 --> 00:01:15,815
+Cached one-page combined action plan renders instantly. Three buttons. Built on the Kamiwaza Stack.

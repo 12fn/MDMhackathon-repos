@@ -1,0 +1,8 @@
+streamlit>=1.30
+streamlit-folium>=0.18
+folium>=0.15
+pandas>=2.0
+numpy>=1.24
+plotly>=5.20
+openai>=1.40
+python-dotenv>=1.0

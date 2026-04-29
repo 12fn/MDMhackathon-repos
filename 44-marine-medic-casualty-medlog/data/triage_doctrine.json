@@ -1,0 +1,202 @@
+{
+  "categories": [
+    {
+      "code": "ROUTINE",
+      "ttl_h": 24,
+      "color": "#9AD3FF",
+      "description": "Stable; can wait > 4h for surgical care."
+    },
+    {
+      "code": "PRIORITY",
+      "ttl_h": 4,
+      "color": "#E0B341",
+      "description": "Stable but requires surgical care within 4h."
+    },
+    {
+      "code": "URGENT",
+      "ttl_h": 2,
+      "color": "#E36F2C",
+      "description": "Life-threatening; needs intervention <= 2h."
+    },
+    {
+      "code": "URGENT_SURGICAL",
+      "ttl_h": 1,
+      "color": "#D8362F",
+      "description": "Needs damage-control surgery <= 1h."
+    },
+    {
+      "code": "EXPECTANT",
+      "ttl_h": 0,
+      "color": "#888888",
+      "description": "Survival unlikely with available resources; comfort care."
+    }
+  ],
+  "role_thresholds": {
+    "Role 1 BAS": {
+      "capability": "TCCC stabilization, TXA, tourniquet, blood TQ, casualty evac call",
+      "max_dwell_h": 1
+    },
+    "Role 2 FRSS": {
+      "capability": "Damage control surgery, walking blood bank, 8h holding",
+      "max_dwell_h": 8
+    },
+    "Role 2E": {
+      "capability": "Enhanced surgical, 24-72h holding, ICU lite",
+      "max_dwell_h": 72
+    },
+    "Role 3 NMRTC": {
+      "capability": "Definitive surgical / specialty care, ICU, full lab",
+      "max_dwell_h": 168
+    }
+  },
+  "class_viii_planning_factors_per_wia": {
+    "penetrating_extremity": {
+      "PRBC": 2,
+      "FFP": 1,
+      "PLT": 0.0,
+      "LTOWB": 0,
+      "TXA_g": 1,
+      "tourniquets": 1,
+      "fluids_L": 1.5,
+      "antibiotic_doses": 1,
+      "splint_set": 1
+    },
+    "penetrating_thoracic": {
+      "PRBC": 6,
+      "FFP": 4,
+      "PLT": 1.0,
+      "LTOWB": 2,
+      "TXA_g": 2,
+      "tourniquets": 0,
+      "fluids_L": 2.5,
+      "antibiotic_doses": 2,
+      "surgical_set": 1
+    },
+    "blast_concussive": {
+      "PRBC": 1,
+      "FFP": 0,
+      "PLT": 0.0,
+      "LTOWB": 0,
+      "TXA_g": 1,
+      "tourniquets": 0,
+      "fluids_L": 1.0,
+      "antibiotic_doses": 0
+    },
+    "burn_major": {
+      "PRBC": 2,
+      "FFP": 2,
+      "PLT": 0.0,
+      "LTOWB": 0,
+      "TXA_g": 0,
+      "tourniquets": 0,
+      "fluids_L": 8.0,
+      "antibiotic_doses": 2,
+      "burn_sheet": 2
+    },
+    "burn_minor": {
+      "PRBC": 0,
+      "FFP": 0,
+      "PLT": 0.0,
+      "LTOWB": 0,
+      "TXA_g": 0,
+      "tourniquets": 0,
+      "fluids_L": 2.0,
+      "antibiotic_doses": 1,
+      "burn_sheet": 1
+    },
+    "burn_secondary": {
+      "PRBC": 1,
+      "FFP": 1,
+      "PLT": 0.0,
+      "LTOWB": 0,
+      "TXA_g": 0,
+      "tourniquets": 0,
+      "fluids_L": 3.0,
+      "antibiotic_doses": 1,
+      "burn_sheet": 1
+    },
+    "inhalation_injury": {
+      "PRBC": 0,
+      "FFP": 0,
+      "PLT": 0.0,
+      "LTOWB": 0,
+      "TXA_g": 0,
+      "tourniquets": 0,
+      "fluids_L": 1.5,
+      "antibiotic_doses": 1
+    },
+    "chem_nerve_agent": {
+      "PRBC": 0,
+      "FFP": 0,
+      "PLT": 0.0,
+      "LTOWB": 0,
+      "TXA_g": 0,
+      "atropine_kits": 3,
+      "fluids_L": 1.0,
+      "antibiotic_doses": 0
+    },
+    "chem_pulmonary": {
+      "PRBC": 0,
+      "FFP": 0,
+      "PLT": 0.0,
+      "LTOWB": 0,
+      "TXA_g": 0,
+      "fluids_L": 1.0,
+      "antibiotic_doses": 1
+    },
+    "blunt_polytrauma": {
+      "PRBC": 4,
+      "FFP": 2,
+      "PLT": 0.5,
+      "LTOWB": 1,
+      "TXA_g": 2,
+      "tourniquets": 0,
+      "fluids_L": 2.0,
+      "antibiotic_doses": 1,
+      "surgical_set": 1,
+      "splint_set": 1
+    },
+    "spine_suspected": {
+      "PRBC": 1,
+      "FFP": 0,
+      "PLT": 0.0,
+      "LTOWB": 0,
+      "TXA_g": 1,
+      "tourniquets": 0,
+      "fluids_L": 1.5,
+      "antibiotic_doses": 0,
+      "splint_set": 1
+    },
+    "minor": {
+      "PRBC": 0,
+      "FFP": 0,
+      "PLT": 0.0,
+      "LTOWB": 0,
+      "TXA_g": 0,
+      "tourniquets": 0,
+      "fluids_L": 0.5,
+      "antibiotic_doses": 0
+    }
+  },
+  "triage_assignment_rules": {
+    "penetrating_extremity": "PRIORITY",
+    "penetrating_thoracic": "URGENT_SURGICAL",
+    "blast_concussive": "ROUTINE",
+    "burn_major": "URGENT_SURGICAL",
+    "burn_minor": "PRIORITY",
+    "burn_secondary": "PRIORITY",
+    "inhalation_injury": "URGENT",
+    "chem_nerve_agent": "URGENT",
+    "chem_pulmonary": "PRIORITY",
+    "blunt_polytrauma": "URGENT",
+    "spine_suspected": "PRIORITY",
+    "minor": "ROUTINE"
+  },
+  "role_assignment_rules": {
+    "ROUTINE": "Role 1 BAS",
+    "PRIORITY": "Role 2 FRSS",
+    "URGENT": "Role 2E",
+    "URGENT_SURGICAL": "Role 3 NMRTC",
+    "EXPECTANT": "Role 1 BAS"
+  }
+}

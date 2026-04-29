@@ -1,0 +1,644 @@
+{
+  "m1a1_transmission": {
+    "query": {
+      "id": "m1a1_transmission",
+      "title": "M1A1 transmission risk",
+      "frame": "Marine at MCLB Albany asks for serial-number M1A1s at risk for transmission failure based on the last 90 days of work orders.",
+      "question": "Which serial-number M1A1s are at risk for transmission failure based on the last 90 days of work orders?",
+      "primary_node": "albany",
+      "involves": [
+        "albany",
+        "lejeune",
+        "quantico"
+      ],
+      "stakes": "Pre-deployment readiness call; must answer in seconds, not days."
+    },
+    "trace": {
+      "query_id": "m1a1_transmission",
+      "naive": {
+        "mode": "naive",
+        "label": "Naive central RAG",
+        "steps": [
+          {
+            "node": "albany",
+            "label": "MCLB Albany \u2014 GCSS-MC",
+            "direction": "out",
+            "kind": "DATA",
+            "bytes": 53687091200,
+            "seconds": 8589.93,
+            "note": "Pull 50 GB of work_orders over 50 Mbps link"
+          },
+          {
+            "node": "lejeune",
+            "label": "MCB Lejeune \u2014 ICM",
+            "direction": "out",
+            "kind": "DATA",
+            "bytes": 8589934592,
+            "seconds": 2748.78,
+            "note": "Pull 8 GB of lateral_transfer_parts over 25 Mbps link"
+          },
+          {
+            "node": "quantico",
+            "label": "MCB Quantico \u2014 TM Library",
+            "direction": "out",
+            "kind": "DATA",
+            "bytes": 12884901888,
+            "seconds": 1030.79,
+            "note": "Pull 12 GB of tech_manuals over 100 Mbps link"
+          },
+          {
+            "node": "central",
+            "label": "Central embedder + LLM cluster",
+            "direction": "in",
+            "kind": "ANSWER",
+            "bytes": 81920,
+            "seconds": 0.04,
+            "note": "Composed answer back to operator."
+          }
+        ],
+        "bytes": 75162009600,
+        "seconds": 12369.5,
+        "compliance": "RED \u2014 UNCLASSIFIED bandwidth class. DCSA spillage risk on CUI/ICD-503 nodes.",
+        "spillage_flags": [
+          "DCSA SPILLAGE RISK: MCB Quantico \u2014 TM Library corpus copied out of CUI / FOUO \u2014 ICD 503 enclave enclave."
+        ]
+      },
+      "dde": {
+        "mode": "dde",
+        "label": "Kamiwaza Distributed Data Engine",
+        "steps": [
+          {
+            "node": "albany",
+            "label": "MCLB Albany \u2014 GCSS-MC",
+            "direction": "in",
+            "kind": "COMPUTE",
+            "bytes": 10485760,
+            "seconds": 1.678,
+            "note": "Spawn DDE inference container at albany.gcssmc.usmc.mil:8443 (model weights + query, ~10 MB)."
+          },
+          {
+            "node": "albany",
+            "label": "MCLB Albany \u2014 GCSS-MC",
+            "direction": "out",
+            "kind": "ANSWER",
+            "bytes": 35840,
+            "seconds": 0.006,
+            "note": "Per-node answer (35 KB) back to gateway. Data stayed inside UNCLASSIFIED."
+          },
+          {
+            "node": "lejeune",
+            "label": "MCB Lejeune \u2014 ICM",
+            "direction": "in",
+            "kind": "COMPUTE",
+            "bytes": 10485760,
+            "seconds": 3.355,
+            "note": "Spawn DDE inference container at lejeune.icm.usmc.mil:8443 (model weights + query, ~10 MB)."
+          },
+          {
+            "node": "lejeune",
+            "label": "MCB Lejeune \u2014 ICM",
+            "direction": "out",
+            "kind": "ANSWER",
+            "bytes": 35840,
+            "seconds": 0.011,
+            "note": "Per-node answer (35 KB) back to gateway. Data stayed inside UNCLASSIFIED // FOUO."
+          },
+          {
+            "node": "quantico",
+            "label": "MCB Quantico \u2014 TM Library",
+            "direction": "in",
+            "kind": "COMPUTE",
+            "bytes": 10485760,
+            "seconds": 0.839,
+            "note": "Spawn DDE inference container at quantico.tm.usmc.mil:8443 (model weights + query, ~10 MB)."
+          },
+          {
+            "node": "quantico",
+            "label": "MCB Quantico \u2014 TM Library",
+            "direction": "out",
+            "kind": "ANSWER",
+            "bytes": 35840,
+            "seconds": 0.003,
+            "note": "Per-node answer (35 KB) back to gateway. Data stayed inside CUI / FOUO \u2014 ICD 503 enclave."
+          },
+          {
+            "node": "gateway",
+            "label": "Kamiwaza Model Gateway",
+            "direction": "out",
+            "kind": "COMPOSED",
+            "bytes": 81920,
+            "seconds": 0.04,
+            "note": "Federated answer composed and returned to operator."
+          }
+        ],
+        "bytes": 31646720,
+        "seconds": 4.21,
+        "compliance": "GREEN \u2014 Compute-at-data. Zero data egress. ICD 503 / DCSA boundary preserved.",
+        "spillage_flags": []
+      },
+      "savings": {
+        "bytes_ratio": 2375.0,
+        "seconds_ratio": 2938.1,
+        "bytes_saved": 75130362880,
+        "seconds_saved": 12365.3
+      }
+    },
+    "answer": "### BLUF\n**Five serial-numbered M1A1s are at elevated risk for transmission failure: USMC-M1A1-40079, -40032, -40067, -40037, and -40017, all with open \u201ctransmission slipping under load\u201d work orders within the last 90 days; TM 9-2350-264-10 flags TS-2/TS-4 as impending clutch pack failure requiring immediate Q-1 service.**\n\n### Findings (per-node)\n- **MCLB Albany \u2014 GCSS-MC:** Open transmission-related work orders in the last 90 days for **USMC-M1A1-40079** (opened **45d** ago, 3d Bn 2d Marines), **USMC-M1A1-40032** (**83d**, CLB-2), **USMC-M1A1-40067** (**65d**, 1st Bn 6th Marines), **USMC-M1A1-40037** (**25d**, CLB-2), and **USMC-M1A1-40017** (**31d**, CLB-2); all are **OPEN** with the fault description **\u201cTransmission slipping under load.\u201d**\n- **MCB Lejeune \u2014 ICM:** No direct M1A1 transmission parts record was retrieved; however, **1st Bn 6th Marines** appears in the lateral-transfer/parts data, which is relevant for support coordination if **USMC-M1A1-40067** requires expedited parts or cross-leveling.\n- **MCB Quantico \u2014 TM Library:** **TM 9-2350-264-10 (M1A1 Transmission Service Limits)** states **TS-2 / TS-4** diagnostic codes indicate **impending clutch pack failure** and require **immediate Q-1 service**.\n\n### Federated recommendation\n1. **For the Marine units holding the affected tanks** \u2014 prioritize **Q-1 inspection and transmission diagnostics** on **USMC-M1A1-40079, -40032, -40067, -40037, and -40017** before the pre-deployment readiness call; treat any **TS-2/TS-4** findings as immediate maintenance action.\n2. **For CLB-2 and 1st Bn 6th Marines** \u2014 stage recovery/maintenance windows for **USMC-M1A1-40032, -40037, -40017, and -40067** and pre-coordinate transmission/clutch-pack support against **TM 9-2350-264-10** service limits.\n3. **For the depot maintenance planner at MCLB Albany** \u2014 flag these five serials as the current transmission-risk set from the last 90 days and track them as a readiness priority until the open work orders are closed or the vehicles pass Q-1 service.\n\n### Compute-at-data posture\nThis answer was composed entirely from per-node retrieval summaries; no source data moved off **MCLB Albany**, **MCB Lejeune**, or **MCB Quantico**. The federated process respected **ICD 503** enclave handling and **DCSA spillage controls**, using compute-at-data so only minimal, non-source summaries crossed the wire."
+  },
+  "prc117_battery": {
+    "query": {
+      "id": "prc117_battery",
+      "title": "PRC-117G BB-2590 shortage projection",
+      "frame": "S-4 needs to know which units will run out of BB-2590 batteries for AN/PRC-117G manpacks within the next 14 days.",
+      "question": "Which units will run out of BB-2590 batteries for AN/PRC-117G manpacks within the next 14 days, and which depot can lateral?",
+      "primary_node": "lejeune",
+      "involves": [
+        "albany",
+        "lejeune"
+      ],
+      "stakes": "DDIL deployable cell \u2014 bandwidth too small to ship 8 GB to a central embedder."
+    },
+    "trace": {
+      "query_id": "prc117_battery",
+      "naive": {
+        "mode": "naive",
+        "label": "Naive central RAG",
+        "steps": [
+          {
+            "node": "albany",
+            "label": "MCLB Albany \u2014 GCSS-MC",
+            "direction": "out",
+            "kind": "DATA",
+            "bytes": 53687091200,
+            "seconds": 8589.93,
+            "note": "Pull 50 GB of work_orders over 50 Mbps link"
+          },
+          {
+            "node": "lejeune",
+            "label": "MCB Lejeune \u2014 ICM",
+            "direction": "out",
+            "kind": "DATA",
+            "bytes": 8589934592,
+            "seconds": 2748.78,
+            "note": "Pull 8 GB of lateral_transfer_parts over 25 Mbps link"
+          },
+          {
+            "node": "central",
+            "label": "Central embedder + LLM cluster",
+            "direction": "in",
+            "kind": "ANSWER",
+            "bytes": 81920,
+            "seconds": 0.04,
+            "note": "Composed answer back to operator."
+          }
+        ],
+        "bytes": 62277107712,
+        "seconds": 11338.8,
+        "compliance": "RED \u2014 UNCLASSIFIED bandwidth class. DCSA spillage risk on CUI/ICD-503 nodes.",
+        "spillage_flags": []
+      },
+      "dde": {
+        "mode": "dde",
+        "label": "Kamiwaza Distributed Data Engine",
+        "steps": [
+          {
+            "node": "albany",
+            "label": "MCLB Albany \u2014 GCSS-MC",
+            "direction": "in",
+            "kind": "COMPUTE",
+            "bytes": 10485760,
+            "seconds": 1.678,
+            "note": "Spawn DDE inference container at albany.gcssmc.usmc.mil:8443 (model weights + query, ~10 MB)."
+          },
+          {
+            "node": "albany",
+            "label": "MCLB Albany \u2014 GCSS-MC",
+            "direction": "out",
+            "kind": "ANSWER",
+            "bytes": 35840,
+            "seconds": 0.006,
+            "note": "Per-node answer (35 KB) back to gateway. Data stayed inside UNCLASSIFIED."
+          },
+          {
+            "node": "lejeune",
+            "label": "MCB Lejeune \u2014 ICM",
+            "direction": "in",
+            "kind": "COMPUTE",
+            "bytes": 10485760,
+            "seconds": 3.355,
+            "note": "Spawn DDE inference container at lejeune.icm.usmc.mil:8443 (model weights + query, ~10 MB)."
+          },
+          {
+            "node": "lejeune",
+            "label": "MCB Lejeune \u2014 ICM",
+            "direction": "out",
+            "kind": "ANSWER",
+            "bytes": 35840,
+            "seconds": 0.011,
+            "note": "Per-node answer (35 KB) back to gateway. Data stayed inside UNCLASSIFIED // FOUO."
+          },
+          {
+            "node": "gateway",
+            "label": "Kamiwaza Model Gateway",
+            "direction": "out",
+            "kind": "COMPOSED",
+            "bytes": 81920,
+            "seconds": 0.04,
+            "note": "Federated answer composed and returned to operator."
+          }
+        ],
+        "bytes": 21125120,
+        "seconds": 4.21,
+        "compliance": "GREEN \u2014 Compute-at-data. Zero data egress. ICD 503 / DCSA boundary preserved.",
+        "spillage_flags": []
+      },
+      "savings": {
+        "bytes_ratio": 2948.0,
+        "seconds_ratio": 2693.3,
+        "bytes_saved": 62255982592,
+        "seconds_saved": 11334.6
+      }
+    },
+    "answer": "### BLUF\n**Within 14 days, MAGTF Logistics Group and 2d Bn 8th Marines are projected to run out of BB-2590 batteries for AN/PRC-117G manpacks; CLB-2 can lateral support both, and 1st Bn 6th Marines is not at risk inside the 14-day window.**\n\n### Findings (per-node)\n- **MCB Lejeune (ICM):** MAGTF Logistics Group holds **3x BB-2590 Battery, AN/PRC-117G (NSN 5945-01-553-1212)** with **7d days-to-zero**; **2d Bn 8th Marines** holds **13x** and also **8x BB-2590 Battery, AN/PRC-117G (NSN 5945-01-553-1212)**, both with **7d days-to-zero**. Lateral feasibility is **HIGH from CLB-2 stock** for each. **1st Bn 6th Marines** holds **5x** of the same NSN with **21d days-to-zero**, so it is outside the 14-day risk window.\n- **MCLB Albany (GCSS-MC):** No BB-2590 / AN/PRC-117G battery shortages or lateral-transfer records were returned in the retrieval set; only unrelated M1A1 work orders were present, including **USMC-M1A1-40079**, **USMC-M1A1-40059**, **USMC-M1A1-40032**, **USMC-M1A1-40067**, and **USMC-M1A1-40037**.\n\n### Federated recommendation\n1. **Prioritize lateral transfer from CLB-2 stock to MAGTF Logistics Group** for **NSN 5945-01-553-1212** to cover the **7-day** projected depletion.\n2. **Issue lateral support to 2d Bn 8th Marines** for the same **BB-2590 / AN/PRC-117G** NSN, since both holdings reported at **7d days-to-zero** are inside the 14-day window.\n3. **Defer action for 1st Bn 6th Marines** unless burn rate changes, because its **21d days-to-zero** does not indicate an imminent outage.\n\n### Compute-at-data posture\nThis answer was composed entirely from per-node retrieval summaries; no source records were moved or centrally aggregated. The workflow stayed within the compute-at-data model and respects **ICD-503 enclave boundaries** and **DCSA spillage controls**, with only minimal, non-source summaries crossing the wire."
+  },
+  "jltv_brake_recall": {
+    "query": {
+      "id": "jltv_brake_recall",
+      "title": "JLTV brake-caliper recall scope",
+      "frame": "Vendor issued a recall on a brake-caliper lot; commander needs to know which JLTVs across LOGCOM are affected.",
+      "question": "Across all installations, which JLTVs (by serial) used the recalled brake-caliper lot in the last 18 months?",
+      "primary_node": "albany",
+      "involves": [
+        "albany",
+        "quantico"
+      ],
+      "stakes": "ICD 503 forbids copying the Quantico maintenance corpus into a central index. DDE answers from inside the enclave."
+    },
+    "trace": {
+      "query_id": "jltv_brake_recall",
+      "naive": {
+        "mode": "naive",
+        "label": "Naive central RAG",
+        "steps": [
+          {
+            "node": "albany",
+            "label": "MCLB Albany \u2014 GCSS-MC",
+            "direction": "out",
+            "kind": "DATA",
+            "bytes": 53687091200,
+            "seconds": 8589.93,
+            "note": "Pull 50 GB of work_orders over 50 Mbps link"
+          },
+          {
+            "node": "quantico",
+            "label": "MCB Quantico \u2014 TM Library",
+            "direction": "out",
+            "kind": "DATA",
+            "bytes": 12884901888,
+            "seconds": 1030.79,
+            "note": "Pull 12 GB of tech_manuals over 100 Mbps link"
+          },
+          {
+            "node": "central",
+            "label": "Central embedder + LLM cluster",
+            "direction": "in",
+            "kind": "ANSWER",
+            "bytes": 81920,
+            "seconds": 0.04,
+            "note": "Composed answer back to operator."
+          }
+        ],
+        "bytes": 66572075008,
+        "seconds": 9620.8,
+        "compliance": "RED \u2014 UNCLASSIFIED bandwidth class. DCSA spillage risk on CUI/ICD-503 nodes.",
+        "spillage_flags": [
+          "DCSA SPILLAGE RISK: MCB Quantico \u2014 TM Library corpus copied out of CUI / FOUO \u2014 ICD 503 enclave enclave."
+        ]
+      },
+      "dde": {
+        "mode": "dde",
+        "label": "Kamiwaza Distributed Data Engine",
+        "steps": [
+          {
+            "node": "albany",
+            "label": "MCLB Albany \u2014 GCSS-MC",
+            "direction": "in",
+            "kind": "COMPUTE",
+            "bytes": 10485760,
+            "seconds": 1.678,
+            "note": "Spawn DDE inference container at albany.gcssmc.usmc.mil:8443 (model weights + query, ~10 MB)."
+          },
+          {
+            "node": "albany",
+            "label": "MCLB Albany \u2014 GCSS-MC",
+            "direction": "out",
+            "kind": "ANSWER",
+            "bytes": 35840,
+            "seconds": 0.006,
+            "note": "Per-node answer (35 KB) back to gateway. Data stayed inside UNCLASSIFIED."
+          },
+          {
+            "node": "quantico",
+            "label": "MCB Quantico \u2014 TM Library",
+            "direction": "in",
+            "kind": "COMPUTE",
+            "bytes": 10485760,
+            "seconds": 0.839,
+            "note": "Spawn DDE inference container at quantico.tm.usmc.mil:8443 (model weights + query, ~10 MB)."
+          },
+          {
+            "node": "quantico",
+            "label": "MCB Quantico \u2014 TM Library",
+            "direction": "out",
+            "kind": "ANSWER",
+            "bytes": 35840,
+            "seconds": 0.003,
+            "note": "Per-node answer (35 KB) back to gateway. Data stayed inside CUI / FOUO \u2014 ICD 503 enclave."
+          },
+          {
+            "node": "gateway",
+            "label": "Kamiwaza Model Gateway",
+            "direction": "out",
+            "kind": "COMPOSED",
+            "bytes": 81920,
+            "seconds": 0.04,
+            "note": "Federated answer composed and returned to operator."
+          }
+        ],
+        "bytes": 21125120,
+        "seconds": 2.52,
+        "compliance": "GREEN \u2014 Compute-at-data. Zero data egress. ICD 503 / DCSA boundary preserved.",
+        "spillage_flags": []
+      },
+      "savings": {
+        "bytes_ratio": 3151.3,
+        "seconds_ratio": 3817.8,
+        "bytes_saved": 66550949888,
+        "seconds_saved": 9618.3
+      }
+    },
+    "answer": "### BLUF\n**No JLTV serials are identified in the provided federated retrievals as having used recalled brake-caliper lot LRC-2024-3318 in the last 18 months; the only affected item surfaced is the recalled JLTV brake-caliper lot itself, with a production window of Jul-2024 through Sep-2024.**\n\n### Findings (per-node)\n- **MCLB Albany \u2014 GCSS-MC:** No JLTV brake-caliper lot matches were returned. The retrieved work orders were for **M1A1** serials only: **USMC-M1A1-40079**, **USMC-M1A1-40059**, and **USMC-M1A1-40032**.\n- **MCB Quantico \u2014 TM Library:** The enclave retrieval identified **MWO/REC 2024-3318** for the **JLTV Brake Caliper Lot Recall**, affecting **lot LRC-2024-3318** and the production window **Jul-2024 through Sep-2024**; no JLTV serial numbers were included in the returned summary.\n- **MCB Lejeune \u2014 ICM lateral-transfer + parts records:** No retrieval summary was provided from this node, so no JLTV serials or NSNs could be confirmed from Lejeune in the federated result.\n\n### Federated recommendation\n1. **MCLB Albany maintenance control** should cross-check any JLTVs in the local fleet against **lot LRC-2024-3318** for the **Jul-2024 to Sep-2024** production window and flag any serials for immediate inspection.\n2. **MCB Lejeune ICM parts/accountability** should query its lateral-transfer and parts records for the same recalled lot and identify any JLTV serials that received calipers from **LRC-2024-3318** within the last **18 months**.\n3. **Quantico TM/maintenance authority** should publish the recall applicability guidance for **MWO/REC 2024-3318** to the affected depot and unit maintenance chiefs so they can isolate any JLTVs tied to the recalled lot.\n\n### Compute-at-data posture\nThis answer was composed strictly from per-node retrieval summaries; no source maintenance corpus was moved into a central index or copied across enclaves. The Quantico material remained inside the **ICD 503** enclave, and the federated workflow respected **DCSA spillage controls** by returning only minimal, non-exfiltrated findings needed to answer the commander\u2019s question."
+  },
+  "m240_barrel_life": {
+    "query": {
+      "id": "m240_barrel_life",
+      "title": "M240 barrel-life cross-check",
+      "frame": "Armorer needs to validate barrel-life thresholds against the TM and reconcile against round-count work orders.",
+      "question": "Which M240B barrels have exceeded 80% of their TM-published round-count threshold, and where are they now?",
+      "primary_node": "quantico",
+      "involves": [
+        "albany",
+        "lejeune",
+        "quantico"
+      ],
+      "stakes": "TM library is CUI; cannot leave Quantico. DDE composes the answer with zero data movement."
+    },
+    "trace": {
+      "query_id": "m240_barrel_life",
+      "naive": {
+        "mode": "naive",
+        "label": "Naive central RAG",
+        "steps": [
+          {
+            "node": "albany",
+            "label": "MCLB Albany \u2014 GCSS-MC",
+            "direction": "out",
+            "kind": "DATA",
+            "bytes": 53687091200,
+            "seconds": 8589.93,
+            "note": "Pull 50 GB of work_orders over 50 Mbps link"
+          },
+          {
+            "node": "lejeune",
+            "label": "MCB Lejeune \u2014 ICM",
+            "direction": "out",
+            "kind": "DATA",
+            "bytes": 8589934592,
+            "seconds": 2748.78,
+            "note": "Pull 8 GB of lateral_transfer_parts over 25 Mbps link"
+          },
+          {
+            "node": "quantico",
+            "label": "MCB Quantico \u2014 TM Library",
+            "direction": "out",
+            "kind": "DATA",
+            "bytes": 12884901888,
+            "seconds": 1030.79,
+            "note": "Pull 12 GB of tech_manuals over 100 Mbps link"
+          },
+          {
+            "node": "central",
+            "label": "Central embedder + LLM cluster",
+            "direction": "in",
+            "kind": "ANSWER",
+            "bytes": 81920,
+            "seconds": 0.04,
+            "note": "Composed answer back to operator."
+          }
+        ],
+        "bytes": 75162009600,
+        "seconds": 12369.5,
+        "compliance": "RED \u2014 UNCLASSIFIED bandwidth class. DCSA spillage risk on CUI/ICD-503 nodes.",
+        "spillage_flags": [
+          "DCSA SPILLAGE RISK: MCB Quantico \u2014 TM Library corpus copied out of CUI / FOUO \u2014 ICD 503 enclave enclave."
+        ]
+      },
+      "dde": {
+        "mode": "dde",
+        "label": "Kamiwaza Distributed Data Engine",
+        "steps": [
+          {
+            "node": "albany",
+            "label": "MCLB Albany \u2014 GCSS-MC",
+            "direction": "in",
+            "kind": "COMPUTE",
+            "bytes": 10485760,
+            "seconds": 1.678,
+            "note": "Spawn DDE inference container at albany.gcssmc.usmc.mil:8443 (model weights + query, ~10 MB)."
+          },
+          {
+            "node": "albany",
+            "label": "MCLB Albany \u2014 GCSS-MC",
+            "direction": "out",
+            "kind": "ANSWER",
+            "bytes": 35840,
+            "seconds": 0.006,
+            "note": "Per-node answer (35 KB) back to gateway. Data stayed inside UNCLASSIFIED."
+          },
+          {
+            "node": "lejeune",
+            "label": "MCB Lejeune \u2014 ICM",
+            "direction": "in",
+            "kind": "COMPUTE",
+            "bytes": 10485760,
+            "seconds": 3.355,
+            "note": "Spawn DDE inference container at lejeune.icm.usmc.mil:8443 (model weights + query, ~10 MB)."
+          },
+          {
+            "node": "lejeune",
+            "label": "MCB Lejeune \u2014 ICM",
+            "direction": "out",
+            "kind": "ANSWER",
+            "bytes": 35840,
+            "seconds": 0.011,
+            "note": "Per-node answer (35 KB) back to gateway. Data stayed inside UNCLASSIFIED // FOUO."
+          },
+          {
+            "node": "quantico",
+            "label": "MCB Quantico \u2014 TM Library",
+            "direction": "in",
+            "kind": "COMPUTE",
+            "bytes": 10485760,
+            "seconds": 0.839,
+            "note": "Spawn DDE inference container at quantico.tm.usmc.mil:8443 (model weights + query, ~10 MB)."
+          },
+          {
+            "node": "quantico",
+            "label": "MCB Quantico \u2014 TM Library",
+            "direction": "out",
+            "kind": "ANSWER",
+            "bytes": 35840,
+            "seconds": 0.003,
+            "note": "Per-node answer (35 KB) back to gateway. Data stayed inside CUI / FOUO \u2014 ICD 503 enclave."
+          },
+          {
+            "node": "gateway",
+            "label": "Kamiwaza Model Gateway",
+            "direction": "out",
+            "kind": "COMPOSED",
+            "bytes": 81920,
+            "seconds": 0.04,
+            "note": "Federated answer composed and returned to operator."
+          }
+        ],
+        "bytes": 31646720,
+        "seconds": 4.21,
+        "compliance": "GREEN \u2014 Compute-at-data. Zero data egress. ICD 503 / DCSA boundary preserved.",
+        "spillage_flags": []
+      },
+      "savings": {
+        "bytes_ratio": 2375.0,
+        "seconds_ratio": 2938.1,
+        "bytes_saved": 75130362880,
+        "seconds_saved": 12365.3
+      }
+    },
+    "answer": "### BLUF\n**No M240B barrels are identified in the federated retrievals as having exceeded 80% of the TM threshold; the TM at Quantico sets the 80% inspection point at 12,000 rounds on a 15,000-round quick-change barrel, but no node returned barrel serials or round counts to show any barrel is at or above that mark.**\n\n### Findings (per-node)\n- **MCB Quantico \u2014 TM Library (CUI / ICD 503 enclave):** TM 9-1005-313-10 publishes the M240B quick-change barrel threshold as **15,000 rounds**, with **bore inspection at 12,000 rounds (80%)**. No barrel serials, unit IDs, or actual round counts were returned in the retrieval.\n- **MCB Lejeune \u2014 ICM (UNCLASSIFIED // FOUO):** The only M240-related supply record is **NSN 1005-01-440-1010, M240 Barrel Assy, Quick-Change**, with **6 on hand** at **MAGTF Logistics Group** and **projected days-to-zero: 60d**. No round-count work orders or barrel serials were returned.\n- **MCLB Albany \u2014 GCSS-MC (UNCLASSIFIED):** Retrieved work orders concern **M1A1** systems only (e.g., **USMC-M1A1-40079**, **USMC-M1A1-40059**, **USMC-M1A1-40032**); no M240B barrel work orders or round-count records were present.\n\n### Federated recommendation\n1. **Have the armorer at MAGTF Logistics Group** pull the **6x NSN 1005-01-440-1010 M240 Barrel Assy, Quick-Change** and match each barrel\u2019s serial to its round-count log; flag any barrel at **12,000 rounds or more** for bore inspection per **TM 9-1005-313-10**.\n2. **Task the supported unit armorer / maintenance chief** to reconcile any M240B barrel work orders against the TM threshold and annotate the barrel\u2019s current location, since the federated data did not include barrel serials or current round counts.\n3. **If any barrel is at or above 12,000 rounds,** move it to inspection/rotation using the **MAGTF Logistics Group** stock first, preserving serviceable barrels for the highest-demand Marine unit.\n\n### Compute-at-data posture\nThis answer was composed entirely from per-node retrieval summaries; no source data moved off **MCLB Albany**, **MCB Lejeune**, or the **MCB Quantico ICD 503 enclave**. The TM content remained at Quantico under **ICD 503** and **DCSA spillage controls**, and only the minimal federated summaries crossed the wire for analysis."
+  },
+  "mtvr_tire_lateral": {
+    "query": {
+      "id": "mtvr_tire_lateral",
+      "title": "MTVR 16R20 tire lateral feasibility",
+      "frame": "Battalion needs 12 MTVR tires before a CONUS exercise; planner wants the cheapest lateral-transfer plan.",
+      "question": "What is the lowest-cost lateral-transfer plan to source 12 MTVR 16R20 tires for the exercise window?",
+      "primary_node": "lejeune",
+      "involves": [
+        "albany",
+        "lejeune"
+      ],
+      "stakes": "Operator workstation has no AO to host 50 GB of GCSS-MC; DDE spawns compute at Albany, returns only the lateral plan."
+    },
+    "trace": {
+      "query_id": "mtvr_tire_lateral",
+      "naive": {
+        "mode": "naive",
+        "label": "Naive central RAG",
+        "steps": [
+          {
+            "node": "albany",
+            "label": "MCLB Albany \u2014 GCSS-MC",
+            "direction": "out",
+            "kind": "DATA",
+            "bytes": 53687091200,
+            "seconds": 8589.93,
+            "note": "Pull 50 GB of work_orders over 50 Mbps link"
+          },
+          {
+            "node": "lejeune",
+            "label": "MCB Lejeune \u2014 ICM",
+            "direction": "out",
+            "kind": "DATA",
+            "bytes": 8589934592,
+            "seconds": 2748.78,
+            "note": "Pull 8 GB of lateral_transfer_parts over 25 Mbps link"
+          },
+          {
+            "node": "central",
+            "label": "Central embedder + LLM cluster",
+            "direction": "in",
+            "kind": "ANSWER",
+            "bytes": 81920,
+            "seconds": 0.04,
+            "note": "Composed answer back to operator."
+          }
+        ],
+        "bytes": 62277107712,
+        "seconds": 11338.8,
+        "compliance": "RED \u2014 UNCLASSIFIED bandwidth class. DCSA spillage risk on CUI/ICD-503 nodes.",
+        "spillage_flags": []
+      },
+      "dde": {
+        "mode": "dde",
+        "label": "Kamiwaza Distributed Data Engine",
+        "steps": [
+          {
+            "node": "albany",
+            "label": "MCLB Albany \u2014 GCSS-MC",
+            "direction": "in",
+            "kind": "COMPUTE",
+            "bytes": 10485760,
+            "seconds": 1.678,
+            "note": "Spawn DDE inference container at albany.gcssmc.usmc.mil:8443 (model weights + query, ~10 MB)."
+          },
+          {
+            "node": "albany",
+            "label": "MCLB Albany \u2014 GCSS-MC",
+            "direction": "out",
+            "kind": "ANSWER",
+            "bytes": 35840,
+            "seconds": 0.006,
+            "note": "Per-node answer (35 KB) back to gateway. Data stayed inside UNCLASSIFIED."
+          },
+          {
+            "node": "lejeune",
+            "label": "MCB Lejeune \u2014 ICM",
+            "direction": "in",
+            "kind": "COMPUTE",
+            "bytes": 10485760,
+            "seconds": 3.355,
+            "note": "Spawn DDE inference container at lejeune.icm.usmc.mil:8443 (model weights + query, ~10 MB)."
+          },
+          {
+            "node": "lejeune",
+            "label": "MCB Lejeune \u2014 ICM",
+            "direction": "out",
+            "kind": "ANSWER",
+            "bytes": 35840,
+            "seconds": 0.011,
+            "note": "Per-node answer (35 KB) back to gateway. Data stayed inside UNCLASSIFIED // FOUO."
+          },
+          {
+            "node": "gateway",
+            "label": "Kamiwaza Model Gateway",
+            "direction": "out",
+            "kind": "COMPOSED",
+            "bytes": 81920,
+            "seconds": 0.04,
+            "note": "Federated answer composed and returned to operator."
+          }
+        ],
+        "bytes": 21125120,
+        "seconds": 4.21,
+        "compliance": "GREEN \u2014 Compute-at-data. Zero data egress. ICD 503 / DCSA boundary preserved.",
+        "spillage_flags": []
+      },
+      "savings": {
+        "bytes_ratio": 2948.0,
+        "seconds_ratio": 2693.3,
+        "bytes_saved": 62255982592,
+        "seconds_saved": 11334.6
+      }
+    },
+    "answer": "### BLUF\n**The lowest-cost lateral-transfer plan is to source all 12 MTVR 16R20 tires from a single high-feasibility holder at MCB Lejeune\u2014preferably 8th ESB\u2019s 12 tires of NSN 2610-01-422-7100\u2014because it satisfies the full requirement with one transfer and avoids split-move handling costs.**\n\n### Findings (per-node)\n- **MCLB Albany:** GCSS-MC shows open MTVR work orders on serials **USMC-MTVR-30011, -30039, -30004, -30006, and -30035** (caliper sticking, transmission overheat, CAN bus dropout, transmission slipping, hydraulic line weep). These indicate maintenance demand but do **not** provide a tire source for the exercise window.\n- **MCB Lejeune:** ICM shows multiple holders of **MTVR 16R20 Tire, NSN 2610-01-422-7100** with lateral feasibility **HIGH**. The best single-source match is **8th ESB holding 12x** of the exact NSN, which exactly meets the battalion requirement of 12 tires. Other available pools include **CLB-2 (10x)**, **2d Bn 8th Marines (16x and 9x entries)**, and **2d Tank Bn (legacy) (3x)**.\n- **MCB Quantico:** No tire inventory was retrieved from the NSN-tagged technical-manual library; no source quantities or lateral candidates for **NSN 2610-01-422-7100** were returned.\n\n### Federated recommendation\n1. **Direct the lateral transfer from 8th ESB at MCB Lejeune to the requesting battalion** for **12x MTVR 16R20 Tire, NSN 2610-01-422-7100**; this is the cheapest plan because it is a single-source, exact-quantity move.\n2. **If 8th ESB cannot release all 12, backfill from CLB-2 at Lejeune** with **10x NSN 2610-01-422-7100**, then source the remaining **2x** from **2d Tank Bn (legacy)** or **2d Bn 8th Marines** to complete the set.\n3. **Have the Marine planner prioritize the exact NSN match only** and avoid piecemeal sourcing from Albany maintenance assets, since Albany\u2019s retrieved records are repair actions, not tire stock.\n\n### Compute-at-data posture\nThis answer was composed from per-node retrieval summaries only; no source data moved off **MCLB Albany, MCB Lejeune, or MCB Quantico**. The federation respected **ICD 503** enclave boundaries and DCSA-style spillage controls by returning only the minimal necessary retrieval results, not underlying records or raw databases."
+  }
+}

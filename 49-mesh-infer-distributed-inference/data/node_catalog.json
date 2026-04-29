@@ -1,0 +1,112 @@
+[
+  {
+    "node_id": "edge-meusoc",
+    "label": "Edge \u2014 MEU SOC",
+    "location": "MEU SOC, embarked aboard LHD-7",
+    "hardware": "NVIDIA Jetson Orin AGX 64 GB",
+    "model": "Qwen2.5-VL-7B",
+    "model_class": "vision-language",
+    "parameters_b": 7,
+    "quantization": "AWQ-INT4",
+    "serving": "vLLM (single-GPU)",
+    "security_posture": "IL2 (UNCLASS)",
+    "network_class": "NIPR / DDIL-tolerant",
+    "max_sensitivity": "CUI",
+    "supports": [
+      "vision",
+      "ocr",
+      "asr-short",
+      "lightweight-classify"
+    ],
+    "median_latency_s": 0.8,
+    "egress_kb_per_call": 12,
+    "lat_lon": [
+      21.3,
+      -157.86
+    ],
+    "color": "#00FFA7"
+  },
+  {
+    "node_id": "rear-quantico",
+    "label": "Rear Depot \u2014 MCB Quantico",
+    "location": "MCB Quantico, VA \u2014 Marine Corps Cyberspace Operations Group",
+    "hardware": "Lambda Labs DGX H100 (8x H100 80 GB)",
+    "model": "Llama 3.3 70B FP8",
+    "model_class": "general-purpose-large",
+    "parameters_b": 70,
+    "quantization": "FP8 (TensorRT-LLM)",
+    "serving": "vLLM, tensor-parallel=8",
+    "security_posture": "IL5 (CUI)",
+    "network_class": "NIPR + SIPR (gateway)",
+    "max_sensitivity": "SECRET",
+    "supports": [
+      "classify",
+      "json-extract",
+      "summarize",
+      "rerank",
+      "embed"
+    ],
+    "median_latency_s": 9.2,
+    "egress_kb_per_call": 240,
+    "lat_lon": [
+      38.52,
+      -77.31
+    ],
+    "color": "#0DCC8A"
+  },
+  {
+    "node_id": "scif-marforpac-mixtral",
+    "label": "SCIF \u2014 MARFORPAC HQ (Mixtral)",
+    "location": "MARFORPAC HQ, Camp H.M. Smith \u2014 JWICS enclave",
+    "hardware": "On-prem 4x H200 144 GB cluster (airgapped)",
+    "model": "Mixtral 8x22B",
+    "model_class": "general-purpose-mixture-of-experts",
+    "parameters_b": 141,
+    "quantization": "FP16 (full precision)",
+    "serving": "vLLM, pipeline-parallel=2 + tensor-parallel=2",
+    "security_posture": "IL6 (SECRET / TS)",
+    "network_class": "JWICS (no internet egress)",
+    "max_sensitivity": "TS-SCI",
+    "supports": [
+      "draft",
+      "cable",
+      "policy",
+      "long-context",
+      "json-extract"
+    ],
+    "median_latency_s": 18.4,
+    "egress_kb_per_call": 0,
+    "lat_lon": [
+      21.36,
+      -157.91
+    ],
+    "color": "#00BB7A"
+  },
+  {
+    "node_id": "scif-marforpac-vl",
+    "label": "SCIF \u2014 MARFORPAC HQ (Vision)",
+    "location": "MARFORPAC HQ, Camp H.M. Smith \u2014 JWICS enclave",
+    "hardware": "On-prem 2x H100 80 GB (airgapped)",
+    "model": "Qwen2.5-VL-72B",
+    "model_class": "vision-language-large",
+    "parameters_b": 72,
+    "quantization": "FP16",
+    "serving": "vLLM, tensor-parallel=2",
+    "security_posture": "IL6 (SECRET / TS)",
+    "network_class": "JWICS (no internet egress)",
+    "max_sensitivity": "TS-SCI",
+    "supports": [
+      "vision-classified",
+      "geoint-imagery",
+      "humint-recommend",
+      "long-context"
+    ],
+    "median_latency_s": 14.0,
+    "egress_kb_per_call": 0,
+    "lat_lon": [
+      21.36,
+      -157.91
+    ],
+    "color": "#065238"
+  }
+]

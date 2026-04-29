@@ -1,0 +1,7 @@
+streamlit>=1.34
+plotly>=5.20
+pandas>=2.2
+pillow>=10.2
+openai>=1.30
+python-dotenv>=1.0
+anthropic>=0.34  # optional, for ANTHROPIC_API_KEY provider path

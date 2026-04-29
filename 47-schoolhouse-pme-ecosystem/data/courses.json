@@ -1,0 +1,215 @@
+[
+  {
+    "course_id": "log_principles_26_1",
+    "name": "Logistics Principles Paper Course - Cohort 26-1",
+    "code": "LOG-PRIN-26-1",
+    "tr_manual": "NAVMC 3500.58 \u2014 Logistics Training & Readiness Manual",
+    "tr_manual_short": "NAVMC 3500.58",
+    "tr_event_examples": [
+      "LOG-DIST-2001",
+      "LOG-MAINT-1001",
+      "LOG-MGMT-2002"
+    ],
+    "schoolhouse": "MCLOG (Marine Corps Logistics Operations Group), Camp Lejeune NC",
+    "instructor": "MGySgt R. Vasquez",
+    "governing_authority": "Privacy Act of 1974 (5 U.S.C. \u00a7 552a) and DoDI 1322.35 'Military Education Records'",
+    "assignment": {
+      "id": "ASG_LOGPRIN_01",
+      "title": "Apply MCDP-4 Logistics Principles to a 72-hour MAGTF Sustainment Plan",
+      "type": "written_paper",
+      "rubric_xlsx": "log_principles_rubric.xlsx",
+      "rubric_criteria": [
+        {
+          "id": "C1",
+          "label": "Doctrinal grounding (MCDP-4 cite quality)",
+          "weight": 0.25
+        },
+        {
+          "id": "C2",
+          "label": "Sustainment-flow analysis (Class I-IX)",
+          "weight": 0.25
+        },
+        {
+          "id": "C3",
+          "label": "Critical thinking & assumptions stated",
+          "weight": 0.2
+        },
+        {
+          "id": "C4",
+          "label": "Communication clarity & 5-paragraph discipline",
+          "weight": 0.15
+        },
+        {
+          "id": "C5",
+          "label": "Risk-to-mission articulation",
+          "weight": 0.15
+        }
+      ]
+    },
+    "students": [
+      {
+        "student_id": "S01",
+        "name": "Capt Alvarez",
+        "rank": "Capt",
+        "edipi_synth": "1700020001",
+        "profile": "high_performer"
+      },
+      {
+        "student_id": "S02",
+        "name": "1stLt Brennan",
+        "rank": "1stLt",
+        "edipi_synth": "1700020002",
+        "profile": "developing"
+      },
+      {
+        "student_id": "S03",
+        "name": "GySgt Diaz",
+        "rank": "GySgt",
+        "edipi_synth": "1700020003",
+        "profile": "needs_remediation"
+      }
+    ]
+  },
+  {
+    "course_id": "sgts_course_2_26",
+    "name": "Sergeants Course - Class 2-26 (SNCO Academy MCB Quantico, resident PME for E-5)",
+    "code": "SGTS-2-26",
+    "tr_manual": "MCO 1553.4B (PME Framework) and DoDI 1322.35 'Military Education' \u2014 Sergeants Course is RESIDENT PME at the SNCO Academy Quantico, distinct from the Squad Leader Course taught at SOI under the Infantry T&R (NAVMC 3500.18)",
+    "tr_manual_short": "MCO 1553.4B / DoDI 1322.35",
+    "tr_event_examples": [
+      "PME-SGTS-LEAD-1",
+      "PME-SGTS-COMM-2",
+      "PME-SGTS-PROF-3"
+    ],
+    "schoolhouse": "Staff NCO Academy, MCB Quantico VA (resident PME, E-5 Sergeants)",
+    "instructor": "MSgt T. Okonkwo",
+    "governing_authority": "Privacy Act of 1974 (5 U.S.C. \u00a7 552a) and DoDI 1322.35 'Military Education Records'",
+    "assignment": {
+      "id": "ASG_SGTS_01",
+      "title": "Leadership Position Paper \u2014 Decentralized Command in Distributed Operations",
+      "type": "written_paper",
+      "rubric_xlsx": "sgts_leadership_rubric.xlsx",
+      "rubric_criteria": [
+        {
+          "id": "C1",
+          "label": "MCDP-1 Warfighting alignment",
+          "weight": 0.25
+        },
+        {
+          "id": "C2",
+          "label": "Personal-experience integration (legitimacy)",
+          "weight": 0.2
+        },
+        {
+          "id": "C3",
+          "label": "Critical thinking \u2014 counter-arguments addressed",
+          "weight": 0.2
+        },
+        {
+          "id": "C4",
+          "label": "Written communication discipline",
+          "weight": 0.2
+        },
+        {
+          "id": "C5",
+          "label": "Actionable leadership take-aways",
+          "weight": 0.15
+        }
+      ]
+    },
+    "students": [
+      {
+        "student_id": "S04",
+        "name": "Sgt Edwards",
+        "rank": "Sgt",
+        "edipi_synth": "1700020004",
+        "profile": "quiet_thinker"
+      },
+      {
+        "student_id": "S05",
+        "name": "Sgt Ferguson",
+        "rank": "Sgt",
+        "edipi_synth": "1700020005",
+        "profile": "high_performer"
+      },
+      {
+        "student_id": "S06",
+        "name": "Sgt Garcia",
+        "rank": "Sgt",
+        "edipi_synth": "1700020006",
+        "profile": "needs_remediation"
+      }
+    ]
+  },
+  {
+    "course_id": "mos_0411_pipeline_26_4",
+    "name": "MOS 0411 Maintenance Management Specialist Pipeline - Class 26-04",
+    "code": "PMOS-0411-26-04",
+    "tr_manual": "NAVMC 3500.58 \u2014 Logistics Training & Readiness Manual",
+    "tr_manual_short": "NAVMC 3500.58",
+    "tr_event_examples": [
+      "LOG-MAINT-1001",
+      "LOG-MAINT-2003",
+      "LOG-DIST-2001"
+    ],
+    "schoolhouse": "Marine Corps Combat Service Support Schools (MCCSSS), Camp Johnson NC",
+    "instructor": "GySgt P. Reyes",
+    "governing_authority": "Privacy Act of 1974 (5 U.S.C. \u00a7 552a) and DoDI 1322.35 'Military Education Records'",
+    "assignment": {
+      "id": "ASG_0411_01",
+      "title": "Sustainment Pipeline Practical \u2014 GCSS-MC Maintenance Cycle Walkthrough",
+      "type": "written_paper",
+      "rubric_xlsx": "mos_0411_rubric.xlsx",
+      "rubric_criteria": [
+        {
+          "id": "C1",
+          "label": "GCSS-MC workflow accuracy",
+          "weight": 0.25
+        },
+        {
+          "id": "C2",
+          "label": "Maintenance cycle doctrine (TM 4790)",
+          "weight": 0.2
+        },
+        {
+          "id": "C3",
+          "label": "Problem-solving \u2014 bottleneck identification",
+          "weight": 0.2
+        },
+        {
+          "id": "C4",
+          "label": "Written communication discipline",
+          "weight": 0.15
+        },
+        {
+          "id": "C5",
+          "label": "Class IX parts-flow articulation",
+          "weight": 0.2
+        }
+      ]
+    },
+    "students": [
+      {
+        "student_id": "S07",
+        "name": "Cpl Hernandez",
+        "rank": "Cpl",
+        "edipi_synth": "1700020007",
+        "profile": "developing"
+      },
+      {
+        "student_id": "S08",
+        "name": "Cpl Ito",
+        "rank": "Cpl",
+        "edipi_synth": "1700020008",
+        "profile": "high_performer"
+      },
+      {
+        "student_id": "S09",
+        "name": "LCpl Johnson",
+        "rank": "LCpl",
+        "edipi_synth": "1700020009",
+        "profile": "needs_remediation"
+      }
+    ]
+  }
+]

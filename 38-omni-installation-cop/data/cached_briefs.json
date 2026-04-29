@@ -1,0 +1,138 @@
+{
+  "as_of_iso": "2026-04-27T18:00:00+00:00",
+  "installation": {
+    "id": "pendleton",
+    "name": "MCB Camp Pendleton",
+    "centroid": [
+      33.3858,
+      -117.5631
+    ]
+  },
+  "baseline_correlation": {
+    "anomalies": [
+      {
+        "anomaly_id": "OMNI-001",
+        "severity": "HIGH",
+        "domains_crossed": 5,
+        "contributing_streams": [
+          "drone_rf",
+          "rf",
+          "ems",
+          "firms",
+          "massnotify"
+        ],
+        "hypothesis": "Cross-domain force-protection event at Las Pulgas Magazine 14: a non-cooperative UAS (no Remote ID) was detected loitering 18 min before ignition; an unknown 2.4 GHz emitter inside the magazine perimeter persisted across 8 minutes pre-event; FIRMS thermal anomalies (brightness 380-410 K, FRP 18-32 MW) over Magazine 14 coincide with multi-unit P1 EMS dispatch and the EMERGENCY AtHoc broadcast \u2014 five domains cross-corroborate within a 30-minute window.",
+        "recommended_action": "Activate Installation EOC at COG; cue G-2 to chain-of-custody the drone-RF + 2.4 GHz spectrogram captures; tip MARFORPAC J-2 and CDF on potential adversary triggering action; reaffirm shelter-in-place via AtHoc; verify Magazine 14 cooling-spray loop pressure.",
+        "explainability": "Flagged because: drone-RF sighting at T-18m + RF unknown-emitter at T-8m + FIRMS thermal at T+4m + EMS P1 dispatch at T+2m + AtHoc EMERGENCY at T+6m \u2014 all within a 30-minute window over the same magazine.",
+        "confidence": 0.93
+      },
+      {
+        "anomaly_id": "OMNI-002",
+        "severity": "HIGH",
+        "domains_crossed": 4,
+        "contributing_streams": [
+          "ems",
+          "utility",
+          "gate",
+          "massnotify"
+        ],
+        "hypothesis": "Cross-stream installation-services event corroborates the magazine incident: a 22 psi water-pressure dip at the Mainside Water Tower (consistent with hydrant draw), a 2.6 MW load surge at the 22-Area Substation (emergency systems engaged), and a POV ingress spike at Las Pulgas Gate (family-driven response to the AtHoc EMERGENCY).",
+        "recommended_action": "Pre-position MEDIC-5 at 43-Area as backfill; coordinate PMO traffic-control plan at Las Pulgas Gate; brief PWD on residual water-pressure recovery profile; expect 60-90 min to return to baseline.",
+        "explainability": "Flagged because: water dip at T+0m + power surge at T+0m + gate spike at T+0m + AtHoc EMERGENCY at T+6m = 4 installation-services streams corroborating the magazine incident.",
+        "confidence": 0.9
+      },
+      {
+        "anomaly_id": "OMNI-003",
+        "severity": "MEDIUM",
+        "domains_crossed": 2,
+        "contributing_streams": [
+          "weather",
+          "ems"
+        ],
+        "hypothesis": "Santa Ana wind shift to ~14 m/s easterly is concurrent with the magazine structure fire \u2014 wind alignment is pushing smoke and embers toward San Onofre family housing.",
+        "recommended_action": "Pre-stage Engine Co 1 reserves at San Onofre; coordinate with PWD for downwind air-quality monitoring; place housing on voluntary evacuation.",
+        "explainability": "Flagged because: weather wind 14 m/s easterly at T+0m + structure-fire EMS dispatch at T+2m, wind vector projects ember plume on housing.",
+        "confidence": 0.78
+      },
+      {
+        "anomaly_id": "OMNI-004",
+        "severity": "MEDIUM",
+        "domains_crossed": 2,
+        "contributing_streams": [
+          "maintenance",
+          "ems"
+        ],
+        "hypothesis": "GCSS-MC reports the MCFD GENSET-MCFD-AUX-3 NMC during the magazine incident window \u2014 backup power resilience to Mainside Fire Sta 1 is degraded exactly when an incident is consuming primary capacity.",
+        "recommended_action": "Direct CLB-1 to expedite voltage-regulator swap; confirm utility-power redundancy is sufficient until repaired; pre-stage commercial generator from contingency contract.",
+        "explainability": "Flagged because: GCSS-MC NMC GENSET-MCFD-AUX-3 + concurrent multi-unit EMS P1 incident = degraded resilience window.",
+        "confidence": 0.83
+      }
+    ],
+    "_source": "deterministic_baseline"
+  },
+  "baseline_brief": "COMMANDER'S I-COP BRIEF \u2014 MCB Camp Pendleton\nAS OF: 2026-04-27T18:00:00+00:00\n\nBLUF: Active cross-domain force-protection event at Las Pulgas Magazine 14. Five domains corroborate within a 30-minute window \u2014 non-cooperative UAS loiter, unknown 2.4 GHz emitter inside the perimeter, FIRMS thermal anomaly, multi-unit P1 EMS dispatch, EMERGENCY AtHoc broadcast. EOC activation recommended. G-2 to take custody of RF / drone evidence. Two critical assets NMC (GENSET-MCFD-AUX-3, HMMWV-44102) degrade resilience during the incident window.\n\nTOP 3 CROSS-DOMAIN ANOMALIES:\n  - [HIGH] OMNI-001 (domains crossed: 5): Cross-domain force-protection event at Las Pulgas Magazine 14: a non-cooperative UAS (no Remote ID) was detected loitering 18 min before ignition; an unknown 2.4 GHz emitter inside the magazine perimeter persisted across 8 minutes pre-event; FIRMS thermal anomalies (brightness 380-410 K, FRP 18-32 MW) over Magazine 14 coincide with multi-unit P1 EMS dispatch and the EMERGENCY AtHoc broadcast \u2014 five domains cross-corroborate within a 30-minute window.\n  - [HIGH] OMNI-002 (domains crossed: 4): Cross-stream installation-services event corroborates the magazine incident: a 22 psi water-pressure dip at the Mainside Water Tower (consistent with hydrant draw), a 2.6 MW load surge at the 22-Area Substation (emergency systems engaged), and a POV ingress spike at Las Pulgas Gate (family-driven response to the AtHoc EMERGENCY).\n  - [MEDIUM] OMNI-003 (domains crossed: 2): Santa Ana wind shift to ~14 m/s easterly is concurrent with the magazine structure fire \u2014 wind alignment is pushing smoke and embers toward San Onofre family housing.\n\nPREDICTIVE RISK \u2014 NEXT 12H:\n  - Santa Ana wind shift (~14 m/s easterly) sustains 6-8h; ember risk to San Onofre family housing is the dominant hazard until winds abate.\n  - Mainside water pressure expected to recover to baseline (62-78 psi) within 90 min of fire suppression.\n  - If RF spectrogram analysis confirms adversary triggering action, expect MARFORPAC J-2 escalation and force-protection condition uplift.\n\nRECOMMENDED PRE-POSITIONING PER CCDR:\n  - Activate Installation EOC at COG; cue G-2 to chain-of-custody the drone-RF + 2.4 GHz spectrogram captures; tip MARFORPAC J-2 and CDF on potential adversary triggering action; reaffirm shelter-in-place via AtHoc; verify Magazine 14 cooling-spray loop pressure.\n  - Pre-position MEDIC-5 at 43-Area as backfill; coordinate PMO traffic-control plan at Las Pulgas Gate; brief PWD on residual water-pressure recovery profile; expect 60-90 min to return to baseline.\n  - Pre-stage Engine Co 1 reserves at San Onofre; coordinate with PWD for downwind air-quality monitoring; place housing on voluntary evacuation.\n\n//SIGNED// I-COP Aggregator (OMNI) \u2014 Powered by Kamiwaza",
+  "live_correlation": {
+    "anomalies": [
+      {
+        "anomaly_id": "ANOM-001",
+        "severity": "HIGH",
+        "domains_crossed": 5,
+        "contributing_streams": [
+          "ems",
+          "firms",
+          "massnotify",
+          "drone_rf",
+          "utility"
+        ],
+        "hypothesis": "A structure fire near Magazine 14 triggered emergency responses and utility anomalies.",
+        "recommended_action": "Increase fire response readiness and monitor utility systems for further anomalies.",
+        "explainability": "Structure fire (EMS) near Magazine 14, thermal anomalies (FIRMS), mass notification issued, utility pressure dips.",
+        "confidence": 0.95
+      },
+      {
+        "anomaly_id": "ANOM-002",
+        "severity": "MEDIUM",
+        "domains_crossed": 4,
+        "contributing_streams": [
+          "drone_rf",
+          "rf",
+          "ems",
+          "firms"
+        ],
+        "hypothesis": "Non-cooperative UAS detected near a critical incident site, possibly related to the fire response.",
+        "recommended_action": "Investigate UAS activity and ensure airspace security around the incident.",
+        "explainability": "Non-cooperative UAS (drone_rf) near fire incident (EMS), RF anomalies detected, thermal anomalies (FIRMS) in the area.",
+        "confidence": 0.85
+      },
+      {
+        "anomaly_id": "ANOM-003",
+        "severity": "MEDIUM",
+        "domains_crossed": 3,
+        "contributing_streams": [
+          "utility",
+          "weather",
+          "ems"
+        ],
+        "hypothesis": "Utility anomalies coinciding with high winds may have impacted fire response efforts.",
+        "recommended_action": "Assess utility systems for resilience against weather impacts and prepare for potential outages.",
+        "explainability": "Water pressure dips (utility) during high wind conditions (weather) affecting fire response (EMS).",
+        "confidence": 0.8
+      },
+      {
+        "anomaly_id": "ANOM-004",
+        "severity": "LOW",
+        "domains_crossed": 3,
+        "contributing_streams": [
+          "utility",
+          "weather",
+          "massnotify"
+        ],
+        "hypothesis": "Weather conditions may have influenced utility performance and necessitated mass notifications.",
+        "recommended_action": "Monitor weather forecasts and prepare utility systems for adverse conditions.",
+        "explainability": "High winds (weather) affecting utility performance, leading to mass notifications issued.",
+        "confidence": 0.75
+      }
+    ]
+  },
+  "live_brief": "MCB CAMP PENDLETON COMMANDER\u2019S I-COP BRIEF  \nAS OF 271800Z APR 26\n\nBLUF: Installation common operating picture indicates one primary cross-domain incident centered near Magazine 14: likely structure fire with secondary utility degradation and a non-cooperative UAS operating near the response area. Assessment is HIGH confidence that emergency response actions are ongoing and that wind-driven utility disruption could complicate containment, site security, and continuity of operations over the next 12 hours.\n\nTOP 3 CROSS-DOMAIN ANOMALIES:\n1. ANOM-001 / HIGH / 5 DOMAINS  \nNear Magazine 14, EMS, FIRMS, mass notification, drone/RF, and utility streams correlate to a likely structure fire. Indicators include thermal signatures, emergency response activity, mass notification issuance, and utility pressure dips. Confidence: 0.95.  \nAssessment: This is the main effort incident with potential escalation risk if fire spreads or utilities further degrade.\n\n2. ANOM-002 / MEDIUM / 4 DOMAINS  \nNon-cooperative UAS detected near the critical incident site with concurrent RF anomalies, EMS activity, and thermal indicators. Confidence: 0.85.  \nAssessment: UAS presence may interfere with emergency operations, create OPSEC/safety concerns, and complicate airspace control around the fire response area.\n\n3. ANOM-003 / MEDIUM / 3 DOMAINS  \nUtility anomalies, specifically water pressure dips, align with high winds and EMS activity. Confidence: 0.80.  \nAssessment: Weather effects may be reducing firefighting effectiveness and increasing probability of localized outage or degraded suppression capability.\n\nPREDICTIVE RISK, NEXT 12 HOURS:\n- MODERATE TO HIGH risk of incident expansion if winds persist and utility instability continues near Magazine 14.\n- MODERATE risk of degraded fire suppression effectiveness from additional water pressure fluctuations.\n- MODERATE risk of recurring or opportunistic non-cooperative UAS activity near the incident perimeter.\n- LOW TO MODERATE risk of broader installation notification or localized continuity impacts if conditions worsen.\n\nRECOMMENDED PRE-POSITIONING PER CCDR:\n- Pre-position additional fire suppression assets, crash/fire rescue support, and medical standby near Magazine 14.\n- Stage utility repair teams, water support, and backup power capability forward of the affected area.\n- Establish/expand UAS detection and airspace security posture around the incident site.\n- Prepare localized cordon, traffic control, and force protection augmentation to secure response corridors.\n- Maintain mass notification readiness for shelter, avoid-area, or service disruption messaging.\n\n//SIGNED// I-COP Aggregator (OMNI)"
+}

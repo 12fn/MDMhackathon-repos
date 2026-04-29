@@ -1,0 +1,415 @@
+{
+  "queries": {
+    "Q1_smith_indopacom": {
+      "label": "LCpl Smith \u2192 INDOPACOM Posture Brief Q3",
+      "expected": "ALLOW",
+      "verdict": {
+        "decision": "ALLOW",
+        "reason_summary": "ALLOW via OPCON_TO path (24MEU \u2192 USINDOPACOM)",
+        "checks": [
+          {
+            "name": "CLEARANCE",
+            "ok": true,
+            "reason": "CLEARANCE: subject SECRET (rank 4) \u2265 document SECRET (rank 4)."
+          },
+          {
+            "name": "RELEASABILITY",
+            "ok": true,
+            "reason": "REL_TO: subject nationality USA \u2208 bucket USA (['USA'])."
+          },
+          {
+            "name": "NEED_TO_KNOW",
+            "ok": true,
+            "reason": "NEED-TO-KNOW: authorizing path P_SMITH \u2192 3Sqd_1Plt_A_1_8 \u2192 1stPlt_A_1_8 \u2192 A_1_8 \u2192 2_2 \u2192 24MEU \u2192 USINDOPACOM \u2192 DOC_008  via  [MEMBER_OF] \u2192 [MEMBER_OF] \u2192 [MEMBER_OF] \u2192 [ATTACHED_TO] \u2192 [DETACHED_TO] \u2192 [OPCON_TO] \u2192 [HAS_NEED_TO_KNOW]."
+          }
+        ],
+        "authorizing_path": {
+          "nodes": [
+            "P_SMITH",
+            "3Sqd_1Plt_A_1_8",
+            "1stPlt_A_1_8",
+            "A_1_8",
+            "2_2",
+            "24MEU",
+            "USINDOPACOM",
+            "DOC_008"
+          ],
+          "edges": [
+            {
+              "src": "P_SMITH",
+              "dst": "3Sqd_1Plt_A_1_8",
+              "rel": "MEMBER_OF"
+            },
+            {
+              "src": "3Sqd_1Plt_A_1_8",
+              "dst": "1stPlt_A_1_8",
+              "rel": "MEMBER_OF"
+            },
+            {
+              "src": "1stPlt_A_1_8",
+              "dst": "A_1_8",
+              "rel": "MEMBER_OF"
+            },
+            {
+              "src": "A_1_8",
+              "dst": "2_2",
+              "rel": "ATTACHED_TO",
+              "order_ref": "1/8 OPORD 26-101",
+              "effective": "2026-04-10"
+            },
+            {
+              "src": "2_2",
+              "dst": "24MEU",
+              "rel": "DETACHED_TO",
+              "order_ref": "MARFORCOM FRAGO 008-04",
+              "effective": "2026-03-01"
+            },
+            {
+              "src": "24MEU",
+              "dst": "USINDOPACOM",
+              "rel": "OPCON_TO",
+              "order_ref": "MARFORPAC FRAGO 026-12",
+              "effective": "2026-04-15"
+            },
+            {
+              "src": "USINDOPACOM",
+              "dst": "DOC_008",
+              "rel": "HAS_NEED_TO_KNOW",
+              "topic": "Posture"
+            }
+          ]
+        },
+        "subject": {
+          "id": "P_SMITH",
+          "name": "LCpl Smith",
+          "rank": "LCpl",
+          "edipi": "1000000001",
+          "mos": "0311",
+          "clearance": "SECRET",
+          "nationality": "USA",
+          "current_unit": "3Sqd_1Plt_A_1_8",
+          "notes": "Demo hero. Rifleman, 3rd Squad / 1st Plt / A Co 1/8."
+        },
+        "object": {
+          "id": "DOC_008",
+          "title": "INDOPACOM Posture Brief Q3",
+          "classification": "SECRET",
+          "classified_by": "USINDOPACOM_J3",
+          "rel_to": [
+            "USA",
+            "FVEY"
+          ],
+          "need_to_know_orgs": [
+            "USINDOPACOM"
+          ],
+          "summary": "Combatant Command quarterly posture brief. Need-to-know is bound tightly to USINDOPACOM; subordinates inherit only via OPCON / TACON command relationships (the demo's pivot edge).",
+          "topic": "Posture"
+        }
+      },
+      "narration": "LCpl Smith is authorized under JP 3-0 command relationships and DoDM 5200.02 need-to-know rules because the graph shows a valid chain of command affiliation and operational control to the cognizant command: MEMBER_OF from P_SMITH to 3Sqd_1Plt_A_1_8, 1stPlt_A_1_8, and A_1_8; ATTACHED_TO A_1_8 to 2_2; DETACHED_TO 2_2 to 24MEU; and OPCON_TO 24MEU to USINDOPACOM, which holds HAS_NEED_TO_KNOW for the posture brief. Clearance is SECRET, matching the document, and REL_TO is satisfied for USA. ALLOW"
+    },
+    "Q2_smith_natowinter": {
+      "label": "LCpl Smith \u2192 MARFOREUR NATO Coalition ROE",
+      "expected": "DENY",
+      "verdict": {
+        "decision": "DENY",
+        "reason_summary": "CLEARANCE",
+        "checks": [
+          {
+            "name": "CLEARANCE",
+            "ok": false,
+            "reason": "CLEARANCE: doc is on the NATO rail (NATO_SECRET); subject holds SECRET (national rail). NATO caveat / equivalence brief not held."
+          },
+          {
+            "name": "RELEASABILITY",
+            "ok": true,
+            "reason": "REL_TO: subject nationality USA \u2208 bucket NATO (['CAN', 'DEU', 'ESP', 'FRA', 'GBR', 'ITA', 'NLD', 'POL', 'TUR', 'USA'])."
+          },
+          {
+            "name": "NEED_TO_KNOW",
+            "ok": false,
+            "reason": "NEED-TO-KNOW: no path through MEMBER_OF/ATTACHED/DETACHED/OPCON/TACON from P_SMITH reaches any of need-to-know orgs ['MARFOREUR', 'USEUCOM']."
+          }
+        ],
+        "authorizing_path": null,
+        "subject": {
+          "id": "P_SMITH",
+          "name": "LCpl Smith",
+          "rank": "LCpl",
+          "edipi": "1000000001",
+          "mos": "0311",
+          "clearance": "SECRET",
+          "nationality": "USA",
+          "current_unit": "3Sqd_1Plt_A_1_8",
+          "notes": "Demo hero. Rifleman, 3rd Squad / 1st Plt / A Co 1/8."
+        },
+        "object": {
+          "id": "DOC_003",
+          "title": "MARFOREUR Coalition ROE \u2014 NATO Article-5 contingency",
+          "classification": "NATO_SECRET",
+          "classified_by": "MARFOREUR_G3",
+          "rel_to": [
+            "NATO"
+          ],
+          "need_to_know_orgs": [
+            "MARFOREUR",
+            "USEUCOM"
+          ],
+          "summary": "Rules-of-engagement annex for NATO Article-5 contingency response.",
+          "topic": "ROE"
+        }
+      },
+      "narration": "LCpl Smith is DENIED because the JP 3-0 command-and-control path does not establish need-to-know: the graph shows no MEMBER_OF, ATTACHED_TO, DETACHED_TO, OPCON_TO, or TACON_TO path from P_SMITH to MARFOREUR or USEUCOM, so the DoDM 5200.02 need-to-know requirement is unmet. Although REL_TO is satisfied because the subject is USA and the document is releasable to NATO, clearance still fails: the document is NATO_SECRET on the NATO rail, while Smith holds only SECRET on the national rail and lacks the NATO caveat/equivalence brief. No authorizing path exists. DENY"
+    },
+    "Q3_harris_meu_logplan": {
+      "label": "Sgt Harris (UK LNO) \u2192 MEU Composite Logistics Plan",
+      "expected": "ALLOW",
+      "verdict": {
+        "decision": "ALLOW",
+        "reason_summary": "ALLOW via direct MEMBER_OF chain.",
+        "checks": [
+          {
+            "name": "CLEARANCE",
+            "ok": true,
+            "reason": "CLEARANCE: subject SECRET (rank 4) \u2265 document CUI (rank 2)."
+          },
+          {
+            "name": "RELEASABILITY",
+            "ok": true,
+            "reason": "REL_TO: subject nationality GBR \u2208 bucket FVEY (['AUS', 'CAN', 'GBR', 'NZL', 'USA'])."
+          },
+          {
+            "name": "NEED_TO_KNOW",
+            "ok": true,
+            "reason": "NEED-TO-KNOW: authorizing path P_HARRIS \u2192 24MEU \u2192 DOC_006  via  [MEMBER_OF] \u2192 [HAS_NEED_TO_KNOW]."
+          }
+        ],
+        "authorizing_path": {
+          "nodes": [
+            "P_HARRIS",
+            "24MEU",
+            "DOC_006"
+          ],
+          "edges": [
+            {
+              "src": "P_HARRIS",
+              "dst": "24MEU",
+              "rel": "MEMBER_OF"
+            },
+            {
+              "src": "24MEU",
+              "dst": "DOC_006",
+              "rel": "HAS_NEED_TO_KNOW",
+              "topic": "Logistics"
+            }
+          ]
+        },
+        "subject": {
+          "id": "P_HARRIS",
+          "name": "Sgt Harris (RM)",
+          "rank": "Sgt",
+          "edipi": "UK00000001",
+          "mos": "LNO",
+          "clearance": "SECRET",
+          "nationality": "GBR",
+          "current_unit": "24MEU",
+          "notes": "Royal Marines LNO attached to 24th MEU (FVEY)."
+        },
+        "object": {
+          "id": "DOC_006",
+          "title": "MEU Composite Logistics Plan \u2014 sustainment",
+          "classification": "CUI",
+          "classified_by": "24MEU_G4",
+          "rel_to": [
+            "USA",
+            "FVEY"
+          ],
+          "need_to_know_orgs": [
+            "24MEU"
+          ],
+          "summary": "Sustainment plan for the BLT during the float.",
+          "topic": "Logistics"
+        }
+      },
+      "narration": "Sgt Harris is authorized under JP 3-0 command relationships and DoDM 5200.02 because the graph shows a direct MEMBER_OF link to 24MEU, and 24MEU has HAS_NEED_TO_KNOW for the Logistics topic on DOC_006. Clearance is sufficient: SECRET exceeds the document\u2019s CUI marking, satisfying DoDM 5200.02 access controls. Releasability also passes via REL_TO, since GBR falls within the FVEY bucket. No OPCON_TO, TACON_TO, ATTACHED_TO, or DETACHED_TO edge is needed here; the determinative path is MEMBER_OF \u2192 HAS_NEED_TO_KNOW. ALLOW"
+    },
+    "Q4_weber_indopacom": {
+      "label": "OF-2 Weber (DEU) \u2192 INDOPACOM Posture Brief",
+      "expected": "DENY",
+      "verdict": {
+        "decision": "DENY",
+        "reason_summary": "CLEARANCE",
+        "checks": [
+          {
+            "name": "CLEARANCE",
+            "ok": false,
+            "reason": "CLEARANCE: doc is on the national rail (SECRET); subject holds NATO_SECRET (NATO rail). National-rail caveat not held."
+          },
+          {
+            "name": "RELEASABILITY",
+            "ok": false,
+            "reason": "REL_TO: subject nationality DEU not in any of doc's REL_TO buckets ['USA', 'FVEY']."
+          },
+          {
+            "name": "NEED_TO_KNOW",
+            "ok": false,
+            "reason": "NEED-TO-KNOW: no path through MEMBER_OF/ATTACHED/DETACHED/OPCON/TACON from P_WEBER reaches any of need-to-know orgs ['USINDOPACOM']."
+          }
+        ],
+        "authorizing_path": null,
+        "subject": {
+          "id": "P_WEBER",
+          "name": "OF-2 Weber (BWHr)",
+          "rank": "OF-2",
+          "edipi": "DE00000001",
+          "mos": "LNO",
+          "clearance": "NATO_SECRET",
+          "nationality": "DEU",
+          "current_unit": "MARFOREUR",
+          "notes": "Bundeswehr LNO, MARFOREUR/AF (NATO)."
+        },
+        "object": {
+          "id": "DOC_008",
+          "title": "INDOPACOM Posture Brief Q3",
+          "classification": "SECRET",
+          "classified_by": "USINDOPACOM_J3",
+          "rel_to": [
+            "USA",
+            "FVEY"
+          ],
+          "need_to_know_orgs": [
+            "USINDOPACOM"
+          ],
+          "summary": "Combatant Command quarterly posture brief. Need-to-know is bound tightly to USINDOPACOM; subordinates inherit only via OPCON / TACON command relationships (the demo's pivot edge).",
+          "topic": "Posture"
+        }
+      },
+      "narration": "OF-2 Weber (DEU) is denied access to the INDOPACOM Posture Brief because DoDM 5200.02 requires both proper clearance and need-to-know, and JP 3-0 command relationships do not create access absent a valid graph path. The document is SECRET on the national rail, but Weber holds only NATO_SECRET, so the clearance caveat is not met. Releasability also fails because the doc\u2019s REL_TO edges are limited to USA and FVEY, not DEU. Finally, there is no MEMBER_OF, ATTACHED_TO, DETACHED_TO, OPCON_TO, or TACON_TO path from P_WEBER to USINDOPACOM, so need-to-know is not established. DENY"
+    },
+    "Q5_vendor_sow": {
+      "label": "Quinn (SETA) \u2192 Vendor SOW",
+      "expected": "ALLOW",
+      "verdict": {
+        "decision": "ALLOW",
+        "reason_summary": "ALLOW via direct MEMBER_OF chain.",
+        "checks": [
+          {
+            "name": "CLEARANCE",
+            "ok": true,
+            "reason": "CLEARANCE: subject UNCLASS (rank 0) \u2265 document UNCLASS (rank 0)."
+          },
+          {
+            "name": "RELEASABILITY",
+            "ok": true,
+            "reason": "REL_TO: subject nationality USA \u2208 bucket ALL (['ANY', 'AUS', 'CAN', 'DEU', 'FRA', 'GBR', 'JPN', 'KOR', 'NZL', 'USA'])."
+          },
+          {
+            "name": "NEED_TO_KNOW",
+            "ok": true,
+            "reason": "NEED-TO-KNOW: authorizing path P_VENDOR \u2192 1_8 \u2192 DOC_007  via  [MEMBER_OF] \u2192 [HAS_NEED_TO_KNOW]."
+          }
+        ],
+        "authorizing_path": {
+          "nodes": [
+            "P_VENDOR",
+            "1_8",
+            "DOC_007"
+          ],
+          "edges": [
+            {
+              "src": "P_VENDOR",
+              "dst": "1_8",
+              "rel": "MEMBER_OF"
+            },
+            {
+              "src": "1_8",
+              "dst": "DOC_007",
+              "rel": "HAS_NEED_TO_KNOW",
+              "topic": "Contracting"
+            }
+          ]
+        },
+        "subject": {
+          "id": "P_VENDOR",
+          "name": "Quinn (SETA)",
+          "rank": "GS-9",
+          "edipi": "V0000001",
+          "mos": "CONTRACTOR",
+          "clearance": "UNCLASS",
+          "nationality": "USA",
+          "current_unit": "1_8",
+          "notes": "SETA contractor co-located but vendor realm."
+        },
+        "object": {
+          "id": "DOC_007",
+          "title": "Vendor Statement of Work \u2014 IT support",
+          "classification": "UNCLASS",
+          "classified_by": "1_8_S6",
+          "rel_to": [
+            "ALL"
+          ],
+          "need_to_know_orgs": [
+            "1_8",
+            "VENDOR"
+          ],
+          "summary": "Contractor SOW for unit IT support.",
+          "topic": "Contracting"
+        }
+      },
+      "narration": "Quinn (SETA) is authorized because the ReBAC walk shows a direct JP 3-0-style command relationship chain from the vendor realm into the supported unit: **MEMBER_OF** from **P_VENDOR** to **1_8**, then **HAS_NEED_TO_KNOW** from **1_8** to **DOC_007** on the contracting topic. DoDM 5200.02 criteria are satisfied: the document is **UNCLASS**, Quinn holds **UNCLASS** clearance, and releasability is met via **REL_TO** (USA in ALL). The decisive factor is need-to-know, and the graph provides it through the unit relationship path. **ALLOW**"
+    },
+    "Q6_vendor_meu_log": {
+      "label": "Quinn (SETA) \u2192 MEU Composite Logistics Plan",
+      "expected": "DENY",
+      "verdict": {
+        "decision": "DENY",
+        "reason_summary": "CLEARANCE",
+        "checks": [
+          {
+            "name": "CLEARANCE",
+            "ok": false,
+            "reason": "CLEARANCE: subject UNCLASS (rank 0) < document CUI (rank 2)."
+          },
+          {
+            "name": "RELEASABILITY",
+            "ok": true,
+            "reason": "REL_TO: subject nationality USA \u2208 bucket USA (['USA'])."
+          },
+          {
+            "name": "NEED_TO_KNOW",
+            "ok": false,
+            "reason": "NEED-TO-KNOW: no path through MEMBER_OF/ATTACHED/DETACHED/OPCON/TACON from P_VENDOR reaches any of need-to-know orgs ['24MEU']."
+          }
+        ],
+        "authorizing_path": null,
+        "subject": {
+          "id": "P_VENDOR",
+          "name": "Quinn (SETA)",
+          "rank": "GS-9",
+          "edipi": "V0000001",
+          "mos": "CONTRACTOR",
+          "clearance": "UNCLASS",
+          "nationality": "USA",
+          "current_unit": "1_8",
+          "notes": "SETA contractor co-located but vendor realm."
+        },
+        "object": {
+          "id": "DOC_006",
+          "title": "MEU Composite Logistics Plan \u2014 sustainment",
+          "classification": "CUI",
+          "classified_by": "24MEU_G4",
+          "rel_to": [
+            "USA",
+            "FVEY"
+          ],
+          "need_to_know_orgs": [
+            "24MEU"
+          ],
+          "summary": "Sustainment plan for the BLT during the float.",
+          "topic": "Logistics"
+        }
+      },
+      "narration": "Quinn (SETA) is U.S. releasable under the object\u2019s REL_TO bucket, but access still fails under DoDM 5200.02 because clearance is insufficient: UNCLASS does not meet the CUI level of the MEU Composite Logistics Plan. The need-to-know test also fails because there is no qualifying JP 3-0 command relationship path\u2014no MEMBER_OF, ATTACHED_TO, DETACHED_TO, OPCON_TO, or TACON_TO edge from P_VENDOR to 24MEU\u2014so the contractor remains outside the authorized command chain for this document. With clearance and need-to-know both unsatisfied, the record is not authorized for release. DENY"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "nominal",
+    "label": "Nominal \u2014 single asset triage",
+    "asset_id": "MTVR-2491",
+    "frame": "Sensor crossed amber threshold during yard test. Demand spike under control. Stock available CONUS."
+  },
+  {
+    "id": "surge",
+    "label": "Surge \u2014 INDOPAC MEB push",
+    "asset_id": "AAV-7A1-3318",
+    "frame": "MARFORPAC stand-in force inducting 3 AAV-7A1 hulls; final-drive bearings projected to spike 4x baseline."
+  },
+  {
+    "id": "parts_constrained",
+    "label": "Parts-constrained \u2014 long-pole NSN slip",
+    "asset_id": "MV-22B-167902",
+    "frame": "Prop rotor hub bearing trending toward induct-now. NSN 3110-01-617-8013 under stress with 0 on hand at MCLB Albany."
+  }
+]

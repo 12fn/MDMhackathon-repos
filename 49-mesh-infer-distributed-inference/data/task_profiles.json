@@ -1,0 +1,74 @@
+{
+  "vision-thermal-ir": {
+    "label": "Vision \u2014 thermal IR / EO classification",
+    "needs_capability": "vision",
+    "preferred_model_class": "vision-language",
+    "min_context_k": 2,
+    "expected_latency_band": "sub-second",
+    "default_sensitivity": "UNCLASS",
+    "rationale_template": "Step needs vision \u2192 routed to a VL model. Sensitivity = {sens} \u2192 {posture} OK."
+  },
+  "vision-classified-imagery": {
+    "label": "Vision \u2014 classified GEOINT imagery",
+    "needs_capability": "vision-classified",
+    "preferred_model_class": "vision-language-large",
+    "min_context_k": 8,
+    "expected_latency_band": "10-20s",
+    "default_sensitivity": "SECRET",
+    "rationale_template": "Step needs classified vision \u2192 must stay in SCIF. Routed to SCIF-VL."
+  },
+  "classify-intent-json": {
+    "label": "Classify intent \u2192 structured JSON",
+    "needs_capability": "json-extract",
+    "preferred_model_class": "general-purpose-large",
+    "min_context_k": 4,
+    "expected_latency_band": "8-12s",
+    "default_sensitivity": "CUI",
+    "rationale_template": "Step needs structured JSON over CUI \u2192 routed to {node} (Llama 3.3 70B FP8)."
+  },
+  "draft-cable-sipr": {
+    "label": "Draft SIPR cable (SECRET)",
+    "needs_capability": "draft",
+    "preferred_model_class": "general-purpose-mixture-of-experts",
+    "min_context_k": 8,
+    "expected_latency_band": "15-25s",
+    "default_sensitivity": "SECRET",
+    "rationale_template": "SECRET drafting \u2192 must stay in SCIF. Routed to {node} (Mixtral 8x22B). Bandwidth out = 0."
+  },
+  "humint-recommend": {
+    "label": "HUMINT tipping recommendation (TS-SCI)",
+    "needs_capability": "humint-recommend",
+    "preferred_model_class": "vision-language-large",
+    "min_context_k": 8,
+    "expected_latency_band": "10-18s",
+    "default_sensitivity": "TS-SCI",
+    "rationale_template": "TS-SCI HUMINT recommendation \u2192 SCIF-only. Routed to {node}. No egress permitted."
+  },
+  "summarize-cui": {
+    "label": "Summarize CUI brief",
+    "needs_capability": "summarize",
+    "preferred_model_class": "general-purpose-large",
+    "min_context_k": 6,
+    "expected_latency_band": "6-10s",
+    "default_sensitivity": "CUI",
+    "rationale_template": "CUI summarization \u2192 rear-depot Llama acceptable. Routed to {node}."
+  },
+  "asr-radio-traffic": {
+    "label": "ASR \u2014 short radio cut",
+    "needs_capability": "asr-short",
+    "preferred_model_class": "vision-language",
+    "min_context_k": 1,
+    "expected_latency_band": "sub-second",
+    "default_sensitivity": "UNCLASS",
+    "rationale_template": "Short ASR cut \u2192 edge VL model handles audio. Routed to {node}."
+  },
+  "rerank-citations": {
+    "label": "Rerank citations / docs",
+    "needs_capability": "rerank",
+    "preferred_model_class": "general-purpose-large",
+    "min_context_k": 4,
+    "expected_latency_band": "3-6s",
+    "default_sensitivity": "CUI",
+    "rationale_template": "Rerank over CUI corpus \u2192 rear-depot Llama. Routed to {node}."
+  }
+}

@@ -1,0 +1,39 @@
+1
+00:00:03,009 --> 00:00:08,009
+OMNI-AGENT. Your Marines have 53 AI tools - this is the one that picks the right one.
+
+2
+00:00:08,014 --> 00:00:13,014
+Cross-domain decisions: blood readiness is a weather problem is a sustainment problem.
+
+3
+00:00:13,017 --> 00:00:18,017
+Fourteen sibling apps wired as governed tools - the Kamiwaza Tool Garden.
+
+4
+00:00:18,020 --> 00:00:24,020
+VITALS, WEATHERVANE, MERIDIAN, CONTESTED-LOG, REORDER, CUAS-DETECT, OMNI...
+
+5
+00:00:24,030 --> 00:00:30,030
+One operator query. The agent decomposes and fires three tools in sequence.
+
+6
+00:00:30,061 --> 00:00:38,061
+VITALS reports blood readiness. WEATHERVANE confirms the typhoon window. MERIDIAN scores nodes.
+
+7
+00:00:38,063 --> 00:00:45,063
+A Kamiwaza-deployed model fuses every result into one OPORD-style brief.
+
+8
+00:00:45,073 --> 00:00:51,073
+Every tool invocation is SHA-256 hash-chain audited for SJA forensics.
+
+9
+00:00:51,430 --> 00:00:58,430
+Set KAMIWAZA_BASE_URL - the orchestration layer stays inside your enclave too.
+
+10
+00:00:58,439 --> 00:01:06,439
+OMNI-AGENT - Kamiwaza unifies your AI fleet. Powered by the Kamiwaza Stack.

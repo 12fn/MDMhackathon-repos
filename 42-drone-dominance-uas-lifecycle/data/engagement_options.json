@@ -1,0 +1,74 @@
+[
+  {
+    "id": "monitor",
+    "name": "Passive monitor / track only",
+    "kinetic": false,
+    "rf_emission": false,
+    "authority_required": "Watch officer (OOD)",
+    "roe_class": "Observe / report \u2014 no engagement.",
+    "notes": "Default for unverified contacts; pattern-of-life build."
+  },
+  {
+    "id": "ews_jam_sector",
+    "name": "Directional RF jam \u2014 single sector",
+    "kinetic": false,
+    "rf_emission": true,
+    "authority_required": "Installation Commander (delegable to OIC EW)",
+    "roe_class": "Non-kinetic interdiction; spectrum coordination required.",
+    "notes": "Lowest collateral risk; sector-narrow C2 + GNSS."
+  },
+  {
+    "id": "ews_jam_omnidirectional",
+    "name": "Omnidirectional RF jam (perimeter wide)",
+    "kinetic": false,
+    "rf_emission": true,
+    "authority_required": "Installation Commander; MARFORCYBER notify",
+    "roe_class": "Non-kinetic; will affect friendly C2/Wi-Fi/GNSS in zone.",
+    "notes": "Reserve for confirmed swarm / multi-vehicle threats only."
+  },
+  {
+    "id": "spoof_gps",
+    "name": "GPS spoof (push UAS off course)",
+    "kinetic": false,
+    "rf_emission": true,
+    "authority_required": "Installation Commander + EW spectrum auth",
+    "roe_class": "Non-kinetic; may displace UAS into civil airspace.",
+    "notes": "Effective vs nav-coupled autonomy; ineffective vs inertial-only."
+  },
+  {
+    "id": "request_kinetic",
+    "name": "Request kinetic engagement (small-arms / SHORAD)",
+    "kinetic": true,
+    "rf_emission": false,
+    "authority_required": "FOC / Range Control + SECDEF UAS rule-set",
+    "roe_class": "Kinetic \u2014 last resort. Positive ID + hostile intent required.",
+    "notes": "Per DoDD 3000.09 + 10 USC 130i UAS authorities."
+  },
+  {
+    "id": "spoof_link",
+    "name": "C2 link takeover (protocol-aware)",
+    "kinetic": false,
+    "rf_emission": true,
+    "authority_required": "MARFORCYBER + Title 10 cyber EXORD",
+    "roe_class": "Cyber/EW hybrid; pre-coordinated mission required.",
+    "notes": "Effective vs unencrypted FHSS hobbyist; not for COTS encrypted DJI."
+  },
+  {
+    "id": "skytracker_log",
+    "name": "Track + log only (SkyTracker-style passive ID)",
+    "kinetic": false,
+    "rf_emission": false,
+    "authority_required": "Watch officer",
+    "roe_class": "Observe; build pattern of life for repeat overflights.",
+    "notes": "Always-on baseline for installation perimeter sensors."
+  },
+  {
+    "id": "escalate_foc",
+    "name": "Escalate to Force Operations Center (FOC)",
+    "kinetic": false,
+    "rf_emission": false,
+    "authority_required": "Watch officer",
+    "roe_class": "Notification + decision request.",
+    "notes": "Push contact + recommendation up the chain when authority exceeds OOD."
+  }
+]

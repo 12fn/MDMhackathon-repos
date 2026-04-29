@@ -1,0 +1,130 @@
+[
+  {
+    "id": "CO",
+    "callsign": "ACTUAL-6",
+    "name": "MajGen M. Marine",
+    "role": "Commanding General, MCIWEST-MCB CamPen",
+    "clearance": "TS/SCI",
+    "allowed_streams": [
+      "gate",
+      "utility",
+      "ems",
+      "massnotify",
+      "weather",
+      "maintenance",
+      "rf",
+      "drone_rf",
+      "firms"
+    ],
+    "allowed_anomaly_classes": [
+      "ALL"
+    ],
+    "view_brief": true,
+    "view_audit": true,
+    "abac_summary": "Commander \u2014 full I-COP visibility across every domain."
+  },
+  {
+    "id": "G-1",
+    "callsign": "PERSONNEL",
+    "name": "Col Davies",
+    "role": "G-1 Personnel",
+    "clearance": "SECRET",
+    "allowed_streams": [
+      "gate",
+      "ems",
+      "massnotify"
+    ],
+    "allowed_anomaly_classes": [
+      "personnel",
+      "safety"
+    ],
+    "view_brief": true,
+    "view_audit": false,
+    "abac_summary": "Personnel/safety only \u2014 denied intel, RF, drone, infrastructure."
+  },
+  {
+    "id": "G-2",
+    "callsign": "INTEL",
+    "name": "LtCol Kim",
+    "role": "G-2 Intelligence",
+    "clearance": "TS/SCI",
+    "allowed_streams": [
+      "rf",
+      "drone_rf",
+      "firms",
+      "weather",
+      "massnotify"
+    ],
+    "allowed_anomaly_classes": [
+      "intel",
+      "force_protection"
+    ],
+    "view_brief": true,
+    "view_audit": true,
+    "abac_summary": "Intel \u2014 RF, drone, FIRMS, weather. Denied gate/utility/EMS."
+  },
+  {
+    "id": "G-3",
+    "callsign": "OPS",
+    "name": "Col Riggs",
+    "role": "G-3 Operations",
+    "clearance": "SECRET",
+    "allowed_streams": [
+      "gate",
+      "ems",
+      "massnotify",
+      "weather",
+      "drone_rf",
+      "firms"
+    ],
+    "allowed_anomaly_classes": [
+      "ops",
+      "force_protection",
+      "safety"
+    ],
+    "view_brief": true,
+    "view_audit": false,
+    "abac_summary": "Ops \u2014 operational picture; denied utility SCADA + RF intel."
+  },
+  {
+    "id": "G-4",
+    "callsign": "LOGISTICS",
+    "name": "LtCol Vega",
+    "role": "G-4 Logistics",
+    "clearance": "SECRET",
+    "allowed_streams": [
+      "utility",
+      "maintenance",
+      "weather",
+      "massnotify"
+    ],
+    "allowed_anomaly_classes": [
+      "supply",
+      "maintenance",
+      "safety"
+    ],
+    "view_brief": true,
+    "view_audit": false,
+    "abac_summary": "Supply/maintenance \u2014 denied gate/EMS/RF/drone/intel."
+  },
+  {
+    "id": "S-6",
+    "callsign": "COMMS",
+    "name": "Maj Chen",
+    "role": "S-6 Communications",
+    "clearance": "SECRET",
+    "allowed_streams": [
+      "rf",
+      "utility",
+      "massnotify",
+      "maintenance"
+    ],
+    "allowed_anomaly_classes": [
+      "comms",
+      "infrastructure"
+    ],
+    "view_brief": false,
+    "view_audit": false,
+    "abac_summary": "Comms \u2014 RF + infrastructure only; denied EMS/intel/drone/gate."
+  }
+]

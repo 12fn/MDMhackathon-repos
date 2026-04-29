@@ -1,0 +1,4072 @@
+[
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-26T18:00:00+00:00",
+    "id": "GATE-00000",
+    "label": "Main Gate (Vandegrift) ingress 68 / egress 65",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2284,
+    "lon": -117.3893
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-26T18:00:00+00:00",
+    "id": "GATE-00001",
+    "label": "San Luis Rey Gate ingress 132 / egress 117",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.24,
+    "lon": -117.4192
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-26T18:00:00+00:00",
+    "id": "GATE-00002",
+    "label": "Las Pulgas Gate ingress 36 / egress 34",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.347,
+    "lon": -117.503
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-26T18:00:00+00:00",
+    "id": "GATE-00003",
+    "label": "Del Mar Gate ingress 46 / egress 45",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2503,
+    "lon": -117.435
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-26T18:00:00+00:00",
+    "id": "GATE-00004",
+    "label": "Cristianitos Gate ingress 37 / egress 35",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4622,
+    "lon": -117.5917
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-26T18:00:00+00:00",
+    "id": "UTIL-00000",
+    "label": "Mainside Water Tower 68.0 psi @ 1205.5 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.385,
+    "lon": -117.564
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-26T18:00:00+00:00",
+    "id": "UTIL-00001",
+    "label": "San Mateo Water Tower 70.13 psi @ 1105.4 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4555,
+    "lon": -117.615
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-26T18:00:00+00:00",
+    "id": "UTIL-00002",
+    "label": "22-Area Substation 7.328 MW @ 11.9 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3712,
+    "lon": -117.531
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-26T18:00:00+00:00",
+    "id": "UTIL-00003",
+    "label": "43-Area Substation 3.756 MW @ 12.08 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.301,
+    "lon": -117.448
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-26T18:00:00+00:00",
+    "id": "UTIL-00004",
+    "label": "NFTI Fuel Depot inv 183536 gal",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.245,
+    "lon": -117.414
+  },
+  {
+    "stream": "weather",
+    "ts_iso": "2026-04-26T18:00:00+00:00",
+    "id": "WX-000",
+    "label": "Wind 3.87 m/s from 180.0 deg, 23.44 C, RH 48.0%, precip 0.168 mm/h",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3858,
+    "lon": -117.5631
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-26T18:00:00+00:00",
+    "id": "RF-00002",
+    "label": "wifi-client STA-CO-IPHONE :: -53.2 dBm :: CO iPhone (corp WiFi)",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.402490645321166,
+    "lon": -117.58420927336506
+  },
+  {
+    "stream": "firms",
+    "ts_iso": "2026-04-26T18:00:00+00:00",
+    "id": "FIRMS-0000",
+    "label": "VIIRS-SNPP thermal br 305.6 K, FRP 1.13 MW (nominal)",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.357413998784416,
+    "lon": -117.60139065611324
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-26T18:10:00+00:00",
+    "id": "RF-00001",
+    "label": "bt-beacon BTLE-FIRESTA-1 :: -71.8 dBm :: Engine Co 1 BLE asset tag",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.388042578520746,
+    "lon": -117.52500840169391
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-26T18:14:00+00:00",
+    "id": "RF-00003",
+    "label": "wifi-client STA-CO-IPHONE :: -57.6 dBm :: CO iPhone (corp WiFi)",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3514448857009,
+    "lon": -117.55018501947342
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-26T18:38:00+00:00",
+    "id": "RF-00000",
+    "label": "wifi-ap WAP-SANMATEO-014 :: -57.9 dBm :: BSS-SAN-MATEO",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.39225061666935,
+    "lon": -117.53745356391207
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-26T19:00:00+00:00",
+    "id": "GATE-00005",
+    "label": "Main Gate (Vandegrift) ingress 194 / egress 180",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2284,
+    "lon": -117.3893
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-26T19:00:00+00:00",
+    "id": "GATE-00006",
+    "label": "San Luis Rey Gate ingress 38 / egress 37",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.24,
+    "lon": -117.4192
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-26T19:00:00+00:00",
+    "id": "GATE-00007",
+    "label": "Las Pulgas Gate ingress 83 / egress 64",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.347,
+    "lon": -117.503
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-26T19:00:00+00:00",
+    "id": "GATE-00008",
+    "label": "Del Mar Gate ingress 56 / egress 48",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2503,
+    "lon": -117.435
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-26T19:00:00+00:00",
+    "id": "GATE-00009",
+    "label": "Cristianitos Gate ingress 56 / egress 54",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4622,
+    "lon": -117.5917
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-26T19:00:00+00:00",
+    "id": "UTIL-00005",
+    "label": "Mainside Water Tower 74.85 psi @ 973.3 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.385,
+    "lon": -117.564
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-26T19:00:00+00:00",
+    "id": "UTIL-00006",
+    "label": "San Mateo Water Tower 71.19 psi @ 1281.4 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4555,
+    "lon": -117.615
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-26T19:00:00+00:00",
+    "id": "UTIL-00007",
+    "label": "22-Area Substation 4.528 MW @ 11.74 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3712,
+    "lon": -117.531
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-26T19:00:00+00:00",
+    "id": "UTIL-00008",
+    "label": "43-Area Substation 2.066 MW @ 12.28 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.301,
+    "lon": -117.448
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-26T19:00:00+00:00",
+    "id": "UTIL-00009",
+    "label": "NFTI Fuel Depot inv 194836 gal",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.245,
+    "lon": -117.414
+  },
+  {
+    "stream": "weather",
+    "ts_iso": "2026-04-26T19:00:00+00:00",
+    "id": "WX-001",
+    "label": "Wind 6.41 m/s from 180.0 deg, 24.29 C, RH 47.8%, precip 0.0 mm/h",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3858,
+    "lon": -117.5631
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-26T19:00:00+00:00",
+    "id": "RF-00005",
+    "label": "wifi-ap WAP-SANMATEO-014 :: -55.6 dBm :: BSS-SAN-MATEO",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.38798310306257,
+    "lon": -117.58115968749175
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-26T19:01:00+00:00",
+    "id": "RF-00004",
+    "label": "bt-beacon BTLE-FIRESTA-1 :: -68.5 dBm :: Engine Co 1 BLE asset tag",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.40393847290371,
+    "lon": -117.53329920296295
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-26T19:22:00+00:00",
+    "id": "RF-00007",
+    "label": "wifi-ap WAP-SANMATEO-014 :: -58.1 dBm :: BSS-SAN-MATEO",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.401653072184125,
+    "lon": -117.5848962290439
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-26T19:22:00+00:00",
+    "id": "RF-00008",
+    "label": "wifi-ap WAP-SANMATEO-014 :: -57.9 dBm :: BSS-SAN-MATEO",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.40749149865557,
+    "lon": -117.58016426356178
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-26T19:32:00+00:00",
+    "id": "RF-00006",
+    "label": "wifi-ap WAP-MAINSIDE-001 :: -52.2 dBm :: BSS-MAINSIDE",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.388429991001296,
+    "lon": -117.53587311569441
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-26T20:00:00+00:00",
+    "id": "GATE-00010",
+    "label": "Main Gate (Vandegrift) ingress 127 / egress 129",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2284,
+    "lon": -117.3893
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-26T20:00:00+00:00",
+    "id": "GATE-00011",
+    "label": "San Luis Rey Gate ingress 125 / egress 111",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.24,
+    "lon": -117.4192
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-26T20:00:00+00:00",
+    "id": "GATE-00012",
+    "label": "Las Pulgas Gate ingress 15 / egress 11",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.347,
+    "lon": -117.503
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-26T20:00:00+00:00",
+    "id": "GATE-00013",
+    "label": "Del Mar Gate ingress 10 / egress 9",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2503,
+    "lon": -117.435
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-26T20:00:00+00:00",
+    "id": "GATE-00014",
+    "label": "Cristianitos Gate ingress 55 / egress 50",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4622,
+    "lon": -117.5917
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-26T20:00:00+00:00",
+    "id": "UTIL-00010",
+    "label": "Mainside Water Tower 70.73 psi @ 811.6 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.385,
+    "lon": -117.564
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-26T20:00:00+00:00",
+    "id": "UTIL-00011",
+    "label": "San Mateo Water Tower 60.64 psi @ 1258.1 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4555,
+    "lon": -117.615
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-26T20:00:00+00:00",
+    "id": "UTIL-00012",
+    "label": "22-Area Substation 5.263 MW @ 11.88 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3712,
+    "lon": -117.531
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-26T20:00:00+00:00",
+    "id": "UTIL-00013",
+    "label": "43-Area Substation 3.721 MW @ 12.21 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.301,
+    "lon": -117.448
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-26T20:00:00+00:00",
+    "id": "UTIL-00014",
+    "label": "NFTI Fuel Depot inv 193689 gal",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.245,
+    "lon": -117.414
+  },
+  {
+    "stream": "massnotify",
+    "ts_iso": "2026-04-26T20:00:00+00:00",
+    "id": "MASS-0000",
+    "label": "[TEST] Daily AtHoc test broadcast \u2014 no action required.",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3858,
+    "lon": -117.5631
+  },
+  {
+    "stream": "weather",
+    "ts_iso": "2026-04-26T20:00:00+00:00",
+    "id": "WX-002",
+    "label": "Wind 6.09 m/s from 180.0 deg, 24.75 C, RH 48.3%, precip 0.0 mm/h",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3858,
+    "lon": -117.5631
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-26T20:07:00+00:00",
+    "id": "RF-00009",
+    "label": "wifi-client STA-CO-IPHONE :: -54.9 dBm :: CO iPhone (corp WiFi)",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.39331560238147,
+    "lon": -117.57883072086568
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-26T20:18:00+00:00",
+    "id": "RF-00011",
+    "label": "bt-beacon BTLE-FIRESTA-1 :: -67.4 dBm :: Engine Co 1 BLE asset tag",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.37091710924004,
+    "lon": -117.54911495577669
+  },
+  {
+    "stream": "ems",
+    "ts_iso": "2026-04-26T20:22:15.681064+00:00",
+    "id": "EMS-00013",
+    "label": "PMO Patrol 7 :: P3 :: Domestic \u2014 verbal",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2504750500229,
+    "lon": -117.41579863547861
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-26T20:25:00+00:00",
+    "id": "RF-00010",
+    "label": "wifi-ap WAP-MAINSIDE-001 :: -52.6 dBm :: BSS-MAINSIDE",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.418507008814835,
+    "lon": -117.53979801907523
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-26T21:00:00+00:00",
+    "id": "GATE-00015",
+    "label": "Main Gate (Vandegrift) ingress 180 / egress 131",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2284,
+    "lon": -117.3893
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-26T21:00:00+00:00",
+    "id": "GATE-00016",
+    "label": "San Luis Rey Gate ingress 44 / egress 32",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.24,
+    "lon": -117.4192
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-26T21:00:00+00:00",
+    "id": "GATE-00017",
+    "label": "Las Pulgas Gate ingress 75 / egress 69",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.347,
+    "lon": -117.503
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-26T21:00:00+00:00",
+    "id": "GATE-00018",
+    "label": "Del Mar Gate ingress 40 / egress 31",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2503,
+    "lon": -117.435
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-26T21:00:00+00:00",
+    "id": "GATE-00019",
+    "label": "Cristianitos Gate ingress 37 / egress 27",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4622,
+    "lon": -117.5917
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-26T21:00:00+00:00",
+    "id": "UTIL-00015",
+    "label": "Mainside Water Tower 66.64 psi @ 1015.7 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.385,
+    "lon": -117.564
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-26T21:00:00+00:00",
+    "id": "UTIL-00016",
+    "label": "San Mateo Water Tower 62.76 psi @ 976.3 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4555,
+    "lon": -117.615
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-26T21:00:00+00:00",
+    "id": "UTIL-00017",
+    "label": "22-Area Substation 8.796 MW @ 12.05 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3712,
+    "lon": -117.531
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-26T21:00:00+00:00",
+    "id": "UTIL-00018",
+    "label": "43-Area Substation 4.81 MW @ 12.01 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.301,
+    "lon": -117.448
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-26T21:00:00+00:00",
+    "id": "UTIL-00019",
+    "label": "NFTI Fuel Depot inv 185810 gal",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.245,
+    "lon": -117.414
+  },
+  {
+    "stream": "weather",
+    "ts_iso": "2026-04-26T21:00:00+00:00",
+    "id": "WX-003",
+    "label": "Wind 4.77 m/s from 180.0 deg, 24.1 C, RH 47.9%, precip 0.0 mm/h",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3858,
+    "lon": -117.5631
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-26T21:08:00+00:00",
+    "id": "RF-00014",
+    "label": "wifi-ap WAP-MAINSIDE-001 :: -52.6 dBm :: BSS-MAINSIDE",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.376130585455826,
+    "lon": -117.5865712373965
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-26T21:31:00+00:00",
+    "id": "RF-00013",
+    "label": "wifi-ap WAP-SANMATEO-014 :: -58.0 dBm :: BSS-SAN-MATEO",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.40139517133216,
+    "lon": -117.52729422662533
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-26T21:46:00+00:00",
+    "id": "RF-00012",
+    "label": "wifi-client STA-44119 :: -61.0 dBm :: 1st Recon HMMWV-44119 telematics",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.41387133274003,
+    "lon": -117.57824105233628
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-26T21:57:00+00:00",
+    "id": "RF-00015",
+    "label": "bt-beacon BTLE-FIRESTA-1 :: -64.4 dBm :: Engine Co 1 BLE asset tag",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.40151867828458,
+    "lon": -117.53640702510395
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-26T22:00:00+00:00",
+    "id": "GATE-00020",
+    "label": "Main Gate (Vandegrift) ingress 53 / egress 50",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2284,
+    "lon": -117.3893
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-26T22:00:00+00:00",
+    "id": "GATE-00021",
+    "label": "San Luis Rey Gate ingress 89 / egress 65",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.24,
+    "lon": -117.4192
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-26T22:00:00+00:00",
+    "id": "GATE-00022",
+    "label": "Las Pulgas Gate ingress 58 / egress 41",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.347,
+    "lon": -117.503
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-26T22:00:00+00:00",
+    "id": "GATE-00023",
+    "label": "Del Mar Gate ingress 30 / egress 22",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2503,
+    "lon": -117.435
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-26T22:00:00+00:00",
+    "id": "GATE-00024",
+    "label": "Cristianitos Gate ingress 42 / egress 45",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4622,
+    "lon": -117.5917
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-26T22:00:00+00:00",
+    "id": "UTIL-00020",
+    "label": "Mainside Water Tower 77.83 psi @ 1239.9 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.385,
+    "lon": -117.564
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-26T22:00:00+00:00",
+    "id": "UTIL-00021",
+    "label": "San Mateo Water Tower 65.43 psi @ 848.9 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4555,
+    "lon": -117.615
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-26T22:00:00+00:00",
+    "id": "UTIL-00022",
+    "label": "22-Area Substation 4.935 MW @ 12.01 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3712,
+    "lon": -117.531
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-26T22:00:00+00:00",
+    "id": "UTIL-00023",
+    "label": "43-Area Substation 5.282 MW @ 11.84 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.301,
+    "lon": -117.448
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-26T22:00:00+00:00",
+    "id": "UTIL-00024",
+    "label": "NFTI Fuel Depot inv 199975 gal",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.245,
+    "lon": -117.414
+  },
+  {
+    "stream": "weather",
+    "ts_iso": "2026-04-26T22:00:00+00:00",
+    "id": "WX-004",
+    "label": "Wind 6.32 m/s from 180.0 deg, 23.22 C, RH 49.6%, precip 0.0 mm/h",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3858,
+    "lon": -117.5631
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-26T22:00:00+00:00",
+    "id": "RF-00017",
+    "label": "wifi-ap WAP-MAINSIDE-001 :: -49.8 dBm :: BSS-MAINSIDE",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.368802221986016,
+    "lon": -117.59781209799853
+  },
+  {
+    "stream": "firms",
+    "ts_iso": "2026-04-26T22:00:00+00:00",
+    "id": "FIRMS-0001",
+    "label": "VIIRS-SNPP thermal br 308.5 K, FRP 0.74 MW (nominal)",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.368460874247006,
+    "lon": -117.51711131299162
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-26T22:15:00+00:00",
+    "id": "RF-00020",
+    "label": "wifi-client STA-44119 :: -62.5 dBm :: 1st Recon HMMWV-44119 telematics",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.37597254728055,
+    "lon": -117.57279496692082
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-26T22:29:00+00:00",
+    "id": "RF-00019",
+    "label": "wifi-client STA-CO-IPHONE :: -56.9 dBm :: CO iPhone (corp WiFi)",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.36887165220116,
+    "lon": -117.54461856440044
+  },
+  {
+    "stream": "ems",
+    "ts_iso": "2026-04-26T22:30:10.493946+00:00",
+    "id": "EMS-00010",
+    "label": "Medic 2 (Naval Hospital) :: P2 :: Heat exhaustion",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3740627827035,
+    "lon": -117.5499633819508
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-26T22:44:00+00:00",
+    "id": "RF-00016",
+    "label": "wifi-client STA-CO-IPHONE :: -52.9 dBm :: CO iPhone (corp WiFi)",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.42064708451094,
+    "lon": -117.53922811031595
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-26T22:57:00+00:00",
+    "id": "RF-00018",
+    "label": "wifi-ap WAP-MAINSIDE-001 :: -54.3 dBm :: BSS-MAINSIDE",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.41051370231098,
+    "lon": -117.53091079440685
+  },
+  {
+    "stream": "drone_rf",
+    "ts_iso": "2026-04-26T22:59:00+00:00",
+    "id": "DRONE-0000",
+    "label": "DJI-OcuSync3 DJI/Phantom 4 alt 58.0 m RID REG-288809",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.376116838895136,
+    "lon": -117.57938181060032
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-26T23:00:00+00:00",
+    "id": "GATE-00025",
+    "label": "Main Gate (Vandegrift) ingress 204 / egress 162",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2284,
+    "lon": -117.3893
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-26T23:00:00+00:00",
+    "id": "GATE-00026",
+    "label": "San Luis Rey Gate ingress 181 / egress 173",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.24,
+    "lon": -117.4192
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-26T23:00:00+00:00",
+    "id": "GATE-00027",
+    "label": "Las Pulgas Gate ingress 52 / egress 39",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.347,
+    "lon": -117.503
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-26T23:00:00+00:00",
+    "id": "GATE-00028",
+    "label": "Del Mar Gate ingress 77 / egress 75",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2503,
+    "lon": -117.435
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-26T23:00:00+00:00",
+    "id": "GATE-00029",
+    "label": "Cristianitos Gate ingress 25 / egress 22",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4622,
+    "lon": -117.5917
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-26T23:00:00+00:00",
+    "id": "UTIL-00025",
+    "label": "Mainside Water Tower 63.69 psi @ 818.2 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.385,
+    "lon": -117.564
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-26T23:00:00+00:00",
+    "id": "UTIL-00026",
+    "label": "San Mateo Water Tower 69.44 psi @ 1107.7 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4555,
+    "lon": -117.615
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-26T23:00:00+00:00",
+    "id": "UTIL-00027",
+    "label": "22-Area Substation 5.475 MW @ 11.81 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3712,
+    "lon": -117.531
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-26T23:00:00+00:00",
+    "id": "UTIL-00028",
+    "label": "43-Area Substation 4.779 MW @ 11.96 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.301,
+    "lon": -117.448
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-26T23:00:00+00:00",
+    "id": "UTIL-00029",
+    "label": "NFTI Fuel Depot inv 184875 gal",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.245,
+    "lon": -117.414
+  },
+  {
+    "stream": "weather",
+    "ts_iso": "2026-04-26T23:00:00+00:00",
+    "id": "WX-005",
+    "label": "Wind 6.6 m/s from 180.0 deg, 22.67 C, RH 52.9%, precip 0.175 mm/h",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3858,
+    "lon": -117.5631
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-26T23:15:00+00:00",
+    "id": "RF-00021",
+    "label": "wifi-client STA-CO-IPHONE :: -55.5 dBm :: CO iPhone (corp WiFi)",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.34785423953315,
+    "lon": -117.57545132615607
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-26T23:18:00+00:00",
+    "id": "RF-00024",
+    "label": "wifi-client STA-CO-IPHONE :: -57.6 dBm :: CO iPhone (corp WiFi)",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.362159073537676,
+    "lon": -117.52720230064267
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-26T23:26:00+00:00",
+    "id": "RF-00025",
+    "label": "bt-beacon BTLE-FIRESTA-1 :: -69.5 dBm :: Engine Co 1 BLE asset tag",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.35484260704159,
+    "lon": -117.5332031787053
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-26T23:37:00+00:00",
+    "id": "RF-00022",
+    "label": "wifi-client STA-44119 :: -67.9 dBm :: 1st Recon HMMWV-44119 telematics",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.42522673418862,
+    "lon": -117.58966440675678
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-26T23:43:00+00:00",
+    "id": "RF-00023",
+    "label": "bt-beacon BTLE-FIRESTA-1 :: -70.6 dBm :: Engine Co 1 BLE asset tag",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3544079150364,
+    "lon": -117.60150230640417
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T00:00:00+00:00",
+    "id": "GATE-00030",
+    "label": "Main Gate (Vandegrift) ingress 101 / egress 78",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2284,
+    "lon": -117.3893
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T00:00:00+00:00",
+    "id": "GATE-00031",
+    "label": "San Luis Rey Gate ingress 196 / egress 160",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.24,
+    "lon": -117.4192
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T00:00:00+00:00",
+    "id": "GATE-00032",
+    "label": "Las Pulgas Gate ingress 92 / egress 80",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.347,
+    "lon": -117.503
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T00:00:00+00:00",
+    "id": "GATE-00033",
+    "label": "Del Mar Gate ingress 44 / egress 42",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2503,
+    "lon": -117.435
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T00:00:00+00:00",
+    "id": "GATE-00034",
+    "label": "Cristianitos Gate ingress 61 / egress 63",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4622,
+    "lon": -117.5917
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T00:00:00+00:00",
+    "id": "UTIL-00030",
+    "label": "Mainside Water Tower 65.44 psi @ 1183.4 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.385,
+    "lon": -117.564
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T00:00:00+00:00",
+    "id": "UTIL-00031",
+    "label": "San Mateo Water Tower 70.65 psi @ 1277.1 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4555,
+    "lon": -117.615
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T00:00:00+00:00",
+    "id": "UTIL-00032",
+    "label": "22-Area Substation 6.56 MW @ 12.28 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3712,
+    "lon": -117.531
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T00:00:00+00:00",
+    "id": "UTIL-00033",
+    "label": "43-Area Substation 2.4 MW @ 11.8 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.301,
+    "lon": -117.448
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T00:00:00+00:00",
+    "id": "UTIL-00034",
+    "label": "NFTI Fuel Depot inv 214196 gal",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.245,
+    "lon": -117.414
+  },
+  {
+    "stream": "weather",
+    "ts_iso": "2026-04-27T00:00:00+00:00",
+    "id": "WX-006",
+    "label": "Wind 6.98 m/s from 180.0 deg, 20.28 C, RH 47.6%, precip 0.249 mm/h",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3858,
+    "lon": -117.5631
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T00:10:00+00:00",
+    "id": "RF-00026",
+    "label": "wifi-client STA-CO-IPHONE :: -58.4 dBm :: CO iPhone (corp WiFi)",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.411888161226585,
+    "lon": -117.54763723339447
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T00:40:00+00:00",
+    "id": "RF-00029",
+    "label": "wifi-ap WAP-MAINSIDE-001 :: -50.4 dBm :: BSS-MAINSIDE",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3681746193576,
+    "lon": -117.54102500800474
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T00:46:00+00:00",
+    "id": "RF-00027",
+    "label": "bt-beacon BTLE-FIRESTA-1 :: -65.7 dBm :: Engine Co 1 BLE asset tag",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.420590241870265,
+    "lon": -117.58491921526883
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T00:57:00+00:00",
+    "id": "RF-00028",
+    "label": "wifi-client STA-44119 :: -60.8 dBm :: 1st Recon HMMWV-44119 telematics",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.37598772391937,
+    "lon": -117.55824300920062
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T01:00:00+00:00",
+    "id": "GATE-00035",
+    "label": "Main Gate (Vandegrift) ingress 72 / egress 70",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2284,
+    "lon": -117.3893
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T01:00:00+00:00",
+    "id": "GATE-00036",
+    "label": "San Luis Rey Gate ingress 168 / egress 119",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.24,
+    "lon": -117.4192
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T01:00:00+00:00",
+    "id": "GATE-00037",
+    "label": "Las Pulgas Gate ingress 130 / egress 140",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.347,
+    "lon": -117.503
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T01:00:00+00:00",
+    "id": "GATE-00038",
+    "label": "Del Mar Gate ingress 77 / egress 78",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2503,
+    "lon": -117.435
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T01:00:00+00:00",
+    "id": "GATE-00039",
+    "label": "Cristianitos Gate ingress 29 / egress 24",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4622,
+    "lon": -117.5917
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T01:00:00+00:00",
+    "id": "UTIL-00035",
+    "label": "Mainside Water Tower 72.01 psi @ 1094.6 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.385,
+    "lon": -117.564
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T01:00:00+00:00",
+    "id": "UTIL-00036",
+    "label": "San Mateo Water Tower 61.36 psi @ 1318.9 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4555,
+    "lon": -117.615
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T01:00:00+00:00",
+    "id": "UTIL-00037",
+    "label": "22-Area Substation 7.353 MW @ 12.12 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3712,
+    "lon": -117.531
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T01:00:00+00:00",
+    "id": "UTIL-00038",
+    "label": "43-Area Substation 4.637 MW @ 11.72 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.301,
+    "lon": -117.448
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T01:00:00+00:00",
+    "id": "UTIL-00039",
+    "label": "NFTI Fuel Depot inv 220177 gal",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.245,
+    "lon": -117.414
+  },
+  {
+    "stream": "weather",
+    "ts_iso": "2026-04-27T01:00:00+00:00",
+    "id": "WX-007",
+    "label": "Wind 3.97 m/s from 180.0 deg, 20.23 C, RH 52.4%, precip 0.0 mm/h",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3858,
+    "lon": -117.5631
+  },
+  {
+    "stream": "ems",
+    "ts_iso": "2026-04-27T01:09:24.555432+00:00",
+    "id": "EMS-00011",
+    "label": "Engine Company 1 (Mainside) :: P3 :: Vehicle fire (POV) \u2014 extinguished",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.382481632193056,
+    "lon": -117.56555802446321
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T01:12:00+00:00",
+    "id": "RF-00032",
+    "label": "bt-beacon BTLE-FIRESTA-1 :: -66.3 dBm :: Engine Co 1 BLE asset tag",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.41713344580544,
+    "lon": -117.55773528954421
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T01:18:00+00:00",
+    "id": "RF-00031",
+    "label": "wifi-client STA-44119 :: -66.0 dBm :: 1st Recon HMMWV-44119 telematics",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.35371538458471,
+    "lon": -117.5427152844988
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T01:43:00+00:00",
+    "id": "RF-00030",
+    "label": "wifi-ap WAP-SANMATEO-014 :: -57.4 dBm :: BSS-SAN-MATEO",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.39441010996325,
+    "lon": -117.55735409173191
+  },
+  {
+    "stream": "ems",
+    "ts_iso": "2026-04-27T01:50:18.795054+00:00",
+    "id": "EMS-00000",
+    "label": "Medic 2 (Naval Hospital) :: P2 :: Chest pain",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.378305963410035,
+    "lon": -117.54436511582185
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T02:00:00+00:00",
+    "id": "GATE-00040",
+    "label": "Main Gate (Vandegrift) ingress 214 / egress 189",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2284,
+    "lon": -117.3893
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T02:00:00+00:00",
+    "id": "GATE-00041",
+    "label": "San Luis Rey Gate ingress 108 / egress 100",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.24,
+    "lon": -117.4192
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T02:00:00+00:00",
+    "id": "GATE-00042",
+    "label": "Las Pulgas Gate ingress 48 / egress 50",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.347,
+    "lon": -117.503
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T02:00:00+00:00",
+    "id": "GATE-00043",
+    "label": "Del Mar Gate ingress 34 / egress 24",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2503,
+    "lon": -117.435
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T02:00:00+00:00",
+    "id": "GATE-00044",
+    "label": "Cristianitos Gate ingress 7 / egress 5",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4622,
+    "lon": -117.5917
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T02:00:00+00:00",
+    "id": "UTIL-00040",
+    "label": "Mainside Water Tower 69.61 psi @ 918.8 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.385,
+    "lon": -117.564
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T02:00:00+00:00",
+    "id": "UTIL-00041",
+    "label": "San Mateo Water Tower 66.4 psi @ 825.9 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4555,
+    "lon": -117.615
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T02:00:00+00:00",
+    "id": "UTIL-00042",
+    "label": "22-Area Substation 5.361 MW @ 11.78 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3712,
+    "lon": -117.531
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T02:00:00+00:00",
+    "id": "UTIL-00043",
+    "label": "43-Area Substation 3.775 MW @ 12.26 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.301,
+    "lon": -117.448
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T02:00:00+00:00",
+    "id": "UTIL-00044",
+    "label": "NFTI Fuel Depot inv 211048 gal",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.245,
+    "lon": -117.414
+  },
+  {
+    "stream": "massnotify",
+    "ts_iso": "2026-04-27T02:00:00+00:00",
+    "id": "MASS-0001",
+    "label": "[ADVISORY] Family housing area water-system flushing 0900-1100; brief discoloration possible.",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3858,
+    "lon": -117.5631
+  },
+  {
+    "stream": "weather",
+    "ts_iso": "2026-04-27T02:00:00+00:00",
+    "id": "WX-008",
+    "label": "Wind 5.98 m/s from 180.0 deg, 17.29 C, RH 50.8%, precip 0.0 mm/h",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3858,
+    "lon": -117.5631
+  },
+  {
+    "stream": "firms",
+    "ts_iso": "2026-04-27T02:00:00+00:00",
+    "id": "FIRMS-0002",
+    "label": "VIIRS-SNPP thermal br 304.6 K, FRP 1.0 MW (low)",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.36593472173512,
+    "lon": -117.61281636414577
+  },
+  {
+    "stream": "ems",
+    "ts_iso": "2026-04-27T02:14:14.665290+00:00",
+    "id": "EMS-00001",
+    "label": "Medic 2 (Naval Hospital) :: P2 :: Sports injury \u2014 ankle fx",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.37260783387708,
+    "lon": -117.54134773222856
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T02:24:00+00:00",
+    "id": "RF-00034",
+    "label": "wifi-ap WAP-MAINSIDE-001 :: -52.3 dBm :: BSS-MAINSIDE",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.396316391322294,
+    "lon": -117.60238570458534
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T02:27:00+00:00",
+    "id": "RF-00035",
+    "label": "wifi-client STA-CO-IPHONE :: -51.4 dBm :: CO iPhone (corp WiFi)",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.407776681950324,
+    "lon": -117.59843397866419
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T02:34:00+00:00",
+    "id": "RF-00033",
+    "label": "wifi-ap WAP-SANMATEO-014 :: -60.4 dBm :: BSS-SAN-MATEO",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.387295321982535,
+    "lon": -117.5816069698012
+  },
+  {
+    "stream": "ems",
+    "ts_iso": "2026-04-27T02:44:41.109729+00:00",
+    "id": "EMS-00009",
+    "label": "PMO Patrol 7 :: P3 :: Suspicious vehicle",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.25673559011371,
+    "lon": -117.41869928059846
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T03:00:00+00:00",
+    "id": "GATE-00045",
+    "label": "Main Gate (Vandegrift) ingress 152 / egress 145",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2284,
+    "lon": -117.3893
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T03:00:00+00:00",
+    "id": "GATE-00046",
+    "label": "San Luis Rey Gate ingress 27 / egress 22",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.24,
+    "lon": -117.4192
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T03:00:00+00:00",
+    "id": "GATE-00047",
+    "label": "Las Pulgas Gate ingress 40 / egress 31",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.347,
+    "lon": -117.503
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T03:00:00+00:00",
+    "id": "GATE-00048",
+    "label": "Del Mar Gate ingress 48 / egress 40",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2503,
+    "lon": -117.435
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T03:00:00+00:00",
+    "id": "GATE-00049",
+    "label": "Cristianitos Gate ingress 41 / egress 30",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4622,
+    "lon": -117.5917
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T03:00:00+00:00",
+    "id": "UTIL-00045",
+    "label": "Mainside Water Tower 71.81 psi @ 810.0 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.385,
+    "lon": -117.564
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T03:00:00+00:00",
+    "id": "UTIL-00046",
+    "label": "San Mateo Water Tower 67.32 psi @ 1351.5 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4555,
+    "lon": -117.615
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T03:00:00+00:00",
+    "id": "UTIL-00047",
+    "label": "22-Area Substation 6.827 MW @ 12.1 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3712,
+    "lon": -117.531
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T03:00:00+00:00",
+    "id": "UTIL-00048",
+    "label": "43-Area Substation 2.139 MW @ 11.79 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.301,
+    "lon": -117.448
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T03:00:00+00:00",
+    "id": "UTIL-00049",
+    "label": "NFTI Fuel Depot inv 199013 gal",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.245,
+    "lon": -117.414
+  },
+  {
+    "stream": "weather",
+    "ts_iso": "2026-04-27T03:00:00+00:00",
+    "id": "WX-009",
+    "label": "Wind 3.92 m/s from 180.0 deg, 17.02 C, RH 48.5%, precip 0.0 mm/h",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3858,
+    "lon": -117.5631
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T03:00:00+00:00",
+    "id": "RF-00036",
+    "label": "wifi-ap WAP-SANMATEO-014 :: -59.5 dBm :: BSS-SAN-MATEO",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.377806747517134,
+    "lon": -117.53621749362833
+  },
+  {
+    "stream": "drone_rf",
+    "ts_iso": "2026-04-27T03:05:00+00:00",
+    "id": "DRONE-0001",
+    "label": "Lightbridge DJI/Mini 3 Pro alt 50.9 m RID REG-217754",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.43393219304883,
+    "lon": -117.51479443541689
+  },
+  {
+    "stream": "ems",
+    "ts_iso": "2026-04-27T03:48:36.615240+00:00",
+    "id": "EMS-00012",
+    "label": "Medic 2 (Naval Hospital) :: P3 :: Lift-assist",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3786189438948,
+    "lon": -117.53213493794777
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T03:51:00+00:00",
+    "id": "RF-00037",
+    "label": "wifi-client STA-44119 :: -63.3 dBm :: 1st Recon HMMWV-44119 telematics",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.404617560676584,
+    "lon": -117.5467851787434
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T03:54:00+00:00",
+    "id": "RF-00038",
+    "label": "wifi-client STA-44119 :: -63.0 dBm :: 1st Recon HMMWV-44119 telematics",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.383675129076785,
+    "lon": -117.56978699162796
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T04:00:00+00:00",
+    "id": "GATE-00050",
+    "label": "Main Gate (Vandegrift) ingress 100 / egress 80",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2284,
+    "lon": -117.3893
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T04:00:00+00:00",
+    "id": "GATE-00051",
+    "label": "San Luis Rey Gate ingress 48 / egress 42",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.24,
+    "lon": -117.4192
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T04:00:00+00:00",
+    "id": "GATE-00052",
+    "label": "Las Pulgas Gate ingress 27 / egress 26",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.347,
+    "lon": -117.503
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T04:00:00+00:00",
+    "id": "GATE-00053",
+    "label": "Del Mar Gate ingress 13 / egress 9",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2503,
+    "lon": -117.435
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T04:00:00+00:00",
+    "id": "GATE-00054",
+    "label": "Cristianitos Gate ingress 32 / egress 27",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4622,
+    "lon": -117.5917
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T04:00:00+00:00",
+    "id": "UTIL-00050",
+    "label": "Mainside Water Tower 70.86 psi @ 1267.5 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.385,
+    "lon": -117.564
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T04:00:00+00:00",
+    "id": "UTIL-00051",
+    "label": "San Mateo Water Tower 58.4 psi @ 1270.5 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4555,
+    "lon": -117.615
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T04:00:00+00:00",
+    "id": "UTIL-00052",
+    "label": "22-Area Substation 8.443 MW @ 11.89 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3712,
+    "lon": -117.531
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T04:00:00+00:00",
+    "id": "UTIL-00053",
+    "label": "43-Area Substation 4.409 MW @ 12.19 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.301,
+    "lon": -117.448
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T04:00:00+00:00",
+    "id": "UTIL-00054",
+    "label": "NFTI Fuel Depot inv 219333 gal",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.245,
+    "lon": -117.414
+  },
+  {
+    "stream": "weather",
+    "ts_iso": "2026-04-27T04:00:00+00:00",
+    "id": "WX-010",
+    "label": "Wind 5.17 m/s from 180.0 deg, 14.35 C, RH 51.9%, precip 0.0 mm/h",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3858,
+    "lon": -117.5631
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T04:01:00+00:00",
+    "id": "RF-00039",
+    "label": "wifi-ap WAP-SANMATEO-014 :: -56.1 dBm :: BSS-SAN-MATEO",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.39322803449127,
+    "lon": -117.5815796125535
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T04:03:00+00:00",
+    "id": "RF-00043",
+    "label": "wifi-client STA-44119 :: -62.4 dBm :: 1st Recon HMMWV-44119 telematics",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.400079462643205,
+    "lon": -117.55906709978538
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T04:05:00+00:00",
+    "id": "RF-00040",
+    "label": "wifi-client STA-44119 :: -66.9 dBm :: 1st Recon HMMWV-44119 telematics",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.34849945051583,
+    "lon": -117.56190706232672
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T04:25:00+00:00",
+    "id": "RF-00041",
+    "label": "wifi-client STA-CO-IPHONE :: -51.4 dBm :: CO iPhone (corp WiFi)",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.41652017934675,
+    "lon": -117.57583326621992
+  },
+  {
+    "stream": "ems",
+    "ts_iso": "2026-04-27T04:32:43.000997+00:00",
+    "id": "EMS-00016",
+    "label": "Medic 2 (Naval Hospital) :: P3 :: Pediatric fever",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.36389786159319,
+    "lon": -117.53580341710617
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T04:45:00+00:00",
+    "id": "RF-00042",
+    "label": "wifi-client STA-CO-IPHONE :: -58.9 dBm :: CO iPhone (corp WiFi)",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.35709633647284,
+    "lon": -117.58508616933773
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T05:00:00+00:00",
+    "id": "GATE-00055",
+    "label": "Main Gate (Vandegrift) ingress 109 / egress 112",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2284,
+    "lon": -117.3893
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T05:00:00+00:00",
+    "id": "GATE-00056",
+    "label": "San Luis Rey Gate ingress 76 / egress 66",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.24,
+    "lon": -117.4192
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T05:00:00+00:00",
+    "id": "GATE-00057",
+    "label": "Las Pulgas Gate ingress 73 / egress 56",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.347,
+    "lon": -117.503
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T05:00:00+00:00",
+    "id": "GATE-00058",
+    "label": "Del Mar Gate ingress 42 / egress 41",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2503,
+    "lon": -117.435
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T05:00:00+00:00",
+    "id": "GATE-00059",
+    "label": "Cristianitos Gate ingress 37 / egress 35",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4622,
+    "lon": -117.5917
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T05:00:00+00:00",
+    "id": "UTIL-00055",
+    "label": "Mainside Water Tower 63.24 psi @ 869.5 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.385,
+    "lon": -117.564
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T05:00:00+00:00",
+    "id": "UTIL-00056",
+    "label": "San Mateo Water Tower 67.89 psi @ 864.7 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4555,
+    "lon": -117.615
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T05:00:00+00:00",
+    "id": "UTIL-00057",
+    "label": "22-Area Substation 8.47 MW @ 12.18 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3712,
+    "lon": -117.531
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T05:00:00+00:00",
+    "id": "UTIL-00058",
+    "label": "43-Area Substation 5.353 MW @ 11.73 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.301,
+    "lon": -117.448
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T05:00:00+00:00",
+    "id": "UTIL-00059",
+    "label": "NFTI Fuel Depot inv 237881 gal",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.245,
+    "lon": -117.414
+  },
+  {
+    "stream": "weather",
+    "ts_iso": "2026-04-27T05:00:00+00:00",
+    "id": "WX-011",
+    "label": "Wind 5.04 m/s from 180.0 deg, 13.38 C, RH 47.3%, precip 0.171 mm/h",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3858,
+    "lon": -117.5631
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T05:07:00+00:00",
+    "id": "RF-00044",
+    "label": "wifi-client STA-CO-IPHONE :: -52.6 dBm :: CO iPhone (corp WiFi)",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.42047838460666,
+    "lon": -117.59936120601601
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T05:09:00+00:00",
+    "id": "RF-00045",
+    "label": "wifi-client STA-44119 :: -64.6 dBm :: 1st Recon HMMWV-44119 telematics",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.35721032312843,
+    "lon": -117.56646976165162
+  },
+  {
+    "stream": "ems",
+    "ts_iso": "2026-04-27T05:10:52.958020+00:00",
+    "id": "EMS-00006",
+    "label": "PMO Patrol 7 :: P3 :: Traffic stop \u2014 admin",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.251667900903826,
+    "lon": -117.42070621599989
+  },
+  {
+    "stream": "ems",
+    "ts_iso": "2026-04-27T05:48:16.374773+00:00",
+    "id": "EMS-00007",
+    "label": "Medic 2 (Naval Hospital) :: P3 :: Migraine",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.371985800529586,
+    "lon": -117.53528104129632
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T05:57:00+00:00",
+    "id": "RF-00046",
+    "label": "bt-beacon BTLE-FIRESTA-1 :: -68.7 dBm :: Engine Co 1 BLE asset tag",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.38596242811495,
+    "lon": -117.53787889567624
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T06:00:00+00:00",
+    "id": "GATE-00060",
+    "label": "Main Gate (Vandegrift) ingress 53 / egress 37",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2284,
+    "lon": -117.3893
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T06:00:00+00:00",
+    "id": "GATE-00061",
+    "label": "San Luis Rey Gate ingress 11 / egress 8",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.24,
+    "lon": -117.4192
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T06:00:00+00:00",
+    "id": "GATE-00062",
+    "label": "Las Pulgas Gate ingress 10 / egress 9",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.347,
+    "lon": -117.503
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T06:00:00+00:00",
+    "id": "GATE-00063",
+    "label": "Del Mar Gate ingress 12 / egress 12",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2503,
+    "lon": -117.435
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T06:00:00+00:00",
+    "id": "GATE-00064",
+    "label": "Cristianitos Gate ingress 9 / egress 9",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4622,
+    "lon": -117.5917
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T06:00:00+00:00",
+    "id": "UTIL-00060",
+    "label": "Mainside Water Tower 64.19 psi @ 1046.1 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.385,
+    "lon": -117.564
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T06:00:00+00:00",
+    "id": "UTIL-00061",
+    "label": "San Mateo Water Tower 73.85 psi @ 932.2 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4555,
+    "lon": -117.615
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T06:00:00+00:00",
+    "id": "UTIL-00062",
+    "label": "22-Area Substation 6.954 MW @ 12.05 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3712,
+    "lon": -117.531
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T06:00:00+00:00",
+    "id": "UTIL-00063",
+    "label": "43-Area Substation 2.768 MW @ 11.83 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.301,
+    "lon": -117.448
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T06:00:00+00:00",
+    "id": "UTIL-00064",
+    "label": "NFTI Fuel Depot inv 211001 gal",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.245,
+    "lon": -117.414
+  },
+  {
+    "stream": "weather",
+    "ts_iso": "2026-04-27T06:00:00+00:00",
+    "id": "WX-012",
+    "label": "Wind 3.91 m/s from 180.0 deg, 13.05 C, RH 49.5%, precip 0.0 mm/h",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3858,
+    "lon": -117.5631
+  },
+  {
+    "stream": "firms",
+    "ts_iso": "2026-04-27T06:00:00+00:00",
+    "id": "FIRMS-0003",
+    "label": "VIIRS-SNPP thermal br 306.5 K, FRP 0.6 MW (low)",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.36156354773841,
+    "lon": -117.61138049468795
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T06:06:00+00:00",
+    "id": "RF-00048",
+    "label": "bt-beacon BTLE-FIRESTA-1 :: -66.4 dBm :: Engine Co 1 BLE asset tag",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.358972634753755,
+    "lon": -117.57064699886222
+  },
+  {
+    "stream": "ems",
+    "ts_iso": "2026-04-27T06:07:52.413012+00:00",
+    "id": "EMS-00002",
+    "label": "Engine Company 1 (Mainside) :: P3 :: Brush fire \u2014 small, suppressed by Engine Co 3",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.37973088130522,
+    "lon": -117.55738291596599
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T06:21:00+00:00",
+    "id": "RF-00051",
+    "label": "wifi-client STA-44119 :: -63.5 dBm :: 1st Recon HMMWV-44119 telematics",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.400484450363045,
+    "lon": -117.56965906886212
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T06:52:00+00:00",
+    "id": "RF-00047",
+    "label": "wifi-ap WAP-MAINSIDE-001 :: -55.4 dBm :: BSS-MAINSIDE",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.382115641715174,
+    "lon": -117.57018669008762
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T06:52:00+00:00",
+    "id": "RF-00049",
+    "label": "bt-beacon BTLE-FIRESTA-1 :: -71.6 dBm :: Engine Co 1 BLE asset tag",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3733983781831,
+    "lon": -117.53509654286339
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T06:56:00+00:00",
+    "id": "RF-00050",
+    "label": "wifi-ap WAP-MAINSIDE-001 :: -52.1 dBm :: BSS-MAINSIDE",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.35115386235625,
+    "lon": -117.53860262477819
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T07:00:00+00:00",
+    "id": "GATE-00065",
+    "label": "Main Gate (Vandegrift) ingress 54 / egress 50",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2284,
+    "lon": -117.3893
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T07:00:00+00:00",
+    "id": "GATE-00066",
+    "label": "San Luis Rey Gate ingress 16 / egress 15",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.24,
+    "lon": -117.4192
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T07:00:00+00:00",
+    "id": "GATE-00067",
+    "label": "Las Pulgas Gate ingress 27 / egress 25",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.347,
+    "lon": -117.503
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T07:00:00+00:00",
+    "id": "GATE-00068",
+    "label": "Del Mar Gate ingress 18 / egress 16",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2503,
+    "lon": -117.435
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T07:00:00+00:00",
+    "id": "GATE-00069",
+    "label": "Cristianitos Gate ingress 7 / egress 7",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4622,
+    "lon": -117.5917
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T07:00:00+00:00",
+    "id": "UTIL-00065",
+    "label": "Mainside Water Tower 75.16 psi @ 1135.4 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.385,
+    "lon": -117.564
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T07:00:00+00:00",
+    "id": "UTIL-00066",
+    "label": "San Mateo Water Tower 69.34 psi @ 817.6 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4555,
+    "lon": -117.615
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T07:00:00+00:00",
+    "id": "UTIL-00067",
+    "label": "22-Area Substation 6.759 MW @ 12.26 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3712,
+    "lon": -117.531
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T07:00:00+00:00",
+    "id": "UTIL-00068",
+    "label": "43-Area Substation 3.425 MW @ 11.96 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.301,
+    "lon": -117.448
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T07:00:00+00:00",
+    "id": "UTIL-00069",
+    "label": "NFTI Fuel Depot inv 197367 gal",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.245,
+    "lon": -117.414
+  },
+  {
+    "stream": "weather",
+    "ts_iso": "2026-04-27T07:00:00+00:00",
+    "id": "WX-013",
+    "label": "Wind 4.81 m/s from 180.0 deg, 11.46 C, RH 47.0%, precip 0.211 mm/h",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3858,
+    "lon": -117.5631
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T07:00:00+00:00",
+    "id": "RF-00054",
+    "label": "wifi-client STA-CO-IPHONE :: -56.7 dBm :: CO iPhone (corp WiFi)",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.34988737127865,
+    "lon": -117.53202970674486
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T07:01:00+00:00",
+    "id": "RF-00052",
+    "label": "wifi-client STA-44119 :: -66.7 dBm :: 1st Recon HMMWV-44119 telematics",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.422410078682624,
+    "lon": -117.52416098851239
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T07:08:00+00:00",
+    "id": "RF-00053",
+    "label": "wifi-client STA-CO-IPHONE :: -55.7 dBm :: CO iPhone (corp WiFi)",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.35774796368174,
+    "lon": -117.55439322509245
+  },
+  {
+    "stream": "drone_rf",
+    "ts_iso": "2026-04-27T07:21:00+00:00",
+    "id": "DRONE-0002",
+    "label": "DJI-OcuSync3 DJI/Mini 3 Pro alt 78.9 m RID REG-307512",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.419807767731726,
+    "lon": -117.50452993204838
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T07:47:00+00:00",
+    "id": "RF-00055",
+    "label": "bt-beacon BTLE-FIRESTA-1 :: -66.3 dBm :: Engine Co 1 BLE asset tag",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.41117401191066,
+    "lon": -117.59869104524005
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T08:00:00+00:00",
+    "id": "GATE-00070",
+    "label": "Main Gate (Vandegrift) ingress 27 / egress 21",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2284,
+    "lon": -117.3893
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T08:00:00+00:00",
+    "id": "GATE-00071",
+    "label": "San Luis Rey Gate ingress 19 / egress 18",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.24,
+    "lon": -117.4192
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T08:00:00+00:00",
+    "id": "GATE-00072",
+    "label": "Las Pulgas Gate ingress 30 / egress 22",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.347,
+    "lon": -117.503
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T08:00:00+00:00",
+    "id": "GATE-00073",
+    "label": "Del Mar Gate ingress 16 / egress 16",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2503,
+    "lon": -117.435
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T08:00:00+00:00",
+    "id": "GATE-00074",
+    "label": "Cristianitos Gate ingress 15 / egress 14",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4622,
+    "lon": -117.5917
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T08:00:00+00:00",
+    "id": "UTIL-00070",
+    "label": "Mainside Water Tower 76.69 psi @ 1020.5 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.385,
+    "lon": -117.564
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T08:00:00+00:00",
+    "id": "UTIL-00071",
+    "label": "San Mateo Water Tower 61.26 psi @ 959.3 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4555,
+    "lon": -117.615
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T08:00:00+00:00",
+    "id": "UTIL-00072",
+    "label": "22-Area Substation 8.257 MW @ 11.98 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3712,
+    "lon": -117.531
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T08:00:00+00:00",
+    "id": "UTIL-00073",
+    "label": "43-Area Substation 2.432 MW @ 12.24 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.301,
+    "lon": -117.448
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T08:00:00+00:00",
+    "id": "UTIL-00074",
+    "label": "NFTI Fuel Depot inv 239271 gal",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.245,
+    "lon": -117.414
+  },
+  {
+    "stream": "massnotify",
+    "ts_iso": "2026-04-27T08:00:00+00:00",
+    "id": "MASS-0002",
+    "label": "[ADVISORY] Las Pulgas range complex live-fire 1300-1700; expect blast noise on Basilone Rd.",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3858,
+    "lon": -117.5631
+  },
+  {
+    "stream": "weather",
+    "ts_iso": "2026-04-27T08:00:00+00:00",
+    "id": "WX-014",
+    "label": "Wind 4.2 m/s from 180.0 deg, 11.45 C, RH 47.7%, precip 0.0 mm/h",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3858,
+    "lon": -117.5631
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T08:07:00+00:00",
+    "id": "RF-00057",
+    "label": "wifi-ap WAP-MAINSIDE-001 :: -48.2 dBm :: BSS-MAINSIDE",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.40651300332584,
+    "lon": -117.59687339778553
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T08:19:00+00:00",
+    "id": "RF-00056",
+    "label": "wifi-ap WAP-MAINSIDE-001 :: -48.5 dBm :: BSS-MAINSIDE",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.36229617021908,
+    "lon": -117.5403095579001
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T08:19:00+00:00",
+    "id": "RF-00059",
+    "label": "bt-beacon BTLE-FIRESTA-1 :: -71.6 dBm :: Engine Co 1 BLE asset tag",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.41899819179535,
+    "lon": -117.59540641262306
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T08:23:00+00:00",
+    "id": "RF-00058",
+    "label": "wifi-client STA-44119 :: -63.0 dBm :: 1st Recon HMMWV-44119 telematics",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.382779184220404,
+    "lon": -117.5628861112881
+  },
+  {
+    "stream": "ems",
+    "ts_iso": "2026-04-27T08:23:39.016610+00:00",
+    "id": "EMS-00008",
+    "label": "Engine Company 1 (Mainside) :: P3 :: Smoke alarm \u2014 burnt toast",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.390407306624546,
+    "lon": -117.55579548384748
+  },
+  {
+    "stream": "ems",
+    "ts_iso": "2026-04-27T08:43:15.744290+00:00",
+    "id": "EMS-00004",
+    "label": "Medic 2 (Naval Hospital) :: P3 :: Slip-fall",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.36268766019436,
+    "lon": -117.54143534299986
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T09:00:00+00:00",
+    "id": "GATE-00075",
+    "label": "Main Gate (Vandegrift) ingress 21 / egress 21",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2284,
+    "lon": -117.3893
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T09:00:00+00:00",
+    "id": "GATE-00076",
+    "label": "San Luis Rey Gate ingress 21 / egress 19",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.24,
+    "lon": -117.4192
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T09:00:00+00:00",
+    "id": "GATE-00077",
+    "label": "Las Pulgas Gate ingress 10 / egress 7",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.347,
+    "lon": -117.503
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T09:00:00+00:00",
+    "id": "GATE-00078",
+    "label": "Del Mar Gate ingress 11 / egress 10",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2503,
+    "lon": -117.435
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T09:00:00+00:00",
+    "id": "GATE-00079",
+    "label": "Cristianitos Gate ingress 5 / egress 4",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4622,
+    "lon": -117.5917
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T09:00:00+00:00",
+    "id": "UTIL-00075",
+    "label": "Mainside Water Tower 71.36 psi @ 1365.3 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.385,
+    "lon": -117.564
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T09:00:00+00:00",
+    "id": "UTIL-00076",
+    "label": "San Mateo Water Tower 59.63 psi @ 916.6 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4555,
+    "lon": -117.615
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T09:00:00+00:00",
+    "id": "UTIL-00077",
+    "label": "22-Area Substation 7.571 MW @ 11.78 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3712,
+    "lon": -117.531
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T09:00:00+00:00",
+    "id": "UTIL-00078",
+    "label": "43-Area Substation 3.125 MW @ 12.01 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.301,
+    "lon": -117.448
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T09:00:00+00:00",
+    "id": "UTIL-00079",
+    "label": "NFTI Fuel Depot inv 208349 gal",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.245,
+    "lon": -117.414
+  },
+  {
+    "stream": "weather",
+    "ts_iso": "2026-04-27T09:00:00+00:00",
+    "id": "WX-015",
+    "label": "Wind 6.95 m/s from 180.0 deg, 12.4 C, RH 51.4%, precip 0.101 mm/h",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3858,
+    "lon": -117.5631
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T09:07:00+00:00",
+    "id": "RF-00061",
+    "label": "bt-beacon BTLE-FIRESTA-1 :: -64.8 dBm :: Engine Co 1 BLE asset tag",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.38119673133329,
+    "lon": -117.55122896210851
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T09:15:00+00:00",
+    "id": "RF-00060",
+    "label": "bt-beacon BTLE-FIRESTA-1 :: -71.6 dBm :: Engine Co 1 BLE asset tag",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.39078857830504,
+    "lon": -117.54793646723651
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T09:40:00+00:00",
+    "id": "RF-00062",
+    "label": "wifi-client STA-CO-IPHONE :: -54.3 dBm :: CO iPhone (corp WiFi)",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.40345868047372,
+    "lon": -117.587571893819
+  },
+  {
+    "stream": "ems",
+    "ts_iso": "2026-04-27T09:52:19.830504+00:00",
+    "id": "EMS-00015",
+    "label": "Engine Company 1 (Mainside) :: P3 :: Range fire \u2014 suppressed",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3826300622457,
+    "lon": -117.55836961436191
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T10:00:00+00:00",
+    "id": "GATE-00080",
+    "label": "Main Gate (Vandegrift) ingress 30 / egress 28",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2284,
+    "lon": -117.3893
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T10:00:00+00:00",
+    "id": "GATE-00081",
+    "label": "San Luis Rey Gate ingress 28 / egress 30",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.24,
+    "lon": -117.4192
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T10:00:00+00:00",
+    "id": "GATE-00082",
+    "label": "Las Pulgas Gate ingress 28 / egress 30",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.347,
+    "lon": -117.503
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T10:00:00+00:00",
+    "id": "GATE-00083",
+    "label": "Del Mar Gate ingress 15 / egress 15",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2503,
+    "lon": -117.435
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T10:00:00+00:00",
+    "id": "GATE-00084",
+    "label": "Cristianitos Gate ingress 6 / egress 5",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4622,
+    "lon": -117.5917
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T10:00:00+00:00",
+    "id": "UTIL-00080",
+    "label": "Mainside Water Tower 62.93 psi @ 888.8 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.385,
+    "lon": -117.564
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T10:00:00+00:00",
+    "id": "UTIL-00081",
+    "label": "San Mateo Water Tower 61.92 psi @ 1203.7 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4555,
+    "lon": -117.615
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T10:00:00+00:00",
+    "id": "UTIL-00082",
+    "label": "22-Area Substation 5.198 MW @ 12.26 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3712,
+    "lon": -117.531
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T10:00:00+00:00",
+    "id": "UTIL-00083",
+    "label": "43-Area Substation 4.3 MW @ 11.95 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.301,
+    "lon": -117.448
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T10:00:00+00:00",
+    "id": "UTIL-00084",
+    "label": "NFTI Fuel Depot inv 194586 gal",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.245,
+    "lon": -117.414
+  },
+  {
+    "stream": "weather",
+    "ts_iso": "2026-04-27T10:00:00+00:00",
+    "id": "WX-016",
+    "label": "Wind 5.24 m/s from 180.0 deg, 11.96 C, RH 52.4%, precip 0.153 mm/h",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3858,
+    "lon": -117.5631
+  },
+  {
+    "stream": "firms",
+    "ts_iso": "2026-04-27T10:00:00+00:00",
+    "id": "FIRMS-0004",
+    "label": "VIIRS-SNPP thermal br 302.2 K, FRP 1.03 MW (low)",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4260258072344,
+    "lon": -117.53356239111483
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T10:15:00+00:00",
+    "id": "RF-00063",
+    "label": "bt-beacon BTLE-FIRESTA-1 :: -71.1 dBm :: Engine Co 1 BLE asset tag",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4212350442349,
+    "lon": -117.5668925980859
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T10:24:00+00:00",
+    "id": "RF-00064",
+    "label": "wifi-ap WAP-MAINSIDE-001 :: -50.2 dBm :: BSS-MAINSIDE",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.39492729932405,
+    "lon": -117.56436997515165
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T10:29:00+00:00",
+    "id": "RF-00065",
+    "label": "wifi-ap WAP-SANMATEO-014 :: -59.9 dBm :: BSS-SAN-MATEO",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.39987455473684,
+    "lon": -117.53159121501957
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T10:38:00+00:00",
+    "id": "RF-00066",
+    "label": "wifi-client STA-CO-IPHONE :: -53.4 dBm :: CO iPhone (corp WiFi)",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.38929730921684,
+    "lon": -117.5485168930568
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T10:41:00+00:00",
+    "id": "RF-00067",
+    "label": "wifi-ap WAP-SANMATEO-014 :: -56.1 dBm :: BSS-SAN-MATEO",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.35153904472328,
+    "lon": -117.54704165012453
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T11:00:00+00:00",
+    "id": "GATE-00085",
+    "label": "Main Gate (Vandegrift) ingress 54 / egress 40",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2284,
+    "lon": -117.3893
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T11:00:00+00:00",
+    "id": "GATE-00086",
+    "label": "San Luis Rey Gate ingress 30 / egress 22",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.24,
+    "lon": -117.4192
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T11:00:00+00:00",
+    "id": "GATE-00087",
+    "label": "Las Pulgas Gate ingress 29 / egress 30",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.347,
+    "lon": -117.503
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T11:00:00+00:00",
+    "id": "GATE-00088",
+    "label": "Del Mar Gate ingress 7 / egress 6",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2503,
+    "lon": -117.435
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T11:00:00+00:00",
+    "id": "GATE-00089",
+    "label": "Cristianitos Gate ingress 5 / egress 3",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4622,
+    "lon": -117.5917
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T11:00:00+00:00",
+    "id": "UTIL-00085",
+    "label": "Mainside Water Tower 65.73 psi @ 1005.7 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.385,
+    "lon": -117.564
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T11:00:00+00:00",
+    "id": "UTIL-00086",
+    "label": "San Mateo Water Tower 66.97 psi @ 1192.2 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4555,
+    "lon": -117.615
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T11:00:00+00:00",
+    "id": "UTIL-00087",
+    "label": "22-Area Substation 8.293 MW @ 11.74 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3712,
+    "lon": -117.531
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T11:00:00+00:00",
+    "id": "UTIL-00088",
+    "label": "43-Area Substation 3.103 MW @ 11.89 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.301,
+    "lon": -117.448
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T11:00:00+00:00",
+    "id": "UTIL-00089",
+    "label": "NFTI Fuel Depot inv 211929 gal",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.245,
+    "lon": -117.414
+  },
+  {
+    "stream": "weather",
+    "ts_iso": "2026-04-27T11:00:00+00:00",
+    "id": "WX-017",
+    "label": "Wind 4.99 m/s from 180.0 deg, 13.61 C, RH 50.3%, precip 0.289 mm/h",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3858,
+    "lon": -117.5631
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T11:14:00+00:00",
+    "id": "RF-00070",
+    "label": "wifi-client STA-CO-IPHONE :: -54.5 dBm :: CO iPhone (corp WiFi)",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.348304986948555,
+    "lon": -117.53356842098033
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T11:30:00+00:00",
+    "id": "RF-00069",
+    "label": "wifi-ap WAP-SANMATEO-014 :: -60.8 dBm :: BSS-SAN-MATEO",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.389431732530134,
+    "lon": -117.5978502497624
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T11:53:00+00:00",
+    "id": "RF-00071",
+    "label": "wifi-ap WAP-SANMATEO-014 :: -57.6 dBm :: BSS-SAN-MATEO",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.37416613160195,
+    "lon": -117.57112994637072
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T11:57:00+00:00",
+    "id": "RF-00068",
+    "label": "wifi-client STA-CO-IPHONE :: -55.9 dBm :: CO iPhone (corp WiFi)",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.417896442353026,
+    "lon": -117.54449957850318
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T12:00:00+00:00",
+    "id": "GATE-00090",
+    "label": "Main Gate (Vandegrift) ingress 51 / egress 45",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2284,
+    "lon": -117.3893
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T12:00:00+00:00",
+    "id": "GATE-00091",
+    "label": "San Luis Rey Gate ingress 41 / egress 29",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.24,
+    "lon": -117.4192
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T12:00:00+00:00",
+    "id": "GATE-00092",
+    "label": "Las Pulgas Gate ingress 16 / egress 14",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.347,
+    "lon": -117.503
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T12:00:00+00:00",
+    "id": "GATE-00093",
+    "label": "Del Mar Gate ingress 10 / egress 9",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2503,
+    "lon": -117.435
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T12:00:00+00:00",
+    "id": "GATE-00094",
+    "label": "Cristianitos Gate ingress 3 / egress 2",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4622,
+    "lon": -117.5917
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T12:00:00+00:00",
+    "id": "UTIL-00090",
+    "label": "Mainside Water Tower 69.19 psi @ 1039.3 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.385,
+    "lon": -117.564
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T12:00:00+00:00",
+    "id": "UTIL-00091",
+    "label": "San Mateo Water Tower 62.64 psi @ 1399.1 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4555,
+    "lon": -117.615
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T12:00:00+00:00",
+    "id": "UTIL-00092",
+    "label": "22-Area Substation 7.274 MW @ 12.0 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3712,
+    "lon": -117.531
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T12:00:00+00:00",
+    "id": "UTIL-00093",
+    "label": "43-Area Substation 2.486 MW @ 11.98 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.301,
+    "lon": -117.448
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T12:00:00+00:00",
+    "id": "UTIL-00094",
+    "label": "NFTI Fuel Depot inv 189754 gal",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.245,
+    "lon": -117.414
+  },
+  {
+    "stream": "weather",
+    "ts_iso": "2026-04-27T12:00:00+00:00",
+    "id": "WX-018",
+    "label": "Wind 5.97 m/s from 179.8 deg, 15.59 C, RH 48.1%, precip 0.0 mm/h",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3858,
+    "lon": -117.5631
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T12:03:00+00:00",
+    "id": "RF-00072",
+    "label": "wifi-client STA-44119 :: -61.2 dBm :: 1st Recon HMMWV-44119 telematics",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.39224828788076,
+    "lon": -117.58193127371766
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T12:15:00+00:00",
+    "id": "RF-00073",
+    "label": "wifi-client STA-44119 :: -64.3 dBm :: 1st Recon HMMWV-44119 telematics",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.38622491992505,
+    "lon": -117.54971540005867
+  },
+  {
+    "stream": "ems",
+    "ts_iso": "2026-04-27T12:22:19.567758+00:00",
+    "id": "EMS-00003",
+    "label": "Medic 2 (Naval Hospital) :: P3 :: Diabetic emergency",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.37786635490021,
+    "lon": -117.53397371301877
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T12:24:00+00:00",
+    "id": "RF-00076",
+    "label": "bt-beacon BTLE-FIRESTA-1 :: -72.0 dBm :: Engine Co 1 BLE asset tag",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.41511986169679,
+    "lon": -117.55176478874397
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T12:27:00+00:00",
+    "id": "RF-00075",
+    "label": "wifi-client STA-44119 :: -65.6 dBm :: 1st Recon HMMWV-44119 telematics",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.42332962516117,
+    "lon": -117.5383237668605
+  },
+  {
+    "stream": "drone_rf",
+    "ts_iso": "2026-04-27T12:36:00+00:00",
+    "id": "DRONE-0003",
+    "label": "Lightbridge DJI/Mini 3 Pro alt 57.5 m RID REG-113286",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.44193652291378,
+    "lon": -117.55313062495003
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T12:56:00+00:00",
+    "id": "RF-00074",
+    "label": "bt-beacon BTLE-FIRESTA-1 :: -69.1 dBm :: Engine Co 1 BLE asset tag",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.35035295639627,
+    "lon": -117.56720899063862
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T13:00:00+00:00",
+    "id": "GATE-00095",
+    "label": "Main Gate (Vandegrift) ingress 152 / egress 126",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2284,
+    "lon": -117.3893
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T13:00:00+00:00",
+    "id": "GATE-00096",
+    "label": "San Luis Rey Gate ingress 100 / egress 109",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.24,
+    "lon": -117.4192
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T13:00:00+00:00",
+    "id": "GATE-00097",
+    "label": "Las Pulgas Gate ingress 79 / egress 85",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.347,
+    "lon": -117.503
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T13:00:00+00:00",
+    "id": "GATE-00098",
+    "label": "Del Mar Gate ingress 63 / egress 48",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2503,
+    "lon": -117.435
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T13:00:00+00:00",
+    "id": "GATE-00099",
+    "label": "Cristianitos Gate ingress 8 / egress 8",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4622,
+    "lon": -117.5917
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T13:00:00+00:00",
+    "id": "UTIL-00095",
+    "label": "Mainside Water Tower 64.12 psi @ 1220.9 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.385,
+    "lon": -117.564
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T13:00:00+00:00",
+    "id": "UTIL-00096",
+    "label": "San Mateo Water Tower 66.57 psi @ 1311.5 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4555,
+    "lon": -117.615
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T13:00:00+00:00",
+    "id": "UTIL-00097",
+    "label": "22-Area Substation 7.792 MW @ 12.1 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3712,
+    "lon": -117.531
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T13:00:00+00:00",
+    "id": "UTIL-00098",
+    "label": "43-Area Substation 4.112 MW @ 11.73 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.301,
+    "lon": -117.448
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T13:00:00+00:00",
+    "id": "UTIL-00099",
+    "label": "NFTI Fuel Depot inv 206367 gal",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.245,
+    "lon": -117.414
+  },
+  {
+    "stream": "weather",
+    "ts_iso": "2026-04-27T13:00:00+00:00",
+    "id": "WX-019",
+    "label": "Wind 5.11 m/s from 176.0 deg, 17.04 C, RH 47.2%, precip 0.268 mm/h",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3858,
+    "lon": -117.5631
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T13:09:00+00:00",
+    "id": "RF-00078",
+    "label": "wifi-ap WAP-MAINSIDE-001 :: -51.8 dBm :: BSS-MAINSIDE",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.39220379707831,
+    "lon": -117.54755303088743
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T13:52:00+00:00",
+    "id": "RF-00079",
+    "label": "wifi-client STA-44119 :: -63.5 dBm :: 1st Recon HMMWV-44119 telematics",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.37461078504686,
+    "lon": -117.52914224331654
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T13:56:00+00:00",
+    "id": "RF-00077",
+    "label": "wifi-client STA-CO-IPHONE :: -52.5 dBm :: CO iPhone (corp WiFi)",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.42084671282585,
+    "lon": -117.53526487591898
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T14:00:00+00:00",
+    "id": "GATE-00100",
+    "label": "Main Gate (Vandegrift) ingress 102 / egress 78",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2284,
+    "lon": -117.3893
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T14:00:00+00:00",
+    "id": "GATE-00101",
+    "label": "San Luis Rey Gate ingress 153 / egress 137",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.24,
+    "lon": -117.4192
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T14:00:00+00:00",
+    "id": "GATE-00102",
+    "label": "Las Pulgas Gate ingress 43 / egress 42",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.347,
+    "lon": -117.503
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T14:00:00+00:00",
+    "id": "GATE-00103",
+    "label": "Del Mar Gate ingress 55 / egress 55",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2503,
+    "lon": -117.435
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T14:00:00+00:00",
+    "id": "GATE-00104",
+    "label": "Cristianitos Gate ingress 78 / egress 72",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4622,
+    "lon": -117.5917
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T14:00:00+00:00",
+    "id": "UTIL-00100",
+    "label": "Mainside Water Tower 75.19 psi @ 1287.9 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.385,
+    "lon": -117.564
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T14:00:00+00:00",
+    "id": "UTIL-00101",
+    "label": "San Mateo Water Tower 62.54 psi @ 1381.1 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4555,
+    "lon": -117.615
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T14:00:00+00:00",
+    "id": "UTIL-00102",
+    "label": "22-Area Substation 6.422 MW @ 11.9 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3712,
+    "lon": -117.531
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T14:00:00+00:00",
+    "id": "UTIL-00103",
+    "label": "43-Area Substation 2.371 MW @ 12.27 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.301,
+    "lon": -117.448
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T14:00:00+00:00",
+    "id": "UTIL-00104",
+    "label": "NFTI Fuel Depot inv 215301 gal",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.245,
+    "lon": -117.414
+  },
+  {
+    "stream": "massnotify",
+    "ts_iso": "2026-04-27T14:00:00+00:00",
+    "id": "MASS-0003",
+    "label": "[INFO] Commissary closes at 2000 today; reopens 0900 tomorrow.",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3858,
+    "lon": -117.5631
+  },
+  {
+    "stream": "weather",
+    "ts_iso": "2026-04-27T14:00:00+00:00",
+    "id": "WX-020",
+    "label": "Wind 9.7 m/s from 150.5 deg, 17.77 C, RH 37.3%, precip 0.0 mm/h",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3858,
+    "lon": -117.5631
+  },
+  {
+    "stream": "firms",
+    "ts_iso": "2026-04-27T14:00:00+00:00",
+    "id": "FIRMS-0005",
+    "label": "VIIRS-SNPP thermal br 307.9 K, FRP 1.12 MW (low)",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.43290434703749,
+    "lon": -117.59150705283243
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T14:32:00+00:00",
+    "id": "RF-00082",
+    "label": "wifi-ap WAP-SANMATEO-014 :: -54.5 dBm :: BSS-SAN-MATEO",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.40517033284375,
+    "lon": -117.57480104497348
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T14:35:00+00:00",
+    "id": "RF-00080",
+    "label": "wifi-client STA-CO-IPHONE :: -53.3 dBm :: CO iPhone (corp WiFi)",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.38303242837036,
+    "lon": -117.56890660998978
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T14:36:00+00:00",
+    "id": "RF-00081",
+    "label": "wifi-client STA-44119 :: -62.9 dBm :: 1st Recon HMMWV-44119 telematics",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.39240789986323,
+    "lon": -117.57008057704839
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T15:00:00+00:00",
+    "id": "GATE-00105",
+    "label": "Main Gate (Vandegrift) ingress 139 / egress 146",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2284,
+    "lon": -117.3893
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T15:00:00+00:00",
+    "id": "GATE-00106",
+    "label": "San Luis Rey Gate ingress 204 / egress 205",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.24,
+    "lon": -117.4192
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T15:00:00+00:00",
+    "id": "GATE-00107",
+    "label": "Las Pulgas Gate ingress 232 / egress 122",
+    "is_anomaly": true,
+    "anomaly_note": "POV ingress spike \u2014 incident-driven family arrival surge.",
+    "lat": 33.347,
+    "lon": -117.503
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T15:00:00+00:00",
+    "id": "GATE-00108",
+    "label": "Del Mar Gate ingress 81 / egress 57",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2503,
+    "lon": -117.435
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T15:00:00+00:00",
+    "id": "GATE-00109",
+    "label": "Cristianitos Gate ingress 99 / egress 85",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4622,
+    "lon": -117.5917
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T15:00:00+00:00",
+    "id": "UTIL-00105",
+    "label": "Mainside Water Tower 55.03 psi @ 1028.6 gpm",
+    "is_anomaly": true,
+    "anomaly_note": "Water pressure dip \u2014 possible hydrant draw.",
+    "lat": 33.385,
+    "lon": -117.564
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T15:00:00+00:00",
+    "id": "UTIL-00106",
+    "label": "San Mateo Water Tower 64.53 psi @ 847.4 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4555,
+    "lon": -117.615
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T15:00:00+00:00",
+    "id": "UTIL-00107",
+    "label": "22-Area Substation 9.269 MW @ 12.15 kV",
+    "is_anomaly": true,
+    "anomaly_note": "Power load surge \u2014 emergency systems engaged.",
+    "lat": 33.3712,
+    "lon": -117.531
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T15:00:00+00:00",
+    "id": "UTIL-00108",
+    "label": "43-Area Substation 4.075 MW @ 12.26 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.301,
+    "lon": -117.448
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T15:00:00+00:00",
+    "id": "UTIL-00109",
+    "label": "NFTI Fuel Depot inv 187313 gal",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.245,
+    "lon": -117.414
+  },
+  {
+    "stream": "weather",
+    "ts_iso": "2026-04-27T15:00:00+00:00",
+    "id": "WX-021",
+    "label": "Wind 18.64 m/s from 99.7 deg, 18.58 C, RH 20.9%, precip 0.0 mm/h",
+    "is_anomaly": true,
+    "anomaly_note": "Santa Ana high wind / low RH",
+    "lat": 33.3858,
+    "lon": -117.5631
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T15:09:00+00:00",
+    "id": "RF-00085",
+    "label": "wifi-ap WAP-SANMATEO-014 :: -59.2 dBm :: BSS-SAN-MATEO",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.37925944463687,
+    "lon": -117.53482037217447
+  },
+  {
+    "stream": "drone_rf",
+    "ts_iso": "2026-04-27T15:12:00+00:00",
+    "id": "DRONE-0005",
+    "label": "Unknown-FHSS unknown/unknown alt 78.0 m RID NONE",
+    "is_anomaly": true,
+    "anomaly_note": "Non-cooperative UAS near Magazine 14 \u2014 no Remote ID broadcast.",
+    "lat": 33.34485973784157,
+    "lon": -117.50558070997063
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T15:19:00+00:00",
+    "id": "RF-00084",
+    "label": "wifi-ap WAP-SANMATEO-014 :: -58.5 dBm :: BSS-SAN-MATEO",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3925601633997,
+    "lon": -117.53523001397997
+  },
+  {
+    "stream": "ems",
+    "ts_iso": "2026-04-27T15:20:50.969329+00:00",
+    "id": "EMS-00017",
+    "label": "PMO Patrol 7 :: P3 :: Lost child reunited",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.25460162907758,
+    "lon": -117.4263412029954
+  },
+  {
+    "stream": "drone_rf",
+    "ts_iso": "2026-04-27T15:21:00+00:00",
+    "id": "DRONE-0006",
+    "label": "Unknown-FHSS unknown/unknown alt 83.1 m RID NONE",
+    "is_anomaly": true,
+    "anomaly_note": "Non-cooperative UAS near Magazine 14 \u2014 no Remote ID broadcast.",
+    "lat": 33.34844305160389,
+    "lon": -117.50167668921813
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T15:22:00+00:00",
+    "id": "RF-00094",
+    "label": "unknown_emitter UNK-EM-00 :: -43.1 dBm :: Unknown 2.4GHz emitter \u2014 no DBIDS handshake, no MCEN registr",
+    "is_anomaly": true,
+    "anomaly_note": "Unknown high-RSSI emitter inside magazine perimeter.",
+    "lat": 33.347031006806326,
+    "lon": -117.50459345442593
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T15:23:00+00:00",
+    "id": "RF-00086",
+    "label": "wifi-client STA-44119 :: -66.3 dBm :: 1st Recon HMMWV-44119 telematics",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.40644639010421,
+    "lon": -117.57390149931997
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T15:26:00+00:00",
+    "id": "RF-00095",
+    "label": "unknown_emitter UNK-EM-01 :: -46.5 dBm :: Unknown 2.4GHz emitter \u2014 no DBIDS handshake, no MCEN registr",
+    "is_anomaly": true,
+    "anomaly_note": "Unknown high-RSSI emitter inside magazine perimeter.",
+    "lat": 33.34844990861522,
+    "lon": -117.50327677664968
+  },
+  {
+    "stream": "ems",
+    "ts_iso": "2026-04-27T15:27:13.643240+00:00",
+    "id": "EMS-00014",
+    "label": "Medic 2 (Naval Hospital) :: P3 :: Allergic reaction",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.37148357248031,
+    "lon": -117.55053260189814
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T15:30:00+00:00",
+    "id": "RF-00096",
+    "label": "unknown_emitter UNK-EM-02 :: -44.4 dBm :: Unknown 2.4GHz emitter \u2014 no DBIDS handshake, no MCEN registr",
+    "is_anomaly": true,
+    "anomaly_note": "Unknown high-RSSI emitter inside magazine perimeter.",
+    "lat": 33.348180458993646,
+    "lon": -117.5044331655026
+  },
+  {
+    "stream": "ems",
+    "ts_iso": "2026-04-27T15:32:00+00:00",
+    "id": "EMS-00018",
+    "label": "Engine Company 1 (Mainside) :: P1 :: STRUCTURE FIRE \u2014 Magazine 14 perimeter, smoke visible from adjacent magazine. All response",
+    "is_anomaly": true,
+    "anomaly_note": "Critical incident response \u2014 structure fire near magazine.",
+    "lat": 33.34308931300838,
+    "lon": -117.50301561128057
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T15:33:00+00:00",
+    "id": "RF-00083",
+    "label": "bt-beacon BTLE-FIRESTA-1 :: -70.8 dBm :: Engine Co 1 BLE asset tag",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.37494463233433,
+    "lon": -117.59683875799229
+  },
+  {
+    "stream": "firms",
+    "ts_iso": "2026-04-27T15:34:00+00:00",
+    "id": "FIRMS-0006",
+    "label": "VIIRS-SNPP thermal br 371.6 K, FRP 30.54 MW (high)",
+    "is_anomaly": true,
+    "anomaly_note": "FIRMS thermal anomaly vicinity Las Pulgas Magazine 14",
+    "lat": 33.346023672154224,
+    "lon": -117.50397175228824
+  },
+  {
+    "stream": "ems",
+    "ts_iso": "2026-04-27T15:35:00+00:00",
+    "id": "EMS-00019",
+    "label": "Engine Company 3 (San Mateo) :: P1 :: STRUCTURE FIRE \u2014 Magazine 14 perimeter, smoke visible from adjacent magazine. All response",
+    "is_anomaly": true,
+    "anomaly_note": "Critical incident response \u2014 structure fire near magazine.",
+    "lat": 33.349611702532,
+    "lon": -117.50690645007384
+  },
+  {
+    "stream": "massnotify",
+    "ts_iso": "2026-04-27T15:36:00+00:00",
+    "id": "MASS-0004",
+    "label": "[EMERGENCY] ATTENTION ALL HANDS: Active incident vicinity Las Pulgas Magazine 14. All non-essential pe",
+    "is_anomaly": true,
+    "anomaly_note": "Active emergency mass-notification",
+    "lat": 33.3858,
+    "lon": -117.5631
+  },
+  {
+    "stream": "ems",
+    "ts_iso": "2026-04-27T15:38:00+00:00",
+    "id": "EMS-00020",
+    "label": "Medic 2 (Naval Hospital) :: P1 :: STRUCTURE FIRE \u2014 Magazine 14 perimeter, smoke visible from adjacent magazine. All response",
+    "is_anomaly": true,
+    "anomaly_note": "Critical incident response \u2014 structure fire near magazine.",
+    "lat": 33.34761994752066,
+    "lon": -117.50467705037843
+  },
+  {
+    "stream": "ems",
+    "ts_iso": "2026-04-27T15:41:00+00:00",
+    "id": "EMS-00021",
+    "label": "PMO Patrol 7 :: P1 :: STRUCTURE FIRE \u2014 Magazine 14 perimeter, smoke visible from adjacent magazine. All response",
+    "is_anomaly": true,
+    "anomaly_note": "Critical incident response \u2014 structure fire near magazine.",
+    "lat": 33.341038970600216,
+    "lon": -117.5067942444129
+  },
+  {
+    "stream": "firms",
+    "ts_iso": "2026-04-27T15:46:00+00:00",
+    "id": "FIRMS-0007",
+    "label": "VIIRS-NOAA20 thermal br 384.6 K, FRP 31.19 MW (high)",
+    "is_anomaly": true,
+    "anomaly_note": "FIRMS thermal anomaly vicinity Las Pulgas Magazine 14",
+    "lat": 33.34579883305091,
+    "lon": -117.50394724976101
+  },
+  {
+    "stream": "massnotify",
+    "ts_iso": "2026-04-27T15:52:00+00:00",
+    "id": "MASS-0005",
+    "label": "[UPDATE] Las Pulgas incident: structure fire contained to magazine perimeter. No munitions detonati",
+    "is_anomaly": true,
+    "anomaly_note": null,
+    "lat": 33.3858,
+    "lon": -117.5631
+  },
+  {
+    "stream": "firms",
+    "ts_iso": "2026-04-27T15:58:00+00:00",
+    "id": "FIRMS-0008",
+    "label": "VIIRS-SNPP thermal br 384.5 K, FRP 24.16 MW (high)",
+    "is_anomaly": true,
+    "anomaly_note": "FIRMS thermal anomaly vicinity Las Pulgas Magazine 14",
+    "lat": 33.345091415876944,
+    "lon": -117.50452551391562
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T16:00:00+00:00",
+    "id": "GATE-00110",
+    "label": "Main Gate (Vandegrift) ingress 286 / egress 250",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2284,
+    "lon": -117.3893
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T16:00:00+00:00",
+    "id": "GATE-00111",
+    "label": "San Luis Rey Gate ingress 198 / egress 217",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.24,
+    "lon": -117.4192
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T16:00:00+00:00",
+    "id": "GATE-00112",
+    "label": "Las Pulgas Gate ingress 140 / egress 134",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.347,
+    "lon": -117.503
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T16:00:00+00:00",
+    "id": "GATE-00113",
+    "label": "Del Mar Gate ingress 51 / egress 50",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2503,
+    "lon": -117.435
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T16:00:00+00:00",
+    "id": "GATE-00114",
+    "label": "Cristianitos Gate ingress 73 / egress 78",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4622,
+    "lon": -117.5917
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T16:00:00+00:00",
+    "id": "UTIL-00110",
+    "label": "Mainside Water Tower 52.99 psi @ 1399.7 gpm",
+    "is_anomaly": true,
+    "anomaly_note": "Water pressure dip \u2014 possible hydrant draw.",
+    "lat": 33.385,
+    "lon": -117.564
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T16:00:00+00:00",
+    "id": "UTIL-00111",
+    "label": "San Mateo Water Tower 68.16 psi @ 1347.0 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4555,
+    "lon": -117.615
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T16:00:00+00:00",
+    "id": "UTIL-00112",
+    "label": "22-Area Substation 9.65 MW @ 11.84 kV",
+    "is_anomaly": true,
+    "anomaly_note": "Power load surge \u2014 emergency systems engaged.",
+    "lat": 33.3712,
+    "lon": -117.531
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T16:00:00+00:00",
+    "id": "UTIL-00113",
+    "label": "43-Area Substation 2.903 MW @ 12.28 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.301,
+    "lon": -117.448
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T16:00:00+00:00",
+    "id": "UTIL-00114",
+    "label": "NFTI Fuel Depot inv 185806 gal",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.245,
+    "lon": -117.414
+  },
+  {
+    "stream": "weather",
+    "ts_iso": "2026-04-27T16:00:00+00:00",
+    "id": "WX-022",
+    "label": "Wind 16.15 m/s from 99.7 deg, 20.61 C, RH 17.9%, precip 0.0 mm/h",
+    "is_anomaly": true,
+    "anomaly_note": "Santa Ana high wind / low RH",
+    "lat": 33.3858,
+    "lon": -117.5631
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T16:38:00+00:00",
+    "id": "RF-00089",
+    "label": "wifi-ap WAP-SANMATEO-014 :: -58.0 dBm :: BSS-SAN-MATEO",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.36256712427313,
+    "lon": -117.55636714394858
+  },
+  {
+    "stream": "ems",
+    "ts_iso": "2026-04-27T16:39:50.783130+00:00",
+    "id": "EMS-00005",
+    "label": "Engine Company 1 (Mainside) :: P3 :: Cooking fire \u2014 false alarm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.385793804295865,
+    "lon": -117.55970685885352
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T16:45:00+00:00",
+    "id": "RF-00087",
+    "label": "wifi-client STA-CO-IPHONE :: -58.2 dBm :: CO iPhone (corp WiFi)",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.40617198963912,
+    "lon": -117.57407989609835
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T16:56:00+00:00",
+    "id": "RF-00088",
+    "label": "wifi-ap WAP-SANMATEO-014 :: -58.9 dBm :: BSS-SAN-MATEO",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.34816718469823,
+    "lon": -117.55209142731708
+  },
+  {
+    "stream": "drone_rf",
+    "ts_iso": "2026-04-27T16:56:00+00:00",
+    "id": "DRONE-0004",
+    "label": "DJI-OcuSync3 DJI/Mavic 3 alt 54.6 m RID REG-576233",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.34146235907599,
+    "lon": -117.57621077003874
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T17:00:00+00:00",
+    "id": "GATE-00115",
+    "label": "Main Gate (Vandegrift) ingress 173 / egress 136",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2284,
+    "lon": -117.3893
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T17:00:00+00:00",
+    "id": "GATE-00116",
+    "label": "San Luis Rey Gate ingress 34 / egress 27",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.24,
+    "lon": -117.4192
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T17:00:00+00:00",
+    "id": "GATE-00117",
+    "label": "Las Pulgas Gate ingress 37 / egress 40",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.347,
+    "lon": -117.503
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T17:00:00+00:00",
+    "id": "GATE-00118",
+    "label": "Del Mar Gate ingress 12 / egress 10",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.2503,
+    "lon": -117.435
+  },
+  {
+    "stream": "gate",
+    "ts_iso": "2026-04-27T17:00:00+00:00",
+    "id": "GATE-00119",
+    "label": "Cristianitos Gate ingress 19 / egress 19",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4622,
+    "lon": -117.5917
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T17:00:00+00:00",
+    "id": "UTIL-00115",
+    "label": "Mainside Water Tower 67.36 psi @ 985.5 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.385,
+    "lon": -117.564
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T17:00:00+00:00",
+    "id": "UTIL-00116",
+    "label": "San Mateo Water Tower 59.68 psi @ 1096.8 gpm",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.4555,
+    "lon": -117.615
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T17:00:00+00:00",
+    "id": "UTIL-00117",
+    "label": "22-Area Substation 7.013 MW @ 11.71 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3712,
+    "lon": -117.531
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T17:00:00+00:00",
+    "id": "UTIL-00118",
+    "label": "43-Area Substation 4.585 MW @ 12.14 kV",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.301,
+    "lon": -117.448
+  },
+  {
+    "stream": "utility",
+    "ts_iso": "2026-04-27T17:00:00+00:00",
+    "id": "UTIL-00119",
+    "label": "NFTI Fuel Depot inv 198275 gal",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.245,
+    "lon": -117.414
+  },
+  {
+    "stream": "weather",
+    "ts_iso": "2026-04-27T17:00:00+00:00",
+    "id": "WX-023",
+    "label": "Wind 11.34 m/s from 150.5 deg, 22.83 C, RH 41.4%, precip 0.037 mm/h",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3858,
+    "lon": -117.5631
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T17:10:00+00:00",
+    "id": "RF-00090",
+    "label": "wifi-ap WAP-MAINSIDE-001 :: -48.8 dBm :: BSS-MAINSIDE",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.35926008181415,
+    "lon": -117.52761406752968
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T17:10:00+00:00",
+    "id": "RF-00092",
+    "label": "wifi-ap WAP-MAINSIDE-001 :: -55.9 dBm :: BSS-MAINSIDE",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.34790075728824,
+    "lon": -117.59595390989969
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T17:41:00+00:00",
+    "id": "RF-00093",
+    "label": "wifi-ap WAP-SANMATEO-014 :: -55.4 dBm :: BSS-SAN-MATEO",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.370497928085136,
+    "lon": -117.59764435160665
+  },
+  {
+    "stream": "rf",
+    "ts_iso": "2026-04-27T17:49:00+00:00",
+    "id": "RF-00091",
+    "label": "bt-beacon BTLE-FIRESTA-1 :: -69.1 dBm :: Engine Co 1 BLE asset tag",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.35748383909136,
+    "lon": -117.57075491464218
+  },
+  {
+    "stream": "weather",
+    "ts_iso": "2026-04-27T18:00:00+00:00",
+    "id": "WX-024",
+    "label": "Wind 4.59 m/s from 176.0 deg, 23.5 C, RH 45.7%, precip 0.0 mm/h",
+    "is_anomaly": false,
+    "anomaly_note": null,
+    "lat": 33.3858,
+    "lon": -117.5631
+  },
+  {
+    "stream": "maintenance",
+    "ts_iso": "2026-04-27T18:00:00+00:00",
+    "id": "GCSS-MC-SNAPSHOT",
+    "label": "GCSS-MC snapshot: 3 NMC / 2 PMC of 12 critical assets",
+    "is_anomaly": true,
+    "anomaly_note": "Multiple critical assets NMC during incident window.",
+    "lat": 33.3858,
+    "lon": -117.5631
+  }
+]

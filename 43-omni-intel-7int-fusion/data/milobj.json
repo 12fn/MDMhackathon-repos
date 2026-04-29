@@ -1,0 +1,258 @@
+[
+  {
+    "source_type": "milobj",
+    "observation_id": "MILOBJ-002",
+    "dtg": "2026-04-26T00:32:14Z",
+    "lat": 16.05863,
+    "lon": 126.73404,
+    "raw_signature": {
+      "tile_id": "WV3-62289",
+      "platform_class": "BTR-80",
+      "platform_int": "IMINT",
+      "bbox_pixels": [
+        138,
+        117,
+        300,
+        302
+      ],
+      "detector_score": 0.8,
+      "ref_library_size": 30
+    },
+    "confidence": 0.87,
+    "audit_prev": "0000000000000000",
+    "audit_hash": "dc1139f64da6d444"
+  },
+  {
+    "source_type": "milobj",
+    "observation_id": "MILOBJ-007",
+    "dtg": "2026-04-26T01:53:29Z",
+    "lat": 11.96357,
+    "lon": 122.74521,
+    "raw_signature": {
+      "tile_id": "WV3-31411",
+      "platform_class": "J-11",
+      "platform_int": "IMINT",
+      "bbox_pixels": [
+        157,
+        166,
+        358,
+        384
+      ],
+      "detector_score": 0.75,
+      "ref_library_size": 30
+    },
+    "confidence": 0.91,
+    "audit_prev": "dc1139f64da6d444",
+    "audit_hash": "1baf5a6312527836"
+  },
+  {
+    "source_type": "milobj",
+    "observation_id": "MILOBJ-FUSION-F-002",
+    "dtg": "2026-04-26T03:03:00Z",
+    "lat": 13.42629,
+    "lon": 120.88377,
+    "raw_signature": {
+      "tile_id": "WV3-98809",
+      "platform_class": "Type-022_FAC",
+      "platform_int": "IMINT",
+      "bbox_pixels": [
+        120,
+        130,
+        240,
+        260
+      ],
+      "detector_score": 0.88,
+      "ref_library_size": 30,
+      "fusion_anchor": "F-002"
+    },
+    "confidence": 0.88,
+    "audit_prev": "1baf5a6312527836",
+    "audit_hash": "ce23dcfaf7dafe66"
+  },
+  {
+    "source_type": "milobj",
+    "observation_id": "MILOBJ-000",
+    "dtg": "2026-04-26T03:25:49Z",
+    "lat": 6.97062,
+    "lon": 117.62297,
+    "raw_signature": {
+      "tile_id": "WV3-74017",
+      "platform_class": "DF-26 TEL",
+      "platform_int": "IMINT",
+      "bbox_pixels": [
+        164,
+        163,
+        344,
+        387
+      ],
+      "detector_score": 0.92,
+      "ref_library_size": 30
+    },
+    "confidence": 0.9,
+    "audit_prev": "ce23dcfaf7dafe66",
+    "audit_hash": "99e39751b8780faa"
+  },
+  {
+    "source_type": "milobj",
+    "observation_id": "MILOBJ-003",
+    "dtg": "2026-04-26T07:08:29Z",
+    "lat": 11.20352,
+    "lon": 117.13609,
+    "raw_signature": {
+      "tile_id": "WV3-39435",
+      "platform_class": "Mi-24 Hind",
+      "platform_int": "IMINT",
+      "bbox_pixels": [
+        114,
+        111,
+        245,
+        248
+      ],
+      "detector_score": 0.66,
+      "ref_library_size": 30
+    },
+    "confidence": 0.92,
+    "audit_prev": "99e39751b8780faa",
+    "audit_hash": "d6eb72b094812a2b"
+  },
+  {
+    "source_type": "milobj",
+    "observation_id": "MILOBJ-FUSION-F-003",
+    "dtg": "2026-04-26T09:05:00Z",
+    "lat": 14.79291,
+    "lon": 120.26991,
+    "raw_signature": {
+      "tile_id": "WV3-49004",
+      "platform_class": "POL_storage_tank",
+      "platform_int": "IMINT",
+      "bbox_pixels": [
+        120,
+        130,
+        240,
+        260
+      ],
+      "detector_score": 0.88,
+      "ref_library_size": 30,
+      "fusion_anchor": "F-003"
+    },
+    "confidence": 0.88,
+    "audit_prev": "d6eb72b094812a2b",
+    "audit_hash": "7752eecb7776f164"
+  },
+  {
+    "source_type": "milobj",
+    "observation_id": "MILOBJ-005",
+    "dtg": "2026-04-26T18:11:16Z",
+    "lat": 9.63921,
+    "lon": 118.94632,
+    "raw_signature": {
+      "tile_id": "WV3-93774",
+      "platform_class": "S-400 launcher",
+      "platform_int": "IMINT",
+      "bbox_pixels": [
+        84,
+        77,
+        270,
+        333
+      ],
+      "detector_score": 0.64,
+      "ref_library_size": 30
+    },
+    "confidence": 0.65,
+    "audit_prev": "7752eecb7776f164",
+    "audit_hash": "60c516a3e82b4ec9"
+  },
+  {
+    "source_type": "milobj",
+    "observation_id": "MILOBJ-004",
+    "dtg": "2026-04-26T18:59:28Z",
+    "lat": 10.9888,
+    "lon": 120.44424,
+    "raw_signature": {
+      "tile_id": "WV3-75751",
+      "platform_class": "M1A2",
+      "platform_int": "IMINT",
+      "bbox_pixels": [
+        141,
+        75,
+        232,
+        335
+      ],
+      "detector_score": 0.81,
+      "ref_library_size": 30
+    },
+    "confidence": 0.79,
+    "audit_prev": "60c516a3e82b4ec9",
+    "audit_hash": "52d1d31ab15538dd"
+  },
+  {
+    "source_type": "milobj",
+    "observation_id": "MILOBJ-FUSION-F-005",
+    "dtg": "2026-04-26T19:47:00Z",
+    "lat": 10.1784,
+    "lon": 119.05933,
+    "raw_signature": {
+      "tile_id": "WV3-75468",
+      "platform_class": "small_inflatable_craft",
+      "platform_int": "IMINT",
+      "bbox_pixels": [
+        120,
+        130,
+        240,
+        260
+      ],
+      "detector_score": 0.88,
+      "ref_library_size": 30,
+      "fusion_anchor": "F-005"
+    },
+    "confidence": 0.88,
+    "audit_prev": "52d1d31ab15538dd",
+    "audit_hash": "d5cea2613a8f82b0"
+  },
+  {
+    "source_type": "milobj",
+    "observation_id": "MILOBJ-001",
+    "dtg": "2026-04-26T20:17:23Z",
+    "lat": 4.46258,
+    "lon": 116.48637,
+    "raw_signature": {
+      "tile_id": "WV3-10979",
+      "platform_class": "HQ-9",
+      "platform_int": "IMINT",
+      "bbox_pixels": [
+        192,
+        103,
+        307,
+        339
+      ],
+      "detector_score": 0.9,
+      "ref_library_size": 30
+    },
+    "confidence": 0.88,
+    "audit_prev": "d5cea2613a8f82b0",
+    "audit_hash": "f93ab51bb504e2f7"
+  },
+  {
+    "source_type": "milobj",
+    "observation_id": "MILOBJ-006",
+    "dtg": "2026-04-26T22:03:29Z",
+    "lat": 10.04383,
+    "lon": 125.84116,
+    "raw_signature": {
+      "tile_id": "WV3-71663",
+      "platform_class": "AS532 Cougar",
+      "platform_int": "IMINT",
+      "bbox_pixels": [
+        176,
+        143,
+        235,
+        324
+      ],
+      "detector_score": 0.68,
+      "ref_library_size": 30
+    },
+    "confidence": 0.76,
+    "audit_prev": "f93ab51bb504e2f7",
+    "audit_hash": "efc609a30c4a6bb1"
+  }
+]

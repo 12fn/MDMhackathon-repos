@@ -1,0 +1,392 @@
+{
+  "01_operations_brief": {
+    "doc_id": "01_operations_brief",
+    "title": "01 OPERATIONS BRIEF",
+    "paragraphs": [
+      {
+        "recommended_marking": "UNCLASSIFIED",
+        "rationale": "No CUI category triggers detected; routine administrative content.",
+        "trigger_phrases": [],
+        "caveats_recommended": [],
+        "confidence": 0.62,
+        "paragraph_index": 0,
+        "paragraph_text": "SUBJECT: Operation IRON GUARDRAIL 26-2 \u2014 Concept of Operations (Draft v0.3)"
+      },
+      {
+        "recommended_marking": "UNCLASSIFIED",
+        "rationale": "No CUI category triggers detected; routine administrative content.",
+        "trigger_phrases": [],
+        "caveats_recommended": [],
+        "confidence": 0.62,
+        "paragraph_index": 1,
+        "paragraph_text": "1. PURPOSE. This brief documents the concept of operations for Operation IRON GUARDRAIL 26-2, a 2/1 platoon-level live-fire rehearsal vicinity Camp Pendleton 09-14 June 2026. Coalition observers from Australia (AUS) and the United Kingdom (GBR) are invited under existing FVEY arrangements."
+      },
+      {
+        "recommended_marking": "UNCLASSIFIED",
+        "rationale": "No CUI category triggers detected; routine administrative content.",
+        "trigger_phrases": [],
+        "caveats_recommended": [],
+        "confidence": 0.62,
+        "paragraph_index": 2,
+        "paragraph_text": "2. PARTICIPATING UNITS. Echo Company, 2nd Bn 1st Marines (-) (Reinforced) with attachments from 1st MAW. Coalition observers: 2 personnel from 3 RAR (AUS) and 2 personnel from 42 Commando (GBR). Notional opposing force is portrayed by 1st Bn 4th Marines acting as a near-peer mechanized infantry company."
+      },
+      {
+        "recommended_marking": "CUI//SP-OPSEC",
+        "rationale": "OPSEC indicators referenced (FPCON, vulnerability, manning).",
+        "trigger_phrases": [
+          "FPCON",
+          "vulnerability",
+          "manning roster",
+          "rotation schedule"
+        ],
+        "caveats_recommended": [
+          "NOFORN"
+        ],
+        "confidence": 0.78,
+        "paragraph_index": 3,
+        "paragraph_text": "3. FORCE PROTECTION POSTURE. FPCON BRAVO will be in effect for the duration of the rehearsal. The vulnerability assessment identifies the western motor pool gate and the unmarked range entry on Old Stage Road as the two highest-risk ingress points. Manning roster for the entry control points is at Annex C; rotation schedule is attached at Annex D and is not to be released outside the I MEF FP cell."
+      },
+      {
+        "recommended_marking": "UNCLASSIFIED",
+        "rationale": "No CUI category triggers detected; routine administrative content.",
+        "trigger_phrases": [],
+        "caveats_recommended": [],
+        "confidence": 0.62,
+        "paragraph_index": 4,
+        "paragraph_text": "4. INTELLIGENCE SUPPORT. 1st Intelligence Battalion will provide a tailored open-source intel package built from previously-released exercise products. No collateral SECRET reporting is required for this rehearsal. The G-2 estimate for the OPFOR cell uses publicly-available platform data on the BMP-3 and T-72B3 for vehicle role-play."
+      },
+      {
+        "recommended_marking": "CUI//SP-PROPIN",
+        "rationale": "Vendor-proprietary cost / pricing data present.",
+        "trigger_phrases": [
+          "vendor",
+          "rate card"
+        ],
+        "caveats_recommended": [
+          "FED ONLY"
+        ],
+        "confidence": 0.78,
+        "paragraph_index": 5,
+        "paragraph_text": "5. LOGISTICS. Class I, III, and V supply will be drawn from MCLB Barstow against existing exercise allocations. CSSD-11 will operate the forward distribution point. There are no proprietary contractor rate cards or vendor cost build-ups in this brief; all support is organic to the MAGTF."
+      },
+      {
+        "recommended_marking": "UNCLASSIFIED",
+        "rationale": "No CUI category triggers detected; routine administrative content.",
+        "trigger_phrases": [],
+        "caveats_recommended": [],
+        "confidence": 0.62,
+        "paragraph_index": 6,
+        "paragraph_text": "6. RELEASABILITY INTENT. The author requests this brief be marked at the lowest level consistent with operations security, with appropriate caveat to permit FVEY observer read-in. Final marking is at the discretion of the I MEF G-2 OCA-equivalent reviewer."
+      }
+    ],
+    "doc_brief": {
+      "overall_marking": "CUI//SP-OPSEC",
+      "releasability": "NOFORN",
+      "paragraph_count": 7,
+      "exec_summary": "Document spans UNCLASSIFIED through CUI//SP-OPSEC. Most-restrictive paragraph drives the banner-line marking under DoDM 5200.01 Vol 2. Recommended releasability: NOFORN."
+    }
+  },
+  "02_intel_summary": {
+    "doc_id": "02_intel_summary",
+    "title": "02 INTEL SUMMARY",
+    "paragraphs": [
+      {
+        "recommended_marking": "CUI//FOUO",
+        "rationale": "Pre-decisional / working-paper status warrants FOUO.",
+        "trigger_phrases": [
+          "pre-decisional",
+          "draft"
+        ],
+        "caveats_recommended": [],
+        "confidence": 0.78,
+        "paragraph_index": 0,
+        "paragraph_text": "SUBJECT: 2/1 S-2 Intel Summary \u2014 Pacific Theater Indications (Draft, Pre-Decisional)"
+      },
+      {
+        "recommended_marking": "CUI//SP-NF",
+        "rationale": "Author explicitly invokes NOFORN handling.",
+        "trigger_phrases": [
+          "NOFORN",
+          "U.S. only"
+        ],
+        "caveats_recommended": [
+          "NOFORN"
+        ],
+        "confidence": 0.78,
+        "paragraph_index": 1,
+        "paragraph_text": "1. BLUF. Pre-decisional working paper. Synthetic intel summary for the IRON GUARDRAIL 26-2 rehearsal \u2014 not based on real-world reporting. NOFORN and U.S. only handling requested by the author. The S-2 assesses near-peer freedom-of-action probes in the South China Sea will continue at current tempo through Q3 2026."
+      },
+      {
+        "recommended_marking": "TOP SECRET//SCI",
+        "rationale": "Compartmented intelligence \u2014 TS/SCI handling required.",
+        "trigger_phrases": [
+          "TS//SCI",
+          "compartmented",
+          "SCIF only"
+        ],
+        "caveats_recommended": [
+          "NOFORN"
+        ],
+        "confidence": 0.78,
+        "paragraph_index": 2,
+        "paragraph_text": "2. SOURCES. Reporting consolidates SECRET//NOFORN finished intelligence from MARFORPAC J-2 and unclassified open-source maritime tracking. No TS//SCI compartmented material is referenced in this draft. The compartmented annex (TS//SCI, SCIF only) is held under separate cover at the III MEF G-2 SCIF and is not appended."
+      },
+      {
+        "recommended_marking": "SECRET",
+        "rationale": "Collateral SECRET//NOFORN finished intelligence present.",
+        "trigger_phrases": [
+          "S//NF"
+        ],
+        "caveats_recommended": [
+          "NOFORN"
+        ],
+        "confidence": 0.78,
+        "paragraph_index": 3,
+        "paragraph_text": "3. KEY JUDGMENTS. (S//NF) Adversary surface action group readiness has improved by an estimated 12% over the prior reporting period. (S//NF) Persistent ISR loitering near Second Thomas Shoal indicates an intent to harass logistics resupply runs. (CUI//SP-OPSEC) Friendly FPCON CHARLIE postures should be considered for any port-call window in MAY-JUL 26."
+      },
+      {
+        "recommended_marking": "CUI//SP-PRVCY",
+        "rationale": "PII / Privacy Act triggers present.",
+        "trigger_phrases": [
+          "EDIPI",
+          "home-of-record",
+          "Privacy-Act"
+        ],
+        "caveats_recommended": [
+          "FED ONLY"
+        ],
+        "confidence": 0.78,
+        "paragraph_index": 4,
+        "paragraph_text": "4. PERSONNEL OF INTEREST. The watchlist contains 14 named entries. Each entry includes EDIPI, full name, date of birth, and home-of-record address \u2014 Privacy-Act-protected fields under DoD 5400.11-R. Disclosure outside the S-2 cell or to non-cleared contractors is prohibited."
+      },
+      {
+        "recommended_marking": "CUI//SP-NF",
+        "rationale": "Author explicitly invokes NOFORN handling.",
+        "trigger_phrases": [
+          "NOFORN"
+        ],
+        "caveats_recommended": [
+          "NOFORN"
+        ],
+        "confidence": 0.78,
+        "paragraph_index": 5,
+        "paragraph_text": "5. DISTRIBUTION INTENT. Author marks this product NOFORN and recommends distribution limited to 2/1 S-2, RCT staff, and the I MEF G-2 fusion cell. No release to coalition observers or to vendor SETAs without G-2 approval and a sanitized variant."
+      },
+      {
+        "recommended_marking": "SECRET",
+        "rationale": "Collateral SECRET//NOFORN finished intelligence present.",
+        "trigger_phrases": [
+          "SECRET//NOFORN"
+        ],
+        "caveats_recommended": [
+          "NOFORN"
+        ],
+        "confidence": 0.78,
+        "paragraph_index": 6,
+        "paragraph_text": "6. RELEASABILITY. Mark per DoDM 5200.01 Vol 2 with the most-restrictive paragraph driving the banner line. The author's intent is SECRET//NOFORN at the document level with portion marks downgrading administrative paragraphs."
+      }
+    ],
+    "doc_brief": {
+      "overall_marking": "TOP SECRET//SCI",
+      "releasability": "NOFORN",
+      "paragraph_count": 7,
+      "exec_summary": "Document spans UNCLASSIFIED through TOP SECRET//SCI. Most-restrictive paragraph drives the banner-line marking under DoDM 5200.01 Vol 2. Recommended releasability: NOFORN."
+    }
+  },
+  "03_training_memo": {
+    "doc_id": "03_training_memo",
+    "title": "03 TRAINING MEMO",
+    "paragraphs": [
+      {
+        "recommended_marking": "UNCLASSIFIED",
+        "rationale": "No CUI category triggers detected; routine administrative content.",
+        "trigger_phrases": [],
+        "caveats_recommended": [],
+        "confidence": 0.62,
+        "paragraph_index": 0,
+        "paragraph_text": "SUBJECT: MarineNet Course Update \u2014 Annual Information Security Refresher (FY26)"
+      },
+      {
+        "recommended_marking": "UNCLASSIFIED",
+        "rationale": "Author requests public / unrestricted release.",
+        "trigger_phrases": [
+          "public release"
+        ],
+        "caveats_recommended": [],
+        "confidence": 0.78,
+        "paragraph_index": 1,
+        "paragraph_text": "1. PURPOSE. This memo announces the FY26 update to the Annual Information Security Refresher hosted on MarineNet LMS. Course code IS-201 supersedes IS-101; all uniformed Marines must complete the refresher before 30 SEP 26. Public release approved by HQMC PA on 12 APR 26."
+      },
+      {
+        "recommended_marking": "UNCLASSIFIED",
+        "rationale": "Unrestricted distribution explicitly requested.",
+        "trigger_phrases": [
+          "unrestricted distribution"
+        ],
+        "caveats_recommended": [],
+        "confidence": 0.78,
+        "paragraph_index": 2,
+        "paragraph_text": "2. NEW CONTENT. The refresher now includes a 14-minute module on browser-resident AI assistants \u2014 Perplexity Comet, manus.im, and similar autonomous-browser agents \u2014 and the personal accountability owed by every Marine who uses one. The module is unrestricted distribution and may be hosted on the public MarineNet portal."
+      },
+      {
+        "recommended_marking": "CUI//SP-PRVCY",
+        "rationale": "Privacy Act protected fields present.",
+        "trigger_phrases": [
+          "Privacy-Act"
+        ],
+        "caveats_recommended": [
+          "FED ONLY"
+        ],
+        "confidence": 0.78,
+        "paragraph_index": 3,
+        "paragraph_text": "3. ENROLLMENT. Personnel enroll through MarineNet using their CAC. There is no PII in the course content. Transcripts are stored in DEERS-linked records and remain Privacy-Act-protected; only the individual Marine and their chain of command may pull a transcript."
+      },
+      {
+        "recommended_marking": "CUI//SP-NF",
+        "rationale": "Author explicitly invokes NOFORN handling.",
+        "trigger_phrases": [
+          "NOFORN"
+        ],
+        "caveats_recommended": [
+          "NOFORN"
+        ],
+        "confidence": 0.78,
+        "paragraph_index": 4,
+        "paragraph_text": "4. CONTRACTOR ACCESS. Curriculum SETA contractors with an active TECOM vendor agreement may access the authoring environment to update unrestricted slides. Contractors may not access transcript data, NOFORN content, or any battalion-scoped roster \u2014 those views remain federal-employees-only."
+      },
+      {
+        "recommended_marking": "CUI//SP-PROPIN",
+        "rationale": "Vendor-proprietary cost / pricing data present.",
+        "trigger_phrases": [
+          "vendor"
+        ],
+        "caveats_recommended": [
+          "FED ONLY"
+        ],
+        "confidence": 0.78,
+        "paragraph_index": 5,
+        "paragraph_text": "5. CONTACTS. Course owner: TECOM Cyber Awareness Cell. Help desk: marinenet-help@usmc.mil. There is no proprietary vendor pricing in this memo and no source-selection content; the FY26 refresh was completed under an existing IDIQ and contains no procurement-sensitive material."
+      },
+      {
+        "recommended_marking": "UNCLASSIFIED",
+        "rationale": "Author requests public / unrestricted release.",
+        "trigger_phrases": [
+          "public release"
+        ],
+        "caveats_recommended": [],
+        "confidence": 0.78,
+        "paragraph_index": 6,
+        "paragraph_text": "6. RELEASABILITY. The author requests UNCLASSIFIED, public release, with a note that MarineNet portal access remains CAC-gated."
+      }
+    ],
+    "doc_brief": {
+      "overall_marking": "CUI//SP-NF",
+      "releasability": "NOFORN",
+      "paragraph_count": 7,
+      "exec_summary": "Document spans UNCLASSIFIED through CUI//SP-NF. Most-restrictive paragraph drives the banner-line marking under DoDM 5200.01 Vol 2. Recommended releasability: NOFORN."
+    }
+  },
+  "04_contractor_sow": {
+    "doc_id": "04_contractor_sow",
+    "title": "04 CONTRACTOR SOW",
+    "paragraphs": [
+      {
+        "recommended_marking": "UNCLASSIFIED",
+        "rationale": "No CUI category triggers detected; routine administrative content.",
+        "trigger_phrases": [],
+        "caveats_recommended": [],
+        "confidence": 0.62,
+        "paragraph_index": 0,
+        "paragraph_text": "SUBJECT: Statement of Work \u2014 AAV-P7/A1 Predictive Maintenance Pilot (Pre-Award Draft v0.2)"
+      },
+      {
+        "recommended_marking": "CUI//SP-PROPIN",
+        "rationale": "Vendor-proprietary cost / pricing data present.",
+        "trigger_phrases": [
+          "vendor"
+        ],
+        "caveats_recommended": [
+          "FED ONLY"
+        ],
+        "confidence": 0.78,
+        "paragraph_index": 1,
+        "paragraph_text": "1. SCOPE. Vendor shall deliver a 90-day predictive-maintenance pilot for AAV-P7/A1 hub bearings at MCLB Albany. Deliverables: vibration-feature extraction software, a trained classifier, and a final report. This SOW is pre-award and contains source-selection-sensitive content under FAR 3.104. Tradeoff analysis and competitive range evaluation are referenced in Annex A."
+      },
+      {
+        "recommended_marking": "CUI//SP-PROPIN",
+        "rationale": "Vendor-proprietary cost / pricing data present.",
+        "trigger_phrases": [
+          "vendor",
+          "labor rate",
+          "BAFO",
+          "ODC",
+          "vendor-proprietary"
+        ],
+        "caveats_recommended": [
+          "FED ONLY"
+        ],
+        "confidence": 0.78,
+        "paragraph_index": 2,
+        "paragraph_text": "2. PRICING. Vendor's labor rate is $187.50 per hour fully burdened for senior data engineers and $142.00 per hour for mid-level engineers. Vendor's proposed Other Direct Costs (ODC) include $48,200 for sensor instrumentation and $11,400 for travel. These rates are vendor-proprietary and were submitted under the company's Best and Final Offer (BAFO) of 14 April 2026. Disclosure outside the SSEB would prejudice the competitive process."
+      },
+      {
+        "recommended_marking": "CUI//SP-EXPT",
+        "rationale": "ITAR / USML export-control language present (DoDD 5230.24).",
+        "trigger_phrases": [
+          "ITAR",
+          "USML",
+          "deemed-export",
+          "TDP",
+          "DoDD 5230.24"
+        ],
+        "caveats_recommended": [
+          "NOFORN"
+        ],
+        "confidence": 0.78,
+        "paragraph_index": 3,
+        "paragraph_text": "3. TECHNICAL DATA. The pilot will produce vibration spectrograms and a trained classifier model. The model and any derived technical data package (TDP) for the AAV-P7/A1 drive train are subject to ITAR controls under USML Category VII (Ground Vehicles) and may not be transferred to foreign nationals or released outside the United States without an approved export license. Source code shipped under this SOW is deemed-export controlled per DoDD 5230.24."
+      },
+      {
+        "recommended_marking": "CUI//SP-PROPIN",
+        "rationale": "Vendor-proprietary cost / pricing data present.",
+        "trigger_phrases": [
+          "vendor"
+        ],
+        "caveats_recommended": [
+          "FED ONLY"
+        ],
+        "confidence": 0.78,
+        "paragraph_index": 4,
+        "paragraph_text": "4. PERSONNEL. Vendor will identify three named engineers for the pilot. Their full names, work email addresses, dates of birth, and EDIPI-equivalent contractor identifiers will be provided to the contracting officer's representative under separate cover. These fields are Privacy-Act protected and shall not appear in any deliverable distributed beyond the COR."
+      },
+      {
+        "recommended_marking": "UNCLASSIFIED",
+        "rationale": "No CUI category triggers detected; routine administrative content.",
+        "trigger_phrases": [],
+        "caveats_recommended": [],
+        "confidence": 0.62,
+        "paragraph_index": 5,
+        "paragraph_text": "5. PERFORMANCE LOCATION. Work is performed on-site at MCLB Albany Building 3700, the Albany Predictive Maintenance Lab. The lab's physical security plan, badging procedures, FPCON measures, and after-hours access roster are referenced in Annex B and are not for release outside the MCLB Albany Information Protection Office."
+      },
+      {
+        "recommended_marking": "CUI//SP-EXPT",
+        "rationale": "ITAR / USML export-control language present (DoDD 5230.24).",
+        "trigger_phrases": [
+          "ITAR"
+        ],
+        "caveats_recommended": [
+          "NOFORN"
+        ],
+        "confidence": 0.78,
+        "paragraph_index": 6,
+        "paragraph_text": "6. RELEASABILITY. Vendor acknowledges that source-selection-sensitive material, ITAR-controlled technical data, and Privacy-Act-protected personnel data each carry distinct CUI handling requirements. Vendor shall mark all deliverables in accordance with DoDM 5200.01 Vol 2 and the contract Data Item Descriptions."
+      }
+    ],
+    "doc_brief": {
+      "overall_marking": "CUI//SP-EXPT",
+      "releasability": "NOFORN",
+      "paragraph_count": 7,
+      "exec_summary": "Document spans UNCLASSIFIED through CUI//SP-EXPT. Most-restrictive paragraph drives the banner-line marking under DoDM 5200.01 Vol 2. Recommended releasability: NOFORN."
+    }
+  }
+}

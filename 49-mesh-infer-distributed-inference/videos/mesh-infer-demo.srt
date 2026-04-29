@@ -1,0 +1,27 @@
+1
+00:00:01,725 --> 00:00:06,725
+MESH-INFER. The Kamiwaza Inference Mesh — visualized.
+
+2
+00:00:06,788 --> 00:00:16,788
+One Marine planner query. Four classifications. Four nodes. Each step routed to the right one.
+
+3
+00:00:16,832 --> 00:00:26,832
+Threat-vessel ID, intent classify, SIPR cable, HUMINT tip. Four steps, four sensitivities — UNCLASS to TS-SCI.
+
+4
+00:00:26,835 --> 00:00:46,835
+The mesh routes vision to the edge Jetson, classify to the rear DGX, the SIPR cable into the SCIF, HUMINT into the SCIF VL node. Each step in real time.
+
+5
+00:00:46,907 --> 00:01:06,907
+Side-by-side: a single commercial-cloud endpoint would have leaked the SECRET cable and the TS-SCI HUMINT. The mesh keeps both inside the SCIF.
+
+6
+00:01:06,909 --> 00:01:21,909
+Every routing decision is hash-chained. The SJA can prove no SCIF data ever crossed the airgap. Per-node Kamiwaza endpoints swap in via env vars.
+
+7
+00:01:21,920 --> 00:01:31,920
+MESH-INFER. Built on the Kamiwaza Stack. Deploy AI in hours, not months.

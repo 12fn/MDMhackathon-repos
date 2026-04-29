@@ -1,0 +1,575 @@
+[
+  {
+    "source_type": "hituav",
+    "observation_id": "HITUAV-000",
+    "dtg": "2026-04-26T02:40:05Z",
+    "lat": 12.3658,
+    "lon": 126.43211,
+    "raw_signature": {
+      "frame_id": "IR-1016",
+      "blob_type": "ir_blob_unidentified",
+      "blob_area_px": 186,
+      "delta_T_celsius": 8.5,
+      "platform": "HIT-UAV-Mavic3T",
+      "altitude_m": 90,
+      "platform_int": "MASINT"
+    },
+    "confidence": 0.88,
+    "audit_prev": "0000000000000000",
+    "audit_hash": "8d1c531ab5fcbb58"
+  },
+  {
+    "source_type": "hituav",
+    "observation_id": "HITUAV-008",
+    "dtg": "2026-04-26T03:07:26Z",
+    "lat": 15.43118,
+    "lon": 117.74539,
+    "raw_signature": {
+      "frame_id": "IR-3866",
+      "blob_type": "fire_signature",
+      "blob_area_px": 598,
+      "delta_T_celsius": 15.5,
+      "platform": "HIT-UAV-Mavic3T",
+      "altitude_m": 180,
+      "platform_int": "MASINT"
+    },
+    "confidence": 0.81,
+    "audit_prev": "8d1c531ab5fcbb58",
+    "audit_hash": "444f3718a446f9ad"
+  },
+  {
+    "source_type": "hituav",
+    "observation_id": "HITUAV-FUSION-F-002",
+    "dtg": "2026-04-26T03:08:00Z",
+    "lat": 13.42326,
+    "lon": 120.88696,
+    "raw_signature": {
+      "frame_id": "IR-4094",
+      "blob_type": "engine_block",
+      "blob_area_px": 720,
+      "delta_T_celsius": 14.6,
+      "platform": "HIT-UAV-Mavic3T",
+      "altitude_m": 120,
+      "platform_int": "MASINT",
+      "fusion_anchor": "F-002"
+    },
+    "confidence": 0.92,
+    "audit_prev": "444f3718a446f9ad",
+    "audit_hash": "3ef5fb707c776bbe"
+  },
+  {
+    "source_type": "hituav",
+    "observation_id": "HITUAV-026",
+    "dtg": "2026-04-26T03:13:16Z",
+    "lat": 15.06516,
+    "lon": 116.44504,
+    "raw_signature": {
+      "frame_id": "IR-6283",
+      "blob_type": "engine_block",
+      "blob_area_px": 1475,
+      "delta_T_celsius": 8.9,
+      "platform": "HIT-UAV-Mavic3T",
+      "altitude_m": 60,
+      "platform_int": "MASINT"
+    },
+    "confidence": 0.91,
+    "audit_prev": "3ef5fb707c776bbe",
+    "audit_hash": "11b16c9aca4ef40c"
+  },
+  {
+    "source_type": "hituav",
+    "observation_id": "HITUAV-013",
+    "dtg": "2026-04-26T03:42:02Z",
+    "lat": 6.94832,
+    "lon": 126.94088,
+    "raw_signature": {
+      "frame_id": "IR-5532",
+      "blob_type": "engine_block",
+      "blob_area_px": 562,
+      "delta_T_celsius": 11.2,
+      "platform": "HIT-UAV-Mavic3T",
+      "altitude_m": 180,
+      "platform_int": "MASINT"
+    },
+    "confidence": 0.72,
+    "audit_prev": "11b16c9aca4ef40c",
+    "audit_hash": "07911e1cd1a580ed"
+  },
+  {
+    "source_type": "hituav",
+    "observation_id": "HITUAV-007",
+    "dtg": "2026-04-26T04:12:25Z",
+    "lat": 15.58115,
+    "lon": 124.89275,
+    "raw_signature": {
+      "frame_id": "IR-1537",
+      "blob_type": "vehicle_warm",
+      "blob_area_px": 745,
+      "delta_T_celsius": 15.6,
+      "platform": "HIT-UAV-Mavic3T",
+      "altitude_m": 180,
+      "platform_int": "MASINT"
+    },
+    "confidence": 0.87,
+    "audit_prev": "07911e1cd1a580ed",
+    "audit_hash": "8396fe22174eedf7"
+  },
+  {
+    "source_type": "hituav",
+    "observation_id": "HITUAV-002",
+    "dtg": "2026-04-26T05:04:53Z",
+    "lat": 7.34668,
+    "lon": 120.59525,
+    "raw_signature": {
+      "frame_id": "IR-3949",
+      "blob_type": "fire_signature",
+      "blob_area_px": 732,
+      "delta_T_celsius": 14.7,
+      "platform": "HIT-UAV-Mavic3T",
+      "altitude_m": 90,
+      "platform_int": "MASINT"
+    },
+    "confidence": 0.77,
+    "audit_prev": "8396fe22174eedf7",
+    "audit_hash": "54a6806a00daa95c"
+  },
+  {
+    "source_type": "hituav",
+    "observation_id": "HITUAV-009",
+    "dtg": "2026-04-26T06:30:27Z",
+    "lat": 6.43499,
+    "lon": 126.73758,
+    "raw_signature": {
+      "frame_id": "IR-6776",
+      "blob_type": "engine_block",
+      "blob_area_px": 1309,
+      "delta_T_celsius": 7.1,
+      "platform": "HIT-UAV-Mavic3T",
+      "altitude_m": 120,
+      "platform_int": "MASINT"
+    },
+    "confidence": 0.73,
+    "audit_prev": "54a6806a00daa95c",
+    "audit_hash": "5cc5aa10853449f6"
+  },
+  {
+    "source_type": "hituav",
+    "observation_id": "HITUAV-016",
+    "dtg": "2026-04-26T06:36:06Z",
+    "lat": 5.59668,
+    "lon": 127.40789,
+    "raw_signature": {
+      "frame_id": "IR-4008",
+      "blob_type": "engine_block",
+      "blob_area_px": 907,
+      "delta_T_celsius": 8.5,
+      "platform": "HIT-UAV-Mavic3T",
+      "altitude_m": 90,
+      "platform_int": "MASINT"
+    },
+    "confidence": 0.8,
+    "audit_prev": "5cc5aa10853449f6",
+    "audit_hash": "64ef023aaa3eca96"
+  },
+  {
+    "source_type": "hituav",
+    "observation_id": "HITUAV-010",
+    "dtg": "2026-04-26T08:20:15Z",
+    "lat": 17.39761,
+    "lon": 126.40816,
+    "raw_signature": {
+      "frame_id": "IR-4949",
+      "blob_type": "engine_block",
+      "blob_area_px": 1353,
+      "delta_T_celsius": 13.9,
+      "platform": "HIT-UAV-Mavic3T",
+      "altitude_m": 60,
+      "platform_int": "MASINT"
+    },
+    "confidence": 0.7,
+    "audit_prev": "64ef023aaa3eca96",
+    "audit_hash": "256b60829cbb68a8"
+  },
+  {
+    "source_type": "hituav",
+    "observation_id": "HITUAV-015",
+    "dtg": "2026-04-26T08:34:59Z",
+    "lat": 17.99212,
+    "lon": 122.61451,
+    "raw_signature": {
+      "frame_id": "IR-1510",
+      "blob_type": "engine_block",
+      "blob_area_px": 1187,
+      "delta_T_celsius": 12.8,
+      "platform": "HIT-UAV-Mavic3T",
+      "altitude_m": 120,
+      "platform_int": "MASINT"
+    },
+    "confidence": 0.76,
+    "audit_prev": "256b60829cbb68a8",
+    "audit_hash": "c997f9a060b3054f"
+  },
+  {
+    "source_type": "hituav",
+    "observation_id": "HITUAV-001",
+    "dtg": "2026-04-26T09:33:12Z",
+    "lat": 7.12757,
+    "lon": 120.78729,
+    "raw_signature": {
+      "frame_id": "IR-4290",
+      "blob_type": "engine_block",
+      "blob_area_px": 1530,
+      "delta_T_celsius": 6.5,
+      "platform": "HIT-UAV-Mavic3T",
+      "altitude_m": 120,
+      "platform_int": "MASINT"
+    },
+    "confidence": 0.7,
+    "audit_prev": "c997f9a060b3054f",
+    "audit_hash": "0a23ce0f69b669ea"
+  },
+  {
+    "source_type": "hituav",
+    "observation_id": "HITUAV-018",
+    "dtg": "2026-04-26T09:59:12Z",
+    "lat": 14.02285,
+    "lon": 125.34806,
+    "raw_signature": {
+      "frame_id": "IR-8830",
+      "blob_type": "vessel_wake",
+      "blob_area_px": 586,
+      "delta_T_celsius": 13.5,
+      "platform": "HIT-UAV-Mavic3T",
+      "altitude_m": 120,
+      "platform_int": "MASINT"
+    },
+    "confidence": 0.89,
+    "audit_prev": "0a23ce0f69b669ea",
+    "audit_hash": "09a3aca5738427ac"
+  },
+  {
+    "source_type": "hituav",
+    "observation_id": "HITUAV-019",
+    "dtg": "2026-04-26T10:52:37Z",
+    "lat": 5.28328,
+    "lon": 119.72219,
+    "raw_signature": {
+      "frame_id": "IR-2582",
+      "blob_type": "vessel_wake",
+      "blob_area_px": 1017,
+      "delta_T_celsius": 17.1,
+      "platform": "HIT-UAV-Mavic3T",
+      "altitude_m": 60,
+      "platform_int": "MASINT"
+    },
+    "confidence": 0.77,
+    "audit_prev": "09a3aca5738427ac",
+    "audit_hash": "098fb925f5db1e0a"
+  },
+  {
+    "source_type": "hituav",
+    "observation_id": "HITUAV-006",
+    "dtg": "2026-04-26T11:28:13Z",
+    "lat": 17.2635,
+    "lon": 123.75494,
+    "raw_signature": {
+      "frame_id": "IR-4002",
+      "blob_type": "person_warm",
+      "blob_area_px": 466,
+      "delta_T_celsius": 17.9,
+      "platform": "HIT-UAV-Mavic3T",
+      "altitude_m": 60,
+      "platform_int": "MASINT"
+    },
+    "confidence": 0.87,
+    "audit_prev": "098fb925f5db1e0a",
+    "audit_hash": "ddb45bc3624c4b9c"
+  },
+  {
+    "source_type": "hituav",
+    "observation_id": "HITUAV-005",
+    "dtg": "2026-04-26T13:02:52Z",
+    "lat": 12.78545,
+    "lon": 117.89453,
+    "raw_signature": {
+      "frame_id": "IR-2114",
+      "blob_type": "vessel_wake",
+      "blob_area_px": 1001,
+      "delta_T_celsius": 9.5,
+      "platform": "HIT-UAV-Mavic3T",
+      "altitude_m": 180,
+      "platform_int": "MASINT"
+    },
+    "confidence": 0.74,
+    "audit_prev": "ddb45bc3624c4b9c",
+    "audit_hash": "751f9554966fddcc"
+  },
+  {
+    "source_type": "hituav",
+    "observation_id": "HITUAV-FUSION-F-001",
+    "dtg": "2026-04-26T13:56:00Z",
+    "lat": 6.45004,
+    "lon": 121.08196,
+    "raw_signature": {
+      "frame_id": "IR-7257",
+      "blob_type": "vessel_wake",
+      "blob_area_px": 720,
+      "delta_T_celsius": 14.6,
+      "platform": "HIT-UAV-Mavic3T",
+      "altitude_m": 120,
+      "platform_int": "MASINT",
+      "fusion_anchor": "F-001"
+    },
+    "confidence": 0.92,
+    "audit_prev": "751f9554966fddcc",
+    "audit_hash": "8bf8f1ce66f4f21c"
+  },
+  {
+    "source_type": "hituav",
+    "observation_id": "HITUAV-021",
+    "dtg": "2026-04-26T14:51:30Z",
+    "lat": 17.86147,
+    "lon": 117.41709,
+    "raw_signature": {
+      "frame_id": "IR-2645",
+      "blob_type": "fire_signature",
+      "blob_area_px": 415,
+      "delta_T_celsius": 14.9,
+      "platform": "HIT-UAV-Mavic3T",
+      "altitude_m": 60,
+      "platform_int": "MASINT"
+    },
+    "confidence": 0.76,
+    "audit_prev": "8bf8f1ce66f4f21c",
+    "audit_hash": "af25db488704dcf8"
+  },
+  {
+    "source_type": "hituav",
+    "observation_id": "HITUAV-022",
+    "dtg": "2026-04-26T15:21:53Z",
+    "lat": 15.8873,
+    "lon": 122.68387,
+    "raw_signature": {
+      "frame_id": "IR-9894",
+      "blob_type": "fire_signature",
+      "blob_area_px": 1542,
+      "delta_T_celsius": 15.7,
+      "platform": "HIT-UAV-Mavic3T",
+      "altitude_m": 120,
+      "platform_int": "MASINT"
+    },
+    "confidence": 0.78,
+    "audit_prev": "af25db488704dcf8",
+    "audit_hash": "dbec607bf3a87f83"
+  },
+  {
+    "source_type": "hituav",
+    "observation_id": "HITUAV-025",
+    "dtg": "2026-04-26T17:46:28Z",
+    "lat": 11.29937,
+    "lon": 122.22962,
+    "raw_signature": {
+      "frame_id": "IR-6169",
+      "blob_type": "person_warm",
+      "blob_area_px": 409,
+      "delta_T_celsius": 9.1,
+      "platform": "HIT-UAV-Mavic3T",
+      "altitude_m": 180,
+      "platform_int": "MASINT"
+    },
+    "confidence": 0.84,
+    "audit_prev": "dbec607bf3a87f83",
+    "audit_hash": "b7c2e1078d4f3f93"
+  },
+  {
+    "source_type": "hituav",
+    "observation_id": "HITUAV-003",
+    "dtg": "2026-04-26T18:49:28Z",
+    "lat": 7.52092,
+    "lon": 118.26424,
+    "raw_signature": {
+      "frame_id": "IR-4927",
+      "blob_type": "engine_block",
+      "blob_area_px": 400,
+      "delta_T_celsius": 13.2,
+      "platform": "HIT-UAV-Mavic3T",
+      "altitude_m": 180,
+      "platform_int": "MASINT"
+    },
+    "confidence": 0.92,
+    "audit_prev": "b7c2e1078d4f3f93",
+    "audit_hash": "f8fde8b802557388"
+  },
+  {
+    "source_type": "hituav",
+    "observation_id": "HITUAV-FUSION-F-005",
+    "dtg": "2026-04-26T19:36:00Z",
+    "lat": 10.18233,
+    "lon": 119.06246,
+    "raw_signature": {
+      "frame_id": "IR-2430",
+      "blob_type": "person_warm",
+      "blob_area_px": 720,
+      "delta_T_celsius": 14.6,
+      "platform": "HIT-UAV-Mavic3T",
+      "altitude_m": 120,
+      "platform_int": "MASINT",
+      "fusion_anchor": "F-005"
+    },
+    "confidence": 0.92,
+    "audit_prev": "f8fde8b802557388",
+    "audit_hash": "26d66b3567f29def"
+  },
+  {
+    "source_type": "hituav",
+    "observation_id": "HITUAV-014",
+    "dtg": "2026-04-26T20:06:49Z",
+    "lat": 8.64547,
+    "lon": 125.928,
+    "raw_signature": {
+      "frame_id": "IR-4606",
+      "blob_type": "fire_signature",
+      "blob_area_px": 406,
+      "delta_T_celsius": 7.9,
+      "platform": "HIT-UAV-Mavic3T",
+      "altitude_m": 90,
+      "platform_int": "MASINT"
+    },
+    "confidence": 0.93,
+    "audit_prev": "26d66b3567f29def",
+    "audit_hash": "e5a8d2284be1928f"
+  },
+  {
+    "source_type": "hituav",
+    "observation_id": "HITUAV-004",
+    "dtg": "2026-04-26T20:25:00Z",
+    "lat": 7.95965,
+    "lon": 122.02678,
+    "raw_signature": {
+      "frame_id": "IR-2546",
+      "blob_type": "fire_signature",
+      "blob_area_px": 1536,
+      "delta_T_celsius": 4.7,
+      "platform": "HIT-UAV-Mavic3T",
+      "altitude_m": 120,
+      "platform_int": "MASINT"
+    },
+    "confidence": 0.92,
+    "audit_prev": "e5a8d2284be1928f",
+    "audit_hash": "04fa8c549d9249be"
+  },
+  {
+    "source_type": "hituav",
+    "observation_id": "HITUAV-011",
+    "dtg": "2026-04-26T20:36:08Z",
+    "lat": 14.37955,
+    "lon": 122.29846,
+    "raw_signature": {
+      "frame_id": "IR-3728",
+      "blob_type": "person_warm",
+      "blob_area_px": 1193,
+      "delta_T_celsius": 8.4,
+      "platform": "HIT-UAV-Mavic3T",
+      "altitude_m": 90,
+      "platform_int": "MASINT"
+    },
+    "confidence": 0.91,
+    "audit_prev": "04fa8c549d9249be",
+    "audit_hash": "f874f2b60480ae72"
+  },
+  {
+    "source_type": "hituav",
+    "observation_id": "HITUAV-017",
+    "dtg": "2026-04-26T22:07:22Z",
+    "lat": 7.35667,
+    "lon": 123.74074,
+    "raw_signature": {
+      "frame_id": "IR-5845",
+      "blob_type": "engine_block",
+      "blob_area_px": 169,
+      "delta_T_celsius": 3.0,
+      "platform": "HIT-UAV-Mavic3T",
+      "altitude_m": 90,
+      "platform_int": "MASINT"
+    },
+    "confidence": 0.89,
+    "audit_prev": "f874f2b60480ae72",
+    "audit_hash": "8be8a03f3ec6af8d"
+  },
+  {
+    "source_type": "hituav",
+    "observation_id": "HITUAV-024",
+    "dtg": "2026-04-26T22:48:36Z",
+    "lat": 8.97256,
+    "lon": 119.61278,
+    "raw_signature": {
+      "frame_id": "IR-4271",
+      "blob_type": "ir_blob_unidentified",
+      "blob_area_px": 1544,
+      "delta_T_celsius": 11.3,
+      "platform": "HIT-UAV-Mavic3T",
+      "altitude_m": 60,
+      "platform_int": "MASINT"
+    },
+    "confidence": 0.83,
+    "audit_prev": "8be8a03f3ec6af8d",
+    "audit_hash": "76d2f4fa2a211a2f"
+  },
+  {
+    "source_type": "hituav",
+    "observation_id": "HITUAV-012",
+    "dtg": "2026-04-26T23:01:36Z",
+    "lat": 13.56925,
+    "lon": 121.36551,
+    "raw_signature": {
+      "frame_id": "IR-4288",
+      "blob_type": "person_warm",
+      "blob_area_px": 547,
+      "delta_T_celsius": 6.2,
+      "platform": "HIT-UAV-Mavic3T",
+      "altitude_m": 60,
+      "platform_int": "MASINT"
+    },
+    "confidence": 0.83,
+    "audit_prev": "76d2f4fa2a211a2f",
+    "audit_hash": "1454bb8c62e81957"
+  },
+  {
+    "source_type": "hituav",
+    "observation_id": "HITUAV-020",
+    "dtg": "2026-04-26T23:21:39Z",
+    "lat": 7.19921,
+    "lon": 117.37554,
+    "raw_signature": {
+      "frame_id": "IR-7759",
+      "blob_type": "vehicle_warm",
+      "blob_area_px": 1548,
+      "delta_T_celsius": 12.7,
+      "platform": "HIT-UAV-Mavic3T",
+      "altitude_m": 90,
+      "platform_int": "MASINT"
+    },
+    "confidence": 0.92,
+    "audit_prev": "1454bb8c62e81957",
+    "audit_hash": "b2b9f59a748f95c3"
+  },
+  {
+    "source_type": "hituav",
+    "observation_id": "HITUAV-023",
+    "dtg": "2026-04-26T23:59:00Z",
+    "lat": 14.57354,
+    "lon": 118.38977,
+    "raw_signature": {
+      "frame_id": "IR-9211",
+      "blob_type": "vehicle_warm",
+      "blob_area_px": 1619,
+      "delta_T_celsius": 7.8,
+      "platform": "HIT-UAV-Mavic3T",
+      "altitude_m": 120,
+      "platform_int": "MASINT"
+    },
+    "confidence": 0.79,
+    "audit_prev": "b2b9f59a748f95c3",
+    "audit_hash": "dbb282d3269825d2"
+  }
+]

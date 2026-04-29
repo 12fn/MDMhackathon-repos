@@ -1,0 +1,50 @@
+[
+  {
+    "id": "Q1_smith_indopacom",
+    "subject": "P_SMITH",
+    "object": "DOC_008",
+    "label": "LCpl Smith \u2192 INDOPACOM Posture Brief Q3",
+    "expected": "ALLOW",
+    "narrative": "Smith is rifleman in 3rd Squad / 1st Plt / A Co 1/8. A Co 1/8 is ATTACHED to 2/2 (BLT for 24th MEU), 24th MEU is OPCON to USINDOPACOM. USINDOPACOM HAS_NEED_TO_KNOW the INDOPACOM Posture Brief. Smith holds SECRET clearance \u2265 doc SECRET. REL_TO contains FVEY+USA \u2192 USA citizen \u2713. Access granted via the OPCON path."
+  },
+  {
+    "id": "Q2_smith_natowinter",
+    "subject": "P_SMITH",
+    "object": "DOC_003",
+    "label": "LCpl Smith \u2192 MARFOREUR NATO Coalition ROE",
+    "expected": "DENY",
+    "narrative": "Smith's chain reaches USINDOPACOM via OPCON. The MARFOREUR ROE is classified by MARFOREUR_G3, releasable to NATO only, and need-to-know is bound to MARFOREUR / USEUCOM. No path from Smith reaches that need-to-know set, and Smith's REL_TO bucket excludes NATO-only docs."
+  },
+  {
+    "id": "Q3_harris_meu_logplan",
+    "subject": "P_HARRIS",
+    "object": "DOC_006",
+    "label": "Sgt Harris (UK LNO) \u2192 MEU Composite Logistics Plan",
+    "expected": "ALLOW",
+    "narrative": "Harris is MEMBER_OF 24th MEU. 24MEU HAS_NEED_TO_KNOW the MEU Log Plan. Harris holds SECRET clearance \u2265 doc CUI. REL_TO contains FVEY \u2192 GBR \u2208 FVEY \u2713. Access granted via direct MEMBER_OF + FVEY release."
+  },
+  {
+    "id": "Q4_weber_indopacom",
+    "subject": "P_WEBER",
+    "object": "DOC_008",
+    "label": "OF-2 Weber (DEU) \u2192 INDOPACOM Posture Brief",
+    "expected": "DENY",
+    "narrative": "Weber is MEMBER_OF MARFOREUR (NATO realm). No path from MARFOREUR reaches USINDOPACOM-bound need-to-know set, and the doc is REL_TO USA + FVEY only \u2014 DEU is NATO, not FVEY. Even if a path existed, REL_TO would deny."
+  },
+  {
+    "id": "Q5_vendor_sow",
+    "subject": "P_VENDOR",
+    "object": "DOC_007",
+    "label": "Quinn (SETA) \u2192 Vendor SOW",
+    "expected": "ALLOW",
+    "narrative": "Quinn is MEMBER_OF 1/8 (vendor realm). 1/8 HAS_NEED_TO_KNOW the SOW and VENDOR is a need-to-know group. Doc is UNCLASS (\u2264 Quinn's UNCLASS max). REL_TO ALL \u2287 {USA}. Access granted."
+  },
+  {
+    "id": "Q6_vendor_meu_log",
+    "subject": "P_VENDOR",
+    "object": "DOC_006",
+    "label": "Quinn (SETA) \u2192 MEU Composite Logistics Plan",
+    "expected": "DENY",
+    "narrative": "Quinn's CLEARANCE = UNCLASS. Doc classification = CUI. Even if a path existed, the clearance check would fail at edge[Quinn \u2192 CLR_UNCLASS]."
+  }
+]

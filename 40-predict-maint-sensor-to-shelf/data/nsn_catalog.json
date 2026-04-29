@@ -1,0 +1,392 @@
+[
+  {
+    "nsn": "3110-01-561-1929",
+    "part_name": "Bearing, Tapered Roller, Wheel Hub (MTVR drive axle)",
+    "primary_platform": "MTVR",
+    "subsystem": "wheels",
+    "base_daily_per_vehicle": 0.0024,
+    "unit_price_usd": 387,
+    "rebuild_not_buy": true,
+    "long_pole": false
+  },
+  {
+    "nsn": "3110-01-660-2271",
+    "part_name": "Bearing, Wheel Hub Front (JLTV)",
+    "primary_platform": "JLTV",
+    "subsystem": "wheels",
+    "base_daily_per_vehicle": 0.0019,
+    "unit_price_usd": 512,
+    "rebuild_not_buy": false,
+    "long_pole": false
+  },
+  {
+    "nsn": "3110-01-204-5587",
+    "part_name": "Bearing, Wheel Hub (LAV-25 Drive Train)",
+    "primary_platform": "LAV",
+    "subsystem": "wheels",
+    "base_daily_per_vehicle": 0.0021,
+    "unit_price_usd": 622,
+    "rebuild_not_buy": true,
+    "long_pole": true
+  },
+  {
+    "nsn": "3110-01-413-2691",
+    "part_name": "Bearing, Final Drive Pinion (AAV-7A1)",
+    "primary_platform": "AAV-7A1",
+    "subsystem": "tracks",
+    "base_daily_per_vehicle": 0.0011,
+    "unit_price_usd": 745,
+    "rebuild_not_buy": true,
+    "long_pole": true
+  },
+  {
+    "nsn": "3110-01-617-8013",
+    "part_name": "Bearing, Prop Rotor Hub (MV-22)",
+    "primary_platform": "MV-22B",
+    "subsystem": "rotor",
+    "base_daily_per_vehicle": 0.0006,
+    "unit_price_usd": 4280,
+    "rebuild_not_buy": true,
+    "long_pole": true
+  },
+  {
+    "nsn": "2530-01-621-3107",
+    "part_name": "Brake rotor (MTVR)",
+    "primary_platform": "MTVR",
+    "subsystem": "brakes",
+    "base_daily_per_vehicle": 0.0019,
+    "unit_price_usd": 215,
+    "rebuild_not_buy": false,
+    "long_pole": false
+  },
+  {
+    "nsn": "2530-01-487-5511",
+    "part_name": "Hydraulic brake caliper (JLTV)",
+    "primary_platform": "JLTV",
+    "subsystem": "brakes",
+    "base_daily_per_vehicle": 0.0014,
+    "unit_price_usd": 320,
+    "rebuild_not_buy": false,
+    "long_pole": false
+  },
+  {
+    "nsn": "2530-01-356-7711",
+    "part_name": "Power steering pump (MTVR)",
+    "primary_platform": "MTVR",
+    "subsystem": "steering",
+    "base_daily_per_vehicle": 0.0009,
+    "unit_price_usd": 1180,
+    "rebuild_not_buy": true,
+    "long_pole": false
+  },
+  {
+    "nsn": "2520-01-365-7104",
+    "part_name": "Drive shaft U-joint (MTVR)",
+    "primary_platform": "MTVR",
+    "subsystem": "transmission",
+    "base_daily_per_vehicle": 0.0033,
+    "unit_price_usd": 175,
+    "rebuild_not_buy": false,
+    "long_pole": false
+  },
+  {
+    "nsn": "2520-01-528-3166",
+    "part_name": "Torque converter (JLTV)",
+    "primary_platform": "JLTV",
+    "subsystem": "transmission",
+    "base_daily_per_vehicle": 0.00055,
+    "unit_price_usd": 2900,
+    "rebuild_not_buy": true,
+    "long_pole": true
+  },
+  {
+    "nsn": "2520-01-562-9981",
+    "part_name": "Transfer case, ratio 1.85 (MTVR)",
+    "primary_platform": "MTVR",
+    "subsystem": "transmission",
+    "base_daily_per_vehicle": 0.0008,
+    "unit_price_usd": 3450,
+    "rebuild_not_buy": true,
+    "long_pole": true
+  },
+  {
+    "nsn": "2920-01-446-5219",
+    "part_name": "Alternator 200A 28V (MTVR)",
+    "primary_platform": "MTVR",
+    "subsystem": "electrical",
+    "base_daily_per_vehicle": 0.0017,
+    "unit_price_usd": 410,
+    "rebuild_not_buy": true,
+    "long_pole": false
+  },
+  {
+    "nsn": "2920-01-396-9234",
+    "part_name": "Starter motor 24V (HMMWV/MTVR)",
+    "primary_platform": "MTVR",
+    "subsystem": "engine",
+    "base_daily_per_vehicle": 0.0013,
+    "unit_price_usd": 605,
+    "rebuild_not_buy": true,
+    "long_pole": false
+  },
+  {
+    "nsn": "2940-01-389-2196",
+    "part_name": "Primary fuel/oil filter element (MTVR)",
+    "primary_platform": "MTVR",
+    "subsystem": "engine",
+    "base_daily_per_vehicle": 0.0095,
+    "unit_price_usd": 24,
+    "rebuild_not_buy": false,
+    "long_pole": false
+  },
+  {
+    "nsn": "2940-01-413-1984",
+    "part_name": "Engine air filter element (HMMWV)",
+    "primary_platform": "HMMWV",
+    "subsystem": "engine",
+    "base_daily_per_vehicle": 0.0082,
+    "unit_price_usd": 58,
+    "rebuild_not_buy": false,
+    "long_pole": false
+  },
+  {
+    "nsn": "2930-01-477-0631",
+    "part_name": "Fuel filter / water separator (MTVR)",
+    "primary_platform": "MTVR",
+    "subsystem": "engine",
+    "base_daily_per_vehicle": 0.007,
+    "unit_price_usd": 47,
+    "rebuild_not_buy": false,
+    "long_pole": false
+  },
+  {
+    "nsn": "4720-01-471-9951",
+    "part_name": "High-pressure hydraulic hose 1/2 in. (M88A2)",
+    "primary_platform": "M88A2",
+    "subsystem": "hydraulics",
+    "base_daily_per_vehicle": 0.0061,
+    "unit_price_usd": 95,
+    "rebuild_not_buy": false,
+    "long_pole": false
+  },
+  {
+    "nsn": "4720-01-329-4512",
+    "part_name": "Coolant hose (MTVR engine)",
+    "primary_platform": "MTVR",
+    "subsystem": "engine",
+    "base_daily_per_vehicle": 0.0044,
+    "unit_price_usd": 38,
+    "rebuild_not_buy": false,
+    "long_pole": false
+  },
+  {
+    "nsn": "1680-01-651-2244",
+    "part_name": "Prop rotor blade, MV-22 (composite)",
+    "primary_platform": "MV-22B",
+    "subsystem": "rotor",
+    "base_daily_per_vehicle": 0.0004,
+    "unit_price_usd": 28500,
+    "rebuild_not_buy": true,
+    "long_pole": true
+  },
+  {
+    "nsn": "2935-01-510-9923",
+    "part_name": "Fuel control, MV-22 engine",
+    "primary_platform": "MV-22B",
+    "subsystem": "engine",
+    "base_daily_per_vehicle": 0.0007,
+    "unit_price_usd": 12400,
+    "rebuild_not_buy": true,
+    "long_pole": true
+  },
+  {
+    "nsn": "4730-01-441-2298",
+    "part_name": "Hydraulic seal kit, lift assy",
+    "primary_platform": "AAV-7A1",
+    "subsystem": "hydraulics",
+    "base_daily_per_vehicle": 0.0033,
+    "unit_price_usd": 240,
+    "rebuild_not_buy": false,
+    "long_pole": true
+  },
+  {
+    "nsn": "5305-01-188-1057",
+    "part_name": "Machine screw, hex-head 3/8-16 (general)",
+    "primary_platform": "MTVR",
+    "subsystem": "fasteners",
+    "base_daily_per_vehicle": 0.022,
+    "unit_price_usd": 2,
+    "rebuild_not_buy": false,
+    "long_pole": false
+  },
+  {
+    "nsn": "5306-01-204-9033",
+    "part_name": "Structural bolt 1/2-13 grade-8 (general)",
+    "primary_platform": "JLTV",
+    "subsystem": "fasteners",
+    "base_daily_per_vehicle": 0.018,
+    "unit_price_usd": 3,
+    "rebuild_not_buy": false,
+    "long_pole": false
+  },
+  {
+    "nsn": "6140-01-446-9512",
+    "part_name": "Vehicle battery 6TL 12V (HMMWV/MTVR)",
+    "primary_platform": "MTVR",
+    "subsystem": "electrical",
+    "base_daily_per_vehicle": 0.0024,
+    "unit_price_usd": 138,
+    "rebuild_not_buy": false,
+    "long_pole": false
+  },
+  {
+    "nsn": "5995-01-538-7726",
+    "part_name": "RF coaxial cable assembly, vehicle SINCGARS",
+    "primary_platform": "LAV",
+    "subsystem": "comms",
+    "base_daily_per_vehicle": 0.0036,
+    "unit_price_usd": 84,
+    "rebuild_not_buy": false,
+    "long_pole": false
+  },
+  {
+    "nsn": "2610-01-561-7748",
+    "part_name": "Radial tire 395/85R20 (MTVR)",
+    "primary_platform": "MTVR",
+    "subsystem": "tires",
+    "base_daily_per_vehicle": 0.0028,
+    "unit_price_usd": 690,
+    "rebuild_not_buy": false,
+    "long_pole": false
+  },
+  {
+    "nsn": "2610-01-647-5106",
+    "part_name": "Run-flat radial tire 37x12.5R17 (JLTV)",
+    "primary_platform": "JLTV",
+    "subsystem": "tires",
+    "base_daily_per_vehicle": 0.0026,
+    "unit_price_usd": 540,
+    "rebuild_not_buy": false,
+    "long_pole": false
+  },
+  {
+    "nsn": "2540-01-565-2210",
+    "part_name": "Ballistic glass window panel (JLTV)",
+    "primary_platform": "JLTV",
+    "subsystem": "armor",
+    "base_daily_per_vehicle": 0.0006,
+    "unit_price_usd": 2400,
+    "rebuild_not_buy": false,
+    "long_pole": true
+  },
+  {
+    "nsn": "1240-01-602-7715",
+    "part_name": "Optical sight assembly, M1A1",
+    "primary_platform": "M1A1",
+    "subsystem": "weapons",
+    "base_daily_per_vehicle": 0.0002,
+    "unit_price_usd": 18500,
+    "rebuild_not_buy": true,
+    "long_pole": true
+  },
+  {
+    "nsn": "2895-01-462-3318",
+    "part_name": "Winch cable assembly 200ft (M88A2)",
+    "primary_platform": "M88A2",
+    "subsystem": "winch",
+    "base_daily_per_vehicle": 0.0029,
+    "unit_price_usd": 410,
+    "rebuild_not_buy": false,
+    "long_pole": false
+  },
+  {
+    "nsn": "2815-01-377-2184",
+    "part_name": "Cylinder head gasket (HMMWV 6.5L)",
+    "primary_platform": "HMMWV",
+    "subsystem": "engine",
+    "base_daily_per_vehicle": 0.00072,
+    "unit_price_usd": 220,
+    "rebuild_not_buy": false,
+    "long_pole": false
+  },
+  {
+    "nsn": "5965-01-411-7783",
+    "part_name": "Intercom headset H-250/U",
+    "primary_platform": "LAV",
+    "subsystem": "comms",
+    "base_daily_per_vehicle": 0.0058,
+    "unit_price_usd": 165,
+    "rebuild_not_buy": false,
+    "long_pole": false
+  },
+  {
+    "nsn": "6135-01-301-8776",
+    "part_name": "BA-5590 lithium primary battery (radio)",
+    "primary_platform": "JLTV",
+    "subsystem": "comms",
+    "base_daily_per_vehicle": 0.012,
+    "unit_price_usd": 26,
+    "rebuild_not_buy": false,
+    "long_pole": false
+  },
+  {
+    "nsn": "2810-01-501-9928",
+    "part_name": "Caterpillar C-12 engine assembly (MTVR rebuild)",
+    "primary_platform": "MTVR",
+    "subsystem": "engine",
+    "base_daily_per_vehicle": 0.00012,
+    "unit_price_usd": 47800,
+    "rebuild_not_buy": true,
+    "long_pole": true
+  },
+  {
+    "nsn": "3040-01-489-1071",
+    "part_name": "Final drive housing, port (AAV-7A1)",
+    "primary_platform": "AAV-7A1",
+    "subsystem": "tracks",
+    "base_daily_per_vehicle": 0.00038,
+    "unit_price_usd": 8900,
+    "rebuild_not_buy": true,
+    "long_pole": true
+  },
+  {
+    "nsn": "5340-01-122-4419",
+    "part_name": "Bracket, armor liner",
+    "primary_platform": "LAV",
+    "subsystem": "armor",
+    "base_daily_per_vehicle": 0.0018,
+    "unit_price_usd": 95,
+    "rebuild_not_buy": false,
+    "long_pole": false
+  },
+  {
+    "nsn": "1730-01-498-7102",
+    "part_name": "Hydraulic actuator, ramp assy (AAV)",
+    "primary_platform": "AAV-7A1",
+    "subsystem": "hydraulics",
+    "base_daily_per_vehicle": 0.0008,
+    "unit_price_usd": 1180,
+    "rebuild_not_buy": true,
+    "long_pole": true
+  },
+  {
+    "nsn": "2540-01-572-3041",
+    "part_name": "Seat, armored crew (driver)",
+    "primary_platform": "LAV",
+    "subsystem": "interior",
+    "base_daily_per_vehicle": 0.0006,
+    "unit_price_usd": 2240,
+    "rebuild_not_buy": false,
+    "long_pole": false
+  },
+  {
+    "nsn": "6130-01-651-1182",
+    "part_name": "Power distribution unit, vehicle",
+    "primary_platform": "MTVR",
+    "subsystem": "electrical",
+    "base_daily_per_vehicle": 0.0008,
+    "unit_price_usd": 1410,
+    "rebuild_not_buy": true,
+    "long_pole": false
+  }
+]

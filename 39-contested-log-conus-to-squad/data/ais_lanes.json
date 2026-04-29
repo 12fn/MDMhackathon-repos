@@ -1,0 +1,100 @@
+[
+  {
+    "id": "LANE-PAC-N",
+    "from_port": "PORT-BMT",
+    "to_port": "PORT-PHL",
+    "transit_days": 14.0,
+    "risk_basin": "Open Pacific"
+  },
+  {
+    "id": "LANE-PAC-MID",
+    "from_port": "PORT-PHL",
+    "to_port": "PORT-GUM",
+    "transit_days": 6.0,
+    "risk_basin": "Open Pacific"
+  },
+  {
+    "id": "LANE-PAC-W",
+    "from_port": "PORT-LAX",
+    "to_port": "PORT-GUM",
+    "transit_days": 13.0,
+    "risk_basin": "Open Pacific"
+  },
+  {
+    "id": "LANE-LUZ-N",
+    "from_port": "PORT-GUM",
+    "to_port": "PORT-ITB",
+    "transit_days": 4.0,
+    "risk_basin": "Luzon Strait"
+  },
+  {
+    "id": "LANE-OKI-W",
+    "from_port": "PORT-GUM",
+    "to_port": "PORT-OKI",
+    "transit_days": 5.0,
+    "risk_basin": "Philippine Sea"
+  },
+  {
+    "id": "LANE-MAL",
+    "from_port": "PORT-SGP",
+    "to_port": "PORT-FUJ",
+    "transit_days": 11.0,
+    "risk_basin": "Strait of Malacca"
+  },
+  {
+    "id": "LANE-BAB",
+    "from_port": "PORT-FUJ",
+    "to_port": "PORT-DJB",
+    "transit_days": 6.5,
+    "risk_basin": "Bab-el-Mandeb"
+  },
+  {
+    "id": "LANE-SUEZ",
+    "from_port": "PORT-DJB",
+    "to_port": "PORT-SUE",
+    "transit_days": 4.5,
+    "risk_basin": "Red Sea"
+  },
+  {
+    "id": "LANE-DGAR",
+    "from_port": "PORT-DGR",
+    "to_port": "PORT-FUJ",
+    "transit_days": 7.0,
+    "risk_basin": "Indian Ocean"
+  },
+  {
+    "id": "LANE-COR-S",
+    "from_port": "PORT-DAR",
+    "to_port": "PORT-GUM",
+    "transit_days": 9.0,
+    "risk_basin": "Coral Sea"
+  },
+  {
+    "id": "LANE-DAR-ITB",
+    "from_port": "PORT-DAR",
+    "to_port": "PORT-ITB",
+    "transit_days": 11.5,
+    "risk_basin": "Celebes-Sulu"
+  },
+  {
+    "id": "LANE-PHL-OKI",
+    "from_port": "PORT-MNL",
+    "to_port": "PORT-OKI",
+    "transit_days": 3.5,
+    "risk_basin": "East China Sea"
+  },
+  {
+    "id": "LANE-OKI-ITB",
+    "from_port": "PORT-OKI",
+    "to_port": "PORT-ITB",
+    "transit_days": 2.5,
+    "risk_basin": "Bashi Channel"
+  },
+  {
+    "id": "LANE-CHS-PAN",
+    "from_port": "PORT-CHS",
+    "to_port": "PORT-LAX",
+    "transit_days": 21.0,
+    "risk_basin": "Panama Canal"
+  }
+]

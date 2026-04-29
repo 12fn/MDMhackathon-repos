@@ -1,0 +1,21 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1440
+PlayResY: 900
+ScaledBorderAndShadow: yes
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Helvetica,22,&H00FFFFFF,&H00FFFFFF,&H00000000,&HC8000000,1,0,0,0,100,100,0,0,3,1,0.5,2,80,80,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:01.72,0:00:06.72,Default,,0,0,0,,MESH-INFER. The Kamiwaza Inference Mesh — visualized.
+Dialogue: 0,0:00:06.79,0:00:16.79,Default,,0,0,0,,One Marine planner query. Four classifications. Four nodes. Each step\Nrouted to the right one.
+Dialogue: 0,0:00:16.83,0:00:26.83,Default,,0,0,0,,Threat-vessel ID, intent classify, SIPR cable, HUMINT tip. Four steps,\Nfour sensitivities — UNCLASS to TS-SCI.
+Dialogue: 0,0:00:26.84,0:00:46.84,Default,,0,0,0,,The mesh routes vision to the edge Jetson, classify to the rear DGX,\Nthe SIPR cable into the SCIF, HUMINT into the SCIF VL node. Each step …
+Dialogue: 0,0:00:46.91,0:01:06.91,Default,,0,0,0,,Side-by-side: a single commercial-cloud endpoint would have leaked the\NSECRET cable and the TS-SCI HUMINT. The mesh keeps both inside the …
+Dialogue: 0,0:01:06.91,0:01:21.91,Default,,0,0,0,,Every routing decision is hash-chained. The SJA can prove no SCIF data\Never crossed the airgap. Per-node Kamiwaza endpoints swap in via env …
+Dialogue: 0,0:01:21.92,0:01:31.92,Default,,0,0,0,,MESH-INFER. Built on the Kamiwaza Stack. Deploy AI in hours, not\Nmonths.

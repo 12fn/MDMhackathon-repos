@@ -1,0 +1,25 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1440
+PlayResY: 900
+ScaledBorderAndShadow: yes
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Helvetica,22,&H00FFFFFF,&H00FFFFFF,&H00000000,&HC8000000,1,0,0,0,100,100,0,0,3,1,0.5,2,80,80,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:03.93,0:00:08.93,Default,,0,0,0,,PREDICT-MAINT. Closed-loop predictive maintenance — sensor to shelf in\Nfive stages.
+Dialogue: 0,0:00:08.93,0:00:13.93,Default,,0,0,0,,The Marine reading the failure 30 days late is the Marine who loses\Nthe truck mid-mission.
+Dialogue: 0,0:00:13.93,0:00:18.93,Default,,0,0,0,,PREDICT-MAINT closes that loop before the gap opens.
+Dialogue: 0,0:00:18.94,0:00:24.94,Default,,0,0,0,,Five datasets fused: CWRU, NASA CMAPSS, Azure PdM, GCSS-MC, ICM\Nworkbook. No data movement.
+Dialogue: 0,0:00:24.94,0:00:30.94,Default,,0,0,0,,Operator clicks the MTVR-2491 bearing — the 5-stage chain fires.
+Dialogue: 0,0:00:31.52,0:00:39.52,Default,,0,0,0,,Sensor classifier — 30-day forecast — auto-reorder — depot reslot —\NSHA-256 ledger.
+Dialogue: 0,0:00:39.53,0:00:46.53,Default,,0,0,0,,Spectrogram with BPFO/BPFI/BSF/FTF lines — RandomForest calls the\Nfault.
+Dialogue: 0,0:00:46.53,0:00:52.53,Default,,0,0,0,,Holt-Winters projects the spike. Auto-reorder card emits structured\NJSON.
+Dialogue: 0,0:00:52.53,0:00:59.53,Default,,0,0,0,,Depot Gantt reslots the asset at MCLB Albany. SHA-256 ledger signs the\Nrow.
+Dialogue: 0,0:00:59.54,0:01:06.54,Default,,0,0,0,,Set KAMIWAZA_BASE_URL and the same code runs inside the wire —\Nair-gapped, IL5/IL6 ready.
+Dialogue: 0,0:01:06.54,0:01:14.54,Default,,0,0,0,,Powered by the Kamiwaza Stack. Deploy in hours, not months.

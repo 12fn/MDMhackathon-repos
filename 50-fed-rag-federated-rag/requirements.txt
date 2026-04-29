@@ -1,0 +1,7 @@
+streamlit>=1.32
+pandas>=2.0
+numpy>=1.26
+networkx>=3.2
+plotly>=5.20
+openai>=1.50.0
+python-dotenv>=1.0.0

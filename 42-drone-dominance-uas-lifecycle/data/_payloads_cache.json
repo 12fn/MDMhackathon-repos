@@ -1,0 +1,832 @@
+{
+  "dji_mavic_recon": {
+    "scenario_id": "dji_mavic_recon",
+    "scenario_title": "DJI Mavic 3 \u2014 recon overflight",
+    "ground_truth": {
+      "uas_class": "DJI Mavic",
+      "make_model": "DJI Mavic 3",
+      "controller": "OcuSync",
+      "band_ghz": "2.4 / 5.8",
+      "estimated_range_km": 3.2,
+      "estimated_alt_m": 120,
+      "intent_hint": "recon"
+    },
+    "rf_features": {
+      "noise_floor": 0.159,
+      "peak_intensity": 0.984,
+      "snr_estimate_db": 15.8,
+      "burst_count": 305,
+      "hop_period_px": 2.4,
+      "active_freq_span_pct": 0.053,
+      "modulation_hint": "fast FHSS (likely OcuSync / proprietary FHSS)"
+    },
+    "thermal_features": {
+      "n_uas_blobs": 1,
+      "n_person_blobs": 0,
+      "n_vehicle_blobs": 0,
+      "n_animal_blobs": 0,
+      "peak_intensity_8bit": 216,
+      "mean_intensity_8bit": 28.9,
+      "max_bbox_area_px": 432
+    },
+    "visual_features": {
+      "n_drone_silhouettes": 1,
+      "scene_kind": "quad_silhouette_sky",
+      "horizon_visible": true
+    },
+    "triple_fusion": {
+      "detection_class": "DJI Mavic",
+      "make_model_guess": "DJI Mavic 3",
+      "controller_signature_match": "OcuSync",
+      "inferred_intent": "recon",
+      "estimated_range_km": 3.2,
+      "estimated_alt_m": 120,
+      "confidence_per_modality": {
+        "rf": 0.454,
+        "thermal": 0.5,
+        "visual": 0.48
+      },
+      "fused_confidence": 0.434,
+      "contributing_sensors": [
+        "RF",
+        "thermal",
+        "visual"
+      ],
+      "fusion_method": "naive-Bayes product over 3 sensor modalities (equal prior)"
+    },
+    "engagement_decision": {
+      "recommended_option_id": "ews_jam_sector",
+      "recommended_option_name": "Directional RF jam \u2014 single sector",
+      "recommended_tag": "NON-KINETIC",
+      "recommended_rationale": "sector jam pushes recon off-site",
+      "options_graded": [
+        {
+          "id": "ews_jam_sector",
+          "name": "Directional RF jam \u2014 single sector",
+          "tag": "NON-KINETIC",
+          "authority_required": "Installation Commander (delegable to OIC EW)",
+          "score": 0.515,
+          "rationale": "sector jam pushes recon off-site"
+        },
+        {
+          "id": "spoof_gps",
+          "name": "GPS spoof (push UAS off course)",
+          "tag": "NON-KINETIC",
+          "authority_required": "Installation Commander + EW spectrum auth",
+          "score": 0.409,
+          "rationale": "displace via GPS spoof"
+        },
+        {
+          "id": "skytracker_log",
+          "name": "Track + log only (SkyTracker-style passive ID)",
+          "tag": "PASSIVE",
+          "authority_required": "Watch officer",
+          "score": 0.363,
+          "rationale": "baseline logging continues"
+        },
+        {
+          "id": "monitor",
+          "name": "Passive monitor / track only",
+          "tag": "PASSIVE",
+          "authority_required": "Watch officer (OOD)",
+          "score": 0.132,
+          "rationale": "standard fit for context"
+        },
+        {
+          "id": "ews_jam_omnidirectional",
+          "name": "Omnidirectional RF jam (perimeter wide)",
+          "tag": "NON-KINETIC",
+          "authority_required": "Installation Commander; MARFORCYBER notify",
+          "score": 0.132,
+          "rationale": "standard fit for context"
+        },
+        {
+          "id": "request_kinetic",
+          "name": "Request kinetic engagement (small-arms / SHORAD)",
+          "tag": "KINETIC",
+          "authority_required": "FOC / Range Control + SECDEF UAS rule-set",
+          "score": 0.132,
+          "rationale": "standard fit for context"
+        },
+        {
+          "id": "spoof_link",
+          "name": "C2 link takeover (protocol-aware)",
+          "tag": "NON-KINETIC",
+          "authority_required": "MARFORCYBER + Title 10 cyber EXORD",
+          "score": 0.132,
+          "rationale": "standard fit for context"
+        },
+        {
+          "id": "escalate_foc",
+          "name": "Escalate to Force Operations Center (FOC)",
+          "tag": "PASSIVE",
+          "authority_required": "Watch officer",
+          "score": 0.132,
+          "rationale": "standard fit for context"
+        }
+      ],
+      "ROE_floor": "Watch officer (OOD)",
+      "ROE_ceiling": "FOC + SECDEF UAS rule-set (kinetic only)"
+    },
+    "site_context": {
+      "site": "Camp Pendleton \u2014 Building 22 perimeter (LOGCOM tenant area)",
+      "dtg": "271730ZAPR26",
+      "wind": "210/06 KT",
+      "ceiling": "BKN 4500",
+      "civil_airspace_distance_nm": 0.4,
+      "friendly_air_active": "negative",
+      "operator": "OOD watch \u2014 DRONE-DOMINANCE console"
+    }
+  },
+  "parrot_anafi_recon": {
+    "scenario_id": "parrot_anafi_recon",
+    "scenario_title": "Parrot Anafi USA \u2014 perimeter loiter",
+    "ground_truth": {
+      "uas_class": "Parrot Anafi",
+      "make_model": "Parrot Anafi USA",
+      "controller": "WiFi",
+      "band_ghz": "2.4 / 5.8",
+      "estimated_range_km": 1.4,
+      "estimated_alt_m": 80,
+      "intent_hint": "recon"
+    },
+    "rf_features": {
+      "noise_floor": 0.16,
+      "peak_intensity": 0.905,
+      "snr_estimate_db": 15.0,
+      "burst_count": 388,
+      "hop_period_px": 1.9,
+      "active_freq_span_pct": 0.05,
+      "modulation_hint": "fast FHSS (likely OcuSync / proprietary FHSS)"
+    },
+    "thermal_features": {
+      "n_uas_blobs": 1,
+      "n_person_blobs": 0,
+      "n_vehicle_blobs": 0,
+      "n_animal_blobs": 0,
+      "peak_intensity_8bit": 198,
+      "mean_intensity_8bit": 29.5,
+      "max_bbox_area_px": 616
+    },
+    "visual_features": {
+      "n_drone_silhouettes": 1,
+      "scene_kind": "quad_silhouette_treeline",
+      "horizon_visible": true
+    },
+    "triple_fusion": {
+      "detection_class": "Parrot Anafi",
+      "make_model_guess": "Parrot Anafi USA",
+      "controller_signature_match": "WiFi",
+      "inferred_intent": "recon",
+      "estimated_range_km": 1.4,
+      "estimated_alt_m": 80,
+      "confidence_per_modality": {
+        "rf": 0.423,
+        "thermal": 0.5,
+        "visual": 0.48
+      },
+      "fused_confidence": 0.404,
+      "contributing_sensors": [
+        "RF",
+        "thermal",
+        "visual"
+      ],
+      "fusion_method": "naive-Bayes product over 3 sensor modalities (equal prior)"
+    },
+    "engagement_decision": {
+      "recommended_option_id": "ews_jam_sector",
+      "recommended_option_name": "Directional RF jam \u2014 single sector",
+      "recommended_tag": "NON-KINETIC",
+      "recommended_rationale": "sector jam pushes recon off-site",
+      "options_graded": [
+        {
+          "id": "ews_jam_sector",
+          "name": "Directional RF jam \u2014 single sector",
+          "tag": "NON-KINETIC",
+          "authority_required": "Installation Commander (delegable to OIC EW)",
+          "score": 0.501,
+          "rationale": "sector jam pushes recon off-site"
+        },
+        {
+          "id": "spoof_gps",
+          "name": "GPS spoof (push UAS off course)",
+          "tag": "NON-KINETIC",
+          "authority_required": "Installation Commander + EW spectrum auth",
+          "score": 0.398,
+          "rationale": "displace via GPS spoof"
+        },
+        {
+          "id": "skytracker_log",
+          "name": "Track + log only (SkyTracker-style passive ID)",
+          "tag": "PASSIVE",
+          "authority_required": "Watch officer",
+          "score": 0.353,
+          "rationale": "baseline logging continues"
+        },
+        {
+          "id": "monitor",
+          "name": "Passive monitor / track only",
+          "tag": "PASSIVE",
+          "authority_required": "Watch officer (OOD)",
+          "score": 0.128,
+          "rationale": "standard fit for context"
+        },
+        {
+          "id": "ews_jam_omnidirectional",
+          "name": "Omnidirectional RF jam (perimeter wide)",
+          "tag": "NON-KINETIC",
+          "authority_required": "Installation Commander; MARFORCYBER notify",
+          "score": 0.128,
+          "rationale": "standard fit for context"
+        },
+        {
+          "id": "request_kinetic",
+          "name": "Request kinetic engagement (small-arms / SHORAD)",
+          "tag": "KINETIC",
+          "authority_required": "FOC / Range Control + SECDEF UAS rule-set",
+          "score": 0.128,
+          "rationale": "standard fit for context"
+        },
+        {
+          "id": "spoof_link",
+          "name": "C2 link takeover (protocol-aware)",
+          "tag": "NON-KINETIC",
+          "authority_required": "MARFORCYBER + Title 10 cyber EXORD",
+          "score": 0.128,
+          "rationale": "standard fit for context"
+        },
+        {
+          "id": "escalate_foc",
+          "name": "Escalate to Force Operations Center (FOC)",
+          "tag": "PASSIVE",
+          "authority_required": "Watch officer",
+          "score": 0.128,
+          "rationale": "standard fit for context"
+        }
+      ],
+      "ROE_floor": "Watch officer (OOD)",
+      "ROE_ceiling": "FOC + SECDEF UAS rule-set (kinetic only)"
+    },
+    "site_context": {
+      "site": "Camp Pendleton \u2014 Building 22 perimeter (LOGCOM tenant area)",
+      "dtg": "271730ZAPR26",
+      "wind": "210/06 KT",
+      "ceiling": "BKN 4500",
+      "civil_airspace_distance_nm": 0.4,
+      "friendly_air_active": "negative",
+      "operator": "OOD watch \u2014 DRONE-DOMINANCE console"
+    }
+  },
+  "cots_fixed_wing_strike": {
+    "scenario_id": "cots_fixed_wing_strike",
+    "scenario_title": "Custom commercial fixed-wing \u2014 possible strike",
+    "ground_truth": {
+      "uas_class": "COTS-fixed-wing",
+      "make_model": "Skywalker X-class clone (LoRa C2)",
+      "controller": "LoRa",
+      "band_ghz": "0.9",
+      "estimated_range_km": 9.5,
+      "estimated_alt_m": 250,
+      "intent_hint": "strike"
+    },
+    "rf_features": {
+      "noise_floor": 0.159,
+      "peak_intensity": 0.682,
+      "snr_estimate_db": 12.6,
+      "burst_count": 255,
+      "hop_period_px": 2.8,
+      "active_freq_span_pct": 0.0,
+      "modulation_hint": "fast FHSS (likely OcuSync / proprietary FHSS)"
+    },
+    "thermal_features": {
+      "n_uas_blobs": 1,
+      "n_person_blobs": 0,
+      "n_vehicle_blobs": 0,
+      "n_animal_blobs": 0,
+      "peak_intensity_8bit": 198,
+      "mean_intensity_8bit": 28.9,
+      "max_bbox_area_px": 784
+    },
+    "visual_features": {
+      "n_drone_silhouettes": 1,
+      "scene_kind": "fixed_wing_horizon",
+      "horizon_visible": true
+    },
+    "triple_fusion": {
+      "detection_class": "COTS-fixed-wing",
+      "make_model_guess": "Skywalker X-class clone (LoRa C2)",
+      "controller_signature_match": "LoRa",
+      "inferred_intent": "strike",
+      "estimated_range_km": 9.5,
+      "estimated_alt_m": 250,
+      "confidence_per_modality": {
+        "rf": 0.331,
+        "thermal": 0.5,
+        "visual": 0.48
+      },
+      "fused_confidence": 0.313,
+      "contributing_sensors": [
+        "thermal",
+        "visual"
+      ],
+      "fusion_method": "naive-Bayes product over 3 sensor modalities (equal prior)"
+    },
+    "engagement_decision": {
+      "recommended_option_id": "ews_jam_sector",
+      "recommended_option_name": "Directional RF jam \u2014 single sector",
+      "recommended_tag": "NON-KINETIC",
+      "recommended_rationale": "non-kinetic first vs strike intent",
+      "options_graded": [
+        {
+          "id": "ews_jam_sector",
+          "name": "Directional RF jam \u2014 single sector",
+          "tag": "NON-KINETIC",
+          "authority_required": "Installation Commander (delegable to OIC EW)",
+          "score": 0.47,
+          "rationale": "non-kinetic first vs strike intent"
+        },
+        {
+          "id": "request_kinetic",
+          "name": "Request kinetic engagement (small-arms / SHORAD)",
+          "tag": "KINETIC",
+          "authority_required": "FOC / Range Control + SECDEF UAS rule-set",
+          "score": 0.458,
+          "rationale": "kinetic if non-kinetic fails"
+        },
+        {
+          "id": "escalate_foc",
+          "name": "Escalate to Force Operations Center (FOC)",
+          "tag": "PASSIVE",
+          "authority_required": "Watch officer",
+          "score": 0.423,
+          "rationale": "standard fit for context"
+        },
+        {
+          "id": "monitor",
+          "name": "Passive monitor / track only",
+          "tag": "PASSIVE",
+          "authority_required": "Watch officer (OOD)",
+          "score": 0.088,
+          "rationale": "standard fit for context"
+        },
+        {
+          "id": "ews_jam_omnidirectional",
+          "name": "Omnidirectional RF jam (perimeter wide)",
+          "tag": "NON-KINETIC",
+          "authority_required": "Installation Commander; MARFORCYBER notify",
+          "score": 0.088,
+          "rationale": "standard fit for context"
+        },
+        {
+          "id": "spoof_gps",
+          "name": "GPS spoof (push UAS off course)",
+          "tag": "NON-KINETIC",
+          "authority_required": "Installation Commander + EW spectrum auth",
+          "score": 0.088,
+          "rationale": "standard fit for context"
+        },
+        {
+          "id": "spoof_link",
+          "name": "C2 link takeover (protocol-aware)",
+          "tag": "NON-KINETIC",
+          "authority_required": "MARFORCYBER + Title 10 cyber EXORD",
+          "score": 0.088,
+          "rationale": "standard fit for context"
+        },
+        {
+          "id": "skytracker_log",
+          "name": "Track + log only (SkyTracker-style passive ID)",
+          "tag": "PASSIVE",
+          "authority_required": "Watch officer",
+          "score": 0.088,
+          "rationale": "standard fit for context"
+        }
+      ],
+      "ROE_floor": "Watch officer (OOD)",
+      "ROE_ceiling": "FOC + SECDEF UAS rule-set (kinetic only)"
+    },
+    "site_context": {
+      "site": "Camp Pendleton \u2014 Building 22 perimeter (LOGCOM tenant area)",
+      "dtg": "271730ZAPR26",
+      "wind": "210/06 KT",
+      "ceiling": "BKN 4500",
+      "civil_airspace_distance_nm": 0.4,
+      "friendly_air_active": "negative",
+      "operator": "OOD watch \u2014 DRONE-DOMINANCE console"
+    }
+  },
+  "hobbyist_quad_decoy": {
+    "scenario_id": "hobbyist_quad_decoy",
+    "scenario_title": "Hobbyist quad \u2014 close-in decoy",
+    "ground_truth": {
+      "uas_class": "hobbyist-quad",
+      "make_model": "FrSky-class proprietary FHSS quad",
+      "controller": "proprietary",
+      "band_ghz": "2.4",
+      "estimated_range_km": 0.7,
+      "estimated_alt_m": 30,
+      "intent_hint": "decoy"
+    },
+    "rf_features": {
+      "noise_floor": 0.16,
+      "peak_intensity": 0.682,
+      "snr_estimate_db": 12.6,
+      "burst_count": 336,
+      "hop_period_px": 2.1,
+      "active_freq_span_pct": 0.042,
+      "modulation_hint": "fast FHSS (likely OcuSync / proprietary FHSS)"
+    },
+    "thermal_features": {
+      "n_uas_blobs": 1,
+      "n_person_blobs": 1,
+      "n_vehicle_blobs": 0,
+      "n_animal_blobs": 0,
+      "peak_intensity_8bit": 234,
+      "mean_intensity_8bit": 29.1,
+      "max_bbox_area_px": 1584
+    },
+    "visual_features": {
+      "n_drone_silhouettes": 1,
+      "scene_kind": "quad_silhouette_close",
+      "horizon_visible": true
+    },
+    "triple_fusion": {
+      "detection_class": "hobbyist-quad",
+      "make_model_guess": "FrSky-class proprietary FHSS quad",
+      "controller_signature_match": "proprietary",
+      "inferred_intent": "decoy",
+      "estimated_range_km": 0.7,
+      "estimated_alt_m": 30,
+      "confidence_per_modality": {
+        "rf": 0.331,
+        "thermal": 0.5,
+        "visual": 0.48
+      },
+      "fused_confidence": 0.313,
+      "contributing_sensors": [
+        "thermal",
+        "visual"
+      ],
+      "fusion_method": "naive-Bayes product over 3 sensor modalities (equal prior)"
+    },
+    "engagement_decision": {
+      "recommended_option_id": "skytracker_log",
+      "recommended_option_name": "Track + log only (SkyTracker-style passive ID)",
+      "recommended_tag": "PASSIVE",
+      "recommended_rationale": "track-log to find the real threat",
+      "options_graded": [
+        {
+          "id": "skytracker_log",
+          "name": "Track + log only (SkyTracker-style passive ID)",
+          "tag": "PASSIVE",
+          "authority_required": "Watch officer",
+          "score": 0.423,
+          "rationale": "track-log to find the real threat"
+        },
+        {
+          "id": "ews_jam_sector",
+          "name": "Directional RF jam \u2014 single sector",
+          "tag": "NON-KINETIC",
+          "authority_required": "Installation Commander (delegable to OIC EW)",
+          "score": 0.364,
+          "rationale": "standard fit for context"
+        },
+        {
+          "id": "spoof_link",
+          "name": "C2 link takeover (protocol-aware)",
+          "tag": "NON-KINETIC",
+          "authority_required": "MARFORCYBER + Title 10 cyber EXORD",
+          "score": 0.323,
+          "rationale": "standard fit for context"
+        },
+        {
+          "id": "monitor",
+          "name": "Passive monitor / track only",
+          "tag": "PASSIVE",
+          "authority_required": "Watch officer (OOD)",
+          "score": 0.106,
+          "rationale": "standard fit for context"
+        },
+        {
+          "id": "ews_jam_omnidirectional",
+          "name": "Omnidirectional RF jam (perimeter wide)",
+          "tag": "NON-KINETIC",
+          "authority_required": "Installation Commander; MARFORCYBER notify",
+          "score": 0.106,
+          "rationale": "standard fit for context"
+        },
+        {
+          "id": "spoof_gps",
+          "name": "GPS spoof (push UAS off course)",
+          "tag": "NON-KINETIC",
+          "authority_required": "Installation Commander + EW spectrum auth",
+          "score": 0.106,
+          "rationale": "standard fit for context"
+        },
+        {
+          "id": "request_kinetic",
+          "name": "Request kinetic engagement (small-arms / SHORAD)",
+          "tag": "KINETIC",
+          "authority_required": "FOC / Range Control + SECDEF UAS rule-set",
+          "score": 0.106,
+          "rationale": "standard fit for context"
+        },
+        {
+          "id": "escalate_foc",
+          "name": "Escalate to Force Operations Center (FOC)",
+          "tag": "PASSIVE",
+          "authority_required": "Watch officer",
+          "score": 0.106,
+          "rationale": "standard fit for context"
+        }
+      ],
+      "ROE_floor": "Watch officer (OOD)",
+      "ROE_ceiling": "FOC + SECDEF UAS rule-set (kinetic only)"
+    },
+    "site_context": {
+      "site": "Camp Pendleton \u2014 Building 22 perimeter (LOGCOM tenant area)",
+      "dtg": "271730ZAPR26",
+      "wind": "210/06 KT",
+      "ceiling": "BKN 4500",
+      "civil_airspace_distance_nm": 0.4,
+      "friendly_air_active": "negative",
+      "operator": "OOD watch \u2014 DRONE-DOMINANCE console"
+    }
+  },
+  "swarm_overwatch": {
+    "scenario_id": "swarm_overwatch",
+    "scenario_title": "Multi-emitter swarm \u2014 6 quads, mixed FHSS",
+    "ground_truth": {
+      "uas_class": "swarm",
+      "make_model": "Mixed FPV/quad swarm (6+ vehicles)",
+      "controller": "proprietary",
+      "band_ghz": "2.4 / 5.8",
+      "estimated_range_km": 2.1,
+      "estimated_alt_m": 90,
+      "intent_hint": "swarm-overwatch"
+    },
+    "rf_features": {
+      "noise_floor": 0.161,
+      "peak_intensity": 1.0,
+      "snr_estimate_db": 15.9,
+      "burst_count": 286,
+      "hop_period_px": 2.5,
+      "active_freq_span_pct": 0.075,
+      "modulation_hint": "fast FHSS (likely OcuSync / proprietary FHSS)"
+    },
+    "thermal_features": {
+      "n_uas_blobs": 5,
+      "n_person_blobs": 0,
+      "n_vehicle_blobs": 0,
+      "n_animal_blobs": 0,
+      "peak_intensity_8bit": 203,
+      "mean_intensity_8bit": 29.0,
+      "max_bbox_area_px": 320
+    },
+    "visual_features": {
+      "n_drone_silhouettes": 6,
+      "scene_kind": "swarm_specks",
+      "horizon_visible": true
+    },
+    "triple_fusion": {
+      "detection_class": "swarm",
+      "make_model_guess": "Mixed FPV/quad swarm (6+ vehicles)",
+      "controller_signature_match": "proprietary",
+      "inferred_intent": "swarm-overwatch",
+      "estimated_range_km": 2.1,
+      "estimated_alt_m": 90,
+      "confidence_per_modality": {
+        "rf": 0.458,
+        "thermal": 0.99,
+        "visual": 0.99
+      },
+      "fused_confidence": 1.0,
+      "contributing_sensors": [
+        "RF",
+        "thermal",
+        "visual"
+      ],
+      "fusion_method": "naive-Bayes product over 3 sensor modalities (equal prior)"
+    },
+    "engagement_decision": {
+      "recommended_option_id": "ews_jam_omnidirectional",
+      "recommended_option_name": "Omnidirectional RF jam (perimeter wide)",
+      "recommended_tag": "NON-KINETIC",
+      "recommended_rationale": "swarm warrants wide jam",
+      "options_graded": [
+        {
+          "id": "ews_jam_omnidirectional",
+          "name": "Omnidirectional RF jam (perimeter wide)",
+          "tag": "NON-KINETIC",
+          "authority_required": "Installation Commander; MARFORCYBER notify",
+          "score": 0.85,
+          "rationale": "swarm warrants wide jam"
+        },
+        {
+          "id": "escalate_foc",
+          "name": "Escalate to Force Operations Center (FOC)",
+          "tag": "PASSIVE",
+          "authority_required": "Watch officer",
+          "score": 0.8,
+          "rationale": "authority above OOD required"
+        },
+        {
+          "id": "request_kinetic",
+          "name": "Request kinetic engagement (small-arms / SHORAD)",
+          "tag": "KINETIC",
+          "authority_required": "FOC / Range Control + SECDEF UAS rule-set",
+          "score": 0.4,
+          "rationale": "kinetic possible but ROE strict"
+        },
+        {
+          "id": "monitor",
+          "name": "Passive monitor / track only",
+          "tag": "PASSIVE",
+          "authority_required": "Watch officer (OOD)",
+          "score": 0.2,
+          "rationale": "standard fit for context"
+        },
+        {
+          "id": "ews_jam_sector",
+          "name": "Directional RF jam \u2014 single sector",
+          "tag": "NON-KINETIC",
+          "authority_required": "Installation Commander (delegable to OIC EW)",
+          "score": 0.2,
+          "rationale": "standard fit for context"
+        },
+        {
+          "id": "spoof_gps",
+          "name": "GPS spoof (push UAS off course)",
+          "tag": "NON-KINETIC",
+          "authority_required": "Installation Commander + EW spectrum auth",
+          "score": 0.2,
+          "rationale": "standard fit for context"
+        },
+        {
+          "id": "spoof_link",
+          "name": "C2 link takeover (protocol-aware)",
+          "tag": "NON-KINETIC",
+          "authority_required": "MARFORCYBER + Title 10 cyber EXORD",
+          "score": 0.2,
+          "rationale": "standard fit for context"
+        },
+        {
+          "id": "skytracker_log",
+          "name": "Track + log only (SkyTracker-style passive ID)",
+          "tag": "PASSIVE",
+          "authority_required": "Watch officer",
+          "score": 0.2,
+          "rationale": "standard fit for context"
+        }
+      ],
+      "ROE_floor": "Watch officer (OOD)",
+      "ROE_ceiling": "FOC + SECDEF UAS rule-set (kinetic only)"
+    },
+    "site_context": {
+      "site": "Camp Pendleton \u2014 Building 22 perimeter (LOGCOM tenant area)",
+      "dtg": "271730ZAPR26",
+      "wind": "210/06 KT",
+      "ceiling": "BKN 4500",
+      "civil_airspace_distance_nm": 0.4,
+      "friendly_air_active": "negative",
+      "operator": "OOD watch \u2014 DRONE-DOMINANCE console"
+    }
+  },
+  "ambient_false_alarm": {
+    "scenario_id": "ambient_false_alarm",
+    "scenario_title": "Ambient \u2014 sensor false alarm (no UAS)",
+    "ground_truth": {
+      "uas_class": "ambient",
+      "make_model": "(no UAS \u2014 ambient WiFi + bird heat-track)",
+      "controller": "none",
+      "band_ghz": "2.4 / 5.8",
+      "estimated_range_km": 0.0,
+      "estimated_alt_m": 0,
+      "intent_hint": "unknown"
+    },
+    "rf_features": {
+      "noise_floor": 0.16,
+      "peak_intensity": 0.369,
+      "snr_estimate_db": 7.3,
+      "burst_count": 360,
+      "hop_period_px": 2.0,
+      "active_freq_span_pct": 0.025,
+      "modulation_hint": "below detection threshold (likely ambient)"
+    },
+    "thermal_features": {
+      "n_uas_blobs": 0,
+      "n_person_blobs": 0,
+      "n_vehicle_blobs": 1,
+      "n_animal_blobs": 2,
+      "peak_intensity_8bit": 158,
+      "mean_intensity_8bit": 29.0,
+      "max_bbox_area_px": 1664
+    },
+    "visual_features": {
+      "n_drone_silhouettes": 0,
+      "scene_kind": "empty_sky",
+      "horizon_visible": false
+    },
+    "triple_fusion": {
+      "detection_class": "ambient",
+      "make_model_guess": "(no UAS \u2014 ambient WiFi + bird heat-track)",
+      "controller_signature_match": "none",
+      "inferred_intent": "unknown",
+      "estimated_range_km": 0.0,
+      "estimated_alt_m": 0,
+      "confidence_per_modality": {
+        "rf": 0.1,
+        "thermal": 0.18,
+        "visual": 0.2
+      },
+      "fused_confidence": 0.006,
+      "contributing_sensors": [
+        "none-above-threshold"
+      ],
+      "fusion_method": "naive-Bayes product over 3 sensor modalities (equal prior)"
+    },
+    "engagement_decision": {
+      "recommended_option_id": "monitor",
+      "recommended_option_name": "Passive monitor / track only",
+      "recommended_tag": "PASSIVE",
+      "recommended_rationale": "ambient \u2014 passive only",
+      "options_graded": [
+        {
+          "id": "monitor",
+          "name": "Passive monitor / track only",
+          "tag": "PASSIVE",
+          "authority_required": "Watch officer (OOD)",
+          "score": 0.383,
+          "rationale": "ambient \u2014 passive only"
+        },
+        {
+          "id": "skytracker_log",
+          "name": "Track + log only (SkyTracker-style passive ID)",
+          "tag": "PASSIVE",
+          "authority_required": "Watch officer",
+          "score": 0.383,
+          "rationale": "ambient \u2014 passive only"
+        },
+        {
+          "id": "ews_jam_sector",
+          "name": "Directional RF jam \u2014 single sector",
+          "tag": "NON-KINETIC",
+          "authority_required": "Installation Commander (delegable to OIC EW)",
+          "score": 0.02,
+          "rationale": "ambient \u2014 passive only"
+        },
+        {
+          "id": "ews_jam_omnidirectional",
+          "name": "Omnidirectional RF jam (perimeter wide)",
+          "tag": "NON-KINETIC",
+          "authority_required": "Installation Commander; MARFORCYBER notify",
+          "score": 0.02,
+          "rationale": "ambient \u2014 passive only"
+        },
+        {
+          "id": "spoof_gps",
+          "name": "GPS spoof (push UAS off course)",
+          "tag": "NON-KINETIC",
+          "authority_required": "Installation Commander + EW spectrum auth",
+          "score": 0.02,
+          "rationale": "ambient \u2014 passive only"
+        },
+        {
+          "id": "request_kinetic",
+          "name": "Request kinetic engagement (small-arms / SHORAD)",
+          "tag": "KINETIC",
+          "authority_required": "FOC / Range Control + SECDEF UAS rule-set",
+          "score": 0.02,
+          "rationale": "ambient \u2014 passive only"
+        },
+        {
+          "id": "spoof_link",
+          "name": "C2 link takeover (protocol-aware)",
+          "tag": "NON-KINETIC",
+          "authority_required": "MARFORCYBER + Title 10 cyber EXORD",
+          "score": 0.02,
+          "rationale": "ambient \u2014 passive only"
+        },
+        {
+          "id": "escalate_foc",
+          "name": "Escalate to Force Operations Center (FOC)",
+          "tag": "PASSIVE",
+          "authority_required": "Watch officer",
+          "score": 0.02,
+          "rationale": "ambient \u2014 passive only"
+        }
+      ],
+      "ROE_floor": "Watch officer (OOD)",
+      "ROE_ceiling": "FOC + SECDEF UAS rule-set (kinetic only)"
+    },
+    "site_context": {
+      "site": "Camp Pendleton \u2014 Building 22 perimeter (LOGCOM tenant area)",
+      "dtg": "271730ZAPR26",
+      "wind": "210/06 KT",
+      "ceiling": "BKN 4500",
+      "civil_airspace_distance_nm": 0.4,
+      "friendly_air_active": "negative",
+      "operator": "OOD watch \u2014 DRONE-DOMINANCE console"
+    }
+  }
+}

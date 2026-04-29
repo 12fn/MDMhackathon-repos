@@ -1,0 +1,101 @@
+{
+  "source": "JTR-aligned synthetic FY26 (CONUS via GSA per JTR Ch 2; OCONUS via DTMO per JTR Ch 3)",
+  "rates": [
+    {
+      "city": "San Diego",
+      "state": "CA",
+      "lodging_per_night": 217,
+      "mie_per_day": 79
+    },
+    {
+      "city": "Oceanside",
+      "state": "CA",
+      "lodging_per_night": 174,
+      "mie_per_day": 74
+    },
+    {
+      "city": "Twentynine Palms",
+      "state": "CA",
+      "lodging_per_night": 110,
+      "mie_per_day": 64
+    },
+    {
+      "city": "Quantico",
+      "state": "VA",
+      "lodging_per_night": 184,
+      "mie_per_day": 79
+    },
+    {
+      "city": "Arlington",
+      "state": "VA",
+      "lodging_per_night": 277,
+      "mie_per_day": 84
+    },
+    {
+      "city": "Norfolk",
+      "state": "VA",
+      "lodging_per_night": 134,
+      "mie_per_day": 74
+    },
+    {
+      "city": "Jacksonville",
+      "state": "NC",
+      "lodging_per_night": 110,
+      "mie_per_day": 64
+    },
+    {
+      "city": "Camp Lejeune",
+      "state": "NC",
+      "lodging_per_night": 110,
+      "mie_per_day": 64
+    },
+    {
+      "city": "Cherry Point",
+      "state": "NC",
+      "lodging_per_night": 110,
+      "mie_per_day": 64
+    },
+    {
+      "city": "Honolulu",
+      "state": "HI",
+      "lodging_per_night": 252,
+      "mie_per_day": 134
+    },
+    {
+      "city": "Okinawa",
+      "state": "JP",
+      "lodging_per_night": 178,
+      "mie_per_day": 124
+    },
+    {
+      "city": "Iwakuni",
+      "state": "JP",
+      "lodging_per_night": 158,
+      "mie_per_day": 118
+    },
+    {
+      "city": "Yuma",
+      "state": "AZ",
+      "lodging_per_night": 102,
+      "mie_per_day": 64
+    },
+    {
+      "city": "Beaufort",
+      "state": "SC",
+      "lodging_per_night": 110,
+      "mie_per_day": 64
+    },
+    {
+      "city": "Washington",
+      "state": "DC",
+      "lodging_per_night": 277,
+      "mie_per_day": 84
+    },
+    {
+      "city": "Albany",
+      "state": "GA",
+      "lodging_per_night": 105,
+      "mie_per_day": 64
+    }
+  ]
+}

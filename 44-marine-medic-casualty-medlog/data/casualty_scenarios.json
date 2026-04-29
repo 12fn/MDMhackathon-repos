@@ -1,0 +1,71 @@
+[
+  {
+    "id": "squad_ambush",
+    "label": "Squad ambush \u2014 small-arms TIC",
+    "frame": "13-Marine squad ambushed at EABO ITBAYAT (Batanes). 9 WIA, mixed extremity GSW + 1 thoracic.",
+    "location_id": "EABO-IT",
+    "wia_count": 9,
+    "injury_mix": {
+      "penetrating_extremity": 5,
+      "penetrating_thoracic": 1,
+      "blast_concussive": 2,
+      "minor": 1
+    },
+    "hours_to_evac_estimate": 6
+  },
+  {
+    "id": "he_blast_mascal",
+    "label": "HE blast MASCAL \u2014 IDF on FRSS",
+    "frame": "Sustained indirect-fire impact on 13th MEU FRSS (Subic Fwd). 22 WIA, blast/poly-trauma heavy.",
+    "location_id": "MEU-13",
+    "wia_count": 22,
+    "injury_mix": {
+      "penetrating_extremity": 6,
+      "penetrating_thoracic": 4,
+      "blast_concussive": 8,
+      "burn_secondary": 3,
+      "minor": 1
+    },
+    "hours_to_evac_estimate": 4
+  },
+  {
+    "id": "burn_mascal",
+    "label": "Burn MASCAL \u2014 fuel fire aboard LHD-1",
+    "frame": "Fuel-cell fire aboard USS Wasp. 14 WIA, predominantly thermal burns >20% TBSA.",
+    "location_id": "LHD-1",
+    "wia_count": 14,
+    "injury_mix": {
+      "burn_major": 6,
+      "burn_minor": 5,
+      "inhalation_injury": 3
+    },
+    "hours_to_evac_estimate": 8
+  },
+  {
+    "id": "cbrn_event",
+    "label": "CBRN exposure \u2014 chemical agent (suspected GA)",
+    "frame": "Suspected nerve-agent exposure during HA/DR support, EABO PALAU. 18 WIA, CBRN protocol in effect.",
+    "location_id": "EABO-PA",
+    "wia_count": 18,
+    "injury_mix": {
+      "chem_nerve_agent": 12,
+      "chem_pulmonary": 4,
+      "minor": 2
+    },
+    "hours_to_evac_estimate": 12
+  },
+  {
+    "id": "mvi_rollover",
+    "label": "MVI rollover \u2014 convoy MTVR rollover",
+    "frame": "Convoy MTVR rollover at MCAS Iwakuni perimeter. 7 WIA, blunt trauma + 1 spine.",
+    "location_id": "MCAS-IW",
+    "wia_count": 7,
+    "injury_mix": {
+      "blunt_polytrauma": 4,
+      "spine_suspected": 1,
+      "blast_concussive": 0,
+      "minor": 2
+    },
+    "hours_to_evac_estimate": 3
+  }
+]

@@ -1,0 +1,47 @@
+1
+00:00:00,623 --> 00:00:05,623
+DRONE-DOMINANCE. Full UAS encounter lifecycle on a single screen.
+
+2
+00:00:05,625 --> 00:00:10,625
+UAS-vs-FOB. The problem Marines added to MDM 2026 themselves.
+
+3
+00:00:10,627 --> 00:00:17,627
+Friendly fleet — visual quantification of own platforms. 39 drones across 5 make/models.
+
+4
+00:00:17,662 --> 00:00:24,662
+Hostile contact. Three sensor modalities side by side — RF, thermal IR, visual EO.
+
+5
+00:00:24,671 --> 00:00:31,671
+Three multimodal calls in one workflow. Bayesian product fuses them — math shown, not hidden.
+
+6
+00:00:32,549 --> 00:00:37,549
+Operator switches to the swarm scenario. Pipeline reruns end-to-end.
+
+7
+00:00:37,559 --> 00:00:43,559
+Engagement decision: graded ROE ladder. Authority required is shown per option.
+
+8
+00:00:43,565 --> 00:00:50,565
+Hero model writes the UAS Encounter Brief. 10 USC 130i, JP 3-01, JCO-CUAS — only authorized references.
+
+9
+00:00:50,569 --> 00:00:56,569
+Egocentric AAR. Helmet-cam still plus operator decision, scored against doctrine.
+
+10
+00:00:56,580 --> 00:01:01,580
+Set KAMIWAZA_BASE_URL. Same code. CUAS decisions stay in the SCIF.
+
+11
+00:01:01,582 --> 00:01:06,582
+IL5 / IL6 ready. ReBAC. Air-gapped. Zero data movement.
+
+12
+00:01:06,583 --> 00:01:11,583
+DRONE-DOMINANCE. Built on the Kamiwaza Stack. Powered by Kamiwaza.

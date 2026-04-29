@@ -1,0 +1,31 @@
+1
+00:00:00,837 --> 00:00:05,837
+CAT-ROUTER. Five LLM tasks, five different best models. Kamiwaza picks them automatically.
+
+2
+00:00:05,840 --> 00:00:15,840
+A Marine analyst submits a daily intel brief workflow. Vision, classification, long-context synthesis, tool calling, hero narrative.
+
+3
+00:00:15,847 --> 00:00:25,847
+Eight models in the on-prem catalog. Vision, tool calling, security posture, hardware home — all metadata-tagged.
+
+4
+00:00:25,856 --> 00:00:45,856
+Per-task routing decisions. Qwen-VL for vision, Llama 8B for fast classify, Qwen 72B for long context, Llama 3.3 70B for tool calls, Mixtral for hero prose.
+
+5
+00:00:45,867 --> 00:00:53,867
+Toggle Fast slash Cheap mode. The catalog reroutes everything to Llama three point one eight B. Cost drops eighty percent. Quality drops measurably.
+
+6
+00:00:53,939 --> 00:01:05,939
+Operator sees the trade-off live: per-task cost, latency, and quality side by side. Hash-chained audit of every routing decision.
+
+7
+00:01:05,945 --> 00:01:18,945
+One environment variable swaps the synthetic catalog for a live Kamiwaza Model Gateway behind the SCIF.
+
+8
+00:01:18,948 --> 00:01:26,948
+CAT-ROUTER. Built on the Kamiwaza Stack. Right model, right task, right pod — every time.

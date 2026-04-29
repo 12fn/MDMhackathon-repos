@@ -1,0 +1,10 @@
+class,mode,cap_lbs,cap_pallets,cruise_mph,fuel_lb_hr,current_base,readiness
+M1078 LMTV,road,5000,1,55,18,MCBLEJ,PMC
+M1083 MTV,road,10000,2,55,22,MCBLEJ,FMC
+HMMWV M1097A2,road,4400,0,60,9,MCBLEJ,FMC
+Privately Owned Vehicle (POV),road,1500,0,65,7,MCBLEJ,FMC
+Penske 26ft (HHG),road,8500,0,60,10,MCBLEJ,FMC
+CONEX (sealift),sea,44000,8,18,0,PORT_NORFOLK,FMC
+C-17 Globemaster III,air,170000,18,450,19500,AIR_DOV,FMC
+C-130J Super Hercules,air,44000,6,360,5000,AIR_DOV,PMC
+Commercial AMC pax,air,0,0,480,0,AIR_DOV,FMC

@@ -1,0 +1,194 @@
+{
+  "MCLB-ALB": {
+    "Class I": {
+      "item": "MRE pallet",
+      "on_hand_pallets": 4500,
+      "reorder_threshold": 1274,
+      "lot_count": 9
+    },
+    "Class III": {
+      "item": "JP-8 fuel drum",
+      "on_hand_pallets": 1333,
+      "reorder_threshold": 399,
+      "lot_count": 30
+    },
+    "Class V": {
+      "item": "5.56mm rounds (lot)",
+      "on_hand_pallets": 1378,
+      "reorder_threshold": 413,
+      "lot_count": 8
+    },
+    "Class VIII": {
+      "item": "Med kit (lot)",
+      "on_hand_pallets": 1584,
+      "reorder_threshold": 475,
+      "lot_count": 14
+    },
+    "Class IX": {
+      "item": "MRAP repair kit",
+      "on_hand_pallets": 1454,
+      "reorder_threshold": 436,
+      "lot_count": 30
+    }
+  },
+  "MCLB-BAR": {
+    "Class I": {
+      "item": "MRE pallet",
+      "on_hand_pallets": 4340,
+      "reorder_threshold": 1302,
+      "lot_count": 19
+    },
+    "Class III": {
+      "item": "JP-8 fuel drum",
+      "on_hand_pallets": 1768,
+      "reorder_threshold": 530,
+      "lot_count": 27
+    },
+    "Class V": {
+      "item": "5.56mm rounds (lot)",
+      "on_hand_pallets": 2500,
+      "reorder_threshold": 750,
+      "lot_count": 11
+    },
+    "Class VIII": {
+      "item": "Med kit (lot)",
+      "on_hand_pallets": 2971,
+      "reorder_threshold": 891,
+      "lot_count": 14
+    },
+    "Class IX": {
+      "item": "MRAP repair kit",
+      "on_hand_pallets": 3674,
+      "reorder_threshold": 1102,
+      "lot_count": 23
+    }
+  },
+  "CAMP-LEJ": {
+    "Class I": {
+      "item": "MRE pallet",
+      "on_hand_pallets": 1366,
+      "reorder_threshold": 409,
+      "lot_count": 11
+    },
+    "Class III": {
+      "item": "JP-8 fuel drum",
+      "on_hand_pallets": 2480,
+      "reorder_threshold": 744,
+      "lot_count": 27
+    },
+    "Class V": {
+      "item": "5.56mm rounds (lot)",
+      "on_hand_pallets": 2944,
+      "reorder_threshold": 883,
+      "lot_count": 16
+    },
+    "Class VIII": {
+      "item": "Med kit (lot)",
+      "on_hand_pallets": 2079,
+      "reorder_threshold": 623,
+      "lot_count": 14
+    },
+    "Class IX": {
+      "item": "MRAP repair kit",
+      "on_hand_pallets": 1694,
+      "reorder_threshold": 508,
+      "lot_count": 29
+    }
+  },
+  "CAMP-PEN": {
+    "Class I": {
+      "item": "MRE pallet",
+      "on_hand_pallets": 4176,
+      "reorder_threshold": 1252,
+      "lot_count": 29
+    },
+    "Class III": {
+      "item": "JP-8 fuel drum",
+      "on_hand_pallets": 4086,
+      "reorder_threshold": 1225,
+      "lot_count": 27
+    },
+    "Class V": {
+      "item": "5.56mm rounds (lot)",
+      "on_hand_pallets": 1215,
+      "reorder_threshold": 364,
+      "lot_count": 11
+    },
+    "Class VIII": {
+      "item": "Med kit (lot)",
+      "on_hand_pallets": 4378,
+      "reorder_threshold": 1313,
+      "lot_count": 23
+    },
+    "Class IX": {
+      "item": "MRAP repair kit",
+      "on_hand_pallets": 1843,
+      "reorder_threshold": 552,
+      "lot_count": 21
+    }
+  },
+  "FT-HOOD": {
+    "Class I": {
+      "item": "MRE pallet",
+      "on_hand_pallets": 2236,
+      "reorder_threshold": 670,
+      "lot_count": 30
+    },
+    "Class III": {
+      "item": "JP-8 fuel drum",
+      "on_hand_pallets": 3008,
+      "reorder_threshold": 902,
+      "lot_count": 30
+    },
+    "Class V": {
+      "item": "5.56mm rounds (lot)",
+      "on_hand_pallets": 3406,
+      "reorder_threshold": 1021,
+      "lot_count": 19
+    },
+    "Class VIII": {
+      "item": "Med kit (lot)",
+      "on_hand_pallets": 3265,
+      "reorder_threshold": 979,
+      "lot_count": 21
+    },
+    "Class IX": {
+      "item": "MRAP repair kit",
+      "on_hand_pallets": 1869,
+      "reorder_threshold": 560,
+      "lot_count": 11
+    }
+  },
+  "JBLM": {
+    "Class I": {
+      "item": "MRE pallet",
+      "on_hand_pallets": 4458,
+      "reorder_threshold": 1337,
+      "lot_count": 22
+    },
+    "Class III": {
+      "item": "JP-8 fuel drum",
+      "on_hand_pallets": 2928,
+      "reorder_threshold": 878,
+      "lot_count": 16
+    },
+    "Class V": {
+      "item": "5.56mm rounds (lot)",
+      "on_hand_pallets": 2285,
+      "reorder_threshold": 685,
+      "lot_count": 28
+    },
+    "Class VIII": {
+      "item": "Med kit (lot)",
+      "on_hand_pallets": 2001,
+      "reorder_threshold": 600,
+      "lot_count": 20
+    },
+    "Class IX": {
+      "item": "MRAP repair kit",
+      "on_hand_pallets": 2425,
+      "reorder_threshold": 727,
+      "lot_count": 9
+    }
+  }
+}

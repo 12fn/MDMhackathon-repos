@@ -1,0 +1,103 @@
+{
+  "task_types": [
+    {
+      "task_type": "vision_isr",
+      "label": "Vision / ISR imagery analysis",
+      "requires": {
+        "vision": true,
+        "min_quality": 0.85,
+        "min_context": 16000,
+        "scar_grade_floor": "IL5"
+      },
+      "weight": {"quality": 0.55, "speed": 0.20, "cost": 0.10, "fit": 0.15}
+    },
+    {
+      "task_type": "fast_classification",
+      "label": "High-volume classification (<5s budget)",
+      "requires": {
+        "vision": false,
+        "min_quality": 0.65,
+        "scar_grade_floor": "IL4",
+        "max_first_token_ms": 200
+      },
+      "weight": {"quality": 0.20, "speed": 0.45, "cost": 0.30, "fit": 0.05}
+    },
+    {
+      "task_type": "long_context_summarization",
+      "label": "Long-context synthesis (50K+ tokens)",
+      "requires": {
+        "vision": false,
+        "min_quality": 0.85,
+        "min_context": 100000,
+        "scar_grade_floor": "IL4"
+      },
+      "weight": {"quality": 0.50, "speed": 0.10, "cost": 0.10, "fit": 0.30}
+    },
+    {
+      "task_type": "tool_calling",
+      "label": "Multi-tool function-calling chain",
+      "requires": {
+        "tool_calls": true,
+        "min_quality": 0.85,
+        "scar_grade_floor": "IL5"
+      },
+      "weight": {"quality": 0.35, "speed": 0.20, "cost": 0.10, "fit": 0.35}
+    },
+    {
+      "task_type": "long_form_prose",
+      "label": "Hero narrative / SIPR-style brief",
+      "requires": {
+        "vision": false,
+        "min_quality": 0.88,
+        "scar_grade_floor": "IL5"
+      },
+      "weight": {"quality": 0.55, "speed": 0.10, "cost": 0.05, "fit": 0.30}
+    },
+    {
+      "task_type": "code_generation",
+      "label": "Code generation / refactor",
+      "requires": {
+        "min_quality": 0.85,
+        "scar_grade_floor": "IL4"
+      },
+      "weight": {"quality": 0.50, "speed": 0.20, "cost": 0.15, "fit": 0.15}
+    },
+    {
+      "task_type": "math_reasoning",
+      "label": "Math / step-wise reasoning",
+      "requires": {"min_quality": 0.78},
+      "weight": {"quality": 0.50, "speed": 0.20, "cost": 0.15, "fit": 0.15}
+    },
+    {
+      "task_type": "structured_extraction",
+      "label": "Structured JSON extraction",
+      "requires": {"min_quality": 0.70, "tool_calls": true},
+      "weight": {"quality": 0.30, "speed": 0.30, "cost": 0.20, "fit": 0.20}
+    },
+    {
+      "task_type": "redaction_tagging",
+      "label": "CUI redaction + tagging",
+      "requires": {"min_quality": 0.70, "scar_grade_floor": "IL5"},
+      "weight": {"quality": 0.30, "speed": 0.30, "cost": 0.20, "fit": 0.20}
+    },
+    {
+      "task_type": "rag_synthesis",
+      "label": "RAG synthesis over retrieved chunks",
+      "requires": {"min_quality": 0.85, "min_context": 32000, "scar_grade_floor": "IL4"},
+      "weight": {"quality": 0.45, "speed": 0.20, "cost": 0.15, "fit": 0.20}
+    },
+    {
+      "task_type": "agentic_planning",
+      "label": "Agentic multi-step planning",
+      "requires": {"tool_calls": true, "min_quality": 0.85, "scar_grade_floor": "IL5"},
+      "weight": {"quality": 0.40, "speed": 0.15, "cost": 0.10, "fit": 0.35}
+    },
+    {
+      "task_type": "translation",
+      "label": "MT (low-resource pairs)",
+      "requires": {"min_quality": 0.78},
+      "weight": {"quality": 0.45, "speed": 0.25, "cost": 0.15, "fit": 0.15}
+    }
+  ],
+  "scar_rank": {"IL2": 0, "IL3": 1, "IL4": 2, "IL5": 3, "IL6": 4}
+}

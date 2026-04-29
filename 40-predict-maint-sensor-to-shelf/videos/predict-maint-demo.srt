@@ -1,0 +1,43 @@
+1
+00:00:03,932 --> 00:00:08,932
+PREDICT-MAINT. Closed-loop predictive maintenance — sensor to shelf in five stages.
+
+2
+00:00:08,933 --> 00:00:13,933
+The Marine reading the failure 30 days late is the Marine who loses the truck mid-mission.
+
+3
+00:00:13,934 --> 00:00:18,934
+PREDICT-MAINT closes that loop before the gap opens.
+
+4
+00:00:18,937 --> 00:00:24,937
+Five datasets fused: CWRU, NASA CMAPSS, Azure PdM, GCSS-MC, ICM workbook. No data movement.
+
+5
+00:00:24,942 --> 00:00:30,942
+Operator clicks the MTVR-2491 bearing — the 5-stage chain fires.
+
+6
+00:00:31,524 --> 00:00:39,524
+Sensor classifier — 30-day forecast — auto-reorder — depot reslot — SHA-256 ledger.
+
+7
+00:00:39,527 --> 00:00:46,527
+Spectrogram with BPFO/BPFI/BSF/FTF lines — RandomForest calls the fault.
+
+8
+00:00:46,529 --> 00:00:52,529
+Holt-Winters projects the spike. Auto-reorder card emits structured JSON.
+
+9
+00:00:52,532 --> 00:00:59,532
+Depot Gantt reslots the asset at MCLB Albany. SHA-256 ledger signs the row.
+
+10
+00:00:59,536 --> 00:01:06,536
+Set KAMIWAZA_BASE_URL and the same code runs inside the wire — air-gapped, IL5/IL6 ready.
+
+11
+00:01:06,539 --> 00:01:14,539
+Powered by the Kamiwaza Stack. Deploy in hours, not months.

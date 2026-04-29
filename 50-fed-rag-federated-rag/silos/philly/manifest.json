@@ -1,0 +1,12 @@
+{
+  "id": "philly",
+  "display": "DLA Troop Support \u2014 Philadelphia",
+  "owner": "DLA Troop Support Medical",
+  "classification": "CUI // Distribution C",
+  "authority": "DLA Manual 4140.27",
+  "physical_loc": "Philadelphia, PA",
+  "raw_data_size_gb": 30.0,
+  "data_class": "Class VIII medical + global purchasing",
+  "url_env": "KAMIWAZA_SILO_PHILLY_URL",
+  "chunk_count": 30
+}

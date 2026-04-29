@@ -1,0 +1,27 @@
+1
+00:00:01,451 --> 00:00:06,451
+CHAIN-OF-COMMAND. Authorization is a graph walk over the actual Marine ORBAT.
+
+2
+00:00:06,452 --> 00:00:16,452
+AGORA does role and attribute. This does relationship. Marines actually work via OPCON, TACON, attached, detached.
+
+3
+00:00:16,455 --> 00:00:26,455
+Twenty-eight ORBAT nodes, 140 relationship edges. Hero query: LCpl Smith, a rifleman in 3rd Squad, asks for the INDOPACOM Posture Brief.
+
+4
+00:00:26,038 --> 00:00:46,038
+RBAC denies — role not on the staff list. ABAC denies — unit attribute not a need-to-know unit. ReBAC walks the graph: ATTACHED to 2/2, DETACHED to 24th MEU, OPCON to USINDOPACOM. ALLOW.
+
+5
+00:00:46,079 --> 00:01:06,079
+Operator changes the 24th MEU OPCON from USINDOPACOM to USCENTCOM. Same query. Smith's verdict flips to DENY. RBAC and ABAC do not notice — they never looked at OPCON.
+
+6
+00:01:05,769 --> 00:01:20,769
+Same code path. Set KAMIWAZA_BASE_URL and the engine runs inside the SCIF. The ReBAC compute is local Python — no data ever leaves the boundary.
+
+7
+00:01:20,777 --> 00:01:30,777
+CHAIN-OF-COMMAND. Built on the Kamiwaza Stack. Deploy in hours, not months.

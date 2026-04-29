@@ -1,0 +1,59 @@
+1
+00:00:01,909 --> 00:00:06,909
+SCHOOLHOUSE. Marine schoolhouse-in-a-box.
+
+2
+00:00:06,912 --> 00:00:11,912
+PME today is three disconnected systems and a tired NCO. We fold them into one.
+
+3
+00:00:11,916 --> 00:00:16,916
+Four datasets. Three use cases. One on-prem stack. Three role-aware views.
+
+4
+00:00:16,922 --> 00:00:21,922
+Switch to the student view — start with an egocentric tactical drill.
+
+5
+00:00:21,984 --> 00:00:26,984
+Multimodal coach reads the helmet-cam frame plus the Marine's typed action.
+
+6
+00:00:26,993 --> 00:00:31,993
+Switch drill — Visual ID. Drop a foreign platform image.
+
+7
+00:00:28,506 --> 00:00:34,506
+Vision-language analyst writes the numbered reasoning. SENTINEL pattern.
+
+8
+00:00:34,513 --> 00:00:39,513
+Switch drill — Written assignment. Logistics principles paper.
+
+9
+00:00:36,042 --> 00:00:42,542
+chat_json grades each rubric criterion. 0-5 score plus narrative feedback.
+
+10
+00:00:42,551 --> 00:00:47,551
+Switch role — Instructor. Same data, reshaped — cohort heatmap appears.
+
+11
+00:00:47,565 --> 00:00:52,565
+Cache-first Schoolhouse Intelligence Brief. Anchored to NAVMC 3500.58.
+
+12
+00:00:52,568 --> 00:00:58,068
+Switch role — School CO. Same brief reshapes to a schoolhouse health dashboard.
+
+13
+00:00:58,087 --> 00:01:03,087
+Audit chain — every drill, every brief, SHA-256 chained. Privacy Act governed, not FERPA.
+
+14
+00:01:03,092 --> 00:01:08,092
+Set KAMIWAZA_BASE_URL — PME data stays inside the SCIF.
+
+15
+00:01:08,097 --> 00:01:13,097
+Built on the Kamiwaza Stack. Deploy in hours, not months.

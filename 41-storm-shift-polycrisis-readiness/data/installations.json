@@ -1,0 +1,153 @@
+[
+  {
+    "id": "lejeune",
+    "name": "MCB Camp Lejeune",
+    "state": "NC",
+    "lat": 34.684,
+    "lon": -77.3464,
+    "personnel": 47000,
+    "inventory": {
+      "aircraft_hangars": 0,
+      "motor_pools": 12,
+      "ammo_storage_bunkers": 18,
+      "family_housing_units": 4500,
+      "barracks": 92,
+      "generators_kw": 18000,
+      "fuel_storage_gal": 2400000,
+      "wharf_meters": 1850,
+      "runways": 0,
+      "critical_c2_nodes": 4
+    },
+    "stocks": {
+      "class_i_mre_cases": 18000,
+      "class_iii_fuel_gal": 2200000,
+      "class_v_ammo_short_tons": 980,
+      "class_viii_plasma_units": 1100,
+      "class_ix_repair_parts_lines": 12500,
+      "potable_water_gal": 1800000,
+      "generator_diesel_gal": 220000
+    },
+    "notable_history": "Hurricane Florence (2018) caused $3.6B+ in damage; recovery took 18 months."
+  },
+  {
+    "id": "cherry-point",
+    "name": "MCAS Cherry Point",
+    "state": "NC",
+    "lat": 34.9009,
+    "lon": -76.8809,
+    "personnel": 9300,
+    "inventory": {
+      "aircraft_hangars": 14,
+      "motor_pools": 6,
+      "ammo_storage_bunkers": 12,
+      "family_housing_units": 1750,
+      "barracks": 28,
+      "generators_kw": 9500,
+      "fuel_storage_gal": 1800000,
+      "wharf_meters": 0,
+      "runways": 2,
+      "critical_c2_nodes": 3
+    },
+    "stocks": {
+      "class_i_mre_cases": 4200,
+      "class_iii_fuel_gal": 1650000,
+      "class_v_ammo_short_tons": 410,
+      "class_viii_plasma_units": 320,
+      "class_ix_repair_parts_lines": 8800,
+      "potable_water_gal": 540000,
+      "generator_diesel_gal": 110000
+    },
+    "notable_history": "Hurricane Florence (2018) flooded 800+ buildings; MAG-14 relocated for weeks."
+  },
+  {
+    "id": "albany",
+    "name": "MCLB Albany",
+    "state": "GA",
+    "lat": 31.546,
+    "lon": -84.0633,
+    "personnel": 3200,
+    "inventory": {
+      "aircraft_hangars": 0,
+      "motor_pools": 22,
+      "ammo_storage_bunkers": 6,
+      "family_housing_units": 0,
+      "barracks": 8,
+      "generators_kw": 14000,
+      "fuel_storage_gal": 900000,
+      "wharf_meters": 0,
+      "runways": 0,
+      "critical_c2_nodes": 5,
+      "depot_warehouses_sqft": 2800000
+    },
+    "stocks": {
+      "class_i_mre_cases": 1800,
+      "class_iii_fuel_gal": 820000,
+      "class_v_ammo_short_tons": 220,
+      "class_viii_plasma_units": 95,
+      "class_ix_repair_parts_lines": 28000,
+      "potable_water_gal": 240000,
+      "generator_diesel_gal": 180000
+    },
+    "notable_history": "Tornado outbreak (Jan 2017) damaged 60% of LOGCOM HQ; tropical storm flooding common."
+  },
+  {
+    "id": "yuma",
+    "name": "MCAS Yuma",
+    "state": "AZ",
+    "lat": 32.6566,
+    "lon": -114.6058,
+    "personnel": 5600,
+    "inventory": {
+      "aircraft_hangars": 9,
+      "motor_pools": 4,
+      "ammo_storage_bunkers": 14,
+      "family_housing_units": 1100,
+      "barracks": 22,
+      "generators_kw": 7200,
+      "fuel_storage_gal": 1400000,
+      "wharf_meters": 0,
+      "runways": 2,
+      "critical_c2_nodes": 2
+    },
+    "stocks": {
+      "class_i_mre_cases": 3100,
+      "class_iii_fuel_gal": 1280000,
+      "class_v_ammo_short_tons": 470,
+      "class_viii_plasma_units": 180,
+      "class_ix_repair_parts_lines": 6900,
+      "potable_water_gal": 380000,
+      "generator_diesel_gal": 95000
+    },
+    "notable_history": "Monsoon flash floods damage flightline drainage annually; Hurricane Hilary (2023) closed I-8."
+  },
+  {
+    "id": "pendleton",
+    "name": "MCB Camp Pendleton",
+    "state": "CA",
+    "lat": 33.3858,
+    "lon": -117.5631,
+    "personnel": 70000,
+    "inventory": {
+      "aircraft_hangars": 6,
+      "motor_pools": 28,
+      "ammo_storage_bunkers": 24,
+      "family_housing_units": 6800,
+      "barracks": 140,
+      "generators_kw": 24000,
+      "fuel_storage_gal": 3200000,
+      "wharf_meters": 720,
+      "runways": 1,
+      "critical_c2_nodes": 6
+    },
+    "stocks": {
+      "class_i_mre_cases": 26000,
+      "class_iii_fuel_gal": 3050000,
+      "class_v_ammo_short_tons": 1380,
+      "class_viii_plasma_units": 1620,
+      "class_ix_repair_parts_lines": 19400,
+      "potable_water_gal": 2400000,
+      "generator_diesel_gal": 290000
+    },
+    "notable_history": "Atmospheric rivers (2023, 2024) flooded San Onofre Creek; Las Pulgas housing repeatedly damaged. Santa Ana wind events drive fire-following risk."
+  }
+]

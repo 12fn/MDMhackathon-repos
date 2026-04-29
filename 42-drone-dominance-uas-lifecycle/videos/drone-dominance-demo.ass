@@ -1,0 +1,26 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1440
+PlayResY: 900
+ScaledBorderAndShadow: yes
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Helvetica,22,&H00FFFFFF,&H00FFFFFF,&H00000000,&HC8000000,1,0,0,0,100,100,0,0,3,1,0.5,2,80,80,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.62,0:00:05.62,Default,,0,0,0,,DRONE-DOMINANCE. Full UAS encounter lifecycle on a single screen.
+Dialogue: 0,0:00:05.62,0:00:10.62,Default,,0,0,0,,UAS-vs-FOB. The problem Marines added to MDM 2026 themselves.
+Dialogue: 0,0:00:10.63,0:00:17.63,Default,,0,0,0,,Friendly fleet — visual quantification of own platforms. 39 drones\Nacross 5 make/models.
+Dialogue: 0,0:00:17.66,0:00:24.66,Default,,0,0,0,,Hostile contact. Three sensor modalities side by side — RF, thermal\NIR, visual EO.
+Dialogue: 0,0:00:24.67,0:00:31.67,Default,,0,0,0,,Three multimodal calls in one workflow. Bayesian product fuses them —\Nmath shown, not hidden.
+Dialogue: 0,0:00:32.55,0:00:37.55,Default,,0,0,0,,Operator switches to the swarm scenario. Pipeline reruns end-to-end.
+Dialogue: 0,0:00:37.56,0:00:43.56,Default,,0,0,0,,Engagement decision: graded ROE ladder. Authority required is shown\Nper option.
+Dialogue: 0,0:00:43.56,0:00:50.56,Default,,0,0,0,,Hero model writes the UAS Encounter Brief. 10 USC 130i, JP 3-01,\NJCO-CUAS — only authorized references.
+Dialogue: 0,0:00:50.57,0:00:56.57,Default,,0,0,0,,Egocentric AAR. Helmet-cam still plus operator decision, scored\Nagainst doctrine.
+Dialogue: 0,0:00:56.58,0:01:01.58,Default,,0,0,0,,Set KAMIWAZA_BASE_URL. Same code. CUAS decisions stay in the SCIF.
+Dialogue: 0,0:01:01.58,0:01:06.58,Default,,0,0,0,,IL5 / IL6 ready. ReBAC. Air-gapped. Zero data movement.
+Dialogue: 0,0:01:06.58,0:01:11.58,Default,,0,0,0,,DRONE-DOMINANCE. Built on the Kamiwaza Stack. Powered by Kamiwaza.

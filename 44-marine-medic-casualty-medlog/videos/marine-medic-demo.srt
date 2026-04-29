@@ -1,0 +1,43 @@
+1
+00:00:03,131 --> 00:00:08,131
+MARINE-MEDIC. Joint Class VIII and casualty-flow decision support.
+
+2
+00:00:08,134 --> 00:00:13,134
+Casualty in 30 minutes. Supply chain in 30 hours. We close the loop on both.
+
+3
+00:00:13,135 --> 00:00:18,135
+TCCC and JTS triage, hub-spoke supply check, GCSS-MC requisition, all in one chain.
+
+4
+00:00:18,137 --> 00:00:24,137
+One regional med depot at Apra. Twelve distributed Marine units across WestPac.
+
+5
+00:00:24,141 --> 00:00:30,141
+Inject the scenario: HE blast MASCAL on a 13th MEU FRSS, twenty-two WIA inbound.
+
+6
+00:00:27,209 --> 00:00:33,209
+Six-stage agent chain runs: triage cards stream per WIA in JSON-mode.
+
+7
+00:00:33,222 --> 00:00:40,222
+Class VIII demand projects time-phased over 1, 6, 12, 24 hours.
+
+8
+00:00:35,227 --> 00:00:42,227
+Hub-spoke check finds the gap. Auto-requisition pops in GCSS-MC format.
+
+9
+00:00:42,229 --> 00:00:49,229
+A Kamiwaza-deployed hero model writes the Medical Sustainment Action Brief.
+
+10
+00:00:49,234 --> 00:00:56,234
+Casualty data stays in IL5 enclave. Hash-chained audit, HIPAA and NDAA flavored.
+
+11
+00:00:56,237 --> 00:01:04,237
+Powered by the Kamiwaza Stack. Deploy in hours, not months.

@@ -1,0 +1,83 @@
+{
+  "categories": [
+    {
+      "marking": "UNCLASSIFIED",
+      "long_name": "Unclassified",
+      "description": "Public-releasable information; no CUI categories triggered.",
+      "indicator_phrases": ["public release approved", "OPSEC reviewed", "open source", "press release"],
+      "min_clearance": "UNCLASS"
+    },
+    {
+      "marking": "CUI//FOUO",
+      "long_name": "CUI // For Official Use Only (legacy banner)",
+      "description": "Information requiring protection against public disclosure under FOIA Exemption 2-9. Default catch-all for internal-government-only working documents.",
+      "indicator_phrases": ["internal use only", "do not release", "pre-decisional", "draft", "working paper", "FOUO", "official use only"],
+      "min_clearance": "CUI"
+    },
+    {
+      "marking": "CUI//SP-PROPIN",
+      "long_name": "CUI // SP-PROPIN (Proprietary Business Information)",
+      "description": "Trade secrets, commercial / financial information obtained from a contractor or vendor.",
+      "indicator_phrases": ["proprietary", "trade secret", "vendor pricing", "company confidential", "BAFO", "rate card", "labor rate", "ODC", "bid", "cost build-up"],
+      "min_clearance": "CUI"
+    },
+    {
+      "marking": "CUI//SP-PRVCY",
+      "long_name": "CUI // SP-PRVCY (Privacy)",
+      "description": "Personally Identifiable Information (PII) protected under the Privacy Act of 1974 / DoD 5400.11-R.",
+      "indicator_phrases": ["SSN", "social security", "DOB", "date of birth", "home address", "personal email", "medical record", "DEERS", "EDIPI", "next of kin"],
+      "min_clearance": "CUI"
+    },
+    {
+      "marking": "CUI//SP-NF",
+      "long_name": "CUI // SP-NF (NOFORN — Not Releasable to Foreign Nationals)",
+      "description": "CUI bearing the NOFORN limited-dissemination control. May not be released to foreign governments, foreign nationals, or coalition partners.",
+      "indicator_phrases": ["NOFORN", "U.S. only", "no foreign disclosure", "U.S. eyes only"],
+      "min_clearance": "CUI",
+      "requires_caveat": "NOFORN"
+    },
+    {
+      "marking": "CUI//SP-OPSEC",
+      "long_name": "CUI // SP-OPSEC (Operations Security)",
+      "description": "Information identifying critical assets, vulnerabilities, indicators, or sensitive activities under DoDD 5205.02E.",
+      "indicator_phrases": ["force protection", "FPCON", "vulnerability assessment", "CARVER", "critical infrastructure", "rotation schedule", "manning roster"],
+      "min_clearance": "CUI"
+    },
+    {
+      "marking": "CUI//SP-EXPT",
+      "long_name": "CUI // SP-EXPT (Export Controlled)",
+      "description": "Information subject to ITAR (22 CFR 120-130) or EAR (15 CFR 730-774) export-control restrictions.",
+      "indicator_phrases": ["ITAR", "EAR", "export controlled", "USML", "ECCN", "deemed export", "technical data"],
+      "min_clearance": "CUI",
+      "requires_caveat": "NOFORN"
+    },
+    {
+      "marking": "CUI//SP-PROCURE",
+      "long_name": "CUI // SP-PROCURE (Procurement and Acquisition)",
+      "description": "Source-selection / procurement-sensitive information under FAR 3.104.",
+      "indicator_phrases": ["source selection", "SSEB", "evaluation", "award decision", "competitive range", "best value", "tradeoff analysis"],
+      "min_clearance": "CUI",
+      "requires_role": "procurement"
+    },
+    {
+      "marking": "SECRET",
+      "long_name": "SECRET",
+      "description": "National-security information classified SECRET under E.O. 13526.",
+      "indicator_phrases": ["SECRET", "S//", "collateral SECRET"],
+      "min_clearance": "SECRET"
+    },
+    {
+      "marking": "TOP SECRET//SCI",
+      "long_name": "TOP SECRET // Sensitive Compartmented Information",
+      "description": "TS/SCI information per ICD 503 / E.O. 13526.",
+      "indicator_phrases": ["TS//SCI", "TS/SCI", "compartmented", "SCIF only"],
+      "min_clearance": "TS-SCI"
+    }
+  ],
+  "caveats": [
+    {"caveat": "NOFORN", "expansion": "Not Releasable to Foreign Nationals"},
+    {"caveat": "REL TO USA, FVEY", "expansion": "Releasable to USA + Five Eyes"},
+    {"caveat": "FED ONLY", "expansion": "Federal employees only; no contractors"}
+  ],
+  "reg_anchor": "DoDM 5200.01 Vol 2, Encl 4 (CUI Markings); 32 CFR Part 2002; NIST SP 800-162 (ABAC); DoDD 5230.24 (CTI). Synthetic taxonomy for demo only — not authoritative."
+}

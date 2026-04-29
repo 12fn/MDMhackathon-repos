@@ -1,0 +1,98 @@
+[
+  {
+    "id": "vid_01",
+    "image": "S001_T-72B3.png",
+    "ground_truth": "T-72B3",
+    "country": "Russian Federation",
+    "type": "MBT",
+    "key_features": "Round low-profile turret; Kontakt-5 ERA arrow pattern on glacis; six road wheels with no return rollers."
+  },
+  {
+    "id": "vid_02",
+    "image": "S002_M1A2_Abrams.png",
+    "ground_truth": "M1A2 Abrams",
+    "country": "United States",
+    "type": "MBT",
+    "key_features": "Flat angular turret; 120mm M256 smoothbore; CITV optic; gas-turbine exhaust grille on rear deck."
+  },
+  {
+    "id": "vid_03",
+    "image": "S003_MQ-9_Reaper.png",
+    "ground_truth": "MQ-9 Reaper",
+    "country": "United States",
+    "type": "MALE UCAV",
+    "key_features": "Long slender fuselage; V-tail with ventral fin; pusher prop; SATCOM bulge above nose; ~20m wingspan."
+  },
+  {
+    "id": "vid_04",
+    "image": "S004_Bayraktar_TB2.png",
+    "ground_truth": "Bayraktar TB2",
+    "country": "Turkey",
+    "type": "MALE UCAV",
+    "key_features": "Inverted-V tail; pusher prop; small EO/IR ball under nose; ~12m wingspan; no SATCOM bulge (line-of-sight only)."
+  },
+  {
+    "id": "vid_05",
+    "image": "S005_AH-64E_Apache_Guardian.png",
+    "ground_truth": "AH-64E Apache Guardian",
+    "country": "United States",
+    "type": "Attack Helicopter",
+    "key_features": "Tandem cockpit; chin M230 30mm; Longbow millimeter-wave radar dome above main rotor; four-blade main rotor."
+  },
+  {
+    "id": "vid_06",
+    "image": "S006_Ka-52_Alligator.png",
+    "ground_truth": "Ka-52 Alligator",
+    "country": "Russian Federation",
+    "type": "Attack Helicopter",
+    "key_features": "Coaxial counter-rotating main rotors (no tail rotor); side-by-side cockpit; ejection seats."
+  },
+  {
+    "id": "vid_07",
+    "image": "S007_Su-57_Felon.png",
+    "ground_truth": "Su-57 Felon",
+    "country": "Russian Federation",
+    "type": "5th-gen Fighter",
+    "key_features": "Twin widely-spaced engines; LEVCONs forward of wing root; all-moving canted twin tails; long tailcone between engines."
+  },
+  {
+    "id": "vid_08",
+    "image": "S008_Shahed-136_-_Geran-2.png",
+    "ground_truth": "Shahed-136 / Geran-2",
+    "country": "Iran (Russian re-mfg as Geran-2)",
+    "type": "Loitering munition",
+    "key_features": "Delta wing with vertical winglets; pusher prop; ~3.5m wingspan; warhead in nose."
+  },
+  {
+    "id": "vid_09",
+    "image": null,
+    "ground_truth": "T-90M Proryv",
+    "country": "Russian Federation",
+    "type": "MBT",
+    "key_features": "Welded turret with Relikt ERA wedges; Sosna-U gunner sight on left of mantlet."
+  },
+  {
+    "id": "vid_10",
+    "image": null,
+    "ground_truth": "F-35A Lightning II",
+    "country": "United States",
+    "type": "5th-gen Fighter",
+    "key_features": "Single engine; chined nose with EOTS sensor under nose; canted twin tails; internal weapons bays."
+  },
+  {
+    "id": "vid_11",
+    "image": null,
+    "ground_truth": "J-20 Mighty Dragon",
+    "country": "China (PRC)",
+    "type": "5th-gen Fighter",
+    "key_features": "Canard-delta layout; twin canted tails + ventral fins; chined nose; long fuselage."
+  },
+  {
+    "id": "vid_12",
+    "image": null,
+    "ground_truth": "Type 055 Renhai",
+    "country": "China (PRC)",
+    "type": "Cruiser",
+    "key_features": "Integrated mast with panel arrays; 112-cell VLS; ~13,000t; flush forecastle."
+  }
+]

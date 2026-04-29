@@ -1,0 +1,30 @@
+[
+  {
+    "id": "aar_01",
+    "title": "Helmet-cam \u2014 behind a Stinger MANPADS launcher",
+    "scene_kind": "stinger_launcher",
+    "context": "You are gunner on an MANPADS team. UAS classified as DJI Mavic 3 at 3.2 km, intent assessed RECON. ROE: jam-non-kinetic recommended; kinetic requires confirmed hostile intent.",
+    "doctrine_reference": "JP 3-01 'Countering Air and Missile Threats' Ch IV; 10 USC 130i UAS authorities"
+  },
+  {
+    "id": "aar_02",
+    "title": "Helmet-cam \u2014 behind a SkyTracker passive RF console",
+    "scene_kind": "skytracker_console",
+    "context": "You are watch officer at the Installation EOC. Active contact: COTS fixed-wing at 9.5 km, intent STRIKE. Civil airspace 0.4 nm. Hero brief recommends sector RF jam after 60-second hold.",
+    "doctrine_reference": "JCO-CUAS Operational Concept; MARFORCYBER spectrum coordination"
+  },
+  {
+    "id": "aar_03",
+    "title": "Helmet-cam \u2014 perimeter foot patrol, hand-held EW jammer",
+    "scene_kind": "patrol_jammer",
+    "context": "You are on a perimeter patrol with a hand-held DroneGun-class jammer. Hobbyist quad observed at 0.7 km, intent assessed DECOY. ROE allows watch-officer-level non-kinetic interdiction.",
+    "doctrine_reference": "MCWP 3-22 Air Defense; MARADMIN 131/26 (UAS authorities digest)"
+  },
+  {
+    "id": "aar_04",
+    "title": "Helmet-cam \u2014 FOC battle captain, decision station",
+    "scene_kind": "foc_captain",
+    "context": "You are the FOC battle captain. Multi-emitter swarm at 2.1 km, intent OVERWATCH. Kinetic engagement requires SECDEF UAS rule-set + positive ID. Jam-omnidirectional will affect friendly C2 in zone.",
+    "doctrine_reference": "DoDD 3000.09; 10 USC 130i; JP 3-01 Ch IV"
+  }
+]

@@ -1,0 +1,35 @@
+1
+00:00:04,140 --> 00:00:09,140
+CONTESTED-LOG. CONUS to squad. Eight datasets. One COA.
+
+2
+00:00:09,142 --> 00:00:18,142
+Force Design 2030 — INDOPACOM contested. Two hundred MRE pallets, Albany Georgia to the 31st MEU at Itbayat, in fourteen days.
+
+3
+00:00:18,143 --> 00:00:29,143
+Eight feeds fused on screen — BTS rail, MSI ports, AIS lanes, three thousand ASAM piracy records, AFCENT, GCSS-MC, LaDe last-mile, and a sixty-day disruption feed.
+
+4
+00:00:29,146 --> 00:00:37,146
+Operator types one sentence. The agent fires six typed tools on a Kamiwaza-deployed model.
+
+5
+00:00:37,244 --> 00:00:46,244
+route_conus, check_port_capacity, forecast_pirate_risk, check_supply_chain_disruption, compute_last_mile, compare_options — streamed live.
+
+6
+00:00:46,244 --> 00:00:55,244
+Three Courses of Action ranked. Recommended COA pulses neon — full route over the dark Pacific theatre.
+
+7
+00:00:55,249 --> 00:01:03,249
+Two hundred MRE pallets — twenty-one days of subsistence for the MEU. Seven-day reserve.
+
+8
+00:01:03,254 --> 00:01:12,254
+Same code. Set KAMIWAZA_BASE_URL — on-prem inference, IL5 IL6 ready, one hundred percent data containment.
+
+9
+00:01:12,262 --> 00:01:19,262
+CONTESTED-LOG. Built on the Kamiwaza Stack. Deploy in hours, not months.

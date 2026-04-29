@@ -1,0 +1,1086 @@
+{
+  "units": [
+    {
+      "id": "USINDOPACOM",
+      "kind": "ccmd",
+      "label": "USINDOPACOM",
+      "lat": 21.3611,
+      "lon": -157.969,
+      "echelon": "CCMD"
+    },
+    {
+      "id": "USEUCOM",
+      "kind": "ccmd",
+      "label": "USEUCOM",
+      "lat": 48.7758,
+      "lon": 9.1829,
+      "echelon": "CCMD"
+    },
+    {
+      "id": "USCENTCOM",
+      "kind": "ccmd",
+      "label": "USCENTCOM",
+      "lat": 27.8493,
+      "lon": -82.5005,
+      "echelon": "CCMD"
+    },
+    {
+      "id": "MARFORPAC",
+      "kind": "marfor",
+      "label": "MARFORPAC",
+      "parent": null,
+      "lat": 21.3424,
+      "lon": -157.9604,
+      "echelon": "MARFOR"
+    },
+    {
+      "id": "MARFOREUR",
+      "kind": "marfor",
+      "label": "MARFOREUR/AF",
+      "parent": null,
+      "lat": 49.4325,
+      "lon": 7.7507,
+      "echelon": "MARFOR"
+    },
+    {
+      "id": "MARFORCENT",
+      "kind": "marfor",
+      "label": "MARFORCENT",
+      "parent": null,
+      "lat": 27.8462,
+      "lon": -82.4994,
+      "echelon": "MARFOR"
+    },
+    {
+      "id": "I_MEF",
+      "kind": "mef",
+      "label": "I MEF",
+      "parent": "MARFORPAC",
+      "lat": 33.4145,
+      "lon": -117.6014,
+      "echelon": "MEF"
+    },
+    {
+      "id": "II_MEF",
+      "kind": "mef",
+      "label": "II MEF",
+      "parent": null,
+      "lat": 34.6849,
+      "lon": -77.3464,
+      "echelon": "MEF"
+    },
+    {
+      "id": "III_MEF",
+      "kind": "mef",
+      "label": "III MEF",
+      "parent": "MARFORPAC",
+      "lat": 26.3183,
+      "lon": 127.7551,
+      "echelon": "MEF"
+    },
+    {
+      "id": "1MARDIV",
+      "kind": "div",
+      "label": "1st MARDIV",
+      "parent": "I_MEF",
+      "lat": 33.3877,
+      "lon": -117.4877,
+      "echelon": "DIV"
+    },
+    {
+      "id": "2MARDIV",
+      "kind": "div",
+      "label": "2nd MARDIV",
+      "parent": "II_MEF",
+      "lat": 34.6849,
+      "lon": -77.3464,
+      "echelon": "DIV"
+    },
+    {
+      "id": "24MEU",
+      "kind": "meu",
+      "label": "24th MEU",
+      "parent": "II_MEF",
+      "lat": 34.6849,
+      "lon": -77.3464,
+      "echelon": "MEU"
+    },
+    {
+      "id": "31MEU",
+      "kind": "meu",
+      "label": "31st MEU",
+      "parent": "III_MEF",
+      "lat": 26.3183,
+      "lon": 127.7551,
+      "echelon": "MEU"
+    },
+    {
+      "id": "8th_Marines",
+      "kind": "regt",
+      "label": "8th Marines",
+      "parent": "2MARDIV",
+      "lat": 34.6849,
+      "lon": -77.3464,
+      "echelon": "REGT"
+    },
+    {
+      "id": "1st_Marines",
+      "kind": "regt",
+      "label": "1st Marines",
+      "parent": "1MARDIV",
+      "lat": 33.3877,
+      "lon": -117.4877,
+      "echelon": "REGT"
+    },
+    {
+      "id": "1_8",
+      "kind": "bn",
+      "label": "1/8",
+      "parent": "8th_Marines",
+      "lat": 34.6849,
+      "lon": -77.3464,
+      "echelon": "BN"
+    },
+    {
+      "id": "2_2",
+      "kind": "bn",
+      "label": "2/2 (BLT)",
+      "parent": "8th_Marines",
+      "lat": 34.6849,
+      "lon": -77.3464,
+      "echelon": "BN",
+      "blt_for": "24MEU"
+    },
+    {
+      "id": "1_1",
+      "kind": "bn",
+      "label": "1/1",
+      "parent": "1st_Marines",
+      "lat": 33.3877,
+      "lon": -117.4877,
+      "echelon": "BN"
+    },
+    {
+      "id": "A_1_8",
+      "kind": "co",
+      "label": "A Co 1/8",
+      "parent": "1_8",
+      "lat": 34.6849,
+      "lon": -77.3464,
+      "echelon": "CO"
+    },
+    {
+      "id": "B_1_8",
+      "kind": "co",
+      "label": "B Co 1/8",
+      "parent": "1_8",
+      "lat": 34.6849,
+      "lon": -77.3464,
+      "echelon": "CO"
+    },
+    {
+      "id": "A_1_1",
+      "kind": "co",
+      "label": "A Co 1/1",
+      "parent": "1_1",
+      "lat": 33.3877,
+      "lon": -117.4877,
+      "echelon": "CO"
+    },
+    {
+      "id": "1stPlt_A_1_8",
+      "kind": "plt",
+      "label": "1st Plt / A Co 1/8",
+      "parent": "A_1_8",
+      "lat": 34.6849,
+      "lon": -77.3464,
+      "echelon": "PLT"
+    },
+    {
+      "id": "2ndPlt_A_1_8",
+      "kind": "plt",
+      "label": "2nd Plt / A Co 1/8",
+      "parent": "A_1_8",
+      "lat": 34.6849,
+      "lon": -77.3464,
+      "echelon": "PLT"
+    },
+    {
+      "id": "1stPlt_A_1_1",
+      "kind": "plt",
+      "label": "1st Plt / A Co 1/1",
+      "parent": "A_1_1",
+      "lat": 33.3877,
+      "lon": -117.4877,
+      "echelon": "PLT"
+    },
+    {
+      "id": "1Sqd_1Plt_A_1_8",
+      "kind": "sqd",
+      "label": "1st Squad / 1st Plt",
+      "parent": "1stPlt_A_1_8",
+      "lat": 34.6849,
+      "lon": -77.3464,
+      "echelon": "SQD"
+    },
+    {
+      "id": "2Sqd_1Plt_A_1_8",
+      "kind": "sqd",
+      "label": "2nd Squad / 1st Plt",
+      "parent": "1stPlt_A_1_8",
+      "lat": 34.6849,
+      "lon": -77.3464,
+      "echelon": "SQD"
+    },
+    {
+      "id": "3Sqd_1Plt_A_1_8",
+      "kind": "sqd",
+      "label": "3rd Squad / 1st Plt",
+      "parent": "1stPlt_A_1_8",
+      "lat": 34.6849,
+      "lon": -77.3464,
+      "echelon": "SQD"
+    },
+    {
+      "id": "1Sqd_1Plt_A_1_1",
+      "kind": "sqd",
+      "label": "1st Squad / 1st Plt A 1/1",
+      "parent": "1stPlt_A_1_1",
+      "lat": 33.3877,
+      "lon": -117.4877,
+      "echelon": "SQD"
+    }
+  ],
+  "edges": [
+    {
+      "src": "I_MEF",
+      "dst": "MARFORPAC",
+      "rel": "MEMBER_OF"
+    },
+    {
+      "src": "III_MEF",
+      "dst": "MARFORPAC",
+      "rel": "MEMBER_OF"
+    },
+    {
+      "src": "1MARDIV",
+      "dst": "I_MEF",
+      "rel": "MEMBER_OF"
+    },
+    {
+      "src": "2MARDIV",
+      "dst": "II_MEF",
+      "rel": "MEMBER_OF"
+    },
+    {
+      "src": "24MEU",
+      "dst": "II_MEF",
+      "rel": "MEMBER_OF"
+    },
+    {
+      "src": "31MEU",
+      "dst": "III_MEF",
+      "rel": "MEMBER_OF"
+    },
+    {
+      "src": "8th_Marines",
+      "dst": "2MARDIV",
+      "rel": "MEMBER_OF"
+    },
+    {
+      "src": "1st_Marines",
+      "dst": "1MARDIV",
+      "rel": "MEMBER_OF"
+    },
+    {
+      "src": "1_8",
+      "dst": "8th_Marines",
+      "rel": "MEMBER_OF"
+    },
+    {
+      "src": "2_2",
+      "dst": "8th_Marines",
+      "rel": "MEMBER_OF"
+    },
+    {
+      "src": "1_1",
+      "dst": "1st_Marines",
+      "rel": "MEMBER_OF"
+    },
+    {
+      "src": "A_1_8",
+      "dst": "1_8",
+      "rel": "MEMBER_OF"
+    },
+    {
+      "src": "B_1_8",
+      "dst": "1_8",
+      "rel": "MEMBER_OF"
+    },
+    {
+      "src": "A_1_1",
+      "dst": "1_1",
+      "rel": "MEMBER_OF"
+    },
+    {
+      "src": "1stPlt_A_1_8",
+      "dst": "A_1_8",
+      "rel": "MEMBER_OF"
+    },
+    {
+      "src": "2ndPlt_A_1_8",
+      "dst": "A_1_8",
+      "rel": "MEMBER_OF"
+    },
+    {
+      "src": "1stPlt_A_1_1",
+      "dst": "A_1_1",
+      "rel": "MEMBER_OF"
+    },
+    {
+      "src": "1Sqd_1Plt_A_1_8",
+      "dst": "1stPlt_A_1_8",
+      "rel": "MEMBER_OF"
+    },
+    {
+      "src": "2Sqd_1Plt_A_1_8",
+      "dst": "1stPlt_A_1_8",
+      "rel": "MEMBER_OF"
+    },
+    {
+      "src": "3Sqd_1Plt_A_1_8",
+      "dst": "1stPlt_A_1_8",
+      "rel": "MEMBER_OF"
+    },
+    {
+      "src": "1Sqd_1Plt_A_1_1",
+      "dst": "1stPlt_A_1_1",
+      "rel": "MEMBER_OF"
+    },
+    {
+      "src": "P_SMITH",
+      "dst": "3Sqd_1Plt_A_1_8",
+      "rel": "MEMBER_OF"
+    },
+    {
+      "src": "P_SMITH",
+      "dst": "CLR_SECRET",
+      "rel": "HAS_CLEARANCE",
+      "clearance": "SECRET"
+    },
+    {
+      "src": "P_JONES",
+      "dst": "1stPlt_A_1_8",
+      "rel": "MEMBER_OF"
+    },
+    {
+      "src": "P_JONES",
+      "dst": "CLR_SECRET",
+      "rel": "HAS_CLEARANCE",
+      "clearance": "SECRET"
+    },
+    {
+      "src": "P_GARCIA",
+      "dst": "3Sqd_1Plt_A_1_8",
+      "rel": "MEMBER_OF"
+    },
+    {
+      "src": "P_GARCIA",
+      "dst": "CLR_SECRET",
+      "rel": "HAS_CLEARANCE",
+      "clearance": "SECRET"
+    },
+    {
+      "src": "P_OBRIEN",
+      "dst": "A_1_8",
+      "rel": "MEMBER_OF"
+    },
+    {
+      "src": "P_OBRIEN",
+      "dst": "CLR_TS",
+      "rel": "HAS_CLEARANCE",
+      "clearance": "TS"
+    },
+    {
+      "src": "P_REYES",
+      "dst": "1_8",
+      "rel": "MEMBER_OF"
+    },
+    {
+      "src": "P_REYES",
+      "dst": "CLR_TS",
+      "rel": "HAS_CLEARANCE",
+      "clearance": "TS"
+    },
+    {
+      "src": "P_SOTO",
+      "dst": "2_2",
+      "rel": "MEMBER_OF"
+    },
+    {
+      "src": "P_SOTO",
+      "dst": "CLR_TS",
+      "rel": "HAS_CLEARANCE",
+      "clearance": "TS"
+    },
+    {
+      "src": "P_KING",
+      "dst": "24MEU",
+      "rel": "MEMBER_OF"
+    },
+    {
+      "src": "P_KING",
+      "dst": "CLR_TS",
+      "rel": "HAS_CLEARANCE",
+      "clearance": "TS"
+    },
+    {
+      "src": "P_PATEL",
+      "dst": "A_1_1",
+      "rel": "MEMBER_OF"
+    },
+    {
+      "src": "P_PATEL",
+      "dst": "CLR_SECRET",
+      "rel": "HAS_CLEARANCE",
+      "clearance": "SECRET"
+    },
+    {
+      "src": "P_HARRIS",
+      "dst": "24MEU",
+      "rel": "MEMBER_OF"
+    },
+    {
+      "src": "P_HARRIS",
+      "dst": "CLR_SECRET",
+      "rel": "HAS_CLEARANCE",
+      "clearance": "SECRET"
+    },
+    {
+      "src": "P_WEBER",
+      "dst": "MARFOREUR",
+      "rel": "MEMBER_OF"
+    },
+    {
+      "src": "P_WEBER",
+      "dst": "CLR_NATO_SECRET",
+      "rel": "HAS_CLEARANCE",
+      "clearance": "NATO_SECRET"
+    },
+    {
+      "src": "P_VENDOR",
+      "dst": "1_8",
+      "rel": "MEMBER_OF"
+    },
+    {
+      "src": "P_VENDOR",
+      "dst": "CLR_UNCLASS",
+      "rel": "HAS_CLEARANCE",
+      "clearance": "UNCLASS"
+    },
+    {
+      "src": "P_LEE",
+      "dst": "3Sqd_1Plt_A_1_8",
+      "rel": "MEMBER_OF"
+    },
+    {
+      "src": "P_LEE",
+      "dst": "CLR_SECRET",
+      "rel": "HAS_CLEARANCE",
+      "clearance": "SECRET"
+    },
+    {
+      "src": "P_DIAZ",
+      "dst": "2Sqd_1Plt_A_1_8",
+      "rel": "MEMBER_OF"
+    },
+    {
+      "src": "P_DIAZ",
+      "dst": "CLR_UNCLASS",
+      "rel": "HAS_CLEARANCE",
+      "clearance": "UNCLASS"
+    },
+    {
+      "src": "P_NGUYEN",
+      "dst": "1Sqd_1Plt_A_1_8",
+      "rel": "MEMBER_OF"
+    },
+    {
+      "src": "P_NGUYEN",
+      "dst": "CLR_SECRET",
+      "rel": "HAS_CLEARANCE",
+      "clearance": "SECRET"
+    },
+    {
+      "src": "P_BROWN",
+      "dst": "1stPlt_A_1_1",
+      "rel": "MEMBER_OF"
+    },
+    {
+      "src": "P_BROWN",
+      "dst": "CLR_SECRET",
+      "rel": "HAS_CLEARANCE",
+      "clearance": "SECRET"
+    },
+    {
+      "src": "24MEU",
+      "dst": "USINDOPACOM",
+      "rel": "OPCON_TO",
+      "order_ref": "MARFORPAC FRAGO 026-12",
+      "effective": "2026-04-15"
+    },
+    {
+      "src": "2_2",
+      "dst": "24MEU",
+      "rel": "DETACHED_TO",
+      "order_ref": "MARFORCOM FRAGO 008-04",
+      "effective": "2026-03-01"
+    },
+    {
+      "src": "A_1_8",
+      "dst": "2_2",
+      "rel": "ATTACHED_TO",
+      "order_ref": "1/8 OPORD 26-101",
+      "effective": "2026-04-10"
+    },
+    {
+      "src": "31MEU",
+      "dst": "USINDOPACOM",
+      "rel": "OPCON_TO",
+      "order_ref": "organic",
+      "effective": "permanent"
+    },
+    {
+      "src": "MARFOREUR",
+      "dst": "USEUCOM",
+      "rel": "TACON_TO",
+      "order_ref": "organic",
+      "effective": "permanent"
+    },
+    {
+      "src": "MARFORPAC",
+      "dst": "USINDOPACOM",
+      "rel": "TACON_TO",
+      "order_ref": "organic",
+      "effective": "permanent"
+    },
+    {
+      "src": "DOC_001",
+      "dst": "MARFORPAC_G3",
+      "rel": "CLASSIFIED_BY",
+      "classification": "SECRET",
+      "topic": "Threat Assessment"
+    },
+    {
+      "src": "DOC_001",
+      "dst": "REL_USA",
+      "rel": "REL_TO",
+      "releasability": "USA"
+    },
+    {
+      "src": "24MEU",
+      "dst": "DOC_001",
+      "rel": "HAS_NEED_TO_KNOW",
+      "topic": "Threat Assessment"
+    },
+    {
+      "src": "I_MEF",
+      "dst": "DOC_001",
+      "rel": "HAS_NEED_TO_KNOW",
+      "topic": "Threat Assessment"
+    },
+    {
+      "src": "USINDOPACOM",
+      "dst": "DOC_001",
+      "rel": "HAS_NEED_TO_KNOW",
+      "topic": "Threat Assessment"
+    },
+    {
+      "src": "DOC_002",
+      "dst": "24MEU_G3",
+      "rel": "CLASSIFIED_BY",
+      "classification": "SECRET",
+      "topic": "CONOPS"
+    },
+    {
+      "src": "DOC_002",
+      "dst": "REL_USA",
+      "rel": "REL_TO",
+      "releasability": "USA"
+    },
+    {
+      "src": "DOC_002",
+      "dst": "REL_FVEY",
+      "rel": "REL_TO",
+      "releasability": "FVEY"
+    },
+    {
+      "src": "24MEU",
+      "dst": "DOC_002",
+      "rel": "HAS_NEED_TO_KNOW",
+      "topic": "CONOPS"
+    },
+    {
+      "src": "2_2",
+      "dst": "DOC_002",
+      "rel": "HAS_NEED_TO_KNOW",
+      "topic": "CONOPS"
+    },
+    {
+      "src": "DOC_003",
+      "dst": "MARFOREUR_G3",
+      "rel": "CLASSIFIED_BY",
+      "classification": "NATO_SECRET",
+      "topic": "ROE"
+    },
+    {
+      "src": "DOC_003",
+      "dst": "REL_NATO",
+      "rel": "REL_TO",
+      "releasability": "NATO"
+    },
+    {
+      "src": "MARFOREUR",
+      "dst": "DOC_003",
+      "rel": "HAS_NEED_TO_KNOW",
+      "topic": "ROE"
+    },
+    {
+      "src": "USEUCOM",
+      "dst": "DOC_003",
+      "rel": "HAS_NEED_TO_KNOW",
+      "topic": "ROE"
+    },
+    {
+      "src": "DOC_004",
+      "dst": "1_8_S3",
+      "rel": "CLASSIFIED_BY",
+      "classification": "UNCLASS",
+      "topic": "Training"
+    },
+    {
+      "src": "DOC_004",
+      "dst": "REL_ALL",
+      "rel": "REL_TO",
+      "releasability": "ALL"
+    },
+    {
+      "src": "1_8",
+      "dst": "DOC_004",
+      "rel": "HAS_NEED_TO_KNOW",
+      "topic": "Training"
+    },
+    {
+      "src": "DOC_005",
+      "dst": "A_1_8_S3",
+      "rel": "CLASSIFIED_BY",
+      "classification": "CUI",
+      "topic": "Training"
+    },
+    {
+      "src": "DOC_005",
+      "dst": "REL_USA",
+      "rel": "REL_TO",
+      "releasability": "USA"
+    },
+    {
+      "src": "A_1_8",
+      "dst": "DOC_005",
+      "rel": "HAS_NEED_TO_KNOW",
+      "topic": "Training"
+    },
+    {
+      "src": "1_8",
+      "dst": "DOC_005",
+      "rel": "HAS_NEED_TO_KNOW",
+      "topic": "Training"
+    },
+    {
+      "src": "DOC_006",
+      "dst": "24MEU_G4",
+      "rel": "CLASSIFIED_BY",
+      "classification": "CUI",
+      "topic": "Logistics"
+    },
+    {
+      "src": "DOC_006",
+      "dst": "REL_USA",
+      "rel": "REL_TO",
+      "releasability": "USA"
+    },
+    {
+      "src": "DOC_006",
+      "dst": "REL_FVEY",
+      "rel": "REL_TO",
+      "releasability": "FVEY"
+    },
+    {
+      "src": "24MEU",
+      "dst": "DOC_006",
+      "rel": "HAS_NEED_TO_KNOW",
+      "topic": "Logistics"
+    },
+    {
+      "src": "DOC_007",
+      "dst": "1_8_S6",
+      "rel": "CLASSIFIED_BY",
+      "classification": "UNCLASS",
+      "topic": "Contracting"
+    },
+    {
+      "src": "DOC_007",
+      "dst": "REL_ALL",
+      "rel": "REL_TO",
+      "releasability": "ALL"
+    },
+    {
+      "src": "1_8",
+      "dst": "DOC_007",
+      "rel": "HAS_NEED_TO_KNOW",
+      "topic": "Contracting"
+    },
+    {
+      "src": "VENDOR",
+      "dst": "DOC_007",
+      "rel": "HAS_NEED_TO_KNOW",
+      "topic": "Contracting"
+    },
+    {
+      "src": "DOC_008",
+      "dst": "USINDOPACOM_J3",
+      "rel": "CLASSIFIED_BY",
+      "classification": "SECRET",
+      "topic": "Posture"
+    },
+    {
+      "src": "DOC_008",
+      "dst": "REL_USA",
+      "rel": "REL_TO",
+      "releasability": "USA"
+    },
+    {
+      "src": "DOC_008",
+      "dst": "REL_FVEY",
+      "rel": "REL_TO",
+      "releasability": "FVEY"
+    },
+    {
+      "src": "USINDOPACOM",
+      "dst": "DOC_008",
+      "rel": "HAS_NEED_TO_KNOW",
+      "topic": "Posture"
+    },
+    {
+      "src": "DOC_009",
+      "dst": "1MARDIV_G3",
+      "rel": "CLASSIFIED_BY",
+      "classification": "SECRET",
+      "topic": "Fires"
+    },
+    {
+      "src": "DOC_009",
+      "dst": "REL_USA",
+      "rel": "REL_TO",
+      "releasability": "USA"
+    },
+    {
+      "src": "1MARDIV",
+      "dst": "DOC_009",
+      "rel": "HAS_NEED_TO_KNOW",
+      "topic": "Fires"
+    },
+    {
+      "src": "I_MEF",
+      "dst": "DOC_009",
+      "rel": "HAS_NEED_TO_KNOW",
+      "topic": "Fires"
+    },
+    {
+      "src": "DOC_010",
+      "dst": "24MEU_G3",
+      "rel": "CLASSIFIED_BY",
+      "classification": "SECRET",
+      "topic": "Coalition"
+    },
+    {
+      "src": "DOC_010",
+      "dst": "REL_USA",
+      "rel": "REL_TO",
+      "releasability": "USA"
+    },
+    {
+      "src": "DOC_010",
+      "dst": "REL_FVEY",
+      "rel": "REL_TO",
+      "releasability": "FVEY"
+    },
+    {
+      "src": "24MEU",
+      "dst": "DOC_010",
+      "rel": "HAS_NEED_TO_KNOW",
+      "topic": "Coalition"
+    },
+    {
+      "src": "DOC_011",
+      "dst": "TECOM",
+      "rel": "CLASSIFIED_BY",
+      "classification": "UNCLASS",
+      "topic": "Training"
+    },
+    {
+      "src": "DOC_011",
+      "dst": "REL_ALL",
+      "rel": "REL_TO",
+      "releasability": "ALL"
+    },
+    {
+      "src": "ALL",
+      "dst": "DOC_011",
+      "rel": "HAS_NEED_TO_KNOW",
+      "topic": "Training"
+    },
+    {
+      "src": "DOC_012",
+      "dst": "USINDOPACOM_J2",
+      "rel": "CLASSIFIED_BY",
+      "classification": "TS",
+      "topic": "Targeting"
+    },
+    {
+      "src": "DOC_012",
+      "dst": "REL_USA",
+      "rel": "REL_TO",
+      "releasability": "USA"
+    },
+    {
+      "src": "USINDOPACOM",
+      "dst": "DOC_012",
+      "rel": "HAS_NEED_TO_KNOW",
+      "topic": "Targeting"
+    },
+    {
+      "src": "MARFORPAC",
+      "dst": "DOC_012",
+      "rel": "HAS_NEED_TO_KNOW",
+      "topic": "Targeting"
+    },
+    {
+      "src": "DOC_013",
+      "dst": "MARFOREUR_G6",
+      "rel": "CLASSIFIED_BY",
+      "classification": "NATO_SECRET",
+      "topic": "Comms"
+    },
+    {
+      "src": "DOC_013",
+      "dst": "REL_NATO",
+      "rel": "REL_TO",
+      "releasability": "NATO"
+    },
+    {
+      "src": "MARFOREUR",
+      "dst": "DOC_013",
+      "rel": "HAS_NEED_TO_KNOW",
+      "topic": "Comms"
+    },
+    {
+      "src": "DOC_014",
+      "dst": "1_1_S4",
+      "rel": "CLASSIFIED_BY",
+      "classification": "CUI",
+      "topic": "Logistics"
+    },
+    {
+      "src": "DOC_014",
+      "dst": "REL_USA",
+      "rel": "REL_TO",
+      "releasability": "USA"
+    },
+    {
+      "src": "1_1",
+      "dst": "DOC_014",
+      "rel": "HAS_NEED_TO_KNOW",
+      "topic": "Logistics"
+    },
+    {
+      "src": "1MARDIV",
+      "dst": "DOC_014",
+      "rel": "HAS_NEED_TO_KNOW",
+      "topic": "Logistics"
+    },
+    {
+      "src": "DOC_015",
+      "dst": "1_8_S3",
+      "rel": "CLASSIFIED_BY",
+      "classification": "SECRET",
+      "topic": "OPORD"
+    },
+    {
+      "src": "DOC_015",
+      "dst": "REL_USA",
+      "rel": "REL_TO",
+      "releasability": "USA"
+    },
+    {
+      "src": "DOC_015",
+      "dst": "REL_FVEY",
+      "rel": "REL_TO",
+      "releasability": "FVEY"
+    },
+    {
+      "src": "1_8",
+      "dst": "DOC_015",
+      "rel": "HAS_NEED_TO_KNOW",
+      "topic": "OPORD"
+    },
+    {
+      "src": "8th_Marines",
+      "dst": "DOC_015",
+      "rel": "HAS_NEED_TO_KNOW",
+      "topic": "OPORD"
+    },
+    {
+      "src": "DOC_016",
+      "dst": "1_8_S4",
+      "rel": "CLASSIFIED_BY",
+      "classification": "UNCLASS",
+      "topic": "Logistics"
+    },
+    {
+      "src": "DOC_016",
+      "dst": "REL_ALL",
+      "rel": "REL_TO",
+      "releasability": "ALL"
+    },
+    {
+      "src": "VENDOR",
+      "dst": "DOC_016",
+      "rel": "HAS_NEED_TO_KNOW",
+      "topic": "Logistics"
+    },
+    {
+      "src": "1_8",
+      "dst": "DOC_016",
+      "rel": "HAS_NEED_TO_KNOW",
+      "topic": "Logistics"
+    },
+    {
+      "src": "DOC_017",
+      "dst": "24MEU_ACE",
+      "rel": "CLASSIFIED_BY",
+      "classification": "SECRET",
+      "topic": "Air"
+    },
+    {
+      "src": "DOC_017",
+      "dst": "REL_USA",
+      "rel": "REL_TO",
+      "releasability": "USA"
+    },
+    {
+      "src": "DOC_017",
+      "dst": "REL_FVEY",
+      "rel": "REL_TO",
+      "releasability": "FVEY"
+    },
+    {
+      "src": "24MEU",
+      "dst": "DOC_017",
+      "rel": "HAS_NEED_TO_KNOW",
+      "topic": "Air"
+    },
+    {
+      "src": "DOC_018",
+      "dst": "MARFORPAC_G3",
+      "rel": "CLASSIFIED_BY",
+      "classification": "SECRET",
+      "topic": "Deployment"
+    },
+    {
+      "src": "DOC_018",
+      "dst": "REL_USA",
+      "rel": "REL_TO",
+      "releasability": "USA"
+    },
+    {
+      "src": "MARFORPAC",
+      "dst": "DOC_018",
+      "rel": "HAS_NEED_TO_KNOW",
+      "topic": "Deployment"
+    },
+    {
+      "src": "III_MEF",
+      "dst": "DOC_018",
+      "rel": "HAS_NEED_TO_KNOW",
+      "topic": "Deployment"
+    },
+    {
+      "src": "USINDOPACOM",
+      "dst": "DOC_018",
+      "rel": "HAS_NEED_TO_KNOW",
+      "topic": "Deployment"
+    },
+    {
+      "src": "DOC_019",
+      "dst": "24MEU_G3",
+      "rel": "CLASSIFIED_BY",
+      "classification": "CUI",
+      "topic": "PR"
+    },
+    {
+      "src": "DOC_019",
+      "dst": "REL_USA",
+      "rel": "REL_TO",
+      "releasability": "USA"
+    },
+    {
+      "src": "DOC_019",
+      "dst": "REL_FVEY",
+      "rel": "REL_TO",
+      "releasability": "FVEY"
+    },
+    {
+      "src": "24MEU",
+      "dst": "DOC_019",
+      "rel": "HAS_NEED_TO_KNOW",
+      "topic": "PR"
+    },
+    {
+      "src": "DOC_020",
+      "dst": "USINDOPACOM_J3",
+      "rel": "CLASSIFIED_BY",
+      "classification": "SECRET",
+      "topic": "OPORD"
+    },
+    {
+      "src": "DOC_020",
+      "dst": "REL_USA",
+      "rel": "REL_TO",
+      "releasability": "USA"
+    },
+    {
+      "src": "DOC_020",
+      "dst": "REL_FVEY",
+      "rel": "REL_TO",
+      "releasability": "FVEY"
+    },
+    {
+      "src": "USINDOPACOM",
+      "dst": "DOC_020",
+      "rel": "HAS_NEED_TO_KNOW",
+      "topic": "OPORD"
+    },
+    {
+      "src": "MARFORPAC",
+      "dst": "DOC_020",
+      "rel": "HAS_NEED_TO_KNOW",
+      "topic": "OPORD"
+    },
+    {
+      "src": "31MEU",
+      "dst": "DOC_020",
+      "rel": "HAS_NEED_TO_KNOW",
+      "topic": "OPORD"
+    }
+  ]
+}

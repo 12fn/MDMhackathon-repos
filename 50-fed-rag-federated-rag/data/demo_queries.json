@@ -1,0 +1,22 @@
+[
+  {
+    "id": "meu_31_itbayat_d30",
+    "label": "Sustain 31st MEU at Itbayat through D+30",
+    "prompt": "How should I sustain the 31st MEU at Itbayat through D+30? I need depot Class IX availability for AAV-7A1 and MTVR, the applicable maintenance procedures my LCE will execute forward, and Class VIII medical resupply with shelf-life and cold-chain constraints for a 30-day distributed STOM operation."
+  },
+  {
+    "id": "jltv_jungle_sustain",
+    "label": "JLTV jungle sustainment package \u2014 Philippines",
+    "prompt": "Build a 21-day JLTV sustainment package for a platoon-sized stand-in force in the Philippines. Include Class IX parts availability, the JLTV field maintenance procedures the platoon mechanic will need, and a Class VIII trauma resupply tailored to junctional-hemorrhage casualty profile."
+  },
+  {
+    "id": "haadr_typhoon_response",
+    "label": "Western Pacific typhoon HA/DR cell",
+    "prompt": "Stand up a 14-day HA/DR cell in the Western Pacific typhoon corridor. I need MTVR and LVSR readiness parts at depot, the HMMWV and MTVR maintenance procedures the support battalion will rely on, and Class VIII trauma + tropical-disease prophylaxis stocks held by DLA."
+  },
+  {
+    "id": "aav7a1_ramp_failure",
+    "label": "AAV-7A1 ramp actuator failure cluster",
+    "prompt": "We have a ramp-actuator failure cluster across three AAV-7A1 hulls afloat with 31st MEU. Pull depot stock on the affected hydraulic hose assembly, the AAV-7A1 maintenance procedures covering the ramp actuator R&R, and any Class VIII items needed for embarked-medical contingency during repair."
+  }
+]

@@ -1,0 +1,31 @@
+id,name,kind,lat,lon,state,domain
+MCLB-ALB,MCLB Albany,depot,31.554,-84.064,GA,CONUS
+MCAS-CHP,MCAS Cherry Point,air,34.901,-76.881,NC,CONUS
+CAMP-LEJ,Camp Lejeune,depot,34.682,-77.361,NC,CONUS
+FT-BRG,Ft. Liberty (Bragg),depot,35.14,-79.006,NC,CONUS
+BLT-RAIL,Baltimore Rail Yard,rail,39.29,-76.612,MD,CONUS
+DOVR-AFB,Dover AFB (AMC),air,39.13,-75.466,DE,CONUS
+NORF-NB,Naval Station Norfolk,port,36.946,-76.33,VA,CONUS
+CHRL-RAIL,Charleston SC Rail,rail,32.776,-79.931,SC,CONUS
+PORT-CHS,Port of Charleston,port,32.781,-79.929,SC,CONUS
+SAVN-PORT,Port of Savannah,port,32.083,-81.099,GA,CONUS
+JAX-PORT,JAXPORT (Blount Island),port,30.395,-81.524,FL,CONUS
+ATL-RAIL,Atlanta CSX Hub,rail,33.749,-84.388,GA,CONUS
+BMT-PORT,Port of Beaumont (SDDC),port,30.078,-94.103,TX,CONUS
+BMT-RAIL,Beaumont KCS Rail Yard,rail,30.085,-94.109,TX,CONUS
+HOUS-PORT,Port of Houston,port,29.726,-95.022,TX,CONUS
+CRPS-PORT,Port of Corpus Christi,port,27.812,-97.396,TX,CONUS
+FT-HOOD,Ft. Cavazos (Hood),depot,31.135,-97.778,TX,CONUS
+FT-BLISS,Ft. Bliss,depot,31.812,-106.42,TX,CONUS
+TWENTYNIN,MCAGCC 29 Palms,depot,34.236,-116.054,CA,CONUS
+MCLB-BAR,MCLB Barstow,depot,34.846,-116.751,CA,CONUS
+CAMP-PEN,Camp Pendleton,depot,33.385,-117.566,CA,CONUS
+PORT-LA,Port of Los Angeles,port,33.737,-118.265,CA,CONUS
+PORT-OAK,Port of Oakland,port,37.795,-122.279,CA,CONUS
+TRAV-AFB,Travis AFB (AMC),air,38.272,-121.927,CA,CONUS
+PORT-TAC,Port of Tacoma,port,47.272,-122.42,WA,CONUS
+JBLM,JB Lewis-McChord,depot,47.094,-122.566,WA,CONUS
+CHIC-RAIL,Chicago BNSF Hub,rail,41.879,-87.629,IL,CONUS
+MEMP-RAIL,Memphis BNSF/CN Hub,rail,35.117,-89.971,TN,CONUS
+KC-RAIL,Kansas City KCS Hub,rail,39.099,-94.578,MO,CONUS
+ATLANTA-A,Hartsfield-Jackson Cargo,air,33.64,-84.428,GA,CONUS

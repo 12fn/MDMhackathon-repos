@@ -1,0 +1,64 @@
+[
+  {
+    "id": "m1a1_transmission",
+    "title": "M1A1 transmission risk",
+    "frame": "Marine at MCLB Albany asks for serial-number M1A1s at risk for transmission failure based on the last 90 days of work orders.",
+    "question": "Which serial-number M1A1s are at risk for transmission failure based on the last 90 days of work orders?",
+    "primary_node": "albany",
+    "involves": [
+      "albany",
+      "lejeune",
+      "quantico"
+    ],
+    "stakes": "Pre-deployment readiness call; must answer in seconds, not days."
+  },
+  {
+    "id": "prc117_battery",
+    "title": "PRC-117G BB-2590 shortage projection",
+    "frame": "S-4 needs to know which units will run out of BB-2590 batteries for AN/PRC-117G manpacks within the next 14 days.",
+    "question": "Which units will run out of BB-2590 batteries for AN/PRC-117G manpacks within the next 14 days, and which depot can lateral?",
+    "primary_node": "lejeune",
+    "involves": [
+      "albany",
+      "lejeune"
+    ],
+    "stakes": "DDIL deployable cell \u2014 bandwidth too small to ship 8 GB to a central embedder."
+  },
+  {
+    "id": "jltv_brake_recall",
+    "title": "JLTV brake-caliper recall scope",
+    "frame": "Vendor issued a recall on a brake-caliper lot; commander needs to know which JLTVs across LOGCOM are affected.",
+    "question": "Across all installations, which JLTVs (by serial) used the recalled brake-caliper lot in the last 18 months?",
+    "primary_node": "albany",
+    "involves": [
+      "albany",
+      "quantico"
+    ],
+    "stakes": "ICD 503 forbids copying the Quantico maintenance corpus into a central index. DDE answers from inside the enclave."
+  },
+  {
+    "id": "m240_barrel_life",
+    "title": "M240 barrel-life cross-check",
+    "frame": "Armorer needs to validate barrel-life thresholds against the TM and reconcile against round-count work orders.",
+    "question": "Which M240B barrels have exceeded 80% of their TM-published round-count threshold, and where are they now?",
+    "primary_node": "quantico",
+    "involves": [
+      "albany",
+      "lejeune",
+      "quantico"
+    ],
+    "stakes": "TM library is CUI; cannot leave Quantico. DDE composes the answer with zero data movement."
+  },
+  {
+    "id": "mtvr_tire_lateral",
+    "title": "MTVR 16R20 tire lateral feasibility",
+    "frame": "Battalion needs 12 MTVR tires before a CONUS exercise; planner wants the cheapest lateral-transfer plan.",
+    "question": "What is the lowest-cost lateral-transfer plan to source 12 MTVR 16R20 tires for the exercise window?",
+    "primary_node": "lejeune",
+    "involves": [
+      "albany",
+      "lejeune"
+    ],
+    "stakes": "Operator workstation has no AO to host 50 GB of GCSS-MC; DDE spawns compute at Albany, returns only the lateral plan."
+  }
+]

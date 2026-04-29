@@ -36,3 +36,19 @@ VOUCHER,Synthetic DTS records + Citi Manager statements,https://github.com/12fn/
 CUAS-DETECT,Drone RF Spectrogram (DroneRF-B) + Drone RF Identification (DroneRC),https://github.com/12fn/MDMhackathon-repos/tree/main/35-cuas-detect-rf-counter-uas
 SPECTRA,NIST Wi-Fi & Bluetooth I/Q RF Recordings (mds2-2731),https://github.com/12fn/MDMhackathon-repos/tree/main/36-spectra-iq-spectrum-awareness
 CADENCE,LMS Course .mbz exports + Student Written Assignment Examples,https://github.com/12fn/MDMhackathon-repos/tree/main/37-cadence-pme-adaptive-tutor
+OMNI,HIFLD + NASA Earthdata + FIRMS + GCSS-MC + IEEE WiFi/BT + Drone RF (6 streams),https://github.com/12fn/MDMhackathon-repos/tree/main/38-omni-installation-cop
+CONTESTED-LOG,AIS + AFCENT + LaDe + GCSS-MC + Pirate Attacks + Global SC + BTS + MSI WPI (8 datasets),https://github.com/12fn/MDMhackathon-repos/tree/main/39-contested-log-conus-to-squad
+PREDICT-MAINT,CWRU + NASA Pred Mx + Predictive Mx + GCSS-MC + ICM (5 datasets),https://github.com/12fn/MDMhackathon-repos/tree/main/40-predict-maint-sensor-to-shelf
+STORM-SHIFT,NASA Earthdata + FIRMS + FIMA NFIP + FEMA SC Climate + Logistics-CA (5 datasets),https://github.com/12fn/MDMhackathon-repos/tree/main/41-storm-shift-polycrisis-readiness
+DRONE-DOMINANCE,Drone (UAV) + HIT-UAV + Drone RF Spectrogram + Drone RF ID + Xperience-10M (5 datasets),https://github.com/12fn/MDMhackathon-repos/tree/main/42-drone-dominance-uas-lifecycle
+OMNI-INTEL,AIS + Pirate + Mil Object + HIT-UAV + Drone RF + WiFi/BT + FIRMS Ukraine (7 INT sources),https://github.com/12fn/MDMhackathon-repos/tree/main/43-omni-intel-7int-fusion
+MARINE-MEDIC,Medical Supply Inventory v1+v2 + Medical Supply Network + GCSS-MC (4 datasets),https://github.com/12fn/MDMhackathon-repos/tree/main/44-marine-medic-casualty-medlog
+GUARDRAIL,Synthetic CUI corpus + DTS + LMS + browser intercepts + role tree (5 sources),https://github.com/12fn/MDMhackathon-repos/tree/main/45-guardrail-trusted-workspace
+TRAVELOG,DTS + AFCENT Logistics + BTS NTAD + LaDe (4 datasets),https://github.com/12fn/MDMhackathon-repos/tree/main/46-travelog-travel-cargo
+SCHOOLHOUSE,LMS + Student Assignments + Xperience-10M + Military Object Detection (4 datasets),https://github.com/12fn/MDMhackathon-repos/tree/main/47-schoolhouse-pme-ecosystem
+OMNI-AGENT,All 53 sibling apps as tools (real OpenAI tool-calling meta-orchestrator),https://github.com/12fn/MDMhackathon-repos/tree/main/48-omni-agent-meta-orchestrator
+MESH-INFER,Distributed inference visualizer (4-node simulated edge/rear/SCIF mesh),https://github.com/12fn/MDMhackathon-repos/tree/main/49-mesh-infer-distributed-inference
+FED-RAG,Federated RAG over 3 locked silos (Albany GCSS-MC + Pendleton TM + DLA Philly),https://github.com/12fn/MDMhackathon-repos/tree/main/50-fed-rag-federated-rag
+CHAIN-OF-COMMAND,ReBAC ORBAT graph (Marine chain-of-command path-walking authorization),https://github.com/12fn/MDMhackathon-repos/tree/main/51-chain-of-command-rebac-orbat
+CAT-ROUTER,Kamiwaza model catalog routing (8 deployed models with per-task selection),https://github.com/12fn/MDMhackathon-repos/tree/main/52-cat-router-model-catalog
+DDE-RAG,Distributed Data Engine compute-at-data RAG (3 nodes — Albany / Lejeune / Quantico),https://github.com/12fn/MDMhackathon-repos/tree/main/53-dde-rag-compute-at-data

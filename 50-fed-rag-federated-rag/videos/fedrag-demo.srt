@@ -1,0 +1,27 @@
+1
+00:00:01,661 --> 00:00:06,661
+FED-RAG. Federated retrieval across data silos that cannot legally or technically be merged.
+
+2
+00:00:06,662 --> 00:00:16,662
+Your sustainment data lives in three places that will never merge. GCSS-MC at Albany. Thirty-first MEU technical manuals at Pendleton. Class Eight medical at DLA Philadelphia.
+
+3
+00:00:16,665 --> 00:00:26,665
+Three locked silos. Three local Kamiwaza Inference Mesh nodes. Three separate embedding indexes — one numpy file per silo, not one merged index.
+
+4
+00:00:26,730 --> 00:00:44,730
+A planner asks how to sustain the thirty-first MEU at Itbayat through D plus thirty. The encrypted query fans out. Each silo retrieves locally against its own index. Only snippets cross the wire — raw data never moves.
+
+5
+00:00:44,751 --> 00:01:06,751
+Three sets of snippets stream back. Every cross-silo packet is logged for SJA review — direction, silo, content type, byte count, governing authority. The synthesis brief cites every fact back to its silo of origin.
+
+6
+00:01:06,785 --> 00:01:21,785
+Naive central RAG would have moved ninety-two gigabytes across the wire. That is a DLA Manual four one four zero point twenty-seven distribution breach. Federated DDE moved kilobytes.
+
+7
+00:01:21,793 --> 00:01:31,793
+FED-RAG. Federated RAG via the Kamiwaza Distributed Data Engine. One query, three silos, zero data movement.

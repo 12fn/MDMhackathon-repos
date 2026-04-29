@@ -1,0 +1,53 @@
+{
+  "site": "Camp Pendleton \u2014 LOGCOM tenant area",
+  "as_of": "271730ZAPR26",
+  "platforms": [
+    {
+      "make": "Skydio",
+      "model": "X10D",
+      "role": "ISR (squad-organic)",
+      "count_total": 14,
+      "count_mission_ready": 11,
+      "battery_pack_pct_avg": 78,
+      "primary_use": "perimeter recon, building clearing overhead"
+    },
+    {
+      "make": "Parrot",
+      "model": "Anafi USA",
+      "role": "ISR (small unit)",
+      "count_total": 8,
+      "count_mission_ready": 7,
+      "battery_pack_pct_avg": 82,
+      "primary_use": "convoy overwatch, route recon"
+    },
+    {
+      "make": "Teal",
+      "model": "Black Widow",
+      "role": "Group 1 NDAA-compliant ISR",
+      "count_total": 4,
+      "count_mission_ready": 4,
+      "battery_pack_pct_avg": 91,
+      "primary_use": "indoor / structure sweep"
+    },
+    {
+      "make": "AeroVironment",
+      "model": "Switchblade 300",
+      "role": "loitering munition (Group 1)",
+      "count_total": 6,
+      "count_mission_ready": 5,
+      "battery_pack_pct_avg": 88,
+      "primary_use": "stand-off precision strike (kinetic)"
+    },
+    {
+      "make": "AeroVironment",
+      "model": "Puma AE",
+      "role": "Group 2 long-range ISR",
+      "count_total": 2,
+      "count_mission_ready": 2,
+      "battery_pack_pct_avg": 85,
+      "primary_use": "long-range reconnaissance, EO/IR"
+    }
+  ],
+  "mission_load_today": "Group 1 ISR: 4 sorties planned \u00b7 loitering munition: 0 (training restriction) \u00b7 Puma: 1 long sortie SP+30",
+  "visual_quantification_note": "Image-based fleet count: 39 platforms recognized in motor-pool stills (matches manifest within \u00b11)."
+}

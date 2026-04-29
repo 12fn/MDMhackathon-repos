@@ -1,12 +1,15 @@
-# MDM 2026 — 37 LOGCOM Hackathon App Templates
+# MDM 2026 — 53 LOGCOM Hackathon App Templates
 
 Open-source AI app templates for the **Modern Day Marine 2026 LOGCOM AI Forum Hackathon** (27–30 April 2026, Walter E. Washington Convention Center).
 
-**37 apps total — covering all published LOGCOM datasets and all 17 published use cases on the portal, plus the new datasets added during the event.** Built as runnable templates so any MDM 2026 competitor can fork, plug in their own data, point at any LLM provider, and ship a credible entry in hours instead of weeks.
+**53 apps total — covering every published LOGCOM dataset, every published use case, plus advanced multi-dataset mega-apps and Kamiwaza-feature showcases.** Built as runnable templates so any MDM 2026 competitor can fork, plug in their own data, point at any LLM provider, and ship a credible entry in hours instead of weeks.
 
 - **Wave 1 (apps 01-14):** one app per dataset on the LOGCOM portal (MARLIN through EMBER)
 - **Wave 2 (apps 15-34):** one app per remaining dataset and one per published use case (VITALS through VOUCHER)
 - **Wave 3 (apps 35-37):** counter-UAS RF detection, raw I/Q spectrum awareness, adaptive PME tutor (CUAS-DETECT, SPECTRA, CADENCE)
+- **Wave 4 (apps 38-47):** ten **mega-apps** combining 4-8 datasets each into single workflows (OMNI installation digital twin, CONTESTED-LOG end-to-end logistics, PREDICT-MAINT closing all 4 PdM use cases, STORM-SHIFT polycrisis readiness, DRONE-DOMINANCE full UAS lifecycle, OMNI-INTEL 7-INT fusion, MARINE-MEDIC casualty + medlog, GUARDRAIL trusted workspace, TRAVELOG travel+cargo, SCHOOLHOUSE PME ecosystem)
+- **Wave 5 (app 48):** **OMNI-AGENT** meta-orchestrator — real OpenAI tool-calling agent that routes natural-language queries to all 52 sibling apps as tools
+- **Wave 6 (apps 49-53):** **Kamiwaza-specific feature showcases** that no commercial-cloud competitor can replicate: MESH-INFER (distributed inference), FED-RAG (federated retrieval), CHAIN-OF-COMMAND (ReBAC ORBAT graph), CAT-ROUTER (model catalog), DDE-RAG (compute-at-data)
 
 Every app is end-to-end working today: real LLM calls, real processing, polished UI, captioned demo video. The data is synthetic-but-plausible (per-app `data/generate.py`) — swap in your real dataset using [DATA_INGESTION.md](DATA_INGESTION.md).
 
@@ -88,6 +91,39 @@ Full provider compatibility matrix and per-app notes in [DEPLOY.md](DEPLOY.md). 
 | 35 | [35-cuas-detect-rf-counter-uas](35-cuas-detect-rf-counter-uas/) | **CUAS-DETECT** | Counter-UAS RF detection + engagement brief — multimodal vision on RF spectrogram |
 | 36 | [36-spectra-iq-spectrum-awareness](36-spectra-iq-spectrum-awareness/) | **SPECTRA** | Raw I/Q signal classification + spectrum awareness brief (NIST mds2-2731 schema) |
 | 37 | [37-cadence-pme-adaptive-tutor](37-cadence-pme-adaptive-tutor/) | **CADENCE** | Adaptive Marine PME tutor on real LMS .mbz exports + Student Assignment Examples |
+
+## Wave 4 — mega-apps combining 4-8 datasets each (10)
+
+| # | Folder | Codename | Dataset(s) + Use Case fusion |
+|---|---|---|---|
+| 38 | [38-omni-installation-cop](38-omni-installation-cop/) | **OMNI** | Installation digital twin — 6 streams (HIFLD + Earthdata + FIRMS + GCSS-MC + WiFi/BT + Drone RF) + ABAC persona-switch |
+| 39 | [39-contested-log-conus-to-squad](39-contested-log-conus-to-squad/) | **CONTESTED-LOG** | End-to-end CONUS-to-squad logistics — 8 datasets, 6-tool agentic loop |
+| 40 | [40-predict-maint-sensor-to-shelf](40-predict-maint-sensor-to-shelf/) | **PREDICT-MAINT** | Sensor-to-shelf — closes all 4 LOGCOM PdM use cases in one workflow |
+| 41 | [41-storm-shift-polycrisis-readiness](41-storm-shift-polycrisis-readiness/) | **STORM-SHIFT** | Polycrisis readiness gameboard — 6 parallel projection agents |
+| 42 | [42-drone-dominance-uas-lifecycle](42-drone-dominance-uas-lifecycle/) | **DRONE-DOMINANCE** | Full UAS encounter lifecycle — RF + thermal + visual sensor fusion |
+| 43 | [43-omni-intel-7int-fusion](43-omni-intel-7int-fusion/) | **OMNI-INTEL** | All-source intel fusion — 7 INT sources to a single ASIB |
+| 44 | [44-marine-medic-casualty-medlog](44-marine-medic-casualty-medlog/) | **MARINE-MEDIC** | Casualty + medical logistics — Role 1→3 cascade + Class VIII demand |
+| 45 | [45-guardrail-trusted-workspace](45-guardrail-trusted-workspace/) | **GUARDRAIL** | Trusted Marine workspace — CUI + ABAC + Browser AI Gov + audit chain |
+| 46 | [46-travelog-travel-cargo](46-travelog-travel-cargo/) | **TRAVELOG** | Combined travel + cargo planner — DTS voucher + cargo TMR in one |
+| 47 | [47-schoolhouse-pme-ecosystem](47-schoolhouse-pme-ecosystem/) | **SCHOOLHOUSE** | Full PME ecosystem — 4 drill types + 3 personas + cohort dashboard |
+
+## Wave 5 — meta-orchestrator (1)
+
+| # | Folder | Codename | Description |
+|---|---|---|---|
+| 48 | [48-omni-agent-meta-orchestrator](48-omni-agent-meta-orchestrator/) | **OMNI-AGENT** | Real OpenAI tool-calling agent that orchestrates all 52 sibling apps as tools — multi-modal input, streaming UI, Kamiwaza-feature-aware routing, hash-chained cross-app audit |
+
+## Wave 6 — Kamiwaza-specific feature showcases (5)
+
+These demonstrate features no commercial-cloud LLM provider can replicate.
+
+| # | Folder | Codename | Kamiwaza Feature |
+|---|---|---|---|
+| 49 | [49-mesh-infer-distributed-inference](49-mesh-infer-distributed-inference/) | **MESH-INFER** | Distributed Inference Mesh — 4-node simulated routing (edge / rear / SCIF) per task complexity + sensitivity |
+| 50 | [50-fed-rag-federated-rag](50-fed-rag-federated-rag/) | **FED-RAG** | Federated RAG via Distributed Data Engine — 3 separate per-silo embedding indexes; raw data never crosses the wire |
+| 51 | [51-chain-of-command-rebac-orbat](51-chain-of-command-rebac-orbat/) | **CHAIN-OF-COMMAND** | ReBAC (Zanzibar/OpenFGA-style) — Marine ORBAT as a relationship graph with path-walking authorization |
+| 52 | [52-cat-router-model-catalog](52-cat-router-model-catalog/) | **CAT-ROUTER** | Kamiwaza Model Catalog routing — 8-model live catalog with per-task selection + Fast-Cheap toggle |
+| 53 | [53-dde-rag-compute-at-data](53-dde-rag-compute-at-data/) | **DDE-RAG** | Distributed Data Engine compute-at-data — pushes the LLM to the data, not the other way around |
 
 Each folder has its own README with launch instructions, hero AI move, and real-data swap recipe. The full per-app rubric scorecard with rankings is in [JUDGING_V2.md](JUDGING_V2.md).
 

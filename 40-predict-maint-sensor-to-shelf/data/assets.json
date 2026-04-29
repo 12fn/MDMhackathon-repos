@@ -1,0 +1,72 @@
+[
+  {
+    "asset_id": "MTVR-2491",
+    "type": "M1083 MTVR (Medium Tactical Vehicle Replacement)",
+    "unit": "1st MLG, CLB-1",
+    "hub_position": "Right rear (axle 3)",
+    "operating_hours": 4127,
+    "since_last_overhaul_hr": 612,
+    "current_class": "outer_race",
+    "current_severity": 0.78,
+    "nsn": "3110-01-561-1929",
+    "part_name": "Bearing, Tapered Roller, Wheel Hub (MTVR drive axle)",
+    "depot": "ALB",
+    "rebuild_not_buy": true
+  },
+  {
+    "asset_id": "JLTV-1107",
+    "type": "JLTV M1278A1 Heavy Gun Carrier",
+    "unit": "2d MarDiv, 2/2",
+    "hub_position": "Front left",
+    "operating_hours": 1842,
+    "since_last_overhaul_hr": 421,
+    "current_class": "healthy",
+    "current_severity": 0.04,
+    "nsn": "3110-01-660-2271",
+    "part_name": "Bearing, Wheel Hub Front (JLTV)",
+    "depot": "BAR",
+    "rebuild_not_buy": false
+  },
+  {
+    "asset_id": "LAV-25-0892",
+    "type": "LAV-25A2",
+    "unit": "1st LAR Bn",
+    "hub_position": "Mid right (axle 2)",
+    "operating_hours": 6810,
+    "since_last_overhaul_hr": 980,
+    "current_class": "inner_race",
+    "current_severity": 0.52,
+    "nsn": "3110-01-204-5587",
+    "part_name": "Bearing, Wheel Hub (LAV-25 Drive Train)",
+    "depot": "BAR",
+    "rebuild_not_buy": true
+  },
+  {
+    "asset_id": "AAV-7A1-3318",
+    "type": "AAV-7A1 RAM/RS",
+    "unit": "3d AABn",
+    "hub_position": "Final drive, port side",
+    "operating_hours": 3204,
+    "since_last_overhaul_hr": 540,
+    "current_class": "ball",
+    "current_severity": 0.61,
+    "nsn": "3110-01-413-2691",
+    "part_name": "Bearing, Final Drive Pinion (AAV-7A1)",
+    "depot": "BAR",
+    "rebuild_not_buy": true
+  },
+  {
+    "asset_id": "MV-22B-167902",
+    "type": "MV-22B Osprey",
+    "unit": "VMM-263",
+    "hub_position": "Prop rotor hub, starboard",
+    "operating_hours": 2210,
+    "since_last_overhaul_hr": 310,
+    "current_class": "outer_race",
+    "current_severity": 0.41,
+    "nsn": "3110-01-617-8013",
+    "part_name": "Bearing, Prop Rotor Hub (MV-22)",
+    "depot": "BIC",
+    "rebuild_not_buy": true
+  }
+]

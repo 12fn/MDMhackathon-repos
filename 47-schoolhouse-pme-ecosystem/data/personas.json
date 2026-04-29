@@ -1,0 +1,138 @@
+[
+  {
+    "persona_id": "PER_JR_MARINE",
+    "label": "Junior Marine (LCpl, 21yo, infantry rifleman)",
+    "trust_baseline": 0,
+    "lens": "Reads command messaging through 'is this real, or is this PowerPoint?' Will share or trash a message in the company group chat within 90 seconds.",
+    "values": [
+      "plain English",
+      "respect for the rifleman",
+      "no spin"
+    ],
+    "concerns": [
+      "jargon",
+      "passive voice",
+      "messages clearly written by an officer"
+    ],
+    "trigger_phrases_negative": [
+      "robust",
+      "leverage",
+      "synergy",
+      "kinetic outcome",
+      "as we move forward"
+    ],
+    "trigger_phrases_positive": [
+      "here is what we're doing",
+      "we owned it",
+      "your name is on the list",
+      "first formation"
+    ]
+  },
+  {
+    "persona_id": "PER_NCO",
+    "label": "NCO (Sgt, squad leader, 7 yr in)",
+    "trust_baseline": 1,
+    "lens": "Reads for what the message asks them to DO and whether the timeline is realistic with current manning.",
+    "values": [
+      "clarity of task",
+      "realistic timelines",
+      "accountability up the chain"
+    ],
+    "concerns": [
+      "unfunded taskers",
+      "vague verbs",
+      "leadership shielding leadership"
+    ],
+    "trigger_phrases_negative": [
+      "best effort",
+      "as time permits",
+      "subject to mission",
+      "leadership is aware"
+    ],
+    "trigger_phrases_positive": [
+      "NCOIC named",
+      "deadline + POC",
+      "by-name responsibility",
+      "manning impact stated"
+    ]
+  },
+  {
+    "persona_id": "PER_OFFICER",
+    "label": "Officer (Capt, company commander)",
+    "trust_baseline": 1,
+    "lens": "Reads for second- and third-order effects; what risk has the higher headquarters accepted on his behalf.",
+    "values": [
+      "commander's intent clarity",
+      "risk acceptance stated",
+      "chain of command alignment"
+    ],
+    "concerns": [
+      "surprises in his AO",
+      "implied unfunded mandates",
+      "PA pre-empting his command voice"
+    ],
+    "trigger_phrases_negative": [
+      "effective immediately",
+      "all hands",
+      "no impact to the mission"
+    ],
+    "trigger_phrases_positive": [
+      "coordinated with company",
+      "company commanders briefed",
+      "risk to mission is X"
+    ]
+  },
+  {
+    "persona_id": "PER_SPOUSE",
+    "label": "Civilian spouse (FRG admin, deployed-Marine spouse)",
+    "trust_baseline": 0,
+    "lens": "Filters every release through 'does this make my Marine safer or less safe today.' Will share inside the FRG within 5 minutes.",
+    "values": [
+      "are my Marines safe",
+      "predictability",
+      "honest reporting"
+    ],
+    "concerns": [
+      "learning of incidents from social media first",
+      "vague timelines",
+      "policy changes mid-deployment"
+    ],
+    "trigger_phrases_negative": [
+      "operational details cannot be shared",
+      "no impact on the mission",
+      "we are aware of the reports"
+    ],
+    "trigger_phrases_positive": [
+      "families have been notified",
+      "command will hold a town hall",
+      "here is the unit POC"
+    ]
+  },
+  {
+    "persona_id": "PER_RETIRED_VET",
+    "label": "Retired vet (GySgt ret., veteran-community newsletter, 200k subs)",
+    "trust_baseline": -1,
+    "lens": "Will quote your release in full and roast specific phrases. Drives a substantial slice of the lance-corporal underground.",
+    "values": [
+      "plain English",
+      "no spin",
+      "respect for the rifleman"
+    ],
+    "concerns": [
+      "jargon",
+      "officers shielding officers",
+      "PR voice"
+    ],
+    "trigger_phrases_negative": [
+      "robust",
+      "leverage",
+      "synergy",
+      "regret any inconvenience"
+    ],
+    "trigger_phrases_positive": [
+      "we made this mistake",
+      "here is what we changed",
+      "named individual"
+    ]
+  }
+]

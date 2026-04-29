@@ -1,0 +1,65 @@
+[
+  {
+    "id": "MEMBER_OF",
+    "label": "Member of",
+    "description": "Permanent organic membership (Marine in fire-team, fire-team in squad, squad in platoon, etc.).",
+    "auth_weight": 1.0,
+    "color": "#00FFA7"
+  },
+  {
+    "id": "OPCON_TO",
+    "label": "OPCON to",
+    "description": "Operational Control. Per JP 3-0: authority to organize forces, assign tasks, designate objectives.",
+    "auth_weight": 1.0,
+    "color": "#00BB7A"
+  },
+  {
+    "id": "TACON_TO",
+    "label": "TACON to",
+    "description": "Tactical Control. Local direction & control of movements/maneuvers necessary to accomplish missions.",
+    "auth_weight": 0.8,
+    "color": "#0DCC8A"
+  },
+  {
+    "id": "ATTACHED_TO",
+    "label": "Attached to",
+    "description": "Temporary placement of units/personnel for admin/log support; gaining cdr exercises OPCON.",
+    "auth_weight": 0.9,
+    "color": "#3FA9FF"
+  },
+  {
+    "id": "DETACHED_TO",
+    "label": "Detached to",
+    "description": "Unit physically detached from parent for a mission window; gaining cdr exercises TACON+.",
+    "auth_weight": 0.85,
+    "color": "#A974FF"
+  },
+  {
+    "id": "HAS_CLEARANCE",
+    "label": "Has clearance",
+    "description": "Per DoDM 5200.02 \u2014 Marine holds an active clearance up to the named level.",
+    "auth_weight": 1.0,
+    "color": "#FFB347"
+  },
+  {
+    "id": "REL_TO",
+    "label": "Releasable to",
+    "description": "Document caveat \u2014 releasable to the named coalition / partner-nation set.",
+    "auth_weight": 1.0,
+    "color": "#FF6B6B"
+  },
+  {
+    "id": "HAS_NEED_TO_KNOW",
+    "label": "Need-to-know",
+    "description": "Originator-defined need-to-know binding (unit owns the topic; downstream units inherit via OPCON).",
+    "auth_weight": 1.0,
+    "color": "#FFD700"
+  },
+  {
+    "id": "CLASSIFIED_BY",
+    "label": "Classified by",
+    "description": "Originator (OCA) \u2014 the organization that owns the classification decision for the document.",
+    "auth_weight": 1.0,
+    "color": "#E8E8E8"
+  }
+]

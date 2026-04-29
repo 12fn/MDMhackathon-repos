@@ -1,0 +1,47 @@
+[
+  {
+    "id": "albany",
+    "label": "MCLB Albany \u2014 GCSS-MC",
+    "installation": "Marine Corps Logistics Base Albany, GA",
+    "system": "Global Combat Support System \u2014 Marine Corps",
+    "data_kind": "work_orders",
+    "data_size_gb": 50.0,
+    "bandwidth_mbps": 50,
+    "operating_env": "garrison-backhaul",
+    "security_posture": "UNCLASSIFIED",
+    "compliance_authority": "DoD IL4 / NIST 800-53",
+    "compute_posture": "DDE inference container ready (vLLM, llama.cpp)",
+    "node_endpoint": "albany.gcssmc.usmc.mil:8443",
+    "color": "#00BB7A"
+  },
+  {
+    "id": "lejeune",
+    "label": "MCB Lejeune \u2014 ICM",
+    "installation": "Marine Corps Base Camp Lejeune, NC",
+    "system": "Inventory Control Management workbook (deployable cell)",
+    "data_kind": "lateral_transfer_parts",
+    "data_size_gb": 8.0,
+    "bandwidth_mbps": 25,
+    "operating_env": "DDIL/EMCON window",
+    "security_posture": "UNCLASSIFIED // FOUO",
+    "compliance_authority": "DoD IL5 / NIST 800-171",
+    "compute_posture": "DDE inference container ready (DDIL-degraded mode)",
+    "node_endpoint": "lejeune.icm.usmc.mil:8443",
+    "color": "#0DCC8A"
+  },
+  {
+    "id": "quantico",
+    "label": "MCB Quantico \u2014 TM Library",
+    "installation": "Marine Corps Base Quantico, VA",
+    "system": "Technical Manual library (NSN-tagged maintenance corpus)",
+    "data_kind": "tech_manuals",
+    "data_size_gb": 12.0,
+    "bandwidth_mbps": 100,
+    "operating_env": "secure-enclave",
+    "security_posture": "CUI / FOUO \u2014 ICD 503 enclave",
+    "compliance_authority": "ICD 503 / DoD IL5 / DCSA spillage controls",
+    "compute_posture": "DDE inference container ready (compute-only egress)",
+    "node_endpoint": "quantico.tm.usmc.mil:8443",
+    "color": "#00FFA7"
+  }
+]

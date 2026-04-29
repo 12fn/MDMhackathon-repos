@@ -1,0 +1,31 @@
+1
+00:00:03,042 --> 00:00:08,042
+DDE-RAG. Don't move the data. Move the compute.
+
+2
+00:00:08,044 --> 00:00:17,044
+LOGCOM federated question across Albany, Lejeune, Quantico — 70 GB of source data.
+
+3
+00:00:17,052 --> 00:00:27,052
+Three Kamiwaza-deployed inference containers, one per data node. ICD 503 per-enclave accreditation preserved.
+
+4
+00:00:27,059 --> 00:00:43,059
+Top: naive central RAG pulls 50 GB over the wire. Bottom: DDE pushes 10 MB of compute IN, only answers come back.
+
+5
+00:00:43,099 --> 00:00:58,099
+Two thousand times less data over the wire. Seconds, not hours. DCSA spillage class GREEN.
+
+6
+00:00:58,103 --> 00:01:15,103
+Federated answer composed by the Kamiwaza Model Gateway. Serial-number M1A1s, work-order context, TM thresholds.
+
+7
+00:01:15,108 --> 00:01:25,108
+Set KAMIWAZA_DDE_NODES and the same code routes against your Inference Mesh. Hash-chained audit per dispatch.
+
+8
+00:01:25,113 --> 00:01:33,113
+Built on the Kamiwaza Stack. Compute-at-data, deployed in hours, not months.

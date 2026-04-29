@@ -1,0 +1,111 @@
+{
+  "_comment": "OMNI-AGENT v2 demo query catalog. Each query exercises a distinct cross-app combination + showcases a Kamiwaza feature where applicable. The agent decomposes the query, fans out to the listed expected_tools, and synthesizes the fused brief.",
+  "queries": [
+    {
+      "id": "blood_typhoon_medlog",
+      "label": "Cross-domain MEDLOG (sensitive routing)",
+      "narrator": "Blood readiness x typhoon risk x sustainment node impact x sensitive routing.",
+      "prompt": "What's our blood readiness in INDOPACOM right now, and are any spokes affected by typhoons in the next 72h? Treat as CUI: route through the Inference Mesh. If yes, draft a Commander's MEDLOG OPORD recommending action.",
+      "sensitivity": "CUI",
+      "expected_tools": ["query_mesh_infer", "query_vitals", "query_weathervane", "query_meridian"],
+      "kamiwaza_feature": "inference_mesh",
+      "demo_default": true
+    },
+    {
+      "id": "cuas_pendleton_7d",
+      "label": "Counter-UAS posture (Pendleton 7-day)",
+      "narrator": "C-UAS classification fused with installation ICOP + weather window.",
+      "prompt": "Forecast counter-UAS posture for MCB Camp Pendleton next 7 days. Tell me what to brief the base CO.",
+      "sensitivity": "UNCLAS",
+      "expected_tools": ["query_cuas_detect", "query_omni", "query_weathervane"]
+    },
+    {
+      "id": "meu_eabo_itbayat_30d",
+      "label": "31st MEU EABO sustainment (Itbayat 30d)",
+      "narrator": "Full EABO sustainment plan: contested-log + consumption + reorder + medical.",
+      "prompt": "Plan the full sustainment for 31st MEU EABO at Itbayat for the next 30 days. Cover Class I-IX, Class VIII medical, and call out reorder triggers.",
+      "sensitivity": "UNCLAS",
+      "expected_tools": ["query_contested_log", "query_trace", "query_reorder", "query_vitals"]
+    },
+    {
+      "id": "daily_asib",
+      "label": "Daily ASIB (All-Source Intel Brief)",
+      "narrator": "All-source intel fusion across HUMINT/SIGINT/IMINT/OSINT clusters.",
+      "prompt": "Generate today's All-Source Intel Brief for INDOPACOM AOR. Pull from AIS, MARSEC patrols, ISR detections, and FIRMS. Last 24 hours.",
+      "sensitivity": "SECRET",
+      "expected_tools": ["query_mesh_infer", "query_omni_intel", "query_corsair", "query_raptor", "query_ember"],
+      "kamiwaza_feature": "inference_mesh"
+    },
+    {
+      "id": "training_readiness_18m",
+      "label": "1st Bn 8th Marines training readiness",
+      "narrator": "Training readiness across LMS + schoolhouse + cadence assessments.",
+      "prompt": "Assess training readiness of 1st Bn 8th Marines. Where are competency gaps and which Marines need a remedial plan?",
+      "sensitivity": "UNCLAS",
+      "expected_tools": ["query_learn", "query_schoolhouse", "query_cadence"]
+    },
+    {
+      "id": "model_routing_workflow",
+      "label": "Cost-conscious model routing",
+      "narrator": "Pick the right model per task in a multi-step workflow under a cost budget.",
+      "prompt": "I have a MEDLOG OPORD workflow with 4 steps (classify, summarize, narrative, redact). Route every step through the Kamiwaza model catalog under best-quality mode and show me the decisions, costs, and audit chain.",
+      "sensitivity": "UNCLAS",
+      "expected_tools": ["query_cat_router"],
+      "kamiwaza_feature": "model_gateway"
+    },
+    {
+      "id": "tccc_triage_pendleton",
+      "label": "TCCC casualty triage (with photo)",
+      "narrator": "Marine medic triage on a casualty photo + ICOP posture for evacuation.",
+      "prompt": "Run TCCC triage on this casualty photo from MCB Camp Pendleton range. Tell me the 9-line MEDEVAC and confirm med corridor is clear via ICOP.",
+      "sensitivity": "UNCLAS",
+      "expected_tools": ["query_marine_medic", "query_omni", "query_vitals"],
+      "modality": "image"
+    },
+    {
+      "id": "cui_release_review",
+      "label": "CUI document review + ReBAC release",
+      "narrator": "CUI auto-tag + ReBAC walk to decide if LCpl Smith can release the doc.",
+      "prompt": "Can LCpl J. Smith (S-2 enlisted, SECRET clearance, NOFORN/REL TO USA, GBR) release this attached document to a UK liaison? Auto-tag CUI portions and walk the ReBAC graph.",
+      "sensitivity": "SECRET",
+      "expected_tools": ["query_redline", "query_guardrail", "query_chain_of_command"],
+      "kamiwaza_feature": "rebac",
+      "modality": "image"
+    },
+    {
+      "id": "pcs_combined_move",
+      "label": "PCS combined travel + cargo",
+      "narrator": "End-to-end PCS: travel itinerary + voucher pre-validation + HHG tracking.",
+      "prompt": "MGySgt R. Garcia is PCSing from MCB Quantico to MCB Camp Pendleton. Plan the travel itinerary, pre-validate the DTS voucher, and track the HHG container.",
+      "sensitivity": "UNCLAS",
+      "expected_tools": ["query_travelog", "query_vanguard"]
+    },
+    {
+      "id": "compute_at_data",
+      "label": "Compute-at-data (50 GB GCSS-MC scan)",
+      "narrator": "Big-data RAG: scan 50 GB of GCSS-MC for M1A1 transmission risk WITHOUT moving data.",
+      "prompt": "Scan 50 GB of GCSS-MC maintenance reports across Albany, Pendleton, and Tobyhanna nodes for M1A1 transmission risk indicators in the last 90 days. Use compute-at-data — do not pull the corpus back to HQ.",
+      "sensitivity": "CUI",
+      "expected_tools": ["query_dde_rag", "query_predict_maint"],
+      "kamiwaza_feature": "dde"
+    },
+    {
+      "id": "fed_rag_silo_query",
+      "label": "Federated RAG across silos",
+      "narrator": "Federated RAG over Albany/Pendleton/Philly silos, sensitivity-routed.",
+      "prompt": "Pull the consolidated picture on alternator MTVR (NSN 2920-01-XXX-1234) shortfalls across Albany, Pendleton, Philly, and Tobyhanna silos. Treat as CUI — route through the Inference Mesh.",
+      "sensitivity": "CUI",
+      "expected_tools": ["query_mesh_infer", "query_fed_rag", "query_reorder"],
+      "kamiwaza_feature": "federated_rag"
+    },
+    {
+      "id": "pallet_count_apra",
+      "label": "Pallet count from aerial photo",
+      "narrator": "Vision-quantification of pallets staged at Apra Harbor, fed into reorder.",
+      "prompt": "Count the pallets visible in this aerial photo of Apra Harbor staging yard. Tell me if it matches our expected 30-day MEU pull from REORDER.",
+      "sensitivity": "UNCLAS",
+      "expected_tools": ["query_pallet_vision", "query_reorder", "query_trace"],
+      "modality": "image"
+    }
+  ]
+}

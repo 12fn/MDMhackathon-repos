@@ -1,0 +1,12 @@
+{
+  "id": "albany",
+  "display": "MCLB Albany \u2014 GCSS-MC Depot",
+  "owner": "DLA / MCLB Albany Maintenance Center",
+  "classification": "CUI // Distribution D",
+  "authority": "DLA Manual 4140.27",
+  "physical_loc": "Albany, GA",
+  "raw_data_size_gb": 50.0,
+  "data_class": "GCSS-MC depot inventory + parts availability",
+  "url_env": "KAMIWAZA_SILO_ALBANY_URL",
+  "chunk_count": 30
+}

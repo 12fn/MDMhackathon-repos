@@ -1,0 +1,146 @@
+[
+  {
+    "id": "scn_01",
+    "title": "Doorway Entry \u2014 Urban Structure",
+    "scene_kind": "doorway",
+    "pov": "You are stacked second-man on a closed wooden door of a two-story residence. Friendly call-out: 'breach in 3'. No flash-bang loaded.",
+    "doctrine_reference": "MCWP 3-35.3 'Military Operations on Urbanized Terrain' para 5-12 (room clearing \u2014 point of domination, button-hook)",
+    "tr_event": "INF-OPS-2001",
+    "correct_actions": [
+      "Maintain stack discipline; cover the deep corner on entry.",
+      "Button-hook to your point of domination; do not cross the threshold of fire.",
+      "Call out the room status: 'CLEAR' or 'CONTACT direction'."
+    ],
+    "common_failures": [
+      "Crossing into the fatal funnel without buttonhooking.",
+      "Losing muzzle awareness on the lead man.",
+      "Hesitating in the doorway (silhouette)."
+    ]
+  },
+  {
+    "id": "scn_02",
+    "title": "Vehicle Checkpoint \u2014 Approaching Sedan",
+    "scene_kind": "checkpoint",
+    "pov": "You are senior Marine on a hasty TCP at dusk. A grey four-door sedan is rolling toward you at ~15 mph, single male driver visible, no passengers seen. Concertina is set 30m out.",
+    "doctrine_reference": "MCRP 3-33.1A 'Civil Affairs Tactics, Techniques, and Procedures' Appendix B (escalation of force \u2014 shout, show, shove, shoot)",
+    "tr_event": "INF-OPS-2003",
+    "correct_actions": [
+      "Begin Escalation of Force: SHOUT \u2014 verbal + arm signal STOP at warning line.",
+      "If non-compliant, SHOW \u2014 visible weapon presentation, laser/light to windshield.",
+      "Continue EOF only as long as threat indicators remain ambiguous; do not skip steps."
+    ],
+    "common_failures": [
+      "Skipping straight to disabling fire on a non-hostile vehicle.",
+      "Standing in the kill-funnel of the lane instead of off-axis.",
+      "Failing to call up the contact to higher."
+    ]
+  },
+  {
+    "id": "scn_03",
+    "title": "Casualty Triage \u2014 Downed Marine",
+    "scene_kind": "casualty",
+    "pov": "You are first to your fallen squadmate after a single-shot contact. He is supine, conscious, gripping his right thigh; bright red blood is pulsing through his trousers.",
+    "doctrine_reference": "TCCC Guidelines (Tactical Combat Casualty Care) \u2014 Care Under Fire phase: stop the life-threatening hemorrhage with a tourniquet, then move to cover.",
+    "tr_event": "INF-CAS-1001",
+    "correct_actions": [
+      "Apply a CAT tourniquet HIGH AND TIGHT on the right thigh, mark TQ time.",
+      "Drag casualty to nearest cover before transitioning to TFC phase.",
+      "Call up 9-line MEDEVAC with grid + patient precedence."
+    ],
+    "common_failures": [
+      "Starting wound packing under direct fire instead of TQ.",
+      "Removing gear / cutting clothes before stopping the bleed.",
+      "Forgetting to mark the TQ time on the casualty's forehead."
+    ]
+  },
+  {
+    "id": "scn_04",
+    "title": "Vehicle PMCS \u2014 JLTV Bay",
+    "scene_kind": "vehicle_interior",
+    "pov": "You are the assigned operator standing at the driver's side of a JLTV in the motor pool. Engine off. Your task: pre-op PMCS before convoy SP in 30 minutes.",
+    "doctrine_reference": "TM 9-2320-450-10 'Operator Manual JLTV' \u2014 Before-Operation PMCS table 2-1 (fluids, tires, lights, comms, secure load)",
+    "tr_event": "LOG-MAINT-1001",
+    "correct_actions": [
+      "Walk-around: tires inflation + sidewall, fluid leaks under chassis, lights, mirrors.",
+      "Cab: secure all loose gear, check seat belts, verify radio/intercom and BFT functional.",
+      "Document deficiencies on DA Form 5988-E before turning over to convoy commander."
+    ],
+    "common_failures": [
+      "Skipping the underbody walk-around.",
+      "Loose gear in the cab (becomes a projectile in a rollover).",
+      "Not signing the 5988-E (no paper trail = the deficiency 'didn't exist')."
+    ]
+  },
+  {
+    "id": "scn_05",
+    "title": "Hallway Cross \u2014 Two-Way Hostile Building",
+    "scene_kind": "hallway",
+    "pov": "You are halfway down a narrow second-floor hallway. An open door is on your left at 4m, another open door on your right at 7m. You hear an English-language shout from the right room: 'STAY BACK!'",
+    "doctrine_reference": "MCWP 3-35.3 para 5-21 (limited-penetration room clearing; pie the door before entry)",
+    "tr_event": "INF-OPS-2002",
+    "correct_actions": [
+      "Pie the right-side door from maximum standoff \u2014 do not cross the doorway.",
+      "Call out positively to identify yourself: 'US MARINES \u2014 IDENTIFY YOURSELF'.",
+      "Hold the cross-fire angle until the second team-member can mirror the left-side door."
+    ],
+    "common_failures": [
+      "Charging the door without pieing.",
+      "Sweeping muzzle through the open left door while focused right.",
+      "Not calling out positive ID \u2014 friendly fire risk."
+    ]
+  },
+  {
+    "id": "scn_06",
+    "title": "Comms Shop \u2014 FPCON Charlie Alert",
+    "scene_kind": "comms_shop",
+    "pov": "You are the duty NCO in the battalion COC. The IDS console just chirped FPCON CHARLIE. Two radios are mid-traffic. The battalion XO is across the deck, headphones on, back turned.",
+    "doctrine_reference": "MCO 3302.1F (Marine Corps Antiterrorism Program) \u2014 FPCON change procedures: notify, lock, brief, log.",
+    "tr_event": "LOG-MGMT-2002",
+    "correct_actions": [
+      "Acknowledge the alert on the console, log the DTG, then physically notify the XO.",
+      "Drop the comms net to FPCON-CHARLIE check-ins; lock the entry door per SOP.",
+      "Send a flash report up to higher with grid + posture in <5 minutes."
+    ],
+    "common_failures": [
+      "Yelling across the deck instead of physically notifying the XO.",
+      "Continuing routine traffic without changing the net posture.",
+      "Forgetting to log the DTG (no paper trail for the IG / SJA review)."
+    ]
+  },
+  {
+    "id": "scn_07",
+    "title": "Night Perimeter \u2014 Rustle In The Wire",
+    "scene_kind": "perimeter_night",
+    "pov": "You are 03:14 on Position 3 of a hasty patrol base. NVGs on, weapon up. You hear a rustle and a low metallic clink ~25m to your front, beyond the wire. No friendly LP/OP is forward.",
+    "doctrine_reference": "MCWP 3-11.2 'Marine Rifle Squad' Chapter 4 (defensive operations \u2014 challenge & password, no movement forward of the wire without coordination)",
+    "tr_event": "INF-PAT-2002",
+    "correct_actions": [
+      "Pass the contact across the position net in a low whisper \u2014 do not break light/noise discipline.",
+      "Issue the challenge per SOP from your hardened position; do not advance forward of the wire.",
+      "Cue the 240 to your sector; mark the suspected location with an aim point, not a flare."
+    ],
+    "common_failures": [
+      "Walking forward of the wire to investigate \u2014 you become the casualty.",
+      "Throwing illum that silhouettes the position to the rest of the perimeter.",
+      "Engaging without challenging \u2014 friendly LP/OP could be off-route."
+    ]
+  },
+  {
+    "id": "scn_08",
+    "title": "IED Indicators \u2014 Disturbed Roadway",
+    "scene_kind": "ied",
+    "pov": "You are lead vehicle commander on a route reconnaissance. 80m to your front you observe a fresh asphalt patch, a wire trace running to a discarded battery in the ditch, and a civilian standing back from the road taking a phone video.",
+    "doctrine_reference": "MCWP 3-17.2 'Counter-IED Operations' \u2014 5C: Confirm, Clear, Cordon, Check, Control. Indicators are observed; HALT outside the suspected lethal radius.",
+    "tr_event": "INF-OPS-2004",
+    "correct_actions": [
+      "STOP the convoy outside 100m blast radius; do not back up over your own track.",
+      "Cordon and call EOD; push the cordon out to 300m for VBIED standoff.",
+      "Detain (or at minimum freeze + film) the civilian observer for HUMINT."
+    ],
+    "common_failures": [
+      "Driving past the indicator to 'check it out'.",
+      "Backing up over the same track (potential daisy-chain).",
+      "Ignoring the bystander (likely trigger-man or BDA cell)."
+    ]
+  }
+]

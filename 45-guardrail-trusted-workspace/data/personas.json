@@ -1,0 +1,77 @@
+[
+  {
+    "id": "pvt_joe",
+    "name": "Pvt Joe Mason",
+    "rank": "Pvt",
+    "billet": "Rifleman, 2/1",
+    "duty_org": "2nd Bn 1st Marines, I MEF",
+    "icon": "PVT",
+    "color": "#7E7E7E",
+    "clearance": "SECRET",
+    "abac": {
+      "max_class": "SECRET",
+      "unit_scope": ["2/1", "I-MEF"],
+      "roles": ["rifleman"],
+      "need_to_know": ["operations.unit"],
+      "is_contractor": false,
+      "foreign_national": false
+    }
+  },
+  {
+    "id": "sgt_jane",
+    "name": "Sgt Jane Reyes",
+    "rank": "Sgt",
+    "billet": "Intel SNCO, 2/1 S-2",
+    "duty_org": "2nd Bn 1st Marines S-2 Shop",
+    "icon": "SGT",
+    "color": "#0DCC8A",
+    "clearance": "SECRET-NF",
+    "abac": {
+      "max_class": "SECRET",
+      "unit_scope": ["2/1", "I-MEF", "1st-MARDIV"],
+      "roles": ["intel_analyst", "noforn_holder"],
+      "need_to_know": ["operations.unit", "intel.unit", "force_protection"],
+      "is_contractor": false,
+      "foreign_national": false,
+      "caveats_held": ["NOFORN"]
+    }
+  },
+  {
+    "id": "capt_doe",
+    "name": "Capt Avery Doe",
+    "rank": "Capt",
+    "billet": "S-3 / OCA-Equivalent Reviewer",
+    "duty_org": "2nd Bn 1st Marines / III MEF G-3",
+    "icon": "CPT",
+    "color": "#00FFA7",
+    "clearance": "TS-SCI",
+    "abac": {
+      "max_class": "TS-SCI",
+      "unit_scope": ["2/1", "I-MEF", "III-MEF", "1st-MARDIV"],
+      "roles": ["s3_approver", "oca_equivalent", "noforn_holder", "procurement"],
+      "need_to_know": ["operations.unit", "intel.unit", "force_protection", "procurement", "training.unit"],
+      "is_contractor": false,
+      "foreign_national": false,
+      "caveats_held": ["NOFORN", "REL TO USA, FVEY"]
+    }
+  },
+  {
+    "id": "civ_quinn",
+    "name": "Quinn Park (Contractor)",
+    "rank": "GS-9 Equivalent",
+    "billet": "Curriculum SETA — Acme Learning",
+    "duty_org": "TECOM SETA — Vendor: Acme Learning Inc.",
+    "icon": "CIV",
+    "color": "#E0B341",
+    "clearance": "SECRET-need-to-know",
+    "abac": {
+      "max_class": "CUI",
+      "unit_scope": ["TECOM-VENDOR"],
+      "roles": ["curriculum_author"],
+      "need_to_know": ["training.unclass"],
+      "is_contractor": true,
+      "foreign_national": false,
+      "caveats_held": []
+    }
+  }
+]

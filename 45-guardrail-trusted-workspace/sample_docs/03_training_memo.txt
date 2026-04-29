@@ -1,0 +1,13 @@
+SUBJECT: MarineNet Course Update — Annual Information Security Refresher (FY26)
+
+1. PURPOSE. This memo announces the FY26 update to the Annual Information Security Refresher hosted on MarineNet LMS. Course code IS-201 supersedes IS-101; all uniformed Marines must complete the refresher before 30 SEP 26. Public release approved by HQMC PA on 12 APR 26.
+
+2. NEW CONTENT. The refresher now includes a 14-minute module on browser-resident AI assistants — Perplexity Comet, manus.im, and similar autonomous-browser agents — and the personal accountability owed by every Marine who uses one. The module is unrestricted distribution and may be hosted on the public MarineNet portal.
+
+3. ENROLLMENT. Personnel enroll through MarineNet using their CAC. There is no PII in the course content. Transcripts are stored in DEERS-linked records and remain Privacy-Act-protected; only the individual Marine and their chain of command may pull a transcript.
+
+4. CONTRACTOR ACCESS. Curriculum SETA contractors with an active TECOM vendor agreement may access the authoring environment to update unrestricted slides. Contractors may not access transcript data, NOFORN content, or any battalion-scoped roster — those views remain federal-employees-only.
+
+5. CONTACTS. Course owner: TECOM Cyber Awareness Cell. Help desk: marinenet-help@usmc.mil. There is no proprietary vendor pricing in this memo and no source-selection content; the FY26 refresh was completed under an existing IDIQ and contains no procurement-sensitive material.
+
+6. RELEASABILITY. The author requests UNCLASSIFIED, public release, with a note that MarineNet portal access remains CAC-gated.

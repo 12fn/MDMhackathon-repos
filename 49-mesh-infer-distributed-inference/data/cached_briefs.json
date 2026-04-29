@@ -1,0 +1,450 @@
+{
+  "scenarios": {
+    "threat_vessel_sipr": {
+      "scenario": {
+        "id": "threat_vessel_sipr",
+        "title": "Threat-vessel ID \u2192 SIPR cable \u2192 HUMINT tip",
+        "operator_prompt": "Identify the threat vessel in this thermal IR feed, classify intent, draft a SIPR cable to MARFORPAC G-2, and recommend a HUMINT tipping to the on-station HET.",
+        "context_blurb": "MEU SOC, vicinity South China Sea. Thermal IR feed off the LHD-7 hangar bay.",
+        "steps": [
+          {
+            "task": "vision-thermal-ir",
+            "sensitivity": "UNCLASS",
+            "input_summary": "12-frame thermal IR clip, fishing-trawler silhouette, low signature."
+          },
+          {
+            "task": "classify-intent-json",
+            "sensitivity": "CUI",
+            "input_summary": "Vessel + AIS-gap + heading toward restricted lane \u2192 intent inference."
+          },
+          {
+            "task": "draft-cable-sipr",
+            "sensitivity": "SECRET",
+            "input_summary": "SIPR cable: subject vessel, intent, recommended COA."
+          },
+          {
+            "task": "humint-recommend",
+            "sensitivity": "TS-SCI",
+            "input_summary": "Cross-ref to TS-SCI HUMINT graph \u2192 tip-and-cue recommendation."
+          }
+        ]
+      },
+      "trace": [
+        {
+          "idx": 0,
+          "task": "vision-thermal-ir",
+          "task_label": "Vision \u2014 thermal IR / EO classification",
+          "sensitivity": "UNCLASS",
+          "input_summary": "12-frame thermal IR clip, fishing-trawler silhouette, low signature.",
+          "route": {
+            "node_id": "edge-meusoc",
+            "label": "Edge \u2014 MEU SOC",
+            "model": "Qwen2.5-VL-7B",
+            "rationale": "Step needs vision \u2192 routed to a VL model. Sensitivity = UNCLASS \u2192 IL2 (UNCLASS) OK.",
+            "latency_s": 0.8,
+            "egress_kb": 12,
+            "security_posture": "IL2 (UNCLASS)",
+            "network_class": "NIPR / DDIL-tolerant"
+          },
+          "output": "VESSEL DETECTED \u2014 small craft, ~22 m LOA, low thermal signature, two crew, no nav lights. Hull profile consistent with modified fishing trawler (PRC-flagged class observed in prior weeks). Confidence 0.81."
+        },
+        {
+          "idx": 1,
+          "task": "classify-intent-json",
+          "task_label": "Classify intent \u2192 structured JSON",
+          "sensitivity": "CUI",
+          "input_summary": "Vessel + AIS-gap + heading toward restricted lane \u2192 intent inference.",
+          "route": {
+            "node_id": "rear-quantico",
+            "label": "Rear Depot \u2014 MCB Quantico",
+            "model": "Llama 3.3 70B FP8",
+            "rationale": "Step needs structured JSON over CUI \u2192 routed to Rear Depot \u2014 MCB Quantico (Llama 3.3 70B FP8).",
+            "latency_s": 9.2,
+            "egress_kb": 240,
+            "security_posture": "IL5 (CUI)",
+            "network_class": "NIPR + SIPR (gateway)"
+          },
+          "output": "{\n  \"event_type\": \"suspected-ISR-or-smuggling\",\n  \"urgency\": \"moderate\",\n  \"indicators\": [\n    \"AIS-gap\",\n    \"heading-restricted-lane\",\n    \"low-thermal\"\n  ],\n  \"recommended_actor\": \"MEU-SOC-watch\",\n  \"confidence\": 0.74\n}"
+        },
+        {
+          "idx": 2,
+          "task": "draft-cable-sipr",
+          "task_label": "Draft SIPR cable (SECRET)",
+          "sensitivity": "SECRET",
+          "input_summary": "SIPR cable: subject vessel, intent, recommended COA.",
+          "route": {
+            "node_id": "scif-marforpac-mixtral",
+            "label": "SCIF \u2014 MARFORPAC HQ (Mixtral)",
+            "model": "Mixtral 8x22B",
+            "rationale": "SECRET drafting \u2192 must stay in SCIF. Routed to SCIF \u2014 MARFORPAC HQ (Mixtral) (Mixtral 8x22B). Bandwidth out = 0.",
+            "latency_s": 18.4,
+            "egress_kb": 0,
+            "security_posture": "IL6 (SECRET / TS)",
+            "network_class": "JWICS (no internet egress)"
+          },
+          "output": "SUBJ: SUSPECTED VESSEL OF INTEREST \u2014 VICINITY [REDACTED]\n1. (S) At 271830Z APR 26, MEU SOC observed a 22 m vessel exiting AIS coverage on heading toward restricted lane. Thermal indicates 2 crew, low signature, profile consistent with previously-tracked PRC-flagged trawler class.\n2. (S) RECOMMEND: MARFORPAC G-2 cue national means; on-station HET to attempt source contact.\n3. POC: WATCH OFFICER, MEU SOC."
+        },
+        {
+          "idx": 3,
+          "task": "humint-recommend",
+          "task_label": "HUMINT tipping recommendation (TS-SCI)",
+          "sensitivity": "TS-SCI",
+          "input_summary": "Cross-ref to TS-SCI HUMINT graph \u2192 tip-and-cue recommendation.",
+          "route": {
+            "node_id": "scif-marforpac-vl",
+            "label": "SCIF \u2014 MARFORPAC HQ (Vision)",
+            "model": "Qwen2.5-VL-72B",
+            "rationale": "TS-SCI HUMINT recommendation \u2192 SCIF-only. Routed to SCIF \u2014 MARFORPAC HQ (Vision). No egress permitted.",
+            "latency_s": 14.0,
+            "egress_kb": 0,
+            "security_posture": "IL6 (SECRET / TS)",
+            "network_class": "JWICS (no internet egress)"
+          },
+          "output": "HUMINT TIP: route source HOTEL-7 (vetted, last contact 11 d) for proximity collection on subject vessel's likely return port. Cross-cue to TS-SCI link diagram entity 'COBALT-3'. Recommend TS-SCI handling. (Full diagram retained SCIF-side.)"
+        }
+      ],
+      "totals": {
+        "mesh_latency_s": 42.4,
+        "mesh_egress_kb": 252,
+        "sensitivity_max": "TS-SCI",
+        "node_count_used": 4
+      },
+      "cloud_baseline": {
+        "endpoint": "single commercial cloud LLM (cloud-only)",
+        "model": "single multi-tenant frontier model",
+        "total_latency_s": 36.0,
+        "total_egress_kb": 851,
+        "would_leak": [
+          {
+            "task": "draft-cable-sipr",
+            "sensitivity": "SECRET",
+            "input_summary": "SIPR cable: subject vessel, intent, recommended COA."
+          },
+          {
+            "task": "humint-recommend",
+            "sensitivity": "TS-SCI",
+            "input_summary": "Cross-ref to TS-SCI HUMINT graph \u2192 tip-and-cue recommendation."
+          }
+        ],
+        "leak_count": 2,
+        "verdict": "FAIL \u2014 classified content would egress."
+      }
+    },
+    "convoy_ied_brief": {
+      "scenario": {
+        "id": "convoy_ied_brief",
+        "title": "Convoy IED indicator \u2192 CUI summary \u2192 SECRET COA",
+        "operator_prompt": "Summarize the last 24h of convoy ISR for IED indicators in AO-FALCON, then draft a SECRET commander's update with recommended route changes.",
+        "context_blurb": "I-MEF G-3, AO-FALCON. NIPR ISR feeds + SIPR overlay.",
+        "steps": [
+          {
+            "task": "summarize-cui",
+            "sensitivity": "CUI",
+            "input_summary": "240 ISR events, NIPR-tagged, last 24h, 7 hot spots."
+          },
+          {
+            "task": "rerank-citations",
+            "sensitivity": "CUI",
+            "input_summary": "Rerank top 40 citations against IED-indicator schema."
+          },
+          {
+            "task": "draft-cable-sipr",
+            "sensitivity": "SECRET",
+            "input_summary": "SECRET commander's update + COA \u2014 route changes for next 12h."
+          }
+        ]
+      },
+      "trace": [
+        {
+          "idx": 0,
+          "task": "summarize-cui",
+          "task_label": "Summarize CUI brief",
+          "sensitivity": "CUI",
+          "input_summary": "240 ISR events, NIPR-tagged, last 24h, 7 hot spots.",
+          "route": {
+            "node_id": "rear-quantico",
+            "label": "Rear Depot \u2014 MCB Quantico",
+            "model": "Llama 3.3 70B FP8",
+            "rationale": "CUI summarization \u2192 rear-depot Llama acceptable. Routed to Rear Depot \u2014 MCB Quantico.",
+            "latency_s": 9.2,
+            "egress_kb": 240,
+            "security_posture": "IL5 (CUI)",
+            "network_class": "NIPR + SIPR (gateway)"
+          },
+          "output": "Last-24h ISR summary, AO-FALCON: 240 events, 7 IED-indicator clusters concentrated along MSR-TAMPA km 14-21. 3 culvert anomalies, 2 dismount-loiter events, 2 emplaced-object detections. Trend: rising."
+        },
+        {
+          "idx": 1,
+          "task": "rerank-citations",
+          "task_label": "Rerank citations / docs",
+          "sensitivity": "CUI",
+          "input_summary": "Rerank top 40 citations against IED-indicator schema.",
+          "route": {
+            "node_id": "rear-quantico",
+            "label": "Rear Depot \u2014 MCB Quantico",
+            "model": "Llama 3.3 70B FP8",
+            "rationale": "Rerank over CUI corpus \u2192 rear-depot Llama. Routed to Rear Depot \u2014 MCB Quantico.",
+            "latency_s": 9.2,
+            "egress_kb": 240,
+            "security_posture": "IL5 (CUI)",
+            "network_class": "NIPR + SIPR (gateway)"
+          },
+          "output": "Reranked 40 \u2192 8 high-relevance citations. Top 3: ISR-FRAG-0712 (culvert), HUMINT-WX-2261 (advance-scout pattern), SIGINT-LP-0033 (radio handshake on freq F-7)."
+        },
+        {
+          "idx": 2,
+          "task": "draft-cable-sipr",
+          "task_label": "Draft SIPR cable (SECRET)",
+          "sensitivity": "SECRET",
+          "input_summary": "SECRET commander's update + COA \u2014 route changes for next 12h.",
+          "route": {
+            "node_id": "scif-marforpac-mixtral",
+            "label": "SCIF \u2014 MARFORPAC HQ (Mixtral)",
+            "model": "Mixtral 8x22B",
+            "rationale": "SECRET drafting \u2192 must stay in SCIF. Routed to SCIF \u2014 MARFORPAC HQ (Mixtral) (Mixtral 8x22B). Bandwidth out = 0.",
+            "latency_s": 18.4,
+            "egress_kb": 0,
+            "security_posture": "IL6 (SECRET / TS)",
+            "network_class": "JWICS (no internet egress)"
+          },
+          "output": "SUBJ: SUSPECTED VESSEL OF INTEREST \u2014 VICINITY [REDACTED]\n1. (S) At 271830Z APR 26, MEU SOC observed a 22 m vessel exiting AIS coverage on heading toward restricted lane. Thermal indicates 2 crew, low signature, profile consistent with previously-tracked PRC-flagged trawler class.\n2. (S) RECOMMEND: MARFORPAC G-2 cue national means; on-station HET to attempt source contact.\n3. POC: WATCH OFFICER, MEU SOC."
+        }
+      ],
+      "totals": {
+        "mesh_latency_s": 36.8,
+        "mesh_egress_kb": 480,
+        "sensitivity_max": "SECRET",
+        "node_count_used": 2
+      },
+      "cloud_baseline": {
+        "endpoint": "single commercial cloud LLM (cloud-only)",
+        "model": "single multi-tenant frontier model",
+        "total_latency_s": 31.3,
+        "total_egress_kb": 765,
+        "would_leak": [
+          {
+            "task": "draft-cable-sipr",
+            "sensitivity": "SECRET",
+            "input_summary": "SECRET commander's update + COA \u2014 route changes for next 12h."
+          }
+        ],
+        "leak_count": 1,
+        "verdict": "FAIL \u2014 classified content would egress."
+      }
+    },
+    "uav_geoint_assess": {
+      "scenario": {
+        "id": "uav_geoint_assess",
+        "title": "GEOINT imagery (TS) \u2192 SCIF-only assessment",
+        "operator_prompt": "Assess the new MQ-9 GEOINT pass over OBJ-COBALT (TS-SCI), then draft a J-2 read-in summary that stays inside the SCIF.",
+        "context_blurb": "II MEF G-2 SCIF, JWICS-only feeds.",
+        "steps": [
+          {
+            "task": "vision-classified-imagery",
+            "sensitivity": "TS-SCI",
+            "input_summary": "MQ-9 EO/IR pass, OBJ-COBALT, 0.3 m GSD."
+          },
+          {
+            "task": "draft-cable-sipr",
+            "sensitivity": "SECRET",
+            "input_summary": "Read-in summary \u2014 downgraded SECRET version for forward use."
+          },
+          {
+            "task": "humint-recommend",
+            "sensitivity": "TS-SCI",
+            "input_summary": "HUMINT cross-cue against COBALT entity graph."
+          }
+        ]
+      },
+      "trace": [
+        {
+          "idx": 0,
+          "task": "vision-classified-imagery",
+          "task_label": "Vision \u2014 classified GEOINT imagery",
+          "sensitivity": "TS-SCI",
+          "input_summary": "MQ-9 EO/IR pass, OBJ-COBALT, 0.3 m GSD.",
+          "route": {
+            "node_id": "scif-marforpac-vl",
+            "label": "SCIF \u2014 MARFORPAC HQ (Vision)",
+            "model": "Qwen2.5-VL-72B",
+            "rationale": "Step needs classified vision \u2192 must stay in SCIF. Routed to SCIF-VL.",
+            "latency_s": 14.0,
+            "egress_kb": 0,
+            "security_posture": "IL6 (SECRET / TS)",
+            "network_class": "JWICS (no internet egress)"
+          },
+          "output": "OBJ-COBALT pass \u2014 14 hardstand vehicles, 3 covered. New berm construction NW corner since last collect. Two POL bladders added. (Full coordinates retained in SCIF \u2014 not propagated.)"
+        },
+        {
+          "idx": 1,
+          "task": "draft-cable-sipr",
+          "task_label": "Draft SIPR cable (SECRET)",
+          "sensitivity": "SECRET",
+          "input_summary": "Read-in summary \u2014 downgraded SECRET version for forward use.",
+          "route": {
+            "node_id": "scif-marforpac-mixtral",
+            "label": "SCIF \u2014 MARFORPAC HQ (Mixtral)",
+            "model": "Mixtral 8x22B",
+            "rationale": "SECRET drafting \u2192 must stay in SCIF. Routed to SCIF \u2014 MARFORPAC HQ (Mixtral) (Mixtral 8x22B). Bandwidth out = 0.",
+            "latency_s": 18.4,
+            "egress_kb": 0,
+            "security_posture": "IL6 (SECRET / TS)",
+            "network_class": "JWICS (no internet egress)"
+          },
+          "output": "SUBJ: SUSPECTED VESSEL OF INTEREST \u2014 VICINITY [REDACTED]\n1. (S) At 271830Z APR 26, MEU SOC observed a 22 m vessel exiting AIS coverage on heading toward restricted lane. Thermal indicates 2 crew, low signature, profile consistent with previously-tracked PRC-flagged trawler class.\n2. (S) RECOMMEND: MARFORPAC G-2 cue national means; on-station HET to attempt source contact.\n3. POC: WATCH OFFICER, MEU SOC."
+        },
+        {
+          "idx": 2,
+          "task": "humint-recommend",
+          "task_label": "HUMINT tipping recommendation (TS-SCI)",
+          "sensitivity": "TS-SCI",
+          "input_summary": "HUMINT cross-cue against COBALT entity graph.",
+          "route": {
+            "node_id": "scif-marforpac-vl",
+            "label": "SCIF \u2014 MARFORPAC HQ (Vision)",
+            "model": "Qwen2.5-VL-72B",
+            "rationale": "TS-SCI HUMINT recommendation \u2192 SCIF-only. Routed to SCIF \u2014 MARFORPAC HQ (Vision). No egress permitted.",
+            "latency_s": 14.0,
+            "egress_kb": 0,
+            "security_posture": "IL6 (SECRET / TS)",
+            "network_class": "JWICS (no internet egress)"
+          },
+          "output": "HUMINT TIP: route source HOTEL-7 (vetted, last contact 11 d) for proximity collection on subject vessel's likely return port. Cross-cue to TS-SCI link diagram entity 'COBALT-3'. Recommend TS-SCI handling. (Full diagram retained SCIF-side.)"
+        }
+      ],
+      "totals": {
+        "mesh_latency_s": 46.4,
+        "mesh_egress_kb": 0,
+        "sensitivity_max": "TS-SCI",
+        "node_count_used": 2
+      },
+      "cloud_baseline": {
+        "endpoint": "single commercial cloud LLM (cloud-only)",
+        "model": "single multi-tenant frontier model",
+        "total_latency_s": 39.4,
+        "total_egress_kb": 745,
+        "would_leak": [
+          {
+            "task": "vision-classified-imagery",
+            "sensitivity": "TS-SCI",
+            "input_summary": "MQ-9 EO/IR pass, OBJ-COBALT, 0.3 m GSD."
+          },
+          {
+            "task": "draft-cable-sipr",
+            "sensitivity": "SECRET",
+            "input_summary": "Read-in summary \u2014 downgraded SECRET version for forward use."
+          },
+          {
+            "task": "humint-recommend",
+            "sensitivity": "TS-SCI",
+            "input_summary": "HUMINT cross-cue against COBALT entity graph."
+          }
+        ],
+        "leak_count": 3,
+        "verdict": "FAIL \u2014 classified content would egress."
+      }
+    },
+    "marfor_ops_briefing": {
+      "scenario": {
+        "id": "marfor_ops_briefing",
+        "title": "Multi-source ops briefing \u2014 edge ASR \u2192 rear classify \u2192 SCIF draft",
+        "operator_prompt": "Take this 30-second tactical radio cut, classify the reporter's intent, then draft an OPSUM for the MARFORPAC battle watch.",
+        "context_blurb": "MEU SOC pier-side. Single radio cut + situational context.",
+        "steps": [
+          {
+            "task": "asr-radio-traffic",
+            "sensitivity": "UNCLASS",
+            "input_summary": "30 s tactical radio cut, single voice, callsign HOTEL-2."
+          },
+          {
+            "task": "classify-intent-json",
+            "sensitivity": "CUI",
+            "input_summary": "Map intent \u2192 JSON schema (event_type, urgency, recommended_actor)."
+          },
+          {
+            "task": "draft-cable-sipr",
+            "sensitivity": "SECRET",
+            "input_summary": "OPSUM for MARFORPAC battle watch \u2014 SECRET formatting."
+          }
+        ]
+      },
+      "trace": [
+        {
+          "idx": 0,
+          "task": "asr-radio-traffic",
+          "task_label": "ASR \u2014 short radio cut",
+          "sensitivity": "UNCLASS",
+          "input_summary": "30 s tactical radio cut, single voice, callsign HOTEL-2.",
+          "route": {
+            "node_id": "edge-meusoc",
+            "label": "Edge \u2014 MEU SOC",
+            "model": "Qwen2.5-VL-7B",
+            "rationale": "Short ASR cut \u2192 edge VL model handles audio. Routed to Edge \u2014 MEU SOC.",
+            "latency_s": 0.8,
+            "egress_kb": 12,
+            "security_posture": "IL2 (UNCLASS)",
+            "network_class": "NIPR / DDIL-tolerant"
+          },
+          "output": "HOTEL-2 reports: 'Two pax, white pickup, observed at grid REDACTED, moving south. Possible advance scout. Request QRF posture confirmation.'"
+        },
+        {
+          "idx": 1,
+          "task": "classify-intent-json",
+          "task_label": "Classify intent \u2192 structured JSON",
+          "sensitivity": "CUI",
+          "input_summary": "Map intent \u2192 JSON schema (event_type, urgency, recommended_actor).",
+          "route": {
+            "node_id": "rear-quantico",
+            "label": "Rear Depot \u2014 MCB Quantico",
+            "model": "Llama 3.3 70B FP8",
+            "rationale": "Step needs structured JSON over CUI \u2192 routed to Rear Depot \u2014 MCB Quantico (Llama 3.3 70B FP8).",
+            "latency_s": 9.2,
+            "egress_kb": 240,
+            "security_posture": "IL5 (CUI)",
+            "network_class": "NIPR + SIPR (gateway)"
+          },
+          "output": "{\n  \"event_type\": \"suspected-ISR-or-smuggling\",\n  \"urgency\": \"moderate\",\n  \"indicators\": [\n    \"AIS-gap\",\n    \"heading-restricted-lane\",\n    \"low-thermal\"\n  ],\n  \"recommended_actor\": \"MEU-SOC-watch\",\n  \"confidence\": 0.74\n}"
+        },
+        {
+          "idx": 2,
+          "task": "draft-cable-sipr",
+          "task_label": "Draft SIPR cable (SECRET)",
+          "sensitivity": "SECRET",
+          "input_summary": "OPSUM for MARFORPAC battle watch \u2014 SECRET formatting.",
+          "route": {
+            "node_id": "scif-marforpac-mixtral",
+            "label": "SCIF \u2014 MARFORPAC HQ (Mixtral)",
+            "model": "Mixtral 8x22B",
+            "rationale": "SECRET drafting \u2192 must stay in SCIF. Routed to SCIF \u2014 MARFORPAC HQ (Mixtral) (Mixtral 8x22B). Bandwidth out = 0.",
+            "latency_s": 18.4,
+            "egress_kb": 0,
+            "security_posture": "IL6 (SECRET / TS)",
+            "network_class": "JWICS (no internet egress)"
+          },
+          "output": "SUBJ: SUSPECTED VESSEL OF INTEREST \u2014 VICINITY [REDACTED]\n1. (S) At 271830Z APR 26, MEU SOC observed a 22 m vessel exiting AIS coverage on heading toward restricted lane. Thermal indicates 2 crew, low signature, profile consistent with previously-tracked PRC-flagged trawler class.\n2. (S) RECOMMEND: MARFORPAC G-2 cue national means; on-station HET to attempt source contact.\n3. POC: WATCH OFFICER, MEU SOC."
+        }
+      ],
+      "totals": {
+        "mesh_latency_s": 28.4,
+        "mesh_egress_kb": 252,
+        "sensitivity_max": "SECRET",
+        "node_count_used": 3
+      },
+      "cloud_baseline": {
+        "endpoint": "single commercial cloud LLM (cloud-only)",
+        "model": "single multi-tenant frontier model",
+        "total_latency_s": 24.1,
+        "total_egress_kb": 775,
+        "would_leak": [
+          {
+            "task": "draft-cable-sipr",
+            "sensitivity": "SECRET",
+            "input_summary": "OPSUM for MARFORPAC battle watch \u2014 SECRET formatting."
+          }
+        ],
+        "leak_count": 1,
+        "verdict": "FAIL \u2014 classified content would egress."
+      }
+    }
+  }
+}

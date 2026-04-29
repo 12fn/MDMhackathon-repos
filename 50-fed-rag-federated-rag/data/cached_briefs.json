@@ -1,0 +1,170 @@
+{
+  "meu_31_itbayat_d30": {
+    "label": "Sustain 31st MEU at Itbayat through D+30",
+    "prompt": "How should I sustain the 31st MEU at Itbayat through D+30? I need depot Class IX availability for AAV-7A1 and MTVR, the applicable maintenance procedures my LCE will execute forward, and Class VIII medical resupply with shelf-life and cold-chain constraints for a 30-day distributed STOM operation.",
+    "per_silo": [
+      {
+        "silo": "albany",
+        "display": "MCLB Albany \u2014 GCSS-MC Depot",
+        "chunk_count": 3,
+        "chunk_ids": [
+          "ALB-009",
+          "ALB-024",
+          "ALB-027"
+        ],
+        "snippet_bytes": 1860
+      },
+      {
+        "silo": "pendleton",
+        "display": "Camp Pendleton \u2014 31st MEU LCE TM Library",
+        "chunk_count": 3,
+        "chunk_ids": [
+          "PEN-026",
+          "PEN-030",
+          "PEN-029"
+        ],
+        "snippet_bytes": 1964
+      },
+      {
+        "silo": "philly",
+        "display": "DLA Troop Support \u2014 Philadelphia",
+        "chunk_count": 3,
+        "chunk_ids": [
+          "PHL-009",
+          "PHL-030",
+          "PHL-016"
+        ],
+        "snippet_bytes": 2156
+      }
+    ],
+    "brief": "1) **BLUF:** Sustain the 31st MEU at Itbayat through D+30 by prioritizing depot release of AAV-7A1 and MTVR Class IX from Albany, executing forward PMCS and fuel-filter/starter maintenance from the Pendleton TM library, and prepositioning ambient-stored Hextend from Philadelphia to cover the 30-day distributed STOM medical requirement.\n\n2) **Class IX Depot Posture:** Albany holds AAV-7A1 and MTVR parts with favorable near-term availability. For AAV-7A1, NSN 5340-01-501-3829, bracket, mounting, AAV-7A1 hull stiffener, is on hand at **159 ea** at Albany Cold Storage CS-44 with **14 ea due-in** and **16-day production lead time**; a second Albany record for the same NSN shows **55 ea on hand**, **12 ea due-in**, and **5-day production lead time**. For MTVR, NSN 3120-01-330-2298, bushing, sleeve, suspension arm, MTVR, is on hand at **92 ea** at Albany Bldg 5102 Annex B-19 with **77 ea due-in** and **18-day production lead time**. These depot records are controlled under DLA Manual 4140.27 and remain within the Albany enclave. (ALB-009) (ALB-024) (ALB-027)\n\n3) **Maintenance Procedures Forward:** The LCE should execute TM 9-2350-294-23, \u00a74.4 for AAV-7A1 PMCS; it requires **MOS 1345**, **SL-3 mechanic tool kit**, and **348 min**. For MTVR support, TM 4790-14/3D, \u00a74.4 covers starter R&R; it requires **MOS 3522**, **shop set common no. 1**, and **123 min**. TM 4790-14/3D, \u00a74.3 covers fuel filter service; it requires **MOS 3522**, **SL-3 mechanic tool kit**, and **213 min**. (PEN-030) (PEN-026) (PEN-029)\n\n4) **Class VIII Medical Resupply:** Philadelphia holds Hextend 6% HES 500 mL, NSN 6505-01-588-0078, in ambient storage with **24-month shelf life**. Available stocks include **472 ea** at DLA Philly DC-B Cold Vault, lot L20246-214, expiry **2026-10-21**, vendor **McKesson**; **327 ea** at DLA Philly DC-A, lot L20247-985, expiry **2028-04-07**, vendor **Cardinal Health**; and **4109 ea** at Controlled Substance Vault CSV-1, lot L20250-160, expiry **2026-06-17**, vendor **Cardinal Health**. (PHL-009) (PHL-030) (PHL-016)\n\n5) **Federated Decision:**\n- Approve immediate release of Albany AAV-7A1 and MTVR Class IX, task the LCE to execute TM 9-2350-294-23 \u00a74.4 plus TM 4790-14/3D \u00a7\u00a74.3 and 4.4 forward, and push Hextend from Philadelphia in ambient condition for D+30 coverage; within 24 hours, submit the depot requisition and medical demand signal against the cited NSNs and quantities.",
+    "total_snippet_bytes": 5980,
+    "naive_central_bytes": 98784247808
+  },
+  "jltv_jungle_sustain": {
+    "label": "JLTV jungle sustainment package \u2014 Philippines",
+    "prompt": "Build a 21-day JLTV sustainment package for a platoon-sized stand-in force in the Philippines. Include Class IX parts availability, the JLTV field maintenance procedures the platoon mechanic will need, and a Class VIII trauma resupply tailored to junctional-hemorrhage casualty profile.",
+    "per_silo": [
+      {
+        "silo": "albany",
+        "display": "MCLB Albany \u2014 GCSS-MC Depot",
+        "chunk_count": 3,
+        "chunk_ids": [
+          "ALB-023",
+          "ALB-028",
+          "ALB-002"
+        ],
+        "snippet_bytes": 1780
+      },
+      {
+        "silo": "pendleton",
+        "display": "Camp Pendleton \u2014 31st MEU LCE TM Library",
+        "chunk_count": 3,
+        "chunk_ids": [
+          "PEN-018",
+          "PEN-014",
+          "PEN-025"
+        ],
+        "snippet_bytes": 1900
+      },
+      {
+        "silo": "philly",
+        "display": "DLA Troop Support \u2014 Philadelphia",
+        "chunk_count": 3,
+        "chunk_ids": [
+          "PHL-014",
+          "PHL-012",
+          "PHL-007"
+        ],
+        "snippet_bytes": 2160
+      }
+    ],
+    "brief": "1) **BLUF:** Build the 21-day JLTV sustainment package around Albany\u2019s high-confidence depot availability for the alternator and ECP up-armor kit, execute forward alternator and armor-seal maintenance at the platoon level, and issue a junctional-hemorrhage Class VIII load centered on JETT tourniquets from Philadelphia. (ALB-023) (PEN-018) (PEN-014) (PHL-012)\n\n2) **Class IX Depot Posture:** Albany has NSN **2590-01-588-1102** (Kit, ECP up-armor, JLTV) with **230 ea on-hand** at Albany Bldg 5300 Bin C-04 and **69 ea due-in** with **13-day production lead time**. Albany also has NSN **2920-01-468-0912** (Alternator, 200A, JLTV) with **46 ea on-hand** at Albany Bldg 5102 Annex B-19 and **18 ea due-in** with **17-day production lead time**. A second Albany record for the same alternator shows **164 ea on-hand** and **67 ea due-in** with **9-day production lead time**; both records are controlled under DLA Manual 4140.27. (ALB-023) (ALB-028) (ALB-002)\n\n3) **Maintenance Procedures Forward:** The platoon mechanic needs **TM 9-2320-377-23, \u00a77.5** for **alternator R&R**, estimated **238 min**, requiring **MOS 3522** and the **SL-3 mechanic tool kit**. For mobility restoration, use **TM 9-2320-377-23, \u00a76.11** for **track tension adjustment**, estimated **366 min**, requiring **MOS 0411** and the **SL-3 mechanic tool kit**. For armor integrity, use **TM 9-2320-377-10, \u00a78.7** for **transparent armor seal R&R**, estimated **43 min**, requiring **MOS 1345** and the **SL-3 mechanic tool kit**. (PEN-018) (PEN-025) (PEN-014)\n\n4) **Class VIII Medical Resupply:** Philadelphia holds NSN **6515-01-561-7790** (Junctional tourniquet, JETT) in ambient storage with **120-month shelf life**. DLA Philly DC-A has **2242 ea** from **North American Rescue** and **3297 ea** from **McKesson (DAPA SP0200-21-D-0098)**; the cited lots are **L20240-430** with expiry **2026-07-09** and **L20250-551** with expiry **2027-06-01**. For a junctional-hemorrhage casualty profile, this is the primary Class VIII item in the available Philly data. (PHL-014) (PHL-012)\n\n5) **Federated Decision:**  \n- Issue a 21-day package built on **Albany alternator and ECP up-armor availability**, forward the **TM 9-2320-377-23 \u00a77.5 / \u00a76.11** and **TM 9-2320-377-10 \u00a78.7** procedures to the platoon mechanic, and draw **JETT tourniquets** from Philadelphia for junctional-hemorrhage coverage; execute the first 24-hour action by placing the Albany alternator request against the **46-ea on-hand** record and the Philly JETT request against the **3297-ea on-hand** lot. (ALB-028) (PEN-018) (PEN-025) (PEN-014) (PHL-012)",
+    "total_snippet_bytes": 5840,
+    "naive_central_bytes": 98784247808
+  },
+  "haadr_typhoon_response": {
+    "label": "Western Pacific typhoon HA/DR cell",
+    "prompt": "Stand up a 14-day HA/DR cell in the Western Pacific typhoon corridor. I need MTVR and LVSR readiness parts at depot, the HMMWV and MTVR maintenance procedures the support battalion will rely on, and Class VIII trauma + tropical-disease prophylaxis stocks held by DLA.",
+    "per_silo": [
+      {
+        "silo": "albany",
+        "display": "MCLB Albany \u2014 GCSS-MC Depot",
+        "chunk_count": 3,
+        "chunk_ids": [
+          "ALB-027",
+          "ALB-017",
+          "ALB-023"
+        ],
+        "snippet_bytes": 1820
+      },
+      {
+        "silo": "pendleton",
+        "display": "Camp Pendleton \u2014 31st MEU LCE TM Library",
+        "chunk_count": 3,
+        "chunk_ids": [
+          "PEN-005",
+          "PEN-008",
+          "PEN-007"
+        ],
+        "snippet_bytes": 1992
+      },
+      {
+        "silo": "philly",
+        "display": "DLA Troop Support \u2014 Philadelphia",
+        "chunk_count": 3,
+        "chunk_ids": [
+          "PHL-009",
+          "PHL-016",
+          "PHL-030"
+        ],
+        "snippet_bytes": 2160
+      }
+    ],
+    "brief": "1) **BLUF:** Stand up the 14-day HA/DR cell with Albany-issued MTVR readiness parts, Pendleton-directed MTVR maintenance procedures, and DLA Philly Class VIII trauma stock as the sustainment baseline, then push the first 24-hour requisition and maintenance package immediately.\n\n2) **Class IX Depot Posture (Albany only):** Albany holds the key MTVR readiness part **NSN 3120-01-330-2298, Bushing, sleeve, suspension arm, MTVR** at **92 ea** on hand in **Bldg 5102 Annex B-19** with **77 ea due-in** and **18-day production lead time**; a second Albany record for the same NSN shows **66 ea** on hand in **Bldg 5300 Bin C-04** with **9 ea due-in** and **21-day production lead time** (<ALB-027> chunk #ALB-027; <ALB-017> chunk #ALB-017). Albany also holds **NSN 2590-01-588-1102, Kit, ECP up-armor, JLTV** at **230 ea** on hand with **69 ea due-in** and **13-day production lead time**, but that item is JLTV-specific and not the MTVR/LVSR readiness driver for this mission (<ALB-023> chunk #ALB-023). No LVSR-specific depot NSN appeared in the Albany snippets.\n\n3) **Maintenance Procedures Forward (Pendleton only):** The support battalion should use **TM 9-2320-387-23P, \u00a73.5** for **MTVR hydraulic ramp actuator inspection**; it is listed at **58 min**, requires **MOS 0411**, and uses **hydraulic test stand HTS-2** (<PEN-005> chunk #PEN-005). For powertrain recovery, use **TM 9-2320-387-23, \u00a77.10** for **MTVR starter R&R**, listed at **399 min**, requires **MOS 3521**, and also uses **HTS-2** (<PEN-008> chunk #PEN-008). For parts-level starter work, use **TM 9-2320-387-23P, \u00a72.4** for **starter R&R**, listed at **338 min**, requires **MOS 3522**, and uses **HTS-2** (<PEN-007> chunk #PEN-007).\n\n4) **Class VIII Medical Resupply (Philly only):** DLA Philly holds **NSN 6505-01-588-0078, Hextend 6% HES 500 mL** as ambient-stored Class VIII with **24-month shelf life**; stock includes **472 ea** at **DC-B Cold Vault** with vendor **McKesson (DAPA SP0200-21-D-0098)**, **4109 ea** at **CSV-1** with vendor **Cardinal Health (DAPA SP0200-22-D-0014)**, and **327 ea** at **DC-A** with vendor **Cardinal Health (DAPA SP0200-22-D-0014)** (<PHL-009> chunk #PHL-009; <PHL-016> chunk #PHL-016; <PHL-030> chunk #PHL-030). The listed expiries are **2026-10-21**, **2026-06-17**, and **2028-04-07** respectively (<PHL-009> chunk #PHL-009; <PHL-016> chunk #PHL-016; <PHL-030> chunk #PHL-030).\n\n5) **Federated Decision:**  \n- **Approve** an immediate 24-hour sustainment push built around Albany\u2019s MTVR bushing stock, Pendleton\u2019s MTVR starter/ramp procedures, and Philly\u2019s Hextend allocation; **next action:** release the requisition and maintenance tasking now, with the first issue set drawn from **Albany Bldg 5102 Annex B-19** and **DLA Philly DC-A/CSV-1** (<ALB-027> chunk #ALB-027; <PEN-008> chunk #PEN-008; <PHL-030> chunk #PHL-030).",
+    "total_snippet_bytes": 5972,
+    "naive_central_bytes": 98784247808
+  },
+  "aav7a1_ramp_failure": {
+    "label": "AAV-7A1 ramp actuator failure cluster",
+    "prompt": "We have a ramp-actuator failure cluster across three AAV-7A1 hulls afloat with 31st MEU. Pull depot stock on the affected hydraulic hose assembly, the AAV-7A1 maintenance procedures covering the ramp actuator R&R, and any Class VIII items needed for embarked-medical contingency during repair.",
+    "per_silo": [
+      {
+        "silo": "albany",
+        "display": "MCLB Albany \u2014 GCSS-MC Depot",
+        "chunk_count": 3,
+        "chunk_ids": [
+          "ALB-008",
+          "ALB-015",
+          "ALB-024"
+        ],
+        "snippet_bytes": 1884
+      },
+      {
+        "silo": "pendleton",
+        "display": "Camp Pendleton \u2014 31st MEU LCE TM Library",
+        "chunk_count": 3,
+        "chunk_ids": [
+          "PEN-005",
+          "PEN-010",
+          "PEN-013"
+        ],
+        "snippet_bytes": 2004
+      },
+      {
+        "silo": "philly",
+        "display": "DLA Troop Support \u2014 Philadelphia",
+        "chunk_count": 3,
+        "chunk_ids": [
+          "PHL-009",
+          "PHL-030",
+          "PHL-016"
+        ],
+        "snippet_bytes": 2156
+      }
+    ],
+    "brief": "**BLUF:** Recommend immediate afloat repair execution on the AAV-7A1 ramp actuator using Albany depot hose stock and Pendleton TM guidance, while staging Hextend for embarked-medical contingency to preserve MEU casualty care during the maintenance window.\n\n**Class IX Depot Posture (Albany only):** Albany holds the affected hydraulic hose assembly by NSN 4720-01-099-4421, identified as \u201cHose assembly, hydraulic, AAV-7A1 ramp actuator,\u201d with 208 ea on hand at Albany Bldg 5102 Annex B-19 and 63 ea due in with a 16-day production lead time (ALB-008). Albany also holds the same NSN with 98 ea on hand at Albany Bldg 5300 Bin C-04 and 60 ea due in with a 9-day production lead time (ALB-015). The record shows last issue dates of 2026-03-24 and 2025-12-03, respectively, and both are controlled under DLA Manual 4140.27 distribution control (ALB-008) (ALB-015). No other Albany Class IX item in the provided silo directly matches the ramp-actuator hose assembly; the bracket NSN 5340-01-501-3829 is not the affected hose assembly (ALB-024).\n\n**Maintenance Procedures Forward (Pendleton only):** Pendleton\u2019s TM library provides hydraulic ramp actuator inspection procedures in TM 9-2320-387-23P, \u00a73.5, with estimated time 58 min, MOS 0411 required, and hydraulic test stand HTS-2 as the tool (PEN-005). A second applicable procedure is TM 9-4940-568-13, \u00a72.10, with estimated time 352 min, MOS 0411 required, and torque wrench cal-2024 as the tool (PEN-010). A third TM in the enclave, TM 9-2320-377-10, \u00a75.8, also lists hydraulic ramp actuator inspection, but it requires MOS 2147 and is not the primary maintenance path for the AAV-7A1 repair (PEN-013).\n\n**Class VIII Medical Resupply (Philly only):** DLA Philly holds NSN 6505-01-588-0078, Hextend 6% HES 500 mL, in ambient storage with a 24-month shelf life from manufacture (PHL-009) (PHL-030) (PHL-016). Available quantities include 472 ea at DC-B Cold Vault, 327 ea at DC-A, and 4109 ea at CSV-1, with vendor sources McKesson and Cardinal Health under the cited DAPA numbers (PHL-009) (PHL-030) (PHL-016). Expiry dates listed are 2026-10-21, 2028-04-07, and 2026-06-17, respectively (PHL-009) (PHL-030) (PHL-016).\n\n**Federated Decision:**  \n- Approve immediate hose-assembly issue from Albany, execute the Pendleton TM 9-2320-387-23P \u00a73.5 inspection path first, and stage Hextend NSN 6505-01-588-0078 aboard for the next 24 hours to cover embarked-medical contingency during the three-hull repair cluster (ALB-008) (PEN-005) (PHL-009).",
+    "total_snippet_bytes": 6044,
+    "naive_central_bytes": 98784247808
+  }
+}

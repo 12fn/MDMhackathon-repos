@@ -1,0 +1,27 @@
+1
+00:00:00,000 --> 00:00:05,000
+OMNI. One operator screen, six fused feeds, three LOGCOM use cases at once.
+
+2
+00:00:05,163 --> 00:00:15,163
+Installation under cross-domain pressure. I-COP aggregator. Emergency Response Modernization. Browser AI Governance for the operators using the COP. One screen.
+
+3
+00:00:14,665 --> 00:00:24,665
+We fuse HIFLD critical infrastructure, NASA Earthdata weather, NASA FIRMS thermal, GCSS-MC maintenance, IEEE WiFi and Bluetooth RF, and drone RF — six hundred events, last 24 hours, no data movement.
+
+4
+00:00:23,678 --> 00:00:43,678
+Hero AI move: cross-domain correlator finds an anomaly that spans five domains in a 30-minute window — non-cooperative drone, unknown 2.4 GHz emitter, FIRMS thermal, multi-unit dispatch, and an emergency broadcast.
+
+5
+00:00:41,317 --> 00:01:01,317
+Role-aware ABAC. The CO sees everything. Switch to G-2: gate, utility, EMS streams collapse to REDACTED — INSUFFICIENT CLEARANCE. Switch to G-4: now only logistics streams are visible.
+
+6
+00:00:55,529 --> 00:01:10,529
+One click, the Kamiwaza-deployed model writes the Commander I-COP Brief — BLUF, top three cross-domain anomalies, predictive risk, and pre-positioning per CCDR. Every read is hashed into a tamper-evident chain.
+
+7
+00:01:09,151 --> 00:01:19,151
+Same code, on-prem. Set KAMIWAZA underscore BASE underscore URL and the entire pipeline runs inside your accredited environment. OMNI. Built on the Kamiwaza Stack. Air-gapped, IL5 and IL6 ready.
